@@ -52,6 +52,12 @@ a:hover {
   opacity: 0.5;
 }
 
+img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 2rem 1.25rem;
