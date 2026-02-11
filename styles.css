@@ -60,8 +60,20 @@ img {
   margin-left: 2rem;
 }
 
+.page-img {
+  float: right;
+  max-width: 200px;
+  margin: 0 0 1.5rem 2rem;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 2rem 1.25rem;
+  }
+
+  .page-img {
+    float: none;
+    margin: 0 0 1.5rem 0;
+    max-width: 60%;
   }
 }
