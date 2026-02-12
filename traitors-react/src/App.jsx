@@ -130,7 +130,7 @@ export default function App() {
     setError('')
     setLog([])
     try {
-      const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 7 })
+      const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 5 })
       setGameState(data.state)
       setSessionId(data.session_id || '')
       setStarted(true)
@@ -244,7 +244,11 @@ export default function App() {
       setGameState(data.state)
       syncTargets(data.state)
 
-      await speakSequential(data.ai_votes || [], (v) => `votes to banish ${v.vote}. ${v.reason || ''}`.trim())
+      const nameById = new Map((data.state?.players || []).map((p) => [p.id, p.name]))
+      await speakSequential(
+        data.ai_votes || [],
+        (v) => `votes to banish ${nameById.get(v.vote) || v.vote}. ${v.reason || ''}`.trim()
+      )
       if (data.banished) {
         appendLog('banished', `${data.banished.name} was banished. They were ${data.banished.role}.`)
       }

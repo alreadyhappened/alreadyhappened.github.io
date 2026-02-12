@@ -6,8 +6,8 @@ const CHAR_DELAY = 35
 function getIntroLines(name) {
   return [
     `Welcome to the castle, ${name}. I'm Clawdia Winkelman. Tonight, deception is the whole game.`,
-    `In this format, you are the only human and also the Traitor. The other seven players are AI Faithful hunting for one thing: the non-AI player.`,
-    `That means if you simply announce who you are, they will not believe you. They expect bluffing, reverse-bluffing, and panic theatre.`,
+    `In this format, you are the only human and also the Traitor. The other five players are AI Faithful hunting for one thing: the non-AI player.`,
+    `Faithful players are trying to look consistently faithful, not chaotic. They will compare behaviour across scenes, not just one dramatic line.`,
     `Every round has four beats: breakfast chatter, Round Table accusations, the banishment vote, and then the Turret where you murder one player.`,
     `You win by reaching the final two still hidden. They win if they banish you first. Keep your story coherent. Keep your nerves invisible.`,
     `Watch them talk to each other first. Learn their rhythms. Then step in.`,
