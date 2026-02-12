@@ -14,15 +14,6 @@ function mapSceneToPhase(scene) {
   return 'day'
 }
 
-function sceneTitleFromPhase(phase) {
-  if (phase === 'parlor') return 'Private Parlor'
-  if (phase === 'roundtable') return 'Round Table'
-  if (phase === 'vote') return 'Banishment Vote'
-  if (phase === 'night') return 'Traitors\' Turret'
-  if (phase === 'morningReveal') return 'Morning Reveal'
-  if (phase === 'ended') return 'Final Result'
-  return 'Breakfast Hall'
-}
 
 const initialEngine = {
   started: false,
@@ -93,7 +84,6 @@ export default function App() {
   const options = useMemo(() => current?.options || [], [current])
   const alivePlayers = useMemo(() => (engine.players || []).filter((p) => p.alive), [engine.players])
   const canAdvance = engine.allowedActions.includes('advance')
-  const sceneTitle = sceneTitleFromPhase(phase)
 
   const activeSpeech = useMemo(() => {
     if (!current) return null
@@ -225,13 +215,6 @@ export default function App() {
   }
 
   const round = engine.meta?.round || 1
-  const turnLabel = engine.awaitingPlayerInput
-    ? 'YOUR MOVE'
-    : busy
-      ? 'PROCESSING TURN'
-      : canAdvance
-        ? 'ADVANCE READY'
-        : 'WAITING'
 
   function renderPromptInput(promptKind) {
     if (promptKind === 'day_statement') {
@@ -349,13 +332,20 @@ export default function App() {
     }
 
     if (current.type === 'phase_transition') {
+      const nextScene = String(current.to_scene || '')
+      const btnLabel = nextScene.includes('PARLOR') ? 'Go to Parlor'
+        : nextScene.includes('ROUNDTABLE') ? 'Go to Round Table'
+        : nextScene.includes('VOTE') ? 'Go to Vote'
+        : nextScene.includes('BREAKFAST') ? 'Continue'
+        : nextScene.includes('MORNING') ? 'See what happened'
+        : nextScene.includes('TURRET') ? 'Enter the Turret'
+        : nextScene.includes('ENDED') ? 'See result'
+        : 'Continue'
       return (
         <div className="phase-controls muted">
-          <div className="controls-label">Transition</div>
-          <p className="endgame-prompt">Continue to {String(current.to_scene || '').replaceAll('_', ' ').toLowerCase()}.</p>
           {canAdvance && (
             <div className="controls-actions">
-              <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Continue'}</button>
+              <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : btnLabel}</button>
             </div>
           )}
         </div>
@@ -440,20 +430,8 @@ export default function App() {
 
       {engine.started && !showIntro && engine.scene !== 'setup' && (
         <div className="game-area">
-          <div className="hud-strip">
-            <div className="hud-chip">ROUND {round}</div>
-            <div className="hud-chip">SCENE {sceneTitle.toUpperCase()}</div>
-            <div className="hud-chip">TURN {turnLabel}</div>
-            <div className="hud-chip">ALIVE {alivePlayers.length}</div>
-          </div>
-
           <div className="stage-shell">
             <div className="stage-main">
-              <div className={`scene-banner scene-${phase}`}>
-                <span className="scene-banner-title">{sceneTitle}</span>
-                <span className="scene-banner-sub">One line at a time. Everyone is testing everyone.</span>
-              </div>
-
               <CastleMap
                 players={engine.players}
                 phase={phase}
