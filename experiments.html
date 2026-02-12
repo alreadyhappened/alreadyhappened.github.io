@@ -6,17 +6,90 @@
   <title>Experiments — Stefan Kelly</title>
   <link rel="stylesheet" href="styles.css">
   <style>
+    .experiments-layout {
+      display: grid;
+      grid-template-columns: 230px minmax(0, 1fr);
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .experiments-menu {
+      position: sticky;
+      top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      border-left: 1px solid #ddd;
+      padding-left: 1rem;
+    }
+
+    .experiment-tab {
+      background: none;
+      border: none;
+      text-align: left;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 0.95rem;
+      color: #999;
+      cursor: pointer;
+      padding: 0.1rem 0;
+    }
+
+    .experiment-tab:hover,
+    .experiment-tab:focus-visible {
+      color: #000;
+      outline: none;
+    }
+
+    .experiment-tab.active {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .experiments-content {
+      min-height: 320px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .experiment-panel {
+      display: none;
+      max-width: 680px;
+      animation: slide-in 220ms ease-out;
+    }
+
+    .experiment-panel.active {
+      display: block;
+    }
+
+    @keyframes slide-in {
+      from {
+        opacity: 0;
+        transform: translateX(14px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .experiment-title {
+      margin-bottom: 0.4rem;
+      font-size: 1.2rem;
+    }
+
+    .experiment-description {
+      margin-bottom: 1.25rem;
+      color: #333;
+      max-width: 60ch;
+    }
+
     .chat-container {
       max-width: 600px;
     }
 
-    .chat-intro {
-      margin-bottom: 2rem;
-      color: #333;
-    }
-
     .chat-messages {
       margin-bottom: 1.5rem;
+      min-height: 2rem;
     }
 
     .chat-message {
@@ -83,6 +156,21 @@
       color: #999;
       font-style: italic;
     }
+
+    @media (max-width: 860px) {
+      .experiments-layout {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+      }
+
+      .experiments-menu {
+        position: static;
+        border-left: none;
+        border-bottom: 1px solid #ddd;
+        padding-left: 0;
+        padding-bottom: 0.5rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -94,29 +182,71 @@
     <a href="/experiments.html">Experiments</a>
   </nav>
 
-  <div class="chat-container">
-    <p class="chat-intro">This is an AI trained on my writing. Ask it anything you'd ask me.</p>
+  <div class="experiments-layout">
+    <aside class="experiments-menu" aria-label="Experiment menu">
+      <button class="experiment-tab active" data-panel="panel-chat" type="button">AI Me (chat)</button>
+      <button class="experiment-tab" data-panel="panel-memory" type="button">Memory archive</button>
+      <button class="experiment-tab" data-panel="panel-fragments" type="button">Fragment combiner</button>
+    </aside>
 
-    <div class="chat-messages" id="messages"></div>
+    <section class="experiments-content" id="experiments-content">
+      <article class="experiment-panel active" id="panel-chat">
+        <h1 class="experiment-title">AI Me (chat)</h1>
+        <p class="experiment-description">This is an AI trained on my writing. Unsure what the point of this but here we are.</p>
 
-    <div class="chat-input-row">
-      <input type="text" class="chat-input" id="input" placeholder="Ask something..." autocomplete="off">
-      <button class="chat-send" id="send" onclick="sendMessage()">send</button>
-    </div>
+        <div class="chat-container">
+          <div class="chat-messages" id="messages"></div>
+
+          <div class="chat-input-row">
+            <input type="text" class="chat-input" id="input" placeholder="Ask something..." autocomplete="off">
+            <button class="chat-send" id="send" type="button" onclick="sendMessage()">send</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="experiment-panel" id="panel-memory">
+        <h1 class="experiment-title">Memory archive</h1>
+        <p class="experiment-description">A simple prototype for browsing personal notes by theme and date. This is currently in progress.</p>
+      </article>
+
+      <article class="experiment-panel" id="panel-fragments">
+        <h1 class="experiment-title">Fragment combiner</h1>
+        <p class="experiment-description">An experiment for merging short written fragments into longer essays. This is currently in progress.</p>
+      </article>
+    </section>
   </div>
 
   <script>
+    const tabs = document.querySelectorAll(".experiment-tab");
+    const panels = document.querySelectorAll(".experiment-panel");
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        tabs.forEach((t) => t.classList.remove("active"));
+        panels.forEach((p) => p.classList.remove("active"));
+
+        tab.classList.add("active");
+        const panel = document.getElementById(tab.dataset.panel);
+        if (panel) panel.classList.add("active");
+      });
+    });
+
     const WORKER_URL = "https://stefan-chatbot.stefankelly.workers.dev";
     const messagesEl = document.getElementById("messages");
     const inputEl = document.getElementById("input");
     const sendBtn = document.getElementById("send");
+    const chatPanel = document.getElementById("panel-chat");
     let history = [];
 
-    inputEl.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" && !sendBtn.disabled) sendMessage();
-    });
+    if (inputEl && sendBtn) {
+      inputEl.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && !sendBtn.disabled) sendMessage();
+      });
+    }
 
     async function sendMessage() {
+      if (!inputEl || !sendBtn || !messagesEl || !chatPanel.classList.contains("active")) return;
+
       const text = inputEl.value.trim();
       if (!text) return;
 
