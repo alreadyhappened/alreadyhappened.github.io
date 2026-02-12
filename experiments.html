@@ -632,26 +632,43 @@
       detectorState.mode = "watch";
       detectorState.watching = true;
       setDetectorControlsDisabled(true);
-      setDetectorStatus("Mode: Watch AI play. Running simulation...");
-      await runWatchTurn(0);
-    }
+      setDetectorStatus("Mode: Watch AI play. Running two-model simulation...");
 
-    async function runWatchTurn(index) {
-      if (!detectorState.watching || detectorState.mode !== "watch") return;
+      try {
+        const payload = await callWorkerPath("/detector/watch", { questions: detectorQuestions });
+        const transcript = Array.isArray(payload.transcript) ? payload.transcript : [];
+        const verdict = payload && payload.verdict ? payload.verdict : null;
+        const meta = payload && payload.meta ? payload.meta : null;
 
-      if (index >= detectorQuestions.length) {
-        const answers = detectorState.watchHistory.map((item) => item.answer);
-        await endRound(answers);
-        return;
+        if (!transcript.length || !verdict) {
+          throw new Error("Missing transcript or verdict in detector watch response.");
+        }
+
+        transcript.forEach((line) => {
+          const label = line.role === "respondent" ? "respondent" : "interrogator";
+          appendDetectorLine(label, line.text || "", false);
+        });
+
+        const normalVerdict = {
+          guess: verdict.guess === "AI" ? "AI" : "Human",
+          confidence: Number.isFinite(verdict.confidence) ? Math.max(50, Math.min(99, Math.round(verdict.confidence))) : 70,
+          reason: typeof verdict.reason === "string" && verdict.reason.trim() ? verdict.reason.trim() : "Classified from conversation patterns."
+        };
+
+        const correct = recordRound(normalVerdict, "AI");
+        setDetectorStatus(`Verdict: ${normalVerdict.guess} (${normalVerdict.confidence}% confidence)`);
+        appendDetectorLine("verdict", `I think this respondent is ${normalVerdict.guess.toLowerCase()} (${normalVerdict.confidence}% confidence). ${normalVerdict.reason}`, true);
+        appendDetectorLine("result", `Ground truth: AI. AI got it ${correct ? "right" : "wrong"}.`, true);
+        if (meta && meta.interrogator_model && meta.respondent_model) {
+          appendDetectorLine("models", `Interrogator: ${meta.interrogator_model}. Respondent: ${meta.respondent_model}.`, true);
+        }
+      } catch (e) {
+        setDetectorStatus("Could not run watch mode right now.");
+        appendDetectorLine("error", "Worker request failed. Check worker deploy/keys and try again.", true);
       }
 
-      const question = detectorQuestions[index];
-      appendDetectorLine("interrogator", question, false);
-      const answer = await generateWatchAnswer(question);
-      if (!detectorState.watching) return;
-      appendDetectorLine("respondent", answer, false);
-      detectorState.watchHistory.push({ question, answer });
-      await runWatchTurn(index + 1);
+      detectorState.watching = false;
+      setDetectorControlsDisabled(false);
     }
 
     function recordRound(verdict, groundTruth) {
@@ -689,32 +706,18 @@
       setDetectorControlsDisabled(false);
     }
 
-    async function callWorker(messages) {
-      const res = await fetch(WORKER_URL, {
+    async function callWorkerPath(path, payload) {
+      const res = await fetch(`${WORKER_URL}${path}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages })
+        body: JSON.stringify(payload || {})
       });
       const data = await res.json();
-      return data && data.content && data.content[0] ? data.content[0].text : "";
-    }
-
-    async function generateWatchAnswer(question) {
-      const systemPrompt = "You are an AI respondent in a guessing game where an interrogator tries to detect if you are AI. Answer each question in one short sentence. Sound natural. Do not mention that you are an AI.";
-      const messages = [{ role: "system", content: systemPrompt }];
-
-      detectorState.watchHistory.forEach((turn) => {
-        messages.push({ role: "user", content: turn.question });
-        messages.push({ role: "assistant", content: turn.answer });
-      });
-      messages.push({ role: "user", content: question });
-
-      try {
-        const answer = await callWorker(messages);
-        return answer || "I am not sure, but probably overthinking this one.";
-      } catch (e) {
-        return "I am not sure, but probably overthinking this one.";
+      if (!res.ok) {
+        const msg = data && data.message ? data.message : `HTTP ${res.status}`;
+        throw new Error(msg);
       }
+      return data;
     }
 
     function parseVerdictJson(raw) {
@@ -747,6 +750,22 @@
     }
 
     async function getVerdict(answers) {
+      try {
+        const payload = await callWorkerPath("/detector/verdict", {
+          questions: detectorQuestions,
+          answers
+        });
+        if (payload && payload.verdict) {
+          const v = payload.verdict;
+          const guess = v.guess === "AI" ? "AI" : "Human";
+          const confidence = Number.isFinite(v.confidence) ? Math.max(50, Math.min(99, Math.round(v.confidence))) : 70;
+          const reason = typeof v.reason === "string" && v.reason.trim() ? v.reason.trim() : "The linguistic pattern suggested this classification.";
+          return { guess, confidence, reason };
+        }
+      } catch (e) {
+        // Fallback to previous root endpoint behavior if worker routes are not deployed yet.
+      }
+
       const transcript = detectorQuestions.map((question, index) => {
         const answer = answers[index] || "";
         return `${index + 1}. Q: ${question}\nA: ${answer}`;
@@ -756,11 +775,14 @@
       const userPrompt = `Classify this transcript:\n\n${transcript}`;
 
       try {
-        const raw = await callWorker([
-          { role: "system", content: systemPrompt },
-          { role: "user", content: userPrompt }
-        ]);
-        const parsed = parseVerdictJson(raw || "");
+        const legacy = await callWorkerPath("", {
+          messages: [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: userPrompt }
+          ]
+        });
+        const text = legacy && legacy.content && legacy.content[0] ? legacy.content[0].text : "";
+        const parsed = parseVerdictJson(text || "");
         if (parsed) {
           const guess = parsed.guess === "AI" ? "AI" : "Human";
           const confidence = Number.isFinite(parsed.confidence) ? Math.max(50, Math.min(99, Math.round(parsed.confidence))) : 70;
