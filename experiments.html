@@ -205,6 +205,46 @@
       font-size: 0.9rem;
     }
 
+    .detector-info {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1rem;
+      height: 1rem;
+      border: 1px solid #bbb;
+      border-radius: 50%;
+      font-size: 0.7rem;
+      line-height: 1;
+      color: #666;
+      margin-left: 0.3rem;
+      cursor: default;
+      position: relative;
+      vertical-align: middle;
+      user-select: none;
+    }
+
+    .detector-tooltip {
+      position: absolute;
+      left: 50%;
+      top: calc(100% + 0.35rem);
+      transform: translateX(-50%);
+      width: 220px;
+      padding: 0.45rem 0.55rem;
+      background: #fff;
+      border: 1px solid #ddd;
+      color: #333;
+      font-size: 0.75rem;
+      line-height: 1.35;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+      display: none;
+      z-index: 20;
+    }
+
+    .detector-info:hover .detector-tooltip,
+    .detector-info:focus-visible .detector-tooltip {
+      display: block;
+    }
+
     .detector-btn {
       background: none;
       border: 1px solid #ccc;
@@ -365,7 +405,14 @@
             <div class="detector-score-row"><span>AI got it wrong</span><span class="detector-score-value" id="score-wrong">0</span></div>
             <div class="detector-score-row"><span>True humans</span><span class="detector-score-value" id="score-human-rounds">0</span></div>
             <div class="detector-score-row"><span>True AIs</span><span class="detector-score-value" id="score-ai-rounds">0</span></div>
-            <p class="detector-calibration" id="score-calibration">Calibration score: -</p>
+            <p class="detector-calibration">
+              Brier score
+              <span class="detector-info" tabindex="0" aria-label="What is Brier score?">
+                i
+                <span class="detector-tooltip">Mean squared error of confidence vs outcome. Lower is better. 0 is perfect.</span>
+              </span>
+              : <span id="score-calibration-value">-</span>
+            </p>
           </aside>
         </div>
       </article>
@@ -476,7 +523,7 @@
     const scoreWrongEl = document.getElementById("score-wrong");
     const scoreHumanRoundsEl = document.getElementById("score-human-rounds");
     const scoreAiRoundsEl = document.getElementById("score-ai-rounds");
-    const scoreCalibrationEl = document.getElementById("score-calibration");
+    const scoreCalibrationValueEl = document.getElementById("score-calibration-value");
 
     const detectorQuestions = [
       "What did you do in the last hour?",
@@ -543,11 +590,10 @@
       } catch (e) {}
     }
 
-    function getCalibrationScore() {
+    function getBrierScore() {
       if (!detectorStats.totalRounds) return "-";
       const avgBrier = detectorStats.brierSum / detectorStats.totalRounds;
-      const calibration = Math.max(0, Math.min(100, Math.round((1 - avgBrier) * 100)));
-      return `${calibration}/100`;
+      return avgBrier.toFixed(3);
     }
 
     function renderScoreboard() {
@@ -556,7 +602,7 @@
       if (scoreWrongEl) scoreWrongEl.textContent = String(detectorStats.wrong);
       if (scoreHumanRoundsEl) scoreHumanRoundsEl.textContent = String(detectorStats.humanRounds);
       if (scoreAiRoundsEl) scoreAiRoundsEl.textContent = String(detectorStats.aiRounds);
-      if (scoreCalibrationEl) scoreCalibrationEl.textContent = `Calibration score: ${getCalibrationScore()}`;
+      if (scoreCalibrationValueEl) scoreCalibrationValueEl.textContent = getBrierScore();
     }
 
     function setDetectorStatus(text) {
