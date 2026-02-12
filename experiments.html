@@ -520,11 +520,15 @@
     const scoreAiRoundsEl = document.getElementById("score-ai-rounds");
     const scoreCalibrationValueEl = document.getElementById("score-calibration-value");
 
-    const detectorQuestions = [
-      "What did you do in the last hour?",
+    const detectorQuestionPool = [
+      "What did your morning look like today?",
+      "What is something small that annoyed you this week?",
       "What is one opinion you have that most people around you disagree with?",
-      "Tell me about a mistake you made recently.",
-      "Describe something mundane in a way only you would."
+      "Describe something mundane in a way only you would.",
+      "What is a habit you have that other people find odd?",
+      "Tell me about a time you changed your mind about something important.",
+      "What is one detail about your local area that outsiders miss?",
+      "What do you usually overthink for no good reason?"
     ];
     const DETECTOR_STATS_KEY = "ai_detector_scoreboard_v1";
 
@@ -536,7 +540,8 @@
       busy: false,
       watchHistory: [],
       playHistory: [],
-      currentQuestion: ""
+      currentQuestion: "",
+      questions: []
     };
     let detectorStats = loadDetectorStats();
 
@@ -602,6 +607,25 @@
       if (scoreCalibrationValueEl) scoreCalibrationValueEl.textContent = getBrierScore();
     }
 
+    function shuffleCopy(items) {
+      const arr = items.slice();
+      for (let i = arr.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+      }
+      return arr;
+    }
+
+    function pickDetectorQuestions() {
+      return shuffleCopy(detectorQuestionPool).slice(0, 4);
+    }
+
+    function getDetectorQuestions() {
+      return detectorState.questions.length ? detectorState.questions : detectorQuestionPool.slice(0, 4);
+    }
+
     function setDetectorStatus(text) {
       if (detectorStatusEl) detectorStatusEl.textContent = text;
     }
@@ -658,6 +682,7 @@
       detectorState.watchHistory = [];
       detectorState.playHistory = [];
       detectorState.currentQuestion = "";
+      detectorState.questions = [];
       if (detectorLogEl) detectorLogEl.innerHTML = "";
       if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
       if (detectorInput) detectorInput.value = "";
@@ -670,6 +695,7 @@
     async function startHumanGame() {
       resetDetector();
       detectorState.mode = "human";
+      detectorState.questions = pickDetectorQuestions();
       setDetectorStatus("Mode: Play yourself. Interrogator is thinking...");
       if (detectorInputRow) detectorInputRow.classList.remove("is-hidden");
       if (detectorSend) detectorSend.disabled = true;
@@ -680,14 +706,15 @@
     async function requestNextHumanQuestion() {
       if (detectorState.mode !== "human") return;
       const turn = detectorState.playHistory.length;
-      if (turn >= detectorQuestions.length) {
+      const questions = getDetectorQuestions();
+      if (turn >= questions.length) {
         await endRound(detectorState.playHistory, "Human");
         return;
       }
 
       try {
         const payload = await callWorkerPath("/detector/play-turn", {
-          questions: detectorQuestions,
+          questions,
           qa_pairs: detectorState.playHistory,
           turn_index: turn
         });
@@ -696,7 +723,7 @@
         }
         detectorState.currentQuestion = payload.question;
         appendDetectorLine("interrogator", payload.question, false);
-        setDetectorStatus(`Mode: Play yourself. Question ${turn + 1}/${detectorQuestions.length}.`);
+        setDetectorStatus(`Mode: Play yourself. Question ${turn + 1}/${questions.length}.`);
         if (detectorSend) detectorSend.disabled = false;
       } catch (e) {
         setDetectorStatus("Could not fetch next question.");
@@ -724,6 +751,7 @@
     async function startWatchGame() {
       resetDetector();
       detectorState.mode = "watch";
+      detectorState.questions = pickDetectorQuestions();
       detectorState.watching = true;
       setDetectorControlsDisabled(true);
       setDetectorStatus("Mode: Watch AI play. Running two-model simulation...");
@@ -733,12 +761,13 @@
         let hiddenProfile = "";
         let watchMeta = null;
 
-        for (let turn = 0; turn < detectorQuestions.length; turn += 1) {
+        const questions = getDetectorQuestions();
+        for (let turn = 0; turn < questions.length; turn += 1) {
           if (!detectorState.watching) break;
-          setDetectorStatus(`Mode: Watch AI play. Interrogator is thinking (${turn + 1}/${detectorQuestions.length})...`);
+          setDetectorStatus(`Mode: Watch AI play. Interrogator is thinking (${turn + 1}/${questions.length})...`);
 
           const turnPayload = await callWorkerPath("/detector/watch-turn", {
-            questions: detectorQuestions,
+            questions,
             qa_pairs: watchPairs,
             turn_index: turn,
             hidden_profile: hiddenProfile
@@ -752,7 +781,7 @@
           hiddenProfile = typeof turnPayload.hidden_profile === "string" ? turnPayload.hidden_profile : hiddenProfile;
 
           appendDetectorLine("interrogator", turnPayload.question, false);
-          setDetectorStatus(`Mode: Watch AI play. Respondent is thinking (${turn + 1}/${detectorQuestions.length})...`);
+          setDetectorStatus(`Mode: Watch AI play. Respondent is thinking (${turn + 1}/${questions.length})...`);
           showDetectorTyping("respondent", "thinking...");
           await sleep(answerRevealDelay(turnPayload.answer));
           removeDetectorTyping();
