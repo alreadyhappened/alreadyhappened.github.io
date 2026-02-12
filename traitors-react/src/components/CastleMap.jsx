@@ -39,6 +39,27 @@ function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value))
 }
 
+function wrapBubbleText(text, maxCharsPerLine = 44, maxLines = 4) {
+  const words = String(text || '').split(/\s+/).filter(Boolean)
+  const lines = []
+  let current = ''
+  for (const word of words) {
+    const next = current ? `${current} ${word}` : word
+    if (next.length <= maxCharsPerLine) {
+      current = next
+      continue
+    }
+    if (current) lines.push(current)
+    current = word
+    if (lines.length >= maxLines - 1) break
+  }
+  if (current && lines.length < maxLines) lines.push(current)
+  if (words.length && lines.join(' ').length < String(text || '').length && lines.length) {
+    lines[lines.length - 1] = `${lines[lines.length - 1].slice(0, Math.max(0, lines[lines.length - 1].length - 3))}...`
+  }
+  return lines.length ? lines : ['']
+}
+
 export default function CastleMap({ players, phase, lastMurdered, activeSpeech, parlorPartnerId }) {
   const room = sceneRoom(phase)
   const isMorning = phase === 'morningReveal'
@@ -67,11 +88,13 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech, 
     const pos = playerPosition(visiblePlayers[targetIndex], targetIndex, phase, visiblePlayers, parlorPartnerId)
     const text = String(activeSpeech.text).replace(/\s+/g, ' ').trim()
     if (!text) return null
-    const safeText = text.length > 92 ? `${text.slice(0, 89)}...` : text
-    const boxW = clamp(130 + safeText.length * 2.1, 150, 290)
+    const lines = wrapBubbleText(text, 44, 4)
+    const maxLine = lines.reduce((m, l) => Math.max(m, l.length), 0)
+    const boxW = clamp(170 + maxLine * 4.8, 220, 520)
+    const boxH = 24 + lines.length * 18
     const left = clamp(pos.x - boxW / 2, 20, 880 - boxW)
-    const top = clamp(pos.y - 66, 30, 470)
-    return { left, top, width: boxW, text: safeText }
+    const top = clamp(pos.y - (boxH + 26), 20, 520 - boxH)
+    return { left, top, width: boxW, height: boxH, lines }
   })()
 
   return (
@@ -197,10 +220,14 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech, 
 
         {bubble && (
           <g className="speech-bubble">
-            <rect x={bubble.left} y={bubble.top} width={bubble.width} height="38" rx="8" fill="#f7efd8" stroke="#6b5235" strokeWidth="1.2" />
-            <polygon points={`${bubble.left + 14},${bubble.top + 38} ${bubble.left + 24},${bubble.top + 38} ${bubble.left + 18},${bubble.top + 46}`} fill="#f7efd8" stroke="#6b5235" strokeWidth="1.1" />
-            <text x={bubble.left + 10} y={bubble.top + 23} fill="#2a1d12" fontSize="11" fontFamily="Georgia, serif">
-              {bubble.text}
+            <rect x={bubble.left} y={bubble.top} width={bubble.width} height={bubble.height} rx="12" fill="#f7efd8" stroke="#6b5235" strokeWidth="1.4" />
+            <polygon points={`${bubble.left + 16},${bubble.top + bubble.height} ${bubble.left + 29},${bubble.top + bubble.height} ${bubble.left + 22},${bubble.top + bubble.height + 11}`} fill="#f7efd8" stroke="#6b5235" strokeWidth="1.1" />
+            <text x={bubble.left + 14} y={bubble.top + 23} fill="#2a1d12" fontSize="15" fontFamily='"Trebuchet MS", Georgia, serif'>
+              {bubble.lines.map((line, idx) => (
+                <tspan key={idx} x={bubble.left + 14} dy={idx === 0 ? 0 : 18}>
+                  {line}
+                </tspan>
+              ))}
             </text>
           </g>
         )}

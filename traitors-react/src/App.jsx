@@ -252,7 +252,7 @@ export default function App() {
           )}
 
           {current?.type === 'ai_line' && (
-            <div className="phase-controls">
+            <div className="phase-controls floating-turn">
               <div className="controls-label">{current.speaker_name}</div>
               <p className="endgame-prompt">{current.move_type ? `Move: ${String(current.move_type).replace('_', ' ')}` : 'Move: tactical statement'}</p>
               {engine.allowedActions.includes('advance') && (
@@ -262,7 +262,7 @@ export default function App() {
           )}
 
           {current?.type === 'phase_transition' && (
-            <div className="phase-controls">
+            <div className="phase-controls floating-turn">
               <div className="controls-label">Transition</div>
               <p className="endgame-prompt">Continue to {String(current.to_scene || '').replaceAll('_', ' ')}.</p>
               {engine.allowedActions.includes('advance') && (

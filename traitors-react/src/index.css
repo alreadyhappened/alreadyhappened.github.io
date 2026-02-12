@@ -113,7 +113,7 @@ body {
 /* === CASTLE MAP === */
 .castle-wrap {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0.55rem;
   border: 1px solid rgba(229, 179, 148, 0.42);
   border-radius: 14px;
   overflow: hidden;
@@ -127,6 +127,21 @@ body {
   height: auto;
   max-height: 760px;
   display: block;
+}
+
+.floating-turn {
+  position: absolute;
+  right: 1.1rem;
+  top: 4.4rem;
+  width: min(340px, calc(100% - 2.2rem));
+  margin-bottom: 0;
+  z-index: 5;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.4);
+}
+
+.floating-turn .endgame-prompt {
+  margin-bottom: 0.2rem;
 }
 
 /* Room groups */
@@ -587,6 +602,11 @@ body {
   .app { padding: 1rem 0.8rem 2rem; }
   .header h1 { font-size: 1.8rem; }
   .castle-svg { max-height: 380px; }
+  .floating-turn {
+    position: static;
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
   .endgame-buttons { flex-direction: column; }
   .setup-form { flex-direction: column; }
 }
