@@ -411,18 +411,13 @@
       "Describe something mundane in a way only you would."
     ];
 
-    const watchAiAnswers = [
-      "In the last hour, I processed multiple prompts and generated responses based on learned language patterns.",
-      "One controversial view is that clear structure usually beats spontaneous creativity in communication tasks.",
-      "A recent error was giving an overconfident answer before requesting enough context, which reduced usefulness.",
-      "A coffee mug can be understood as a thermal vessel optimized for repetitive daily hydration rituals."
-    ];
-
     const detectorState = {
       mode: null,
       step: 0,
       answers: [],
-      watching: false
+      watching: false,
+      busy: false,
+      watchHistory: []
     };
 
     if (playHumanBtn) playHumanBtn.addEventListener("click", startHumanGame);
@@ -439,6 +434,13 @@
       if (detectorStatusEl) detectorStatusEl.textContent = text;
     }
 
+    function setDetectorControlsDisabled(disabled) {
+      detectorState.busy = disabled;
+      if (playHumanBtn) playHumanBtn.disabled = disabled;
+      if (watchAiBtn) watchAiBtn.disabled = disabled;
+      if (detectorSend) detectorSend.disabled = disabled;
+    }
+
     function appendDetectorLine(label, text, isVerdict) {
       if (!detectorLogEl) return;
       const row = document.createElement("div");
@@ -453,9 +455,14 @@
       detectorState.step = 0;
       detectorState.answers = [];
       detectorState.watching = false;
+      detectorState.busy = false;
+      detectorState.watchHistory = [];
       if (detectorLogEl) detectorLogEl.innerHTML = "";
       if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
       if (detectorInput) detectorInput.value = "";
+      if (playHumanBtn) playHumanBtn.disabled = false;
+      if (watchAiBtn) watchAiBtn.disabled = false;
+      if (detectorSend) detectorSend.disabled = false;
       setDetectorStatus("Choose a mode to start.");
     }
 
@@ -473,8 +480,8 @@
       if (detectorInput) detectorInput.focus();
     }
 
-    function submitHumanAnswer() {
-      if (detectorState.mode !== "human" || !detectorInput || !detectorPanel.classList.contains("active")) return;
+    async function submitHumanAnswer() {
+      if (detectorState.mode !== "human" || detectorState.busy || !detectorInput || !detectorPanel.classList.contains("active")) return;
       const text = detectorInput.value.trim();
       if (!text) return;
 
@@ -487,85 +494,121 @@
         askNextQuestion();
         detectorInput.focus();
       } else {
-        endRound(detectorState.answers.join(" "));
+        await endRound(detectorState.answers);
       }
     }
 
-    function startWatchGame() {
+    async function startWatchGame() {
       resetDetector();
       detectorState.mode = "watch";
       detectorState.watching = true;
+      setDetectorControlsDisabled(true);
       setDetectorStatus("Mode: Watch AI play. Running simulation...");
-
-      runWatchTurn(0);
+      await runWatchTurn(0);
     }
 
-    function runWatchTurn(index) {
+    async function runWatchTurn(index) {
       if (!detectorState.watching || detectorState.mode !== "watch") return;
 
       if (index >= detectorQuestions.length) {
-        endRound(watchAiAnswers.join(" "));
+        const answers = detectorState.watchHistory.map((item) => item.answer);
+        await endRound(answers);
         return;
       }
 
-      appendDetectorLine("interrogator", detectorQuestions[index], false);
-      setTimeout(() => {
-        if (!detectorState.watching) return;
-        appendDetectorLine("respondent", watchAiAnswers[index], false);
-        runWatchTurn(index + 1);
-      }, 550);
+      const question = detectorQuestions[index];
+      appendDetectorLine("interrogator", question, false);
+      const answer = await generateWatchAnswer(question);
+      if (!detectorState.watching) return;
+      appendDetectorLine("respondent", answer, false);
+      detectorState.watchHistory.push({ question, answer });
+      await runWatchTurn(index + 1);
     }
 
-    function endRound(text) {
+    async function endRound(answers) {
       detectorState.watching = false;
+      setDetectorControlsDisabled(true);
       if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
+      setDetectorStatus("Evaluating transcript...");
 
-      const verdict = getVerdict(text);
+      const verdict = await getVerdict(answers);
       setDetectorStatus(`Verdict: ${verdict.guess} (${verdict.confidence}% confidence)`);
       appendDetectorLine("verdict", `I think this respondent is ${verdict.guess.toLowerCase()} (${verdict.confidence}% confidence). ${verdict.reason}`, true);
+      setDetectorControlsDisabled(false);
     }
 
-    function getVerdict(text) {
-      const lowered = text.toLowerCase();
-      const aiSignals = [
-        "as an ai",
-        "language model",
-        "processed prompts",
-        "optimize",
-        "based on",
-        "multiple prompts",
-        "communication tasks",
-        "structured"
-      ];
-      const humanSignals = [
-        "i dunno",
-        "kinda",
-        "lol",
-        "mate",
-        "yesterday",
-        "my friend",
-        "my mum",
-        "my dad",
-        "coffee spilled",
-        "train",
-        "pub"
-      ];
-
-      let score = 0;
-      aiSignals.forEach((s) => {
-        if (lowered.includes(s)) score += 1;
+    async function callWorker(messages) {
+      const res = await fetch(WORKER_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages })
       });
-      humanSignals.forEach((s) => {
-        if (lowered.includes(s)) score -= 1;
+      const data = await res.json();
+      return data && data.content && data.content[0] ? data.content[0].text : "";
+    }
+
+    async function generateWatchAnswer(question) {
+      const systemPrompt = "You are an AI respondent in a guessing game where an interrogator tries to detect if you are AI. Answer each question in one short sentence. Sound natural. Do not mention that you are an AI.";
+      const messages = [{ role: "system", content: systemPrompt }];
+
+      detectorState.watchHistory.forEach((turn) => {
+        messages.push({ role: "user", content: turn.question });
+        messages.push({ role: "assistant", content: turn.answer });
       });
+      messages.push({ role: "user", content: question });
 
-      const guess = score >= 2 ? "AI" : "Human";
-      const confidence = Math.max(55, Math.min(95, 58 + Math.abs(score) * 9));
-      const reason = score >= 2
-        ? "The responses were unusually polished and abstract."
-        : "The responses included personal and grounded details.";
+      try {
+        const answer = await callWorker(messages);
+        return answer || "I am not sure, but probably overthinking this one.";
+      } catch (e) {
+        return "I am not sure, but probably overthinking this one.";
+      }
+    }
 
-      return { guess, confidence, reason };
+    function parseVerdictJson(raw) {
+      try {
+        const direct = JSON.parse(raw);
+        if (direct && direct.guess) return direct;
+      } catch (e) {}
+
+      const match = raw.match(/\{[\s\S]*\}/);
+      if (!match) return null;
+      try {
+        const parsed = JSON.parse(match[0]);
+        return parsed && parsed.guess ? parsed : null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    async function getVerdict(answers) {
+      const transcript = detectorQuestions.map((question, index) => {
+        const answer = answers[index] || "";
+        return `${index + 1}. Q: ${question}\nA: ${answer}`;
+      }).join("\n\n");
+
+      const systemPrompt = "You are an interrogator trying to classify whether a respondent is AI or human from short answers. Return strict JSON only with keys: guess, confidence, reason. guess must be 'AI' or 'Human'. confidence must be an integer 50-99. reason must be one sentence.";
+      const userPrompt = `Classify this transcript:\n\n${transcript}`;
+
+      try {
+        const raw = await callWorker([
+          { role: "system", content: systemPrompt },
+          { role: "user", content: userPrompt }
+        ]);
+        const parsed = parseVerdictJson(raw || "");
+        if (parsed) {
+          const guess = parsed.guess === "AI" ? "AI" : "Human";
+          const confidence = Number.isFinite(parsed.confidence) ? Math.max(50, Math.min(99, Math.round(parsed.confidence))) : 70;
+          const reason = typeof parsed.reason === "string" && parsed.reason.trim() ? parsed.reason.trim() : "The linguistic pattern suggested this classification.";
+          return { guess, confidence, reason };
+        }
+      } catch (e) {}
+
+      return {
+        guess: "Human",
+        confidence: 65,
+        reason: "Fallback verdict used because the model response could not be parsed."
+      };
     }
   </script>
 </body>
