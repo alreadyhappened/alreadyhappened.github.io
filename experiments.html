@@ -625,6 +625,33 @@
       detectorLogEl.scrollTop = detectorLogEl.scrollHeight;
     }
 
+    function removeDetectorTyping() {
+      const t = document.getElementById("detector-typing");
+      if (t) t.remove();
+    }
+
+    function showDetectorTyping(label, text) {
+      removeDetectorTyping();
+      if (!detectorLogEl) return;
+      const row = document.createElement("div");
+      row.className = "detector-line";
+      row.id = "detector-typing";
+      row.innerHTML = `<div class="label">${label}</div><div class="typing">${text}</div>`;
+      detectorLogEl.appendChild(row);
+      detectorLogEl.scrollTop = detectorLogEl.scrollHeight;
+    }
+
+    function sleep(ms) {
+      return new Promise((resolve) => setTimeout(resolve, ms));
+    }
+
+    function answerRevealDelay(answerText) {
+      const base = 1200;
+      const perChar = Math.min(2200, Math.max(300, String(answerText || "").length * 14));
+      const jitter = Math.floor(Math.random() * 600);
+      return base + perChar + jitter;
+    }
+
     function resetDetector() {
       detectorState.mode = null;
       detectorState.step = 0;
@@ -687,7 +714,7 @@
 
         for (let turn = 0; turn < detectorQuestions.length; turn += 1) {
           if (!detectorState.watching) break;
-          setDetectorStatus(`Mode: Watch AI play. Running round ${turn + 1}/${detectorQuestions.length}...`);
+          setDetectorStatus(`Mode: Watch AI play. Interrogator is thinking (${turn + 1}/${detectorQuestions.length})...`);
 
           const turnPayload = await callWorkerPath("/detector/watch-turn", {
             questions: detectorQuestions,
@@ -704,6 +731,10 @@
           hiddenProfile = typeof turnPayload.hidden_profile === "string" ? turnPayload.hidden_profile : hiddenProfile;
 
           appendDetectorLine("interrogator", turnPayload.question, false);
+          setDetectorStatus(`Mode: Watch AI play. Respondent is thinking (${turn + 1}/${detectorQuestions.length})...`);
+          showDetectorTyping("respondent", "thinking...");
+          await sleep(answerRevealDelay(turnPayload.answer));
+          removeDetectorTyping();
           appendDetectorLine("respondent", turnPayload.answer, false);
           watchPairs.push({ question: turnPayload.question, answer: turnPayload.answer });
         }
@@ -718,10 +749,12 @@
           appendDetectorLine("models", `Interrogator: ${watchMeta.interrogator_model}. Respondent: ${watchMeta.respondent_model}.`, true);
         }
       } catch (e) {
+        removeDetectorTyping();
         setDetectorStatus("Could not run watch mode right now.");
         appendDetectorLine("error", "Worker request failed. Check worker deploy/keys and try again.", true);
       }
 
+      removeDetectorTyping();
       detectorState.watching = false;
       setDetectorControlsDisabled(false);
     }
