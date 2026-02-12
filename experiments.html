@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiments — Stefan Kelly</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .chat-container {
+      max-width: 600px;
+    }
+
+    .chat-intro {
+      margin-bottom: 2rem;
+      color: #333;
+    }
+
+    .chat-messages {
+      margin-bottom: 1.5rem;
+    }
+
+    .chat-message {
+      margin-bottom: 1.25rem;
+    }
+
+    .chat-message.user {
+      color: #999;
+    }
+
+    .chat-message.assistant {
+      color: #000;
+    }
+
+    .chat-message .label {
+      font-style: italic;
+      font-size: 0.85rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .chat-input-row {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-end;
+    }
+
+    .chat-input {
+      flex: 1;
+      padding: 0.5rem 0;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 1rem;
+      color: #000;
+      outline: none;
+    }
+
+    .chat-input:focus {
+      border-bottom-color: #000;
+    }
+
+    .chat-send {
+      background: none;
+      border: none;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 1rem;
+      color: #000;
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 0;
+    }
+
+    .chat-send:hover {
+      opacity: 0.5;
+    }
+
+    .chat-send:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+
+    .typing {
+      color: #999;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">About</a>
+    <a href="/worked-on.html">Things I have worked on</a>
+    <a href="/working-on.html">Things I am working on</a>
+    <a href="/artefacts.html">Artefacts</a>
+    <a href="/experiments.html">Experiments</a>
+  </nav>
+
+  <div class="chat-container">
+    <p class="chat-intro">This is an AI trained on my writing. Ask it anything you'd ask me.</p>
+
+    <div class="chat-messages" id="messages"></div>
+
+    <div class="chat-input-row">
+      <input type="text" class="chat-input" id="input" placeholder="Ask something..." autocomplete="off">
+      <button class="chat-send" id="send" onclick="sendMessage()">send</button>
+    </div>
+  </div>
+
+  <script>
+    const WORKER_URL = "https://stefan-chatbot.stefankelly.workers.dev";
+    const messagesEl = document.getElementById("messages");
+    const inputEl = document.getElementById("input");
+    const sendBtn = document.getElementById("send");
+    let history = [];
+
+    inputEl.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !sendBtn.disabled) sendMessage();
+    });
+
+    async function sendMessage() {
+      const text = inputEl.value.trim();
+      if (!text) return;
+
+      inputEl.value = "";
+      sendBtn.disabled = true;
+
+      history.push({ role: "user", content: text });
+      appendMessage("you", text);
+      appendMessage("typing", "thinking...");
+
+      try {
+        const res = await fetch(WORKER_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ messages: history }),
+        });
+
+        const data = await res.json();
+        removeTyping();
+
+        if (data.content && data.content[0]) {
+          const reply = data.content[0].text;
+          history.push({ role: "assistant", content: reply });
+          appendMessage("stefan", reply);
+        } else {
+          appendMessage("stefan", "Sorry, something went wrong.");
+        }
+      } catch (e) {
+        removeTyping();
+        appendMessage("stefan", "Sorry, couldn't reach the server.");
+      }
+
+      sendBtn.disabled = false;
+      inputEl.focus();
+    }
+
+    function appendMessage(sender, text) {
+      const div = document.createElement("div");
+      div.className = sender === "typing" ? "chat-message typing" : "chat-message " + (sender === "you" ? "user" : "assistant");
+      if (sender === "typing") {
+        div.id = "typing";
+        div.textContent = text;
+      } else {
+        div.innerHTML = `<div class="label">${sender}</div><div>${text}</div>`;
+      }
+      messagesEl.appendChild(div);
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function removeTyping() {
+      const t = document.getElementById("typing");
+      if (t) t.remove();
+    }
+  </script>
+</body>
+</html>
