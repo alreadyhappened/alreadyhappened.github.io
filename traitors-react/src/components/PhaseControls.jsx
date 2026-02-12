@@ -3,9 +3,9 @@ export default function PhaseControls({
   busy,
   alivePlayers,
   // Day
-  dayLine, setDayLine, onRunDay,
+  dayLine, setDayLine, onRunDay, onRunDaySilent,
   // Roundtable
-  roundtableLine, setRoundtableLine, onRunRoundtable,
+  roundtableLine, setRoundtableLine, onRunRoundtable, onRunRoundtableSilent,
   // Vote
   voteTarget, setVoteTarget, onRunVote,
   // Night
@@ -31,6 +31,9 @@ export default function PhaseControls({
         <button onClick={onRunDay} disabled={busy}>
           {busy ? 'waiting...' : 'Continue'}
         </button>
+        <button className="quiet-btn" onClick={onRunDaySilent} disabled={busy}>
+          Say nothing (risky)
+        </button>
       </div>
     )
   }
@@ -48,6 +51,9 @@ export default function PhaseControls({
         />
         <button onClick={onRunRoundtable} disabled={busy}>
           {busy ? 'waiting...' : 'Continue'}
+        </button>
+        <button className="quiet-btn" onClick={onRunRoundtableSilent} disabled={busy}>
+          Say nothing (very risky)
         </button>
       </div>
     )

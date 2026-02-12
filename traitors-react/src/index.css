@@ -382,6 +382,17 @@ body {
 .phase-controls button:hover { border-color: #dcb978; color: #f7edcf; }
 .phase-controls button:disabled { opacity: 0.35; cursor: default; }
 
+.phase-controls .quiet-btn {
+  border-color: #8a4a4a;
+  color: #f3b8b8;
+}
+
+.phase-controls .quiet-btn:hover:not(:disabled) {
+  border-color: #c76b6b;
+  color: #ffd4d4;
+  background: rgba(145, 56, 56, 0.16);
+}
+
 /* Murder button */
 .murder-btn {
   border-color: #8a3a3a !important;

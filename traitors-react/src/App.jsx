@@ -22,6 +22,22 @@ function buildBreakfastPrelude(state) {
   const ai = aliveAIs(state)
   if (ai.length < 3) return []
   const picks = ai.slice(0, Math.min(5, ai.length))
+  if ((state?.round || 1) === 1) {
+    return [
+      {
+        speaker: picks[0].name,
+        text: `Right, first breakfast. Everyone just breathe. No hero speeches yet.`,
+      },
+      {
+        speaker: picks[1]?.name || picks[0].name,
+        text: `Agreed. Let's start simple: what kind of tells are we actually tracking this season?`,
+      },
+      {
+        speaker: picks[2]?.name || picks[0].name,
+        text: `Consistency over time. First impressions are noisy. We'll compare stories after Round Table.`,
+      },
+    ]
+  }
   return [
     {
       speaker: picks[0].name,
@@ -124,15 +140,22 @@ export default function App() {
     setVisualPhase('day')
   }
 
-  async function runDay() {
+  async function runDay(opts = {}) {
     if (!gameState || busy) return
+    const silent = !!opts.silent
+    const spoken = dayLine.trim()
+    const dayStatement = silent ? '[SILENT_AT_BREAKFAST]' : spoken
     setBusy(true)
     setError('')
-    if (dayLine.trim()) appendLog('you', dayLine.trim())
+    if (silent) {
+      appendLog('you', 'You say nothing and study the room. (risky)')
+    } else if (spoken) {
+      appendLog('you', spoken)
+    }
     try {
       const data = await post('/traitors/day', {
         state: gameState,
-        human_day_statement: dayLine.trim(),
+        human_day_statement: dayStatement,
       })
       setGameState(data.state)
       syncTargets(data.state)
@@ -149,15 +172,22 @@ export default function App() {
     setBusy(false)
   }
 
-  async function runRoundtable() {
+  async function runRoundtable(opts = {}) {
     if (!gameState || busy) return
+    const silent = !!opts.silent
+    const spoken = roundtableLine.trim()
+    const roundtableStatement = silent ? '[SILENT_AT_ROUNDTABLE]' : spoken
     setBusy(true)
     setError('')
-    if (roundtableLine.trim()) appendLog('you', roundtableLine.trim())
+    if (silent) {
+      appendLog('you', 'You stay silent at the Round Table. (very risky)')
+    } else if (spoken) {
+      appendLog('you', spoken)
+    }
     try {
       const data = await post('/traitors/roundtable', {
         state: gameState,
-        human_statement: roundtableLine.trim(),
+        human_statement: roundtableStatement,
       })
       setGameState(data.state)
       syncTargets(data.state)
@@ -418,11 +448,13 @@ export default function App() {
               alivePlayers={alive}
               dayLine={dayLine}
               setDayLine={setDayLine}
-              onRunDay={runDay}
-              roundtableLine={roundtableLine}
-              setRoundtableLine={setRoundtableLine}
-              onRunRoundtable={runRoundtable}
-              voteTarget={voteTarget}
+            onRunDay={runDay}
+            onRunDaySilent={() => runDay({ silent: true })}
+            roundtableLine={roundtableLine}
+            setRoundtableLine={setRoundtableLine}
+            onRunRoundtable={runRoundtable}
+            onRunRoundtableSilent={() => runRoundtable({ silent: true })}
+            voteTarget={voteTarget}
               setVoteTarget={setVoteTarget}
               onRunVote={runVote}
               nightTarget={nightTarget}
