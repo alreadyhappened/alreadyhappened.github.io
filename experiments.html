@@ -541,7 +541,10 @@
       watchHistory: [],
       playHistory: [],
       currentQuestion: "",
-      questions: []
+      questions: [],
+      playInterrogatorMeta: "",
+      watchInterrogatorMeta: "",
+      watchRespondentMeta: ""
     };
     let detectorStats = loadDetectorStats();
 
@@ -683,6 +686,9 @@
       detectorState.playHistory = [];
       detectorState.currentQuestion = "";
       detectorState.questions = [];
+      detectorState.playInterrogatorMeta = "";
+      detectorState.watchInterrogatorMeta = "";
+      detectorState.watchRespondentMeta = "";
       if (detectorLogEl) detectorLogEl.innerHTML = "";
       if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
       if (detectorInput) detectorInput.value = "";
@@ -716,10 +722,14 @@
         const payload = await callWorkerPath("/detector/play-turn", {
           questions,
           qa_pairs: detectorState.playHistory,
-          turn_index: turn
+          turn_index: turn,
+          interrogator_meta: detectorState.playInterrogatorMeta
         });
         if (!payload || payload.done || !payload.question) {
           throw new Error("Missing question in play-turn response.");
+        }
+        if (typeof payload.interrogator_meta === "string") {
+          detectorState.playInterrogatorMeta = payload.interrogator_meta;
         }
         detectorState.currentQuestion = payload.question;
         appendDetectorLine("interrogator", payload.question, false);
@@ -770,7 +780,9 @@
             questions,
             qa_pairs: watchPairs,
             turn_index: turn,
-            hidden_profile: hiddenProfile
+            hidden_profile: hiddenProfile,
+            interrogator_meta: detectorState.watchInterrogatorMeta,
+            respondent_meta: detectorState.watchRespondentMeta
           });
 
           if (turnPayload && turnPayload.meta) watchMeta = turnPayload.meta;
@@ -779,6 +791,12 @@
             throw new Error("Missing turn question/answer in watch-turn response.");
           }
           hiddenProfile = typeof turnPayload.hidden_profile === "string" ? turnPayload.hidden_profile : hiddenProfile;
+          if (typeof turnPayload.interrogator_meta === "string") {
+            detectorState.watchInterrogatorMeta = turnPayload.interrogator_meta;
+          }
+          if (typeof turnPayload.respondent_meta === "string") {
+            detectorState.watchRespondentMeta = turnPayload.respondent_meta;
+          }
 
           appendDetectorLine("interrogator", turnPayload.question, false);
           setDetectorStatus(`Mode: Watch AI play. Respondent is thinking (${turn + 1}/${questions.length})...`);
