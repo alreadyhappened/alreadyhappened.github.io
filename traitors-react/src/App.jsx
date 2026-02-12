@@ -5,7 +5,6 @@ import IntroSequence from './components/IntroSequence'
 import MorningReveal from './components/MorningReveal'
 import HostDialogue from './components/HostDialogue'
 import PhaseControls from './components/PhaseControls'
-import EventLog from './components/EventLog'
 import EndgameVote from './components/EndgameVote'
 const SPEECH_DELAY_MS = 920
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
@@ -563,9 +562,6 @@ export default function App() {
               winner={gameState?.winner}
             />
           )}
-
-          {/* Event log */}
-          <EventLog entries={log} />
 
           {/* Reset */}
           {started && (

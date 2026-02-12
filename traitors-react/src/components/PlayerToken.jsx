@@ -16,29 +16,30 @@ export default function PlayerToken({ player, x, y, isHuman }) {
       className={`player-token ${dead ? 'dead' : ''} ${isHuman ? 'human' : ''}`}
       style={{ transform: `translate(${x}px, ${y}px)` }}
     >
-      <ellipse cx="0" cy="2" rx="10.5" ry="12" fill="#0f0d16" opacity="0.25" />
-      <circle cx="0" cy="0" r="12" fill={fill} stroke={stroke} strokeWidth="1.4" />
-      <path d="M -10 -2 Q -1 -13 10 -2 L 10 -10 L -10 -10 Z" fill={hair} opacity="0.9" />
-      <circle cx="-3.6" cy="-0.5" r="1.05" fill="#201912" />
-      <circle cx="3.6" cy="-0.5" r="1.05" fill="#201912" />
-      <path d="M -2.4 4 Q 0 5.7 2.4 4" stroke="#6f4c33" strokeWidth="0.8" fill="none" />
-      <rect x="-4.6" y="11" width="9.2" height="4.2" rx="2" fill={fill} stroke={stroke} strokeWidth="0.6" />
+      <ellipse cx="0" cy="7" rx="16" ry="7" fill="#0f0d16" opacity="0.28" />
+      <circle cx="0" cy="-2" r="16" fill={fill} stroke={stroke} strokeWidth="1.8" />
+      <path d="M -13 -5 Q -1 -18 13 -5 L 13 -15 L -13 -15 Z" fill={hair} opacity="0.92" />
+      <circle cx="-4.7" cy="-2.2" r="1.25" fill="#201912" />
+      <circle cx="4.7" cy="-2.2" r="1.25" fill="#201912" />
+      <path d="M -3.1 4 Q 0 6.4 3.1 4" stroke="#6f4c33" strokeWidth="1.1" fill="none" />
+      <rect x="-8.2" y="12" width="16.4" height="8.4" rx="4" fill={fill} stroke={stroke} strokeWidth="0.8" />
+      <rect x="-6.2" y="13.5" width="12.4" height="5.1" rx="2.8" fill={skin} opacity="0.22" />
       {/* Name label below */}
       <text
-        y="24"
+        y="33"
         textAnchor="middle"
         fill="#c8bdd8"
-        fontSize="7"
-        fontFamily="Georgia, serif"
-        opacity="0.85"
+        fontSize="9"
+        fontFamily='"Trebuchet MS", Georgia, serif'
+        opacity="0.93"
       >
         {player.name}
         {isHuman ? ' (you)' : ''}
       </text>
       {dead && (
         <>
-          <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ff6666" strokeWidth="2" opacity="0.8" />
-          <line x1="8" y1="-8" x2="-8" y2="8" stroke="#ff6666" strokeWidth="2" opacity="0.8" />
+          <line x1="-11" y1="-11" x2="11" y2="11" stroke="#ff6666" strokeWidth="2.4" opacity="0.85" />
+          <line x1="11" y1="-11" x2="-11" y2="11" stroke="#ff6666" strokeWidth="2.4" opacity="0.85" />
         </>
       )}
     </g>

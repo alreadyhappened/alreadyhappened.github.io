@@ -1,13 +1,13 @@
 import PlayerToken from './PlayerToken'
 
 const BREAKFAST_SEATS = [
-  { x: 335, y: 332 }, { x: 390, y: 300 }, { x: 455, y: 286 }, { x: 520, y: 300 },
-  { x: 575, y: 332 }, { x: 520, y: 364 }, { x: 455, y: 378 }, { x: 390, y: 364 },
+  { x: 315, y: 336 }, { x: 382, y: 286 }, { x: 455, y: 270 }, { x: 528, y: 286 },
+  { x: 595, y: 336 }, { x: 546, y: 392 }, { x: 455, y: 410 }, { x: 364, y: 392 },
 ]
 
 const ROUNDTABLE_SEATS = [
-  { x: 335, y: 332 }, { x: 390, y: 286 }, { x: 455, y: 272 }, { x: 520, y: 286 },
-  { x: 575, y: 332 }, { x: 520, y: 378 }, { x: 455, y: 392 }, { x: 390, y: 378 },
+  { x: 315, y: 336 }, { x: 382, y: 278 }, { x: 455, y: 258 }, { x: 528, y: 278 },
+  { x: 595, y: 336 }, { x: 546, y: 402 }, { x: 455, y: 425 }, { x: 364, y: 402 },
 ]
 
 const TURRET_CENTER = { x: 455, y: 248 }
@@ -99,6 +99,10 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech, 
             <rect x="220" y="172" width="470" height="304" rx="18" fill="url(#stone)" stroke="#8f6e58" strokeWidth="2" />
             <rect x="232" y="184" width="446" height="280" rx="12" fill="#21302a" />
             <rect x="338" y="314" width="234" height="34" rx="10" fill="#7b4d3f" stroke="#d9ab7e" strokeWidth="1.4" />
+            <rect x="252" y="206" width="70" height="110" rx="10" fill="#314f57" stroke="#7ab4b8" strokeWidth="1.4" opacity="0.52" />
+            <rect x="588" y="206" width="70" height="110" rx="10" fill="#314f57" stroke="#7ab4b8" strokeWidth="1.4" opacity="0.52" />
+            <path d="M 250 200 C 262 178, 282 176, 294 192" stroke="#8db07e" strokeWidth="3" fill="none" opacity="0.5" />
+            <path d="M 646 200 C 634 178, 614 176, 602 192" stroke="#8db07e" strokeWidth="3" fill="none" opacity="0.5" />
             <circle cx="393" cy="332" r="3" fill="#dcb978" className="candle-flicker" />
             <circle cx="515" cy="332" r="3" fill="#dcb978" className="candle-flicker-alt" />
             <ellipse cx="455" cy="325" rx="220" ry="110" fill="url(#candle-light)" opacity="0.35" />
@@ -122,6 +126,9 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech, 
           <g>
             <rect x="250" y="140" width="410" height="340" rx="16" fill="url(#stone)" stroke="#8a6592" strokeWidth="2" />
             <rect x="260" y="150" width="390" height="320" rx="12" fill="#211a2e" />
+            <polygon points="455,164 480,206 430,206" fill="#c6a7d5" opacity="0.28" />
+            <rect x="302" y="172" width="44" height="120" rx="8" fill="#3f2f5a" stroke="#b48cc4" strokeWidth="1.1" opacity="0.7" />
+            <rect x="564" y="172" width="44" height="120" rx="8" fill="#3f2f5a" stroke="#b48cc4" strokeWidth="1.1" opacity="0.7" />
             <circle cx="455" cy="332" r="74" fill="#60422f" stroke="#b08b64" strokeWidth="2.2" />
             <circle cx="455" cy="332" r="56" fill="none" stroke="#7a6040" strokeWidth="0.6" opacity="0.45" />
             <circle cx="455" cy="332" r="8" fill="#dcb978" className="candle-flicker" />
