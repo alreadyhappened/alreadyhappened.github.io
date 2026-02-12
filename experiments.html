@@ -410,6 +410,18 @@
       gap: 0.55rem;
     }
 
+    .traitors-step {
+      border-top: 1px solid #e5e5e5;
+      padding-top: 0.7rem;
+      margin-top: 0.25rem;
+    }
+
+    .traitors-phase {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 0.35rem;
+    }
+
     .traitors-select {
       width: 100%;
       font-family: "Times New Roman", Times, serif;
@@ -500,7 +512,7 @@
 
       <article class="experiment-panel" id="panel-traitors">
         <h1 class="experiment-title">The Traitors (AI Edition)</h1>
-        <p class="experiment-description">You are the Traitor. Survive to final three to win.<br>The AI Faithful win if they banish you first.</p>
+        <p class="experiment-description">You are the Traitor. Survive to final two to win.<br>The AI Faithful win if they banish you first.</p>
 
         <div class="traitors-wrap">
           <div>
@@ -514,19 +526,33 @@
           </div>
 
           <div class="traitors-controls">
+            <p class="traitors-phase" id="traitors-phase-label">Phase: Setup</p>
             <button class="detector-btn" id="traitors-start-btn" type="button">Start game</button>
             <button class="detector-btn subtle" id="traitors-reset-btn" type="button">Reset game</button>
 
-            <label for="traitors-statement">Your banishment pitch</label>
-            <textarea class="traitors-input" id="traitors-statement" placeholder="Defend yourself. Throw suspicion elsewhere."></textarea>
+            <div class="traitors-step" id="traitors-step-start">
+              <label for="traitors-name">Your name</label>
+              <input type="text" class="traitors-select" id="traitors-name" placeholder="Enter your name">
+            </div>
 
-            <label for="traitors-vote">Your banishment vote</label>
-            <select class="traitors-select" id="traitors-vote"></select>
-            <button class="detector-btn" id="traitors-banish-btn" type="button">Run banishment</button>
+            <div class="traitors-step is-hidden" id="traitors-step-banish">
+              <label for="traitors-statement">Your roundtable pitch</label>
+              <textarea class="traitors-input" id="traitors-statement" placeholder="Defend yourself. Throw suspicion elsewhere."></textarea>
 
-            <label for="traitors-murder">Night murder target</label>
-            <select class="traitors-select" id="traitors-murder"></select>
-            <button class="detector-btn" id="traitors-night-btn" type="button">Run night</button>
+              <label for="traitors-vote">Your banishment vote</label>
+              <select class="traitors-select" id="traitors-vote"></select>
+              <button class="detector-btn" id="traitors-banish-btn" type="button">Run banishment</button>
+            </div>
+
+            <div class="traitors-step is-hidden" id="traitors-step-night">
+              <label for="traitors-murder">Night murder target</label>
+              <select class="traitors-select" id="traitors-murder"></select>
+              <button class="detector-btn" id="traitors-night-btn" type="button">Run night</button>
+            </div>
+
+            <div class="traitors-step is-hidden" id="traitors-step-ended">
+              <p id="traitors-ended-text">Game over.</p>
+            </div>
           </div>
         </div>
       </article>
@@ -696,11 +722,18 @@
     const traitorsLogEl = document.getElementById("traitors-log");
     const traitorsStartBtn = document.getElementById("traitors-start-btn");
     const traitorsResetBtn = document.getElementById("traitors-reset-btn");
+    const traitorsPhaseLabelEl = document.getElementById("traitors-phase-label");
+    const traitorsNameEl = document.getElementById("traitors-name");
     const traitorsStatementEl = document.getElementById("traitors-statement");
     const traitorsVoteEl = document.getElementById("traitors-vote");
     const traitorsBanishBtn = document.getElementById("traitors-banish-btn");
     const traitorsMurderEl = document.getElementById("traitors-murder");
     const traitorsNightBtn = document.getElementById("traitors-night-btn");
+    const traitorsStepStartEl = document.getElementById("traitors-step-start");
+    const traitorsStepBanishEl = document.getElementById("traitors-step-banish");
+    const traitorsStepNightEl = document.getElementById("traitors-step-night");
+    const traitorsStepEndedEl = document.getElementById("traitors-step-ended");
+    const traitorsEndedTextEl = document.getElementById("traitors-ended-text");
 
     const detectorQuestionPool = [
       "What did your morning look like today?",
@@ -1206,14 +1239,32 @@
     }
 
     function updateTraitorsControls() {
-      const canAct = !!traitorsState && !traitorsBusy && traitorsState.phase !== "ended";
-      const banishment = canAct && traitorsState.phase === "banishment";
-      const night = canAct && traitorsState.phase === "night";
+      const started = !!traitorsState;
+      const ended = started && traitorsState.phase === "ended";
+      const banishment = started && traitorsState.phase === "banishment" && !traitorsBusy;
+      const night = started && traitorsState.phase === "night" && !traitorsBusy;
+
+      if (traitorsStartBtn) traitorsStartBtn.disabled = traitorsBusy || started;
+      if (traitorsResetBtn) traitorsResetBtn.disabled = traitorsBusy || !started;
+      if (traitorsNameEl) traitorsNameEl.disabled = traitorsBusy || started;
+
+      if (traitorsStepStartEl) traitorsStepStartEl.classList.toggle("is-hidden", started);
+      if (traitorsStepBanishEl) traitorsStepBanishEl.classList.toggle("is-hidden", !started || traitorsState.phase !== "banishment");
+      if (traitorsStepNightEl) traitorsStepNightEl.classList.toggle("is-hidden", !started || traitorsState.phase !== "night");
+      if (traitorsStepEndedEl) traitorsStepEndedEl.classList.toggle("is-hidden", !ended);
+
       if (traitorsStatementEl) traitorsStatementEl.disabled = !banishment;
       if (traitorsVoteEl) traitorsVoteEl.disabled = !banishment;
       if (traitorsBanishBtn) traitorsBanishBtn.disabled = !banishment;
       if (traitorsMurderEl) traitorsMurderEl.disabled = !night;
       if (traitorsNightBtn) traitorsNightBtn.disabled = !night;
+
+      if (traitorsPhaseLabelEl) {
+        if (!started) traitorsPhaseLabelEl.textContent = "Phase: Setup (8 players, you are the Traitor)";
+        else if (traitorsState.phase === "banishment") traitorsPhaseLabelEl.textContent = `Phase: Round ${traitorsState.round} Roundtable`;
+        else if (traitorsState.phase === "night") traitorsPhaseLabelEl.textContent = `Phase: Round ${traitorsState.round} Night Murder`;
+        else traitorsPhaseLabelEl.textContent = "Phase: Endgame";
+      }
     }
 
     function populateTraitorsSelects() {
@@ -1254,8 +1305,10 @@
       if (!traitorsState || traitorsState.phase !== "ended" || !traitorsState.winner) return;
       if (traitorsState.winner === "human") {
         appendTraitorsLine("host", "You made it to the end. Traitor win.");
+        if (traitorsEndedTextEl) traitorsEndedTextEl.textContent = "You reached final two. Traitor win.";
       } else {
         appendTraitorsLine("host", "The Faithful banished you. AI win.");
+        if (traitorsEndedTextEl) traitorsEndedTextEl.textContent = "You were banished before final two. AI win.";
       }
     }
 
@@ -1272,10 +1325,15 @@
 
     async function startTraitorsGame() {
       if (traitorsBusy) return;
+      const chosenName = traitorsNameEl ? traitorsNameEl.value.trim() : "";
+      if (!chosenName) {
+        appendTraitorsLine("system", "Enter your name to start.");
+        return;
+      }
       setTraitorsBusy(true);
       if (traitorsLogEl) traitorsLogEl.innerHTML = "";
       try {
-        const payload = await callWorkerPath("/traitors/start", { ai_count: 4 });
+        const payload = await callWorkerPath("/traitors/start", { ai_count: 7, human_name: chosenName });
         traitorsState = payload && payload.state ? payload.state : null;
         renderTraitorsUI();
         appendTraitorsLine("host", payload && payload.host_line ? payload.host_line : "Welcome to the round table.");
@@ -1291,6 +1349,7 @@
       if (traitorsVoteEl) traitorsVoteEl.innerHTML = "";
       if (traitorsMurderEl) traitorsMurderEl.innerHTML = "";
       if (traitorsStatementEl) traitorsStatementEl.value = "";
+      if (traitorsEndedTextEl) traitorsEndedTextEl.textContent = "Game over.";
       renderTraitorsScene();
       updateTraitorsControls();
     }
