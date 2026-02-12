@@ -30,40 +30,67 @@ function aliveAIs(state) {
 function PhaseBadge({ phase, round }) {
   const text = (() => {
     if (!phase) return 'Setup'
-    if (phase === 'day') return `Round ${round} · Day`
-    if (phase === 'roundtable') return `Round ${round} · Roundtable`
-    if (phase === 'vote') return `Round ${round} · Vote`
-    if (phase === 'night') return `Round ${round} · Turret`
+    if (phase === 'day') return `Round ${round} · Breakfast and day`
+    if (phase === 'roundtable') return `Round ${round} · Round Table`
+    if (phase === 'vote') return `Round ${round} · Banishment vote`
+    if (phase === 'night') return `Round ${round} · Traitors' Turret`
     if (phase === 'ended') return 'Endgame'
     return phase
   })()
   return <div className="phase-badge">{text}</div>
 }
 
-function Roundtable({ players }) {
+function Roundtable({ players, phase, flashTick, flashKind }) {
+  const roomActive = {
+    day: 'day',
+    roundtable: 'roundtable',
+    vote: 'vote',
+    night: 'night',
+  }[phase]
+
+  const roomStrip = (
+    <div className="room-strip" aria-label="Castle locations">
+      <div className={`room ${roomActive === 'day' ? 'active' : ''}`}>Breakfast Hall</div>
+      <div className={`room ${roomActive === 'roundtable' ? 'active' : ''}`}>Round Table</div>
+      <div className={`room ${roomActive === 'vote' ? 'active' : ''}`}>Banishment</div>
+      <div className={`room ${roomActive === 'night' ? 'active' : ''}`}>Turret</div>
+    </div>
+  )
+
   if (!players?.length) {
     return (
-      <div className="scene">
-        <div className="table" />
+      <div className="scene-wrap">
+        {roomStrip}
+        <div className={`scene ${phase || 'setup'}`}>
+          <div className="table" />
+        </div>
       </div>
     )
   }
 
   return (
-    <div className="scene">
-      <div className="table" />
-      {players.map((p, i) => {
-        const angle = (i * 360) / players.length
-        return (
-          <div
-            key={p.id}
-            className={`seat ${p.isHuman ? 'human' : ''} ${p.alive ? '' : 'dead'}`}
-            style={{ '--angle': `${angle}deg` }}
-          >
-            {p.name}
-          </div>
-        )
-      })}
+    <div className="scene-wrap">
+      {roomStrip}
+      <div className={`scene ${phase || 'setup'}`}>
+        <div className="table" />
+        <div
+          key={`${flashKind}-${flashTick}`}
+          className={`flash-layer ${flashTick ? 'active' : ''} ${flashKind || 'banishment'}`}
+          aria-hidden="true"
+        />
+        {players.map((p, i) => {
+          const angle = (i * 360) / players.length
+          return (
+            <div
+              key={p.id}
+              className={`seat ${p.isHuman ? 'human' : ''} ${p.alive ? '' : 'dead'}`}
+              style={{ '--angle': `${angle}deg` }}
+            >
+              {p.name}
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
@@ -78,6 +105,8 @@ export default function App() {
   const [nightTarget, setNightTarget] = useState('')
   const [log, setLog] = useState([])
   const [error, setError] = useState('')
+  const [flashTick, setFlashTick] = useState(0)
+  const [flashKind, setFlashKind] = useState('banishment')
 
   const started = !!state
   const phase = state?.phase || 'setup'
@@ -86,6 +115,11 @@ export default function App() {
   function append(label, text) {
     if (!text) return
     setLog((prev) => [...prev, { label, text }])
+  }
+
+  function triggerFlash(kind) {
+    setFlashKind(kind === 'night' ? 'night' : 'banishment')
+    setFlashTick((v) => v + 1)
   }
 
   function syncTargets(nextState) {
@@ -163,7 +197,10 @@ export default function App() {
       setState(data.state)
       syncTargets(data.state)
       ;(data.ai_votes || []).forEach((v) => append(`${v.name} vote`, `${v.name} votes ${v.vote}. ${v.reason || ''}`.trim()))
-      if (data.banished) append('banished', `${data.banished.name} was banished (${data.banished.role}).`)
+      if (data.banished) {
+        append('banished', `${data.banished.name} was banished (${data.banished.role}).`)
+        triggerFlash('banishment')
+      }
       append('host', data.host_line || '')
       if (data.state?.phase === 'ended') {
         append('host', data.state?.winner === 'human' ? 'You reached final two. Traitor win.' : 'The Faithful banished you. AI win.')
@@ -182,7 +219,10 @@ export default function App() {
       const data = await post('/traitors/night', { state, murder_target: nightTarget })
       setState(data.state)
       syncTargets(data.state)
-      if (data.murdered) append('turret', `You murdered ${data.murdered.name}.`)
+      if (data.murdered) {
+        append('turret', `You murdered ${data.murdered.name}.`)
+        triggerFlash('night')
+      }
       append('host', data.host_line || '')
       if (data.state?.phase === 'ended') {
         append('host', data.state?.winner === 'human' ? 'You reached final two. Traitor win.' : 'The Faithful banished you. AI win.')
@@ -201,20 +241,27 @@ export default function App() {
     setRoundtableLine('')
     setVoteTarget('')
     setNightTarget('')
+    setFlashTick(0)
+    setFlashKind('banishment')
   }
 
   return (
     <div className="app">
       <header className="top">
-        <h1>The Traitors (AI Edition)</h1>
-        <p>You are the Traitor. Survive to final two to win. AIs are trying to identify and banish the one non-AI player.</p>
+        <h1>The Traitors (UK AI Edition)</h1>
+        <p>Claudia hosts. You are the secret Traitor in a castle full of AI Faithful. Survive banishment and reach the final two to win.</p>
         <a className="back-link" href="/experiments.html">Back to experiments</a>
       </header>
 
       <div className="layout">
         <section>
           <PhaseBadge phase={phase} round={state?.round || 1} />
-          <Roundtable players={state?.players || []} />
+          <Roundtable
+            players={state?.players || []}
+            phase={phase}
+            flashTick={flashTick}
+            flashKind={flashKind}
+          />
 
           <div className="log">
             {log.map((item, idx) => (
@@ -239,37 +286,37 @@ export default function App() {
 
           {started && phase === 'day' && (
             <div className="step">
-              <label>Day conversation line</label>
-              <textarea value={dayLine} onChange={(e) => setDayLine(e.target.value)} placeholder="Blend in. Subtly redirect suspicion." />
-              <button onClick={runDay} disabled={busy}>Run day conversation</button>
+              <label>Your breakfast/daytime line</label>
+              <textarea value={dayLine} onChange={(e) => setDayLine(e.target.value)} placeholder="At breakfast and through the day, sell your Faithful story." />
+              <button onClick={runDay} disabled={busy}>Run breakfast and day</button>
             </div>
           )}
 
           {started && phase === 'roundtable' && (
             <div className="step">
-              <label>Roundtable statement</label>
-              <textarea value={roundtableLine} onChange={(e) => setRoundtableLine(e.target.value)} placeholder="Accuse someone else of being the human." />
-              <button onClick={runRoundtable} disabled={busy}>Run roundtable</button>
+              <label>Your Round Table accusation/defence</label>
+              <textarea value={roundtableLine} onChange={(e) => setRoundtableLine(e.target.value)} placeholder="At the Round Table, push suspicion onto another player." />
+              <button onClick={runRoundtable} disabled={busy}>Run Round Table</button>
             </div>
           )}
 
           {started && phase === 'vote' && (
             <div className="step">
-              <label>Your vote target</label>
+              <label>Your banishment vote (Round Table)</label>
               <select value={voteTarget} onChange={(e) => setVoteTarget(e.target.value)}>
                 {aliveAi.map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
               </select>
-              <button onClick={runVote} disabled={busy || !voteTarget}>Run vote</button>
+              <button onClick={runVote} disabled={busy || !voteTarget}>Run banishment vote</button>
             </div>
           )}
 
           {started && phase === 'night' && (
             <div className="step">
-              <label>Turret murder target</label>
+              <label>Traitors' Turret murder target</label>
               <select value={nightTarget} onChange={(e) => setNightTarget(e.target.value)}>
                 {aliveAi.map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
               </select>
-              <button onClick={runNight} disabled={busy || !nightTarget}>Commit murder</button>
+              <button onClick={runNight} disabled={busy || !nightTarget}>Run Turret night</button>
             </div>
           )}
 
