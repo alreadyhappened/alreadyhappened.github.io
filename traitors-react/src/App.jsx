@@ -7,7 +7,6 @@ import HostDialogue from './components/HostDialogue'
 import PhaseControls from './components/PhaseControls'
 import EventLog from './components/EventLog'
 import EndgameVote from './components/EndgameVote'
-import BreakfastPrelude from './components/BreakfastPrelude'
 const SPEECH_DELAY_MS = 920
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
@@ -18,42 +17,6 @@ function alivePlayers(state) {
 
 function aliveAIs(state) {
   return alivePlayers(state).filter(p => !p.isHuman)
-}
-
-function buildBreakfastPrelude(state) {
-  const ai = aliveAIs(state)
-  if (ai.length < 3) return []
-  const picks = ai.slice(0, Math.min(5, ai.length))
-  if ((state?.round || 1) === 1) {
-    return [
-      {
-        speaker: picks[0].name,
-        text: `Right, first breakfast. Everyone just breathe. No hero speeches yet.`,
-      },
-      {
-        speaker: picks[1]?.name || picks[0].name,
-        text: `Agreed. Let's start simple: what kind of tells are we actually tracking this season?`,
-      },
-      {
-        speaker: picks[2]?.name || picks[0].name,
-        text: `Consistency over time. First impressions are noisy. We'll compare stories after Round Table.`,
-      },
-    ]
-  }
-  return [
-    {
-      speaker: picks[0].name,
-      text: `I keep coming back to behaviour under pressure. Someone is over-managing their answers.`,
-    },
-    {
-      speaker: picks[1]?.name || picks[0].name,
-      text: `Agreed. Identity claims are noise. I care more about consistency between breakfast and the Round Table.`,
-    },
-    {
-      speaker: picks[2]?.name || picks[0].name,
-      text: `Let's cross-check details later. If someone pivots too cleanly, that's probably our human.`,
-    },
-  ]
 }
 
 export default function App() {
@@ -74,7 +37,6 @@ export default function App() {
   const [log, setLog] = useState([])
   const [hostText, setHostText] = useState('')
   const [lastMurdered, setLastMurdered] = useState(null)
-  const [dayPreludeLines, setDayPreludeLines] = useState([])
   const [activeSpeech, setActiveSpeech] = useState(null)
 
   // Endgame state
@@ -114,9 +76,44 @@ export default function App() {
     }
   }
 
-  function startDayPrelude(nextState) {
-    setDayPreludeLines(buildBreakfastPrelude(nextState))
-    setVisualPhase('dayPrelude')
+  async function openDayPhase() {
+    if (!sessionId || busy) return
+    setBusy(true)
+    setError('')
+    setVisualPhase('day')
+    try {
+      const data = await post('/traitors/day-open', { session_id: sessionId })
+      setGameState(data.state)
+      syncTargets(data.state)
+      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
+    } catch (e) {
+      setError(e.message)
+    }
+    setBusy(false)
+  }
+
+  async function openRoundtablePhase() {
+    if (!sessionId || busy) return
+    setBusy(true)
+    setError('')
+    setVisualPhase('roundtable')
+    try {
+      const data = await post('/traitors/roundtable-open', { session_id: sessionId })
+      setGameState(data.state)
+      syncTargets(data.state)
+      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
+    } catch (e) {
+      setError(e.message)
+    }
+    setBusy(false)
   }
 
   // === GAME ACTIONS ===
@@ -143,17 +140,13 @@ export default function App() {
   }
 
   function finishIntro() {
-    startDayPrelude(gameState)
+    openDayPhase()
     setHostText('')
   }
 
   function finishMorningReveal() {
-    startDayPrelude(gameState)
+    openDayPhase()
     setHostText('')
-  }
-
-  function finishDayPrelude() {
-    setVisualPhase('day')
   }
 
   async function runDay(opts = {}) {
@@ -174,6 +167,7 @@ export default function App() {
       await sleep(560)
       setActiveSpeech(null)
     }
+    let shouldOpenRoundtable = false
     try {
       const data = await post('/traitors/day', {
         session_id: sessionId,
@@ -187,11 +181,14 @@ export default function App() {
         setHostText(data.host_line)
       }
       setDayLine('')
-      setVisualPhase('roundtable')
+      shouldOpenRoundtable = true
     } catch (e) {
       setError(e.message)
     }
     setBusy(false)
+    if (shouldOpenRoundtable) {
+      await openRoundtablePhase()
+    }
   }
 
   async function runRoundtable(opts = {}) {
@@ -364,7 +361,6 @@ export default function App() {
     setError('')
     setHostText('')
     setLastMurdered(null)
-    setDayPreludeLines([])
     setActiveSpeech(null)
     setEndgameChoices(null)
     setEndgameOutcome(null)
@@ -422,7 +418,6 @@ export default function App() {
         <div className="game-area">
           <div className="phase-badge">
             {visualPhase === 'day' && `Round ${gameState?.round || 1} — Breakfast & Day`}
-            {visualPhase === 'dayPrelude' && `Round ${gameState?.round || 1} — Breakfast`}
             {visualPhase === 'morningReveal' && `Round ${gameState?.round || 1} — Morning`}
             {visualPhase === 'roundtable' && `Round ${gameState?.round || 1} — Round Table`}
             {visualPhase === 'vote' && `Round ${gameState?.round || 1} — Banishment Vote`}
@@ -455,14 +450,6 @@ export default function App() {
             />
           )}
 
-          {visualPhase === 'dayPrelude' && (
-            <BreakfastPrelude
-              lines={dayPreludeLines}
-              onContinue={finishDayPrelude}
-              busy={busy}
-            />
-          )}
-
           {/* Endgame vote results */}
           {endgameChoices && (
             <EndgameVote
@@ -473,7 +460,7 @@ export default function App() {
           )}
 
           {/* Controls */}
-          {visualPhase !== 'dayPrelude' && (
+          {visualPhase !== 'intro' && (
             <PhaseControls
               phase={visualPhase}
               busy={busy}
