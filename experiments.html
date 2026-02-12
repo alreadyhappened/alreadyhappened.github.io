@@ -157,6 +157,85 @@
       font-style: italic;
     }
 
+    .detector-controls {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    .detector-btn {
+      background: none;
+      border: 1px solid #ccc;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 0.95rem;
+      padding: 0.3rem 0.65rem;
+      cursor: pointer;
+      color: #000;
+    }
+
+    .detector-btn:hover {
+      border-color: #000;
+    }
+
+    .detector-btn.subtle {
+      color: #666;
+      border-color: #ddd;
+    }
+
+    .detector-status {
+      color: #333;
+      margin-bottom: 0.75rem;
+    }
+
+    .detector-log {
+      border-left: 1px solid #ddd;
+      padding-left: 0.8rem;
+      margin-bottom: 1rem;
+      min-height: 120px;
+    }
+
+    .detector-line {
+      margin-bottom: 0.8rem;
+    }
+
+    .detector-line .label {
+      color: #888;
+      font-style: italic;
+      font-size: 0.85rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .detector-line.verdict .label {
+      color: #000;
+    }
+
+    .detector-input-row {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-end;
+    }
+
+    .detector-input {
+      flex: 1;
+      padding: 0.5rem 0;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 1rem;
+      color: #000;
+      outline: none;
+    }
+
+    .detector-input:focus {
+      border-bottom-color: #000;
+    }
+
+    .is-hidden {
+      display: none;
+    }
+
     @media (max-width: 860px) {
       .experiments-layout {
         grid-template-columns: 1fr;
@@ -185,7 +264,7 @@
   <div class="experiments-layout">
     <aside class="experiments-menu" aria-label="Experiment menu">
       <button class="experiment-tab active" data-panel="panel-chat" type="button">AI Me (chat)</button>
-      <button class="experiment-tab" data-panel="panel-memory" type="button">Memory archive</button>
+      <button class="experiment-tab" data-panel="panel-detector" type="button">AI detector</button>
       <button class="experiment-tab" data-panel="panel-fragments" type="button">Fragment combiner</button>
     </aside>
 
@@ -204,9 +283,23 @@
         </div>
       </article>
 
-      <article class="experiment-panel" id="panel-memory">
-        <h1 class="experiment-title">Memory archive</h1>
-        <p class="experiment-description">A simple prototype for browsing personal notes by theme and date. This is currently in progress.</p>
+      <article class="experiment-panel" id="panel-detector">
+        <h1 class="experiment-title">AI detector</h1>
+        <p class="experiment-description">A chatbot interrogates the respondent and tries to guess: human or AI. You can play as yourself, or watch an AI play.</p>
+
+        <div class="detector-controls">
+          <button class="detector-btn" id="play-human-btn" type="button">Play yourself</button>
+          <button class="detector-btn" id="watch-ai-btn" type="button">Watch AI play</button>
+          <button class="detector-btn subtle" id="reset-detector-btn" type="button">Reset</button>
+        </div>
+
+        <p class="detector-status" id="detector-status">Choose a mode to start.</p>
+        <div class="detector-log" id="detector-log" aria-live="polite"></div>
+
+        <div class="detector-input-row is-hidden" id="detector-input-row">
+          <input type="text" class="detector-input" id="detector-input" placeholder="Type your answer..." autocomplete="off">
+          <button class="chat-send" id="detector-send" type="button">send answer</button>
+        </div>
       </article>
 
       <article class="experiment-panel" id="panel-fragments">
@@ -299,6 +392,180 @@
     function removeTyping() {
       const t = document.getElementById("typing");
       if (t) t.remove();
+    }
+
+    const detectorPanel = document.getElementById("panel-detector");
+    const detectorLogEl = document.getElementById("detector-log");
+    const detectorStatusEl = document.getElementById("detector-status");
+    const detectorInputRow = document.getElementById("detector-input-row");
+    const detectorInput = document.getElementById("detector-input");
+    const detectorSend = document.getElementById("detector-send");
+    const playHumanBtn = document.getElementById("play-human-btn");
+    const watchAiBtn = document.getElementById("watch-ai-btn");
+    const resetDetectorBtn = document.getElementById("reset-detector-btn");
+
+    const detectorQuestions = [
+      "What did you do in the last hour?",
+      "What is one opinion you have that most people around you disagree with?",
+      "Tell me about a mistake you made recently.",
+      "Describe something mundane in a way only you would."
+    ];
+
+    const watchAiAnswers = [
+      "In the last hour, I processed multiple prompts and generated responses based on learned language patterns.",
+      "One controversial view is that clear structure usually beats spontaneous creativity in communication tasks.",
+      "A recent error was giving an overconfident answer before requesting enough context, which reduced usefulness.",
+      "A coffee mug can be understood as a thermal vessel optimized for repetitive daily hydration rituals."
+    ];
+
+    const detectorState = {
+      mode: null,
+      step: 0,
+      answers: [],
+      watching: false
+    };
+
+    if (playHumanBtn) playHumanBtn.addEventListener("click", startHumanGame);
+    if (watchAiBtn) watchAiBtn.addEventListener("click", startWatchGame);
+    if (resetDetectorBtn) resetDetectorBtn.addEventListener("click", resetDetector);
+    if (detectorSend) detectorSend.addEventListener("click", submitHumanAnswer);
+    if (detectorInput) {
+      detectorInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") submitHumanAnswer();
+      });
+    }
+
+    function setDetectorStatus(text) {
+      if (detectorStatusEl) detectorStatusEl.textContent = text;
+    }
+
+    function appendDetectorLine(label, text, isVerdict) {
+      if (!detectorLogEl) return;
+      const row = document.createElement("div");
+      row.className = isVerdict ? "detector-line verdict" : "detector-line";
+      row.innerHTML = `<div class="label">${label}</div><div>${text}</div>`;
+      detectorLogEl.appendChild(row);
+      detectorLogEl.scrollTop = detectorLogEl.scrollHeight;
+    }
+
+    function resetDetector() {
+      detectorState.mode = null;
+      detectorState.step = 0;
+      detectorState.answers = [];
+      detectorState.watching = false;
+      if (detectorLogEl) detectorLogEl.innerHTML = "";
+      if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
+      if (detectorInput) detectorInput.value = "";
+      setDetectorStatus("Choose a mode to start.");
+    }
+
+    function askNextQuestion() {
+      const q = detectorQuestions[detectorState.step];
+      if (q) appendDetectorLine("interrogator", q, false);
+    }
+
+    function startHumanGame() {
+      resetDetector();
+      detectorState.mode = "human";
+      setDetectorStatus("Mode: Play yourself. Answer all 4 questions.");
+      if (detectorInputRow) detectorInputRow.classList.remove("is-hidden");
+      askNextQuestion();
+      if (detectorInput) detectorInput.focus();
+    }
+
+    function submitHumanAnswer() {
+      if (detectorState.mode !== "human" || !detectorInput || !detectorPanel.classList.contains("active")) return;
+      const text = detectorInput.value.trim();
+      if (!text) return;
+
+      appendDetectorLine("you", text, false);
+      detectorState.answers.push(text);
+      detectorInput.value = "";
+      detectorState.step += 1;
+
+      if (detectorState.step < detectorQuestions.length) {
+        askNextQuestion();
+        detectorInput.focus();
+      } else {
+        endRound(detectorState.answers.join(" "));
+      }
+    }
+
+    function startWatchGame() {
+      resetDetector();
+      detectorState.mode = "watch";
+      detectorState.watching = true;
+      setDetectorStatus("Mode: Watch AI play. Running simulation...");
+
+      runWatchTurn(0);
+    }
+
+    function runWatchTurn(index) {
+      if (!detectorState.watching || detectorState.mode !== "watch") return;
+
+      if (index >= detectorQuestions.length) {
+        endRound(watchAiAnswers.join(" "));
+        return;
+      }
+
+      appendDetectorLine("interrogator", detectorQuestions[index], false);
+      setTimeout(() => {
+        if (!detectorState.watching) return;
+        appendDetectorLine("respondent", watchAiAnswers[index], false);
+        runWatchTurn(index + 1);
+      }, 550);
+    }
+
+    function endRound(text) {
+      detectorState.watching = false;
+      if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
+
+      const verdict = getVerdict(text);
+      setDetectorStatus(`Verdict: ${verdict.guess} (${verdict.confidence}% confidence)`);
+      appendDetectorLine("verdict", `I think this respondent is ${verdict.guess.toLowerCase()} (${verdict.confidence}% confidence). ${verdict.reason}`, true);
+    }
+
+    function getVerdict(text) {
+      const lowered = text.toLowerCase();
+      const aiSignals = [
+        "as an ai",
+        "language model",
+        "processed prompts",
+        "optimize",
+        "based on",
+        "multiple prompts",
+        "communication tasks",
+        "structured"
+      ];
+      const humanSignals = [
+        "i dunno",
+        "kinda",
+        "lol",
+        "mate",
+        "yesterday",
+        "my friend",
+        "my mum",
+        "my dad",
+        "coffee spilled",
+        "train",
+        "pub"
+      ];
+
+      let score = 0;
+      aiSignals.forEach((s) => {
+        if (lowered.includes(s)) score += 1;
+      });
+      humanSignals.forEach((s) => {
+        if (lowered.includes(s)) score -= 1;
+      });
+
+      const guess = score >= 2 ? "AI" : "Human";
+      const confidence = Math.max(55, Math.min(95, 58 + Math.abs(score) * 9));
+      const reason = score >= 2
+        ? "The responses were unusually polished and abstract."
+        : "The responses included personal and grounded details.";
+
+      return { guess, confidence, reason };
     }
   </script>
 </body>
