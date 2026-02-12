@@ -635,32 +635,38 @@
       setDetectorStatus("Mode: Watch AI play. Running two-model simulation...");
 
       try {
-        const payload = await callWorkerPath("/detector/watch", { questions: detectorQuestions });
-        const transcript = Array.isArray(payload.transcript) ? payload.transcript : [];
-        const verdict = payload && payload.verdict ? payload.verdict : null;
-        const meta = payload && payload.meta ? payload.meta : null;
+        const watchPairs = [];
+        let watchMeta = null;
 
-        if (!transcript.length || !verdict) {
-          throw new Error("Missing transcript or verdict in detector watch response.");
+        for (let turn = 0; turn < detectorQuestions.length; turn += 1) {
+          if (!detectorState.watching) break;
+          setDetectorStatus(`Mode: Watch AI play. Running round ${turn + 1}/${detectorQuestions.length}...`);
+
+          const turnPayload = await callWorkerPath("/detector/watch-turn", {
+            questions: detectorQuestions,
+            qa_pairs: watchPairs,
+            turn_index: turn
+          });
+
+          if (turnPayload && turnPayload.meta) watchMeta = turnPayload.meta;
+          if (turnPayload && turnPayload.done) break;
+          if (!turnPayload || !turnPayload.question || !turnPayload.answer) {
+            throw new Error("Missing turn question/answer in watch-turn response.");
+          }
+
+          appendDetectorLine("interrogator", turnPayload.question, false);
+          appendDetectorLine("respondent", turnPayload.answer, false);
+          watchPairs.push({ question: turnPayload.question, answer: turnPayload.answer });
         }
 
-        transcript.forEach((line) => {
-          const label = line.role === "respondent" ? "respondent" : "interrogator";
-          appendDetectorLine(label, line.text || "", false);
-        });
+        if (!watchPairs.length) {
+          throw new Error("Watch mode produced no transcript turns.");
+        }
 
-        const normalVerdict = {
-          guess: verdict.guess === "AI" ? "AI" : "Human",
-          confidence: Number.isFinite(verdict.confidence) ? Math.max(50, Math.min(99, Math.round(verdict.confidence))) : 70,
-          reason: typeof verdict.reason === "string" && verdict.reason.trim() ? verdict.reason.trim() : "Classified from conversation patterns."
-        };
-
-        const correct = recordRound(normalVerdict, "AI");
-        setDetectorStatus(`Verdict: ${normalVerdict.guess} (${normalVerdict.confidence}% confidence)`);
-        appendDetectorLine("verdict", `I think this respondent is ${normalVerdict.guess.toLowerCase()} (${normalVerdict.confidence}% confidence). ${normalVerdict.reason}`, true);
-        appendDetectorLine("result", `Ground truth: AI. AI got it ${correct ? "right" : "wrong"}.`, true);
-        if (meta && meta.interrogator_model && meta.respondent_model) {
-          appendDetectorLine("models", `Interrogator: ${meta.interrogator_model}. Respondent: ${meta.respondent_model}.`, true);
+        detectorState.watchHistory = watchPairs;
+        await endRound(watchPairs.map((pair) => pair.answer));
+        if (watchMeta && watchMeta.interrogator_model && watchMeta.respondent_model) {
+          appendDetectorLine("models", `Interrogator: ${watchMeta.interrogator_model}. Respondent: ${watchMeta.respondent_model}.`, true);
         }
       } catch (e) {
         setDetectorStatus("Could not run watch mode right now.");
