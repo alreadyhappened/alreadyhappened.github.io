@@ -810,7 +810,7 @@
 
       setDetectorStatus(`Verdict: ${verdict.guess} (${verdict.confidence}% confidence)`);
       appendDetectorLine("verdict", `I think this respondent is ${verdict.guess.toLowerCase()} (${verdict.confidence}% confidence). ${verdict.reason}`, true);
-      appendDetectorLine("result", `Ground truth: ${groundTruth}. AI got it ${correct ? "right" : "wrong"}.`, true);
+      appendDetectorLine("result", `Actual identity: ${groundTruth}. The detector got it ${correct ? "right" : "wrong"}.`, true);
       setDetectorControlsDisabled(false);
     }
 
