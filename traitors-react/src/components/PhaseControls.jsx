@@ -6,6 +6,8 @@ export default function PhaseControls({
   dayLine, setDayLine, onRunDay, onRunDaySilent,
   // Roundtable
   roundtableLine, setRoundtableLine, onRunRoundtable, onRunRoundtableSilent,
+  // Parlor
+  parlorLine, setParlorLine, onRunParlor, onRunParlorSilent,
   // Vote
   voteTarget, setVoteTarget, onRunVote,
   // Night
@@ -53,6 +55,27 @@ export default function PhaseControls({
           {busy ? 'waiting...' : 'Continue'}
         </button>
         <button className="quiet-btn" onClick={onRunRoundtableSilent} disabled={busy}>
+          Say nothing
+        </button>
+      </div>
+    )
+  }
+
+  if (phase === 'parlor') {
+    return (
+      <div className="phase-controls parlor">
+        <div className="controls-label">Private Conversation</div>
+        <textarea
+          value={parlorLine}
+          onChange={e => setParlorLine(e.target.value)}
+          placeholder="One-to-one chat. Keep your story believable without sounding rehearsed..."
+          disabled={busy}
+          rows={3}
+        />
+        <button onClick={onRunParlor} disabled={busy}>
+          {busy ? 'waiting...' : 'Continue'}
+        </button>
+        <button className="quiet-btn" onClick={onRunParlorSilent} disabled={busy}>
           Say nothing
         </button>
       </div>

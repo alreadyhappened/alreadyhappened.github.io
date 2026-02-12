@@ -45,6 +45,7 @@ export default function App() {
 
   // Input state
   const [dayLine, setDayLine] = useState('')
+  const [parlorLine, setParlorLine] = useState('')
   const [roundtableLine, setRoundtableLine] = useState('')
   const [voteTarget, setVoteTarget] = useState('')
   const [nightTarget, setNightTarget] = useState('')
@@ -52,9 +53,19 @@ export default function App() {
   const alive = useMemo(() => alivePlayers(gameState), [gameState])
   const aliveAi = useMemo(() => aliveAIs(gameState), [gameState])
 
+  function prettyLabel(label) {
+    const raw = String(label || '').trim()
+    if (!raw) return ''
+    if (raw.toLowerCase() === 'you') return 'You'
+    if (raw.toLowerCase() === 'host') return 'Host'
+    if (raw.toLowerCase() === 'banished') return 'Banished'
+    if (raw.toLowerCase() === 'turret') return 'Turret'
+    return raw.charAt(0).toUpperCase() + raw.slice(1)
+  }
+
   function appendLog(label, text) {
     if (!text) return
-    setLog(prev => [...prev, { label, text }])
+    setLog(prev => [...prev, { label: prettyLabel(label), text }])
   }
 
   async function speakSequential(lines, formatter) {
@@ -116,6 +127,26 @@ export default function App() {
     setBusy(false)
   }
 
+  async function openParlorPhase() {
+    if (!sessionId || busy) return
+    setBusy(true)
+    setError('')
+    setVisualPhase('parlor')
+    try {
+      const data = await post('/traitors/parlor-open', { session_id: sessionId })
+      setGameState(data.state)
+      syncTargets(data.state)
+      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
+    } catch (e) {
+      setError(e.message)
+    }
+    setBusy(false)
+  }
+
   // === GAME ACTIONS ===
 
   async function startGame() {
@@ -127,7 +158,7 @@ export default function App() {
     setError('')
     setLog([])
     try {
-      const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 5 })
+      const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 6 })
       setGameState(data.state)
       setSessionId(data.session_id || '')
       setStarted(true)
@@ -167,7 +198,7 @@ export default function App() {
       await sleep(560)
       setActiveSpeech(null)
     }
-    let shouldOpenRoundtable = false
+    let shouldOpenParlor = false
     try {
       const data = await post('/traitors/day', {
         session_id: sessionId,
@@ -181,6 +212,48 @@ export default function App() {
         setHostText(data.host_line)
       }
       setDayLine('')
+      shouldOpenParlor = true
+    } catch (e) {
+      setError(e.message)
+    }
+    setBusy(false)
+    if (shouldOpenParlor) {
+      await openParlorPhase()
+    }
+  }
+
+  async function runParlor(opts = {}) {
+    if (!gameState || busy) return
+    const silent = !!opts.silent
+    const spoken = parlorLine.trim()
+    const parlorStatement = silent ? '[SILENT_AT_PARLOR]' : spoken
+    setBusy(true)
+    setError('')
+    if (silent) {
+      appendLog('you', 'You keep your cards close in the private chat.')
+      setActiveSpeech({ playerId: 'human', text: '...I stay guarded.' })
+      await sleep(560)
+      setActiveSpeech(null)
+    } else if (spoken) {
+      appendLog('you', spoken)
+      setActiveSpeech({ playerId: 'human', text: spoken })
+      await sleep(560)
+      setActiveSpeech(null)
+    }
+    let shouldOpenRoundtable = false
+    try {
+      const data = await post('/traitors/parlor-turn', {
+        session_id: sessionId,
+        human_parlor_statement: parlorStatement,
+      })
+      setGameState(data.state)
+      syncTargets(data.state)
+      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
+      setParlorLine('')
       shouldOpenRoundtable = true
     } catch (e) {
       setError(e.message)
@@ -365,6 +438,7 @@ export default function App() {
     setEndgameChoices(null)
     setEndgameOutcome(null)
     setDayLine('')
+    setParlorLine('')
     setRoundtableLine('')
     setVoteTarget('')
     setNightTarget('')
@@ -418,6 +492,7 @@ export default function App() {
         <div className="game-area">
           <div className="phase-badge">
             {visualPhase === 'day' && `Round ${gameState?.round || 1} — Breakfast & Day`}
+            {visualPhase === 'parlor' && `Round ${gameState?.round || 1} — Private Conversation`}
             {visualPhase === 'morningReveal' && `Round ${gameState?.round || 1} — Morning`}
             {visualPhase === 'roundtable' && `Round ${gameState?.round || 1} — Round Table`}
             {visualPhase === 'vote' && `Round ${gameState?.round || 1} — Banishment Vote`}
@@ -431,6 +506,7 @@ export default function App() {
             phase={visualPhase}
             lastMurdered={lastMurdered}
             activeSpeech={activeSpeech}
+            parlorPartnerId={gameState?.parlorPartnerId || ''}
           />
 
           {/* Morning reveal overlay */}
@@ -469,11 +545,15 @@ export default function App() {
               setDayLine={setDayLine}
             onRunDay={runDay}
             onRunDaySilent={() => runDay({ silent: true })}
-            roundtableLine={roundtableLine}
-            setRoundtableLine={setRoundtableLine}
-            onRunRoundtable={runRoundtable}
-            onRunRoundtableSilent={() => runRoundtable({ silent: true })}
-            voteTarget={voteTarget}
+              roundtableLine={roundtableLine}
+              setRoundtableLine={setRoundtableLine}
+              onRunRoundtable={runRoundtable}
+              onRunRoundtableSilent={() => runRoundtable({ silent: true })}
+              parlorLine={parlorLine}
+              setParlorLine={setParlorLine}
+              onRunParlor={runParlor}
+              onRunParlorSilent={() => runParlor({ silent: true })}
+              voteTarget={voteTarget}
               setVoteTarget={setVoteTarget}
               onRunVote={runVote}
               nightTarget={nightTarget}

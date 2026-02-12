@@ -11,20 +11,25 @@ const ROUNDTABLE_SEATS = [
 ]
 
 const TURRET_CENTER = { x: 455, y: 248 }
+const PARLOR_HUMAN = { x: 360, y: 320 }
+const PARLOR_AI = { x: 550, y: 320 }
 
 function sceneRoom(phase) {
   if (phase === 'night') return 'turret'
+  if (phase === 'parlor') return 'parlor'
   if (phase === 'roundtable' || phase === 'vote' || phase === 'endgame_choice') return 'roundtable'
   return 'breakfast'
 }
 
-function playerPosition(player, index, phase, players) {
+function playerPosition(player, index, phase, players, parlorPartnerId) {
   const room = sceneRoom(phase)
   if (room === 'turret') {
-    if (player.isHuman) return TURRET_CENTER
-    const ai = players.filter((p) => !p.isHuman && p.alive)
-    const aiIndex = ai.findIndex((p) => p.id === player.id)
-    return ROUNDTABLE_SEATS[Math.max(0, aiIndex)] || ROUNDTABLE_SEATS[0]
+    return TURRET_CENTER
+  }
+  if (room === 'parlor') {
+    if (player.isHuman) return PARLOR_HUMAN
+    if (player.id === parlorPartnerId) return PARLOR_AI
+    return PARLOR_AI
   }
   const seats = room === 'roundtable' ? ROUNDTABLE_SEATS : BREAKFAST_SEATS
   return seats[index] || seats[0]
@@ -34,12 +39,17 @@ function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value))
 }
 
-export default function CastleMap({ players, phase, lastMurdered, activeSpeech }) {
+export default function CastleMap({ players, phase, lastMurdered, activeSpeech, parlorPartnerId }) {
   const room = sceneRoom(phase)
   const isMorning = phase === 'morningReveal'
-  const isPrelude = phase === 'dayPrelude'
+  const isPrelude = phase === 'day'
 
-  const visiblePlayers = (players || []).filter((p) => p.alive || isMorning)
+  let visiblePlayers = (players || []).filter((p) => p.alive || isMorning)
+  if (room === 'turret') {
+    visiblePlayers = visiblePlayers.filter((p) => p.isHuman)
+  } else if (room === 'parlor') {
+    visiblePlayers = visiblePlayers.filter((p) => p.isHuman || p.id === parlorPartnerId)
+  }
   const aliveAi = (players || []).filter((p) => p.alive && !p.isHuman)
 
   const aiGazePairs = isPrelude
@@ -54,7 +64,7 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech }
     if (!activeSpeech?.playerId || !activeSpeech?.text) return null
     const targetIndex = visiblePlayers.findIndex((p) => p.id === activeSpeech.playerId)
     if (targetIndex < 0) return null
-    const pos = playerPosition(visiblePlayers[targetIndex], targetIndex, phase, visiblePlayers)
+    const pos = playerPosition(visiblePlayers[targetIndex], targetIndex, phase, visiblePlayers, parlorPartnerId)
     const text = String(activeSpeech.text).replace(/\s+/g, ' ').trim()
     if (!text) return null
     const safeText = text.length > 92 ? `${text.slice(0, 89)}...` : text
@@ -80,13 +90,15 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech }
           </radialGradient>
         </defs>
 
-        <rect width="900" height="540" fill="#13111a" />
+        <rect width="900" height="540" fill="#120e18" />
+        <circle cx="120" cy="80" r="220" fill="#5f3b5f" opacity="0.15" />
+        <circle cx="790" cy="100" r="180" fill="#3f6f6a" opacity="0.12" />
 
         {room === 'breakfast' && (
           <g>
-            <rect x="220" y="180" width="470" height="290" rx="6" fill="url(#stone)" stroke="#4a4538" strokeWidth="2" />
-            <rect x="228" y="188" width="454" height="274" rx="3" fill="#1f2420" />
-            <rect x="350" y="318" width="210" height="28" rx="3" fill="#5a4832" stroke="#7a6342" strokeWidth="1.4" />
+            <rect x="220" y="172" width="470" height="304" rx="18" fill="url(#stone)" stroke="#8f6e58" strokeWidth="2" />
+            <rect x="232" y="184" width="446" height="280" rx="12" fill="#21302a" />
+            <rect x="338" y="314" width="234" height="34" rx="10" fill="#7b4d3f" stroke="#d9ab7e" strokeWidth="1.4" />
             <circle cx="393" cy="332" r="3" fill="#dcb978" className="candle-flicker" />
             <circle cx="515" cy="332" r="3" fill="#dcb978" className="candle-flicker-alt" />
             <ellipse cx="455" cy="325" rx="220" ry="110" fill="url(#candle-light)" opacity="0.35" />
@@ -94,11 +106,23 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech }
           </g>
         )}
 
+        {room === 'parlor' && (
+          <g>
+            <rect x="245" y="166" width="420" height="300" rx="18" fill="url(#stone)" stroke="#936e8b" strokeWidth="2" />
+            <rect x="257" y="178" width="396" height="276" rx="12" fill="#2c1f32" />
+            <rect x="338" y="250" width="234" height="28" rx="8" fill="#5a3c63" stroke="#8f74a6" strokeWidth="1.2" />
+            <rect x="356" y="292" width="90" height="50" rx="8" fill="#3f4e66" stroke="#8fa8c8" strokeWidth="1.2" />
+            <rect x="464" y="292" width="90" height="50" rx="8" fill="#66433f" stroke="#c59892" strokeWidth="1.2" />
+            <ellipse cx="455" cy="312" rx="170" ry="118" fill="url(#candle-light)" opacity="0.28" />
+            <text x="455" y="500" textAnchor="middle" className="room-label">Parlor</text>
+          </g>
+        )}
+
         {room === 'roundtable' && (
           <g>
-            <rect x="250" y="140" width="410" height="340" rx="6" fill="url(#stone)" stroke="#4a3d5c" strokeWidth="2" />
-            <rect x="258" y="148" width="394" height="324" rx="3" fill="#211a2e" />
-            <circle cx="455" cy="332" r="64" fill="#5a3f2a" stroke="#8f7250" strokeWidth="2" />
+            <rect x="250" y="140" width="410" height="340" rx="16" fill="url(#stone)" stroke="#8a6592" strokeWidth="2" />
+            <rect x="260" y="150" width="390" height="320" rx="12" fill="#211a2e" />
+            <circle cx="455" cy="332" r="74" fill="#60422f" stroke="#b08b64" strokeWidth="2.2" />
             <circle cx="455" cy="332" r="56" fill="none" stroke="#7a6040" strokeWidth="0.6" opacity="0.45" />
             <circle cx="455" cy="332" r="8" fill="#dcb978" className="candle-flicker" />
             <ellipse cx="455" cy="332" rx="170" ry="130" fill="url(#candle-light)" opacity="0.3" />
@@ -108,9 +132,9 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech }
 
         {room === 'turret' && (
           <g>
-            <ellipse cx="455" cy="250" rx="160" ry="190" fill="url(#stone)" stroke="#4a3d5c" strokeWidth="2" />
-            <ellipse cx="455" cy="250" rx="152" ry="182" fill="#1a1428" />
-            <ellipse cx="455" cy="248" rx="36" ry="28" fill="#3a2a44" stroke="#5a4870" strokeWidth="1" opacity="0.8" />
+            <ellipse cx="455" cy="250" rx="170" ry="200" fill="url(#stone)" stroke="#805a86" strokeWidth="2" />
+            <ellipse cx="455" cy="250" rx="158" ry="186" fill="#1a1428" />
+            <ellipse cx="455" cy="248" rx="42" ry="32" fill="#3a2a44" stroke="#8b6ba0" strokeWidth="1.2" opacity="0.85" />
             <circle cx="428" cy="214" r="3" fill="#dcb978" className="candle-flicker" />
             <circle cx="482" cy="214" r="3" fill="#dcb978" className="candle-flicker-alt" />
             <ellipse cx="455" cy="248" rx="120" ry="110" fill="url(#candle-light)" opacity="0.35" />
@@ -140,7 +164,7 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech }
 
         {visiblePlayers.map((player, index) => {
           if (isMorning && lastMurdered && player.id === lastMurdered.id) return null
-          const pos = playerPosition(player, index, phase, visiblePlayers)
+          const pos = playerPosition(player, index, phase, visiblePlayers, parlorPartnerId)
           return (
             <PlayerToken
               key={player.id}
