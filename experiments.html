@@ -491,7 +491,7 @@
   <div class="experiments-layout">
     <aside class="experiments-menu" aria-label="Experiment menu">
       <button class="experiment-tab active" data-panel="panel-detector" type="button">AI Detector</button>
-      <button class="experiment-tab" data-panel="panel-traitors" type="button">The Traitors</button>
+      <button class="experiment-tab" data-href="/traitors/" type="button">The Traitors</button>
       <button class="experiment-tab" data-panel="panel-chat" type="button">AI Me (chat)</button>
     </aside>
 
@@ -627,6 +627,11 @@
 
     tabs.forEach((tab) => {
       tab.addEventListener("click", () => {
+        const href = tab.dataset.href;
+        if (href) {
+          window.location.href = href;
+          return;
+        }
         tabs.forEach((t) => t.classList.remove("active"));
         panels.forEach((p) => p.classList.remove("active"));
 
