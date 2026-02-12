@@ -1,137 +1,67 @@
 import { useMemo, useState } from 'react'
-
-const WORKER_URL = 'https://stefan-chatbot.stefankelly.workers.dev'
-
-function parseError(e) {
-  if (e instanceof Error) return e.message
-  return String(e)
-}
-
-async function post(path, payload) {
-  const res = await fetch(`${WORKER_URL}${path}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload || {}),
-  })
-  const data = await res.json()
-  if (!res.ok) throw new Error(data?.message || `HTTP ${res.status}`)
-  return data
-}
+import { post } from './api'
+import CastleMap from './components/CastleMap'
+import IntroSequence from './components/IntroSequence'
+import MorningReveal from './components/MorningReveal'
+import HostDialogue from './components/HostDialogue'
+import PhaseControls from './components/PhaseControls'
+import EventLog from './components/EventLog'
+import EndgameVote from './components/EndgameVote'
 
 function alivePlayers(state) {
-  if (!state || !Array.isArray(state.players)) return []
-  return state.players.filter((p) => p.alive)
+  if (!state?.players) return []
+  return state.players.filter(p => p.alive)
 }
 
 function aliveAIs(state) {
-  return alivePlayers(state).filter((p) => !p.isHuman)
-}
-
-function PhaseBadge({ phase, round }) {
-  const text = (() => {
-    if (!phase) return 'Setup'
-    if (phase === 'day') return `Round ${round} · Breakfast and day`
-    if (phase === 'roundtable') return `Round ${round} · Round Table`
-    if (phase === 'vote') return `Round ${round} · Banishment vote`
-    if (phase === 'night') return `Round ${round} · Traitors' Turret`
-    if (phase === 'ended') return 'Endgame'
-    return phase
-  })()
-  return <div className="phase-badge">{text}</div>
-}
-
-function Roundtable({ players, phase, flashTick, flashKind }) {
-  const roomActive = {
-    day: 'day',
-    roundtable: 'roundtable',
-    vote: 'vote',
-    night: 'night',
-  }[phase]
-
-  const roomStrip = (
-    <div className="room-strip" aria-label="Castle locations">
-      <div className={`room ${roomActive === 'day' ? 'active' : ''}`}>Breakfast Hall</div>
-      <div className={`room ${roomActive === 'roundtable' ? 'active' : ''}`}>Round Table</div>
-      <div className={`room ${roomActive === 'vote' ? 'active' : ''}`}>Banishment</div>
-      <div className={`room ${roomActive === 'night' ? 'active' : ''}`}>Turret</div>
-    </div>
-  )
-
-  if (!players?.length) {
-    return (
-      <div className="scene-wrap">
-        {roomStrip}
-        <div className={`scene ${phase || 'setup'}`}>
-          <div className="table" />
-        </div>
-      </div>
-    )
-  }
-
-  return (
-    <div className="scene-wrap">
-      {roomStrip}
-      <div className={`scene ${phase || 'setup'}`}>
-        <div className="table" />
-        <div
-          key={`${flashKind}-${flashTick}`}
-          className={`flash-layer ${flashTick ? 'active' : ''} ${flashKind || 'banishment'}`}
-          aria-hidden="true"
-        />
-        {players.map((p, i) => {
-          const angle = (i * 360) / players.length
-          return (
-            <div
-              key={p.id}
-              className={`seat ${p.isHuman ? 'human' : ''} ${p.alive ? '' : 'dead'}`}
-              style={{ '--angle': `${angle}deg` }}
-            >
-              {p.name}
-            </div>
-          )
-        })}
-      </div>
-    </div>
-  )
+  return alivePlayers(state).filter(p => !p.isHuman)
 }
 
 export default function App() {
+  // Setup
   const [name, setName] = useState('')
-  const [state, setState] = useState(null)
+  const [started, setStarted] = useState(false)
+
+  // Game state from backend
+  const [gameState, setGameState] = useState(null)
+
+  // Visual phase (frontend sub-phases on top of backend phases)
+  const [visualPhase, setVisualPhase] = useState('setup')
+
+  // UI state
   const [busy, setBusy] = useState(false)
+  const [error, setError] = useState('')
+  const [log, setLog] = useState([])
+  const [hostText, setHostText] = useState('')
+  const [lastMurdered, setLastMurdered] = useState(null)
+
+  // Endgame state
+  const [endgameChoices, setEndgameChoices] = useState(null)
+  const [endgameOutcome, setEndgameOutcome] = useState(null)
+
+  // Input state
   const [dayLine, setDayLine] = useState('')
   const [roundtableLine, setRoundtableLine] = useState('')
   const [voteTarget, setVoteTarget] = useState('')
   const [nightTarget, setNightTarget] = useState('')
-  const [log, setLog] = useState([])
-  const [error, setError] = useState('')
-  const [flashTick, setFlashTick] = useState(0)
-  const [flashKind, setFlashKind] = useState('banishment')
 
-  const started = !!state
-  const phase = state?.phase || 'setup'
-  const aliveAi = useMemo(() => aliveAIs(state), [state])
+  const alive = useMemo(() => alivePlayers(gameState), [gameState])
+  const aliveAi = useMemo(() => aliveAIs(gameState), [gameState])
 
-  function append(label, text) {
+  function appendLog(label, text) {
     if (!text) return
-    setLog((prev) => [...prev, { label, text }])
+    setLog(prev => [...prev, { label, text }])
   }
 
-  function triggerFlash(kind) {
-    setFlashKind(kind === 'night' ? 'night' : 'banishment')
-    setFlashTick((v) => v + 1)
-  }
-
-  function syncTargets(nextState) {
-    const ai = aliveAIs(nextState)
+  function syncTargets(state) {
+    const ai = aliveAIs(state)
     if (ai.length) {
-      setVoteTarget((cur) => (ai.some((p) => p.id === cur) ? cur : ai[0].id))
-      setNightTarget((cur) => (ai.some((p) => p.id === cur) ? cur : ai[0].id))
-    } else {
-      setVoteTarget('')
-      setNightTarget('')
+      setVoteTarget(cur => ai.some(p => p.id === cur) ? cur : ai[0].id)
+      setNightTarget(cur => ai.some(p => p.id === cur) ? cur : ai[0].id)
     }
   }
+
+  // === GAME ACTIONS ===
 
   async function startGame() {
     if (!name.trim()) {
@@ -143,192 +73,341 @@ export default function App() {
     setLog([])
     try {
       const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 7 })
-      setState(data.state)
+      setGameState(data.state)
+      setStarted(true)
       syncTargets(data.state)
-      append('host', data.host_line || 'The game begins.')
+      setVisualPhase('intro')
     } catch (e) {
-      setError(parseError(e))
+      setError(e.message)
     }
     setBusy(false)
   }
 
+  function finishIntro() {
+    setVisualPhase('day')
+    setHostText('')
+  }
+
+  function finishMorningReveal() {
+    setVisualPhase('day')
+    setHostText('')
+  }
+
   async function runDay() {
-    if (!state || phase !== 'day') return
+    if (!gameState || busy) return
     setBusy(true)
     setError('')
-    if (dayLine.trim()) append('you', dayLine.trim())
+    if (dayLine.trim()) appendLog('you', dayLine.trim())
     try {
-      const data = await post('/traitors/day', { state, human_day_statement: dayLine.trim() })
-      setState(data.state)
+      const data = await post('/traitors/day', {
+        state: gameState,
+        human_day_statement: dayLine.trim(),
+      })
+      setGameState(data.state)
       syncTargets(data.state)
-      ;(data.ai_turns || []).forEach((t) => append(t.name || t.id, t.statement || ''))
-      append('host', data.host_line || '')
+      ;(data.ai_turns || []).forEach(t => appendLog(t.name || t.id, t.statement || ''))
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
       setDayLine('')
+      setVisualPhase('roundtable')
     } catch (e) {
-      setError(parseError(e))
+      setError(e.message)
     }
     setBusy(false)
   }
 
   async function runRoundtable() {
-    if (!state || phase !== 'roundtable') return
+    if (!gameState || busy) return
     setBusy(true)
     setError('')
-    if (roundtableLine.trim()) append('you', roundtableLine.trim())
+    if (roundtableLine.trim()) appendLog('you', roundtableLine.trim())
     try {
-      const data = await post('/traitors/roundtable', { state, human_statement: roundtableLine.trim() })
-      setState(data.state)
+      const data = await post('/traitors/roundtable', {
+        state: gameState,
+        human_statement: roundtableLine.trim(),
+      })
+      setGameState(data.state)
       syncTargets(data.state)
-      ;(data.ai_turns || []).forEach((t) => append(t.name || t.id, t.statement || ''))
-      append('host', data.host_line || '')
+      ;(data.ai_turns || []).forEach(t => appendLog(t.name || t.id, t.statement || ''))
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
       setRoundtableLine('')
+      setVisualPhase('vote')
     } catch (e) {
-      setError(parseError(e))
+      setError(e.message)
     }
     setBusy(false)
   }
 
   async function runVote() {
-    if (!state || phase !== 'vote') return
+    if (!gameState || busy) return
     setBusy(true)
     setError('')
     try {
-      const data = await post('/traitors/vote', { state, human_vote: voteTarget })
-      setState(data.state)
+      const data = await post('/traitors/vote', {
+        state: gameState,
+        human_vote: voteTarget,
+      })
+      setGameState(data.state)
       syncTargets(data.state)
-      ;(data.ai_votes || []).forEach((v) => append(`${v.name} vote`, `${v.name} votes ${v.vote}. ${v.reason || ''}`.trim()))
+
+      // Log votes
+      ;(data.ai_votes || []).forEach(v =>
+        appendLog(`${v.name}`, `votes to banish ${v.vote}. ${v.reason || ''}`.trim())
+      )
       if (data.banished) {
-        append('banished', `${data.banished.name} was banished (${data.banished.role}).`)
-        triggerFlash('banishment')
+        appendLog('banished', `${data.banished.name} was banished. They were ${data.banished.role}.`)
       }
-      append('host', data.host_line || '')
-      if (data.state?.phase === 'ended') {
-        append('host', data.state?.winner === 'human' ? 'You reached final two. Traitor win.' : 'The Faithful banished you. AI win.')
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
+
+      // Determine next visual phase
+      const nextPhase = data.state?.phase
+      if (nextPhase === 'ended') {
+        setVisualPhase('ended')
+        const win = data.state.winner === 'human'
+        appendLog('host', win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
+        setHostText(win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
+      } else if (nextPhase === 'endgame_choice') {
+        setVisualPhase('endgame_choice')
+      } else {
+        // Normal flow: go to night
+        setVisualPhase('night')
       }
     } catch (e) {
-      setError(parseError(e))
+      setError(e.message)
     }
     setBusy(false)
   }
 
   async function runNight() {
-    if (!state || phase !== 'night') return
+    if (!gameState || busy) return
     setBusy(true)
     setError('')
     try {
-      const data = await post('/traitors/night', { state, murder_target: nightTarget })
-      setState(data.state)
+      const data = await post('/traitors/night', {
+        state: gameState,
+        murder_target: nightTarget,
+      })
+      setGameState(data.state)
       syncTargets(data.state)
+
       if (data.murdered) {
-        append('turret', `You murdered ${data.murdered.name}.`)
-        triggerFlash('night')
+        appendLog('turret', `You murdered ${data.murdered.name}.`)
+        setLastMurdered(data.murdered)
       }
-      append('host', data.host_line || '')
-      if (data.state?.phase === 'ended') {
-        append('host', data.state?.winner === 'human' ? 'You reached final two. Traitor win.' : 'The Faithful banished you. AI win.')
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
+
+      const nextPhase = data.state?.phase
+      if (nextPhase === 'ended') {
+        setVisualPhase('ended')
+        const win = data.state.winner === 'human'
+        appendLog('host', win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
+        setHostText(win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
+      } else {
+        // Morning reveal before next day
+        setVisualPhase('morningReveal')
       }
     } catch (e) {
-      setError(parseError(e))
+      setError(e.message)
+    }
+    setBusy(false)
+  }
+
+  async function runEndgameChoice(choice) {
+    if (!gameState || busy) return
+    setBusy(true)
+    setError('')
+    try {
+      const data = await post('/traitors/endgame-vote', {
+        state: gameState,
+        human_choice: choice,
+      })
+      setGameState(data.state)
+      syncTargets(data.state)
+
+      if (data.ai_choices) {
+        setEndgameChoices(data.ai_choices)
+        data.ai_choices.forEach(c =>
+          appendLog(c.name, `chose: ${c.choice === 'end' ? 'End Game' : 'Banish Again'}. ${c.reason || ''}`.trim())
+        )
+      }
+      setEndgameOutcome(data.outcome)
+      if (data.host_line) {
+        appendLog('host', data.host_line)
+        setHostText(data.host_line)
+      }
+
+      const nextPhase = data.state?.phase
+      if (nextPhase === 'ended') {
+        setVisualPhase('ended')
+        const win = data.state.winner === 'human'
+        appendLog('host', win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
+        setHostText(win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
+      } else {
+        // Back to roundtable for another banishment
+        setVisualPhase('roundtable')
+        setEndgameChoices(null)
+        setEndgameOutcome(null)
+      }
+    } catch (e) {
+      setError(e.message)
     }
     setBusy(false)
   }
 
   function resetGame() {
-    setState(null)
+    setGameState(null)
+    setStarted(false)
+    setVisualPhase('setup')
     setLog([])
     setError('')
+    setHostText('')
+    setLastMurdered(null)
+    setEndgameChoices(null)
+    setEndgameOutcome(null)
     setDayLine('')
     setRoundtableLine('')
     setVoteTarget('')
     setNightTarget('')
-    setFlashTick(0)
-    setFlashKind('banishment')
   }
+
+  // === RENDER ===
 
   return (
     <div className="app">
-      <header className="top">
-        <h1>The Traitors (UK AI Edition)</h1>
-        <p>Claudia hosts. You are the secret Traitor in a castle full of AI Faithful. Survive banishment and reach the final two to win.</p>
-        <a className="back-link" href="/experiments.html">Back to experiments</a>
+      <header className="header">
+        <h1>The Traitors</h1>
+        <p className="subtitle">AI Edition</p>
+        <a className="back-link" href="/experiments.html">&larr; experiments</a>
       </header>
 
-      <div className="layout">
-        <section>
-          <PhaseBadge phase={phase} round={state?.round || 1} />
-          <Roundtable
-            players={state?.players || []}
-            phase={phase}
-            flashTick={flashTick}
-            flashKind={flashKind}
+      {/* Setup screen */}
+      {visualPhase === 'setup' && (
+        <div className="setup">
+          <div className="setup-inner">
+            <p className="setup-text">
+              You are the Traitor in a castle full of AI Faithful.<br />
+              Survive banishment and reach the final two to win.
+            </p>
+            <div className="setup-form">
+              <input
+                type="text"
+                value={name}
+                onChange={e => setName(e.target.value)}
+                placeholder="Enter your name"
+                onKeyDown={e => e.key === 'Enter' && startGame()}
+                disabled={busy}
+              />
+              <button onClick={startGame} disabled={busy || !name.trim()}>
+                {busy ? 'Starting...' : 'Enter the castle'}
+              </button>
+            </div>
+            {error && <div className="error">{error}</div>}
+          </div>
+        </div>
+      )}
+
+      {/* Intro sequence */}
+      {visualPhase === 'intro' && started && (
+        <div className="game-area">
+          <CastleMap
+            players={gameState?.players || []}
+            phase="day"
+            lastMurdered={null}
+          />
+          <IntroSequence playerName={name} onComplete={finishIntro} />
+        </div>
+      )}
+
+      {/* Main game */}
+      {started && visualPhase !== 'setup' && visualPhase !== 'intro' && (
+        <div className="game-area">
+          <div className="phase-badge">
+            {visualPhase === 'day' && `Round ${gameState?.round || 1} — Breakfast & Day`}
+            {visualPhase === 'morningReveal' && `Round ${gameState?.round || 1} — Morning`}
+            {visualPhase === 'roundtable' && `Round ${gameState?.round || 1} — Round Table`}
+            {visualPhase === 'vote' && `Round ${gameState?.round || 1} — Banishment Vote`}
+            {visualPhase === 'night' && `Round ${gameState?.round || 1} — The Turret`}
+            {visualPhase === 'endgame_choice' && 'Endgame — The Final Choice'}
+            {visualPhase === 'ended' && 'Game Over'}
+          </div>
+
+          <CastleMap
+            players={gameState?.players || []}
+            phase={visualPhase}
+            lastMurdered={lastMurdered}
           />
 
-          <div className="log">
-            {log.map((item, idx) => (
-              <div className="line" key={`${item.label}-${idx}`}>
-                <div className="label">{item.label}</div>
-                <div>{item.text}</div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <aside className="controls">
-          <button onClick={startGame} disabled={busy || started}>Start game</button>
-          <button onClick={resetGame} disabled={busy || !started}>Reset game</button>
-
-          {!started && (
-            <div className="step">
-              <label>Your name</label>
-              <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter your name" />
-            </div>
+          {/* Morning reveal overlay */}
+          {visualPhase === 'morningReveal' && lastMurdered && (
+            <MorningReveal
+              murdered={lastMurdered}
+              onContinue={finishMorningReveal}
+            />
           )}
 
-          {started && phase === 'day' && (
-            <div className="step">
-              <label>Your breakfast/daytime line</label>
-              <textarea value={dayLine} onChange={(e) => setDayLine(e.target.value)} placeholder="At breakfast and through the day, sell your Faithful story." />
-              <button onClick={runDay} disabled={busy}>Run breakfast and day</button>
-            </div>
+          {/* Host dialogue (not during intro or morning reveal which have their own) */}
+          {visualPhase !== 'morningReveal' && hostText && visualPhase !== 'ended' && (
+            <HostDialogue
+              text={hostText}
+              onContinue={() => setHostText('')}
+              showContinue={!busy}
+            />
           )}
 
-          {started && phase === 'roundtable' && (
-            <div className="step">
-              <label>Your Round Table accusation/defence</label>
-              <textarea value={roundtableLine} onChange={(e) => setRoundtableLine(e.target.value)} placeholder="At the Round Table, push suspicion onto another player." />
-              <button onClick={runRoundtable} disabled={busy}>Run Round Table</button>
-            </div>
+          {/* Endgame vote results */}
+          {endgameChoices && (
+            <EndgameVote
+              aiChoices={endgameChoices}
+              outcome={endgameOutcome}
+              busy={busy}
+            />
           )}
 
-          {started && phase === 'vote' && (
-            <div className="step">
-              <label>Your banishment vote (Round Table)</label>
-              <select value={voteTarget} onChange={(e) => setVoteTarget(e.target.value)}>
-                {aliveAi.map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
-              </select>
-              <button onClick={runVote} disabled={busy || !voteTarget}>Run banishment vote</button>
-            </div>
-          )}
+          {/* Controls */}
+          <PhaseControls
+            phase={visualPhase}
+            busy={busy}
+            alivePlayers={alive}
+            dayLine={dayLine}
+            setDayLine={setDayLine}
+            onRunDay={runDay}
+            roundtableLine={roundtableLine}
+            setRoundtableLine={setRoundtableLine}
+            onRunRoundtable={runRoundtable}
+            voteTarget={voteTarget}
+            setVoteTarget={setVoteTarget}
+            onRunVote={runVote}
+            nightTarget={nightTarget}
+            setNightTarget={setNightTarget}
+            onRunNight={runNight}
+            onEndgameChoice={runEndgameChoice}
+            winner={gameState?.winner}
+          />
 
-          {started && phase === 'night' && (
-            <div className="step">
-              <label>Traitors' Turret murder target</label>
-              <select value={nightTarget} onChange={(e) => setNightTarget(e.target.value)}>
-                {aliveAi.map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
-              </select>
-              <button onClick={runNight} disabled={busy || !nightTarget}>Run Turret night</button>
-            </div>
-          )}
+          {/* Event log */}
+          <EventLog entries={log} />
 
-          {started && phase === 'ended' && (
-            <div className="step end">
-              {state?.winner === 'human' ? 'You reached final two. Traitor win.' : 'The Faithful banished you. AI win.'}
-            </div>
+          {/* Reset */}
+          {started && (
+            <button className="reset-btn" onClick={resetGame} disabled={busy}>
+              Reset game
+            </button>
           )}
 
           {error && <div className="error">{error}</div>}
-        </aside>
-      </div>
+        </div>
+      )}
     </div>
   )
 }
