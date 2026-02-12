@@ -63,6 +63,7 @@ export default function App() {
 
   // Game state from backend
   const [gameState, setGameState] = useState(null)
+  const [sessionId, setSessionId] = useState('')
 
   // Visual phase (frontend sub-phases on top of backend phases)
   const [visualPhase, setVisualPhase] = useState('setup')
@@ -131,6 +132,7 @@ export default function App() {
     try {
       const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 7 })
       setGameState(data.state)
+      setSessionId(data.session_id || '')
       setStarted(true)
       syncTargets(data.state)
       setVisualPhase('intro')
@@ -174,7 +176,7 @@ export default function App() {
     }
     try {
       const data = await post('/traitors/day', {
-        state: gameState,
+        session_id: sessionId,
         human_day_statement: dayStatement,
       })
       setGameState(data.state)
@@ -212,7 +214,7 @@ export default function App() {
     }
     try {
       const data = await post('/traitors/roundtable', {
-        state: gameState,
+        session_id: sessionId,
         human_statement: roundtableStatement,
       })
       setGameState(data.state)
@@ -236,7 +238,7 @@ export default function App() {
     setError('')
     try {
       const data = await post('/traitors/vote', {
-        state: gameState,
+        session_id: sessionId,
         human_vote: voteTarget,
       })
       setGameState(data.state)
@@ -276,7 +278,7 @@ export default function App() {
     setError('')
     try {
       const data = await post('/traitors/night', {
-        state: gameState,
+        session_id: sessionId,
         murder_target: nightTarget,
       })
       setGameState(data.state)
@@ -313,7 +315,7 @@ export default function App() {
     setError('')
     try {
       const data = await post('/traitors/endgame-vote', {
-        state: gameState,
+        session_id: sessionId,
         human_choice: choice,
       })
       setGameState(data.state)
@@ -352,6 +354,7 @@ export default function App() {
   function resetGame() {
     setGameState(null)
     setStarted(false)
+    setSessionId('')
     setVisualPhase('setup')
     setLog([])
     setError('')
