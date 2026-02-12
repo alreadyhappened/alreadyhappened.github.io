@@ -94,6 +94,11 @@ body {
   position: relative;
 }
 
+.intro-stage {
+  margin-top: 2rem;
+  max-width: 860px;
+}
+
 .phase-badge {
   font-style: italic;
   color: #dcb978;
@@ -216,6 +221,12 @@ body {
   animation: fadeSlideIn 0.3s ease-out;
 }
 
+.host-dialogue.large {
+  padding: 1rem 1.1rem;
+  border-width: 1px;
+  border-left-width: 4px;
+}
+
 .host-icon {
   flex-shrink: 0;
 }
@@ -238,6 +249,11 @@ body {
   font-size: 0.95rem;
   color: #f6e9d2;
   line-height: 1.55;
+}
+
+.host-dialogue.large .host-speech {
+  font-size: 1.03rem;
+  line-height: 1.65;
 }
 
 .host-continue {
@@ -291,6 +307,33 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.phase-controls.prelude {
+  border-color: #5a4a2a;
+  background: linear-gradient(180deg, #221a14 0%, #1b1511 100%);
+}
+
+.prelude-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.42rem;
+}
+
+.prelude-line {
+  color: #f0e4ce;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.prelude-speaker {
+  color: #dcb978;
+  font-style: italic;
+  margin-right: 0.45rem;
+}
+
+.prelude-text {
+  color: #e9ddc9;
 }
 
 .controls-label {

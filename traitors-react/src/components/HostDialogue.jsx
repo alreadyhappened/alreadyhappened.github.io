@@ -1,11 +1,11 @@
-export default function HostDialogue({ text, onContinue, showContinue }) {
+export default function HostDialogue({ text, onContinue, showContinue, large = false }) {
   if (!text) return null
 
   return (
-    <div className="host-dialogue">
+    <div className={`host-dialogue ${large ? 'large' : ''}`}>
       <div className="host-icon">
         {/* Clawdia cat face */}
-        <svg viewBox="0 0 40 40" width="36" height="36">
+        <svg viewBox="0 0 40 40" width={large ? 62 : 36} height={large ? 62 : 36}>
           {/* Ears */}
           <polygon points="8,16 14,4 18,16" fill="#dcb978" opacity="0.9" />
           <polygon points="32,16 26,4 22,16" fill="#dcb978" opacity="0.9" />

@@ -7,6 +7,7 @@ import HostDialogue from './components/HostDialogue'
 import PhaseControls from './components/PhaseControls'
 import EventLog from './components/EventLog'
 import EndgameVote from './components/EndgameVote'
+import BreakfastPrelude from './components/BreakfastPrelude'
 
 function alivePlayers(state) {
   if (!state?.players) return []
@@ -15,6 +16,26 @@ function alivePlayers(state) {
 
 function aliveAIs(state) {
   return alivePlayers(state).filter(p => !p.isHuman)
+}
+
+function buildBreakfastPrelude(state) {
+  const ai = aliveAIs(state)
+  if (ai.length < 3) return []
+  const picks = ai.slice(0, Math.min(5, ai.length))
+  return [
+    {
+      speaker: picks[0].name,
+      text: `I keep coming back to behaviour under pressure. Someone is over-managing their answers.`,
+    },
+    {
+      speaker: picks[1]?.name || picks[0].name,
+      text: `Agreed. Identity claims are noise. I care more about consistency between breakfast and the Round Table.`,
+    },
+    {
+      speaker: picks[2]?.name || picks[0].name,
+      text: `Let's cross-check details later. If someone pivots too cleanly, that's probably our human.`,
+    },
+  ]
 }
 
 export default function App() {
@@ -34,6 +55,7 @@ export default function App() {
   const [log, setLog] = useState([])
   const [hostText, setHostText] = useState('')
   const [lastMurdered, setLastMurdered] = useState(null)
+  const [dayPreludeLines, setDayPreludeLines] = useState([])
 
   // Endgame state
   const [endgameChoices, setEndgameChoices] = useState(null)
@@ -61,6 +83,11 @@ export default function App() {
     }
   }
 
+  function startDayPrelude(nextState) {
+    setDayPreludeLines(buildBreakfastPrelude(nextState))
+    setVisualPhase('dayPrelude')
+  }
+
   // === GAME ACTIONS ===
 
   async function startGame() {
@@ -84,13 +111,17 @@ export default function App() {
   }
 
   function finishIntro() {
-    setVisualPhase('day')
+    startDayPrelude(gameState)
     setHostText('')
   }
 
   function finishMorningReveal() {
-    setVisualPhase('day')
+    startDayPrelude(gameState)
     setHostText('')
+  }
+
+  function finishDayPrelude() {
+    setVisualPhase('day')
   }
 
   async function runDay() {
@@ -273,6 +304,7 @@ export default function App() {
     setError('')
     setHostText('')
     setLastMurdered(null)
+    setDayPreludeLines([])
     setEndgameChoices(null)
     setEndgameOutcome(null)
     setDayLine('')
@@ -319,12 +351,7 @@ export default function App() {
 
       {/* Intro sequence */}
       {visualPhase === 'intro' && started && (
-        <div className="game-area">
-          <CastleMap
-            players={gameState?.players || []}
-            phase="day"
-            lastMurdered={null}
-          />
+        <div className="intro-stage">
           <IntroSequence playerName={name} onComplete={finishIntro} />
         </div>
       )}
@@ -334,6 +361,7 @@ export default function App() {
         <div className="game-area">
           <div className="phase-badge">
             {visualPhase === 'day' && `Round ${gameState?.round || 1} — Breakfast & Day`}
+            {visualPhase === 'dayPrelude' && `Round ${gameState?.round || 1} — Breakfast`}
             {visualPhase === 'morningReveal' && `Round ${gameState?.round || 1} — Morning`}
             {visualPhase === 'roundtable' && `Round ${gameState?.round || 1} — Round Table`}
             {visualPhase === 'vote' && `Round ${gameState?.round || 1} — Banishment Vote`}
@@ -365,6 +393,14 @@ export default function App() {
             />
           )}
 
+          {visualPhase === 'dayPrelude' && (
+            <BreakfastPrelude
+              lines={dayPreludeLines}
+              onContinue={finishDayPrelude}
+              busy={busy}
+            />
+          )}
+
           {/* Endgame vote results */}
           {endgameChoices && (
             <EndgameVote
@@ -375,25 +411,27 @@ export default function App() {
           )}
 
           {/* Controls */}
-          <PhaseControls
-            phase={visualPhase}
-            busy={busy}
-            alivePlayers={alive}
-            dayLine={dayLine}
-            setDayLine={setDayLine}
-            onRunDay={runDay}
-            roundtableLine={roundtableLine}
-            setRoundtableLine={setRoundtableLine}
-            onRunRoundtable={runRoundtable}
-            voteTarget={voteTarget}
-            setVoteTarget={setVoteTarget}
-            onRunVote={runVote}
-            nightTarget={nightTarget}
-            setNightTarget={setNightTarget}
-            onRunNight={runNight}
-            onEndgameChoice={runEndgameChoice}
-            winner={gameState?.winner}
-          />
+          {visualPhase !== 'dayPrelude' && (
+            <PhaseControls
+              phase={visualPhase}
+              busy={busy}
+              alivePlayers={alive}
+              dayLine={dayLine}
+              setDayLine={setDayLine}
+              onRunDay={runDay}
+              roundtableLine={roundtableLine}
+              setRoundtableLine={setRoundtableLine}
+              onRunRoundtable={runRoundtable}
+              voteTarget={voteTarget}
+              setVoteTarget={setVoteTarget}
+              onRunVote={runVote}
+              nightTarget={nightTarget}
+              setNightTarget={setNightTarget}
+              onRunNight={runNight}
+              onEndgameChoice={runEndgameChoice}
+              winner={gameState?.winner}
+            />
+          )}
 
           {/* Event log */}
           <EventLog entries={log} />

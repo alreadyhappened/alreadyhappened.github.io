@@ -17,7 +17,7 @@ export default function PhaseControls({
 }) {
   const aliveAIs = alivePlayers.filter(p => !p.isHuman)
 
-  if (phase === 'day' || phase === 'morningReveal') {
+  if (phase === 'day') {
     return (
       <div className="phase-controls">
         <div className="controls-label">Breakfast &amp; Day</div>
@@ -25,10 +25,10 @@ export default function PhaseControls({
           value={dayLine}
           onChange={e => setDayLine(e.target.value)}
           placeholder="At breakfast and through the day, sell your Faithful story..."
-          disabled={busy || phase === 'morningReveal'}
+          disabled={busy}
           rows={3}
         />
-        <button onClick={onRunDay} disabled={busy || phase === 'morningReveal'}>
+        <button onClick={onRunDay} disabled={busy}>
           {busy ? 'waiting...' : 'Continue'}
         </button>
       </div>
