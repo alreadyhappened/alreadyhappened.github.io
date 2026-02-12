@@ -539,7 +539,9 @@
       answers: [],
       watching: false,
       busy: false,
-      watchHistory: []
+      watchHistory: [],
+      playHistory: [],
+      currentQuestion: ""
     };
     let detectorStats = loadDetectorStats();
 
@@ -659,6 +661,8 @@
       detectorState.watching = false;
       detectorState.busy = false;
       detectorState.watchHistory = [];
+      detectorState.playHistory = [];
+      detectorState.currentQuestion = "";
       if (detectorLogEl) detectorLogEl.innerHTML = "";
       if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
       if (detectorInput) detectorInput.value = "";
@@ -668,36 +672,58 @@
       setDetectorStatus("Choose a mode to start.");
     }
 
-    function askNextQuestion() {
-      const q = detectorQuestions[detectorState.step];
-      if (q) appendDetectorLine("interrogator", q, false);
-    }
-
-    function startHumanGame() {
+    async function startHumanGame() {
       resetDetector();
       detectorState.mode = "human";
-      setDetectorStatus("Mode: Play yourself. Answer all 4 questions.");
+      setDetectorStatus("Mode: Play yourself. Interrogator is thinking...");
       if (detectorInputRow) detectorInputRow.classList.remove("is-hidden");
-      askNextQuestion();
+      if (detectorSend) detectorSend.disabled = true;
+      await requestNextHumanQuestion();
       if (detectorInput) detectorInput.focus();
+    }
+
+    async function requestNextHumanQuestion() {
+      if (detectorState.mode !== "human") return;
+      const turn = detectorState.playHistory.length;
+      if (turn >= detectorQuestions.length) {
+        await endRound(detectorState.playHistory, "Human");
+        return;
+      }
+
+      try {
+        const payload = await callWorkerPath("/detector/play-turn", {
+          questions: detectorQuestions,
+          qa_pairs: detectorState.playHistory,
+          turn_index: turn
+        });
+        if (!payload || payload.done || !payload.question) {
+          throw new Error("Missing question in play-turn response.");
+        }
+        detectorState.currentQuestion = payload.question;
+        appendDetectorLine("interrogator", payload.question, false);
+        setDetectorStatus(`Mode: Play yourself. Question ${turn + 1}/${detectorQuestions.length}.`);
+        if (detectorSend) detectorSend.disabled = false;
+      } catch (e) {
+        setDetectorStatus("Could not fetch next question.");
+        appendDetectorLine("error", "Interrogator request failed. Try reset and start again.", true);
+        if (detectorSend) detectorSend.disabled = true;
+      }
     }
 
     async function submitHumanAnswer() {
       if (detectorState.mode !== "human" || detectorState.busy || !detectorInput || !detectorPanel.classList.contains("active")) return;
       const text = detectorInput.value.trim();
       if (!text) return;
+      if (!detectorState.currentQuestion) return;
 
       appendDetectorLine("you", text, false);
-      detectorState.answers.push(text);
+      detectorState.playHistory.push({ question: detectorState.currentQuestion, answer: text });
+      detectorState.currentQuestion = "";
       detectorInput.value = "";
-      detectorState.step += 1;
-
-      if (detectorState.step < detectorQuestions.length) {
-        askNextQuestion();
-        detectorInput.focus();
-      } else {
-        await endRound(detectorState.answers);
-      }
+      if (detectorSend) detectorSend.disabled = true;
+      setDetectorStatus("Mode: Play yourself. Interrogator is thinking...");
+      await requestNextHumanQuestion();
+      if (detectorInput) detectorInput.focus();
     }
 
     async function startWatchGame() {
@@ -744,7 +770,7 @@
         }
 
         detectorState.watchHistory = watchPairs;
-        await endRound(watchPairs.map((pair) => pair.answer));
+        await endRound(watchPairs, "AI");
         if (watchMeta && watchMeta.interrogator_model && watchMeta.respondent_model) {
           appendDetectorLine("models", `Interrogator: ${watchMeta.interrogator_model}. Respondent: ${watchMeta.respondent_model}.`, true);
         }
@@ -778,14 +804,13 @@
       return correct;
     }
 
-    async function endRound(answers) {
+    async function endRound(qaPairs, groundTruth) {
       detectorState.watching = false;
       setDetectorControlsDisabled(true);
       if (detectorInputRow) detectorInputRow.classList.add("is-hidden");
       setDetectorStatus("Evaluating transcript...");
 
-      const verdict = await getVerdict(answers);
-      const groundTruth = detectorState.mode === "watch" ? "AI" : "Human";
+      const verdict = await getVerdict(qaPairs);
       const correct = recordRound(verdict, groundTruth);
 
       setDetectorStatus(`Verdict: ${verdict.guess} (${verdict.confidence}% confidence)`);
@@ -837,11 +862,10 @@
       }
     }
 
-    async function getVerdict(answers) {
+    async function getVerdict(qaPairs) {
       try {
         const payload = await callWorkerPath("/detector/verdict", {
-          questions: detectorQuestions,
-          answers
+          qa_pairs: qaPairs
         });
         if (payload && payload.verdict) {
           const v = payload.verdict;
@@ -854,8 +878,9 @@
         // Fallback to previous root endpoint behavior if worker routes are not deployed yet.
       }
 
-      const transcript = detectorQuestions.map((question, index) => {
-        const answer = answers[index] || "";
+      const transcript = qaPairs.map((pair, index) => {
+        const question = pair && pair.question ? pair.question : "";
+        const answer = pair && pair.answer ? pair.answer : "";
         return `${index + 1}. Q: ${question}\nA: ${answer}`;
       }).join("\n\n");
 
