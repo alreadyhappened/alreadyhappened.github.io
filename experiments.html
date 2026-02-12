@@ -682,6 +682,7 @@
 
       try {
         const watchPairs = [];
+        let hiddenProfile = "";
         let watchMeta = null;
 
         for (let turn = 0; turn < detectorQuestions.length; turn += 1) {
@@ -691,7 +692,8 @@
           const turnPayload = await callWorkerPath("/detector/watch-turn", {
             questions: detectorQuestions,
             qa_pairs: watchPairs,
-            turn_index: turn
+            turn_index: turn,
+            hidden_profile: hiddenProfile
           });
 
           if (turnPayload && turnPayload.meta) watchMeta = turnPayload.meta;
@@ -699,6 +701,7 @@
           if (!turnPayload || !turnPayload.question || !turnPayload.answer) {
             throw new Error("Missing turn question/answer in watch-turn response.");
           }
+          hiddenProfile = typeof turnPayload.hidden_profile === "string" ? turnPayload.hidden_profile : hiddenProfile;
 
           appendDetectorLine("interrogator", turnPayload.question, false);
           appendDetectorLine("respondent", turnPayload.answer, false);
