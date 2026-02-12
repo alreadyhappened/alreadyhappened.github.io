@@ -1,47 +1,91 @@
-const AI_COLORS = [
-  '#7b6a92', '#6a8a7a', '#8a7060', '#6a7a9a',
-  '#9a6a7a', '#7a8a60', '#8a6a90', '#6a9a8a',
+const BASE = import.meta.env.BASE_URL
+
+const NPC_SPRITES = [
+  `${BASE}sprites/npc-0.png`,
+  `${BASE}sprites/npc-1.png`,
+  `${BASE}sprites/npc-2.png`,
+  `${BASE}sprites/npc-3.png`,
+  `${BASE}sprites/npc-4.png`,
+  `${BASE}sprites/npc-5.png`,
+  `${BASE}sprites/npc-6.png`,
 ]
 
-export default function PlayerToken({ player, x, y, isHuman }) {
-  const colorIndex = parseInt((player.id || '').replace(/\D/g, '') || '0', 10) % AI_COLORS.length
-  const fill = isHuman ? '#8a3a2a' : AI_COLORS[colorIndex]
-  const stroke = isHuman ? '#d57b5f' : '#5f506f'
+const NEON_ACCENTS = ['#d480ff', '#40ffd0', '#ff6060', '#60a0ff', '#ff60c0', '#a0ff40', '#bf40ff']
+
+function labelFor(player, isHuman) {
+  const base = String(player?.name || '').toUpperCase()
+  return isHuman ? `${base} (YOU)` : base
+}
+
+// Sprite sheet layout: 96x128 PNG = 3 columns x 4 rows of 32x32 frames
+// Front-facing standing frame: column 1, row 0
+const SCALE = 5
+const FRAME = 32
+const SHEET_W = 96
+const SHEET_H = 128
+const DISPLAY = FRAME * SCALE // 160
+
+export default function PlayerToken({ player, x, y, isHuman, isSpeaking = false }) {
   const dead = !player.alive
-  const skin = ['#f2d3b6', '#e8bf9a', '#dcae83', '#c9976c'][colorIndex % 4]
-  const hair = ['#2a1f1a', '#3b2a20', '#2f2f3e', '#2f3b2c', '#4a2d1f'][colorIndex % 5]
+  const idx = parseInt(String(player.id || '').replace(/\D/g, '') || '0', 10)
+
+  const sprite = isHuman ? `${BASE}sprites/human.png` : NPC_SPRITES[idx % NPC_SPRITES.length]
+  const neonAccent = isHuman ? '#ff2975' : NEON_ACCENTS[idx % NEON_ACCENTS.length]
+
+  // Position sprite so feet land just above the shadow (y=56)
+  const spriteY = 56 - DISPLAY // -104
+  const spriteX = -DISPLAY / 2  // -80
 
   return (
-    <g
-      className={`player-token ${dead ? 'dead' : ''} ${isHuman ? 'human' : ''}`}
-      style={{ transform: `translate(${x}px, ${y}px)` }}
-    >
-      <ellipse cx="0" cy="7" rx="16" ry="7" fill="#0f0d16" opacity="0.28" />
-      <circle cx="0" cy="-2" r="16" fill={fill} stroke={stroke} strokeWidth="1.8" />
-      <path d="M -13 -5 Q -1 -18 13 -5 L 13 -15 L -13 -15 Z" fill={hair} opacity="0.92" />
-      <circle cx="-4.7" cy="-2.2" r="1.25" fill="#201912" />
-      <circle cx="4.7" cy="-2.2" r="1.25" fill="#201912" />
-      <path d="M -3.1 4 Q 0 6.4 3.1 4" stroke="#6f4c33" strokeWidth="1.1" fill="none" />
-      <rect x="-8.2" y="12" width="16.4" height="8.4" rx="4" fill={fill} stroke={stroke} strokeWidth="0.8" />
-      <rect x="-6.2" y="13.5" width="12.4" height="5.1" rx="2.8" fill={skin} opacity="0.22" />
-      {/* Name label below */}
-      <text
-        y="33"
-        textAnchor="middle"
-        fill="#c8bdd8"
-        fontSize="9"
-        fontFamily='"Trebuchet MS", Georgia, serif'
-        opacity="0.93"
+    <g transform={`translate(${x} ${y})`}>
+      <g
+        className={`player-token ${dead ? 'dead' : ''} ${isHuman ? 'human' : ''} ${isSpeaking ? 'speaking' : ''}`}
       >
-        {player.name}
-        {isHuman ? ' (you)' : ''}
-      </text>
-      {dead && (
-        <>
-          <line x1="-11" y1="-11" x2="11" y2="11" stroke="#ff6666" strokeWidth="2.4" opacity="0.85" />
-          <line x1="11" y1="-11" x2="-11" y2="11" stroke="#ff6666" strokeWidth="2.4" opacity="0.85" />
-        </>
-      )}
+        {/* shadow */}
+        <ellipse className="player-shadow" cx="0" cy="56" rx="52" ry="18" />
+
+        {/* neon ground glow */}
+        <ellipse cx="0" cy="56" rx="60" ry="24" fill={neonAccent} opacity="0.06" />
+
+        {/* speaking ring — neon pulse */}
+        {isSpeaking && !dead && (
+          <g className="player-speaking-ring">
+            <circle cx="0" cy="-20" r="90" fill="none" stroke={neonAccent} strokeWidth="2.5" opacity="0.7" />
+            <circle cx="0" cy="-20" r="100" fill="none" stroke={neonAccent} strokeWidth="1.5" opacity="0.3" />
+          </g>
+        )}
+
+        {/* sprite via foreignObject */}
+        <foreignObject x={spriteX} y={spriteY} width={DISPLAY} height={DISPLAY}>
+          <div
+            xmlns="http://www.w3.org/1999/xhtml"
+            className="player-sprite"
+            style={{
+              width: DISPLAY,
+              height: DISPLAY,
+              backgroundImage: `url(${sprite})`,
+              backgroundSize: `${SHEET_W * SCALE}px ${SHEET_H * SCALE}px`,
+              backgroundPosition: `${-FRAME * SCALE}px 0px`,
+            }}
+          />
+        </foreignObject>
+
+        {/* name label */}
+        <text className="player-name" y="82" textAnchor="middle">{labelFor(player, isHuman)}</text>
+
+        {/* model label */}
+        {!isHuman && player.modelLabel && (
+          <text className={`player-model tier-${(player.modelTier || '').toLowerCase()}`} y="100" textAnchor="middle">{player.modelLabel}</text>
+        )}
+
+        {/* dead cross — neon */}
+        {dead && (
+          <g className="player-cross">
+            <line x1="-50" y1="-80" x2="50" y2="40" />
+            <line x1="50" y1="-80" x2="-50" y2="40" />
+          </g>
+        )}
+      </g>
     </g>
   )
 }

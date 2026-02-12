@@ -14,6 +14,16 @@ function mapSceneToPhase(scene) {
   return 'day'
 }
 
+function sceneTitleFromPhase(phase) {
+  if (phase === 'parlor') return 'Private Parlor'
+  if (phase === 'roundtable') return 'Round Table'
+  if (phase === 'vote') return 'Banishment Vote'
+  if (phase === 'night') return 'Traitors\' Turret'
+  if (phase === 'morningReveal') return 'Morning Reveal'
+  if (phase === 'ended') return 'Final Result'
+  return 'Breakfast Hall'
+}
+
 const initialEngine = {
   started: false,
   sessionId: '',
@@ -80,6 +90,10 @@ export default function App() {
 
   const phase = useMemo(() => mapSceneToPhase(engine.scene), [engine.scene])
   const current = engine.currentItem
+  const options = useMemo(() => current?.options || [], [current])
+  const alivePlayers = useMemo(() => (engine.players || []).filter((p) => p.alive), [engine.players])
+  const canAdvance = engine.allowedActions.includes('advance')
+  const sceneTitle = sceneTitleFromPhase(phase)
 
   const activeSpeech = useMemo(() => {
     if (!current) return null
@@ -91,9 +105,6 @@ export default function App() {
     }
     return null
   }, [current])
-
-  const options = useMemo(() => current?.options || [], [current])
-  const alivePlayers = useMemo(() => (engine.players || []).filter((p) => p.alive), [engine.players])
 
   useEffect(() => {
     if (!engine.started || !engine.scene) return
@@ -115,6 +126,15 @@ export default function App() {
     )
   }, [current])
 
+  useEffect(() => {
+    if (current?.type === 'vote_prompt' && options.length && !voteTarget) {
+      setVoteTarget(options[0].id || '')
+    }
+    if (current?.type === 'player_prompt' && current.prompt_kind === 'murder_target' && options.length && !murderTarget) {
+      setMurderTarget(options[0].id || '')
+    }
+  }, [current, options, voteTarget, murderTarget])
+
   async function hydrateFromServer(payload, sessionIdOverride = '') {
     dispatch({ type: 'hydrate', payload })
     if (sessionIdOverride) dispatch({ type: 'session', sessionId: sessionIdOverride })
@@ -130,9 +150,6 @@ export default function App() {
       const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 6 })
       await hydrateFromServer(data, data.session_id || '')
       setShowIntro(true)
-      if (Array.isArray(data.current_item?.options)) {
-        setVoteTarget(data.current_item.options[0]?.id || '')
-      }
     } catch (e) {
       dispatch({ type: 'error', error: e.message })
     }
@@ -172,6 +189,7 @@ export default function App() {
       setDayInput('')
       setParlorInput('')
       setRoundtableInput('')
+      setMurderTarget('')
     } catch (e) {
       dispatch({ type: 'error', error: e.message })
     }
@@ -188,6 +206,7 @@ export default function App() {
         target,
       })
       await hydrateFromServer(data)
+      setVoteTarget('')
     } catch (e) {
       dispatch({ type: 'error', error: e.message })
     }
@@ -206,28 +225,195 @@ export default function App() {
   }
 
   const round = engine.meta?.round || 1
-  const statusLabel = engine.turnState === 'WAITING_FOR_PLAYER'
-    ? 'Waiting for your move'
-    : engine.turnState === 'PROCESSING_TURN'
-      ? 'Processing turn...'
-      : 'Ready'
-  const sceneLabel = String(engine.scene || '').replaceAll('_', ' ')
+  const turnLabel = engine.awaitingPlayerInput
+    ? 'YOUR MOVE'
+    : busy
+      ? 'PROCESSING TURN'
+      : canAdvance
+        ? 'ADVANCE READY'
+        : 'WAITING'
+
+  function renderPromptInput(promptKind) {
+    if (promptKind === 'day_statement') {
+      return (
+        <div className="phase-controls">
+          <div className="controls-label">Breakfast and Day</div>
+          <p className="endgame-prompt">{current.prompt}</p>
+          <textarea value={dayInput} onChange={e => setDayInput(e.target.value)} rows={4} disabled={busy} />
+          <div className="controls-actions">
+            <button onClick={() => callRespond(dayInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
+            <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
+          </div>
+        </div>
+      )
+    }
+    if (promptKind === 'parlor_statement') {
+      return (
+        <div className="phase-controls parlor">
+          <div className="controls-label">Private Parlor</div>
+          <p className="endgame-prompt">{current.prompt}</p>
+          <textarea value={parlorInput} onChange={e => setParlorInput(e.target.value)} rows={4} disabled={busy} />
+          <div className="controls-actions">
+            <button onClick={() => callRespond(parlorInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
+            <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
+          </div>
+        </div>
+      )
+    }
+    if (promptKind === 'roundtable_statement') {
+      return (
+        <div className="phase-controls roundtable">
+          <div className="controls-label">Round Table</div>
+          <p className="endgame-prompt">{current.prompt}</p>
+          <textarea value={roundtableInput} onChange={e => setRoundtableInput(e.target.value)} rows={4} disabled={busy} />
+          <div className="controls-actions">
+            <button onClick={() => callRespond(roundtableInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
+            <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
+          </div>
+        </div>
+      )
+    }
+    if (promptKind === 'murder_target') {
+      return (
+        <div className="phase-controls night">
+          <div className="controls-label">Traitors' Turret</div>
+          <p className="endgame-prompt">{current.prompt}</p>
+          <select value={murderTarget} onChange={e => setMurderTarget(e.target.value)} disabled={busy}>
+            <option value="">Select a target</option>
+            {options.map((opt) => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
+          </select>
+          <div className="controls-actions">
+            <button className="murder-btn" onClick={() => callRespond('', murderTarget)} disabled={busy || !murderTarget}>{busy ? 'sending...' : 'Confirm murder'}</button>
+          </div>
+        </div>
+      )
+    }
+    if (promptKind === 'endgame_choice') {
+      return (
+        <div className="phase-controls endgame">
+          <div className="controls-label">Final Choice</div>
+          <p className="endgame-prompt">{current.prompt}</p>
+          <div className="controls-actions stacked">
+            {options.map((opt) => (
+              <button key={opt.id} onClick={() => callRespond('', opt.id)} disabled={busy}>{opt.label}</button>
+            ))}
+          </div>
+        </div>
+      )
+    }
+    return (
+      <div className="phase-controls">
+        <div className="controls-label">Your Move</div>
+        <p className="endgame-prompt">{current.prompt || 'Choose your next move.'}</p>
+        <div className="controls-actions stacked">
+          {options.map((opt) => (
+            <button key={opt.id} onClick={() => callRespond('', opt.id)} disabled={busy}>{opt.label}</button>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  function renderActionCard() {
+    if (!current) {
+      return (
+        <div className="phase-controls muted">
+          <div className="controls-label">Waiting</div>
+          <p className="endgame-prompt">No active queue item.</p>
+        </div>
+      )
+    }
+
+    if (current.type === 'host_line') {
+      return (
+        <HostDialogue
+          text={current.text}
+          onContinue={callAdvance}
+          showContinue={canAdvance && !busy}
+        />
+      )
+    }
+
+    if (current.type === 'ai_line') {
+      return (
+        <div className="phase-controls">
+          <div className="controls-label">{String(current.speaker_name || 'PLAYER').toUpperCase()}</div>
+          <p className="endgame-prompt">{current.text}</p>
+          {canAdvance && (
+            <div className="controls-actions">
+              <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Next line'}</button>
+            </div>
+          )}
+        </div>
+      )
+    }
+
+    if (current.type === 'phase_transition') {
+      return (
+        <div className="phase-controls muted">
+          <div className="controls-label">Transition</div>
+          <p className="endgame-prompt">Continue to {String(current.to_scene || '').replaceAll('_', ' ').toLowerCase()}.</p>
+          {canAdvance && (
+            <div className="controls-actions">
+              <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Continue'}</button>
+            </div>
+          )}
+        </div>
+      )
+    }
+
+    if (current.type === 'player_prompt') {
+      return renderPromptInput(current.prompt_kind)
+    }
+
+    if (current.type === 'vote_prompt') {
+      return (
+        <div className="phase-controls vote">
+          <div className="controls-label">Round Table Vote</div>
+          <p className="endgame-prompt">{current.prompt}</p>
+          <select value={voteTarget} onChange={e => setVoteTarget(e.target.value)} disabled={busy}>
+            <option value="">Select vote target</option>
+            {options.map((opt) => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
+          </select>
+          <div className="controls-actions">
+            <button onClick={() => callVote(voteTarget)} disabled={busy || !voteTarget}>{busy ? 'voting...' : 'Submit vote'}</button>
+          </div>
+        </div>
+      )
+    }
+
+    if (current.type === 'result_reveal') {
+      return (
+        <div className="phase-controls reveal">
+          <div className="controls-label">Reveal</div>
+          <p className="endgame-prompt">{current.text}</p>
+          {canAdvance && (
+            <div className="controls-actions">
+              <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Continue'}</button>
+            </div>
+          )}
+        </div>
+      )
+    }
+
+    return (
+      <div className="phase-controls muted">
+        <div className="controls-label">Queue Item</div>
+        <p className="endgame-prompt">{current.type}</p>
+      </div>
+    )
+  }
 
   return (
     <div className="app">
       <header className="header">
-        <h1>The Traitors</h1>
-        <p className="subtitle">AI Edition</p>
         <a className="back-link" href="/experiments.html">&larr; experiments</a>
       </header>
 
       {engine.scene === 'setup' && (
         <div className="setup">
           <div className="setup-inner">
-            <p className="setup-text">
-              You are the Traitor in a castle full of AI Faithful.<br />
-              Survive banishment and reach the final two to win.
-            </p>
+            <h1 className="title-hero">The Tr<span className="title-ai">ai</span>tors</h1>
             <div className="setup-form">
               <input
                 type="text"
@@ -238,7 +424,7 @@ export default function App() {
                 disabled={busy}
               />
               <button onClick={startGame} disabled={busy || !name.trim()}>
-                {busy ? 'Starting...' : 'Enter the castle'}
+                {busy ? 'Opening gates...' : 'Enter the castle'}
               </button>
             </div>
             {engine.error && <div className="error">{engine.error}</div>}
@@ -256,138 +442,55 @@ export default function App() {
         <div className="game-area">
           <div className="hud-strip">
             <div className="hud-chip">ROUND {round}</div>
-            <div className="hud-chip">{sceneLabel}</div>
-            <div className="hud-chip">STATUS: {statusLabel.toUpperCase()}</div>
-            <div className="hud-chip">ALIVE: {alivePlayers.length}</div>
+            <div className="hud-chip">SCENE {sceneTitle.toUpperCase()}</div>
+            <div className="hud-chip">TURN {turnLabel}</div>
+            <div className="hud-chip">ALIVE {alivePlayers.length}</div>
           </div>
-          <div className="phase-badge">Round {round} — {sceneLabel}</div>
 
           <div className="stage-shell">
             <div className="stage-main">
+              <div className={`scene-banner scene-${phase}`}>
+                <span className="scene-banner-title">{sceneTitle}</span>
+                <span className="scene-banner-sub">One line at a time. Everyone is testing everyone.</span>
+              </div>
+
               <CastleMap
                 players={engine.players}
                 phase={phase}
-                lastMurdered={null}
+                lastMurdered={engine.meta?.last_murdered || null}
                 activeSpeech={activeSpeech}
                 parlorPartnerId={engine.parlorPartnerId}
               />
-
-              {current?.type === 'host_line' && (
-                <HostDialogue
-                  text={current.text}
-                  onContinue={callAdvance}
-                  showContinue={engine.allowedActions.includes('advance') && !busy}
-                />
-              )}
-
-              {current?.type === 'result_reveal' && (
-                <div className="host-dialogue">
-                  <div className="host-text">
-                    <div className="host-name">Result</div>
-                    <div className="host-speech">{current.text}</div>
-                    {engine.allowedActions.includes('advance') && (
-                      <button className="host-continue" onClick={callAdvance} disabled={busy}>continue</button>
-                    )}
-                  </div>
-                </div>
-              )}
             </div>
 
-            <aside className="roster-panel">
-              <div className="roster-title">Players</div>
-              <div className="roster-list">
-                {engine.players.map((p) => (
-                  <div className={`roster-item ${p.alive ? 'alive' : 'out'} ${p.isHuman ? 'you' : ''}`} key={p.id}>
-                    <span className="roster-name">{String(p.name || '').toUpperCase()}</span>
-                    <span className="roster-state">{p.alive ? (p.isHuman ? 'YOU' : 'IN') : 'OUT'}</span>
-                  </div>
-                ))}
+            <aside className="stage-sidebar">
+              <div className="action-dock">
+                {renderActionCard()}
               </div>
-              <div className="roster-meta">
-                <div>Status: {statusLabel}</div>
-                <div>Alive: {alivePlayers.length}</div>
+
+              <div className="roster-panel">
+                <div className="roster-title">CAST ROSTER</div>
+                <div className="roster-list">
+                  {engine.players.map((p) => (
+                    <div className={`roster-item ${p.alive ? 'alive' : 'out'} ${p.isHuman ? 'you' : ''}`} key={p.id}>
+                      <span className="roster-name">{String(p.name || '').toUpperCase()}</span>
+                      {p.modelLabel && <span className={`roster-model tier-${(p.modelTier || '').toLowerCase()}`}>{p.modelLabel}</span>}
+                      <span className="roster-state">{p.alive ? (p.isHuman ? 'YOU' : 'IN') : 'OUT'}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="roster-meta">
+                  <div>Round {round}</div>
+                  <div>{alivePlayers.length} players remaining</div>
+                </div>
               </div>
             </aside>
           </div>
 
-          <div className="action-dock">
-            {current?.type === 'ai_line' && (
-              <div className="phase-controls dock-panel">
-                <div className="controls-label">{String(current.speaker_name || '').toUpperCase()}</div>
-                <p className="endgame-prompt">{current.move_type ? `Move: ${String(current.move_type).replace('_', ' ')}` : 'Move: tactical statement'}</p>
-                {engine.allowedActions.includes('advance') && (
-                  <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Next'}</button>
-                )}
-              </div>
-            )}
-
-            {current?.type === 'phase_transition' && (
-              <div className="phase-controls dock-panel">
-                <div className="controls-label">Transition</div>
-                <p className="endgame-prompt">Continue to {String(current.to_scene || '').replaceAll('_', ' ')}.</p>
-                {engine.allowedActions.includes('advance') && (
-                  <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Continue'}</button>
-                )}
-              </div>
-            )}
-
-            {current?.type === 'player_prompt' && current.prompt_kind === 'day_statement' && (
-              <div className="phase-controls dock-panel">
-              <div className="controls-label">Your Move</div>
-              <p className="endgame-prompt">{current.prompt}</p>
-              <textarea value={dayInput} onChange={e => setDayInput(e.target.value)} rows={3} disabled={busy} />
-              <button onClick={() => callRespond(dayInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
-              <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
-              </div>
-            )}
-
-            {current?.type === 'player_prompt' && current.prompt_kind === 'parlor_statement' && (
-              <div className="phase-controls parlor dock-panel">
-              <div className="controls-label">Private Reply</div>
-              <p className="endgame-prompt">{current.prompt}</p>
-              <textarea value={parlorInput} onChange={e => setParlorInput(e.target.value)} rows={3} disabled={busy} />
-              <button onClick={() => callRespond(parlorInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
-              <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
-              </div>
-            )}
-
-            {current?.type === 'player_prompt' && current.prompt_kind === 'roundtable_statement' && (
-              <div className="phase-controls dock-panel">
-              <div className="controls-label">Round Table Reply</div>
-              <p className="endgame-prompt">{current.prompt}</p>
-              <textarea value={roundtableInput} onChange={e => setRoundtableInput(e.target.value)} rows={3} disabled={busy} />
-              <button onClick={() => callRespond(roundtableInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
-              <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
-              </div>
-            )}
-
-            {current?.type === 'player_prompt' && current.prompt_kind === 'murder_target' && (
-              <div className="phase-controls night dock-panel">
-              <div className="controls-label">The Turret</div>
-              <p className="endgame-prompt">{current.prompt}</p>
-              <select value={murderTarget} onChange={e => setMurderTarget(e.target.value)} disabled={busy}>
-                <option value="">Select target</option>
-                {options.map((opt) => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
-              </select>
-              <button className="murder-btn" onClick={() => callRespond('', murderTarget)} disabled={busy || !murderTarget}>{busy ? 'sending...' : 'Murder'}</button>
-              </div>
-            )}
-
-            {current?.type === 'vote_prompt' && (
-              <div className="phase-controls dock-panel">
-              <div className="controls-label">Banishment Vote</div>
-              <p className="endgame-prompt">{current.prompt}</p>
-              <select value={voteTarget} onChange={e => setVoteTarget(e.target.value)} disabled={busy}>
-                <option value="">Select vote target</option>
-                {options.map((opt) => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
-              </select>
-              <button onClick={() => callVote(voteTarget)} disabled={busy || !voteTarget}>{busy ? 'voting...' : 'Submit vote'}</button>
-              </div>
-            )}
+          <div className="footer-actions">
+            <button className="reset-btn" onClick={resetGame} disabled={busy}>Reset game</button>
+            {engine.error && <div className="error">{engine.error}</div>}
           </div>
-
-          <button className="reset-btn" onClick={resetGame} disabled={busy}>Reset game</button>
-          {engine.error && <div className="error">{engine.error}</div>}
         </div>
       )}
     </div>

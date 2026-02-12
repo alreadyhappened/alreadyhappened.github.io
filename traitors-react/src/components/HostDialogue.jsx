@@ -4,27 +4,27 @@ export default function HostDialogue({ text, onContinue, showContinue, large = f
   return (
     <div className={`host-dialogue ${large ? 'large' : ''}`}>
       <div className="host-icon">
-        {/* Clawdia cat face */}
-        <svg viewBox="0 0 40 40" width={large ? 62 : 36} height={large ? 62 : 36}>
-          {/* Ears */}
-          <polygon points="8,16 14,4 18,16" fill="#dcb978" opacity="0.9" />
-          <polygon points="32,16 26,4 22,16" fill="#dcb978" opacity="0.9" />
+        <svg viewBox="0 0 40 50" width={large ? 62 : 36} height={large ? 78 : 45}>
+          {/* Hair */}
+          <ellipse cx="20" cy="24" rx="18" ry="22" fill="#1a1118" />
           {/* Face */}
-          <ellipse cx="20" cy="22" rx="13" ry="12" fill="#2a2234" stroke="#dcb978" strokeWidth="1" />
-          {/* Glasses */}
-          <circle cx="15" cy="20" r="4.5" fill="none" stroke="#dcb978" strokeWidth="0.8" />
-          <circle cx="25" cy="20" r="4.5" fill="none" stroke="#dcb978" strokeWidth="0.8" />
-          <line x1="19.5" y1="20" x2="20.5" y2="20" stroke="#dcb978" strokeWidth="0.6" />
+          <ellipse cx="20" cy="26" rx="11" ry="12" fill="#d4a88a" />
+          {/* Fringe */}
+          <path d="M 6 22 Q 10 12, 20 10 Q 30 12, 34 22 L 34 18 Q 28 6, 20 4 Q 12 6, 6 18 Z" fill="#1a1118" />
+          <path d="M 8 22 Q 14 16, 20 15 Q 26 16, 32 22" fill="none" stroke="#151015" strokeWidth="4" strokeLinecap="round" />
+          {/* Smokey eyes */}
+          <ellipse cx="15" cy="24" rx="3.5" ry="2" fill="#2a1828" opacity="0.5" />
+          <ellipse cx="25" cy="24" rx="3.5" ry="2" fill="#2a1828" opacity="0.5" />
           {/* Eyes */}
-          <circle cx="15" cy="20" r="1.5" fill="#dcb978" />
-          <circle cx="25" cy="20" r="1.5" fill="#dcb978" />
-          {/* Nose */}
-          <polygon points="20,24 18.5,26 21.5,26" fill="#dcb978" opacity="0.7" />
-          {/* Whiskers */}
-          <line x1="6" y1="24" x2="15" y2="25" stroke="#dcb978" strokeWidth="0.5" opacity="0.5" />
-          <line x1="6" y1="27" x2="15" y2="27" stroke="#dcb978" strokeWidth="0.5" opacity="0.5" />
-          <line x1="34" y1="24" x2="25" y2="25" stroke="#dcb978" strokeWidth="0.5" opacity="0.5" />
-          <line x1="34" y1="27" x2="25" y2="27" stroke="#dcb978" strokeWidth="0.5" opacity="0.5" />
+          <ellipse cx="15" cy="24" rx="2" ry="1.5" fill="#fff" />
+          <ellipse cx="25" cy="24" rx="2" ry="1.5" fill="#fff" />
+          <circle cx="15.3" cy="24" r="1" fill="#4a3020" />
+          <circle cx="25.3" cy="24" r="1" fill="#4a3020" />
+          {/* Mouth */}
+          <path d="M 17 31 Q 20 33, 23 31" fill="none" stroke="#b86860" strokeWidth="0.7" strokeLinecap="round" />
+          {/* Side hair */}
+          <path d="M 8 22 Q 5 28, 6 38" fill="#1a1118" />
+          <path d="M 32 22 Q 35 28, 34 38" fill="#1a1118" />
         </svg>
       </div>
       <div className="host-text">
