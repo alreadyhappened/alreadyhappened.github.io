@@ -566,18 +566,31 @@
     }
 
     function parseVerdictJson(raw) {
+      const cleaned = String(raw || "")
+        .replace(/```json/gi, "")
+        .replace(/```/g, "")
+        .trim();
+
       try {
-        const direct = JSON.parse(raw);
+        const direct = JSON.parse(cleaned);
         if (direct && direct.guess) return direct;
       } catch (e) {}
 
-      const match = raw.match(/\{[\s\S]*\}/);
+      const match = cleaned.match(/\{[\s\S]*\}/);
       if (!match) return null;
       try {
         const parsed = JSON.parse(match[0]);
         return parsed && parsed.guess ? parsed : null;
       } catch (e) {
-        return null;
+        const guessMatch = cleaned.match(/\b(ai|human)\b/i);
+        const confMatch = cleaned.match(/(\d{2,3})\s*%?/);
+        const reasonMatch = cleaned.match(/reason[:\-]\s*(.+)$/im);
+        if (!guessMatch) return null;
+        return {
+          guess: guessMatch[1].toUpperCase() === "AI" ? "AI" : "Human",
+          confidence: confMatch ? Number(confMatch[1]) : 70,
+          reason: reasonMatch ? reasonMatch[1].trim() : "Based on language cues in the responses."
+        };
       }
     }
 
@@ -587,7 +600,7 @@
         return `${index + 1}. Q: ${question}\nA: ${answer}`;
       }).join("\n\n");
 
-      const systemPrompt = "You are an interrogator trying to classify whether a respondent is AI or human from short answers. Return strict JSON only with keys: guess, confidence, reason. guess must be 'AI' or 'Human'. confidence must be an integer 50-99. reason must be one sentence.";
+      const systemPrompt = "You are an interrogator classifying whether a respondent is AI or human from short answers. Output one single-line JSON object only, no markdown, no extra text. Keys: guess, confidence, reason. guess must be AI or Human. confidence must be integer 50-99. reason must be one sentence.";
       const userPrompt = `Classify this transcript:\n\n${transcript}`;
 
       try {
@@ -607,7 +620,7 @@
       return {
         guess: "Human",
         confidence: 65,
-        reason: "Fallback verdict used because the model response could not be parsed."
+        reason: "Could not confidently parse the model output, so this is a safe default."
       };
     }
   </script>
