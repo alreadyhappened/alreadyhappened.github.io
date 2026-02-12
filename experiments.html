@@ -535,13 +535,22 @@
               <input type="text" class="traitors-select" id="traitors-name" placeholder="Enter your name">
             </div>
 
-            <div class="traitors-step is-hidden" id="traitors-step-banish">
-              <label for="traitors-statement">Your roundtable pitch</label>
-              <textarea class="traitors-input" id="traitors-statement" placeholder="Defend yourself. Throw suspicion elsewhere."></textarea>
+            <div class="traitors-step is-hidden" id="traitors-step-day">
+              <label for="traitors-day-input">Your daytime line</label>
+              <textarea class="traitors-input" id="traitors-day-input" placeholder="Drop a social observation, suspicion, or alibi."></textarea>
+              <button class="detector-btn" id="traitors-day-btn" type="button">Run day conversation</button>
+            </div>
 
+            <div class="traitors-step is-hidden" id="traitors-step-roundtable">
+              <label for="traitors-roundtable-input">Your roundtable accusation/defence</label>
+              <textarea class="traitors-input" id="traitors-roundtable-input" placeholder="Convince them someone else is the non-AI human."></textarea>
+              <button class="detector-btn" id="traitors-roundtable-btn" type="button">Run roundtable conversation</button>
+            </div>
+
+            <div class="traitors-step is-hidden" id="traitors-step-vote">
               <label for="traitors-vote">Your banishment vote</label>
               <select class="traitors-select" id="traitors-vote"></select>
-              <button class="detector-btn" id="traitors-banish-btn" type="button">Run banishment</button>
+              <button class="detector-btn" id="traitors-vote-btn" type="button">Run vote</button>
             </div>
 
             <div class="traitors-step is-hidden" id="traitors-step-night">
@@ -724,13 +733,18 @@
     const traitorsResetBtn = document.getElementById("traitors-reset-btn");
     const traitorsPhaseLabelEl = document.getElementById("traitors-phase-label");
     const traitorsNameEl = document.getElementById("traitors-name");
-    const traitorsStatementEl = document.getElementById("traitors-statement");
+    const traitorsDayInputEl = document.getElementById("traitors-day-input");
+    const traitorsRoundtableInputEl = document.getElementById("traitors-roundtable-input");
     const traitorsVoteEl = document.getElementById("traitors-vote");
-    const traitorsBanishBtn = document.getElementById("traitors-banish-btn");
+    const traitorsDayBtn = document.getElementById("traitors-day-btn");
+    const traitorsRoundtableBtn = document.getElementById("traitors-roundtable-btn");
+    const traitorsVoteBtn = document.getElementById("traitors-vote-btn");
     const traitorsMurderEl = document.getElementById("traitors-murder");
     const traitorsNightBtn = document.getElementById("traitors-night-btn");
     const traitorsStepStartEl = document.getElementById("traitors-step-start");
-    const traitorsStepBanishEl = document.getElementById("traitors-step-banish");
+    const traitorsStepDayEl = document.getElementById("traitors-step-day");
+    const traitorsStepRoundtableEl = document.getElementById("traitors-step-roundtable");
+    const traitorsStepVoteEl = document.getElementById("traitors-step-vote");
     const traitorsStepNightEl = document.getElementById("traitors-step-night");
     const traitorsStepEndedEl = document.getElementById("traitors-step-ended");
     const traitorsEndedTextEl = document.getElementById("traitors-ended-text");
@@ -776,7 +790,9 @@
     }
     if (traitorsStartBtn) traitorsStartBtn.addEventListener("click", startTraitorsGame);
     if (traitorsResetBtn) traitorsResetBtn.addEventListener("click", resetTraitorsGame);
-    if (traitorsBanishBtn) traitorsBanishBtn.addEventListener("click", runTraitorsBanishment);
+    if (traitorsDayBtn) traitorsDayBtn.addEventListener("click", runTraitorsDay);
+    if (traitorsRoundtableBtn) traitorsRoundtableBtn.addEventListener("click", runTraitorsRoundtable);
+    if (traitorsVoteBtn) traitorsVoteBtn.addEventListener("click", runTraitorsVote);
     if (traitorsNightBtn) traitorsNightBtn.addEventListener("click", runTraitorsNight);
     renderScoreboard();
     refreshGlobalScoreboard();
@@ -1241,7 +1257,9 @@
     function updateTraitorsControls() {
       const started = !!traitorsState;
       const ended = started && traitorsState.phase === "ended";
-      const banishment = started && traitorsState.phase === "banishment" && !traitorsBusy;
+      const day = started && traitorsState.phase === "day" && !traitorsBusy;
+      const roundtable = started && traitorsState.phase === "roundtable" && !traitorsBusy;
+      const vote = started && traitorsState.phase === "vote" && !traitorsBusy;
       const night = started && traitorsState.phase === "night" && !traitorsBusy;
 
       if (traitorsStartBtn) traitorsStartBtn.disabled = traitorsBusy || started;
@@ -1249,19 +1267,26 @@
       if (traitorsNameEl) traitorsNameEl.disabled = traitorsBusy || started;
 
       if (traitorsStepStartEl) traitorsStepStartEl.classList.toggle("is-hidden", started);
-      if (traitorsStepBanishEl) traitorsStepBanishEl.classList.toggle("is-hidden", !started || traitorsState.phase !== "banishment");
+      if (traitorsStepDayEl) traitorsStepDayEl.classList.toggle("is-hidden", !started || traitorsState.phase !== "day");
+      if (traitorsStepRoundtableEl) traitorsStepRoundtableEl.classList.toggle("is-hidden", !started || traitorsState.phase !== "roundtable");
+      if (traitorsStepVoteEl) traitorsStepVoteEl.classList.toggle("is-hidden", !started || traitorsState.phase !== "vote");
       if (traitorsStepNightEl) traitorsStepNightEl.classList.toggle("is-hidden", !started || traitorsState.phase !== "night");
       if (traitorsStepEndedEl) traitorsStepEndedEl.classList.toggle("is-hidden", !ended);
 
-      if (traitorsStatementEl) traitorsStatementEl.disabled = !banishment;
-      if (traitorsVoteEl) traitorsVoteEl.disabled = !banishment;
-      if (traitorsBanishBtn) traitorsBanishBtn.disabled = !banishment;
+      if (traitorsDayInputEl) traitorsDayInputEl.disabled = !day;
+      if (traitorsDayBtn) traitorsDayBtn.disabled = !day;
+      if (traitorsRoundtableInputEl) traitorsRoundtableInputEl.disabled = !roundtable;
+      if (traitorsRoundtableBtn) traitorsRoundtableBtn.disabled = !roundtable;
+      if (traitorsVoteEl) traitorsVoteEl.disabled = !vote;
+      if (traitorsVoteBtn) traitorsVoteBtn.disabled = !vote;
       if (traitorsMurderEl) traitorsMurderEl.disabled = !night;
       if (traitorsNightBtn) traitorsNightBtn.disabled = !night;
 
       if (traitorsPhaseLabelEl) {
         if (!started) traitorsPhaseLabelEl.textContent = "Phase: Setup (8 players, you are the Traitor)";
-        else if (traitorsState.phase === "banishment") traitorsPhaseLabelEl.textContent = `Phase: Round ${traitorsState.round} Roundtable`;
+        else if (traitorsState.phase === "day") traitorsPhaseLabelEl.textContent = `Phase: Round ${traitorsState.round} Day conversation`;
+        else if (traitorsState.phase === "roundtable") traitorsPhaseLabelEl.textContent = `Phase: Round ${traitorsState.round} Roundtable discussion`;
+        else if (traitorsState.phase === "vote") traitorsPhaseLabelEl.textContent = `Phase: Round ${traitorsState.round} Vote`;
         else if (traitorsState.phase === "night") traitorsPhaseLabelEl.textContent = `Phase: Round ${traitorsState.round} Night Murder`;
         else traitorsPhaseLabelEl.textContent = "Phase: Endgame";
       }
@@ -1348,30 +1373,78 @@
       if (traitorsLogEl) traitorsLogEl.innerHTML = "";
       if (traitorsVoteEl) traitorsVoteEl.innerHTML = "";
       if (traitorsMurderEl) traitorsMurderEl.innerHTML = "";
-      if (traitorsStatementEl) traitorsStatementEl.value = "";
+      if (traitorsDayInputEl) traitorsDayInputEl.value = "";
+      if (traitorsRoundtableInputEl) traitorsRoundtableInputEl.value = "";
       if (traitorsEndedTextEl) traitorsEndedTextEl.textContent = "Game over.";
       renderTraitorsScene();
       updateTraitorsControls();
     }
 
-    async function runTraitorsBanishment() {
-      if (traitorsBusy || !traitorsState || traitorsState.phase !== "banishment") return;
-      const statement = traitorsStatementEl ? traitorsStatementEl.value.trim() : "";
-      const vote = traitorsVoteEl ? traitorsVoteEl.value : "";
+    async function runTraitorsDay() {
+      if (traitorsBusy || !traitorsState || traitorsState.phase !== "day") return;
+      const statement = traitorsDayInputEl ? traitorsDayInputEl.value.trim() : "";
       if (statement) appendTraitorsLine("you", statement);
-
       setTraitorsBusy(true);
       try {
-        const payload = await callWorkerPath("/traitors/banishment", {
+        const payload = await callWorkerPath("/traitors/day", {
           state: traitorsState,
-          human_statement: statement,
-          human_vote: vote
+          human_day_statement: statement
         });
         traitorsState = payload && payload.state ? payload.state : traitorsState;
-
         if (Array.isArray(payload && payload.ai_turns)) {
           payload.ai_turns.forEach((turn) => {
             appendTraitorsLine(turn.name || turn.id, turn.statement || "");
+          });
+        }
+        if (payload && payload.host_line) appendTraitorsLine("host", payload.host_line);
+        if (traitorsDayInputEl) traitorsDayInputEl.value = "";
+        renderTraitorsUI();
+        announceTraitorsWinnerIfAny();
+      } catch (e) {
+        appendTraitorsLine("system", "Day conversation step failed.");
+      }
+      setTraitorsBusy(false);
+    }
+
+    async function runTraitorsRoundtable() {
+      if (traitorsBusy || !traitorsState || traitorsState.phase !== "roundtable") return;
+      const statement = traitorsRoundtableInputEl ? traitorsRoundtableInputEl.value.trim() : "";
+      if (statement) appendTraitorsLine("you", statement);
+      setTraitorsBusy(true);
+      try {
+        const payload = await callWorkerPath("/traitors/roundtable", {
+          state: traitorsState,
+          human_statement: statement
+        });
+        traitorsState = payload && payload.state ? payload.state : traitorsState;
+        if (Array.isArray(payload && payload.ai_turns)) {
+          payload.ai_turns.forEach((turn) => {
+            appendTraitorsLine(turn.name || turn.id, turn.statement || "");
+          });
+        }
+        if (payload && payload.host_line) appendTraitorsLine("host", payload.host_line);
+        if (traitorsRoundtableInputEl) traitorsRoundtableInputEl.value = "";
+        renderTraitorsUI();
+        announceTraitorsWinnerIfAny();
+      } catch (e) {
+        appendTraitorsLine("system", "Roundtable step failed.");
+      }
+      setTraitorsBusy(false);
+    }
+
+    async function runTraitorsVote() {
+      if (traitorsBusy || !traitorsState || traitorsState.phase !== "vote") return;
+      const vote = traitorsVoteEl ? traitorsVoteEl.value : "";
+      setTraitorsBusy(true);
+      try {
+        const payload = await callWorkerPath("/traitors/vote", {
+          state: traitorsState,
+          human_vote: vote
+        });
+        traitorsState = payload && payload.state ? payload.state : traitorsState;
+        if (Array.isArray(payload && payload.ai_votes)) {
+          payload.ai_votes.forEach((turn) => {
+            appendTraitorsLine(`${turn.name} vote`, `${turn.name} votes ${turn.vote}. ${turn.reason || ""}`.trim());
           });
         }
         if (payload && payload.host_line) appendTraitorsLine("host", payload.host_line);
@@ -1381,7 +1454,7 @@
         renderTraitorsUI();
         announceTraitorsWinnerIfAny();
       } catch (e) {
-        appendTraitorsLine("system", "Banishment step failed.");
+        appendTraitorsLine("system", "Vote step failed.");
       }
       setTraitorsBusy(false);
     }
@@ -1397,7 +1470,7 @@
         });
         traitorsState = payload && payload.state ? payload.state : traitorsState;
         if (payload && payload.murdered) {
-          appendTraitorsLine("night", `You murdered ${payload.murdered.name}.`);
+          appendTraitorsLine("turret", `In the turret, you chose to murder ${payload.murdered.name}.`);
         }
         if (payload && payload.host_line) appendTraitorsLine("host", payload.host_line);
         renderTraitorsUI();
