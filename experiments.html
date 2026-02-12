@@ -166,9 +166,13 @@
 
     .detector-layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 540px;
+      grid-template-columns: minmax(520px, 1fr) 540px;
       gap: 1.5rem;
       align-items: start;
+    }
+
+    body.experiments-page {
+      max-width: 1500px;
     }
 
     #panel-detector {
@@ -358,7 +362,7 @@
     }
   </style>
 </head>
-<body>
+<body class="experiments-page">
   <nav>
     <a href="/">About</a>
     <a href="/worked-on.html">Things I have worked on</a>
