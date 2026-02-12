@@ -530,7 +530,6 @@
       "What is one detail about your local area that outsiders miss?",
       "What do you usually overthink for no good reason?"
     ];
-    const DETECTOR_STATS_KEY = "ai_detector_scoreboard_v1";
 
     const detectorState = {
       mode: null,
@@ -546,7 +545,7 @@
       watchInterrogatorMeta: "",
       watchRespondentMeta: ""
     };
-    let detectorStats = loadDetectorStats();
+    let detectorStats = defaultDetectorStats();
 
     if (playHumanBtn) playHumanBtn.addEventListener("click", startHumanGame);
     if (watchAiBtn) watchAiBtn.addEventListener("click", startWatchGame);
@@ -558,6 +557,7 @@
       });
     }
     renderScoreboard();
+    refreshGlobalScoreboard();
 
     function defaultDetectorStats() {
       return {
@@ -570,28 +570,24 @@
       };
     }
 
-    function loadDetectorStats() {
-      try {
-        const raw = localStorage.getItem(DETECTOR_STATS_KEY);
-        if (!raw) return defaultDetectorStats();
-        const parsed = JSON.parse(raw);
-        if (!parsed || typeof parsed !== "object") return defaultDetectorStats();
-        return {
-          totalRounds: Number(parsed.totalRounds) || 0,
-          correct: Number(parsed.correct) || 0,
-          wrong: Number(parsed.wrong) || 0,
-          humanRounds: Number(parsed.humanRounds) || 0,
-          aiRounds: Number(parsed.aiRounds) || 0,
-          brierSum: Number(parsed.brierSum) || 0
-        };
-      } catch (e) {
-        return defaultDetectorStats();
-      }
+    function normalizeStats(raw) {
+      return {
+        totalRounds: Number(raw && raw.totalRounds) || 0,
+        correct: Number(raw && raw.correct) || 0,
+        wrong: Number(raw && raw.wrong) || 0,
+        humanRounds: Number(raw && raw.humanRounds) || 0,
+        aiRounds: Number(raw && raw.aiRounds) || 0,
+        brierSum: Number(raw && raw.brierSum) || 0
+      };
     }
 
-    function saveDetectorStats() {
+    async function refreshGlobalScoreboard() {
       try {
-        localStorage.setItem(DETECTOR_STATS_KEY, JSON.stringify(detectorStats));
+        const payload = await callWorkerPath("/detector/stats/get", {});
+        if (payload && payload.stats) {
+          detectorStats = normalizeStats(payload.stats);
+          renderScoreboard();
+        }
       } catch (e) {}
     }
 
@@ -827,7 +823,7 @@
       setDetectorControlsDisabled(false);
     }
 
-    function recordRound(verdict, groundTruth) {
+    function applyLocalRoundUpdate(verdict, groundTruth) {
       const correct = verdict.guess === groundTruth;
       const numericConfidence = Number.isFinite(verdict.confidence) ? verdict.confidence : 70;
       const confidence = Math.max(0.5, Math.min(0.99, numericConfidence / 100));
@@ -841,9 +837,25 @@
       detectorStats.humanRounds += groundTruth === "Human" ? 1 : 0;
       detectorStats.aiRounds += groundTruth === "AI" ? 1 : 0;
       detectorStats.brierSum += brier;
-      saveDetectorStats();
       renderScoreboard();
       return correct;
+    }
+
+    async function recordRound(verdict, groundTruth) {
+      try {
+        const payload = await callWorkerPath("/detector/stats/record", {
+          guess: verdict.guess,
+          confidence: verdict.confidence,
+          groundTruth
+        });
+        if (payload && payload.stats) {
+          detectorStats = normalizeStats(payload.stats);
+          renderScoreboard();
+        }
+        return !!(payload && payload.correct);
+      } catch (e) {
+        return applyLocalRoundUpdate(verdict, groundTruth);
+      }
     }
 
     async function endRound(qaPairs, groundTruth) {
@@ -853,7 +865,7 @@
       setDetectorStatus("Evaluating transcript...");
 
       const verdict = await getVerdict(qaPairs);
-      const correct = recordRound(verdict, groundTruth);
+      const correct = await recordRound(verdict, groundTruth);
 
       setDetectorStatus(`Verdict: ${verdict.guess} (${verdict.confidence}% confidence)`);
       appendDetectorLine("verdict", `I think this respondent is ${verdict.guess.toLowerCase()} (${verdict.confidence}% confidence). ${verdict.reason}`, true);
