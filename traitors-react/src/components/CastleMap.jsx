@@ -106,16 +106,26 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech, 
             <rect x="0" y="0" width="10" height="10" fill="#2d2538" opacity="0.5" />
             <rect x="10" y="10" width="10" height="10" fill="#272030" opacity="0.5" />
           </pattern>
+          <pattern id="checker-shadow" width="16" height="16" patternUnits="userSpaceOnUse">
+            <rect width="16" height="16" fill="#000" opacity="0.02" />
+            <rect x="0" y="0" width="8" height="8" fill="#000" opacity="0.05" />
+            <rect x="8" y="8" width="8" height="8" fill="#000" opacity="0.05" />
+          </pattern>
           <radialGradient id="candle-light" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stopColor="#ffcc66" stopOpacity="0.3" />
             <stop offset="60%" stopColor="#ffaa33" stopOpacity="0.08" />
             <stop offset="100%" stopColor="#ffaa33" stopOpacity="0" />
+          </radialGradient>
+          <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
+            <stop offset="55%" stopColor="#000" stopOpacity="0" />
+            <stop offset="100%" stopColor="#000" stopOpacity="0.45" />
           </radialGradient>
         </defs>
 
         <rect width="900" height="540" fill="#120e18" />
         <circle cx="120" cy="80" r="220" fill="#5f3b5f" opacity="0.15" />
         <circle cx="790" cy="100" r="180" fill="#3f6f6a" opacity="0.12" />
+        <rect width="900" height="540" fill="url(#checker-shadow)" />
 
         {room === 'breakfast' && (
           <g>
@@ -231,6 +241,8 @@ export default function CastleMap({ players, phase, lastMurdered, activeSpeech, 
             </text>
           </g>
         )}
+
+        <rect width="900" height="540" fill="url(#vignette)" />
       </svg>
     </div>
   )

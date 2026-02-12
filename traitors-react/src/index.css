@@ -97,6 +97,117 @@ body {
   position: relative;
 }
 
+.hud-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.hud-chip {
+  padding: 0.32rem 0.58rem;
+  border: 1px solid rgba(230, 183, 155, 0.45);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(54, 33, 64, 0.94) 0%, rgba(30, 18, 40, 0.94) 100%);
+  color: #f2d8c2;
+  font-size: 0.73rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.stage-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.stage-main {
+  min-width: 0;
+}
+
+.action-dock {
+  margin-top: 0.7rem;
+  border: 1px solid rgba(222, 173, 149, 0.38);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(25, 16, 35, 0.95) 0%, rgba(15, 10, 24, 0.95) 100%);
+  padding: 0.75rem;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.36);
+}
+
+.dock-panel {
+  max-width: 900px;
+  margin-bottom: 0;
+  border-color: rgba(233, 186, 151, 0.55);
+  box-shadow: 0 0 0 1px rgba(98, 57, 72, 0.26) inset;
+}
+
+.roster-panel {
+  border: 1px solid rgba(222, 173, 149, 0.48);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(35, 24, 44, 0.95) 0%, rgba(20, 13, 30, 0.95) 100%);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+  padding: 0.75rem;
+  position: sticky;
+  top: 0.8rem;
+}
+
+.roster-title {
+  font-size: 0.82rem;
+  color: #f0c7a0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.55rem;
+}
+
+.roster-list {
+  display: grid;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.roster-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.42rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(197, 145, 136, 0.25);
+  font-size: 0.78rem;
+}
+
+.roster-item.alive {
+  background: rgba(67, 44, 76, 0.52);
+}
+
+.roster-item.out {
+  background: rgba(45, 26, 33, 0.52);
+  opacity: 0.7;
+}
+
+.roster-item.you {
+  border-color: rgba(245, 183, 157, 0.72);
+  box-shadow: 0 0 0 1px rgba(245, 183, 157, 0.22) inset;
+}
+
+.roster-name {
+  color: #f8eee3;
+}
+
+.roster-state {
+  color: #d9b2a4;
+  font-weight: 700;
+}
+
+.roster-meta {
+  border-top: 1px solid rgba(197, 145, 136, 0.28);
+  padding-top: 0.45rem;
+  color: #d7c4d8;
+  font-size: 0.76rem;
+  display: grid;
+  gap: 0.2rem;
+}
+
 .intro-stage {
   margin-top: 2rem;
   max-width: 860px;
@@ -127,21 +238,6 @@ body {
   height: auto;
   max-height: 760px;
   display: block;
-}
-
-.floating-turn {
-  position: absolute;
-  right: 1.1rem;
-  top: 4.4rem;
-  width: min(340px, calc(100% - 2.2rem));
-  margin-bottom: 0;
-  z-index: 5;
-  backdrop-filter: blur(2px);
-  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.4);
-}
-
-.floating-turn .endgame-prompt {
-  margin-bottom: 0.2rem;
 }
 
 /* Room groups */
@@ -240,8 +336,9 @@ body {
   background: linear-gradient(180deg, rgba(50, 28, 47, 0.95) 0%, rgba(26, 17, 42, 0.95) 100%);
   border: 1px solid #d39a8c;
   border-left: 4px solid #f3c8a2;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.65rem;
   animation: fadeSlideIn 0.3s ease-out;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.3);
 }
 
 .host-dialogue.large {
@@ -395,15 +492,15 @@ body {
 
 .phase-controls button {
   align-self: flex-start;
-  padding: 0.4rem 1rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid #5f506f;
-  color: #f5f0fb;
+  padding: 0.45rem 1.05rem;
+  background: linear-gradient(180deg, rgba(90, 56, 74, 0.88) 0%, rgba(63, 35, 52, 0.88) 100%);
+  border: 1px solid #c99380;
+  color: #fff0e8;
   font-family: Georgia, serif;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   cursor: pointer;
 }
-.phase-controls button:hover { border-color: #dcb978; color: #f7edcf; }
+.phase-controls button:hover { border-color: #f3c8a2; color: #fff8f3; }
 .phase-controls button:disabled { opacity: 0.35; cursor: default; }
 
 .phase-controls .quiet-btn {
@@ -602,10 +699,13 @@ body {
   .app { padding: 1rem 0.8rem 2rem; }
   .header h1 { font-size: 1.8rem; }
   .castle-svg { max-height: 380px; }
-  .floating-turn {
+  .hud-strip { margin-bottom: 0.4rem; }
+  .stage-shell {
+    grid-template-columns: 1fr;
+  }
+  .roster-panel {
     position: static;
-    width: 100%;
-    margin-bottom: 0.8rem;
+    order: 2;
   }
   .endgame-buttons { flex-direction: column; }
   .setup-form { flex-direction: column; }
