@@ -1,449 +1,182 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useReducer, useState } from 'react'
 import { post } from './api'
 import CastleMap from './components/CastleMap'
 import IntroSequence from './components/IntroSequence'
-import MorningReveal from './components/MorningReveal'
 import HostDialogue from './components/HostDialogue'
-import PhaseControls from './components/PhaseControls'
-import EndgameVote from './components/EndgameVote'
-const SPEECH_DELAY_MS = 920
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
-function alivePlayers(state) {
-  if (!state?.players) return []
-  return state.players.filter(p => p.alive)
+function mapSceneToPhase(scene) {
+  if (scene === 'DAY_PARLOR_OPEN' || scene === 'DAY_PARLOR_PLAYER_TURN') return 'parlor'
+  if (scene === 'ROUNDTABLE_OPEN' || scene === 'ROUNDTABLE_PLAYER_TURN') return 'roundtable'
+  if (scene === 'VOTE_PROMPT' || scene === 'VOTE_REVEAL') return 'vote'
+  if (scene === 'TURRET_PROMPT') return 'night'
+  if (scene === 'MORNING_REVEAL') return 'morningReveal'
+  if (scene === 'ENDED') return 'ended'
+  return 'day'
 }
 
-function aliveAIs(state) {
-  return alivePlayers(state).filter(p => !p.isHuman)
+const initialEngine = {
+  started: false,
+  sessionId: '',
+  scene: 'setup',
+  turnState: 'READY_TO_ADVANCE',
+  queue: [],
+  queueIndex: 0,
+  currentItem: null,
+  awaitingPlayerInput: false,
+  playerInputKind: null,
+  pendingAction: null,
+  allowedActions: [],
+  players: [],
+  meta: { round: 1, alive_count: 0, winner: null },
+  parlorPartnerId: '',
+  error: '',
+}
+
+function engineReducer(state, action) {
+  if (action.type === 'hydrate') {
+    const p = action.payload || {}
+    return {
+      ...state,
+      started: true,
+      scene: p.scene || state.scene,
+      turnState: p.turn_state || state.turnState,
+      queue: Array.isArray(p.queue) ? p.queue : [],
+      queueIndex: Number.isFinite(p.queue_index) ? p.queue_index : 0,
+      currentItem: p.current_item || null,
+      awaitingPlayerInput: !!p.awaiting_player_input,
+      playerInputKind: p.player_input_kind || null,
+      pendingAction: p.pending_action || null,
+      allowedActions: Array.isArray(p.allowed_actions) ? p.allowed_actions : [],
+      players: Array.isArray(p.players_public) ? p.players_public : [],
+      meta: p.meta || state.meta,
+      parlorPartnerId: p.meta?.parlor_partner_id || '',
+      error: '',
+    }
+  }
+  if (action.type === 'session') {
+    return { ...state, sessionId: action.sessionId || state.sessionId }
+  }
+  if (action.type === 'error') {
+    return { ...state, error: action.error || 'Unknown error' }
+  }
+  if (action.type === 'reset') {
+    return { ...initialEngine }
+  }
+  return state
 }
 
 export default function App() {
-  // Setup
   const [name, setName] = useState('')
-  const [started, setStarted] = useState(false)
-
-  // Game state from backend
-  const [gameState, setGameState] = useState(null)
-  const [sessionId, setSessionId] = useState('')
-
-  // Visual phase (frontend sub-phases on top of backend phases)
-  const [visualPhase, setVisualPhase] = useState('setup')
-
-  // UI state
+  const [showIntro, setShowIntro] = useState(false)
   const [busy, setBusy] = useState(false)
-  const [error, setError] = useState('')
-  const [log, setLog] = useState([])
-  const [hostText, setHostText] = useState('')
-  const [lastMurdered, setLastMurdered] = useState(null)
-  const [activeSpeech, setActiveSpeech] = useState(null)
 
-  // Endgame state
-  const [endgameChoices, setEndgameChoices] = useState(null)
-  const [endgameOutcome, setEndgameOutcome] = useState(null)
-
-  // Input state
-  const [dayLine, setDayLine] = useState('')
-  const [parlorLine, setParlorLine] = useState('')
-  const [roundtableLine, setRoundtableLine] = useState('')
+  const [dayInput, setDayInput] = useState('')
+  const [parlorInput, setParlorInput] = useState('')
+  const [roundtableInput, setRoundtableInput] = useState('')
   const [voteTarget, setVoteTarget] = useState('')
-  const [nightTarget, setNightTarget] = useState('')
+  const [murderTarget, setMurderTarget] = useState('')
 
-  const alive = useMemo(() => alivePlayers(gameState), [gameState])
-  const aliveAi = useMemo(() => aliveAIs(gameState), [gameState])
+  const [engine, dispatch] = useReducer(engineReducer, initialEngine)
 
-  function prettyLabel(label) {
-    const raw = String(label || '').trim()
-    if (!raw) return ''
-    if (raw.toLowerCase() === 'you') return 'You'
-    if (raw.toLowerCase() === 'host') return 'Host'
-    if (raw.toLowerCase() === 'banished') return 'Banished'
-    if (raw.toLowerCase() === 'turret') return 'Turret'
-    return raw.charAt(0).toUpperCase() + raw.slice(1)
-  }
+  const phase = useMemo(() => mapSceneToPhase(engine.scene), [engine.scene])
+  const current = engine.currentItem
 
-  function appendLog(label, text) {
-    if (!text) return
-    setLog(prev => [...prev, { label: prettyLabel(label), text }])
-  }
-
-  async function speakSequential(lines, formatter) {
-    for (const line of lines || []) {
-      const text = formatter ? formatter(line) : line?.statement || ''
-      if (!text) continue
-      appendLog(line.name || line.id || 'player', text)
-      if (line.id) setActiveSpeech({ playerId: line.id, text })
-      await sleep(SPEECH_DELAY_MS)
+  const activeSpeech = useMemo(() => {
+    if (!current) return null
+    if (current.type === 'ai_line') {
+      return { playerId: current.speaker_id, text: current.text }
     }
-    setActiveSpeech(null)
-  }
-
-  function syncTargets(state) {
-    const ai = aliveAIs(state)
-    if (ai.length) {
-      setVoteTarget(cur => ai.some(p => p.id === cur) ? cur : ai[0].id)
-      setNightTarget(cur => ai.some(p => p.id === cur) ? cur : ai[0].id)
+    if (current.type === 'player_line') {
+      return { playerId: 'human', text: current.text }
     }
-  }
+    return null
+  }, [current])
 
-  async function openDayPhase() {
-    if (!sessionId || busy) return
-    setBusy(true)
-    setError('')
-    setVisualPhase('day')
-    try {
-      const data = await post('/traitors/day-open', { session_id: sessionId })
-      setGameState(data.state)
-      syncTargets(data.state)
-      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-    } catch (e) {
-      setError(e.message)
-    }
-    setBusy(false)
-  }
+  const options = useMemo(() => current?.options || [], [current])
 
-  async function openRoundtablePhase() {
-    if (!sessionId || busy) return
-    setBusy(true)
-    setError('')
-    setVisualPhase('roundtable')
-    try {
-      const data = await post('/traitors/roundtable-open', { session_id: sessionId })
-      setGameState(data.state)
-      syncTargets(data.state)
-      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-    } catch (e) {
-      setError(e.message)
-    }
-    setBusy(false)
+  async function hydrateFromServer(payload, sessionIdOverride = '') {
+    dispatch({ type: 'hydrate', payload })
+    if (sessionIdOverride) dispatch({ type: 'session', sessionId: sessionIdOverride })
   }
-
-  async function openParlorPhase() {
-    if (!sessionId || busy) return
-    setBusy(true)
-    setError('')
-    setVisualPhase('parlor')
-    try {
-      const data = await post('/traitors/parlor-open', { session_id: sessionId })
-      setGameState(data.state)
-      syncTargets(data.state)
-      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-    } catch (e) {
-      setError(e.message)
-    }
-    setBusy(false)
-  }
-
-  // === GAME ACTIONS ===
 
   async function startGame() {
     if (!name.trim()) {
-      setError('Enter your name first.')
+      dispatch({ type: 'error', error: 'Enter your name first.' })
       return
     }
     setBusy(true)
-    setError('')
-    setLog([])
     try {
       const data = await post('/traitors/start', { human_name: name.trim(), ai_count: 6 })
-      setGameState(data.state)
-      setSessionId(data.session_id || '')
-      setStarted(true)
-      syncTargets(data.state)
-      setVisualPhase('intro')
-    } catch (e) {
-      setError(e.message)
-    }
-    setBusy(false)
-  }
-
-  function finishIntro() {
-    openDayPhase()
-    setHostText('')
-  }
-
-  function finishMorningReveal() {
-    openDayPhase()
-    setHostText('')
-  }
-
-  async function runDay(opts = {}) {
-    if (!gameState || busy) return
-    const silent = !!opts.silent
-    const spoken = dayLine.trim()
-    const dayStatement = silent ? '[SILENT_AT_BREAKFAST]' : spoken
-    setBusy(true)
-    setError('')
-    if (silent) {
-      appendLog('you', 'You say nothing and study the room.')
-      setActiveSpeech({ playerId: 'human', text: '...I stay quiet for now.' })
-      await sleep(560)
-      setActiveSpeech(null)
-    } else if (spoken) {
-      appendLog('you', spoken)
-      setActiveSpeech({ playerId: 'human', text: spoken })
-      await sleep(560)
-      setActiveSpeech(null)
-    }
-    let shouldOpenParlor = false
-    try {
-      const data = await post('/traitors/day', {
-        session_id: sessionId,
-        human_day_statement: dayStatement,
-      })
-      setGameState(data.state)
-      syncTargets(data.state)
-      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
+      await hydrateFromServer(data, data.session_id || '')
+      setShowIntro(true)
+      if (Array.isArray(data.current_item?.options)) {
+        setVoteTarget(data.current_item.options[0]?.id || '')
       }
-      setDayLine('')
-      shouldOpenParlor = true
     } catch (e) {
-      setError(e.message)
+      dispatch({ type: 'error', error: e.message })
     }
     setBusy(false)
-    if (shouldOpenParlor) {
-      await openParlorPhase()
-    }
   }
 
-  async function runParlor(opts = {}) {
-    if (!gameState || busy) return
-    const silent = !!opts.silent
-    const spoken = parlorLine.trim()
-    const parlorStatement = silent ? '[SILENT_AT_PARLOR]' : spoken
+  async function callAdvance() {
+    if (!engine.sessionId || busy) return
     setBusy(true)
-    setError('')
-    if (silent) {
-      appendLog('you', 'You keep your cards close in the private chat.')
-      setActiveSpeech({ playerId: 'human', text: '...I stay guarded.' })
-      await sleep(560)
-      setActiveSpeech(null)
-    } else if (spoken) {
-      appendLog('you', spoken)
-      setActiveSpeech({ playerId: 'human', text: spoken })
-      await sleep(560)
-      setActiveSpeech(null)
-    }
-    let shouldOpenRoundtable = false
     try {
-      const data = await post('/traitors/parlor-turn', {
-        session_id: sessionId,
-        human_parlor_statement: parlorStatement,
-      })
-      setGameState(data.state)
-      syncTargets(data.state)
-      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-      setParlorLine('')
-      shouldOpenRoundtable = true
+      const data = await post('/traitors/advance', { session_id: engine.sessionId })
+      await hydrateFromServer(data)
     } catch (e) {
-      setError(e.message)
+      dispatch({ type: 'error', error: e.message })
     }
     setBusy(false)
-    if (shouldOpenRoundtable) {
-      await openRoundtablePhase()
-    }
   }
 
-  async function runRoundtable(opts = {}) {
-    if (!gameState || busy) return
-    const silent = !!opts.silent
-    const spoken = roundtableLine.trim()
-    const roundtableStatement = silent ? '[SILENT_AT_ROUNDTABLE]' : spoken
+  async function callRespond(text, choice = '') {
+    if (!engine.sessionId || busy) return
     setBusy(true)
-    setError('')
-    if (silent) {
-      appendLog('you', 'You stay silent at the Round Table.')
-      setActiveSpeech({ playerId: 'human', text: '...I hold my tongue.' })
-      await sleep(560)
-      setActiveSpeech(null)
-    } else if (spoken) {
-      appendLog('you', spoken)
-      setActiveSpeech({ playerId: 'human', text: spoken })
-      await sleep(560)
-      setActiveSpeech(null)
-    }
     try {
-      const data = await post('/traitors/roundtable', {
-        session_id: sessionId,
-        human_statement: roundtableStatement,
+      const data = await post('/traitors/respond', {
+        session_id: engine.sessionId,
+        text,
+        choice,
+        target: choice,
       })
-      setGameState(data.state)
-      syncTargets(data.state)
-      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-      setRoundtableLine('')
-      setVisualPhase('vote')
+      await hydrateFromServer(data)
+      setDayInput('')
+      setParlorInput('')
+      setRoundtableInput('')
     } catch (e) {
-      setError(e.message)
+      dispatch({ type: 'error', error: e.message })
     }
     setBusy(false)
   }
 
-  async function runVote() {
-    if (!gameState || busy) return
+  async function callVote(target) {
+    if (!engine.sessionId || busy) return
     setBusy(true)
-    setError('')
     try {
       const data = await post('/traitors/vote', {
-        session_id: sessionId,
-        human_vote: voteTarget,
+        session_id: engine.sessionId,
+        target,
       })
-      setGameState(data.state)
-      syncTargets(data.state)
-
-      const nameById = new Map((data.state?.players || []).map((p) => [p.id, p.name]))
-      await speakSequential(
-        data.ai_votes || [],
-        (v) => `votes to banish ${nameById.get(v.vote) || v.vote}. ${v.reason || ''}`.trim()
-      )
-      if (data.banished) {
-        appendLog('banished', `${data.banished.name} was banished. They were ${data.banished.role}.`)
-      }
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-
-      // Determine next visual phase
-      const nextPhase = data.state?.phase
-      if (nextPhase === 'ended') {
-        setVisualPhase('ended')
-        const win = data.state.winner === 'human'
-        appendLog('host', win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
-        setHostText(win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
-      } else if (nextPhase === 'endgame_choice') {
-        setVisualPhase('endgame_choice')
-      } else {
-        // Normal flow: go to night
-        setVisualPhase('night')
-      }
+      await hydrateFromServer(data)
     } catch (e) {
-      setError(e.message)
-    }
-    setBusy(false)
-  }
-
-  async function runNight() {
-    if (!gameState || busy) return
-    setBusy(true)
-    setError('')
-    try {
-      const data = await post('/traitors/night', {
-        session_id: sessionId,
-        murder_target: nightTarget,
-      })
-      setGameState(data.state)
-      syncTargets(data.state)
-
-      if (data.murdered) {
-        appendLog('turret', `You murdered ${data.murdered.name}.`)
-        setLastMurdered(data.murdered)
-      }
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-
-      const nextPhase = data.state?.phase
-      if (nextPhase === 'ended') {
-        setVisualPhase('ended')
-        const win = data.state.winner === 'human'
-        appendLog('host', win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
-        setHostText(win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
-      } else {
-        // Morning reveal before next day
-        setVisualPhase('morningReveal')
-      }
-    } catch (e) {
-      setError(e.message)
-    }
-    setBusy(false)
-  }
-
-  async function runEndgameChoice(choice) {
-    if (!gameState || busy) return
-    setBusy(true)
-    setError('')
-    try {
-      const data = await post('/traitors/endgame-vote', {
-        session_id: sessionId,
-        human_choice: choice,
-      })
-      setGameState(data.state)
-      syncTargets(data.state)
-
-      if (data.ai_choices) {
-        setEndgameChoices(data.ai_choices)
-        data.ai_choices.forEach(c =>
-          appendLog(c.name, `chose: ${c.choice === 'end' ? 'End Game' : 'Banish Again'}. ${c.reason || ''}`.trim())
-        )
-      }
-      setEndgameOutcome(data.outcome)
-      if (data.host_line) {
-        appendLog('host', data.host_line)
-        setHostText(data.host_line)
-      }
-
-      const nextPhase = data.state?.phase
-      if (nextPhase === 'ended') {
-        setVisualPhase('ended')
-        const win = data.state.winner === 'human'
-        appendLog('host', win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
-        setHostText(win ? 'You reached the final two. Traitor wins.' : 'The Faithful banished you. AI wins.')
-      } else {
-        // Back to roundtable for another banishment
-        setVisualPhase('roundtable')
-        setEndgameChoices(null)
-        setEndgameOutcome(null)
-      }
-    } catch (e) {
-      setError(e.message)
+      dispatch({ type: 'error', error: e.message })
     }
     setBusy(false)
   }
 
   function resetGame() {
-    setGameState(null)
-    setStarted(false)
-    setSessionId('')
-    setVisualPhase('setup')
-    setLog([])
-    setError('')
-    setHostText('')
-    setLastMurdered(null)
-    setActiveSpeech(null)
-    setEndgameChoices(null)
-    setEndgameOutcome(null)
-    setDayLine('')
-    setParlorLine('')
-    setRoundtableLine('')
+    dispatch({ type: 'reset' })
+    setBusy(false)
+    setShowIntro(false)
+    setDayInput('')
+    setParlorInput('')
+    setRoundtableInput('')
     setVoteTarget('')
-    setNightTarget('')
+    setMurderTarget('')
   }
 
-  // === RENDER ===
+  const round = engine.meta?.round || 1
 
   return (
     <div className="app">
@@ -453,8 +186,7 @@ export default function App() {
         <a className="back-link" href="/experiments.html">&larr; experiments</a>
       </header>
 
-      {/* Setup screen */}
-      {visualPhase === 'setup' && (
+      {engine.scene === 'setup' && (
         <div className="setup">
           <div className="setup-inner">
             <p className="setup-text">
@@ -474,103 +206,127 @@ export default function App() {
                 {busy ? 'Starting...' : 'Enter the castle'}
               </button>
             </div>
-            {error && <div className="error">{error}</div>}
+            {engine.error && <div className="error">{engine.error}</div>}
           </div>
         </div>
       )}
 
-      {/* Intro sequence */}
-      {visualPhase === 'intro' && started && (
+      {showIntro && engine.started && (
         <div className="intro-stage">
-          <IntroSequence playerName={name} onComplete={finishIntro} />
+          <IntroSequence playerName={name} onComplete={() => setShowIntro(false)} />
         </div>
       )}
 
-      {/* Main game */}
-      {started && visualPhase !== 'setup' && visualPhase !== 'intro' && (
+      {engine.started && !showIntro && engine.scene !== 'setup' && (
         <div className="game-area">
           <div className="phase-badge">
-            {visualPhase === 'day' && `Round ${gameState?.round || 1} — Breakfast & Day`}
-            {visualPhase === 'parlor' && `Round ${gameState?.round || 1} — Private Conversation`}
-            {visualPhase === 'morningReveal' && `Round ${gameState?.round || 1} — Morning`}
-            {visualPhase === 'roundtable' && `Round ${gameState?.round || 1} — Round Table`}
-            {visualPhase === 'vote' && `Round ${gameState?.round || 1} — Banishment Vote`}
-            {visualPhase === 'night' && `Round ${gameState?.round || 1} — The Turret`}
-            {visualPhase === 'endgame_choice' && 'Endgame — The Final Choice'}
-            {visualPhase === 'ended' && 'Game Over'}
+            Round {round} — {phase === 'day' ? 'Breakfast' : phase === 'parlor' ? 'Private Conversation' : phase === 'roundtable' ? 'Round Table' : phase === 'vote' ? 'Banishment Vote' : phase === 'night' ? 'The Turret' : phase === 'morningReveal' ? 'Morning' : 'Game Over'}
           </div>
 
           <CastleMap
-            players={gameState?.players || []}
-            phase={visualPhase}
-            lastMurdered={lastMurdered}
+            players={engine.players}
+            phase={phase}
+            lastMurdered={null}
             activeSpeech={activeSpeech}
-            parlorPartnerId={gameState?.parlorPartnerId || ''}
+            parlorPartnerId={engine.parlorPartnerId}
           />
 
-          {/* Morning reveal overlay */}
-          {visualPhase === 'morningReveal' && lastMurdered && (
-            <MorningReveal
-              murdered={lastMurdered}
-              onContinue={finishMorningReveal}
-            />
-          )}
-
-          {/* Host dialogue (not during intro or morning reveal which have their own) */}
-          {visualPhase !== 'morningReveal' && hostText && visualPhase !== 'ended' && (
+          {current?.type === 'host_line' && (
             <HostDialogue
-              text={hostText}
-              onContinue={() => setHostText('')}
-              showContinue={!busy}
+              text={current.text}
+              onContinue={callAdvance}
+              showContinue={engine.allowedActions.includes('advance') && !busy}
             />
           )}
 
-          {/* Endgame vote results */}
-          {endgameChoices && (
-            <EndgameVote
-              aiChoices={endgameChoices}
-              outcome={endgameOutcome}
-              busy={busy}
-            />
+          {current?.type === 'result_reveal' && (
+            <div className="host-dialogue">
+              <div className="host-text">
+                <div className="host-name">Result</div>
+                <div className="host-speech">{current.text}</div>
+                {engine.allowedActions.includes('advance') && (
+                  <button className="host-continue" onClick={callAdvance} disabled={busy}>continue</button>
+                )}
+              </div>
+            </div>
           )}
 
-          {/* Controls */}
-          {visualPhase !== 'intro' && (
-            <PhaseControls
-              phase={visualPhase}
-              busy={busy}
-              alivePlayers={alive}
-              dayLine={dayLine}
-              setDayLine={setDayLine}
-            onRunDay={runDay}
-            onRunDaySilent={() => runDay({ silent: true })}
-              roundtableLine={roundtableLine}
-              setRoundtableLine={setRoundtableLine}
-              onRunRoundtable={runRoundtable}
-              onRunRoundtableSilent={() => runRoundtable({ silent: true })}
-              parlorLine={parlorLine}
-              setParlorLine={setParlorLine}
-              onRunParlor={runParlor}
-              onRunParlorSilent={() => runParlor({ silent: true })}
-              voteTarget={voteTarget}
-              setVoteTarget={setVoteTarget}
-              onRunVote={runVote}
-              nightTarget={nightTarget}
-              setNightTarget={setNightTarget}
-              onRunNight={runNight}
-              onEndgameChoice={runEndgameChoice}
-              winner={gameState?.winner}
-            />
+          {current?.type === 'ai_line' && (
+            <div className="phase-controls">
+              <div className="controls-label">{current.speaker_name}</div>
+              <p className="endgame-prompt">{current.move_type ? `Move: ${String(current.move_type).replace('_', ' ')}` : 'Move: tactical statement'}</p>
+              {engine.allowedActions.includes('advance') && (
+                <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Next'}</button>
+              )}
+            </div>
           )}
 
-          {/* Reset */}
-          {started && (
-            <button className="reset-btn" onClick={resetGame} disabled={busy}>
-              Reset game
-            </button>
+          {current?.type === 'phase_transition' && (
+            <div className="phase-controls">
+              <div className="controls-label">Transition</div>
+              <p className="endgame-prompt">Continue to {String(current.to_scene || '').replaceAll('_', ' ')}.</p>
+              {engine.allowedActions.includes('advance') && (
+                <button onClick={callAdvance} disabled={busy}>{busy ? 'waiting...' : 'Continue'}</button>
+              )}
+            </div>
           )}
 
-          {error && <div className="error">{error}</div>}
+          {current?.type === 'player_prompt' && current.prompt_kind === 'day_statement' && (
+            <div className="phase-controls">
+              <div className="controls-label">Your Move</div>
+              <p className="endgame-prompt">{current.prompt}</p>
+              <textarea value={dayInput} onChange={e => setDayInput(e.target.value)} rows={3} disabled={busy} />
+              <button onClick={() => callRespond(dayInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
+              <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
+            </div>
+          )}
+
+          {current?.type === 'player_prompt' && current.prompt_kind === 'parlor_statement' && (
+            <div className="phase-controls parlor">
+              <div className="controls-label">Private Reply</div>
+              <p className="endgame-prompt">{current.prompt}</p>
+              <textarea value={parlorInput} onChange={e => setParlorInput(e.target.value)} rows={3} disabled={busy} />
+              <button onClick={() => callRespond(parlorInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
+              <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
+            </div>
+          )}
+
+          {current?.type === 'player_prompt' && current.prompt_kind === 'roundtable_statement' && (
+            <div className="phase-controls">
+              <div className="controls-label">Round Table Reply</div>
+              <p className="endgame-prompt">{current.prompt}</p>
+              <textarea value={roundtableInput} onChange={e => setRoundtableInput(e.target.value)} rows={3} disabled={busy} />
+              <button onClick={() => callRespond(roundtableInput.trim())} disabled={busy}>{busy ? 'sending...' : 'Respond'}</button>
+              <button className="quiet-btn" onClick={() => callRespond('')} disabled={busy}>Say nothing</button>
+            </div>
+          )}
+
+          {current?.type === 'player_prompt' && current.prompt_kind === 'murder_target' && (
+            <div className="phase-controls night">
+              <div className="controls-label">The Turret</div>
+              <p className="endgame-prompt">{current.prompt}</p>
+              <select value={murderTarget} onChange={e => setMurderTarget(e.target.value)} disabled={busy}>
+                <option value="">Select target</option>
+                {options.map((opt) => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
+              </select>
+              <button className="murder-btn" onClick={() => callRespond('', murderTarget)} disabled={busy || !murderTarget}>{busy ? 'sending...' : 'Murder'}</button>
+            </div>
+          )}
+
+          {current?.type === 'vote_prompt' && (
+            <div className="phase-controls">
+              <div className="controls-label">Banishment Vote</div>
+              <p className="endgame-prompt">{current.prompt}</p>
+              <select value={voteTarget} onChange={e => setVoteTarget(e.target.value)} disabled={busy}>
+                <option value="">Select vote target</option>
+                {options.map((opt) => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
+              </select>
+              <button onClick={() => callVote(voteTarget)} disabled={busy || !voteTarget}>{busy ? 'voting...' : 'Submit vote'}</button>
+            </div>
+          )}
+
+          <button className="reset-btn" onClick={resetGame} disabled={busy}>Reset game</button>
+          {engine.error && <div className="error">{engine.error}</div>}
         </div>
       )}
     </div>
