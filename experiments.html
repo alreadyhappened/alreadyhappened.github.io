@@ -164,6 +164,47 @@
       margin-bottom: 1rem;
     }
 
+    .detector-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 260px;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    #panel-detector {
+      max-width: 980px;
+    }
+
+    .detector-stats {
+      border-left: 1px solid #ddd;
+      padding-left: 1rem;
+      position: sticky;
+      top: 1rem;
+    }
+
+    .detector-stats h2 {
+      font-size: 1rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .detector-score-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.35rem;
+      font-size: 0.95rem;
+    }
+
+    .detector-score-value {
+      font-weight: bold;
+    }
+
+    .detector-calibration {
+      margin-top: 0.7rem;
+      color: #333;
+      font-size: 0.9rem;
+    }
+
     .detector-btn {
       background: none;
       border: 1px solid #ccc;
@@ -249,6 +290,19 @@
         padding-left: 0;
         padding-bottom: 0.5rem;
       }
+
+      .detector-layout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .detector-stats {
+        position: static;
+        border-left: none;
+        border-top: 1px solid #ddd;
+        padding-left: 0;
+        padding-top: 0.8rem;
+      }
     }
   </style>
 </head>
@@ -287,18 +341,32 @@
         <h1 class="experiment-title">AI detector</h1>
         <p class="experiment-description">A chatbot interrogates the respondent and tries to guess: human or AI. You can play as yourself, or watch an AI play.</p>
 
-        <div class="detector-controls">
-          <button class="detector-btn" id="play-human-btn" type="button">Play yourself</button>
-          <button class="detector-btn" id="watch-ai-btn" type="button">Watch AI play</button>
-          <button class="detector-btn subtle" id="reset-detector-btn" type="button">Reset</button>
-        </div>
+        <div class="detector-layout">
+          <div class="detector-main">
+            <div class="detector-controls">
+              <button class="detector-btn" id="play-human-btn" type="button">Play yourself</button>
+              <button class="detector-btn" id="watch-ai-btn" type="button">Watch AI play</button>
+              <button class="detector-btn subtle" id="reset-detector-btn" type="button">Reset</button>
+            </div>
 
-        <p class="detector-status" id="detector-status">Choose a mode to start.</p>
-        <div class="detector-log" id="detector-log" aria-live="polite"></div>
+            <p class="detector-status" id="detector-status">Choose a mode to start.</p>
+            <div class="detector-log" id="detector-log" aria-live="polite"></div>
 
-        <div class="detector-input-row is-hidden" id="detector-input-row">
-          <input type="text" class="detector-input" id="detector-input" placeholder="Type your answer..." autocomplete="off">
-          <button class="chat-send" id="detector-send" type="button">send answer</button>
+            <div class="detector-input-row is-hidden" id="detector-input-row">
+              <input type="text" class="detector-input" id="detector-input" placeholder="Type your answer..." autocomplete="off">
+              <button class="chat-send" id="detector-send" type="button">send answer</button>
+            </div>
+          </div>
+
+          <aside class="detector-stats" aria-label="All-time scoreboard">
+            <h2>All-time scoreboard</h2>
+            <div class="detector-score-row"><span>Total rounds</span><span class="detector-score-value" id="score-total">0</span></div>
+            <div class="detector-score-row"><span>AI got it right</span><span class="detector-score-value" id="score-right">0</span></div>
+            <div class="detector-score-row"><span>AI got it wrong</span><span class="detector-score-value" id="score-wrong">0</span></div>
+            <div class="detector-score-row"><span>True humans</span><span class="detector-score-value" id="score-human-rounds">0</span></div>
+            <div class="detector-score-row"><span>True AIs</span><span class="detector-score-value" id="score-ai-rounds">0</span></div>
+            <p class="detector-calibration" id="score-calibration">Calibration score: -</p>
+          </aside>
         </div>
       </article>
 
@@ -403,6 +471,12 @@
     const playHumanBtn = document.getElementById("play-human-btn");
     const watchAiBtn = document.getElementById("watch-ai-btn");
     const resetDetectorBtn = document.getElementById("reset-detector-btn");
+    const scoreTotalEl = document.getElementById("score-total");
+    const scoreRightEl = document.getElementById("score-right");
+    const scoreWrongEl = document.getElementById("score-wrong");
+    const scoreHumanRoundsEl = document.getElementById("score-human-rounds");
+    const scoreAiRoundsEl = document.getElementById("score-ai-rounds");
+    const scoreCalibrationEl = document.getElementById("score-calibration");
 
     const detectorQuestions = [
       "What did you do in the last hour?",
@@ -410,6 +484,7 @@
       "Tell me about a mistake you made recently.",
       "Describe something mundane in a way only you would."
     ];
+    const DETECTOR_STATS_KEY = "ai_detector_scoreboard_v1";
 
     const detectorState = {
       mode: null,
@@ -419,6 +494,7 @@
       busy: false,
       watchHistory: []
     };
+    let detectorStats = loadDetectorStats();
 
     if (playHumanBtn) playHumanBtn.addEventListener("click", startHumanGame);
     if (watchAiBtn) watchAiBtn.addEventListener("click", startWatchGame);
@@ -428,6 +504,59 @@
       detectorInput.addEventListener("keydown", (e) => {
         if (e.key === "Enter") submitHumanAnswer();
       });
+    }
+    renderScoreboard();
+
+    function defaultDetectorStats() {
+      return {
+        totalRounds: 0,
+        correct: 0,
+        wrong: 0,
+        humanRounds: 0,
+        aiRounds: 0,
+        brierSum: 0
+      };
+    }
+
+    function loadDetectorStats() {
+      try {
+        const raw = localStorage.getItem(DETECTOR_STATS_KEY);
+        if (!raw) return defaultDetectorStats();
+        const parsed = JSON.parse(raw);
+        if (!parsed || typeof parsed !== "object") return defaultDetectorStats();
+        return {
+          totalRounds: Number(parsed.totalRounds) || 0,
+          correct: Number(parsed.correct) || 0,
+          wrong: Number(parsed.wrong) || 0,
+          humanRounds: Number(parsed.humanRounds) || 0,
+          aiRounds: Number(parsed.aiRounds) || 0,
+          brierSum: Number(parsed.brierSum) || 0
+        };
+      } catch (e) {
+        return defaultDetectorStats();
+      }
+    }
+
+    function saveDetectorStats() {
+      try {
+        localStorage.setItem(DETECTOR_STATS_KEY, JSON.stringify(detectorStats));
+      } catch (e) {}
+    }
+
+    function getCalibrationScore() {
+      if (!detectorStats.totalRounds) return "-";
+      const avgBrier = detectorStats.brierSum / detectorStats.totalRounds;
+      const calibration = Math.max(0, Math.min(100, Math.round((1 - avgBrier) * 100)));
+      return `${calibration}/100`;
+    }
+
+    function renderScoreboard() {
+      if (scoreTotalEl) scoreTotalEl.textContent = String(detectorStats.totalRounds);
+      if (scoreRightEl) scoreRightEl.textContent = String(detectorStats.correct);
+      if (scoreWrongEl) scoreWrongEl.textContent = String(detectorStats.wrong);
+      if (scoreHumanRoundsEl) scoreHumanRoundsEl.textContent = String(detectorStats.humanRounds);
+      if (scoreAiRoundsEl) scoreAiRoundsEl.textContent = String(detectorStats.aiRounds);
+      if (scoreCalibrationEl) scoreCalibrationEl.textContent = `Calibration score: ${getCalibrationScore()}`;
     }
 
     function setDetectorStatus(text) {
@@ -525,6 +654,25 @@
       await runWatchTurn(index + 1);
     }
 
+    function recordRound(verdict, groundTruth) {
+      const correct = verdict.guess === groundTruth;
+      const numericConfidence = Number.isFinite(verdict.confidence) ? verdict.confidence : 70;
+      const confidence = Math.max(0.5, Math.min(0.99, numericConfidence / 100));
+      const pAi = verdict.guess === "AI" ? confidence : 1 - confidence;
+      const yAi = groundTruth === "AI" ? 1 : 0;
+      const brier = Math.pow(pAi - yAi, 2);
+
+      detectorStats.totalRounds += 1;
+      detectorStats.correct += correct ? 1 : 0;
+      detectorStats.wrong += correct ? 0 : 1;
+      detectorStats.humanRounds += groundTruth === "Human" ? 1 : 0;
+      detectorStats.aiRounds += groundTruth === "AI" ? 1 : 0;
+      detectorStats.brierSum += brier;
+      saveDetectorStats();
+      renderScoreboard();
+      return correct;
+    }
+
     async function endRound(answers) {
       detectorState.watching = false;
       setDetectorControlsDisabled(true);
@@ -532,8 +680,12 @@
       setDetectorStatus("Evaluating transcript...");
 
       const verdict = await getVerdict(answers);
+      const groundTruth = detectorState.mode === "watch" ? "AI" : "Human";
+      const correct = recordRound(verdict, groundTruth);
+
       setDetectorStatus(`Verdict: ${verdict.guess} (${verdict.confidence}% confidence)`);
       appendDetectorLine("verdict", `I think this respondent is ${verdict.guess.toLowerCase()} (${verdict.confidence}% confidence). ${verdict.reason}`, true);
+      appendDetectorLine("result", `Ground truth: ${groundTruth}. AI got it ${correct ? "right" : "wrong"}.`, true);
       setDetectorControlsDisabled(false);
     }
 
