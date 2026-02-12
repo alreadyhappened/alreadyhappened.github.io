@@ -166,13 +166,20 @@
 
     .detector-layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 260px;
+      grid-template-columns: minmax(0, 1fr) 540px;
       gap: 1.5rem;
       align-items: start;
     }
 
     #panel-detector {
       max-width: 980px;
+    }
+
+    .detector-stats-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      align-items: start;
     }
 
     .detector-stats {
@@ -336,6 +343,11 @@
         gap: 1rem;
       }
 
+      .detector-stats-wrap {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+      }
+
       .detector-stats {
         position: static;
         border-left: none;
@@ -397,22 +409,34 @@
             </div>
           </div>
 
-          <aside class="detector-stats" aria-label="All-time scoreboard">
-            <h2>All-time scoreboard</h2>
-            <div class="detector-score-row"><span>Total rounds</span><span class="detector-score-value" id="score-total">0</span></div>
-            <div class="detector-score-row"><span>AI got it right</span><span class="detector-score-value" id="score-right">0</span></div>
-            <div class="detector-score-row"><span>AI got it wrong</span><span class="detector-score-value" id="score-wrong">0</span></div>
-            <div class="detector-score-row"><span>True humans</span><span class="detector-score-value" id="score-human-rounds">0</span></div>
-            <div class="detector-score-row"><span>True AIs</span><span class="detector-score-value" id="score-ai-rounds">0</span></div>
-            <p class="detector-calibration">
-              Brier score
-              <span class="detector-info" tabindex="0" aria-label="What is Brier score?">
-                i
-                <span class="detector-tooltip">Mean squared error of confidence vs outcome. Lower is better. 0 is perfect.</span>
-              </span>
-              : <span id="score-calibration-value">-</span>
-            </p>
-          </aside>
+          <div class="detector-stats-wrap">
+            <aside class="detector-stats" aria-label="All-time scoreboard">
+              <h2>All-time scoreboard</h2>
+              <div class="detector-score-row"><span>Total rounds</span><span class="detector-score-value" id="score-total">0</span></div>
+              <div class="detector-score-row"><span>AI got it right</span><span class="detector-score-value" id="score-right">0</span></div>
+              <div class="detector-score-row"><span>AI got it wrong</span><span class="detector-score-value" id="score-wrong">0</span></div>
+              <div class="detector-score-row"><span>True humans</span><span class="detector-score-value" id="score-human-rounds">0</span></div>
+              <div class="detector-score-row"><span>True AIs</span><span class="detector-score-value" id="score-ai-rounds">0</span></div>
+              <p class="detector-calibration">
+                Brier score
+                <span class="detector-info" tabindex="0" aria-label="What is Brier score?">
+                  i
+                  <span class="detector-tooltip">Mean squared error of confidence vs outcome. Lower is better. 0 is perfect.</span>
+                </span>
+                : <span id="score-calibration-value">-</span>
+              </p>
+            </aside>
+
+            <aside class="detector-stats" aria-label="Session scoreboard">
+              <h2>Session scoreboard</h2>
+              <div class="detector-score-row"><span>Total rounds</span><span class="detector-score-value" id="session-score-total">0</span></div>
+              <div class="detector-score-row"><span>AI got it right</span><span class="detector-score-value" id="session-score-right">0</span></div>
+              <div class="detector-score-row"><span>AI got it wrong</span><span class="detector-score-value" id="session-score-wrong">0</span></div>
+              <div class="detector-score-row"><span>True humans</span><span class="detector-score-value" id="session-score-human-rounds">0</span></div>
+              <div class="detector-score-row"><span>True AIs</span><span class="detector-score-value" id="session-score-ai-rounds">0</span></div>
+              <p class="detector-calibration">Brier score: <span id="session-score-calibration-value">-</span></p>
+            </aside>
+          </div>
         </div>
       </article>
 
@@ -519,6 +543,12 @@
     const scoreHumanRoundsEl = document.getElementById("score-human-rounds");
     const scoreAiRoundsEl = document.getElementById("score-ai-rounds");
     const scoreCalibrationValueEl = document.getElementById("score-calibration-value");
+    const sessionScoreTotalEl = document.getElementById("session-score-total");
+    const sessionScoreRightEl = document.getElementById("session-score-right");
+    const sessionScoreWrongEl = document.getElementById("session-score-wrong");
+    const sessionScoreHumanRoundsEl = document.getElementById("session-score-human-rounds");
+    const sessionScoreAiRoundsEl = document.getElementById("session-score-ai-rounds");
+    const sessionScoreCalibrationValueEl = document.getElementById("session-score-calibration-value");
 
     const detectorQuestionPool = [
       "What did your morning look like today?",
@@ -546,6 +576,7 @@
       watchRespondentMeta: ""
     };
     let detectorStats = defaultDetectorStats();
+    let sessionDetectorStats = defaultDetectorStats();
 
     if (playHumanBtn) playHumanBtn.addEventListener("click", startHumanGame);
     if (watchAiBtn) watchAiBtn.addEventListener("click", startWatchGame);
@@ -591,9 +622,9 @@
       } catch (e) {}
     }
 
-    function getBrierScore() {
-      if (!detectorStats.totalRounds) return "-";
-      const avgBrier = detectorStats.brierSum / detectorStats.totalRounds;
+    function getBrierScore(stats) {
+      if (!stats.totalRounds) return "-";
+      const avgBrier = stats.brierSum / stats.totalRounds;
       return avgBrier.toFixed(3);
     }
 
@@ -603,7 +634,14 @@
       if (scoreWrongEl) scoreWrongEl.textContent = String(detectorStats.wrong);
       if (scoreHumanRoundsEl) scoreHumanRoundsEl.textContent = String(detectorStats.humanRounds);
       if (scoreAiRoundsEl) scoreAiRoundsEl.textContent = String(detectorStats.aiRounds);
-      if (scoreCalibrationValueEl) scoreCalibrationValueEl.textContent = getBrierScore();
+      if (scoreCalibrationValueEl) scoreCalibrationValueEl.textContent = getBrierScore(detectorStats);
+
+      if (sessionScoreTotalEl) sessionScoreTotalEl.textContent = String(sessionDetectorStats.totalRounds);
+      if (sessionScoreRightEl) sessionScoreRightEl.textContent = String(sessionDetectorStats.correct);
+      if (sessionScoreWrongEl) sessionScoreWrongEl.textContent = String(sessionDetectorStats.wrong);
+      if (sessionScoreHumanRoundsEl) sessionScoreHumanRoundsEl.textContent = String(sessionDetectorStats.humanRounds);
+      if (sessionScoreAiRoundsEl) sessionScoreAiRoundsEl.textContent = String(sessionDetectorStats.aiRounds);
+      if (sessionScoreCalibrationValueEl) sessionScoreCalibrationValueEl.textContent = getBrierScore(sessionDetectorStats);
     }
 
     function shuffleCopy(items) {
@@ -837,11 +875,18 @@
       detectorStats.humanRounds += groundTruth === "Human" ? 1 : 0;
       detectorStats.aiRounds += groundTruth === "AI" ? 1 : 0;
       detectorStats.brierSum += brier;
+      sessionDetectorStats.totalRounds += 1;
+      sessionDetectorStats.correct += correct ? 1 : 0;
+      sessionDetectorStats.wrong += correct ? 0 : 1;
+      sessionDetectorStats.humanRounds += groundTruth === "Human" ? 1 : 0;
+      sessionDetectorStats.aiRounds += groundTruth === "AI" ? 1 : 0;
+      sessionDetectorStats.brierSum += brier;
       renderScoreboard();
       return correct;
     }
 
     async function recordRound(verdict, groundTruth) {
+      const correctLocal = applyLocalRoundUpdate(verdict, groundTruth);
       try {
         const payload = await callWorkerPath("/detector/stats/record", {
           guess: verdict.guess,
@@ -854,7 +899,7 @@
         }
         return !!(payload && payload.correct);
       } catch (e) {
-        return applyLocalRoundUpdate(verdict, groundTruth);
+        return correctLocal;
       }
     }
 
