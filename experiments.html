@@ -328,6 +328,107 @@
       display: none;
     }
 
+    .traitors-wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 1.2rem;
+      align-items: start;
+    }
+
+    .traitors-scene {
+      border: 1px solid #ddd;
+      padding: 0.8rem;
+      margin-bottom: 0.9rem;
+      background: linear-gradient(to bottom, #fafafa 0%, #f3f3f3 100%);
+    }
+
+    .roundtable-scene {
+      position: relative;
+      height: 260px;
+      border: 1px solid #e1e1e1;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .roundtable-table {
+      position: absolute;
+      width: 170px;
+      height: 170px;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: radial-gradient(circle at 35% 30%, #f4f4f4 0%, #e9e9e9 75%);
+    }
+
+    .traitors-seat {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: rotate(var(--angle)) translateY(calc(-1 * var(--radius))) rotate(calc(-1 * var(--angle)));
+      padding: 0.22rem 0.45rem;
+      border: 1px solid #ccc;
+      background: #fff;
+      font-size: 0.82rem;
+      white-space: nowrap;
+    }
+
+    .traitors-seat.human {
+      border-color: #000;
+      font-weight: bold;
+    }
+
+    .traitors-seat.dead {
+      opacity: 0.45;
+      text-decoration: line-through;
+    }
+
+    .traitors-log {
+      border-left: 1px solid #ddd;
+      padding-left: 0.75rem;
+      min-height: 170px;
+      max-height: 410px;
+      overflow: auto;
+      margin-bottom: 0.8rem;
+    }
+
+    .traitors-line {
+      margin-bottom: 0.75rem;
+    }
+
+    .traitors-line .label {
+      color: #888;
+      font-style: italic;
+      font-size: 0.82rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .traitors-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+    }
+
+    .traitors-select {
+      width: 100%;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 0.95rem;
+      border: 1px solid #ccc;
+      background: #fff;
+      padding: 0.35rem 0.45rem;
+    }
+
+    .traitors-input {
+      width: 100%;
+      min-height: 78px;
+      border: 1px solid #ccc;
+      padding: 0.45rem;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 0.95rem;
+      resize: vertical;
+    }
+
     @media (max-width: 860px) {
       .experiments-layout {
         grid-template-columns: 1fr;
@@ -345,6 +446,10 @@
       .detector-layout {
         grid-template-columns: 1fr;
         gap: 1rem;
+      }
+
+      .traitors-wrap {
+        grid-template-columns: 1fr;
       }
 
       .detector-stats-wrap {
@@ -374,6 +479,7 @@
   <div class="experiments-layout">
     <aside class="experiments-menu" aria-label="Experiment menu">
       <button class="experiment-tab active" data-panel="panel-detector" type="button">AI Detector</button>
+      <button class="experiment-tab" data-panel="panel-traitors" type="button">The Traitors</button>
       <button class="experiment-tab" data-panel="panel-chat" type="button">AI Me (chat)</button>
     </aside>
 
@@ -388,6 +494,39 @@
           <div class="chat-input-row">
             <input type="text" class="chat-input" id="input" placeholder="Ask something..." autocomplete="off">
             <button class="chat-send" id="send" type="button" onclick="sendMessage()">send</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="experiment-panel" id="panel-traitors">
+        <h1 class="experiment-title">The Traitors (AI Edition)</h1>
+        <p class="experiment-description">You are the Traitor. Survive to final three to win.<br>The AI Faithful win if they banish you first.</p>
+
+        <div class="traitors-wrap">
+          <div>
+            <div class="traitors-scene">
+              <div class="roundtable-scene" id="traitors-scene">
+                <div class="roundtable-table"></div>
+              </div>
+            </div>
+
+            <div class="traitors-log" id="traitors-log"></div>
+          </div>
+
+          <div class="traitors-controls">
+            <button class="detector-btn" id="traitors-start-btn" type="button">Start game</button>
+            <button class="detector-btn subtle" id="traitors-reset-btn" type="button">Reset game</button>
+
+            <label for="traitors-statement">Your banishment pitch</label>
+            <textarea class="traitors-input" id="traitors-statement" placeholder="Defend yourself. Throw suspicion elsewhere."></textarea>
+
+            <label for="traitors-vote">Your banishment vote</label>
+            <select class="traitors-select" id="traitors-vote"></select>
+            <button class="detector-btn" id="traitors-banish-btn" type="button">Run banishment</button>
+
+            <label for="traitors-murder">Night murder target</label>
+            <select class="traitors-select" id="traitors-murder"></select>
+            <button class="detector-btn" id="traitors-night-btn" type="button">Run night</button>
           </div>
         </div>
       </article>
@@ -553,6 +692,15 @@
     const sessionScoreHumanRoundsEl = document.getElementById("session-score-human-rounds");
     const sessionScoreAiRoundsEl = document.getElementById("session-score-ai-rounds");
     const sessionScoreCalibrationValueEl = document.getElementById("session-score-calibration-value");
+    const traitorsSceneEl = document.getElementById("traitors-scene");
+    const traitorsLogEl = document.getElementById("traitors-log");
+    const traitorsStartBtn = document.getElementById("traitors-start-btn");
+    const traitorsResetBtn = document.getElementById("traitors-reset-btn");
+    const traitorsStatementEl = document.getElementById("traitors-statement");
+    const traitorsVoteEl = document.getElementById("traitors-vote");
+    const traitorsBanishBtn = document.getElementById("traitors-banish-btn");
+    const traitorsMurderEl = document.getElementById("traitors-murder");
+    const traitorsNightBtn = document.getElementById("traitors-night-btn");
 
     const detectorQuestionPool = [
       "What did your morning look like today?",
@@ -581,6 +729,8 @@
     };
     let detectorStats = defaultDetectorStats();
     let sessionDetectorStats = defaultDetectorStats();
+    let traitorsState = null;
+    let traitorsBusy = false;
 
     if (playHumanBtn) playHumanBtn.addEventListener("click", startHumanGame);
     if (watchAiBtn) watchAiBtn.addEventListener("click", startWatchGame);
@@ -591,6 +741,10 @@
         if (e.key === "Enter") submitHumanAnswer();
       });
     }
+    if (traitorsStartBtn) traitorsStartBtn.addEventListener("click", startTraitorsGame);
+    if (traitorsResetBtn) traitorsResetBtn.addEventListener("click", resetTraitorsGame);
+    if (traitorsBanishBtn) traitorsBanishBtn.addEventListener("click", runTraitorsBanishment);
+    if (traitorsNightBtn) traitorsNightBtn.addEventListener("click", runTraitorsNight);
     renderScoreboard();
     refreshGlobalScoreboard();
 
@@ -1013,6 +1167,189 @@
         reason: "Could not confidently parse the model output, so this is a safe default."
       };
     }
+
+    function traitorsAlivePlayers() {
+      if (!traitorsState || !Array.isArray(traitorsState.players)) return [];
+      return traitorsState.players.filter((p) => p.alive);
+    }
+
+    function traitorsAliveAIs() {
+      return traitorsAlivePlayers().filter((p) => !p.isHuman);
+    }
+
+    function appendTraitorsLine(label, text) {
+      if (!traitorsLogEl) return;
+      const row = document.createElement("div");
+      row.className = "traitors-line";
+      row.innerHTML = `<div class="label">${label}</div><div>${text}</div>`;
+      traitorsLogEl.appendChild(row);
+      traitorsLogEl.scrollTop = traitorsLogEl.scrollHeight;
+    }
+
+    function renderTraitorsScene() {
+      if (!traitorsSceneEl) return;
+      const oldSeats = traitorsSceneEl.querySelectorAll(".traitors-seat");
+      oldSeats.forEach((seat) => seat.remove());
+      if (!traitorsState || !Array.isArray(traitorsState.players)) return;
+
+      const players = traitorsState.players.slice();
+      const count = players.length || 1;
+      const radius = 112;
+      players.forEach((p, index) => {
+        const seat = document.createElement("div");
+        seat.className = `traitors-seat${p.isHuman ? " human" : ""}${p.alive ? "" : " dead"}`;
+        seat.style.setProperty("--angle", `${(index * 360) / count}deg`);
+        seat.style.setProperty("--radius", `${radius}px`);
+        seat.textContent = p.isHuman ? `${p.name} (Traitor)` : p.name;
+        traitorsSceneEl.appendChild(seat);
+      });
+    }
+
+    function updateTraitorsControls() {
+      const canAct = !!traitorsState && !traitorsBusy && traitorsState.phase !== "ended";
+      const banishment = canAct && traitorsState.phase === "banishment";
+      const night = canAct && traitorsState.phase === "night";
+      if (traitorsStatementEl) traitorsStatementEl.disabled = !banishment;
+      if (traitorsVoteEl) traitorsVoteEl.disabled = !banishment;
+      if (traitorsBanishBtn) traitorsBanishBtn.disabled = !banishment;
+      if (traitorsMurderEl) traitorsMurderEl.disabled = !night;
+      if (traitorsNightBtn) traitorsNightBtn.disabled = !night;
+    }
+
+    function populateTraitorsSelects() {
+      if (!traitorsState) return;
+      const alive = traitorsAlivePlayers();
+      const aliveAIs = traitorsAliveAIs();
+
+      if (traitorsVoteEl) {
+        const current = traitorsVoteEl.value;
+        traitorsVoteEl.innerHTML = "";
+        alive.filter((p) => !p.isHuman).forEach((p) => {
+          const opt = document.createElement("option");
+          opt.value = p.id;
+          opt.textContent = p.name;
+          traitorsVoteEl.appendChild(opt);
+        });
+        if (current && [...traitorsVoteEl.options].some((o) => o.value === current)) {
+          traitorsVoteEl.value = current;
+        }
+      }
+
+      if (traitorsMurderEl) {
+        const current = traitorsMurderEl.value;
+        traitorsMurderEl.innerHTML = "";
+        aliveAIs.forEach((p) => {
+          const opt = document.createElement("option");
+          opt.value = p.id;
+          opt.textContent = p.name;
+          traitorsMurderEl.appendChild(opt);
+        });
+        if (current && [...traitorsMurderEl.options].some((o) => o.value === current)) {
+          traitorsMurderEl.value = current;
+        }
+      }
+    }
+
+    function announceTraitorsWinnerIfAny() {
+      if (!traitorsState || traitorsState.phase !== "ended" || !traitorsState.winner) return;
+      if (traitorsState.winner === "human") {
+        appendTraitorsLine("host", "You made it to the end. Traitor win.");
+      } else {
+        appendTraitorsLine("host", "The Faithful banished you. AI win.");
+      }
+    }
+
+    function renderTraitorsUI() {
+      renderTraitorsScene();
+      populateTraitorsSelects();
+      updateTraitorsControls();
+    }
+
+    function setTraitorsBusy(value) {
+      traitorsBusy = value;
+      updateTraitorsControls();
+    }
+
+    async function startTraitorsGame() {
+      if (traitorsBusy) return;
+      setTraitorsBusy(true);
+      if (traitorsLogEl) traitorsLogEl.innerHTML = "";
+      try {
+        const payload = await callWorkerPath("/traitors/start", { ai_count: 4 });
+        traitorsState = payload && payload.state ? payload.state : null;
+        renderTraitorsUI();
+        appendTraitorsLine("host", payload && payload.host_line ? payload.host_line : "Welcome to the round table.");
+      } catch (e) {
+        appendTraitorsLine("system", "Could not start game.");
+      }
+      setTraitorsBusy(false);
+    }
+
+    function resetTraitorsGame() {
+      traitorsState = null;
+      if (traitorsLogEl) traitorsLogEl.innerHTML = "";
+      if (traitorsVoteEl) traitorsVoteEl.innerHTML = "";
+      if (traitorsMurderEl) traitorsMurderEl.innerHTML = "";
+      if (traitorsStatementEl) traitorsStatementEl.value = "";
+      renderTraitorsScene();
+      updateTraitorsControls();
+    }
+
+    async function runTraitorsBanishment() {
+      if (traitorsBusy || !traitorsState || traitorsState.phase !== "banishment") return;
+      const statement = traitorsStatementEl ? traitorsStatementEl.value.trim() : "";
+      const vote = traitorsVoteEl ? traitorsVoteEl.value : "";
+      if (statement) appendTraitorsLine("you", statement);
+
+      setTraitorsBusy(true);
+      try {
+        const payload = await callWorkerPath("/traitors/banishment", {
+          state: traitorsState,
+          human_statement: statement,
+          human_vote: vote
+        });
+        traitorsState = payload && payload.state ? payload.state : traitorsState;
+
+        if (Array.isArray(payload && payload.ai_turns)) {
+          payload.ai_turns.forEach((turn) => {
+            appendTraitorsLine(turn.name || turn.id, turn.statement || "");
+          });
+        }
+        if (payload && payload.host_line) appendTraitorsLine("host", payload.host_line);
+        if (payload && payload.banished) {
+          appendTraitorsLine("banished", `${payload.banished.name} was banished (${payload.banished.role}).`);
+        }
+        renderTraitorsUI();
+        announceTraitorsWinnerIfAny();
+      } catch (e) {
+        appendTraitorsLine("system", "Banishment step failed.");
+      }
+      setTraitorsBusy(false);
+    }
+
+    async function runTraitorsNight() {
+      if (traitorsBusy || !traitorsState || traitorsState.phase !== "night") return;
+      const target = traitorsMurderEl ? traitorsMurderEl.value : "";
+      setTraitorsBusy(true);
+      try {
+        const payload = await callWorkerPath("/traitors/night", {
+          state: traitorsState,
+          murder_target: target
+        });
+        traitorsState = payload && payload.state ? payload.state : traitorsState;
+        if (payload && payload.murdered) {
+          appendTraitorsLine("night", `You murdered ${payload.murdered.name}.`);
+        }
+        if (payload && payload.host_line) appendTraitorsLine("host", payload.host_line);
+        renderTraitorsUI();
+        announceTraitorsWinnerIfAny();
+      } catch (e) {
+        appendTraitorsLine("system", "Night step failed.");
+      }
+      setTraitorsBusy(false);
+    }
+
+    resetTraitorsGame();
   </script>
 </body>
 </html>
