@@ -32,7 +32,7 @@ export default function PhaseControls({
           {busy ? 'waiting...' : 'Continue'}
         </button>
         <button className="quiet-btn" onClick={onRunDaySilent} disabled={busy}>
-          Say nothing (risky)
+          Say nothing
         </button>
       </div>
     )
@@ -53,7 +53,7 @@ export default function PhaseControls({
           {busy ? 'waiting...' : 'Continue'}
         </button>
         <button className="quiet-btn" onClick={onRunRoundtableSilent} disabled={busy}>
-          Say nothing (very risky)
+          Say nothing
         </button>
       </div>
     )

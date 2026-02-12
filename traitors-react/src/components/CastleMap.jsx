@@ -30,7 +30,11 @@ function playerPosition(player, index, phase, players) {
   return seats[index] || seats[0]
 }
 
-export default function CastleMap({ players, phase, lastMurdered }) {
+function clamp(value, min, max) {
+  return Math.max(min, Math.min(max, value))
+}
+
+export default function CastleMap({ players, phase, lastMurdered, activeSpeech }) {
   const room = sceneRoom(phase)
   const isMorning = phase === 'morningReveal'
   const isPrelude = phase === 'dayPrelude'
@@ -45,6 +49,20 @@ export default function CastleMap({ players, phase, lastMurdered }) {
         [aliveAi[3], aliveAi[5]],
       ].filter((pair) => pair[0] && pair[1])
     : []
+
+  const bubble = (() => {
+    if (!activeSpeech?.playerId || !activeSpeech?.text) return null
+    const targetIndex = visiblePlayers.findIndex((p) => p.id === activeSpeech.playerId)
+    if (targetIndex < 0) return null
+    const pos = playerPosition(visiblePlayers[targetIndex], targetIndex, phase, visiblePlayers)
+    const text = String(activeSpeech.text).replace(/\s+/g, ' ').trim()
+    if (!text) return null
+    const safeText = text.length > 92 ? `${text.slice(0, 89)}...` : text
+    const boxW = clamp(130 + safeText.length * 2.1, 150, 290)
+    const left = clamp(pos.x - boxW / 2, 20, 880 - boxW)
+    const top = clamp(pos.y - 66, 30, 470)
+    return { left, top, width: boxW, text: safeText }
+  })()
 
   return (
     <div className="castle-wrap">
@@ -145,6 +163,16 @@ export default function CastleMap({ players, phase, lastMurdered }) {
             </g>
           )
         })()}
+
+        {bubble && (
+          <g className="speech-bubble">
+            <rect x={bubble.left} y={bubble.top} width={bubble.width} height="38" rx="8" fill="#f7efd8" stroke="#6b5235" strokeWidth="1.2" />
+            <polygon points={`${bubble.left + 14},${bubble.top + 38} ${bubble.left + 24},${bubble.top + 38} ${bubble.left + 18},${bubble.top + 46}`} fill="#f7efd8" stroke="#6b5235" strokeWidth="1.1" />
+            <text x={bubble.left + 10} y={bubble.top + 23} fill="#2a1d12" fontSize="11" fontFamily="Georgia, serif">
+              {bubble.text}
+            </text>
+          </g>
+        )}
       </svg>
     </div>
   )

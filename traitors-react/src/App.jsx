@@ -8,6 +8,8 @@ import PhaseControls from './components/PhaseControls'
 import EventLog from './components/EventLog'
 import EndgameVote from './components/EndgameVote'
 import BreakfastPrelude from './components/BreakfastPrelude'
+const SPEECH_DELAY_MS = 920
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 function alivePlayers(state) {
   if (!state?.players) return []
@@ -72,6 +74,7 @@ export default function App() {
   const [hostText, setHostText] = useState('')
   const [lastMurdered, setLastMurdered] = useState(null)
   const [dayPreludeLines, setDayPreludeLines] = useState([])
+  const [activeSpeech, setActiveSpeech] = useState(null)
 
   // Endgame state
   const [endgameChoices, setEndgameChoices] = useState(null)
@@ -89,6 +92,17 @@ export default function App() {
   function appendLog(label, text) {
     if (!text) return
     setLog(prev => [...prev, { label, text }])
+  }
+
+  async function speakSequential(lines, formatter) {
+    for (const line of lines || []) {
+      const text = formatter ? formatter(line) : line?.statement || ''
+      if (!text) continue
+      appendLog(line.name || line.id || 'player', text)
+      if (line.id) setActiveSpeech({ playerId: line.id, text })
+      await sleep(SPEECH_DELAY_MS)
+    }
+    setActiveSpeech(null)
   }
 
   function syncTargets(state) {
@@ -148,9 +162,15 @@ export default function App() {
     setBusy(true)
     setError('')
     if (silent) {
-      appendLog('you', 'You say nothing and study the room. (risky)')
+      appendLog('you', 'You say nothing and study the room.')
+      setActiveSpeech({ playerId: 'human', text: '...I stay quiet for now.' })
+      await sleep(560)
+      setActiveSpeech(null)
     } else if (spoken) {
       appendLog('you', spoken)
+      setActiveSpeech({ playerId: 'human', text: spoken })
+      await sleep(560)
+      setActiveSpeech(null)
     }
     try {
       const data = await post('/traitors/day', {
@@ -159,7 +179,7 @@ export default function App() {
       })
       setGameState(data.state)
       syncTargets(data.state)
-      ;(data.ai_turns || []).forEach(t => appendLog(t.name || t.id, t.statement || ''))
+      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
       if (data.host_line) {
         appendLog('host', data.host_line)
         setHostText(data.host_line)
@@ -180,9 +200,15 @@ export default function App() {
     setBusy(true)
     setError('')
     if (silent) {
-      appendLog('you', 'You stay silent at the Round Table. (very risky)')
+      appendLog('you', 'You stay silent at the Round Table.')
+      setActiveSpeech({ playerId: 'human', text: '...I hold my tongue.' })
+      await sleep(560)
+      setActiveSpeech(null)
     } else if (spoken) {
       appendLog('you', spoken)
+      setActiveSpeech({ playerId: 'human', text: spoken })
+      await sleep(560)
+      setActiveSpeech(null)
     }
     try {
       const data = await post('/traitors/roundtable', {
@@ -191,7 +217,7 @@ export default function App() {
       })
       setGameState(data.state)
       syncTargets(data.state)
-      ;(data.ai_turns || []).forEach(t => appendLog(t.name || t.id, t.statement || ''))
+      await speakSequential(data.ai_turns || [], (t) => t.statement || '')
       if (data.host_line) {
         appendLog('host', data.host_line)
         setHostText(data.host_line)
@@ -216,10 +242,7 @@ export default function App() {
       setGameState(data.state)
       syncTargets(data.state)
 
-      // Log votes
-      ;(data.ai_votes || []).forEach(v =>
-        appendLog(`${v.name}`, `votes to banish ${v.vote}. ${v.reason || ''}`.trim())
-      )
+      await speakSequential(data.ai_votes || [], (v) => `votes to banish ${v.vote}. ${v.reason || ''}`.trim())
       if (data.banished) {
         appendLog('banished', `${data.banished.name} was banished. They were ${data.banished.role}.`)
       }
@@ -335,6 +358,7 @@ export default function App() {
     setHostText('')
     setLastMurdered(null)
     setDayPreludeLines([])
+    setActiveSpeech(null)
     setEndgameChoices(null)
     setEndgameOutcome(null)
     setDayLine('')
@@ -404,6 +428,7 @@ export default function App() {
             players={gameState?.players || []}
             phase={visualPhase}
             lastMurdered={lastMurdered}
+            activeSpeech={activeSpeech}
           />
 
           {/* Morning reveal overlay */}
