@@ -55,10 +55,11 @@ a:hover {
 .redacted {
   background: #000;
   display: inline-block;
-  width: 10em;
-  height: 1.1em;
+  height: 0.85em;
   vertical-align: baseline;
-  border-radius: 2px;
+  border-radius: 1px;
+  font-size: inherit;
+  line-height: 1;
 }
 
 img {
