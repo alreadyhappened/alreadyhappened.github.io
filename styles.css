@@ -167,3 +167,25 @@ img {
   border-top: 1px solid #e0e0e0;
   margin: 2rem 0;
 }
+
+.post-category {
+  font-size: 0.8rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.post-tag {
+  font-size: 0.75rem;
+  color: #bbb;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.post img {
+  max-width: 100%;
+  margin-left: 0;
+}
