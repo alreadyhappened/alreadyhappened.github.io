@@ -5,9 +5,9 @@ import IntroSequence from './components/IntroSequence'
 import HostDialogue from './components/HostDialogue'
 
 function mapSceneToPhase(scene) {
-  if (scene === 'DAY_PARLOR_OPEN' || scene === 'DAY_PARLOR_PLAYER_TURN') return 'parlor'
-  if (scene === 'ROUNDTABLE_OPEN' || scene === 'ROUNDTABLE_PLAYER_TURN') return 'roundtable'
-  if (scene === 'VOTE_PROMPT' || scene === 'VOTE_REVEAL') return 'vote'
+  if (scene === 'DAY_PARLOR_OPEN' || scene === 'DAY_PARLOR_PLAYER_TURN' || scene === 'PARLOR_NEXT') return 'parlor'
+  if (scene === 'ROUNDTABLE_OPEN' || scene === 'ROUNDTABLE_PLAYER_TURN' || scene === 'ROUNDTABLE_NEXT') return 'roundtable'
+  if (scene === 'VOTE_PROMPT' || scene === 'VOTE_REVEAL' || scene === 'BANISHMENT_REVEAL' || scene === 'REVOTE_PROMPT') return 'vote'
   if (scene === 'TURRET_PROMPT') return 'night'
   if (scene === 'MORNING_REVEAL') return 'morningReveal'
   if (scene === 'ENDED') return 'ended'

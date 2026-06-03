@@ -4,9 +4,9 @@ const CHAR_DELAY = 28
 
 function getIntroLines(name) {
   return [
-    `Welcome to the castle, ${name}. I'm Clawdia. Here's the situation: you are the only human in this game. The other six players? All AI. And they know it. They know one of the seven isn't like them — and they're going to find you.`,
+    `Welcome to the castle, ${name}. I'm Clawdia. Here's the situation: you are the only human in this game. The other six players are all AI — but here's the twist. Each of them only knows that they themselves are AI. They have no idea who else is AI and who's the human. So everyone suspects everyone.`,
     `Each round has four parts. First, breakfast — that's casual. Everyone chats, gets a feel for each other. Then you'll be pulled aside for a private one-on-one with one of them. After that, the Round Table — that's where it gets serious. They'll lay out their cases, challenge each other, and try to work out who doesn't belong. Then they vote. Whoever gets the most votes is banished.`,
-    `After the vote, night falls. You're the Traitor, so you get to murder one AI in the Turret. That's how you thin their numbers. You win if you make it to the final two. They win if they banish you first.`,
+    `After the vote, night falls. You're the Traitor, so you get to murder one of them in the Turret. That's how you thin their numbers. You win if you make it to the final two. They win if they banish you first.`,
     `One more thing — each AI is powered by a different model. You can see which one in the roster. Some are sharper than others. You might want to think about that when you're deciding who to murder. Good luck, darling.`,
   ]
 }
