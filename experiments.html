@@ -492,8 +492,8 @@
 
   <div class="experiments-layout">
     <aside class="experiments-menu" aria-label="Experiment menu">
-      <button class="experiment-tab active" data-panel="panel-detector" type="button">AI Detector</button>
-      <button class="experiment-tab" data-href="/traitors/" type="button">The Traitors</button>
+      <button class="experiment-tab active" data-panel="panel-traitors" type="button">The Traitors</button>
+      <button class="experiment-tab" data-panel="panel-detector" type="button">AI Detector</button>
       <button class="experiment-tab" data-panel="panel-chat" type="button">AI Me (chat)</button>
     </aside>
 
@@ -512,63 +512,25 @@
         </div>
       </article>
 
-      <article class="experiment-panel" id="panel-traitors">
+      <article class="experiment-panel active" id="panel-traitors">
         <h1 class="experiment-title">The Traitors (AI Edition)</h1>
-        <p class="experiment-description">You are the Traitor. Survive to final two to win.<br>The AI Faithful win if they banish you first.</p>
 
-        <div class="traitors-wrap">
-          <div>
-            <div class="traitors-scene">
-              <div class="roundtable-scene" id="traitors-scene">
-                <div class="roundtable-table"></div>
-              </div>
-            </div>
+        <p>Possibly my favourite video ever is a <a href="https://lnkd.in/e6frmSif" target="_blank" rel="noopener">reverse Turing Test</a> where the guy has to pretend he’s an AI among actual AIs. I particularly love the comic timing of the moment he gets called upon to answer a question.</p>
 
-            <div class="traitors-log" id="traitors-log"></div>
-          </div>
+        <p>I realised this is basically a weird AI version of The Traitors. So I built a game that simulates the same thing.</p>
 
-          <div class="traitors-controls">
-            <p class="traitors-phase" id="traitors-phase-label">Phase: Setup</p>
-            <button class="detector-btn" id="traitors-start-btn" type="button">Start game</button>
-            <button class="detector-btn subtle" id="traitors-reset-btn" type="button">Reset game</button>
+        <p>This is like the show, except it’s you vs 6 agents run by different models.</p>
 
-            <div class="traitors-step" id="traitors-step-start">
-              <label for="traitors-name">Your name</label>
-              <input type="text" class="traitors-select" id="traitors-name" placeholder="Enter your name">
-            </div>
+        <p>Their goal is to identify the non-AI traitor. Your goal is to get to the last two.</p>
 
-            <div class="traitors-step is-hidden" id="traitors-step-day">
-              <label for="traitors-day-input">Your daytime line</label>
-              <textarea class="traitors-input" id="traitors-day-input" placeholder="Drop a social observation, suspicion, or alibi."></textarea>
-              <button class="detector-btn" id="traitors-day-btn" type="button">Run day conversation</button>
-            </div>
+        <p>It’s fun, and very very difficult. My only advice is to take out the smarter models first, talk as little as you can get away with, and affirm suspicions on others.</p>
 
-            <div class="traitors-step is-hidden" id="traitors-step-roundtable">
-              <label for="traitors-roundtable-input">Your roundtable accusation/defence</label>
-              <textarea class="traitors-input" id="traitors-roundtable-input" placeholder="Convince them someone else is the non-AI human."></textarea>
-              <button class="detector-btn" id="traitors-roundtable-btn" type="button">Run roundtable conversation</button>
-            </div>
+        <p>It goes without saying at this point that I made this in an afternoon without writing a single line of code. Truly weird times we live in.</p>
 
-            <div class="traitors-step is-hidden" id="traitors-step-vote">
-              <label for="traitors-vote">Your banishment vote</label>
-              <select class="traitors-select" id="traitors-vote"></select>
-              <button class="detector-btn" id="traitors-vote-btn" type="button">Run vote</button>
-            </div>
-
-            <div class="traitors-step is-hidden" id="traitors-step-night">
-              <label for="traitors-murder">Night murder target</label>
-              <select class="traitors-select" id="traitors-murder"></select>
-              <button class="detector-btn" id="traitors-night-btn" type="button">Run night</button>
-            </div>
-
-            <div class="traitors-step is-hidden" id="traitors-step-ended">
-              <p id="traitors-ended-text">Game over.</p>
-            </div>
-          </div>
-        </div>
+        <p><a class="detector-btn" href="/traitors/" style="display:inline-block;text-decoration:none;">Play the game →</a></p>
       </article>
 
-      <article class="experiment-panel active" id="panel-detector">
+      <article class="experiment-panel" id="panel-detector">
         <h1 class="experiment-title">AI Detector</h1>
         <p class="experiment-description">A chatbot interrogates the respondent and tries to guess: human or AI.<br>You can play as yourself, or watch an AI play.</p>
 
