@@ -256,6 +256,20 @@
       display: block;
     }
 
+    .slides {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 900px;
+    }
+
+    .slide {
+      width: 100%;
+      height: auto;
+      border: 1px solid #eee;
+      border-radius: 4px;
+    }
+
     .detector-btn {
       background: none;
       border: 1px solid #ccc;
@@ -492,7 +506,8 @@
 
   <div class="experiments-layout">
     <aside class="experiments-menu" aria-label="Experiment menu">
-      <button class="experiment-tab active" data-panel="panel-traitors" type="button">The Traitors</button>
+      <button class="experiment-tab active" data-panel="panel-djing" type="button">Immersive DJing</button>
+      <button class="experiment-tab" data-panel="panel-traitors" type="button">The Traitors</button>
       <button class="experiment-tab" data-panel="panel-detector" type="button">AI Detector</button>
       <button class="experiment-tab" data-panel="panel-chat" type="button">AI Me (chat)</button>
     </aside>
@@ -512,7 +527,22 @@
         </div>
       </article>
 
-      <article class="experiment-panel active" id="panel-traitors">
+      <article class="experiment-panel active" id="panel-djing">
+        <h1 class="experiment-title">Immersive DJing</h1>
+
+        <div class="slides">
+          <img class="slide" src="/assets/immersive-djing/slide-1.png" alt="Immersive DJing slide 1" loading="lazy">
+          <img class="slide" src="/assets/immersive-djing/slide-2.png" alt="Immersive DJing slide 2" loading="lazy">
+          <img class="slide" src="/assets/immersive-djing/slide-3.png" alt="Immersive DJing slide 3" loading="lazy">
+          <img class="slide" src="/assets/immersive-djing/slide-4.png" alt="Immersive DJing slide 4" loading="lazy">
+          <img class="slide" src="/assets/immersive-djing/slide-5.png" alt="Immersive DJing slide 5" loading="lazy">
+          <img class="slide" src="/assets/immersive-djing/slide-6.png" alt="Immersive DJing slide 6" loading="lazy">
+          <img class="slide" src="/assets/immersive-djing/slide-7.png" alt="Immersive DJing slide 7" loading="lazy">
+          <img class="slide" src="/assets/immersive-djing/slide-8.png" alt="Immersive DJing slide 8" loading="lazy">
+        </div>
+      </article>
+
+      <article class="experiment-panel" id="panel-traitors">
         <h1 class="experiment-title">The Traitors (AI Edition)</h1>
 
         <p>Possibly my favourite video ever is a <a href="https://www.youtube.com/watch?v=0MmIZLTMHUw" target="_blank" rel="noopener">reverse Turing Test</a> where the guy has to pretend he’s an AI among actual AIs. I particularly love the comic timing of the moment he gets called upon to answer a question.</p>
