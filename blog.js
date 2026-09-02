@@ -21,7 +21,7 @@
     });
   }
 
-  /* ---- index: filter + search ---- */
+  /* ---- index: category filter + full-text search ---- */
   if (body.classList.contains('page-index')) {
     var search = document.getElementById('search');
     var catLinks = Array.prototype.slice.call(document.querySelectorAll('#cat-nav a'));
@@ -32,30 +32,129 @@
     var yearLinks = Array.prototype.slice.call(document.querySelectorAll('#year-nav a'));
     var featured = document.querySelector('.featured');
     var mostRead = document.querySelector('.most-read');
+    var archive = document.getElementById('archive');
+    var resultsBox = document.getElementById('search-results');
+    var resultsList = document.getElementById('search-list');
+    var searchCount = document.getElementById('search-count');
     var filter = 'all';
+    var index = null, indexLoading = null;
 
-    function apply() {
-      var q = (search ? search.value : '').trim().toLowerCase();
+    function esc(str) {
+      return String(str).replace(/[&<>"]/g, function (ch) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch];
+      });
+    }
+    function fold(str) {
+      return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[\u2018\u2019]/g, "'");
+    }
+    function terms(q) {
+      return fold(q).split(/[^a-z0-9']+/).filter(function (t) { return t.length > 1; });
+    }
+    function loadIndex() {
+      if (index) return Promise.resolve(index);
+      if (!indexLoading) {
+        indexLoading = fetch('/blog/search.json').then(function (r) { return r.json(); }).then(function (data) {
+          index = data.map(function (d) {
+            return { d: d, title: fold(d.t), sub: fold(d.s || ''), body: fold(d.b || '') };
+          });
+          return index;
+        });
+      }
+      return indexLoading;
+    }
+    function count(hay, needle) {
+      var n = 0, i = 0;
+      while ((i = hay.indexOf(needle, i)) !== -1) { n++; i += needle.length; }
+      return n;
+    }
+    function highlight(text, ts) {
+      var out = esc(text);
+      ts.forEach(function (t) {
+        out = out.replace(new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>');
+      });
+      return out;
+    }
+    function snippet(entry, ts) {
+      var body = entry.d.b || '';
+      var folded = entry.body;
+      var pos = -1;
+      for (var i = 0; i < ts.length && pos === -1; i++) pos = folded.indexOf(ts[i]);
+      if (pos === -1) return '';
+      var start = Math.max(0, pos - 90);
+      var end = Math.min(body.length, pos + 150);
+      if (start > 0) start = body.lastIndexOf(' ', start) + 1;
+      if (end < body.length) end = body.indexOf(' ', end); if (end === -1) end = body.length;
+      var text = body.slice(start, end);
+      return (start > 0 ? '…' : '') + highlight(text, ts) + (end < body.length ? '…' : '');
+    }
+    function score(entry, ts) {
+      var total = 0, all = true;
+      ts.forEach(function (t) {
+        var inTitle = count(entry.title, t), inSub = count(entry.sub, t), inBody = count(entry.body, t);
+        if (!inTitle && !inSub && !inBody) all = false;
+        total += inTitle * 12 + inSub * 6 + Math.log(1 + inBody) * 4;
+      });
+      return all ? total : 0;
+    }
+    function renderResults(hits, ts) {
+      resultsList.innerHTML = hits.map(function (h) {
+        var d = h.entry.d;
+        return '<a class="card card-row" href="/blog/' + esc(d.f) + '.html">' +
+          '<span class="card-media">' + (d.i ? '<img src="' + esc(d.i) + '" alt="" loading="lazy">' : '') + '</span>' +
+          '<span class="card-body">' +
+            '<span class="eyebrow">' + esc(d.c) + '</span>' +
+            '<span class="card-title">' + highlight(d.t, ts) + '</span>' +
+            '<span class="snippet">' + snippet(h.entry, ts) + '</span>' +
+            '<span class="card-meta">' + esc(d.d) + '</span>' +
+          '</span></a>';
+      }).join('');
+    }
+
+    function applyFilterOnly() {
       var shown = 0;
       rows.forEach(function (row) {
-        var ok = (filter === 'all' || row.dataset.category === filter) &&
-                 (!q || row.dataset.search.indexOf(q) !== -1);
+        var ok = filter === 'all' || row.dataset.category === filter;
         row.classList.toggle('is-hidden', !ok);
         if (ok) shown++;
       });
       years.forEach(function (y) {
-        var any = y.querySelector('.card-row:not(.is-hidden)');
-        y.classList.toggle('is-hidden', !any);
+        y.classList.toggle('is-hidden', !y.querySelector('.card-row:not(.is-hidden)'));
       });
-      var filtering = filter !== 'all' || q;
-      if (featured) featured.hidden = !!filtering;
-      if (mostRead) mostRead.hidden = !!filtering;
+      var filtering = filter !== 'all';
+      if (featured) featured.hidden = filtering;
+      if (mostRead) mostRead.hidden = filtering;
       if (resultCount) resultCount.textContent = filtering ? shown + ' of ' + rows.length : '';
       if (empty) empty.hidden = shown !== 0;
       yearLinks.forEach(function (a) {
-        var id = a.getAttribute('href').slice(1);
-        var y = document.getElementById(id);
+        var y = document.getElementById(a.getAttribute('href').slice(1));
         a.parentNode.style.display = (y && y.classList.contains('is-hidden')) ? 'none' : '';
+      });
+      if (resultsBox) resultsBox.hidden = true;
+      if (archive) archive.hidden = false;
+    }
+
+    var lastQuery = '';
+    function applySearch() {
+      var q = (search ? search.value : '').trim();
+      lastQuery = q;
+      var ts = terms(q);
+      if (!ts.length) { applyFilterOnly(); return; }
+      loadIndex().then(function (idx) {
+        if (lastQuery !== q) return;
+        var hits = [];
+        idx.forEach(function (entry) {
+          if (filter !== 'all' && entry.d.c !== filter) return;
+          var sc = score(entry, ts);
+          if (sc > 0) hits.push({ entry: entry, score: sc });
+        });
+        hits.sort(function (a, b) { return b.score - a.score; });
+        renderResults(hits, ts);
+        if (searchCount) searchCount.textContent = hits.length + (hits.length === 1 ? ' essay' : ' essays');
+        if (featured) featured.hidden = true;
+        if (mostRead) mostRead.hidden = true;
+        if (archive) archive.hidden = true;
+        if (resultsBox) resultsBox.hidden = false;
+        if (empty) empty.hidden = true;
       });
     }
 
@@ -65,19 +164,23 @@
         catLinks.forEach(function (b) { b.classList.remove('is-active'); });
         a.classList.add('is-active');
         filter = a.dataset.filter;
-        apply();
-        if (filter !== 'all') {
-          var archive = document.getElementById('archive');
-          if (archive && window.innerWidth > 900) archive.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        applySearch();
+        if (filter !== 'all' && archive && !archive.hidden && window.innerWidth > 900) {
+          archive.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
         if (history.replaceState) history.replaceState(null, '', filter === 'all' ? location.pathname : '#' + encodeURIComponent(filter));
       });
     });
 
     if (search) {
-      search.addEventListener('input', apply);
+      var timer;
+      search.addEventListener('input', function () {
+        clearTimeout(timer);
+        timer = setTimeout(applySearch, 120);
+      });
+      search.addEventListener('focus', function () { loadIndex(); });
       search.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') { search.value = ''; apply(); search.blur(); }
+        if (e.key === 'Escape') { search.value = ''; applySearch(); search.blur(); }
       });
       document.addEventListener('keydown', function (e) {
         if (e.key === '/' && document.activeElement !== search && !/input|textarea/i.test(document.activeElement.tagName)) {
@@ -87,6 +190,10 @@
       });
     }
 
+    // deep link: /blog.html?q=moloch
+    var qParam = new URLSearchParams(location.search).get('q');
+    if (qParam && search) { search.value = qParam; applySearch(); }
+
     // deep link: /blog.html#Philosophy
     var hash = decodeURIComponent(location.hash.slice(1));
     if (hash) {
@@ -95,7 +202,7 @@
         catLinks.forEach(function (b) { b.classList.remove('is-active'); });
         match.classList.add('is-active');
         filter = hash;
-        apply();
+        applyFilterOnly();
       }
     }
   }

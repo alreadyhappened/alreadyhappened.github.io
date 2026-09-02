@@ -713,6 +713,11 @@ def build_index(posts):
     </div>
   </section>
 
+  <section class="search-results" id="search-results" aria-label="Search results" hidden>
+    <h2 class="section-label"><span>Results</span><span class="result-count" id="search-count"></span></h2>
+    <div id="search-list"></div>
+  </section>
+
   <section class="archive" aria-label="All essays" id="archive">
     <h2 class="section-label"><span>All essays</span><span class="result-count" id="result-count"></span></h2>
 """)
@@ -748,6 +753,8 @@ def related(post, posts, n=3):
 
 def build_post(post, posts, idx, slug_to_file):
     content, toc, hero_caption = clean_body(post["body_html"], post, slug_to_file)
+    spaced = re.sub(r"(</(?:p|h[1-6]|li|blockquote|figcaption|pre|aside|div)>|<br>)", r"\1 ", content or "<p></p>")
+    plain = " ".join(LH.fragment_fromstring(spaced, create_parent="div").text_content().split())
     prev_post = posts[idx + 1] if idx + 1 < len(posts) else None   # older
     next_post = posts[idx - 1] if idx > 0 else None                # newer
 
@@ -812,17 +819,22 @@ def build_post(post, posts, idx, slug_to_file):
     html_out.append(FOOT)
     with open(os.path.join(BLOG_DIR, post["file"] + ".html"), "w") as f:
         f.write("".join(html_out))
-    return toc
+    return toc, plain
 
 
 def main():
     posts = load_posts()
     slug_to_file = {p["slug"]: p["file"] for p in posts}
-    build_index(posts)
     stats = []
+    index = []
     for i, p in enumerate(posts):
-        toc = build_post(p, posts, i, slug_to_file)
+        toc, plain = build_post(p, posts, i, slug_to_file)
         stats.append((p["file"], len(toc)))
+        index.append({"f": p["file"], "t": p["title"], "s": p["subtitle"], "c": p["category"],
+                      "y": p["year"], "d": p["date"], "i": cdn(p["cover"], 320) if p["cover"] else "", "b": plain})
+    build_index(posts)
+    with open(os.path.join(BLOG_DIR, "search.json"), "w") as f:
+        json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
     # remove generated files for posts that no longer exist
     wanted = {p["file"] + ".html" for p in posts}
     for name in os.listdir(BLOG_DIR):

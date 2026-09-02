@@ -384,6 +384,21 @@ img { max-width: 100%; height: auto; display: block; }
 .year.is-hidden { display: none; }
 .empty { margin: 40px 0; color: var(--ink-3); font-style: italic; }
 
+/* search results */
+.search-results { max-width: var(--wide); margin: 0 auto 72px; }
+.search-results .card-row { grid-template-columns: 120px minmax(0, 1fr); }
+.search-results .card-row:first-child { border-top: 0; }
+.search-results .card-title { font-size: 23px; }
+.snippet {
+  display: block;
+  margin: 8px 0 10px;
+  font-size: 16.5px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.snippet mark { background: none; color: var(--ink); font-weight: 600; box-shadow: inset 0 -0.45em 0 #f3efd6; }
+.card-title mark { background: none; color: inherit; box-shadow: inset 0 -0.3em 0 #f3efd6; }
+
 .main-foot { max-width: var(--wide); margin: 96px auto 0; padding-top: 24px; border-top: 1px solid var(--line); font-family: var(--sans); font-size: 12.5px; color: var(--ink-4); }
 .main-foot a { color: var(--ink-3); } .main-foot a:hover { color: var(--ink); }
 
