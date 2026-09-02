@@ -273,7 +273,7 @@ img { max-width: 100%; height: auto; display: block; }
 .index-header { max-width: var(--wide); margin: 0 auto 64px; }
 .index-header { margin-bottom: 48px; }
 .index-title {
-  margin: 14px 0 18px;
+  margin: 0 0 18px;
   font-family: var(--display);
   font-variation-settings: "opsz" 144, "SOFT" 40, "WONK" 1;
   font-weight: 400;

@@ -569,7 +569,6 @@ def sidebar_html(mode, posts, post=None, toc=None, cat_counts=None, year_counts=
   <div class="sidebar-top">
     <a class="wordmark" href="/blog.html">
       <span class="wordmark-title">{esc(SITE_NAME)}</span>
-      <span class="wordmark-sub">Essays by {esc(AUTHOR)}</span>
     </a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="sidebar-body">Menu</button>
   </div>
@@ -699,7 +698,6 @@ def build_index(posts):
     body.append(f"""
 <main class="main" id="main">
   <header class="index-header">
-    <p class="eyebrow">Essays · {min(year_counts)}–{max(year_counts)}</p>
     <h1 class="index-title">{esc(SITE_NAME)}</h1>
   </header>
 
