@@ -471,6 +471,7 @@ img { max-width: 100%; height: auto; display: block; }
 .essay-body strong { font-weight: 600; }
 
 .essay-body p.preamble { font-size: 18px; color: var(--ink-3); }
+.essay-body p.lede { display: flow-root; }
 .essay-body p.lede::first-letter {
   float: left;
   font-family: var(--display);

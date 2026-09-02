@@ -510,7 +510,9 @@ def clean_body(body_html, post, slug_to_file):
         if all_italic:
             child.set("class", "preamble")
             continue
-        child.set("class", "lede")
+        # a drop cap needs about three lines of text to sit against
+        if len(text_of(child)) >= 170:
+            child.set("class", "lede")
         break
 
     out = "".join(LH.tostring(c, encoding="unicode", method="html") for c in root)
