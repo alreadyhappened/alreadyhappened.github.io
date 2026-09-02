@@ -472,7 +472,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .essay-body p.preamble { font-size: 18px; color: var(--ink-3); }
 .essay-body p.lede { display: flow-root; }
-.essay-body p.lede::first-letter {
+.essay-body .cap {
   float: left;
   font-family: var(--display);
   font-variation-settings: "opsz" 144, "SOFT" 40, "WONK" 1;
@@ -482,6 +482,15 @@ img { max-width: 100%; height: auto; display: block; }
   padding: .08em .09em 0 0;
   color: var(--ink);
 }
+.essay-body p.lede-2 .cap { font-size: 3.25em; line-height: .72; padding-top: .1em; }
+.essay-body p.lede-1 .cap {
+  float: none;
+  font-size: 2.15em;
+  line-height: 0;
+  vertical-align: baseline;
+  padding: 0 .03em 0 0;
+}
+.essay-body p.is-measuring .cap { float: none; font-size: inherit; line-height: inherit; padding: 0; font-family: inherit; }
 
 .essay-body h2, .essay-body h3, .essay-body h4 {
   font-family: var(--display);

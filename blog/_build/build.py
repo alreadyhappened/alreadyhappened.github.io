@@ -305,6 +305,34 @@ def build_figure(container, wide_threshold=1000):
     return fig, image_key(src), caption
 
 
+def wrap_cap(p):
+    """Wrap the first letter (plus any opening quote) of paragraph p in <span class="cap">."""
+    node, attr = p, "text"
+    # descend into leading inline elements until we find real text
+    while not (getattr(node, attr) or "").strip():
+        if attr == "text" and len(node):
+            node, attr = node[0], "text"
+        else:
+            return
+    text = getattr(node, attr)
+    m = re.match(r"^(\s*)([\"'\u2018\u201c\u00ab(\[]*[^\W_])", text)
+    if not m:
+        return
+    lead, cap = m.group(1), m.group(2)
+    rest = text[m.end():]
+    span = LH.Element("span")
+    span.set("class", "cap")
+    span.text = cap
+    span.tail = rest
+    if attr == "text":
+        node.text = lead
+        node.insert(0, span)
+    else:
+        parent = node.getparent()
+        node.tail = lead
+        parent.insert(parent.index(node) + 1, span)
+
+
 def clean_body(body_html, post, slug_to_file):
     root = LH.fragment_fromstring(body_html, create_parent="div")
 
@@ -510,9 +538,8 @@ def clean_body(body_html, post, slug_to_file):
         if all_italic:
             child.set("class", "preamble")
             continue
-        # a drop cap needs about three lines of text to sit against
-        if len(text_of(child)) >= 170:
-            child.set("class", "lede")
+        child.set("class", "lede")
+        wrap_cap(child)
         break
 
     out = "".join(LH.tostring(c, encoding="unicode", method="html") for c in root)
@@ -689,8 +716,8 @@ def build_index(posts):
 
     body = [HEAD.format(
         title=f"Blog — {AUTHOR}",
-        description="Essays on behaviour, culture and technology by Stefan Kelly, collected from Already Happened.",
-        og_title=f"{SITE_NAME} — essays by {AUTHOR}",
+        description="Behaviour, culture, technology.",
+        og_title=SITE_NAME,
         og_type="website",
         og_image=f'<meta property="og:image" content="{esc(cdn(latest["cover"], 1200))}">' if latest["cover"] else "",
         body_class="page-index",

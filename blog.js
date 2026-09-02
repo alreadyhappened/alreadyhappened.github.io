@@ -261,6 +261,23 @@
     });
   }
 
+  /* ---- drop cap: size it to the opening paragraph ---- */
+  var lede = document.querySelector('.essay-body p.lede');
+  if (lede && lede.querySelector('.cap')) {
+    function sizeCap() {
+      lede.classList.remove('lede-1', 'lede-2');
+      lede.classList.add('is-measuring');
+      var lh = parseFloat(getComputedStyle(lede).lineHeight) || 32;
+      var lines = Math.round(lede.getBoundingClientRect().height / lh);
+      lede.classList.remove('is-measuring');
+      if (lines <= 1) lede.classList.add('lede-1');
+      else if (lines === 2) lede.classList.add('lede-2');
+    }
+    sizeCap();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(sizeCap);
+    window.addEventListener('resize', sizeCap);
+  }
+
   /* ---- lightbox (any page with figure links) ---- */
   var lightbox = document.querySelector('.lightbox');
   if (lightbox) {
