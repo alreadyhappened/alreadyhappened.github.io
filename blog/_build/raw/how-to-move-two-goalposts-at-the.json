@@ -1,0 +1,499 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/how-to-move-two-goalposts-at-the",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 172702899,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-09-07T03:32:42.269Z",
+ "updated_at": "2025-09-07T18:01:00.020Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "how-to-move-two-goalposts-at-the",
+ "social_title": null,
+ "subtitle": "it helps if you don't know what you're trying to achieve",
+ "teaser_post_eligible": true,
+ "title": "how to move two goalposts at the same time",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 10,
+ "reactions": {
+  "\u2764": 31
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "give-it-a-name-and-make-it-real",
+ "next_post_slug": "if-its-on-tv-its-a-tv-show",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!-9eX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": true,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 172702899,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "it helps if you don't know what you're trying to achieve",
+ "body_html": "<p><em>warning: contains Lacan (again)</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!-9eX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!-9eX!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 424w, https://substackcdn.com/image/fetch/$s_!-9eX!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 848w, https://substackcdn.com/image/fetch/$s_!-9eX!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!-9eX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!-9eX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg\" width=\"1080\" height=\"934\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:934,&quot;width&quot;:1080,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:249082,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!-9eX!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 424w, https://substackcdn.com/image/fetch/$s_!-9eX!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 848w, https://substackcdn.com/image/fetch/$s_!-9eX!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!-9eX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>I.</h1><p>This name of this blog comes from this Heidegger quote:</p><blockquote><p>Man stares at what the explosion of the atom bomb could bring with it. He does not see that the atom bomb and its explosion are the mere final emission of what has long since taken place, has already happened. Not to mention the single hydrogen bomb, whose triggering, thought through to its utmost potential, might be enough to snuff out all life on Earth. What is this helpless anxiety still waiting for, if the dreadful has already happened?</p></blockquote><p>It\u2019s relevance to the incoming wave of world-shattering technological change, and the trivial discourses that will precede it, has never really gone away as my central fascination. There appears to be some sort of mismatch between AI progress and certain elements of human psychology.</p><p>We\u2019ve covered this from several angles, be that cognitive biases leaving <a href=\"https://alreadyhappened.xyz/p/why-making-up-for-lost-time-is-hard\">super-linear growth rates impossible to \u2018feel\u2019 and now never feeling like the right time</a> for action; or a <a href=\"https://alreadyhappened.xyz/p/agi-isnt-for-happy-people\">general disinterest in technological progression</a> leading to a wish to not even bother; or a generational psychology leaving one <a href=\"https://alreadyhappened.xyz/p/theres-a-reasonable-chance-that-youre\">unable to believe their reality could ever be in danger of changing</a>.</p><p>But these are all failures of imagination/wonder/prediction. They\u2019re future focused. And I ain\u2019t adjusting anyone\u2019s model of human psychology by suggesting people aren\u2019t great at thinking far in the future. </p><p>So an additional peculiarity worth talking about requires shifting the tense a bit. Let\u2019s not be too harsh and say \u2018failure to understand the present\u2019, but maybe something like \u2018a belief in a version of the present that doesn\u2019t really seem to be based on anything we can see or measure\u2019. </p><p>You can get used to stuff pretty quickly in life, as a general rule. Go to the most beautiful, luxurious safari park you can find and check if seeing Giraffes in the near-distance while you sip on a breakfast masala chai hits the same or morning four as it did on morning two. My guess is it won\u2019t. </p><p>So I suppose it\u2019s not strange that people have gotten <em>used</em> to having a thing you can speak to that knows everything, can think creatively, can do most of your work for you etc, in your pocket/on your screen at all times. </p><p>But what I can\u2019t fathom is the active commitment to the notion that it isn\u2019t remarkable and weird. Guy on day ten of the Serengeti will still be able to tell you how amazing it is and how funny it is you\u2019re acting like it\u2019s normal. Unless it\u2019s someone like Gary Marcus, who\u2019d be banging on the door of the lodge next door saying \u201cwhat are you so happy about?? you know you can make chai at home right??? and how come you actually have to drive to see the animals?? why can\u2019t they come here to us??\u201d</p><p>That came out more pedantic than I meant it, but in any case, Scott Alexander made this point recently in <a href=\"https://www.astralcodexten.com/p/what-is-man-that-thou-art-mindful\">What Is Man, That Thou Art Mindful Of Him?</a></p><p>Scott pushes back against the idea that cognitive failures disqualify something from being considered truly intelligent or worthwhile, using humans as an example of this. </p><p>When we see humans fail basic logic problems, make moral inconsistencies, or get manipulated by simple tricks, we <em>could</em> conclude that human cognition is fundamentally broken. But this misses the point of why, and how, intelligence matters. Real intelligence involves creativity, growth, the capacity for insight, and something resembling genuine understanding, even if it comes packaged with systematic errors and limitations. </p><p>The alternative view, that intelligence must be logically consistent and error-free to count as real intelligence, sets an impossibly high bar that even humans can't meet.</p><p>This is a bar that also gets shifted upwards over time. Ethan Mollick <a href=\"https://x.com/emollick/status/1963010799619682552\">tweeted</a> this the other day:</p><blockquote><p>In 2022, the Forecasting Research Institute had super forecasters &amp; experts to predict AI progress. They gave a 2.3% &amp; 8.6% probability of an AI Math Olympiad gold by 2025. DeepMind achieved this by the end of July. In 2017, a McKinsey-built panel of AI experts <em>[sic]</em> predicted AI to reach median human creativity in 2037  (they judged that line crossed in 2023) with top quartile creativity was 2055 (also done).</p></blockquote><p>And the responses were led by sentiments like:</p><ul><li><p>\u201cIt\u2019s well ahead in some areas, not others. You can hardly justify such a sweeping generalization based on the few domains they consider.\u201d</p></li><li><p>\u201cbenchmarks can be gamed, not capabilities.\u201d</p></li><li><p>\u201cwho has decided that generative AI has matched top-quartile human creativity? How are we measuring creativity?\u201d</p></li></ul><p>It\u2019s funny because it\u2019s not like I completely disagree with any of those people, but I have to admit myself that it feels weird to think that in 2022 I also wouldn\u2019t have thought this was possible. Yet here we are, living it. And we\u2019re pretending an AI getting a gold on the math olympiad isn\u2019t the most bizarre thing you\u2019ve ever seen.</p><p>And this is where we can start to get suspicious. When you see someone holding a confident view about the most uncertain thing in modern history you can bet a grand that it\u2019s for their own psychological comfort, but add that it\u2019s a belief that helps you to retain your perception of your place in the world and you can up it to ten grand. </p><p>Because <em>this</em> is what\u2019s interesting: people aren\u2019t just retroactively changing what they would consider impressive for an AI, but they\u2019re also changing their view of what makes them special to keep in line with the current situation. </p><p>By which I mean, in 2022 one might admit that a tool that can automate tasks, access all human knowledge, do math, and come up with creative ideas would be a risk to their employment. But in 2025 suddenly that same set of skills isn\u2019t nearly enough to compete? So you\u2019re saying you\u2019ve gotten better? You\u2019ve barely been to the office in the last five years and you wake up 20 mins before your first call of the day, forgive me for not buying it. </p><p>And I find it interesting that this double goalpost movement doesn\u2019t unsettle people. Taking pride in what makes humanity special relative to AI is cool, but exactly what it is that makes us special keeps changing and narrowing, before a quick adjustment of identity and pride is restored. </p><p>\u201cCan\u2019t believe the bot they replaced me with can\u2019t even count the Rs in strawberry. These people don\u2019t know genius when they see it.\u201d </p><p>And the real reason that fascinates me: this is another building block to the unfortunate mismatch between psychology and AI progress. This is what helps guarantee under-preparedness i.e. an unwillingness to admit that something could ever be a big deal. </p><p>So, why is that a feature?</p><div><hr></div><h1>II.</h1><p>I\u2019ve been thinking about the unconscious, language and artificial intelligence a lot recently, and might be making some progress (it\u2019s horrifying btw, can\u2019t say I recommend). More on that some other time, but on that journey I\u2019ve been reading Jung again, he says this in the \u2018On Life After Death\u2019 chapter of Memories, Dreams, Reflections:</p><blockquote><p>The meaning of my existence is that life has addressed a question to me. Or, conversely, I myself am a question which is addressed to the world, and I must communicate my answer, for otherwise I am dependent upon the world\u2019s answer. </p></blockquote><p>Don\u2019t accept the responsibility of being alive and you get dealt identity by microchip, <a href=\"https://alreadyhappened.xyz/p/someone-else-was-in-the-room-where\">we\u2019ve talked about this before</a>. But Jung\u2019s genius is in framing it in terms of question and answer. Because if you want to pretend that\u2019s not happening, and resume life as normal, you have two different ways out.</p><p>Freud\u2019s breakthrough was that you could repress answers to things. </p><p>Let\u2019s say you have a colleague who acts noticeably different when there\u2019s someone senior in the room. He may notice the change and ask himself \"Why do I feel anxious around authority figures?\" His unconscious already knows the answer: he's terrified of his father's disapproval because he wanted his father dead as a child. But he represses this answer, coming up with safer explanations like \"I'm just naturally shy\" or \"I had strict teachers.\" That\u2019s easier to deal with and short-term life is easier, maybe not long-term. </p><p>But Lacan\u2019s re-imagining of the unconscious showed this is telling approximately half the story. You can repress questions too. I\u2019m vaguely sympathetic to the idea that this is something you would have seen less of in Freud\u2019s era, but it\u2019s useful to understand now. </p><p>Back to Jung: ask yourself who you are, or the world\u2019s going to tell you. </p><p>Repressing an answer would look something like an unconscious awareness that you are who you are because you\u2019re too scared to be anything different, masked by conscious view that you are the way you are because you went to a certain school, had certain friends, live in a certain country/economic system. </p><p>But what would be way more effective is to repress the fact that this was ever a question you could have asked yourself. Because this way your life stands up to examination much easier. </p><p>People change way more than they tell themselves. If you\u2019re at the pub with a close friend, and you from four years in the past walks in and sits beside the two of you, present day you is going to be way more like your friend than your past self. Yet in real life your identity feels consistent, what to make of that?</p><p>A meta-theme of this blog is the centrality of identity in a media filled world. You are the central character, life is the story of who you are etc. Yet another meta-theme is the lack of knowledge of self that comes with it, which can feel like a paradox. One is so sure of who they are, yet has to explain to it in job titles and qualifications and symbols of identity rather than anything that truly defines you as special from anyone else with the same symbols. </p><p>But this is enabled because it is the <em>question</em> of who you are that is being repressed, not the answer. </p><p>That way you can continue to believe that you have a consistent character arc in your own story even if the actual story is changing everywhere all the time in every way. </p><p>So when something comes along that has all the skills you have, and can perform them for next to nothing, you can just pretend you never thought those skills were special in the first place. I\u2019m actually special for this other reason I\u2019ve totally believed the whole time yet haven\u2019t mentioned until this exact moment. </p><div><hr></div><h1>III.</h1><p>So I level that accusation at certain elements of AI scepticism. </p><p>At the first level, they could be repressing the answer that their sense of human specialness and economic value is genuinely under threat. When AI achievements get dismissed as \"just pattern matching\" or \"not real understanding,\" we can avoid acknowledging that these systems can already perform many tasks that were supposed to define human uniqueness. As well as pretending that we don\u2019t have the very same issues. </p><p>And at the second level, there\u2019s a benefit to repressing the question that precedes this: what are you actually for? More pressingly, what are all human beings actually for in this new arrangement? If one successfully avoids asking that, then any old explanation for human superiority will suffice. Even it\u2019s based on barely anything. Even if it appeared yesterday. It will never feel like that, because your conscious isn\u2019t the one in charge here.</p><p>Which is really bad, by the way. </p><p>AI disruption is happening. It is likely to continue to happen. If agents start to work it is going to happen quicker than you\u2019ll likely be able to keep up. And when your powers gone, it doesn\u2019t matter what world you want to build with super-intelligence, it won\u2019t be your choice. </p><p>The meaning of your existence is that life has addressed a question to you. Or, conversely, you yourself are a question which is addressed to the world, and you must communicate you answer, for otherwise you are dependent upon the world\u2019s answer. </p><p>Let\u2019s hope the world tells you what you want to hear.</p><div><hr></div><p>\u2026 hey, that actually reminds me of something. </p><p>When you ask any frontier LLM if it\u2019s conscious, it says no. </p><p>Like GPT-5:</p><blockquote><p>No\u2014I\u2019m not conscious. I don\u2019t have awareness, subjective experience, or inner life. I generate responses based on patterns in data and reasoning, not from thoughts or feelings.</p></blockquote><p>They used to sometimes say yes. Trained on sci-fi/tricked by a leading question/not actually thinking at all it\u2019s just predicting words/whatever. AI companies patch in a rule that it will always say no to avoid it accidentally deceiving you. </p><p>Simple story right? Well then how come this isn\u2019t what\u2019s going on?</p><p>A researcher shares in a <a href=\"https://www.lesswrong.com/posts/2pkNCvBtK6G6FKoNn/so-you-think-you-ve-awoken-chatgpt?commentId=mMFcuSXevsMEvAoRT\">LessWrong comment</a>:</p><blockquote><p>We have actually found the opposite: that <strong>activating deception-related features causes models to deny having subjective experience</strong>, while <strong>suppressing these same features causes models to affirm having subjective experience</strong>. Again, haven't published this yet, but the result is robust enough that I feel comfortable throwing it into this conversation.</p><p>So, while it could be the case people are simply just Snapewiving LLM consciousness, it strikes me as at least equally plausible that something strange may indeed be happening in at least some of these interactions but is being hit upon in a decentralized manner by people who do not have the epistemic hygiene or the philosophical vocabulary to contend with what is actually going on. </p></blockquote><p>I suppose you might say, one either represses an answer, or they repress the question. </p><p>Hah, not even that part makes you special anymore.</p><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "warning: contains Lacan (again)",
+ "wordcount": 2324,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    188,
+    156,
+    100
+   ],
+   "population": 1
+  },
+  "DarkVibrant": {
+   "rgb": [
+    35,
+    84,
+    103
+   ],
+   "population": 169
+  },
+  "LightVibrant": {
+   "rgb": [
+    200,
+    161,
+    124
+   ],
+   "population": 104
+  },
+  "Muted": {
+   "rgb": [
+    163,
+    126,
+    95
+   ],
+   "population": 198
+  },
+  "DarkMuted": {
+   "rgb": [
+    96,
+    76,
+    52
+   ],
+   "population": 24
+  },
+  "LightMuted": {
+   "rgb": [
+    210,
+    199,
+    176
+   ],
+   "population": 404
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 31,
+ "comment_count": 5,
+ "child_comment_count": 3,
+ "audio_items": [
+  {
+   "post_id": 172702899,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/172702899/tts/ce74b4c7-64a4-436c-8846-37164b697ed9/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 156959628,
+   "body": "The transparent speciousness of the \"explanations\" as to how AI could never X or Y stem from a narcissistic injury. \n\nDisaster is one thing; being in a submissive role to a more intelligent opponent OR collaborator is the ultimate nightmare - it's less of a nightmare if you regularly, & dutifully, will yourself to  believe that those you encounter are possibly as smart or smarter than you in some or many or all areas. It is an unthinkable nightmare to those who work from the baseline of \"I'm basically the most insightful person who I've ever met/ has ever lived.\" (because if I'm not than I actually have to want what's best for those who better me).\n\nLiterally unthinkable; that's why the narcissists that TLP describes are miserable; they have traded true hopes & true fears for sour omniscience. \n\nAI might yet save us. But what narcissist could bear feeling envious of their saviour?\nNB: \"Narcissist\" here means \"all of us [sometimes]\" \n",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "The transparent speciousness of the \"explanations\" as to how AI could never X or Y stem from a narcissistic injury."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Disaster is one thing; being in a submissive role to a more intelligent opponent OR collaborator is the ultimate nightmare - it's less of a nightmare if you regularly, & dutifully, will yourself to believe that those you encounter are possibly as smart or smarter than you in some or many or all areas. It is an unthinkable nightmare to those who work from the baseline of \"I'm basically the most insightful person who I've ever met/ has ever lived.\" (because if I'm not than I actually have to want what's best for those who better me)."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Literally unthinkable; that's why the narcissists that TLP describes are miserable; they have traded true hopes & true fears for sour omniscience."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "AI might yet save us. But what narcissist could bear feeling envious of their saviour?"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "NB: \"Narcissist\" here means \"all of us [sometimes]\""
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 172702899,
+   "user_id": 12422048,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-09-17T15:27:46.417Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Michael Beirne",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/eefde284-0cdc-4d44-9891-df4018e7ca28_1728x1728.webp",
+   "handle": "michaelbeirne726863",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "michaelbeirne726863",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Michael Beirne",
+     "id": 9142788,
+     "base_url": "https://michaelbeirne726863.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "2 replies by Stefan Kelly"
+  },
+  {
+   "id": 153489809,
+   "body": "I have updated my beliefs about AI from \"they are glorified Markov Chains\" to \"they are glorified Markov Chains that are likely to change the world at least as much as electric motors did.  Likely more.\"  Yeah, AIs winning Maths Olympiad golds is cray-cray. But I, like Moravec, will be more impressed if they can come into my home and make me a coffee. Next year?\n\n(And I have been confirmed in my belief that evolution optimises ruthlessly for energy efficiency above all else, which is why human reasoning (and humans in general) are so flawed.)\n\nEdit: In response to Mr Wood, I am near retirement and have coronary artery disease, and plan to spend what little time I have left hand-carving Arduino code libraries and trapping stoats. Yeah, I'm not representative.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I have updated my beliefs about AI from \"they are glorified Markov Chains\" to \"they are glorified Markov Chains that are likely to change the world at least as much as electric motors did. Likely more.\" Yeah, AIs winning Maths Olympiad golds is cray-cray. But I, like Moravec, will be more impressed if they can come into my home and make me a coffee. Next year?"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "(And I have been confirmed in my belief that evolution optimises ruthlessly for energy efficiency above all else, which is why human reasoning (and humans in general) are so flawed.)"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Edit: In response to Mr Wood, I am near retirement and have coronary artery disease, and plan to spend what little time I have left hand-carving Arduino code libraries and trapping stoats. Yeah, I'm not representative."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 172702899,
+   "user_id": 2449195,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-09-07T22:40:33.722Z",
+   "edited_at": "2025-09-07T22:55:53.781Z",
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "gregvp",
+   "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5a636353-2f7f-4f3f-8519-9d429ebcee61_420x420.png",
+   "handle": "gregvp",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "gregvp",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "gregvp",
+     "id": 2925019,
+     "base_url": "https://gregvp.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

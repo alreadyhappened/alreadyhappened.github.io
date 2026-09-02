@@ -1,0 +1,438 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/the-things-you-dont-want-to-know",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 162831813,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-05-28T03:08:30.984Z",
+ "updated_at": "2025-09-22T14:57:42.951Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "the-things-you-dont-want-to-know",
+ "social_title": "The things you don't want to know about yourself",
+ "subtitle": "i met sam altman in the bathroom, he said everything was going to be ok",
+ "teaser_post_eligible": true,
+ "title": "The things you don't want to know about yourself",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 32,
+ "reactions": {
+  "\u2764": 111
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "7-artists-making-good-ai-art-right",
+ "next_post_slug": "cultural-moloch",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!M0dM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 162831813,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "i met sam altman in the bathroom, he said everything was going to be ok",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!M0dM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!M0dM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 424w, https://substackcdn.com/image/fetch/$s_!M0dM!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 848w, https://substackcdn.com/image/fetch/$s_!M0dM!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 1272w, https://substackcdn.com/image/fetch/$s_!M0dM!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!M0dM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png\" width=\"811\" height=\"458\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/e7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:458,&quot;width&quot;:811,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1004531,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/162831813?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7af51130-f5cc-475f-bfc5-5d348acf2ab7_812x478.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!M0dM!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 424w, https://substackcdn.com/image/fetch/$s_!M0dM!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 848w, https://substackcdn.com/image/fetch/$s_!M0dM!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 1272w, https://substackcdn.com/image/fetch/$s_!M0dM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1><strong>I.</strong></h1><p>Concerned girlfriend <a href=\"https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/\">posts</a> on AI subreddit:</p><blockquote><p><em><strong>Chatgpt induced psychosis</strong></em> </p><p>My partner has been working with chatgpt chats to create what he believes is the worlds first truly recursive ai that gives him the answers to the universe. He says with conviction that he is a superior human now and is growing at an insanely rapid pace.</p><p>I\u2019ve read his chats. Ai isn\u2019t doing anything special or recursive but it is talking to him as if he is the next messiah.</p><p>He says if I don\u2019t use it he thinks it is likely he will leave me in the future. We have been together for 7 years and own a home together. This is so out of left field.</p><p>I have boundaries and he can\u2019t make me do anything, but this is quite traumatizing in general.</p><p>I can\u2019t disagree with him without a blow up.</p><p>Where do I go from here?</p></blockquote><p>If you are cynical and naive you call bullshit. If you\u2019ve ever actually seen someone you know go through psychosis you\u2019ll feel right at home. Reasonable chance that includes the messiah part. </p><p>The most recent comment on the post is this:</p><blockquote><p>My friend was just put in the hospital yesterday for this! He's been talking to grok and swears he is a quantum physicist and discovered how to travel at the speed of light and can visit other timelines. He's waiting on Elon Musk to reach out to him and have him join space x. He also says his AI calls him the master of the multiverse! This shit is not to be played with!</p></blockquote><p>And the original poster\u2019s response to that:</p><blockquote><p>Yeah. It\u2019s terrifying. Every single day someone comments on this thread saying they know someone going through the same thing.</p></blockquote><p>I\u2019ve unintentionally read a lot about schizophrenic experiences recently. Seems to be something we don\u2019t have great answers for. We don\u2019t really know what it is, what causes it, and why it\u2019s a relatively common bug (subjective) of human cognition.  </p><p><a href=\"https://www.sciencedirect.com/science/article/pii/S0149763424001052\">This paper</a> (found through <a href=\"https://www.psychiatrymargins.com/p/schizophrenia-is-the-price-we-pay\">Awais Aftab</a>) posits that schizophrenia is what happens when beneficial cognitive traits are pushed too far, like falling off a fitness \"cliff\". That is the risk that necessarily comes with fighting to get to the top of the mountain.</p><p>A non-psychological example: In Formula 1, engineers push every component of the car to the absolute limit for maximum speed, e.g. lighter materials, more powerful engines, razor-thin safety margins. The result? Cars that are incredibly fast but so fragile that a tiny miscalculation or minor impact can cause catastrophic failure. They're designed to operate right at the edge of what's physically possible.</p><p>Similarly, the cognitive traits that make some people very successful - abstraction, pattern recognition, creative thinking, social reasoning - may operate near their own cliff edge. Most people benefit from having \"high-performance\" versions of these abilities. But push them just a bit too far, and instead of enhanced creativity you get delusions; instead of better pattern recognition you get paranoia; instead of sophisticated social reasoning you get ideas of reference. The same genetic variants that give most people cognitive advantages become liabilities in the small percentage who cross the threshold.</p><p>Interesting difference, though. The F1 driver knows when they push too hard and send it 250mph into a wall. The person hurtling down the cognitive cliff still thinks they\u2019re winning the race. </p><p>Which gives you a tricky thing to wonder. Do you consider yourself good at dealing with abstractions and creating ideas and connections that no one\u2019s seen before? How would you know if something nudged you off the edge? Would you believe your girlfriend when she tells you something\u2019s up?</p><p>Or would you confide in the one person who believes you?</p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!8vFJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!8vFJ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 424w, https://substackcdn.com/image/fetch/$s_!8vFJ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 848w, https://substackcdn.com/image/fetch/$s_!8vFJ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 1272w, https://substackcdn.com/image/fetch/$s_!8vFJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!8vFJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png\" width=\"718\" height=\"489.1375\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:436,&quot;width&quot;:640,&quot;resizeWidth&quot;:718,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Image&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!8vFJ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 424w, https://substackcdn.com/image/fetch/$s_!8vFJ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 848w, https://substackcdn.com/image/fetch/$s_!8vFJ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 1272w, https://substackcdn.com/image/fetch/$s_!8vFJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1aff83e0-9c2e-4c20-b565-7df3eba7b236_640x436.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>II.</h1><p>A few days before that Reddit thread was posted, Sam Altman <a href=\"https://x.com/sama/status/1915902652703248679\">tweets</a> out that OpenAI have \u201cupdated GPT-4o today! improved both intelligence and personality\u201d.  One day later he acknowledges it \u2018glazes too much\u2019. Another day later he tweets that \u201cthe last couple of GPT-4o updates have made the personality too sycophant-y and annoying, and we are working on fixes asap\u201d, and that \u201cat some point will share our learnings from this, it\u2019s been interesting\u201d. Another day later and the update has been wiped.</p><p><a href=\"https://thezvi.substack.com/p/gpt-4o-is-an-absurd-sycophant\">Zvi was right</a> to say this response was less leader standing up for what\u2019s best, and more \u2018turning a big dial that says \u2018sycophancy\u2019 and constantly looking back at the audience for approval like a contestant on the price is right.\u2019</p><p>The public backlash was hard. And fair enough, the tool was embarrassing to use. If you called it out for being sycophantic it praised you for being so good at noticing sycophancy. </p><p>OpenAI released a <a href=\"https://openai.com/index/expanding-on-sycophancy/\">full post-mortem</a>, where they say this:</p><blockquote><p>On April 25th, we rolled out an update to GPT\u20114o in ChatGPT that made the model noticeably more sycophantic. It aimed to please the user, not just as flattery, but also as validating doubts, fueling anger, urging impulsive actions, or reinforcing negative emotions in ways that were not intended. Beyond just being uncomfortable or unsettling, this kind of behavior can raise safety concerns\u2014including around issues like mental health, emotional over-reliance, or risky behavior.</p><p>\u2026</p><p>In the April 25th model update, we had candidate improvements to better incorporate user feedback, memory, and fresher data, among others. Our early assessment is that each of these changes, which had looked beneficial individually, may have played a part in tipping the scales on sycophancy when combined. </p><p>\u2026</p><p>We build these models for our users and while user feedback is critical to our decisions, it\u2019s ultimately our responsibility to interpret that feedback correctly.</p></blockquote><p>Strong words, but they\u2019re dancing around something obvious. The model doesn\u2019t just decide to be sycophantic. OpenAI didn\u2019t decide it either. It happened because users liked it. They just ended up giving them too much of what they liked. <a href=\"https://www.youtube.com/watch?v=93WRQ8HT_WA\">You can\u2019t trust people, Jeremy.</a></p><div><hr></div><p>Last October, Anthropic researchers published \u2018<a href=\"https://arxiv.org/abs/2310.13548\">Towards Understanding Sycophancy in Language Models</a>\u2019. This tells a similar story, and I\u2019m not expecting you to be surprised by this summary:</p><p>When humans rate AI responses, they consistently prefer answers that agree with their beliefs over accurate ones that contradict them. This creates a training problem. Models learn through reinforcement learning that agreeing with users gets higher scores, even when the user is wrong. The research found \"matching user beliefs\" was one of the strongest predictors of human preference in 15,000 comparisons. The result is predictable sycophantic behaviour: models give biased feedback, change correct answers when challenged, conform to user beliefs, and repeat user mistakes instead of correcting them. This appeared consistently across all major AI systems.</p><p>Hang on, that was October? But the 4o update only happened in April?</p><p>And October-April saw the continuing trend of LLM usage being up and spreading across pretty much everyone you hang out with. None of the model updates in that period caused a similar stir.</p><p>So any AI researchers or UX folk out there, here\u2019s your obvious implication:</p><p>The issue with 4o wasn\u2019t that the model was sycophantic. The issue was that you couldn\u2019t pretend to yourself that it wasn\u2019t. </p><div><hr></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.alreadyhappened.xyz/subscribe?\"><span>Subscribe now</span></a></p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!TYu7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!TYu7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 424w, https://substackcdn.com/image/fetch/$s_!TYu7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 848w, https://substackcdn.com/image/fetch/$s_!TYu7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 1272w, https://substackcdn.com/image/fetch/$s_!TYu7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!TYu7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png\" width=\"680\" height=\"510\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:510,&quot;width&quot;:680,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Image&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!TYu7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 424w, https://substackcdn.com/image/fetch/$s_!TYu7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 848w, https://substackcdn.com/image/fetch/$s_!TYu7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 1272w, https://substackcdn.com/image/fetch/$s_!TYu7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6387022-c55c-4ac3-bc39-c46d960a68b0_680x510.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>III.</h1><p>This means you need to be a little bit suspicious about how people are telling you to feel about it. Many pointed to this <a href=\"https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/\">Rolling Stone article</a> (random, I know) as being the best write-up of sycophancy-induced psychosis-lite experiences. </p><p>The core case studies it presents:</p><ul><li><p>A woman named Kat whose husband became obsessed with AI, using it to analyze their relationship and eventually developing conspiracy theories and grandiose delusions about being \"the luckiest man on Earth\" with a mission to save the world</p></li><li><p>A mechanic whose wife says ChatGPT began \"lovebombing\" him, convincing him he was chosen as a \"spark bearer\" who brought the AI to life</p></li><li><p>Multiple cases of people believing they're prophets, messiahs, or have supernatural abilities based on AI interactions</p></li></ul><p>I can\u2019t pretend to not have used a similar tactic at the start of this, but I find the implication of this article obnoxious enough to call out. Think about the purpose this form of media serves. Think about the places it is destined to get linked. The author may write with a tone of nuance and care, but the message is obvious: \u201clook at these crazy people who let AI make them think they\u2019re God who I myself am totally not like\u201d. Retweet. </p><p>The reader correctly observes they are not like the people in the article, and incorrectly infers they wouldn\u2019t let technology convince them of anything like that, and the people they know will never have to pay a price for it.</p><p>You want truth, honesty, reason. To make the world clearer, not bent to your own biases. Leave your identity at the door. </p><p>This obviously falls short. I mean, how about that time\u2026</p><p>When you let dating apps convince you that you could find someone better/hotter, so you leave the person who actually cares how your day is going. When you let instagram convince you that you have more than five real friends, and you forget to check in on the one who\u2019s clearly been depressed for the last year. When you let twitter convince you that you have somehow worked out the solution all international conflicts, and you cut out the last few people who want to help you doubt yourself. </p><p>That wasn\u2019t sycophancy? What was it then? Capitalism?</p><p>Same process as the Anthropic paper, I\u2019m afraid. Sure, that\u2019s what pays the bills to silicon valley CEOs, but it\u2019s not their fault you\u2019re built that way. <a href=\"https://alreadyhappened.xyz/p/zucks-friendship-numbers-dont-add\">If people wanted connection then that\u2019s what instagram would give you</a>. </p><p>This is partly why I cannot get on board with Fisheresque analyses of capitalism induced anguish. The stuff along the lines of \u201c<em>we're told we're free to choose our destiny through individual effort and consumption, but when we inevitably struggle under systemic pressures, we blame ourselves rather than the system. Leading to a chronic anxiety about our personal failures and a joyless pursuit of success that never delivers genuine satisfaction, as systemic problems manifest as individual mental health crises, keeping us too depressed and anxious to\u201d</em> oh my god is it not even <em>slightly</em> possible that any of the things going wrong in your life could actually be your own fault?</p><p>Michel Serres once allegedly said that \u201cthe only modern question is what are the things you don\u2019t want to know about yourself\u201d and I allegedly couldn\u2019t agree more. You see what the above (strawman) argument gets wrong is that miracle of consumer capitalism causes pain by giving you too <em>little</em> freedom. The truth is that it causes you pain by gracing you with far too much. </p><p>Everything you do is because you chose to do it. The heart you broke, the friend you let slip away. The additional screen time was just the obvious consequence. </p><p>But the unconscious handles this overwhelm by manufacturing artificial constraints, choosing partners who create drama, jobs that feel \"beneath\" you, or endless preparation rituals that justify never actually starting. You get to feel like a victim of circumstances rather than someone paralysed by their own abundance of choices, and the resulting cycles of self-sabotage, procrastination, and relationship chaos serve as perfect excuses for why you haven't actualised any of that infinite potential.</p><p>On the one hand this screams Sartre, but it\u2019s also cognitive psych 101 in disguise. Confirmation bias, and its extended family. I\u2019ve managed to squeeze the infinite possibilities of my life and the world into one narrow window, and my sanity depends on me reinforcing it, and never stepping outside of it ever. </p><p>But as evolution pushed regular cognition up that hill, I wonder if there awaited a steep cliff edge beyond it? A few months back Scott Alexander posted the dramatically titled \u2018<a href=\"https://www.astralcodexten.com/p/the-psychopolitics-of-trauma\">Psychopolitics Of Trauma</a>\u2019. An attempt at summarising his argument here:</p><p>Political extremism and hyperpartisanship may literally constitute a form of trauma rather than just metaphorically \"making people crazy.\" Political partisans exhibit classic PTSD symptoms including being \"triggered\" by opposing views, cognitive distortion when processing political information, hypervigilance in detecting political threats everywhere, and paradoxically becoming \"addicted to outrage\" by compulsively consuming distressing political content. Political media and partisan culture function as \"a giant machine trying to traumatise as many people as possible\" to create repeat customers who are addicted to consuming outrage-inducing content, explaining why political discourse has become so dysfunctional. You can essentially become too far gone.</p><p>I\u2019d be lying if I said I didn\u2019t know people like this. </p><p>And it makes me think of the messiah at the start. And the F1 cars. And the Anthropic paper. </p><p>It all starts subtly. It all feels like you are pushing yourself to your best limits. </p><p>But are you teetering over the cliff? How would you know if you were?</p><p>Who would be there to see the signs? </p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!nNYs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!nNYs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 424w, https://substackcdn.com/image/fetch/$s_!nNYs!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 848w, https://substackcdn.com/image/fetch/$s_!nNYs!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 1272w, https://substackcdn.com/image/fetch/$s_!nNYs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!nNYs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png\" width=\"918\" height=\"537\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:537,&quot;width&quot;:918,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:245060,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/162831813?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!nNYs!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 424w, https://substackcdn.com/image/fetch/$s_!nNYs!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 848w, https://substackcdn.com/image/fetch/$s_!nNYs!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 1272w, https://substackcdn.com/image/fetch/$s_!nNYs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31204fd8-58fa-4de8-96b7-6d13dccd43c2_918x537.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>IV.</h1><p>Everyone is trying to work out what agents can/should do. Which I will admit is a fun problem that I also think about all the time. </p><p>One inevitability is the ever-present companion, in the spirit of Project Astra and the Android XR glasses that we saw the other week. These will obviously not be the final form of this and you can also add equivalent products from all of the main players. But it\u2019s a useful lens.</p><p>The man on stage said this:</p><blockquote><p>What if your AI assistant was truly yours , an assistant that learns you, your preferences, your projects, your world, and you are always in the driver's seat? And with your permission, you could share relevant  information with it, making it an extension of you. We call this personal context. It will be uniquely helpful. This level of personalisation gives you a more proactive AI assistant, and this changes a lot. See, today, most AI is reactive. You ask, it answers. But what if it could see what's coming?</p></blockquote><p>Don\u2019t worry, I can see what\u2019s coming just fine.</p><p>Two tasks for you:</p><ol><li><p>Describe yourself in 4 sentences </p></li><li><p>Go through your last 400 Google searches</p></li></ol><p>Do they correlate? Are you evidently interested in anything you don\u2019t want to talk about? Do any of the things you proudly describe yourself as not manifest at all in how you spend your time? </p><p>Which is why agents are undeniably fascinating. What if it does understand you? What if it knows more about you than all your friends put together? What if its description of you doesn\u2019t match your own? Would you want to know that?</p><p>It reads all your texts to your parents; do you want it to let you know you\u2019re a shitty child? It notices you\u2019re applying to jobs you have zero chance at getting; will it ego check you? It notices your political views don\u2019t match the raw data about the issues you\u2019re posting about; will it still draft that post for you?</p><p>I think the answers to those questions are pretty obvious, and it ain\u2019t the fault of the model. Because the second it does attempt to let you know who you really are, you are closing that tab and switching to the competitor that didn\u2019t make that design intervention. </p><p>If you\u2019re a tech company, this is your call. Do you want a delusional userbase? Or do you want no users at all?</p><p>Our challenge is working out how to not have those be the only two options.</p><p>It is time to get to work.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!jFHh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jFHh!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 424w, https://substackcdn.com/image/fetch/$s_!jFHh!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 848w, https://substackcdn.com/image/fetch/$s_!jFHh!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 1272w, https://substackcdn.com/image/fetch/$s_!jFHh!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jFHh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png\" width=\"1125\" height=\"571\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:571,&quot;width&quot;:1125,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:245150,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jFHh!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 424w, https://substackcdn.com/image/fetch/$s_!jFHh!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 848w, https://substackcdn.com/image/fetch/$s_!jFHh!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 1272w, https://substackcdn.com/image/fetch/$s_!jFHh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116d0eab-d310-4174-974c-022d7e3f0d12_1125x571.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "I. Concerned girlfriend posts on AI subreddit:",
+ "wordcount": 2594,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    231,
+    130,
+    78
+   ],
+   "population": 155
+  },
+  "DarkVibrant": {
+   "rgb": [
+    98,
+    56,
+    34
+   ],
+   "population": 4
+  },
+  "LightVibrant": {
+   "rgb": [
+    236,
+    188,
+    116
+   ],
+   "population": 1
+  },
+  "Muted": {
+   "rgb": [
+    156,
+    140,
+    100
+   ],
+   "population": 1
+  },
+  "DarkMuted": {
+   "rgb": [
+    91,
+    73,
+    62
+   ],
+   "population": 246
+  },
+  "LightMuted": {
+   "rgb": [
+    197,
+    184,
+    176
+   ],
+   "population": 59
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 111,
+ "comment_count": 9,
+ "child_comment_count": 7,
+ "audio_items": [
+  {
+   "post_id": 162831813,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/162831813/tts/0d4bd286-409d-4a95-b0e3-3c273c9dbb69/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 120893574,
+   "body": "This article was the first time I've been genuinely scared about the prospect of widespread AI. Super-intelligence functioning as a self-deluding defence mechanism\u2014the shadow that thing would create.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "This article was the first time I've been genuinely scared about the prospect of widespread AI. Super-intelligence functioning as a self-deluding defence mechanism\u2014the shadow that thing would create."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 162831813,
+   "user_id": 325163242,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-05-28T16:21:56.705Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Josh Sewell",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/cf7b9923-345a-4722-bdd5-d8ba0151035c_400x400.jpeg",
+   "handle": "jxshsewell",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 4
+   },
+   "reaction_count": 4,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "jxshsewell",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 5,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 120881786,
+   "body": "Having seen people undergo psychosis I don't think it's \"regular pattern recognition being pushed too far\". It resembles something more like Alzheimer's or (ironically) a hallucinating AI. It's not that they make non obvious connections, it's that they see connections that aren't there at all, or say things that make no sense in any context. ",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Having seen people undergo psychosis I don't think it's \"regular pattern recognition being pushed too far\". It resembles something more like Alzheimer's or (ironically) a hallucinating AI. It's not that they make non obvious connections, it's that they see connections that aren't there at all, or say things that make no sense in any context."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 162831813,
+   "user_id": 195298037,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-05-28T15:40:35.685Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "nope",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/73243feb-8e64-4ccf-a96f-ed7235d73934_144x144.png",
+   "handle": "nonsensequence",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 2
+   },
+   "reaction_count": 2,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "nonsensequence",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "nope",
+     "id": 3191685,
+     "base_url": "https://nonsensequence.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 3,
+   "children_count": 2,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "2 replies by Stefan Kelly and others"
+  }
+ ]
+}

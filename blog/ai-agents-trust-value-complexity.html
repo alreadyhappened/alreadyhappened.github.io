@@ -4,148 +4,130 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Agents have a trust-value-complexity problem — Stefan Kelly</title>
-  <link rel="stylesheet" href="../styles.css">
+  <meta name="description" content="screw it i&#x27;ll do it myself">
+  <meta property="og:title" content="AI Agents have a trust-value-complexity problem">
+  <meta property="og:description" content="screw it i&#x27;ll do it myself">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://substackcdn.com/image/fetch/$s_!LOGW!,w_1200,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/blog.css">
   <script defer src="/cf-analytics.js"></script>
+  <script defer src="/blog.js"></script>
 </head>
-<body>
-  <nav>
-    <a href="/">About</a>
-    <a href="/worked-on.html">Things I have worked on</a>
-    <a href="/working-on.html">Things I am working on</a>
-    <a href="/artefacts.html">Artefacts</a>
-    <a href="/experiments.html">Experiments</a>
-    <a href="/blog.html">Blog</a>
-  </nav>
+<body class="page-post" style="--accent:#424242">
+<div class="progress" aria-hidden="true"><span></span></div>
+<div class="shell">
 
-  <article class="post">
-    <h1 class="post-title">AI Agents have a trust-value-complexity problem</h1>
-    <p class="post-date">August 2025</p>
-    <p class="post-category">AI</p>
-    <p class="post-subtitle"><em>screw it i&#x27;ll do it myself</em></p>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <a class="wordmark" href="/blog.html">
+      <span class="wordmark-title">Already Happened</span>
+      <span class="wordmark-sub">Essays by Stefan Kelly</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="sidebar-body">Menu</button>
+  </div>
+  <div class="sidebar-body" id="sidebar-body">
 
-<p><em>bit of a break from our regular programming but I’m thinking about UX again</em></p><a href="https://substackcdn.com/image/fetch/$s_!LOGW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif"><img src="https://substackcdn.com/image/fetch/$s_!LOGW!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif" alt=""></a>
-    <figcaption>help me help you</figcaption>
-    <h2>0.</h2>
-    <p>I’ve been reading Nick Bostrom’s Deep Utopia. It’s pleasantly weird, and not a bad introduction to the type of world many are converging on as our future i.e. perfect abundance. </p>
-    <p>He’s highly concerned with the interaction between human agency and AI agency. How do you feel good about yourself in a world where AI does everything for you?</p>
-    <p>To be more specific, individual agents would give each person tremendous personal capability, essentially making everyone super-intelligent by proxy. You'd have your own AI that knows your preferences intimately and can accomplish virtually anything on your behalf. </p>
-    <p><a href="https://ai-2027.com/">AI 2027</a> also marks agents starting to work as the thing that causes everything to get out of control. Although the authors are less focused on what agents will do for you or I, and more on what how they will help AI companies increase the pace. </p>
-    <p>Neither discusses the human side of interacting with an agent for the first time (and nor do they need to for what they are doing), but I’ve been thinking about it a lot. </p>
-    <p>Because agents are here, kind of. And no one cares.</p>
-    <p>Yes, this is partly due to the fact that they barely work. But I don’t think their effectiveness increasing will force their integration into the average user’s daily life.</p>
-    <p>As I think the other reason people don’t care is we don’t really have a way to think about them. Like yes, I can read Bostrom’s description of what my life will be like and think ‘yes, sign me up’, but the path there will be incremental. And taking the first step is hard.</p>
-    <p>AI companies are currently failing, in their comms and their UX, in getting people to take this first step. </p>
-    <p>So when Bostrom asks ‘how do you feel good about yourself in a world where AI does everything for you?’</p>
-    <p>I think a fair first question would be: how do we get people to let AI do everything for them?</p>
-    <hr>
-    <h2>I. What tasks can agents do?</h2>
-    <p>When I think of any individual using intelligent agents to make their own life a personal (shallow?) utopia, I think there must be two categories of thing that the agents are doing:</p>
-    <ol>
-    <li>
-    <p>Tasks that the person used to do themselves </p></li>
-    <li>
-    <p>Tasks that the person didn’t do themselves because they were either too time-scarce, energy-scare, or incapable on their own, or hadn’t even realised doing that thing would be a good idea until their agent explained it</p></li></ol>
-    <p>In terms of how tasks in the first category vary, I think we have three dimensions:</p>
-    <ul>
-    <li>
-    <p>Importance:</p>
-    <ul>
-    <li>
-    <p>What are the consequences of the task being done (in)correctly and how much do they matter to you?</p></li></ul></li>
-    <li>
-    <p>Complexity:</p>
-    <ul>
-    <li>
-    <p>How hard is the task (for you), how much effort does it require?</p></li></ul></li>
-    <li>
-    <p>Frequency:</p>
-    <ul>
-    <li>
-    <p>Is this a one-off or do you do it all the time?</p></li></ul></li></ul>
-    <p>Here’s an ugly visual with some examples (Y axis is frequency):</p><a href="https://substackcdn.com/image/fetch/$s_!ssyk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin"><img src="https://substackcdn.com/image/fetch/$s_!ssyk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin" alt="Output image"></a>
-    <p>In terms of making your life better, it seems clear that the best version of agents will do things that are high importance, high complexity and high frequency. Being high in just two is still really useful. In that list of tasks we have:</p>
-    <p><strong>High Complexity + High Frequency:</strong> Annoying things that come up all the time but aren’t life or death, like managing calendar conflicts.</p>
-    <p><strong>High Complexity + High Importance:</strong> Tasks you dread the effort of which you might also mess up, things like applying for loans/mortgages and filing tax returns.</p>
-    <p><strong>High Frequency + High Importance:</strong> Stuff that’s easy but if you drop the ball you are hearing about it, like paying monthly bills.</p>
-    <p>And my basic point is: we are a long way from the average user being willing over to hand any of this over, even though this would be a huge change to the experience of modern life. </p>
-    <p>I watched the Google I/O show a few months ago, where they show someone wearing their AI glasses. They used an interaction where the person is walking around London, and their agent chirps up to tell them their colleague’s messaged asking to set up a meeting. They tell the agent to set it up, and it’s happy to oblige. </p>
-    <p>But when you’re watching, the only possible thing to think is ‘if that was me I’m definitely checking my phone to see if the agent set the meeting correctly’. Which means you’ve expended the same amount of time on the task anyway, if not more. And you look weird with your AI glasses on. </p>
-    <p>This isn’t good for anyone. </p>
-    <p>You can say that the paranoia will be sorted out by super-intelligence and the trust it will exude, and yes I probably agree. But I’m talking about the next few years of marginal improvement here. </p>
-    <p>So how do we get people to trust agents at all?</p>
-    <hr>
-    <h2>II. One small step for agents</h2>
-    <p>I had Claude split the three dimensions split into pairs, and put an example task in each quadrant:</p><a href="https://substackcdn.com/image/fetch/$s_!xdvZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png"><img src="https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png" alt=""></a>
-    <p>The logical thing from a user psychology perspective would be to say: </p>
-    <p>‘We know users are going to be too hesitant to hand over the stuff in the top right quadrants. So we’ll start bottom left and work our way along those axes until we reach automated utopia.’</p>
-    <p>But the issue is that starting in the bottom left doesn’t work either, because the world is already a well-designed place. </p>
-    <p>Agent start-ups show off their tool’s ability to order a burger to your house, and follow that up with a claim that this is a big deal. But ordering a burger to my house is very easy for me anyway. So this adds no value. </p>
-    <p>Similarly, one of OpenAI’s big plays is to move into agentic shopping, as if online shopping hasn’t already been completely solved. Amazon can deliver anything I’ve ever dreamed of to my door tomorrow, and I can order it in 30 seconds. The agent can’t even do it faster than me. What is the point?</p>
-    <p>So, how do we get to the point of people handing over more complex and important tasks to agents?</p>
-    <p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p>
-    <hr>
-    <h2>III. Does anyone know how to know this much?</h2>
-    <p>I also said earlier that there must be two categories of thing that agents could be doing:</p>
-    <ol>
-    <li>
-    <p>Tasks that people currently do themselves </p></li>
-    <li>
-    <p>Tasks that people don’t do themselves because they are either too time-scarce, energy-scare, or incapable on their own, or haven’t even realised doing that thing would be a good idea until their agent explained it</p></li></ol>
-    <p>I haven’t seen any attempt at advertising compelling use cases of the second category. </p>
-    <p>Let’s say I spend 60 minutes a week looking at stats to help pick my fantasy football team. I then decide it’s not too tricky and an agent can probably do it for me. So I hand it over and gain 60 minutes back. </p>
-    <p>But if time, energy, and knowledge are not limitations the agent has, then this is a bad way to think about tasks. I’m treating the agent like a human when I shouldn’t.</p>
-    <p>If the agent really can effectively pick my fantasy team, then why not have it enter into every public league with a prize pool it can find, why not totally redesign my analysis strategy, why not have it gather the underlying data for every player on every one of my friend’s teams, and have it negotiate high-value trade deals with them? </p>
-    <p>You can apply this kind of thinking to lots of stuff, and suddenly you realise your life isn’t made of tasks. It’s made of goals and limitations. And it’s reallly hard to think about what you should try to achieve if some of your inputs are no longer limited. </p>
-    <p>I saw Jasmine Sun write recently that no one knows how to know this much, and I completely agree. Which is why it’s doubly useless for OpenAI to tell you its agent can book a train for you and save you 2 minutes. It should be 10xing you somewhere, somehow. </p>
-    <p>When working-agent-1 comes out, maybe your first prompt should be ‘ask me all about my life, work out things you can do to help me the most, and just do them’.</p>
-    <p>But in practical terms, what do we do?</p>
-    <p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p>
-    <hr>
-    <h2>IV. Delegation is a psychological nightmare zone</h2>
-    <p>But here we land at another reason why users might not let themselves be helped: people are really bad at letting others do things for them. Anything with any complexity in life comes with a ‘fine i’ll do it myself’ error code built in. </p>
-    <p>From ideation to completion, most tasks have the same failure modes. You can imagine these when weighing up handing over a task to a junior employee or to an agent (btw this equivalency is also why junior employees seem to no longer exist):</p>
-    <p>These are either the person failing to delegate:</p>
-    <ul>
-    <li>
-    <p>“This thing is too complicated to explain” → easier to just do it yourself</p></li>
-    <li>
-    <p>“Writing out specific steps is too effortful” → easier to just do it yourself</p></li>
-    <li>
-    <p>“I’m going to get anxious about not seeing how it’s going” → easier to just do it yourself</p></li></ul>
-    <p>Or the person delegating badly, which is very common in organisational psychology:</p>
-    <ul>
-    <li>
-    <p>Poor understanding of the delegates skill/one’s own tacit knowledge → not enough context given → bad result</p></li>
-    <li>
-    <p>No clear description of what success would be → delegate forced to guess →bad result</p></li></ul>
-    <p>On top of these, the number one reason people don’t like to delegate things they usually do themselves: inertia. You can either take the behavioural science approach of saying that’s a weird kink in human rationality and not expand any further, or you can take the psychoanalytic approach of suggesting people dislike change because it unconsciously highlights the infinite freedom of existence which is perfectly correlated with infinite terror. I don’t care which but it’s true either way. There will be a certain percentage of users who do not want to use AI agents because they are new and different and represent a chance for their lives to change in massive ways. This is understandably scary. These people will then come up with all the types of reasons for their inertia on the fly and to some extent will genuinely believe them, but you won’t need to take those reasons too seriously. Because once you solve those, they will freestyle something else in its place. </p>
-    <p>All of this is to say the utopia that agents will accelerate us towards will likely face some deceleration from the human side of the equation. </p>
-    <p>What do we do about that?</p>
-    <p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p>
-    <hr>
-    <h2>V. Right back at you</h2>
-    <p>I read this paper the other day: <a href="https://link.springer.com/article/10.1007/s11299-025-00326-z">The philosophic turn for AI agents: replacing centralized digital rhetoric with decentralized truth-seeking</a></p>
-    <p>I still don’t really know that title means, but the paper makes a good point: the more complex life gets, the more we need help from technology, the more technology determines what you do. </p>
-    <p>Which means… less autonomy? This author thinks so, and it alarms him. It alarms Nick Bostrom too, hence his attempts to preserve human agency in Deep Utopia. </p>
-    <p>But this paper has an idea that I think is actually workable.</p>
-    <p>Instead of steering users toward specific choices, AI should help people find truth through open discussion and questioning, like Socrates. Who we did end up executing but let’s pretend there’s no weird ominous analogy to play with here.</p>
-    <p>This design would mean:</p>
-    <ul>
-    <li>
-    <p>AI systems that ask thought-provoking questions rather than pushing specific answers</p></li>
-    <li>
-    <p>Helping users reach solid conclusions that hold up when challenged from different angles</p></li>
-    <li>
-    <p>Supporting people's own thinking rather than doing the thinking for them</p></li>
-    <li>
-    <p>Working like a good teacher who guides students to figure things out themselves</p></li></ul>
-    <p>Which would take us way closer to existing at more useful parts of the axes from earlier. Or maybe it would help throw them out entirely. Because ‘human tasks’ are tiny in comparison to what’s actually possible. </p>
-    <p>For your life to become as good as possible, while you retain as much autonomy as possible (which you should, with all the free time you now have), you shouldn’t think about to-do lists at all. You need to take a step backward. Why are you getting up in the morning at all? What’s the goal? </p>
-    <p>Let your agent help you work that bit out, and it can take care of the rest. </p>
-    <p>Maybe then we’ll learn how to live with super-intelligence. </p>
-    <hr>
+    <a class="back" href="/blog.html"><span class="arrow">←</span> All essays</a>
+    <div class="now-reading">
+      <h2 class="nav-label">Now reading</h2>
+      <p class="now-title">AI Agents have a trust-value-complexity problem</p>
+      <p class="now-progress"><span id="progress-text">0% read</span> · 9 min read</p>
+    </div>
 
-    <p class="post-source"><a href="https://www.alreadyhappened.xyz/p/ai-agents-have-a-trust-value-complexity">Originally published on Already Happened →</a></p>
+    <nav class="nav-block toc" aria-label="In this essay">
+      <h2 class="nav-label">In this essay</h2>
+      <ol class="toc-list" id="toc">
+        <li><a href="#0">0.</a></li>
+        <li><a href="#i-what-tasks-can-agents-do">I. What tasks can agents do?</a></li>
+        <li><a href="#ii-one-small-step-for-agents">II. One small step for agents</a></li>
+        <li><a href="#iii-does-anyone-know-how-to-know-this-much">III. Does anyone know how to know this much?</a></li>
+        <li><a href="#iv-delegation-is-a-psychological-nightmare-zone">IV. Delegation is a psychological nightmare zone</a></li>
+        <li><a href="#v-right-back-at-you">V. Right back at you</a></li>
+      </ol>
+    </nav>
+
+    <nav class="nav-block" aria-label="Next and previous">
+      <h2 class="nav-label">Continue</h2>
+      <ul class="nav-list nav-adjacent">
+        <li><a href="/blog/it-would-be-so-unbelievably-easy.html" rel="next"><span class="dir">Newer</span><span>It would be so unbelievably easy to solve London&#x27;s nightlife policy mess</span></a></li>
+        <li><a href="/blog/priced-in-collapse-of-conscientiousness.html" rel="prev"><span class="dir">Older</span><span>Priced In: The &#x27;Collapse&#x27; of Conscientiousness</span></a></li>
+      </ul>
+    </nav>
+
+    <p class="sidebar-source"><a href="https://www.alreadyhappened.xyz/p/ai-agents-have-a-trust-value-complexity">Originally published on Substack ↗</a></p>
+
+    <nav class="nav-block site-nav" aria-label="Site">
+      <h2 class="nav-label">Stefan Kelly</h2>
+      <ul class="nav-list">
+<li><a href="/">About</a></li>
+<li><a href="/worked-on.html">Things I have worked on</a></li>
+<li><a href="/working-on.html">Things I am working on</a></li>
+<li><a href="/artefacts.html">Artefacts</a></li>
+<li><a href="/experiments.html">Experiments</a></li>
+<li><a href="/blog.html" class="is-current">Blog</a></li>
+      </ul>
+    </nav>
+    <p class="sidebar-foot"><a href="https://alreadyhappened.xyz">alreadyhappened.xyz</a></p>
+  </div>
+</aside>
+
+<main class="main" id="main">
+  <article class="essay">
+    <header class="essay-header">
+      <p class="eyebrow"><a href="/blog.html#archive" class="eyebrow-cat">AI</a><span class="dot">·</span><time datetime="2025-08-20">20 August 2025</time></p>
+      <h1 class="essay-title">AI Agents have a trust-value-complexity problem</h1>
+      <p class="essay-subtitle">screw it i&#x27;ll do it myself</p>
+      <p class="byline"><span class="byline-name">Stefan Kelly</span><span class="dot">·</span>9 min read<span class="dot">·</span><a href="https://www.alreadyhappened.xyz/p/ai-agents-have-a-trust-value-complexity">Originally on Substack</a></p>
+    </header>
+    
+    <figure class="hero hero-natural" style="--w:1280;--h:960">
+      <a class="figure-link" href="https://substackcdn.com/image/fetch/$s_!LOGW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif"><img src="https://substackcdn.com/image/fetch/$s_!LOGW!,w_1600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif" srcset="https://substackcdn.com/image/fetch/$s_!LOGW!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 800w, https://substackcdn.com/image/fetch/$s_!LOGW!,w_1600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 1600w" sizes="(max-width: 900px) 100vw, 1100px" alt="" width="1280" height="960" fetchpriority="high"></a>
+      <figcaption>help me help you</figcaption>
+    </figure>
+    <div class="essay-body" id="essay-body">
+<p class="preamble"><em>bit of a break from our regular programming but I’m thinking about UX again</em></p><h2 id="0">0.</h2><p class="lede">I’ve been reading Nick Bostrom’s Deep Utopia. It’s pleasantly weird, and not a bad introduction to the type of world many are converging on as our future i.e. perfect abundance. </p><p>He’s highly concerned with the interaction between human agency and AI agency. How do you feel good about yourself in a world where AI does everything for you?</p><p>To be more specific, individual agents would give each person tremendous personal capability, essentially making everyone super-intelligent by proxy. You'd have your own AI that knows your preferences intimately and can accomplish virtually anything on your behalf. </p><p><a href="https://ai-2027.com/">AI 2027</a> also marks agents starting to work as the thing that causes everything to get out of control. Although the authors are less focused on what agents will do for you or I, and more on what how they will help AI companies increase the pace. </p><p>Neither discusses the human side of interacting with an agent for the first time (and nor do they need to for what they are doing), but I’ve been thinking about it a lot. </p><p>Because agents are here, kind of. And no one cares.</p><p>Yes, this is partly due to the fact that they barely work. But I don’t think their effectiveness increasing will force their integration into the average user’s daily life.</p><p>As I think the other reason people don’t care is we don’t really have a way to think about them. Like yes, I can read Bostrom’s description of what my life will be like and think ‘yes, sign me up’, but the path there will be incremental. And taking the first step is hard.</p><p>AI companies are currently failing, in their comms and their UX, in getting people to take this first step. </p><p>So when Bostrom asks ‘how do you feel good about yourself in a world where AI does everything for you?’</p><p>I think a fair first question would be: how do we get people to let AI do everything for them?</p><hr><h2 id="i-what-tasks-can-agents-do">I. What tasks can agents do?</h2><p>When I think of any individual using intelligent agents to make their own life a personal (shallow?) utopia, I think there must be two categories of thing that the agents are doing:</p><ol><li>Tasks that the person used to do themselves </li><li>Tasks that the person didn’t do themselves because they were either too time-scarce, energy-scare, or incapable on their own, or hadn’t even realised doing that thing would be a good idea until their agent explained it</li></ol><p>In terms of how tasks in the first category vary, I think we have three dimensions:</p><ul><li><p>Importance:</p><ul><li>What are the consequences of the task being done (in)correctly and how much do they matter to you?</li></ul></li><li><p>Complexity:</p><ul><li>How hard is the task (for you), how much effort does it require?</li></ul></li><li><p>Frequency:</p><ul><li>Is this a one-off or do you do it all the time?</li></ul></li></ul><p>Here’s an ugly visual with some examples (Y axis is frequency):</p><figure class="essay-figure is-wide" style="--w:1456;--h:1539"><a href="https://substackcdn.com/image/fetch/$s_!ssyk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin" class="figure-link"><img src="https://substackcdn.com/image/fetch/$s_!ssyk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin" srcset="https://substackcdn.com/image/fetch/$s_!ssyk!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 640w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_1024,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 1024w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 1456w" sizes="(max-width: 900px) 100vw, 900px" alt="Output image" loading="lazy" width="1456" height="1539"></a></figure><p>In terms of making your life better, it seems clear that the best version of agents will do things that are high importance, high complexity and high frequency. Being high in just two is still really useful. In that list of tasks we have:</p><p><strong>High Complexity + High Frequency:</strong> Annoying things that come up all the time but aren’t life or death, like managing calendar conflicts.</p><p><strong>High Complexity + High Importance:</strong> Tasks you dread the effort of which you might also mess up, things like applying for loans/mortgages and filing tax returns.</p><p><strong>High Frequency + High Importance:</strong> Stuff that’s easy but if you drop the ball you are hearing about it, like paying monthly bills.</p><p>And my basic point is: we are a long way from the average user being willing over to hand any of this over, even though this would be a huge change to the experience of modern life. </p><p>I watched the Google I/O show a few months ago, where they show someone wearing their AI glasses. They used an interaction where the person is walking around London, and their agent chirps up to tell them their colleague’s messaged asking to set up a meeting. They tell the agent to set it up, and it’s happy to oblige. </p><p>But when you’re watching, the only possible thing to think is ‘if that was me I’m definitely checking my phone to see if the agent set the meeting correctly’. Which means you’ve expended the same amount of time on the task anyway, if not more. And you look weird with your AI glasses on. </p><p>This isn’t good for anyone. </p><p>You can say that the paranoia will be sorted out by super-intelligence and the trust it will exude, and yes I probably agree. But I’m talking about the next few years of marginal improvement here. </p><p>So how do we get people to trust agents at all?</p><hr><h2 id="ii-one-small-step-for-agents">II. One small step for agents</h2><p>I had Claude split the three dimensions split into pairs, and put an example task in each quadrant:</p><figure class="essay-figure is-wide" style="--w:1421;--h:528"><a href="https://substackcdn.com/image/fetch/$s_!xdvZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png" class="figure-link"><img src="https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png" srcset="https://substackcdn.com/image/fetch/$s_!xdvZ!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 640w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1024,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 1024w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 1456w" sizes="(max-width: 900px) 100vw, 900px" alt="" loading="lazy" width="1421" height="528"></a></figure><p>The logical thing from a user psychology perspective would be to say: </p><p>‘We know users are going to be too hesitant to hand over the stuff in the top right quadrants. So we’ll start bottom left and work our way along those axes until we reach automated utopia.’</p><p>But the issue is that starting in the bottom left doesn’t work either, because the world is already a well-designed place. </p><p>Agent start-ups show off their tool’s ability to order a burger to your house, and follow that up with a claim that this is a big deal. But ordering a burger to my house is very easy for me anyway. So this adds no value. </p><p>Similarly, one of OpenAI’s big plays is to move into agentic shopping, as if online shopping hasn’t already been completely solved. Amazon can deliver anything I’ve ever dreamed of to my door tomorrow, and I can order it in 30 seconds. The agent can’t even do it faster than me. What is the point?</p><p>So, how do we get to the point of people handing over more complex and important tasks to agents?</p><p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p><hr><h2 id="iii-does-anyone-know-how-to-know-this-much">III. Does anyone know how to know this much?</h2><p>I also said earlier that there must be two categories of thing that agents could be doing:</p><ol><li>Tasks that people currently do themselves </li><li>Tasks that people don’t do themselves because they are either too time-scarce, energy-scare, or incapable on their own, or haven’t even realised doing that thing would be a good idea until their agent explained it</li></ol><p>I haven’t seen any attempt at advertising compelling use cases of the second category. </p><p>Let’s say I spend 60 minutes a week looking at stats to help pick my fantasy football team. I then decide it’s not too tricky and an agent can probably do it for me. So I hand it over and gain 60 minutes back. </p><p>But if time, energy, and knowledge are not limitations the agent has, then this is a bad way to think about tasks. I’m treating the agent like a human when I shouldn’t.</p><p>If the agent really can effectively pick my fantasy team, then why not have it enter into every public league with a prize pool it can find, why not totally redesign my analysis strategy, why not have it gather the underlying data for every player on every one of my friend’s teams, and have it negotiate high-value trade deals with them? </p><p>You can apply this kind of thinking to lots of stuff, and suddenly you realise your life isn’t made of tasks. It’s made of goals and limitations. And it’s reallly hard to think about what you should try to achieve if some of your inputs are no longer limited. </p><p>I saw Jasmine Sun write recently that no one knows how to know this much, and I completely agree. Which is why it’s doubly useless for OpenAI to tell you its agent can book a train for you and save you 2 minutes. It should be 10xing you somewhere, somehow. </p><p>When working-agent-1 comes out, maybe your first prompt should be ‘ask me all about my life, work out things you can do to help me the most, and just do them’.</p><p>But in practical terms, what do we do?</p><p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p><hr><h2 id="iv-delegation-is-a-psychological-nightmare-zone">IV. Delegation is a psychological nightmare zone</h2><p>But here we land at another reason why users might not let themselves be helped: people are really bad at letting others do things for them. Anything with any complexity in life comes with a ‘fine i’ll do it myself’ error code built in. </p><p>From ideation to completion, most tasks have the same failure modes. You can imagine these when weighing up handing over a task to a junior employee or to an agent (btw this equivalency is also why junior employees seem to no longer exist):</p><p>These are either the person failing to delegate:</p><ul><li>“This thing is too complicated to explain” → easier to just do it yourself</li><li>“Writing out specific steps is too effortful” → easier to just do it yourself</li><li>“I’m going to get anxious about not seeing how it’s going” → easier to just do it yourself</li></ul><p>Or the person delegating badly, which is very common in organisational psychology:</p><ul><li>Poor understanding of the delegates skill/one’s own tacit knowledge → not enough context given → bad result</li><li>No clear description of what success would be → delegate forced to guess →bad result</li></ul><p>On top of these, the number one reason people don’t like to delegate things they usually do themselves: inertia. You can either take the behavioural science approach of saying that’s a weird kink in human rationality and not expand any further, or you can take the psychoanalytic approach of suggesting people dislike change because it unconsciously highlights the infinite freedom of existence which is perfectly correlated with infinite terror. I don’t care which but it’s true either way. There will be a certain percentage of users who do not want to use AI agents because they are new and different and represent a chance for their lives to change in massive ways. This is understandably scary. These people will then come up with all the types of reasons for their inertia on the fly and to some extent will genuinely believe them, but you won’t need to take those reasons too seriously. Because once you solve those, they will freestyle something else in its place. </p><p>All of this is to say the utopia that agents will accelerate us towards will likely face some deceleration from the human side of the equation. </p><p>What do we do about that?</p><p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p><hr><h2 id="v-right-back-at-you">V. Right back at you</h2><p>I read this paper the other day: <a href="https://link.springer.com/article/10.1007/s11299-025-00326-z">The philosophic turn for AI agents: replacing centralized digital rhetoric with decentralized truth-seeking</a></p><p>I still don’t really know that title means, but the paper makes a good point: the more complex life gets, the more we need help from technology, the more technology determines what you do. </p><p>Which means… less autonomy? This author thinks so, and it alarms him. It alarms Nick Bostrom too, hence his attempts to preserve human agency in Deep Utopia. </p><p>But this paper has an idea that I think is actually workable.</p><p>Instead of steering users toward specific choices, AI should help people find truth through open discussion and questioning, like Socrates. Who we did end up executing but let’s pretend there’s no weird ominous analogy to play with here.</p><p>This design would mean:</p><ul><li>AI systems that ask thought-provoking questions rather than pushing specific answers</li><li>Helping users reach solid conclusions that hold up when challenged from different angles</li><li>Supporting people's own thinking rather than doing the thinking for them</li><li>Working like a good teacher who guides students to figure things out themselves</li></ul><p>Which would take us way closer to existing at more useful parts of the axes from earlier. Or maybe it would help throw them out entirely. Because ‘human tasks’ are tiny in comparison to what’s actually possible. </p><p>For your life to become as good as possible, while you retain as much autonomy as possible (which you should, with all the free time you now have), you shouldn’t think about to-do lists at all. You need to take a step backward. Why are you getting up in the morning at all? What’s the goal? </p><p>Let your agent help you work that bit out, and it can take care of the rest. </p><p>Maybe then we’ll learn how to live with super-intelligence. </p><hr>
+    </div>
+    <footer class="essay-footer">
+      <p class="colophon">First published on <a href="https://www.alreadyhappened.xyz/p/ai-agents-have-a-trust-value-complexity">Already Happened</a>, 20 August 2025. <a href="https://www.alreadyhappened.xyz/p/ai-agents-have-a-trust-value-complexity#comments">Comments live there.</a></p>
+      <nav class="adjacent" aria-label="Adjacent essays"><a class="adjacent-link" href="/blog/priced-in-collapse-of-conscientiousness.html" rel="prev"><span class="dir">← Older</span><span class="adj-title">Priced In: The &#x27;Collapse&#x27; of Conscientiousness</span></a><a class="adjacent-link is-next" href="/blog/it-would-be-so-unbelievably-easy.html" rel="next"><span class="dir">Newer →</span><span class="adj-title">It would be so unbelievably easy to solve London&#x27;s nightlife policy mess</span></a></nav>
+      <section class="related" aria-label="Related essays">
+        <h2 class="section-label">More in AI</h2>
+        <div class="tile-grid">
+<a class="card card-tile" href="/blog/agi-isnt-for-happy-people.html" data-category="AI" data-year="2025" data-search="agi isn&#x27;t for happy people wouldn&#x27;t you rather be on the be/acch? ai" style="--accent:#8f6244">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!XjcM!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa60c52c1-f33a-4f08-bc3b-9ca7973bd1c2_900x720.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">AGI isn&#x27;t for happy people</span>
+    <span class="card-sub">Wouldn&#x27;t you rather be on the be/acch?</span>
+    <span class="card-meta"><time datetime="2025-01-22">22 January 2025</time><span class="dot">·</span>14 min read</span>
+  </span>
+</a>
+<a class="card card-tile" href="/blog/theres-a-reasonable-chance.html" data-category="AI" data-year="2025" data-search="there&#x27;s a reasonable chance that you&#x27;re seriously running out of time who knows the real price of individualism? ai" style="--accent:#743a2c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!SPbO!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">There&#x27;s a reasonable chance that you&#x27;re seriously running out of time</span>
+    <span class="card-sub">who knows the real price of individualism?</span>
+    <span class="card-meta"><time datetime="2025-04-28">28 April 2025</time><span class="dot">·</span>15 min read</span>
+  </span>
+</a>
+<a class="card card-tile" href="/blog/the-things-you-dont-want-to-know.html" data-category="AI" data-year="2025" data-search="the things you don&#x27;t want to know about yourself i met sam altman in the bathroom, he said everything was going to be ok ai" style="--accent:#623822">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!M0dM!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">The things you don&#x27;t want to know about yourself</span>
+    <span class="card-sub">i met sam altman in the bathroom, he said everything was going to be ok</span>
+    <span class="card-meta"><time datetime="2025-05-28">28 May 2025</time><span class="dot">·</span>11 min read</span>
+  </span>
+</a></div>
+      </section>
+    </footer>
   </article>
+</main>
+</div>
+<div class="lightbox" hidden><img alt=""><button class="lightbox-close" aria-label="Close">×</button></div>
 </body>
 </html>

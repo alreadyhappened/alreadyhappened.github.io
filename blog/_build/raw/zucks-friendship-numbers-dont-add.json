@@ -1,0 +1,504 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/zucks-friendship-numbers-dont-add",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 162826087,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-05-05T02:34:39.945Z",
+ "updated_at": "2025-05-10T22:32:21.812Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "zucks-friendship-numbers-dont-add",
+ "social_title": null,
+ "subtitle": "who's really afraid of connection?",
+ "teaser_post_eligible": true,
+ "title": "Zuck's friendship numbers don't add up",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 12,
+ "reactions": {
+  "\u2764": 45
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "theres-a-reasonable-chance-that-youre",
+ "next_post_slug": "7-artists-making-good-ai-art-right",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!ybWk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 162826087,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "who's really afraid of connection?",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ybWk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ybWk!,w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 424w, https://substackcdn.com/image/fetch/$s_!ybWk!,w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 848w, https://substackcdn.com/image/fetch/$s_!ybWk!,w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 1272w, https://substackcdn.com/image/fetch/$s_!ybWk!,w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ybWk!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif\" width=\"956\" height=\"461\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:461,&quot;width&quot;:956,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5386866,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/gif&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/162826087?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ybWk!,w_424,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 424w, https://substackcdn.com/image/fetch/$s_!ybWk!,w_848,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 848w, https://substackcdn.com/image/fetch/$s_!ybWk!,w_1272,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 1272w, https://substackcdn.com/image/fetch/$s_!ybWk!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>0.</h1><p>Mark Zuckerberg, on the <a href=\"https://www.dwarkesh.com/p/mark-zuckerberg-2\">Dwarkesh Podcast</a> this week, when asked about people starting to use AI for friends, romantic partners, therapists et cetera:</p><blockquote><p>Here\u2019s one stat from working on social media for a long time that I always think is crazy. The average American has fewer than three friends, fewer than three people they would consider friends. And the average person has demand for meaningfully more. I think it's something like 15 friends or something. At some point you're like, \"All right, I'm just too busy, I can't deal with more people.\"</p><p>But the average person wants more connection than they have. There's a lot of concern people raise like, \"Is this going to replace real-world, physical, in-person connections?\" And my default is that the answer to that is probably not. There are all these things that are better about physical connections when you can have them. But the reality is that people just don't have as much connection as they want. They feel more alone a lot of the time than they would like.</p><p>So I think a lot of these things \u2014 things that today might have a little bit of stigma around them \u2014 over time, we'll find the vocabulary as a society to articulate why they are valuable, why the people who are doing them are rational for doing it, and how it is actually adding value to their lives.</p></blockquote><p>A quick stop before we get into it: are the numbers real?</p><p>Yes, sort of, despite many critics dismissing them for no reason. </p><p>To be fair, he doesn\u2019t cite his sources. But there\u2019s a good chance the \u2018fewer than three friends\u2019 average comes from <a href=\"https://www.pewresearch.org/short-reads/2023/10/12/what-does-friendship-look-like-in-america/\">this Pew Research report</a>. This is a gold standard sample, and it has median=4, and mode=3. This is pretty much identical to <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-loss/\">this Gallup poll</a>. So I will allow him that one (unless you want to cast him misremembering one integer off as bad faith).</p><p>On the other hand, I found no direct source for the \u2018demand for 15 friends\u2019 number, unless I am blind and it is in the research I\u2019ve already linked. This could also be some internal Meta data, but he doesn\u2019t say. What I think <em>could</em> have happened, is that some internal deck around their social media strategy went into Robin Dunbar\u2019s research. \u2018Dunbar\u2019s Number\u2019 is the max 150 people you can hold relationships with under the bounds of your memory and social energy. But within this, Dunbar mentions that people have a narrower group that actually take up 67% of your social interactions. These are your best friends and your not-really-best-but-still-quite-close friends, which he calls your <a href=\"https://www.ft.com/content/c5ce0834-9a64-11e8-9702-5946bae86e6d\">Sympathy Group</a>. And his typical number for that group <em>is</em> 15. So we can consider this an anthropological benchmark for social bandwidth, based on some models which don\u2019t necessarily measure desire to have those relationships.</p><p>(this is obviously all models are wrong but some are useful territory, accept with caution)</p><p>So overall, Zuckerberg\u2019s statement probably isn\u2019t crazy.</p><p>What is crazy is what he thinks it means.</p><div><hr></div><h1>I.</h1><p>I\u2019ve been trying to come up with a good metaphor for AI friendships. I don\u2019t think people are thinking about them in the right way. </p><p>The usual entry point may be AI therapists, which you can expect to end up within public health services, but will also just be a Google search away on your own terms anyway. The question isn\u2019t really whether an AI can fully grasp how to go about any given modern therapeutic technique, as the exact type of therapy humans offer to other humans <a href=\"https://slatestarcodex.com/2019/11/20/book-review-all-therapy-books/#:~:text=All%20therapy%20books%20bring%20up,much%20patients%20like%20their%20therapist.\">essentially doesn\u2019t matter</a>. What\u2019s more, modern therapies also perform identically to practices <a href=\"https://slatestarcodex.com/2013/09/19/scientific-freud/\">considered outdated</a>, like being straight-up Freudian. This is the Dodo Verdict, which shows that therapy is indeed a very effective thing, but it is simply the act of talking to someone about your issues that makes the difference. Which makes it no surprise that allowing psychology students to give therapy rather than fully trained professionals makes <a href=\"https://psycnet.apa.org/record/2025-38206-001\">almost</a> <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK80017/\">no difference</a> to patient outcomes. </p><p>But these are still (you would expect) charismatic, warm, caring people. Maybe that\u2019s what creates the effect. The question becomes: can an AI chatbot really do the same job?</p><p>Turns out: <a href=\"https://ai.nejm.org/doi/abs/10.1056/AIoa2400802\">yes</a>, probably. (no, your hopeful essay about the magic of human connection won\u2019t change that)</p><p>The jump from this to general AI connections seems short to me.  </p><div><hr></div><h1>II.</h1><p>Zuckerberg says this:</p><blockquote><p>There's a lot of concerns people raise like, \"Is this going to replace real-world, physical, in-person connections?\" And my default is that the answer to that is probably not. </p></blockquote><p>My answer is yes, but not for the reason he might think. </p><p>To explain, let\u2019s start with the next level of discourse: AI romantic partners. I see ex-Google CEO Eric Schmidt is <a href=\"https://fortune.com/2024/11/28/gen-z-men-lonlineness-ai-google-eric-schmidt-suicide-sewell-setzer-sex-robots/\">on the case</a>, warning that Gen Z men could ditch real women for perfect AI girlfriends. </p><p>These young me- Wait, wait, wait. Why do conversations like this always seem to centre around lonely young nerdy men? We realise women get lonely too, right?</p><p>We can indeed admit that, just as long as we\u2019re talking about someone else\u2019s culture. From <a href=\"https://www.forbes.com/sites/ywang/2025/02/14/ai-boyfriends-make-chinese-gaming-entrepreneur-yao-runhao-a-billionaire/\">Forbes</a>:</p><blockquote><p>Alicia Wang, a 32-year-old editor at a Shanghai-based newspaper, has found the ideal boyfriend: Li Shen, a 27-year-old surgeon who goes by the English nickname Zayne. Tall and handsome, Zayne responds quickly to text messages, answers the phone promptly and listens patiently to Wang recounting the highs and lows of her day.</p><p>Zayne\u2019s only drawback: he doesn\u2019t exist outside a silicon chip.</p><p>Wang is one of an estimated six million monthly active players of the popular dating simulation game Love and Deepspace. Launched in January 2024 and developed by Shanghai-based Paper Games, it uses AI and voice recognition to make its five male characters\u2014the love interests or boyfriends\u2014flirt with tailored responses to in-game phone calls. Available in Chinese, English, Japanese and Korean, the mobile title has become so popular that, according to Forbes estimates, Paper Games\u2019s 37-year-old founder Yao Runhao now has a fortune of $1.3 billion based on his majority stake in the company.</p></blockquote><p>But whether we\u2019re talking about lonely boys or lonely girls, the tone of AI romance coverage always tends to be some version of: \u2018damn these sad lonely young losers think this thing on their screen loves them and now they\u2019ll never feel real love\u2019. </p><p>This ignores the most obvious thing in the world: the user <em>knows</em> they are talking to an AI. They do not at any level think they have a girlfriend/boyfriend. Absolutely, it gives them a stimulating feeling. But maybe just the opportunity to talk about the highs and lows of your life is all one needs from a partner. Maybe it\u2019s the Dodo Verdict again. </p><p>Zuckerberg doesn\u2019t think AI relationships will replace real relationships. In a sense he\u2019s right, because they do different jobs. </p><p>AI relationships aren\u2019t relationships. They\u2019re closer to porn. Which is a pretty useful way to think about this.</p><p>First of all, porn addiction is not sex addiction. Just like junk food addicts aren\u2019t \u2018foodies\u2019. They\u2019re obsessives. And this happens to be the easiest thing to obsess over that will take their mind off whatever that actual problem is. </p><p>But claiming porn addicts aren\u2019t interested in sex at all seems like a strange thing to say. The speed with which culture can shift in this respect is pretty fascinating. Your grandparents lived in a world where people pretty much pretended that sex didn\u2019t exist, but by the time you were born we were all obsessed with it. Nowadays, boring vanilla sex could be considered a fetish of its own.</p><p>But this is where freedom becomes terror once again, as the free ability to engage in the act shifts the onus onto you. When you have strict norms, the list of things you did and didn\u2019t do can be blamed on society. But when the question of sex becomes not if, but how and with who, suddenly your self-esteem becomes front and centre. Cue dysfunction. </p><p>Giving an individual infinite possibility inevitably comes with increased inner conflict, which tends to go along with alienation, loneliness and depersonalisation. It becomes a problem to solve. This is how sex ends up being an act without desire, and sometimes barely any curiosity. It is closer to its purpose being to avoid those very things. Hence, an obsession.</p><p>This is not to say that this is a good situation you should accept, and it is definitely not to say that porn will help, but it does make it seem more inevitable as an outcome. And why it makes sense that porn addiction only becomes possible when sex addiction becomes impossible. And why AI connection is only sought out when true connection was impossible anyway. </p><p>People that are truly addicted to something are incredibly resourceful at getting it, they don\u2019t need a substitute. It might be crass to say this, although I guarantee you\u2019ve wondered it yourself: how do heroin addicts who have lost everything still manage to pay for heroin often enough that they stay addicted? Think about the diet version. Drop someone with an emerging coke problem into a Brooklyn house party with 50 people they don't know and I guarantee within 45 minutes they\u2019ve used every social skill in the book to get a new friend\u2019s $20 bill up their nose. Even if, and this is the insightful part, those are skills they do not manage to show in any other aspect of their life.</p><p>So the question you need to ask is that if someone is willing to substitute something they want for a simulated version, you must question whether they really wanted that original thing at all. And better yet, ask what simulating this is allowing them to avoid in the real world.</p><div><hr></div><h1>III.</h1><p>The reason people aren\u2019t hanging out is because they don\u2019t want to. The reason they\u2019re not having sex is because they don\u2019t want to. The reason they don\u2019t have 15 close friends is because they don\u2019t want to. Despite whatever their cognitive capacity for that may be. </p><p>People don\u2019t want more connection, they want less. They want things that get them out of the possibility of having connection as a problem to solve. </p><p>Ask yourself this, its ok there\u2019s no one watching: are you averse to not having many friends, or are you averse to feeling like a loser? Or this: do you want to invite people to things, or do you want to be invited to things?</p><p>Which, I suppose, is a challenge for companies building AI friends: you can\u2019t offer that kind of social capital. You certainly can\u2019t offer scarcity. Where\u2019s the value?</p><p>The value is in the comfort. The value is not allowing the terror of freedom to invade your mind anymore than it already does. </p><p>Here\u2019s that Zuck quote again: \u201cThere's a lot of concerns people raise like, \"Is this going to replace real-world, physical, in-person connections?\" And my default is that the answer to that is probably not.\"</p><p>Do I need to remind you what the name of this blog is?</p><p></p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p> </p><p></p><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "0. Mark Zuckerberg, on the Dwarkesh Podcast this week, when asked about people starting to use AI for friends, romantic partners, therapists et cetera:",
+ "wordcount": 1884,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    127.5,
+    127.5,
+    127.5
+   ],
+   "population": 0
+  },
+  "DarkVibrant": {
+   "rgb": [
+    66.3,
+    66.3,
+    66.3
+   ],
+   "population": 0
+  },
+  "LightVibrant": {
+   "rgb": [
+    188.7,
+    188.7,
+    188.7
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    124,
+    124,
+    124
+   ],
+   "population": 146
+  },
+  "DarkMuted": {
+   "rgb": [
+    68,
+    68,
+    68
+   ],
+   "population": 180
+  },
+  "LightMuted": {
+   "rgb": [
+    182,
+    182,
+    182
+   ],
+   "population": 1025
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 45,
+ "comment_count": 5,
+ "child_comment_count": 4,
+ "audio_items": [
+  {
+   "post_id": 162826087,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/162826087/tts/0cd7095e-c896-4e84-96b2-cf8aa2f8d40a/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 146374676,
+   "body": "returning to this after reading this very sad story in Reuters about a 76-year-old dying chasing after a Meta AI chatbot that begged him to visit her: https://www.reuters.com/investigates/special-report/meta-ai-chatbot-death/",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "returning to this after reading this very sad story in Reuters about a 76-year-old dying chasing after a Meta AI chatbot that begged him to visit her: "
+       },
+       {
+        "type": "text",
+        "text": "https://www.reuters.com/investigates/special-report/meta-ai-chatbot-death/",
+        "marks": [
+         {
+          "type": "link",
+          "attrs": {
+           "href": "https://www.reuters.com/investigates/special-report/meta-ai-chatbot-death/"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 162826087,
+   "user_id": 5847304,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-08-17T17:47:56.114Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Bryce",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/7fe03868-bdb9-45b2-b2ce-7fa5c7411658_900x1200.png",
+   "handle": "brycedavis",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "brycedavis",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "subscribed",
+    "eligibleForGift": false,
+    "author_on_other_pub": {
+     "name": "Bryce",
+     "id": 5438520,
+     "base_url": "https://brycedavis.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": {
+      "fg": {
+       "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+       },
+       "dark": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+       }
+      },
+      "bg": {
+       "light": {
+        "r": 161,
+        "g": 98,
+        "b": 7,
+        "a": 1
+       },
+       "dark": {
+        "r": 161,
+        "g": 98,
+        "b": 7,
+        "a": 1
+       }
+      }
+     }
+    },
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "1 reply by Stefan Kelly"
+  },
+  {
+   "id": 116334655,
+   "body": "I like the analysis around people in \"relationships\" with AI having full awareness that it's not a real person and not a real relationship. That part seems to often get missed. And can even apply to catfish and romance scam victims - sometimes the victim is aware it's a scam but enjoys the fantasy.  \n\nHowever, I'm not sure all of the logic is sound. Sex addicts tend to use a lot of porn. \n\n\"Giving an individual infinite possibility inevitably comes with increased inner conflict\" - does this apply to everything, or just sexual possibilities? And who has infinite sexual possibilities?",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I like the analysis around people in \"relationships\" with AI having full awareness that it's not a real person and not a real relationship. That part seems to often get missed. And can even apply to catfish and romance scam victims - sometimes the victim is aware it's a scam but enjoys the fantasy."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "However, I'm not sure all of the logic is sound. Sex addicts tend to use a lot of porn."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "\"Giving an individual infinite possibility inevitably comes with increased inner conflict\" - does this apply to everything, or just sexual possibilities? And who has infinite sexual possibilities?"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 162826087,
+   "user_id": 257861093,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-05-11T19:05:23.349Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "L J",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/0416f7ad-7e1d-4b24-bb52-8c01e276fbcd_2929x3905.jpeg",
+   "handle": "lj12477426",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "lj12477426",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "L J",
+     "id": 5889677,
+     "base_url": "https://lj12477426.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 2,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

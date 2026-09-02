@@ -1,0 +1,389 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/the-for-you-everything",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 140085773,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2023-12-29T09:00:33.833Z",
+ "updated_at": "2025-04-27T20:33:07.257Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "the-for-you-everything",
+ "social_title": null,
+ "subtitle": "Economics and individualism",
+ "teaser_post_eligible": true,
+ "title": "The 'For You' Everything ",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 0,
+ "reactions": {
+  "\u2764": 7
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "youre-even-more-on-your-own-from",
+ "next_post_slug": "inertia-with-a-capital-i",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!7f2p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 140085773,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Economics and individualism",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!7f2p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!7f2p!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 424w, https://substackcdn.com/image/fetch/$s_!7f2p!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 848w, https://substackcdn.com/image/fetch/$s_!7f2p!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 1272w, https://substackcdn.com/image/fetch/$s_!7f2p!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!7f2p!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png\" width=\"1057\" height=\"628\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/dc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:628,&quot;width&quot;:1057,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1600249,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!7f2p!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 424w, https://substackcdn.com/image/fetch/$s_!7f2p!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 848w, https://substackcdn.com/image/fetch/$s_!7f2p!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 1272w, https://substackcdn.com/image/fetch/$s_!7f2p!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>(This is part 2 of a 4 part deep-dive into the interactions between self-identity and technology. Part 1 <a href=\"https://alreadyhappened.xyz/p/youre-even-more-on-your-own-from\">here</a>.)</p><div><hr></div><h3>Time for a say what you see exercise, forgive the watermarks.</h3><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!1nAG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!1nAG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 424w, https://substackcdn.com/image/fetch/$s_!1nAG!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 848w, https://substackcdn.com/image/fetch/$s_!1nAG!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!1nAG!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!1nAG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg\" width=\"900\" height=\"675\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:675,&quot;width&quot;:900,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Vintage Nostalgic New York City Time Square Colorized 20210328a Photograph  by Wingsdomain Art and Photography - Fine Art America&quot;,&quot;title&quot;:&quot;Vintage Nostalgic New York City Time Square Colorized 20210328a Photograph  by Wingsdomain Art and Photography - Fine Art America&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Vintage Nostalgic New York City Time Square Colorized 20210328a Photograph  by Wingsdomain Art and Photography - Fine Art America\" title=\"Vintage Nostalgic New York City Time Square Colorized 20210328a Photograph  by Wingsdomain Art and Photography - Fine Art America\" srcset=\"https://substackcdn.com/image/fetch/$s_!1nAG!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 424w, https://substackcdn.com/image/fetch/$s_!1nAG!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 848w, https://substackcdn.com/image/fetch/$s_!1nAG!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!1nAG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9ad97-528c-4a09-8838-98fe73fc7d67_900x675.jpeg 1456w\" sizes=\"100vw\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!pk5s!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!pk5s!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 424w, https://substackcdn.com/image/fetch/$s_!pk5s!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 848w, https://substackcdn.com/image/fetch/$s_!pk5s!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!pk5s!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!pk5s!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg\" width=\"1300\" height=\"1056\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1056,&quot;width&quot;:1300,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Time square 1970s hi-res stock photography and images - Alamy&quot;,&quot;title&quot;:&quot;Time square 1970s hi-res stock photography and images - Alamy&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Time square 1970s hi-res stock photography and images - Alamy\" title=\"Time square 1970s hi-res stock photography and images - Alamy\" srcset=\"https://substackcdn.com/image/fetch/$s_!pk5s!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 424w, https://substackcdn.com/image/fetch/$s_!pk5s!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 848w, https://substackcdn.com/image/fetch/$s_!pk5s!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!pk5s!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62af8c3c-86cb-4d6d-9448-fead5f6d59f5_1300x1056.jpeg 1456w\" sizes=\"100vw\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!5oKi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!5oKi!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 424w, https://substackcdn.com/image/fetch/$s_!5oKi!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 848w, https://substackcdn.com/image/fetch/$s_!5oKi!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!5oKi!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!5oKi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg\" width=\"1000\" height=\"666\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:666,&quot;width&quot;:1000,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Times Square New Years Eve Guide: How to Ring in 2023 in NYC - Thrillist&quot;,&quot;title&quot;:&quot;Times Square New Years Eve Guide: How to Ring in 2023 in NYC - Thrillist&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Times Square New Years Eve Guide: How to Ring in 2023 in NYC - Thrillist\" title=\"Times Square New Years Eve Guide: How to Ring in 2023 in NYC - Thrillist\" srcset=\"https://substackcdn.com/image/fetch/$s_!5oKi!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 424w, https://substackcdn.com/image/fetch/$s_!5oKi!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 848w, https://substackcdn.com/image/fetch/$s_!5oKi!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!5oKi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8bf4495-7255-4dd6-9999-f2ee440e3e27_1000x666.jpeg 1456w\" sizes=\"100vw\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Kyla Scanlon, for my money the best in the game, put out \u2018<a href=\"https://kyla.substack.com/p/how-individualism-changed-the-economy\">How individualism changed the economy</a>\u2019 a few months ago. Given that it\u2019s hard to talk about what\u2019s coming up in this post without sounding like you\u2019ve just had your first dose of psilocybin, I\u2019m going to follow Kyla\u2019s lead. But before we start, just know that when we speak about better technology allowing you to better live the life you want for yourself, there\u2019s a huge unanswered question hidden in there.</p><p>And when we build the hyper-personalised everything, where the life and media you experience depends on who you are, someone else is already helping you answer that question.</p><p>That question is: who are you anyway?</p><div><hr></div><p>Scanlon notes the below as being who you are to the economy:</p><blockquote><p>\u201cThe consumer is a centerpoint to the economy. Personal consumption expenditures contribute heavily to GDP, driving a significant portion of economic growth. People are important, and how they drive the economy forward is important.\u201d</p></blockquote><p>Hey, at least someone thinks you\u2019re important. Anyway, how did that happen? Consumers being centerpoint to the economy feels Econ 101, but the share of growth attributed to individual exploits has not always been that way. The story in full is the point of <a href=\"https://kyla.substack.com/p/how-individualism-changed-the-economy?utm_source=profile&amp;utm_medium=reader2\">How Individualism Changed the Economy</a>, but here\u2019s my attempt at summarising it:</p><p><em>Initially, advertising focused on practicality and needs. But during the 20th century, people realised that more individualist people\u2019s needs for self expression could be met in the marketplace. Industry leaders shifted to a desire-driven model. Post-World War II, this influenced marketing strategies, and the 1960\u2019s saw a shift towards individuality and self-expression, leading to more personalised marketing. By the 1980\u2019s and 1990\u2019s, this evolved into a culture of individualism and personal satisfaction.</em> </p><p>This quote from the post encapsulates it:</p><blockquote><p>\u201cAdvertising was about to massively change. People were still buying mostly for need rather than for want. Everything was advertised in the form of practicality. There was no marketing like \u2018this is going to describe you, this is going to complete you as a person\u2019 it was much more like \u2018this is a durable shoe that will get you through your work day.\u2019</p><p>Paul Mazer of Lehman Brothers was all about changing that. He wrote - \u2018<strong>We must shift America from a needs to a desires culture. People must be trained to desire, to want new things even before the old had been entirely consumed.</strong> We must shape a new mentality in America. Man's desires must overshadow his needs.\u2019\u201d</p></blockquote><div><hr></div><p>The point of the previous post was that technology enables individualism, and that for artificial intelligence, the net for what can be individualised gets cast much, much wider than previous technology. </p><p>But the tricky thing that gets left out of these conversations, is that when we say we want our experiences with new technology to revolve around our personal preferences, where exactly is it we\u2019re getting these preferences from? For now let\u2019s agree that saying they are self-generated feels optimistic. </p><div><hr></div><p>Like any marketing undergrad knows, spending isn\u2019t about validating who you actually are. It is far more likely to reflect who we want to be seen as. Sometimes physically becoming that person is hard, so consuming is your best route. Mythical Tumblr blogger Hotel Concierge <a href=\"https://hotelconcierge.tumblr.com/post/162571849189/the-tower\">maps the journey from individualism to consumerism nicely</a>: </p><blockquote><p>\u201c<strong>Just as freedom from routine can be spent on new experiences it can be spent on new ways to express them.</strong> <strong>Most purchases this side of a bodega are autobiographical product placement</strong>, from name-brand Tylenol to the SkyMall catalogs of the 1%.\u201d</p></blockquote><p>What\u2019s the name for this situation? This state of constant auto-biography?</p><p>It actually got a name in 1979, through Christopher Lasch's \"<a href=\"https://thezeitgeistmovement.se/files/Lasch_Christopher_The_Culture_of_Narcissism.pdf\">The Culture of Narcissism</a>\". Lasch posited that contemporary American culture is characterised by a preoccupation with self and personal fulfilment, reflecting a collective narcissistic personality. This societal shift, he argued, is driven by consumer capitalism, media saturation, and the increase in individualism. </p><p>Ok, that seemed a bit repetitive, but the next bit is the key addition. </p><p><strong>Narcissists, by this definition, are </strong><em><strong>not </strong></em><strong>what you see in the media</strong>. They don\u2019t necessarily dominate every conversation, brag about all their achievements or have the flashiest dress sense. <strong>All they have is a </strong><em><strong>preoccupation with self-identity</strong></em>. They have a low-key main character syndrome, and the goal is to confirm that everyone else can see them as they want to be seen. They can still be a fun addition to the group chat. </p><p>The strange thing that happens though, is that once you enter this situation, and an entire population becomes this way inclined, it\u2019s really hard to get out of. Go back to the start of this post and you\u2019ll see: our systems actually sort of <em>depend</em> on that being that case now. </p><p>Now there\u2019s something behavioural scientists ought to care about. Biases and heuristics are all well and good as lenses for some decisions and judgements, but identity makes the world go round. Just look at the economy, where consumer spending takes up 60% of UK GDP. Yes, some of that is needs, but a lot of it is wants. So as a system you better consistently deliver the things those main characters want. <a href=\"https://www.digitalnative.tech/p/the-hyper-personalization-of-everything\">Digital native again</a>:</p><blockquote><p>\u201cIf the 20th Century was about mass consumption, the 21st Century is about \u201cbespoke consumption.\u201d We have more production than ever\u2014the internet and AI both continue to make it easier than ever to produce\u2014but that production is composed of more tailored, customized products designed for individuals, rather than for the masses.\u201d</p></blockquote><p><strong>The tricky scenario is that while it\u2019s true these tools make it easier than ever to produce, the system has been designed to raise the younger generations to be consumers, not producers.</strong> And systems are built to protect themselves from being replaced by something else. </p><div><hr></div><h3>But just because you fund the machine doesn\u2019t mean you have to feel like a cog within it. </h3><p>In fact, in the age of self-storytelling, it is literally the opposite. A quick culture check-in:</p><div id=\"tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40sarahthebookfairy%2Fvideo%2F7278702404315680046%3Fq%3Dsarahthebookfairy%2520what%2520about%2520me%26t%3D1703565368613&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"tiktok-wrap outer\" data-attrs=\"{&quot;url&quot;:&quot;https://www.tiktok.com/@sarahthebookfairy/video/7278702404315680046&quot;,&quot;title&quot;:&quot;#beansoup #beansoupcontroversy #chronicallyonline #individualism &quot;,&quot;thumbnail_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b7b3a107-48ee-4e10-a70e-fc352b3e1c0a_1080x1920.jpeg&quot;,&quot;author&quot;:&quot;Sarah&quot;,&quot;embed_url&quot;:&quot;https://cdn.iframe.ly/api/iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40sarahthebookfairy%2Fvideo%2F7278702404315680046%3Fq%3Dsarahthebookfairy%2520what%2520about%2520me%26t%3D1703565368613&amp;key=e27c740634285c9ddc20db64f73358dd&quot;,&quot;author_url&quot;:&quot;https://www.tiktok.com/@sarahthebookfairy&quot;,&quot;belowTheFold&quot;:true}\" data-component-name=\"TikTokCreateTikTokEmbed\"><iframe id=\"iframe-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40sarahthebookfairy%2Fvideo%2F7278702404315680046%3Fq%3Dsarahthebookfairy%2520what%2520about%2520me%26t%3D1703565368613&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"tiktok-iframe\" src=\"https://cdn.iframe.ly/api/iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40sarahthebookfairy%2Fvideo%2F7278702404315680046%3Fq%3Dsarahthebookfairy%2520what%2520about%2520me%26t%3D1703565368613&amp;key=e27c740634285c9ddc20db64f73358dd\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media\" allowfullscreen=\"\" scrolling=\"no\" loading=\"lazy\"></iframe><iframe src=\"https://team-hosted-public.s3.amazonaws.com/set-then-check-cookie.html\" id=\"third-party-iframe-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40sarahthebookfairy%2Fvideo%2F7278702404315680046%3Fq%3Dsarahthebookfairy%2520what%2520about%2520me%26t%3D1703565368613&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"third-party-cookie-check-iframe\" style=\"display: none;\" loading=\"lazy\"></iframe><div class=\"tiktok-wrap static\" data-component-name=\"TikTokCreateStaticTikTokEmbed\"><a href=\"https://www.tiktok.com/@sarahthebookfairy/video/7278702404315680046\" target=\"_blank\"><img class=\"tiktok thumbnail\" src=\"https://substackcdn.com/image/fetch/$s_!nR2M!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7b3a107-48ee-4e10-a70e-fc352b3e1c0a_1080x1920.jpeg\" style=\"background-image: url(https://substackcdn.com/image/fetch/$s_!nR2M!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7b3a107-48ee-4e10-a70e-fc352b3e1c0a_1080x1920.jpeg);\" loading=\"lazy\"></a><div class=\"content\"><a class=\"author\" href=\"https://www.tiktok.com/@sarahthebookfairy\" target=\"_blank\">@sarahthebookfairy</a><a class=\"title\" href=\"https://www.tiktok.com/@sarahthebookfairy/video/7278702404315680046\" target=\"_blank\">#beansoup #beansoupcontroversy #chronicallyonline #individualism </a></div></div><div class=\"fallback-failure\" id=\"fallback-failure-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40sarahthebookfairy%2Fvideo%2F7278702404315680046%3Fq%3Dsarahthebookfairy%2520what%2520about%2520me%26t%3D1703565368613&amp;key=e27c740634285c9ddc20db64f73358dd\"><div class=\"error-content\"><img class=\"error-icon\" src=\"https://substackcdn.com//img/alert-circle.svg\" loading=\"lazy\">Tiktok failed to load.<br><br>Enable 3rd party cookies or use another browser</div></div></div><p>I can\u2019t help but think that when people theorise about the What About Me effect, or main character energy, they are just saying the same thing as Lasch was. As Sarah, above, explains: <strong>individuals online seem to think everything is made for them. </strong>And thus, everything they consume carries the side purpose of validating their identity back to them. </p><p>We can agree that this isn\u2019t news to anyone, but I think sometimes people wilfully miss how it is society could reinforce this in the first place.</p><p><strong>Here\u2019s the thing: how could they possibly </strong><em><strong>not</strong></em><strong> think everything they see is made for them?</strong> First of all, it actually will be soon enough. And secondly, they have been told for decades that they are the main character of their own adventure of life, and that others are side characters. They barely got a choice in the matter.</p><p>And in what movie or show do you ever see side characters discussing something, without it at least being about the main characters? Everyday cultural narcissists cannot conceive that anyone has experiences or ideas that aren\u2019t directed at them, because in their world, that would be impossible. It\u2019s wouldn\u2019t be related to the plot.</p><p>But now for the other kicker that the What About Me/Main Character Energy think-pieces often suppress. Who benefits from people having this main character energy? The teens don\u2019t seem too, we\u2019ve all seen the graphs. </p><p>The beneficiaries are the platforms that are funded by that engagement. And you can\u2019t blame the platform for acting in its own interest. That\u2019s like getting angry at the economy for allowing consumer spending fuel GDP growth. </p><p>The reason everyone thinks everything in their feeds is related to them directly is because the platforms literally tell you that this is the case. And I mean literally. Remember what fyp stands for?</p><p>Going back to the economy, they know the best way to hook you is to provide a service that reaffirms the autobiography you are writing on the fly. And therefore there\u2019s a reason why Twitter and TikTok make \u2018For You\u2019 the default. It works for both sides of the screen. </p><p>And now thanks to AI, the rest of media can follow their lead.</p><div><hr></div><p>In a <a href=\"https://alreadyhappened.substack.com/p/what-corecore-was-actually-about\">previous post</a>, I tried to outline that a lot of biased reasoning comes about because our main psychological problem is that no one tells us who we are, and that no one really knows what\u2019s going on. What I am adding here is that the 20th century is when the preservation of self went from just being about the feeling of certainty to also being the driving force that made the economy, and thus culture, go round. </p><p>People need stuff to believe in, in order to act at all. But existence is inherently uncertain, you aren\u2019t told who you are and what your purpose is. That\u2019s on you to define. So you better go and get those answers from somewhere. And where does the system lead you in that search?</p><div><hr></div><p><a href=\"https://www.economist.com/interactive/the-world-ahead/2023/11/13/2024-is-the-biggest-election-year-in-history\">42% of the world go the polls in 2024</a>, so it\u2019s a big year for the planet. But it\u2019s notable it\u2019s happening in the year where we have never been afraid of technological interference. When I can get Trump to say anything I want and put it out online in 5 minutes, how do I know everyone else isn\u2019t playing the same game? I\u2019m not saying people won\u2019t be able to tell most of the time, but the damage to public discourse, and the amount of information we need to agree on to even have a starting point, <a href=\"https://news.sky.com/story/ai-poses-growing-threat-to-next-general-election-warns-uk-cyber-security-agency-13007659\">is already meaningful</a>. </p><p>For the purposes of this series, the real question actually is: when you can no longer be sure what you can believe is happening in the world <em>outside</em> of yourself, what is the one thing left you can believe in? It\u2019s an important question, when we consider what believing in nothing is associated with. </p><p>If the other ways you source certainty get depleted by the blending of reality and digital, and there\u2019s a lack of reassurance that what you\u2019re seeing is an accurate representation of the environment anymore, your self-conception is pretty much all you have left. </p><p>And you\u2019re not the only one winning from that scenario.</p><p>Back to the photos at the beginning of this section. That\u2019s Times Square in 1920, 1970 and 2023. What do you think the change is? The brighter lights? The higher marketing budgets? </p><p>Yes to both, but the important change is what funded those things. </p><p>And the answer to that is in the last photo, gazing at you from the middle right. </p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened! Subscribe for free to support, or send a link to this to one person.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "(This is part 2 of a 4 part deep-dive into the interactions between self-identity and technology. Part 1 here.)",
+ "wordcount": 1837,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "fea09388-7def-4237-a840-390138d1c647",
+   "publication_id": 1470107,
+   "name": "Media Analysis",
+   "slug": "media",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    177,
+    121,
+    77
+   ],
+   "population": 412
+  },
+  "DarkVibrant": {
+   "rgb": [
+    19,
+    67,
+    128
+   ],
+   "population": 155
+  },
+  "LightVibrant": {
+   "rgb": [
+    200,
+    162,
+    122
+   ],
+   "population": 409
+  },
+  "Muted": {
+   "rgb": [
+    91,
+    126,
+    162
+   ],
+   "population": 88
+  },
+  "DarkMuted": {
+   "rgb": [
+    84,
+    53,
+    46
+   ],
+   "population": 244
+  },
+  "LightMuted": {
+   "rgb": [
+    187,
+    173,
+    162
+   ],
+   "population": 102
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 7,
+ "comment_count": 1,
+ "child_comment_count": 1,
+ "audio_items": [
+  {
+   "post_id": 140085773,
+   "voice_id": "en-GB-OllieMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/140085773/tts/b2214d83-2a81-4f3f-8b90-e37f1250f54e/en-GB-OllieMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 68852095,
+   "body": "Until very recently I didn't understand the difference between having too much ego (and overconfidence) and being narcissistic. This has made it difficult for me to grasp a lot of other things, and I am still trying to catch up.\n\nIt's funny how I feel this post is not for or about me :). My problem is the opposite; I have too-much-ego (so no the need for, or even dislike of, validation) and a bias of rejection of the mainstream as the default position (so I assume 99% of content is \"not for me\"). I feel like that makes me inmmune to most of these processes. Of course it has its own set of issues, but that's not the topic here.\n\nThe 2 posts I've read in this series are giving me a \"what I wish Adam Curtis' documentaries explained\".\nThanks!",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Until very recently I didn't understand the difference between having too much ego (and overconfidence) and being narcissistic. This has made it difficult for me to grasp a lot of other things, and I am still trying to catch up."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "It's funny how I feel this post is not for or about me :). My problem is the opposite; I have too-much-ego (so no the need for, or even dislike of, validation) and a bias of rejection of the mainstream as the default position (so I assume 99% of content is \"not for me\"). I feel like that makes me inmmune to most of these processes. Of course it has its own set of issues, but that's not the topic here."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "The 2 posts I've read in this series are giving me a \"what I wish Adam Curtis' documentaries explained\"."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Thanks!"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 140085773,
+   "user_id": 12557430,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2024-09-13T12:19:12.525Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "RJV",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/96901614-59df-4008-a4a0-b068d4334831_180x180.jpeg",
+   "handle": "crul",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "crul",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

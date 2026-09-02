@@ -1,0 +1,528 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/why-making-up-for-lost-time-is-hard",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 139185750,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2023-11-28T03:33:20.436Z",
+ "updated_at": "2025-04-27T20:31:30.194Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "why-making-up-for-lost-time-is-hard",
+ "social_title": null,
+ "subtitle": "",
+ "teaser_post_eligible": true,
+ "title": "Why Making Up for Lost Time is Hard",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 12,
+ "reactions": {
+  "\u2764": 31
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": null,
+ "next_post_slug": "what-corecore-was-actually-about",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!YS0c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg",
+ "cover_image_is_square": true,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 139185750,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Let\u2019s pretend that six months ago your best friend had a break up.",
+ "body_html": "<h3></h3><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!YS0c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!YS0c!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 424w, https://substackcdn.com/image/fetch/$s_!YS0c!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 848w, https://substackcdn.com/image/fetch/$s_!YS0c!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!YS0c!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!YS0c!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg\" width=\"720\" height=\"720\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:720,&quot;width&quot;:720,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!YS0c!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 424w, https://substackcdn.com/image/fetch/$s_!YS0c!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 848w, https://substackcdn.com/image/fetch/$s_!YS0c!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!YS0c!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><h3>Let\u2019s pretend that six months ago your best friend had a break up. </h3><p>A pretty bad one. Understandably, they decide to take a few months for themselves. </p><p>Over that time, they either truthfully or artificially arrive at the conclusion that their ex wasn\u2019t really for them. They\u2019re over it. So it\u2019s time to reenter the dating world. Hinge profile built, likes coming in. </p><p>The options are numerous, but your friend is still a bit hesitant, so they message you for advice. It\u2019s been a while, and these people could be murderers. </p><p>You have a plan to help them get back in the swing of things (not a euphemism). It basically comes down to \u2018Ease yourself in!\u2019 You tell them to just go on one date this month. Next month is May and hey summer evenings are getting longer, go on two. In June, double again to four. And just keep going with that pattern until you find love again.</p><p>They thank you for your advice and switch from WhatsApp back to Hinge before you notice an issue. You switch to your calculator app. </p><p>So in March they\u2019re not dating at all. And then they do indeed start easing themselves in. But things seem to get out of control fast. In June they\u2019ll do one a week, but in September it\u2019s one a day. If they work and sleep like a normal person, then in December they\u2019ll be spending all of the rest of their time dating, rotating partners every hour. By the time we\u2019re back around to April, they have sacrificed both work and sleep in the pursuit of love, and their life is a 24/7 dating bonanza where they meet someone new every 10 minutes.</p><p>If they are still single by then, they are probably the problem. But if you reckon your friend won\u2019t realise that, or you just don\u2019t want them to ruin their bank account by the end of summer, then you need to tell them now. </p><p>The momentum has started and date #1 is happening. They\u2019re having a coffee at one of the window tables in a cafe. The non-murderous prospect isn\u2019t great with eye contact, and is finding comfort staring out the window. Well, it was comforting until they spot you. Sprinting at the window full tilt. You\u2019ve got a piece of paper in hand.</p><p>The whole coffee-shop turns at the noise, as just between the heads of the potential lovers, you\u2019ve slammed this drawing against the glass: </p><p></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!PJNT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!PJNT!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 424w, https://substackcdn.com/image/fetch/$s_!PJNT!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 848w, https://substackcdn.com/image/fetch/$s_!PJNT!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 1272w, https://substackcdn.com/image/fetch/$s_!PJNT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!PJNT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png\" width=\"500\" height=\"500\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:500,&quot;width&quot;:500,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Does an exponential curve have a corner? \u2013 Owen Biesel&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Does an exponential curve have a corner? \u2013 Owen Biesel\" title=\"Does an exponential curve have a corner? \u2013 Owen Biesel\" srcset=\"https://substackcdn.com/image/fetch/$s_!PJNT!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 424w, https://substackcdn.com/image/fetch/$s_!PJNT!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 848w, https://substackcdn.com/image/fetch/$s_!PJNT!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 1272w, https://substackcdn.com/image/fetch/$s_!PJNT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1490efdb-2df1-465e-90fe-404f24e056ef_500x500.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.alreadyhappened.xyz/subscribe?\"><span>Subscribe now</span></a></p><p></p><div><hr></div><p>One of the greatest threats to humanity is the failure to grasp exponential growth. At least, <a href=\"https://twitter.com/search?q=greatest%20failure%20understand%20exponential%20growth&amp;src=typed_query&amp;f=top\">that\u2019s what people are saying</a>. An even simpler way to put it is that we struggle with things that double.&nbsp;</p><p>That was my far fetched illustration of it, but there\u2019s some you\u2019ve probably heard before.</p><ol><li><p>You may have seen this TikTok:</p></li></ol><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;7dbbf2cb-0ebe-42ee-9064-78976b687bc4&quot;,&quot;duration&quot;:null}\"></div><ol start=\"2\"><li><p>You may have also come across the lily pad problem:</p></li></ol><p>Imagine a large pond that is completely empty except for 1 lily pad. The lily pad will grow exponentially and cover the entire pond in 3 years. In other words, after 1 month there will be 2 lily pads, after 2 months there will be 4, etc. The pond is covered in 36 months.</p><p>I will remove any mystery and tell you this next bit is the bit that is important:</p><p>If I asked you when the pond would be half filled with lily pads, the temptation would be to say 18 months \u2013 half of the 36 months. But the right answer is 35 months. Right before the pond is filled, it\u2019s half filled.</p><p>By the time you can see you\u2019re close, it is already over.</p><p></p><div><hr></div><p></p><p>Behavioural science gives this limitation a name: <a href=\"https://eprints.lse.ac.uk/68881/1/Levy_Expotential_growth.pdf\">Exponential growth bias</a>. The tendency to perceive things as growing linearly even when they don\u2019t. I\u2019ve even seen researchers call it EGB (I will not be joining them).&nbsp;</p><p>Things that grow exponentially tend to start harmless, creep around at that level for quite a while, and then explode. We more easily understand things that grow a bit, then keep growing a bit, and in fact keep growing at that same pace forever, bit by bit.&nbsp;</p><p>I can see why there wasn\u2019t much need to think exponentially when the brain evolved. Walk for 1 day, you'll travel 10 miles. Walk for 5 days, you\u2019ll travel 50. Collect berries for half a day, feed the family for a week. Go full day berrying, that's two weeks of food (was not there, cannot confirm if accurate numbers).</p><p><a href=\"https://www.amazon.co.uk/Gut-Feelings-Intelligence-Unconscious-Gigerenzer/dp/B019L4MB3E\">Most cognitive shortcuts serve us well</a> most of the time. And, to be fair, most things in life increase and decrease fairly linearly. And my mate\u2019s not had a breakup. And I don\u2019t even have a garden, nevermind a pond. So why stress?</p><p></p><div><hr></div><p></p><p>\u2018Man stares at what the explosion of the atom bomb could bring with it. He does not see that the atom bomb and its explosion are the mere final emission of what has long since taken place, has already happened. Not to mention the single hydrogen bomb, whose triggering, thought through to its utmost potential, might be enough to snuff out all life on Earth. What is this helpless anxiety still waiting for, if the dreadful has already happened?\u2019</p><p></p><div><hr></div><p></p><p>Here\u2019s a list of things that grow exponentially:</p><ul><li><p>Compound interest on savings and investments</p></li><li><p>Compound interest on debt</p></li><li><p><a href=\"https://www.imperial.ac.uk/news/224113/coronavirus-infections-rising-exponentially-england-react/\">Viral infections in an outbreak</a></p></li><li><p><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1352231008011540#:~:text=Since%20the%20growth%20rate%20(time,in%20the%20past%2040%20years.\">Global CO2 emissions&nbsp;</a></p></li><li><p><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366174/\">Antibiotic resistance</a></p></li><li><p>And it\u2019s <a href=\"https://www.ml-science.com/exponential-growth\">starting</a> <a href=\"https://www.legacyresearch.com/the-daily-cut/growth-in-artificial-intelligence-is-beyond-exponential/\">to</a> <a href=\"https://johnnosta.medium.com/stacked-exponential-growth-ai-is-outpacing-moores-law-and-evolutionary-biology-12882c38b68d\">look</a> <a href=\"https://www.visualcapitalist.com/cp/charted-history-exponential-growth-in-ai-computation/\">like</a>: AI capability.</p></li></ul><p>Here\u2019s a list of things that people don\u2019t think about until most of the damage is well underway:</p><ul><li><p><a href=\"https://crr.bc.edu/wp-content/uploads/2019/12/IB_12-20.pdf\">Starting to save for retirement</a></p></li><li><p><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S2214635018300546\">The amount of debt they decide to take on</a></p></li><li><p>Whether a new virus requires special government measures (I don\u2019t need a source for this)</p></li><li><p>Whether we should try new energy sources (or this)</p></li><li><p><a href=\"https://www.idhjournal.com.au/article/S2468-0451(21)00080-8/fulltext\">Whether we\u2019re prescribing too many antibiotics</a></p></li><li><p><a href=\"https://www.reuters.com/technology/biden-says-it-remains-be-seen-whether-ai-is-dangerous-2023-04-04/\">Whether a new technology needs a watchman</a></p></li></ul><p>You\u2019ve heard the phrase \u2018making up for lost time is hard\u2019 right? Well, sometimes it\u2019s harder than others. It just depends on what the growth curve looks like.&nbsp;</p><div><hr></div><p>That quote about the atom bomb is from Martin Heidegger. But I first read it in RD Laing\u2019s <em>The Politics of Experience</em>. The point of it is that well timed action will often feel too early. And by the time it feels right, when the dangers are finally within your eyesight, the show has already begun. You may as well sit back, because after all, what is your helpless anxiety still waiting for?</p><p>The second psychological issue here is that preventing future issues requires action now, and now feels.. different.&nbsp;</p><p>To anyone who ever took Behavioural Econ 101, this is going to be a tired example, but it\u2019s useful.&nbsp;</p><p>Here\u2019s two choices:</p><p>Choice one: I give you (a) \u00a310 now or (b) \u00a315 in a month.&nbsp;</p><p>Choice two: I give you (a) \u00a310 in 9 months (b) \u00a315 in 10 months.</p><p>I will skip the airport pop sci spiel. In these scenarios, <a href=\"https://web.mit.edu/curhan/www/docs/Articles/biases/126_J_Experimental_Psychology_General_54_(Kirby).pdf\">people tend to</a> pick (a) in choice one then (b) in choice two.&nbsp;</p><p>This is called present bias. We like immediate rewards over long term benefits.&nbsp;</p><p>It\u2019s part of how procrastinating an essay happens. It\u2019s part of how the diet starts tomorrow. It\u2019s part of putting off going mole mapping. It\u2019s part of waiting until your next paycheck to start putting money away. It\u2019s part of one last credit card payment.</p><p>In fewer words, there will be a right time to do the thing, and that time, well it definitely isn\u2019t right now.</p><p>I\u2019m a believer in actions having reactions. So what\u2019s the flipside of the present getting special treatment? The future gets mashed together. A vague other place, where a different version of you exists. The one that can\u2019t succumb to temptations, the one that goes about their goals with ruthless efficiency. This guy explains it pretty well.</p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;b8098107-bfe6-41fb-83c7-da94070a9037&quot;,&quot;duration&quot;:null}\"></div><p>Why would you take \u00a315 in 10 months over \u00a310 in 9 months? Because to present you, they are exactly the same distance away. They\u2019re both \u2018over there\u2019.&nbsp;</p><p>In any case, prioritising comfort doesn\u2019t seem like that big of a deal. I procrastinated every college essay I ever wrote, and paid the consequence of the odd late night, but I still graduated college. I\u2019ve probably had more fast food than I\u2019d like to think, but I still joined a gym eventually.&nbsp;</p><p>So sometimes I put off something that\u2019s going to be more annoying the longer I leave it, but how much more annoying could it get? Ah, just one more day of self-care, and my problems will just get a little bit more stressful. I\u2019ll still sort them eventually. Right? Hmm. Why has my credit card just bounced? What\u2019s this on the news about a lockdown? And where did all these lilypads come from?</p><div><hr></div><p>I\u2019m hoping you see what question we\u2019re circling around here. We\u2019ve seen what exponential (or just super-linear) growth looks like. We\u2019ve discussed what the present and future feel like. Where are we going with this? Well, if you thought the first scenario about your friend\u2019s dating life was far fetched and contrived, I\u2019m sorry for what\u2019s about to happen.</p><div><hr></div><p>When you slammed the growth graph on the cafe window, your friend pretended to not know you. I think that\u2019s probably fair enough. To cheer yourself up on the way home, you veer into the carnival that\u2019s just started running for the summer.</p><p>So let\u2019s pretend that this new carnival in town has a fresh, incredibly contrived version of pin the tail on the donkey. Except you\u2019re the tail getting placed, and the donkey is a flat 50m bar that curves directly upward at the end. As you\u2019re getting blindfolded, the carny offers you a prize of \u00a320 if you can correctly guess where he\u2019s placed you on the curve.&nbsp;</p><p>You say you could.</p><p>He asks \u201care you willing to bet on it?\u201d</p><p>If it\u2019s the vertical bit, easy money right? You\u2019ll fall right down, you don\u2019t need sight to see how extreme a part of the curve you\u2019re in. \u00a320 and a concussion up.&nbsp;</p><p>But let\u2019s say he lets you go and you can stand up straight. Now the task is harder. Are you at the very start of the curve, where the forces of doubling are only starting to grumble. Or are you at the very end of the peaceful period, and in fact there\u2019s a sheer incline approximately two metres in front of you.</p><p>Do you see the problem? To you, those two states would feel exactly the same. But they are drastically different, they could be 49m apart.&nbsp;</p><p>Tim Urban even explained this in a much easier way <a href=\"https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html\">8 years ago</a>:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!MVkG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!MVkG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 424w, https://substackcdn.com/image/fetch/$s_!MVkG!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 848w, https://substackcdn.com/image/fetch/$s_!MVkG!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 1272w, https://substackcdn.com/image/fetch/$s_!MVkG!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!MVkG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png\" width=\"842\" height=\"912\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:912,&quot;width&quot;:842,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!MVkG!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 424w, https://substackcdn.com/image/fetch/$s_!MVkG!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 848w, https://substackcdn.com/image/fetch/$s_!MVkG!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 1272w, https://substackcdn.com/image/fetch/$s_!MVkG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be6ebbe-9303-4c15-a589-08964ee45560_842x912.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><div><hr></div><p>Kyle Raymond Fitzpatrick sums up the cultural moment as us, <a href=\"https://1234kyle5678.substack.com/p/fucking-around-and-finding-out?utm_source=profile&amp;utm_medium=reader2\">having fucked around, now finding out</a>. Things got out of our control, and now we\u2019re left staring, waiting to see what the consequences are. It reminds me of something from earlier.</p><p>\u2018Man stares at what the explosion of the atom bomb could bring with it. He does not see that the atom bomb and its explosion are the mere final emission of what has long since taken place, has already happened. Not to mention the single hydrogen bomb, whose triggering, thought through to its utmost potential, might be enough to snuff out all life on Earth. What is this helpless anxiety still waiting for, if the dreadful has already happened?\u2019</p><p>I\u2019m not going to ask you if the dreadful has already happened.</p><p>That\u2019d be a hard question.</p><p>Slightly easier questions though.</p><p>Where actually are we on this graph? And are you willing to <a href=\"https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/\">bet on that</a>?</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ODD7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ODD7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 424w, https://substackcdn.com/image/fetch/$s_!ODD7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 848w, https://substackcdn.com/image/fetch/$s_!ODD7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 1272w, https://substackcdn.com/image/fetch/$s_!ODD7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ODD7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png\" width=\"1265\" height=\"900\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/daa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:900,&quot;width&quot;:1265,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ODD7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 424w, https://substackcdn.com/image/fetch/$s_!ODD7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 848w, https://substackcdn.com/image/fetch/$s_!ODD7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 1272w, https://substackcdn.com/image/fetch/$s_!ODD7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa7ee88-fb9e-4337-a4b0-e8dc4ab39ea8_1265x900.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened! Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "Let\u2019s pretend that six months ago your best friend had a break up.",
+ "wordcount": 1948,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+   "publication_id": 1470107,
+   "name": "Psychology",
+   "slug": "psychology",
+   "hidden": false
+  },
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    81.96428571428571,
+    173.0357142857143,
+    118.39285714285714
+   ],
+   "population": 0
+  },
+  "DarkVibrant": {
+   "rgb": [
+    36,
+    76,
+    52
+   ],
+   "population": 1
+  },
+  "LightVibrant": {
+   "rgb": [
+    165.02142857142857,
+    212.37857142857143,
+    183.96428571428572
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    108,
+    140,
+    116
+   ],
+   "population": 37
+  },
+  "DarkMuted": {
+   "rgb": [
+    51,
+    84,
+    64
+   ],
+   "population": 835
+  },
+  "LightMuted": {
+   "rgb": [
+    49.17857142857144,
+    103.82142857142856,
+    71.03571428571429
+   ],
+   "population": 0
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 31,
+ "comment_count": 4,
+ "child_comment_count": 2,
+ "audio_items": [
+  {
+   "post_id": 139185750,
+   "voice_id": "en-GB-OllieMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/139185750/tts/fa8cd679-ba3a-42b4-9972-0103c2d295ba/en-GB-OllieMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 113440179,
+   "body": "\"A little sleep, a little slumber,\na little folding of the hands to rest,\nand poverty will come upon you like a robber,\nand want like an armed man.\"",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "\"A little sleep, a little slumber,"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "a little folding of the hands to rest,"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "and poverty will come upon you like a robber,"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "and want like an armed man.\""
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 139185750,
+   "user_id": 237986015,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-04-30T22:11:19.070Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Adam Plewes",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f590d4ce-1fb5-4147-8830-0cff4717e8e3_200x200.png",
+   "handle": "adamplewes",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "adamplewes",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "The Tech Traditionalist",
+     "id": 2645231,
+     "base_url": "https://subscribe.techtraditionalist.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 2,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 68837846,
+   "body": "This is a well explained version of a pet-peeve-idea I got from two videos published 30 years apart:\n- 1994 Danny Hillis' TED Talk: Back to the future (of 1994): https://www.youtube.com/watch?v=gdg4mU-wuhI\n- 2023 Tom Scott's video: My worries about the trajectory of A.I. [relevant part 00:25 - 02:38] https://www.youtube.com/watch?v=jPhJbKBuNnA\n\nBoth show a sigmoid curve with a exponential-ish first half to represent progress. My take is that, not only we don't know where on the curve we are, we've been lost for (at least) the last 30 years and we've made no progress with our estimations.\n\nWe're living interesting times.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "This is a well explained version of a pet-peeve-idea I got from two videos published 30 years apart:"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "- 1994 Danny Hillis' TED Talk: Back to the future (of 1994): "
+       },
+       {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=gdg4mU-wuhI",
+        "marks": [
+         {
+          "type": "link",
+          "attrs": {
+           "href": "https://www.youtube.com/watch?v=gdg4mU-wuhI"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "- 2023 Tom Scott's video: My worries about the trajectory of A.I. [relevant part 00:25 - 02:38] "
+       },
+       {
+        "type": "text",
+        "text": "https://www.youtube.com/watch?v=jPhJbKBuNnA",
+        "marks": [
+         {
+          "type": "link",
+          "attrs": {
+           "href": "https://www.youtube.com/watch?v=jPhJbKBuNnA"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Both show a sigmoid curve with a exponential-ish first half to represent progress. My take is that, not only we don't know where on the curve we are, we've been lost for (at least) the last 30 years and we've made no progress with our estimations."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "We're living interesting times."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 139185750,
+   "user_id": 12557430,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2024-09-13T08:22:32.473Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "RJV",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/96901614-59df-4008-a4a0-b068d4334831_180x180.jpeg",
+   "handle": "crul",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "crul",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "2 replies by Stefan Kelly and others"
+  }
+ ]
+}

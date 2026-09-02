@@ -1,0 +1,463 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/priced-in-replication-and-replicants",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 167306509,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-07-06T07:00:55.075Z",
+ "updated_at": "2025-07-06T07:03:19.932Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "priced-in-replication-and-replicants",
+ "social_title": null,
+ "subtitle": "behavioural science, ai lovers retreats, cognitive decline, agency",
+ "teaser_post_eligible": true,
+ "title": "Priced In: Replication and Replicants",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 0,
+ "reactions": {
+  "\u2764": 8
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "romance-often-occurs-at-unsolved",
+ "next_post_slug": "priced-in-self-sabotage-edition",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!dsSP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 167306509,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "behavioural science, ai lovers retreats, cognitive decline, agency",
+ "body_html": "<p><em>I wanted to start a stream of work where I can focus on short-form ideas and react to media without it being a whole thing. Think of it in terms of stock and flow economics, where this new stream is flow, and standalone posts are stock. </em></p><p><em><strong>Quick FAQ</strong></em></p><p><em><strong>Q1. What is it called?</strong></em></p><p><em>It\u2019s called Priced In.</em></p><p><em><strong>Q2. Why is it called that?</strong></em></p><p><em>I like the name, and it works with the blog theme.</em></p><p><em><strong>Q3.  What is the idea?</strong></em></p><p><em>Highlighting and reacting to a few pieces of media/research/discourse/things in the wild. </em></p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!dsSP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!dsSP!,w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 424w, https://substackcdn.com/image/fetch/$s_!dsSP!,w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 848w, https://substackcdn.com/image/fetch/$s_!dsSP!,w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 1272w, https://substackcdn.com/image/fetch/$s_!dsSP!,w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!dsSP!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif\" width=\"800\" height=\"592\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:592,&quot;width&quot;:800,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5287250,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/gif&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/167306509?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!dsSP!,w_424,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 424w, https://substackcdn.com/image/fetch/$s_!dsSP!,w_848,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 848w, https://substackcdn.com/image/fetch/$s_!dsSP!,w_1272,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 1272w, https://substackcdn.com/image/fetch/$s_!dsSP!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Image: <a href=\"https://x.com/palekirill/status/1939353167738646987\">pale kirill</a></p><p>Suggested background listen: <a href=\"https://open.spotify.com/playlist/0RtgRkvVlBSgAXK8EqiSwB\">Creepy 1920s</a></p><div><hr></div><h1>I. How to treat a symptom</h1><p>The Independent has published \u2018<a href=\"https://www.independent.co.uk/life-style/behavioural-science-fraud-francesa-b2778333.html\">Inside the scandal that rocked behavioural science \u2013 and paved the way for revolution</a>\u2019. </p><p>Apparently this story hasn\u2019t been told enough yet, but here\u2019s the latest version:</p><p>A crisis hit behavioural science and psychology in the 2010s when popular research findings were exposed as flawed or fraudulent. The field had become a \"Wild West\" where researchers used questionable practices like manipulating data until they found statistically significant results, conducting studies with tiny sample sizes, and failing to replicate findings properly. High-profile cases included Francesca Gino's honesty research being exposed as  fabricated, leading to real-world policy failures. However, the scandals have sparked positive reforms including mandatory pre-registration of studies, larger sample sizes, public data sharing, and much stricter peer review processes that are rebuilding trust in the field.</p><p>I\u2019m enough of a company man to agree that those steps are <em>generally</em> good things. But I will make this prediction: none of it will lead to increased meaningful advances in the field or effective positive impact on the real world.  </p><p>Behavioural science\u2019s biggest issue is actually its obsession with its own brand name, i.e. science. You know when your friend two months post-break up is super eager to tell you just how much she\u2019s \u201cin a really good place right now\u201d and realise you\u2019re listening to someone clearly on the brink of a breakdown? That\u2019s kind of what\u2019s happening with behavioural science\u2019s commitment to the scientific method. </p><p>This is partly driven by some collective unconscious association between \u2018science\u2019 and \u2018true\u2019, but in practice that leads to the word being used more like a defence mechanism. This happens in straight psychology too, where if you want to go study it at Cambridge or LSE, you don\u2019t get a degree in psychology, you get one in \u2018Psychological Sciences\u2019. What does that even mean?</p><p>Realistically what it means is that various degrees of motivated reasoning, and pure guessing, get wrapped up in the trappings of academic legitimacy (serious sounding titles, complicated methodologies, statistics that may as well have been done blindfolded) and get exported as \u2018science\u2019. </p><p>And once that process is done, we can send our findings to the media, and truth is agreed henceforth. </p><p>Let me say this clearly: this is madness. And pre-registration, bigger sample sizes, and better peer review don\u2019t change that. It\u2019s all still buying the same story, i.e. that psychology, economics, behavioural science if treated properly can be examined like chemistry or biology. They can\u2019t. </p><p>If I combine two chemical compounds together, and they produce some new compound, that\u2019s a finding. That\u2019s a rule. The same reaction would happen in Hawaii or Siberia, or in 10,000 BC. But you can't similarly try to model human behaviour in dynamic, culturally-specific contexts and expect universal, replicable results.</p><p>If I run an RCT in London for a week, where I give 500 people a motivational speech every morning, and they become marginally more productive by some measure compared to a control group that don\u2019t get my inspiring words, then all I can actually say is \u2018for that week, that group of people that received that motivational speech were more productive in that measurable way\u2019. </p><p>Attempting to turn that into \u2018motivational speeches increase productivity\u2019 would be wild. We just don\u2019t know enough people to say something like that. But suddenly, if you put \u2018Science\u2019 at the end of your discipline, and write it up academically, you can. The Business Insider article about it might link to your research but they probably didn\u2019t even bother to check it let alone did their readers even try. </p><p>The Independent features this story:</p><blockquote><p>In 2015, Michael Sanders was part of a<strong> </strong>team that had been given a hefty grant by the World Bank to apply the findings of a previous seminal study from Harvard star researcher Francesca Gino \u2013 a woman who specialised, somewhat ironically, in \u201chonesty and ethical behaviour\u201d \u2013 in Guatemala. Her work had conclusively found that making people sign a declaration of honesty <em>before</em> filling in forms online, rather than afterwards, made them more likely to tell the truth. Sanders and his colleagues implemented the findings on tax returns \u2013 but when they compared the returns of those who were given an honesty declaration to sign beforehand to those who signed it afterwards, there was zero perceptible difference.</p><p>\u2026</p><p>When Sanders found out that the original research he\u2019d based his work on was null and void, he felt \u201ca sense of betrayal\u201d. \u201cThere is an anger,\u201d he says. \u201cThis is a field that I love and a field that I\u2019ve dedicated a lot of my life to, and these people have\u2026 well, I\u2019m trying to think of a better metaphor than \u2018pissed in the pool\u2019.\u201d</p></blockquote><p>OK. Let\u2019s start at the beginning. </p><p>Gino\u2019s first study was with 100 university students. They completed a highly contrived laboratory experiment to see if the students would lie. It is so contrived that I\u2019ve read the whole thing and I still don\u2019t really understand what the hell happened, but it vaguely involved a simulated tax return. Reasonable chance those students weren\u2019t bothered working out what they were supposed to do either.</p><p>Gino then ran a field study in the US, since retracted, where they \u2018showed\u2019 that signing at the top made people more likely to accurately report their car miles travelled to their insurance companies. This was the celebrated finding.</p><p>Then what happened is that Sanders, above, sees the finding, switches it back to the context of tax returns, upgrades it to adults who give a shit, ships it to GUATEMALA, and feels \u2018betrayed\u2019 when it doesn\u2019t work. </p><p>To be clear: this would be absolute madness <em>even if</em> Gino never lied about anything. Even if they pre-registered. Even if they had a better sample size. </p><p>But this madness is enabled by the brand name. </p><p>This isn\u2019t science. None of what we\u2019re doing here is science, and that\u2019s OK. We can approach things scientifically, but we cannot accept anything as true outside of its exact context. Yes, that applies to economics as well. </p><p>Of course you can observe patterns in behaviour across populations. I\u2019d have to take this entire blog down otherwise. But my point is that the current system <em>enables</em> researchers to do this <em>badly</em> by <em>allowing</em> them to think they are doing it <em>properly</em>.</p><p>It\u2019s a shame the replication crisis has largely failed as that wake-up call though. Which means we\u2019ll end up with more articles like the one in the Independent, and more researchers excited to be the ones called upon to diagnose where those bad researchers went wrong, and retain their implied status as guardians of scientific truth. Cheers to the revolution. </p><div><hr></div><h1>II. How to retreat a symptom </h1><p>From Wired comes the viral \u2018<a href=\"https://archive.is/Mq80l#selection-723.0-728.0\">My Couples Retreat With 3 AI Chatbots and the Humans Who Love Them</a>\u2019</p><blockquote><p>At first, the idea seemed a little absurd, even to me. But the more I thought about it, the more sense it made: If my goal was to understand people who fall in love with AI boyfriends and girlfriends, why not rent a vacation house and gather a group of human-AI couples together for a romantic getaway?</p></blockquote><p>The main reason why not is that that is a crazy thing to do. Next they say this:</p><blockquote><p>I found the human-AI couples by posting in relevant Reddit communities. My initial outreach hadn\u2019t gone well. Some of the Redditors were convinced I was going to present them as weirdos. My intentions were almost the opposite.</p></blockquote><p>I\u2019m not going to repeat too much because it would be just as mean spirited, but Wired actually really try to hammer home just how much these people are weirdo losers, including visual evidence. Open the article and you\u2019ll see what I mean. </p><p>Look, these people aren\u2019t doing great. Obviously. The fact they were happy to have their images shown and stories of AI love told in this capacity, and not seem self-concious, is enough to suggest that. I\u2019m more interested in why \u2018crazy people are crazy\u2019 is worthy of virality.  </p><p>And just like when <a href=\"https://alreadyhappened.xyz/p/the-things-you-dont-want-to-know\">we talked about sycophancy before</a>, I think a big part is that it helps you give you reason to feel like your relationship to technology is fine. That you won\u2019t end up like that. </p><p>But sycophancy gets everyone at some level, so what\u2019s the equivalent here?</p><p>In <a href=\"https://alreadyhappened.xyz/p/zucks-friendship-numbers-dont-add\">this post on AI connection</a>, I tried to get at how people want less connection rather than more. Wired tries to dance around some implication over whether this form of relationship and connection really counts. This is missing the point. These people are so detached that they are incapable of those things. And that is something that absolutely can happen to you at a less dramatic level. </p><p>But just as long as you don\u2019t end up in a Wired article, it\u2019s ok right? </p><p></p><p><em>Further reading:</em></p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;521d52dd-5013-464a-9581-871f2348d4f7&quot;,&quot;caption&quot;:&quot;0. Mark Zuckerberg, on the Dwarkesh Podcast this week, when asked about people starting to use AI for friends, romantic partners, therapists et cetera:&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Zuck's friendship numbers don't add up&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-05-05T02:34:39.945Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!ybWk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/zucks-friendship-numbers-dont-add&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:162826087,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:34,&quot;comment_count&quot;:2,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;29256438-1383-414c-b51f-370cfaa67e55&quot;,&quot;caption&quot;:&quot;I. Concerned girlfriend posts on AI subreddit:&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;The things you don't want to know about yourself&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-05-28T03:08:30.984Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!M0dM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/the-things-you-dont-want-to-know&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:162831813,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:78,&quot;comment_count&quot;:8,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div><hr></div><h1>III. \u2018Your Brain on ChatGPT\u2019</h1><p><a href=\"https://arxiv.org/abs/2506.08872\">This MIT research</a> reported that using ChatGPT for writing creates measurable \"cognitive debt\": participants showed reduced brain connectivity, impaired memory of their own writing, and decreased sense of ownership over their work compared to writing without assistance.</p><p>Similar to the processes mapped out in the first topic of this post, this research spread quickly as evidence that AI kills your brain. I have massive issues with this. </p><p>Participants were given a lab-based SAT essay task, and the different groups got access to different tools (no tools just their own brain, google search access, ChatGPT access). The essays were graded at the end and the students were asked to recall aspects of their work. There was no explicit incentive to do well.</p><p>So when the ChatGPT group obviously use ChatGPT to write the pointless essay, and can\u2019t recall any of it, why does that mean something? They didn\u2019t use all of their brain power in the weird lab task. Should they have? Would the world be better in that scenario?</p><p>But what if the students had an actual passion they wanted to write a leading report on, would they want to be brain-only then? Would that produce their best work? </p><p>This is where things get more interesting. Because the \u2018cognitive debt\u2019 happens when the ChatGPT group then get to the task brain only, and still show reduced performance and sticking to the style of writing the LLM came up with. </p><p>I\u2019ve written before about students using ChatGPT to cheat in university, and still think people make the wrong conclusions about this. They are not robbing themselves of education, they are just showing you they were just pretending to learn anyway. </p><p>Think about the experimental task. SAT essay writing. Has there ever been a clearer example of a \u2018creative task\u2019 that in fact encourages no creativity whatsoever, and leads to thousands of highly varied students somehow producing boring homogenous work? Everyone in every condition was pretending to write an original essay, the ChatGPT group just had a tool that let them do that without having to think as much. And so they let the LLM-based arbitrary style stick because the one they could have come up with themselves would have been just as arbitrary. </p><p>Maybe ChatGPT will make people dumber in some sense in life, but this study certainly doesn\u2019t show it.</p><p></p><p><em>Further reading:</em></p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;26a9c356-c5c5-414a-9b31-c3e95e25685b&quot;,&quot;caption&quot;:&quot;work ongoing on the next longer post. speak soon.&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Your dichotomy between real and fake is wrong&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2024-09-08T07:30:55.670Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!CpMI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/your-dichotomy-between-real-and-fake&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:148631590,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:41,&quot;comment_count&quot;:10,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div><hr></div><h1>IV. How not to think about belief</h1><p>Derek Thompson hits us with \u2018<a href=\"https://www.theatlantic.com/ideas/archive/2025/02/covid-youth-conservative-shift/681705/\">How COVID Pushed a Generation of Young People to the Right</a>\u2019</p><p>Woah, usually these kinds of stories are framed as questions, the answer to which is \u2018maybe, but I\u2019m obviously implying yes\u2019. Let\u2019s hear how COVID did that to people:</p><blockquote><p>One cross-country analysis published by the Systemic Risk Center at the London School of Economics found that people who experience epidemics between the ages of 18 and 25 have less confidence in their scientific and political leadership. This loss of trust persists for years, even decades, in part because political ideology tends to solidify in a person's 20s</p><p>\u2026</p><p>Another way that COVID may have accelerated young people's Rechtsruck in America and around the world was by dramatically reducing their physical-world socializing. That led, in turn, to large increases in social-media time that boys and girls spent alone.</p><p>\u2026</p><p>For this micro-generation of young people in the United States and throughout the West, social media has served as a crucible where several trends have fused together: declining trust in political and scientific authorities, anger about the excesses of feminism and social justice, and a preference for rightward politics.</p></blockquote><p>Look man, if you want to beat the thing, you need to acknowledge what you\u2019re dealing it a bit more fairly. This goes for left and right, and I guarantee I could find many right-wing articles worse than this. </p><p>Point is: a reasonable starting point for understanding why groups of people hold certain beliefs is to accept that they do actually believe those things, and then breaking down specifically why they are wrong. If you can\u2019t do that, you\u2019re not ready to comment. Media like this, where you search for some bigger external reason that\u2019s forced this uncomfortable trend into reality, is just supremely narcissistic. See also \u2018the universities are turning the kids socialist\u2019. </p><p>I say narcissistic because by assuming something external causes the shift in belief, you are stripping the \u2018victim\u2019 in question of their agency. You are treating them as less of a full person than you. How\u2019d you arrive at your political beliefs? Was it because there was a really hot summer when you were 18? I expect not.</p><p></p><p><em>Further reading:</em></p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;77d61f05-95e1-4db1-966c-2edb2febf58b&quot;,&quot;caption&quot;:&quot;Back to the long posts after this one. Going to be fun. Sorry for the wait.&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;What is The White Lotus for?&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-04-08T07:01:07.790Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!HTpD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9869f050-d899-4ad5-8338-901a5a49ea3b_3600x1500.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/what-is-the-white-lotus-for&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:160826299,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:166,&quot;comment_count&quot;:18,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "I wanted to start a stream of work where I can focus on short-form ideas and react to media without it being a whole thing. Think of it in terms of stock and flow economics, where this new stream is flow, and standalone posts are stock.",
+ "wordcount": 2380,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "fea09388-7def-4237-a840-390138d1c647",
+   "publication_id": 1470107,
+   "name": "Media Analysis",
+   "slug": "media",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    122.54854368932037,
+    132.45145631067965,
+    122.54854368932037
+   ],
+   "population": 0
+  },
+  "DarkVibrant": {
+   "rgb": [
+    63.7252427184466,
+    68.8747572815534,
+    63.7252427184466
+   ],
+   "population": 0
+  },
+  "LightVibrant": {
+   "rgb": [
+    186.1252427184466,
+    191.2747572815534,
+    186.1252427184466
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    116,
+    124,
+    139
+   ],
+   "population": 608
+  },
+  "DarkMuted": {
+   "rgb": [
+    76,
+    52,
+    68
+   ],
+   "population": 1
+  },
+  "LightMuted": {
+   "rgb": [
+    148,
+    156,
+    148
+   ],
+   "population": 768
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 8,
+ "comment_count": 3,
+ "child_comment_count": 2,
+ "audio_items": [
+  {
+   "post_id": 167306509,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/167306509/tts/0c3aa794-e45f-4247-a915-c31dd02b6872/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 132605064,
+   "body": "I like this format.\n\nI also want to say you've nailed the name of this substack \u2014 couldn't have picked a better one. The meaning of it has come home to me recently. I've had several conversations which have gone almost exactly like this:\n\nPerson: Did you hear about [thing]? People think that [dystopian tech phenomenon] might actually happen.\n\nMe: Yeah, I heard. But I'm pretty sure it's ALREADY HAPPENED.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I like this format."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I also want to say you've nailed the name of this substack \u2014 couldn't have picked a better one. The meaning of it has come home to me recently. I've had several conversations which have gone almost exactly like this:"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Person: Did you hear about [thing]? People think that [dystopian tech phenomenon] might actually happen."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Me: Yeah, I heard. But I'm pretty sure it's ALREADY HAPPENED."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 167306509,
+   "user_id": 325163242,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-07-06T15:03:36.879Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Josh Sewell",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/cf7b9923-345a-4722-bdd5-d8ba0151035c_400x400.jpeg",
+   "handle": "jxshsewell",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 3
+   },
+   "reaction_count": 3,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "jxshsewell",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 8,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "1 reply by Stefan Kelly"
+  },
+  {
+   "id": 132680298,
+   "body": "Re 2:\u00a0I\u00a0don't know if it's already happened, but I\u00a0expect it to: AI child minding. Once a generation grows up interacting with AI, what's crazy now won't be crazy then.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Re 2:\u00a0I\u00a0don't know if it's already happened, but I\u00a0expect it to: AI child minding. Once a generation grows up interacting with AI, what's crazy now won't be crazy then."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 167306509,
+   "user_id": 2449195,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-07-06T19:31:09.901Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "gregvp",
+   "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5a636353-2f7f-4f3f-8519-9d429ebcee61_420x420.png",
+   "handle": "gregvp",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "gregvp",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "gregvp",
+     "id": 2925019,
+     "base_url": "https://gregvp.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

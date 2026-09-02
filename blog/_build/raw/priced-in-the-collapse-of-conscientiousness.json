@@ -1,0 +1,510 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/priced-in-the-collapse-of-conscientiousness",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 169097364,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-08-10T05:00:29.685Z",
+ "updated_at": "2025-08-10T16:12:59.296Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "priced-in-the-collapse-of-conscientiousness",
+ "social_title": "Is Conscientiousness Actually Down?",
+ "subtitle": "people love a graph",
+ "teaser_post_eligible": true,
+ "title": "Priced In: The 'Collapse' of Conscientiousness",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 1,
+ "reactions": {
+  "\u2764": 18
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "love-island-uk-s12-e47-is-a-totally",
+ "next_post_slug": "ai-agents-have-a-trust-value-complexity",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!6-Jz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 169097364,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "people love a graph",
+ "body_html": "<p><em>Priced In is the series where we review some of the week\u2019s research, think pieces and discourses. You can find some previous editions <a href=\"https://alreadyhappened.xyz/p/priced-in-self-sabotage-edition\">here</a> and <a href=\"https://alreadyhappened.xyz/p/priced-in-replication-and-replicants\">here</a>.</em></p><p><em>This week, what does it mean for a population\u2019s personality to change over time, and how not to live in the present.</em></p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!6-Jz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!6-Jz!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!6-Jz!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!6-Jz!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!6-Jz!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!6-Jz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png\" width=\"1456\" height=\"971\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:971,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2476577,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/169097364?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6-Jz!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 424w, https://substackcdn.com/image/fetch/$s_!6-Jz!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 848w, https://substackcdn.com/image/fetch/$s_!6-Jz!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!6-Jz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>I. What happens when conscientiousness goes down?</h1><p><em>(I promise by the end of this conscientiousness isn\u2019t going to sound like a word to you anymore)</em></p><p>From the Financial Times and John Burn-Murdoch comes \u2018<a href=\"https://archive.is/5XUdh#selection-1855.0-1858.0\">The troubling decline in conscientiousness</a>\u2019. Here are the snippets that matter:</p><blockquote><p>\u201cLevels of conscientiousness in the population appear to be in decline. Extending a pioneering 2022 US study which identified early signs of a drop during the pandemic, I found a sustained erosion of conscientiousness (the quality of being dependable and disciplined), with the fall especially pronounced among young adults.</p><p>\u2026</p><p>We can see that people in their twenties and thirties in particular report feeling increasingly easily distracted and careless, less tenacious and less likely to make and deliver on commitments.</p><p>\u2026</p><p>While the terminology of personality can feel vague, the science is <a href=\"https://archive.is/o/5XUdh/https://journals.sagepub.com/doi/10.1177/0022022198291009\">solid</a>. <a href=\"https://archive.is/o/5XUdh/https://pmc.ncbi.nlm.nih.gov/articles/PMC4499872/\">Decades of research</a> consistently finds that all these shifts are in the direction associated with negative outcomes down the line. Life is full of challenges. A less committed, less connected and more easily distressed cohort will navigate them less well.</p><p>..</p><p>Conscientiousness will separate those who just survive from those who thrive in the 21st century.</p></blockquote><p>Questions are:</p><ul><li><p>Is this true?</p></li><li><p>Does this matter?</p></li><li><p>Why is it happening?</p></li></ul><p>For whether it\u2019s true that conscientiousness is down, I\u2019m going to start at the beginning and try to explain what personality is from a scientifically measurable perspective and what conscientiousness is defined as within that perspective. </p><p>When psychology emerges as a (vague) discipline in the 19th century, it\u2019s thought that personality could be deduced from language, i.e. the different types of personality that present in society will be encoded in the words we have to describe other people (e.g. brave, quiet, cynical, dependable etc.). In the mid 20th century, when academic psychology actually starts to pick up, this is done more thoroughly, literally just by reading the dictionary and starting to group the types of adjectives that exist. </p><p>The next couple of decades are spent mapping out these traits by working out how well they predict each other, e.g. if someone is described as \u2018creative\u2019 does that predict they are likely to also be described as \u2018open-minded\u2019. Factor analysis shows you what traits tend to co-vary, and eventually we can tell that there are groups of traits that tend to come together in a reliable enough way for an overall name for that group to mean something. </p><p>So we end up with the Big 5 personality traits. Conscientiousness is one of them, which is now measured by 10ish questions like these:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!zmvA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!zmvA!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 424w, https://substackcdn.com/image/fetch/$s_!zmvA!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 848w, https://substackcdn.com/image/fetch/$s_!zmvA!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 1272w, https://substackcdn.com/image/fetch/$s_!zmvA!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!zmvA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png\" width=\"797\" height=\"130\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/f1fea888-eea7-46b3-9f87-8033edbea642_797x130.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:130,&quot;width&quot;:797,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:122102,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/169097364?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!zmvA!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 424w, https://substackcdn.com/image/fetch/$s_!zmvA!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 848w, https://substackcdn.com/image/fetch/$s_!zmvA!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 1272w, https://substackcdn.com/image/fetch/$s_!zmvA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1fea888-eea7-46b3-9f87-8033edbea642_797x130.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>And then a definition for the overall construct ends up as something like: conscientiousness reflects how organised, reliable, and hardworking a person is. </p><p>But THIS is the important thing to understand: that does not mean that we actually understand what conscientiousness is. We just know that for some reason, some people score higher on these questions than others, and that this predicts some life outcomes. It is entirely possible that there is some other magic question we could ask people that would predict these way more reliably and actually represents what people mean when they say someone is organised and reliable, which perfectly matches something that actually exists neuroscientifically, but there\u2019s no way to tell what that measure would be. </p><p>This is not to say that I don\u2019t think personality research is strong, I do. If you don\u2019t think it\u2019s useful you will be hard pushed to find something within social science that is. But we need some sense about how we talk about psychology in scientific terms. I\u2019m not exaggerating when I say the main reason this article got widely shared is because it has a chart in it, and you can read charts, because you\u2019re a scientist. </p><p>The FT talks about conscientiousness like you could take a blood test and your score on it would be right there beside your iron levels. That isn\u2019t what this is but I don\u2019t think the FT cares. </p><p>HOWEVER there is still a research finding here, so let\u2019s examine that. Here is how the author promotes it:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Huhd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Huhd!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 424w, https://substackcdn.com/image/fetch/$s_!Huhd!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 848w, https://substackcdn.com/image/fetch/$s_!Huhd!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 1272w, https://substackcdn.com/image/fetch/$s_!Huhd!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Huhd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png\" width=\"466\" height=\"526.6703601108034\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:816,&quot;width&quot;:722,&quot;resizeWidth&quot;:466,&quot;bytes&quot;:321592,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/169097364?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Huhd!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 424w, https://substackcdn.com/image/fetch/$s_!Huhd!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 848w, https://substackcdn.com/image/fetch/$s_!Huhd!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 1272w, https://substackcdn.com/image/fetch/$s_!Huhd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eee8b2f-c123-4eb6-a77d-b1039e602912_722x816.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Ok, graph bottom left. Conscientiousness in \u2018freefall\u2019 for young people. I was shocked by this, you don\u2019t get effect sizes like that in psychology ever, so I have looked into it. </p><p>The data is from <a href=\"https://uasdata.usc.edu/index.php\">this</a>:</p><blockquote><p>The Understanding America Study (UAS) is a panel of households at the University of Southern California (USC) of approximately 14,700 respondents, growing to 20,000 by end of 2025 representing the entire United States.</p></blockquote><p>They seem to survey their panel every couple years or so, which is enough data points to map out the trends above. You will see in the small text in the screenshot that for JBM\u2019s graphs, \u2018values are expressed as percentiles of the full population distribution as it stood in 2014\u2019. This is to make the drop look bigger, and fair enough, the game is the game. </p><p>I used their interactive tool to show the trend in terms of the actual average scores. They wouldn\u2019t let me change the axes hence the Y axis still sort of tricking you on the size of the change, and the X axis is a mess.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!nN0T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!nN0T!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 424w, https://substackcdn.com/image/fetch/$s_!nN0T!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 848w, https://substackcdn.com/image/fetch/$s_!nN0T!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 1272w, https://substackcdn.com/image/fetch/$s_!nN0T!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!nN0T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png\" width=\"1200\" height=\"800\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:800,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:116439,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/169097364?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!nN0T!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 424w, https://substackcdn.com/image/fetch/$s_!nN0T!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 848w, https://substackcdn.com/image/fetch/$s_!nN0T!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 1272w, https://substackcdn.com/image/fetch/$s_!nN0T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fd7f71c-ccbc-4c5d-ba12-97efe9690bff_1200x800.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Conscientiousness is measured by 9 5-point Likert scale questions (e.g. I am organised and like to keep things whatever). The top possible score is thus 45. So young people in the last decade have been in \u2018freefall\u2019, from a mean of 35.5ish to a mean 33.5ish. Is that a drop that justifies this tweet?</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Cqc9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Cqc9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 424w, https://substackcdn.com/image/fetch/$s_!Cqc9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 848w, https://substackcdn.com/image/fetch/$s_!Cqc9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 1272w, https://substackcdn.com/image/fetch/$s_!Cqc9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Cqc9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png\" width=\"586\" height=\"236.29032258064515\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:300,&quot;width&quot;:744,&quot;resizeWidth&quot;:586,&quot;bytes&quot;:83850,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/169097364?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Cqc9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 424w, https://substackcdn.com/image/fetch/$s_!Cqc9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 848w, https://substackcdn.com/image/fetch/$s_!Cqc9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 1272w, https://substackcdn.com/image/fetch/$s_!Cqc9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d7fa49b-1124-4322-aec0-3cd767b6dabd_744x300.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>I don\u2019t know if it does, the FT doesn\u2019t know, and <em>neither do personality psychologists</em>.</p><p>Also, as you can tell from those scores across age groups, conscientiousness is not normally distributed. It looks like this:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!4cGw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!4cGw!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 424w, https://substackcdn.com/image/fetch/$s_!4cGw!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 848w, https://substackcdn.com/image/fetch/$s_!4cGw!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 1272w, https://substackcdn.com/image/fetch/$s_!4cGw!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!4cGw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png\" width=\"1440\" height=\"611\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:611,&quot;width&quot;:1440,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:39322,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/169097364?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!4cGw!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 424w, https://substackcdn.com/image/fetch/$s_!4cGw!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 848w, https://substackcdn.com/image/fetch/$s_!4cGw!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 1272w, https://substackcdn.com/image/fetch/$s_!4cGw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b629f75-bd4e-419e-94de-684fcdd36d8f_1440x611.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Most people rate themselves as pretty conscientious, young people are always slightly less conscientious than older groups, but now they are more slightly less conscientious than older groups on average. They are still pretty conscientious.</p><p>On this point, the dramatic language of the FT drives me a little crazy, and brings me back to something I\u2019ve repeated a lot on this blog: there is this weird class of media, read by people with degrees and twitter accounts, who consider themselves informed, and will share this on with captions like \u2018fascinating stuff\u2019, which will then get hyperlinked in other articles and essays as a proof point for some other big argument, and this is all just accepted as truth and no one cares. And worst of all, social scientists want this, because at least it gives them some clout in this era of media. </p><p>And this is where science is not just a useless label for areas like psychology, but is actually <em>worse</em> than useless. Because yes the research papers around conscientiousness are empirical and written in good faith, but once they escape into mainstream media this gets thrown out the window. John Burn-Murdoch posted this data, accompanied by some guesses at causes and consequences of conscientiousness being down in young people, and does say that these are hypotheses, but that doesn\u2019t matter. It is getting re-posted like everything he said is fact, and people chime in with their certain views on exactly what is happening here and what we should think about it. And the reason people think this is ok is because PSYCHOLOGY IS CONSIDERED A SCIENCE. </p><p>Ok, sorry, deep breaths. </p><p>Matt Yglesias posts the picture of the FT\u2019s graph and says \u201c<a href=\"https://x.com/mattyglesias/status/1953804763276923323\">it\u2019s so over</a>\u201d.</p><p>What is? Seriously, what are you specifically trying to say?</p><p>You can say that the conscientiousness levels are alarming but I beg you remember that we don\u2019t really understand what conscientiousness fundamentally is.</p><p>Next issue with the claim, the Understanding America Study starts in 2015. So that\u2019s why the trend graph starts then. But if you have two eyes you can see that the scores immediately go down, so we have no idea when this trend starts (and if you look at my graph, the decline has actually slowed!). No one cares about any of this either. They talk like it starts in 2014 because that\u2019s what JBM and the FT allowed them to believe by showing them the serious looking graph. It could be that the water supply changed in 1999, and conscientiousness was even higher then, and some new chemical has been dragging it down. But it could also be that this new chemical just affects your likelihood of rating your own behaviour highly on certain questions, and the drops in score won\u2019t manifest into differences in long-term outcomes. It\u2019s unlikely but we don\u2019t know. </p><p>This is where I would love to present you with longer term data on conscientiousness scores in the US, but it sadly doesn\u2019t exist to any comparable quality. If you\u2019re reading this and you found it let me know. But as it stands, we don\u2019t know when the trend started. </p><p>So we don\u2019t know when the trend starts or what the outcome of it will be, but it\u2019s still mainstream view of the informed intelligent nuanced-perspective class that \u201cit\u2019s so over\u201d. </p><p>These words don\u2019t mean anything. No one cares.</p><div><hr></div><p>And now, in a hilarious plot twist, I am going to offer my thoughts on the potential causes and consequences of a decrease in conscientiousness in young people.</p><p>Because to be totally clear and to give credit to this piece being justified: going from 35.5 to 33.5 in under a decade is still really weird and worth talking about. As I say, you don\u2019t get effects like this in psychology very often. </p><p>One thing that makes conscientiousness a particularly hard to pin down construct is that it\u2019s kind of different to the rest of the big 5. It is very much a facet of personality, in that you can deduce a conscientious person by the words other people use to describe how they are (dependable, hard-working etc.). But it\u2019s actually quite a bit more behavioural than the other dimensions. </p><p>Take levels of extroversion. This can be spotted from behaviour of course, but we partly still measure it from how someone feels inside, e.g. other people drain me and after 30 mins of socialising I want to go home and die/I need to socialise to survive. </p><p>But conscientiousness is definitionally (in the psychometric sense, not platonic ideal sense) about actions. Do you do the things you tell yourself you are going to do? Do you deliver work with no mistakes because you checked every little detail? Is your room spotless and organised?</p><p>(Crucial: not \u2018do you <em>like</em> your room to be organised\u2019, but what would I see if I walked in there right now?)</p><p>We are verging into my subjective opinion from here on in. </p><p>A reason this predicts big life outcomes is because small actions add up and correlate with your ability to take big actions. </p><p>So we arrive at one of the meta-themes of the blog: agency. </p><p>And while agency and conscientiousness are different things (probably), they still both relate to this more important over-arching thing: your ability to impact the world, and act on your desires. And I am in no way surprised to see this is decreasing in young people and people in general. I suspect this predates the 2015 cutoff. </p><p>It is also not surprising that the FT\u2019s analysis finds an increase in neuroticism in the same groups. This relationship between conscientiousness and neuroticism is reliable. Which should make sense to you. Neuroticism is the depression and anxiety dimension. </p><p>You know when you let a whole week build up of you delaying writing and sending an email, and you internally despair more and more until eventually you have to do it and turns out it was really easy and you feel much better? That is why neuroticism and conscientiousness are reliably inversely correlated. </p><p>This is also why it makes a bit of sense to talk about a decrease in conscientiousness and an increase in neuroticism as though it is one story. And it is a story I\u2019ve been telling over time here, too. </p><p>If you\u2019ve never read this blog before this is going to sound simplistic and crazy, so I\u2019ll link out to the longer thinking as I go. </p><ol><li><p>Modern life forces you to exist in the world of symbols more and more. Treating everything as map rather than territory turns off your ability to cultivate true desire.</p></li></ol><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;c409c0b9-06be-4c32-aef7-a3b807aa525d&quot;,&quot;caption&quot;:&quot;\u2018Even facts become fictions without adequate ways of seeing the facts\u2019&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;She Said I Want Something That I Want&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2024-03-05T13:39:27.363Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!h_At!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea3a99fa-055c-4254-b72a-a5eccb3a0e77_1080x1175.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/she-said-i-want-something-that-i&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:142014157,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:60,&quot;comment_count&quot;:22,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><ol start=\"2\"><li><p>It is very common to give up one\u2019s agency in the world, because it is terrifying to have power, leaving all the power to the ones who retain their agency. But the symbols allow you to pretend this isn\u2019t happening. </p></li></ol><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;ba4bc15e-42d2-46dc-ada9-69954fc6642b&quot;,&quot;caption&quot;:&quot;warning: long&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;How to learn about people in art galleries and smoking areas&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2024-06-19T13:30:20.034Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!uLDm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F831ac400-a4cd-48cb-a796-c0244feb4804_1200x675.jpeg&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/how-to-learn-about-people-in-art&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:142696703,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:66,&quot;comment_count&quot;:9,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><ol start=\"3\"><li><p>Cultural narcissism retains your wish to be unique, while stifling your ability to act on it, resulting in resentment and anxiety, and all your effort being pushed into retaining the false story of you. </p></li></ol><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;d1ac61a8-e54d-4ce8-95d1-d13b243a2180&quot;,&quot;caption&quot;:&quot;happy halloween, we\u2019re so back&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Someone else was in the room where it happened&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2024-10-27T10:01:36.566Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!IAFz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1751411d-f524-4dd1-a8a0-e14aeb781b5d_680x678.jpeg&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/someone-else-was-in-the-room-where&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:147389396,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:227,&quot;comment_count&quot;:16,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><p>To make this all way too simple I would say something like:</p><p>Technology \u2192 individualism </p><p>Economic progress \u2192 media </p><p>Media + individualism \u2192 narcissism</p><p>Narcissism \u2192 inability to act</p><p>Inability to act \u2192 less conscientiousness and more neuroticism</p><p>At the individual level, the consequence is that your life probably won\u2019t be as fun, and you won\u2019t be a force for good in society. </p><p>At the group level, you become at the mercy of those who didn\u2019t suffer the same fate, which is a shit deal. This was kind of the end-point of Lou Keep\u2019s Uruk series back in the day. Modern life offers \u201cfake agency\u201d and symbolic participation, which can\u2019t restore meaning, because meaning is sustained by the feedback loop between belief and effective action. <a href=\"https://alreadyhappened.xyz/p/love-island-uk-s12-e47-is-a-totally\">Running away from the terror of freedom unfortunately doesn\u2019t work</a>. </p><p>In Lou Keep\u2019s thesis, intelligence and agency become necessities for power, hence severe inequality which is destined to get worse. </p><p>This is the real consequence of the data trend the FT noticed.</p><p>I do agree this is cause for concern. The issue is, it\u2019s alr\u2014</p><div><hr></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.alreadyhappened.xyz/subscribe?\"><span>Subscribe now</span></a></p><div><hr></div><h1>II. How not to think about problems</h1><p>I watched the GPT-5 announcement stream this week. I really have no idea who these shows are for anymore. OpenAI have followed the Google I/O model of 50% speaking to you like you are a complete moron who doesn\u2019t know what a computer is, and 50% showing you benchmark scores you\u2019d need a PhD to actually understand the implications of. I think people take away what they want to take away anyway. </p><p>I\u2019ve used GPT-5 a bit. I think it\u2019s noticeably marginally better than any of the previous OpenAI models, and not meaningfully better than Anthropic and Google\u2019s best as it stands for my use cases. </p><p>A couple of interesting reactions:</p><p>First, people being sad that the tone has shifted from GPT-4o, and that their old friend has been murdered and replaced overnight by some cold analyst. I find this an interesting flip on the sycophancy argument. I think Yudkowsky pointed this out well:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Lu2n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Lu2n!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 424w, https://substackcdn.com/image/fetch/$s_!Lu2n!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 848w, https://substackcdn.com/image/fetch/$s_!Lu2n!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 1272w, https://substackcdn.com/image/fetch/$s_!Lu2n!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Lu2n!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png\" width=\"540\" height=\"390.71932299012695\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/68534223-552a-4657-a476-0151c2512cc4_709x513.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:513,&quot;width&quot;:709,&quot;resizeWidth&quot;:540,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Lu2n!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 424w, https://substackcdn.com/image/fetch/$s_!Lu2n!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 848w, https://substackcdn.com/image/fetch/$s_!Lu2n!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 1272w, https://substackcdn.com/image/fetch/$s_!Lu2n!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68534223-552a-4657-a476-0151c2512cc4_709x513.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>I also think this speaks to something we spoke about previously i.e. that many people actually like a medium-high level of sycophancy, so long as it doesn\u2019t become too obvious:</p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;7041515d-7c39-483e-b7b0-845a408fdd79&quot;,&quot;caption&quot;:&quot;I. Concerned girlfriend posts on AI subreddit:&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;The things you don't want to know about yourself&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-05-28T03:08:30.984Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!M0dM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/the-things-you-dont-want-to-know&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:162831813,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:89,&quot;comment_count&quot;:8,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><p>The other reaction I\u2019m interested by is the set of conclusions people are drawing from GPT-5 not being crazy better than GPT-4. I think calling it a slowdown is fair, but the comfort which that offers people may now allow them to live their lives as if AI disruption will never be a problem, which is what they want, see also:</p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;6fcb846d-1d07-4b9b-9d65-5e70dd144045&quot;,&quot;caption&quot;:&quot;warning: borderline chronically online&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;AGI isn't for happy people&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-01-22T08:02:03.873Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!XjcM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa60c52c1-f33a-4f08-bc3b-9ca7973bd1c2_900x720.jpeg&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/agi-isnt-for-happy-people&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:154703257,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:219,&quot;comment_count&quot;:12,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><p>And I think it\u2019s probably really bad that people infer this level of progress as proof of nothing to worry about. I saw Sam Kriss say this:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!LHSc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!LHSc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 424w, https://substackcdn.com/image/fetch/$s_!LHSc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 848w, https://substackcdn.com/image/fetch/$s_!LHSc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!LHSc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!LHSc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg\" width=\"481\" height=\"425.231884057971\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:732,&quot;width&quot;:828,&quot;resizeWidth&quot;:481,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!LHSc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 424w, https://substackcdn.com/image/fetch/$s_!LHSc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 848w, https://substackcdn.com/image/fetch/$s_!LHSc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!LHSc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9adc37ba-0d72-4103-b392-889493cea1d8_828x732.jpeg 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>And I just think, like, do you understand the notion of present and future at all? If the Titanic took off without lifeboats would you say \u201cplease focus on the dangers at hand for God\u2019s sake, there\u2019s a step on the staircase people keep tripping on\u201d? </p><p>Or is there this cognitive shortcut whereby if something bad in the future only has &lt;50% chance of happening, you shouldn\u2019t worry about it? That just guarantees your ship sinks to the first vaguely strange thing that hits it.  </p><p>This is, of course, somewhat psychologically explainable. It was the subject of the first ever post on here:</p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;4917f4bd-04f9-4da3-87ec-dbc8687d0416&quot;,&quot;caption&quot;:&quot;Let\u2019s pretend that six months ago your best friend had a break up.&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Why Making Up for Lost Time is Hard&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2023-11-28T03:33:20.436Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!YS0c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/why-making-up-for-lost-time-is-hard&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:139185750,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:24,&quot;comment_count&quot;:4,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><p>In present day, the fact is that forecasters and researchers still converge at an AGI median arrival date being around 2032, and whatever your definition of AGI is that is a huge deal. Huge isn\u2019t an appropriate adjective but I don\u2019t even know if we have an appropriate one. I honestly feel glad it\u2019s not any sooner because I\u2019m running out of time. </p><p>And for people to look at GPT-5 and say \u201cnah this thing\u2019s busted\u201d, I just find it so unserious, and somewhat scary. I still think it\u2019s highly likely that our governmental and economic system will not be prepared for the shift that will occur, and you will be on your own for the brief period in history where the new order works itself out. The psychology of this, and more respectable people\u2019s thoughts, more precisely mapped out here:</p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;17fa4a67-8e73-4c4c-ba3b-faed2ba22cf3&quot;,&quot;caption&quot;:&quot;I. Health is much more difficult to deal with than disease.&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;There's a reasonable chance that you're seriously running out of time&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-04-28T00:38:33.421Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!SPbO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/theres-a-reasonable-chance-that-youre&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:162230782,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:127,&quot;comment_count&quot;:10,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><p>Again, it just makes me wonder what the promotion and announcements for these models are for. It just seems to reinforce this fundamental miscommunication of AI discourse:</p><ul><li><p>AI sect representative: \u201cGuys this might get to a seriously impressive level in the near <strong>future</strong>, we need to talk about what we are going to do\u201d</p></li><li><p>AI skeptic: \u201cwhat do you mean, this <strong>current</strong> model isn\u2019t going to take over anything\u201d</p></li></ul><p>It\u2019s important to understand that there\u2019s both a present and a future.  </p><div><hr></div><p>Ok we are done here. </p><p>Some recommended links to end the week:</p><p><a href=\"https://www.google.com/search?sca_esv=46b9746b866c6f5c&amp;rlz=1CAMRMS_enGB1045&amp;udm=2&amp;fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeioyp3OhN11EY0n5qfq-zENwnGygERInUV_0g0XKeHGJEwefEKJ1XNp8V3tgIFOgML-dUH9j4VGQfY_QTVhRbeKsmHwnQKaexE8IMLJqjtL_ZwBjXX7Z87sul29qhw_sJvQ1-n9E1vmu6l1xI_-VsrM3qoUyNF1sMqVpbxDdeHV-pQy_QQ&amp;q=peter+birkh%C3%A4user+paintings&amp;sa=X&amp;ved=2ahUKEwi7pduH-v6OAxWkiv0HHZPTJioQtKgLegQIERAB&amp;biw=1796&amp;bih=823&amp;dpr=1.07\">The paintings of Peter Birkh\u00e4user</a></p><p><a href=\"https://www.amazon.co.uk/MASTER-MARGARITA-50th-Anniversary-Classics-Deluxe-ebook/dp/B0DPB11N7B/ref=sr_1_1?crid=2ADUDZCLZDOUH&amp;dib=eyJ2IjoiMSJ9.wBEm7hSGdCFv4fJvWe-InExJ_Tg4MK6-CbRY5MdHf4i27FKKuq-L1UvC-23l1Rp2vAYO864InTrL-_QYI2AaQfUNu95qRO0qyasnrkk5WPHiCps_JvFeegldZwmfEa7WE3sN8GqCVLJiBxhDQObrXbvgD6Z6SAx-b5f04w9PhXVz74_ZVqGMdWkrIV7dnFqdpuWf2rJbu7eJOphbuXNBy9XCF0pwhXpatoZxA82iwBs.rk_IfOTiP4s9rChhYE-PkpWWlVPGxofLXThg9ssopbE&amp;dib_tag=se&amp;keywords=master+and+margarita&amp;qid=1754784732&amp;sprefix=master+and+%2Caps%2C84&amp;sr=8-1\">The Master and Margarita for \u00a30.74 on Kindle</a></p><p><a href=\"https://www.youtube.com/watch?v=qnkDrDeXcNc&amp;pp=ygUVamF5IGVsZWN0cm9uaWNhIGFjdCAy\">Jay Electronica - Act II full album</a></p><p><a href=\"https://x.com/Trail_Cams\">@trail_cams</a></p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "Priced In is the series where we review some of the week\u2019s research, think pieces and discourses. You can find some previous editions here and here.",
+ "wordcount": 3021,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "fea09388-7def-4237-a840-390138d1c647",
+   "publication_id": 1470107,
+   "name": "Media Analysis",
+   "slug": "media",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": {
+  "post_id": 169097364,
+  "starts_at": "2025-08-10T05:00:29.906Z",
+  "ended_at": "2025-08-10T11:00:30.147Z",
+  "planned_duration_ms": 21600000,
+  "test_cohort_percent": 50,
+  "test_cohort_emailed": true,
+  "main_cohort_emailed": true,
+  "created_at": "2025-08-10T03:56:11.452Z",
+  "updated_at": "2025-08-10T11:01:48.988Z",
+  "creator_id": 91963798,
+  "ended_early": false,
+  "winner_overridden": false
+ },
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    63.75,
+    191.25,
+    63.75
+   ],
+   "population": 0
+  },
+  "DarkVibrant": {
+   "rgb": [
+    4,
+    12,
+    4
+   ],
+   "population": 3
+  },
+  "LightVibrant": {
+   "rgb": [
+    155.54999999999998,
+    221.85,
+    155.54999999999998
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    138,
+    124,
+    109
+   ],
+   "population": 186
+  },
+  "DarkMuted": {
+   "rgb": [
+    82,
+    73,
+    62
+   ],
+   "population": 187
+  },
+  "LightMuted": {
+   "rgb": [
+    178,
+    162,
+    145
+   ],
+   "population": 62
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 18,
+ "comment_count": 4,
+ "child_comment_count": 3,
+ "audio_items": [
+  {
+   "post_id": 169097364,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/169097364/tts/ac23261f-cdc6-439a-b620-992661b34e8d/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 143933306,
+   "body": "\"Conscientiousness will separate those who just survive from those who thrive in the 21st century.\"\n\nThe source of the problem is that this is simply not true, and young people are increasingly realizing it.  First, if you aren't already rich or from a rich family, you and your descendants are probably already heading towards being members of the permanent underclass.\n\n2nd, they see the opposite to be true.  Conscientious people get fucked, and all those, EVERY person, at the top is an asshole who used and abused people to get to where they are.\n\nThe first is true because of the intentional designs of the 2nd.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "\"Conscientiousness will separate those who just survive from those who thrive in the 21st century.\""
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "The source of the problem is that this is simply not true, and young people are increasingly realizing it. First, if you aren't already rich or from a rich family, you and your descendants are probably already heading towards being members of the permanent underclass."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "2nd, they see the opposite to be true. Conscientious people get fucked, and all those, EVERY person, at the top is an asshole who used and abused people to get to where they are."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "The first is true because of the intentional designs of the 2nd."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 169097364,
+   "user_id": 49990249,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-08-10T08:39:29.145Z",
+   "edited_at": "2025-08-10T08:41:32.527Z",
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Zorost",
+   "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d5521e13-6c88-4115-8f69-309a537d1a34_1599x1066.png",
+   "handle": "zorost",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "zorost",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Zorost",
+     "id": 2986939,
+     "base_url": "https://zorost.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 2,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "1 reply"
+  },
+  {
+   "id": 144920721,
+   "body": "Fascinating stuff, I'll tweet it at John Burns-Murdoch and Matt Y.\n\nNo seriously, I like essays like this where I think I have ten or twenty minute's reading, then I middle-click the links and I realise I now have a couple of hours' reading to do.  Thanks!\n\nEdit. How well controlled are these time series? There is a thing related to the Paradox of Choice here. The paradox being, the more choices we are aware that we have, the harder it is to make a choice - the opportunity costs go up with choice. Women in villages, with only a few dozen men from whom to choose, marry younger than those in cities, who see thousands of men every day on the streets.\n\nI think this is a related effect.  Being aware of a greater number of people and seeing more and more \"superstars\". Over time, everyone is seeing more and more exemplars, exceptional people in one respect or another on social media, and so I think that self-reported conscientiousness (or any other self-reported attribute) would tend to go down over time for that reason alone.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Fascinating stuff, I'll tweet it at John Burns-Murdoch and Matt Y."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "No seriously, I like essays like this where I think I have ten or twenty minute's reading, then I middle-click the links and I realise I now have a couple of hours' reading to do. Thanks!"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Edit. How well controlled are these time series? There is a thing related to the Paradox of Choice here. The paradox being, the more choices we are aware that we have, the harder it is to make a choice - the opportunity costs go up with choice. Women in villages, with only a few dozen men from whom to choose, marry younger than those in cities, who see thousands of men every day on the streets."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I think this is a related effect. Being aware of a greater number of people and seeing more and more \"superstars\". Over time, everyone is seeing more and more exemplars, exceptional people in one respect or another on social media, and so I think that self-reported conscientiousness (or any other self-reported attribute) would tend to go down over time for that reason alone."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 169097364,
+   "user_id": 2449195,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-08-13T06:23:04.005Z",
+   "edited_at": "2025-08-13T06:30:46.676Z",
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "gregvp",
+   "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5a636353-2f7f-4f3f-8519-9d429ebcee61_420x420.png",
+   "handle": "gregvp",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "gregvp",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "gregvp",
+     "id": 2925019,
+     "base_url": "https://gregvp.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

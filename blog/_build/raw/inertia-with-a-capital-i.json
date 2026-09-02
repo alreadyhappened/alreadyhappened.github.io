@@ -1,0 +1,381 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/inertia-with-a-capital-i",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 140085825,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2023-12-31T09:00:42.175Z",
+ "updated_at": "2025-04-27T20:33:15.556Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "inertia-with-a-capital-i",
+ "social_title": null,
+ "subtitle": "Behavioural science and individualism",
+ "teaser_post_eligible": true,
+ "title": "Inertia with a capital 'I'",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 1,
+ "reactions": {
+  "\u2764": 5
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "the-for-you-everything",
+ "next_post_slug": "the-status-quo-is-dead-long-live",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!0aJs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 140085825,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Behavioural science and individualism",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!0aJs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!0aJs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 424w, https://substackcdn.com/image/fetch/$s_!0aJs!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 848w, https://substackcdn.com/image/fetch/$s_!0aJs!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 1272w, https://substackcdn.com/image/fetch/$s_!0aJs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!0aJs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png\" width=\"732\" height=\"600\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:600,&quot;width&quot;:732,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:799377,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!0aJs!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 424w, https://substackcdn.com/image/fetch/$s_!0aJs!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 848w, https://substackcdn.com/image/fetch/$s_!0aJs!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 1272w, https://substackcdn.com/image/fetch/$s_!0aJs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>(This is part 3 of a 4 part deep-dive into the interactions between self-identity and technology. Part 1 <a href=\"https://alreadyhappened.xyz/p/youre-even-more-on-your-own-from\">here</a> and part 2 <a href=\"https://alreadyhappened.xyz/p/the-for-you-everything\">here</a>)</p><div><hr></div><h3>I started this all by saying that everyone wants to know what the differences between generations are. </h3><p><strong>The next interesting question is what do different generations think of </strong><em><strong>each other</strong></em><strong>.</strong> </p><p>There were two big examples of inter-generational beef that a lot of people talked about last year. As a reader, I\u2019m making you a solo jury to work out what\u2019s going on. </p><p>Ready?</p><p>Case one.</p><p>Exhibit A: Here\u2019s a stressed out Gen Z.</p><div id=\"tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40brielleybelly123%2Fvideo%2F7291443944347405614&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"tiktok-wrap outer\" data-attrs=\"{&quot;url&quot;:&quot;https://www.tiktok.com/@brielleybelly123/video/7291443944347405614&quot;,&quot;title&quot;:&quot;im also getting sick leave me alone im emotional ok i feel 12 and im scared of not having time to live&quot;,&quot;thumbnail_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d95442e3-412c-477e-afa4-f4080738e936_1080x1920.jpeg&quot;,&quot;author&quot;:&quot;BRIELLE&quot;,&quot;embed_url&quot;:&quot;https://cdn.iframe.ly/api/iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40brielleybelly123%2Fvideo%2F7291443944347405614&amp;key=e27c740634285c9ddc20db64f73358dd&quot;,&quot;author_url&quot;:&quot;https://www.tiktok.com/@brielleybelly123&quot;,&quot;belowTheFold&quot;:true}\" data-component-name=\"TikTokCreateTikTokEmbed\"><iframe id=\"iframe-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40brielleybelly123%2Fvideo%2F7291443944347405614&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"tiktok-iframe\" src=\"https://cdn.iframe.ly/api/iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40brielleybelly123%2Fvideo%2F7291443944347405614&amp;key=e27c740634285c9ddc20db64f73358dd\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media\" allowfullscreen=\"\" scrolling=\"no\" loading=\"lazy\"></iframe><iframe src=\"https://team-hosted-public.s3.amazonaws.com/set-then-check-cookie.html\" id=\"third-party-iframe-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40brielleybelly123%2Fvideo%2F7291443944347405614&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"third-party-cookie-check-iframe\" style=\"display: none;\" loading=\"lazy\"></iframe><div class=\"tiktok-wrap static\" data-component-name=\"TikTokCreateStaticTikTokEmbed\"><a href=\"https://www.tiktok.com/@brielleybelly123/video/7291443944347405614\" target=\"_blank\"><img class=\"tiktok thumbnail\" src=\"https://substackcdn.com/image/fetch/$s_!n7r6!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd95442e3-412c-477e-afa4-f4080738e936_1080x1920.jpeg\" style=\"background-image: url(https://substackcdn.com/image/fetch/$s_!n7r6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd95442e3-412c-477e-afa4-f4080738e936_1080x1920.jpeg);\" loading=\"lazy\"></a><div class=\"content\"><a class=\"author\" href=\"https://www.tiktok.com/@brielleybelly123\" target=\"_blank\">@brielleybelly123</a><a class=\"title\" href=\"https://www.tiktok.com/@brielleybelly123/video/7291443944347405614\" target=\"_blank\">im also getting sick leave me alone im emotional ok i feel 12 and im scared of not having time to live</a></div></div><div class=\"fallback-failure\" id=\"fallback-failure-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40brielleybelly123%2Fvideo%2F7291443944347405614&amp;key=e27c740634285c9ddc20db64f73358dd\"><div class=\"error-content\"><img class=\"error-icon\" src=\"https://substackcdn.com//img/alert-circle.svg\" loading=\"lazy\">Tiktok failed to load.<br><br>Enable 3rd party cookies or use another browser</div></div></div><p>And here\u2019s the person that <a href=\"https://twitter.com/Jason/status/1717223739295715633\">made everything kick off</a> at the time:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!geFI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!geFI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 424w, https://substackcdn.com/image/fetch/$s_!geFI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 848w, https://substackcdn.com/image/fetch/$s_!geFI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 1272w, https://substackcdn.com/image/fetch/$s_!geFI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!geFI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png\" width=\"609\" height=\"79\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:79,&quot;width&quot;:609,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:19661,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!geFI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 424w, https://substackcdn.com/image/fetch/$s_!geFI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 848w, https://substackcdn.com/image/fetch/$s_!geFI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 1272w, https://substackcdn.com/image/fetch/$s_!geFI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a67d3b-6b2b-4e10-95be-c6eb3131af64_609x79.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>Ok, court\u2019s in session.</p><p>The evidence: This girl is miserable. She\u2019s having a bad time. Undeniably.</p><p>Plaintiff (her): She\u2019s forced to enter a workforce where a disproportionate amount of time is spent earning money to enjoy the life she has no time to live.</p><p>Defendant (him): She has a victim mindset that\u2019s turned an ordinary situation into a tragedy. </p><p>Before you rush to a judgement, I did lie a bit about your role. </p><p>I genuinely don\u2019t care who you believe is guilty. Just take a moment to notice the difference between the two explanations. </p><p>The bad thing is happening to her. She blames it on something <em>external</em> to her (i.e. the system, the \u2018rules\u2019). He blames it on something <em>internal</em> to her (i.e. her character). Let\u2019s agree it\u2019s hard to call. </p><p>Court dismissed. Bring in the second case. </p><div id=\"tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40fitnesswithalison%2Fvideo%2F7280712734843538734&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"tiktok-wrap outer\" data-attrs=\"{&quot;url&quot;:&quot;https://www.tiktok.com/@fitnesswithalison/video/7280712734843538734&quot;,&quot;title&quot;:&quot;somebody, anybody..make it make sense. #servinglife #serving #collegedegree #debt #brokeasf #servelife #server #mentalhealth &quot;,&quot;thumbnail_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/dd8674a9-56a3-487c-95f4-f1cb98b02714_1080x1920.jpeg&quot;,&quot;author&quot;:&quot;ALISON JOHNSON | FITNESS&quot;,&quot;embed_url&quot;:&quot;https://cdn.iframe.ly/api/iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40fitnesswithalison%2Fvideo%2F7280712734843538734&amp;key=e27c740634285c9ddc20db64f73358dd&quot;,&quot;author_url&quot;:&quot;https://www.tiktok.com/@fitnesswithalison&quot;,&quot;belowTheFold&quot;:true}\" data-component-name=\"TikTokCreateTikTokEmbed\"><iframe id=\"iframe-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40fitnesswithalison%2Fvideo%2F7280712734843538734&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"tiktok-iframe\" src=\"https://cdn.iframe.ly/api/iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40fitnesswithalison%2Fvideo%2F7280712734843538734&amp;key=e27c740634285c9ddc20db64f73358dd\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media\" allowfullscreen=\"\" scrolling=\"no\" loading=\"lazy\"></iframe><iframe src=\"https://team-hosted-public.s3.amazonaws.com/set-then-check-cookie.html\" id=\"third-party-iframe-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40fitnesswithalison%2Fvideo%2F7280712734843538734&amp;key=e27c740634285c9ddc20db64f73358dd\" class=\"third-party-cookie-check-iframe\" style=\"display: none;\" loading=\"lazy\"></iframe><div class=\"tiktok-wrap static\" data-component-name=\"TikTokCreateStaticTikTokEmbed\"><a href=\"https://www.tiktok.com/@fitnesswithalison/video/7280712734843538734\" target=\"_blank\"><img class=\"tiktok thumbnail\" src=\"https://substackcdn.com/image/fetch/$s_!zOhg!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd8674a9-56a3-487c-95f4-f1cb98b02714_1080x1920.jpeg\" style=\"background-image: url(https://substackcdn.com/image/fetch/$s_!zOhg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd8674a9-56a3-487c-95f4-f1cb98b02714_1080x1920.jpeg);\" loading=\"lazy\"></a><div class=\"content\"><a class=\"author\" href=\"https://www.tiktok.com/@fitnesswithalison\" target=\"_blank\">@fitnesswithalison</a><a class=\"title\" href=\"https://www.tiktok.com/@fitnesswithalison/video/7280712734843538734\" target=\"_blank\">somebody, anybody..make it make sense. #servinglife #serving #collegedegree #debt #brokeasf #servelife #server #mentalhealth </a></div></div><div class=\"fallback-failure\" id=\"fallback-failure-tiktok-iframe?media=1&amp;app=1&amp;url=https%3A%2F%2Fwww.tiktok.com%2F%40fitnesswithalison%2Fvideo%2F7280712734843538734&amp;key=e27c740634285c9ddc20db64f73358dd\"><div class=\"error-content\"><img class=\"error-icon\" src=\"https://substackcdn.com//img/alert-circle.svg\" loading=\"lazy\">Tiktok failed to load.<br><br>Enable 3rd party cookies or use another browser</div></div></div><p>And a <a href=\"https://twitter.com/HeroDividend/status/1715358569174802904\">viral response</a>:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!OlSC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!OlSC!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 424w, https://substackcdn.com/image/fetch/$s_!OlSC!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 848w, https://substackcdn.com/image/fetch/$s_!OlSC!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 1272w, https://substackcdn.com/image/fetch/$s_!OlSC!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!OlSC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png\" width=\"618\" height=\"211\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:211,&quot;width&quot;:618,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:45276,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!OlSC!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 424w, https://substackcdn.com/image/fetch/$s_!OlSC!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 848w, https://substackcdn.com/image/fetch/$s_!OlSC!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 1272w, https://substackcdn.com/image/fetch/$s_!OlSC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6f57537-57a7-488d-a6ea-ac7d5de2aa74_618x211.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>The evidence: She has paid $80,000 dollars to learn how to be a marketer. Her expectation was to have started a career by now, and this hasn\u2019t been met. </p><p>Plaintiff: She\u2019s been lied to. She was told that a degree held a lot of value. Her job prospects now tell her something else.</p><p>Defendant: She\u2019s entitled, you can\u2019t just expect the things you want in life. Grow up and work it out. </p><p>Again, work out your own opinion, but note the difference source in explanations. </p><div><hr></div><p>The thing is, we\u2019re extraordinarily good at coming up with reasons and causes of stuff. In a previous post, I noted how much of our capacity for reason is to generate rationalisations for things we already see and believe, and that we have become really good at that. </p><p>But how we explain the behaviour of <em>other people</em> is more complicated than that. As I see it, <a href=\"https://en.wikipedia.org/wiki/Attribution_(psychology)\">Attribution Theory</a> is the most important starting point for understanding this, and observes the fact that explanations of behaviour fall into two buckets: internal and external. </p><p>But more relevant to popular behavioural science conversations, is the biased reasoning with which we choose to allocate these buckets of reason to the things we see ourselves and other people get up to. This is called <strong><a href=\"https://online.hbs.edu/blog/post/the-fundamental-attribution-error\">The Fundamental Attribution Error</a></strong>. I often feel like that\u2019s too dramatic a name. </p><p>It goes like this: The Fundamental Attribution Error refers to the tendency to attribute <em>another's actions to their character or personality</em>, while attributing <em>our own behaviour to external situational factors outside of our control</em>. In other words, you tend to cut yourself a break for getting screwed over, while holding others 100 percent accountable for their actions.</p><p>This is Psych 101 (literally). And I\u2019m obviously not being subtle in implying it applied to both of the online debates caused by the TikToks above. But what does it have to do with identity?</p><p>Harvard Business School tell me this:</p><blockquote><p>\u201cThe fundamental attribution error exists because of how people perceive the world. While you have at least some idea of your character, motivations, and situational factors that affect your day-to-day, you rarely know everything that's going on with someone else.\u201d</p></blockquote><p>My hypothesis is that this is incomplete. \u2018You rarely know everything that\u2019s going on with someone else\u2019. I agree. Rarely. But sometimes you can get pretty close. So tell me, how is it that this bias still exists in <a href=\"https://www.psychologytoday.com/gb/blog/growing-friendships/202303/a-one-syllable-word-that-could-improve-your-relationships\">long-term</a> <a href=\"https://shareok.org/handle/11244/13394\">romantic</a> <a href=\"https://www.proquest.com/openview/ae762f407d1af4d94da3671970e1ea26/1?pq-origsite=gscholar&amp;cbl=18750\">relationships</a>? If your initial response to that relates to the character of the people in those relationships, you see the irony, right?</p><p>There is a secondary purpose here, which <em>almost</em> gets captured by the related <a href=\"https://thedecisionlab.com/biases/self-serving-bias\">self-serving bias</a>:</p><blockquote><p>\u201c<strong>The self-serving bias describes when we attribute positive events and successes to our own character or actions but blame negative results on external factors unrelated to our character.</strong> The self-serving bias is a common cognitive bias that is often compared to the <a href=\"https://thedecisionlab.com/biases/fundamental-attribution-error\">fundamental attribution error</a>.\u201d </p></blockquote><p>What that is missing is how you apply this to other people i.e. the inverse i.e. what fundamental attribution error said. But it gets this next bit right, to paraphrase Decision Lab:</p><blockquote><p>Researchers have identified different reasons why the self-serving bias occurs so frequently among individuals.</p><h5><strong>1. Self-Esteem</strong></h5><p>The self-serving bias serves as a maintenance or enhancement mechanism for our self-esteem. By attributing our successes to our own characteristics and our failures to external circumstances, we spare ourselves any real opportunity for criticism. </p><h5><strong>2. Self-Presentation</strong></h5><p>Self-presentation describes how an individual conveys information about themselves to others. Self-presentation aids individuals in maintaining their self-esteem, as they are affected by how others perceive them.</p></blockquote><p>But once we get here, neither idea goes far enough. </p><div><hr></div><p>What they don\u2019t explain is that there is another self-serving bias. When you reason in a self-serving manner, and use the character of others as an explanation for their misery, something else is operating in self-serving away. Something a bit more hidden.</p><p>Can you see what it is?</p><div><hr></div><p>Think more about the two TikToks. Both Gen Z TikTokers garnered huge support for their causes in their comment sections. But on a different platform, Twitter, the demographic is much older. And they <em>hated </em>these girls. </p><p>On an individual level, the above ideas can explain each person\u2019s action. Gen Z think Gen X have designed a messed up economic equilibrium. Gen X think Gen Z are whiny. Everyone gets to think their generation is superior. </p><p>This next bit is the important bit, and the reason I bring up any of this at all. <strong>The individual psychological effect of attribution error/self-serving bias is certainty in yourself. But what is the aggregate psychological effect? What happens when everyone is prone to thinking that way? What gets reinforced?</strong></p><p>It\u2019s the status quo. It\u2019s the \u2018system\u2019. It\u2019s the culture you have helped create, and understand your place in. No wonder behavioural scientists discovered inertia was such a powerful force. </p><p>Why does a gen Xer not want to listen to the possibility that paying 80k for a Marketing degree that doesn\u2019t get you anywhere is a waste of money and time? I\u2019m suggesting part of it is that it forces them to question way more than they are comfortable with. And, crucially, <em>even if they agreed</em> that the college degree made no sense for her to do, the self-serving response is \u2018well then she shouldn\u2019t have applied to go!\u2019. </p><p>Why is that self-serving too? Think about the blame. When a high school student is nearing graduation and wondering how they are going to go about life, and they pick college, why have they arrived at that conclusion? Who told them that was the best play? It wasn\u2019t her classmates, they\u2019d never been to college either, how the hell could they know? The answer <em>is </em>older generations. And by dunking her on twitter, they collectively ditch any accountability for the manoeuvre, and guess who the only individual benefiting from that exchange is. </p><p><strong>By reinforcing the story you tell yourself over who you are, the system that allowed you to build that story in the first place (or worse, sold it to you) digs its roots further in the soil.</strong></p><p>A full decade ago, legendary anon blogger The Last Psychiatrist took this analysis a step further. For this, you\u2019re required to now think about a hypothetical scenario where this marketing grad <em>didn\u2019t</em> have a back up plan. That she\u2019s the <a href=\"https://thelastpsychiatrist.com/2012/11/hipsters_on_food_stamps.html\">hipster on food stamps</a>, who is now getting paid with your tax money as a consequence of her degree that didn\u2019t pay off, and is causing people to get really mad at NYT articles about her. TLP:</p><blockquote><p>\u201cFact: college is a waste, but we haven't yet hit that point in society where we can bypass it.&nbsp; So we have to pass through another generation of massive college debt.&nbsp; How to pull in the suckers in?&nbsp; Answer: these articles.&nbsp; By getting you to say, \"these hipsters should be able to get jobs because they are college graduates!\" you are saying, \"college is worth something.\"&nbsp; It isn't.&nbsp; But by directing your hate towards hipsters, you are protecting the system against change.\u201d</p></blockquote><p>Change articles to tweets. Change hipsters to Gen Z. There\u2019s your 2023 stand-off. There\u2019s a system still protecting itself. <strong>And there\u2019s your other self-serving bias.</strong> </p><p>And that\u2019s another generation paying 80k for a degree that doesn\u2019t help them get anywhere. Another generation, that even if they get a job, only gets four hours of free time per day. </p><p>I hope it was worth the certainty it gave you.</p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened! Subscribe for free to support, or send a link to this to one person.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "(This is part 3 of a 4 part deep-dive into the interactions between self-identity and technology. Part 1 here and part 2 here)",
+ "wordcount": 1543,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+   "publication_id": 1470107,
+   "name": "Psychology",
+   "slug": "psychology",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    214,
+    55,
+    22
+   ],
+   "population": 299
+  },
+  "DarkVibrant": {
+   "rgb": [
+    92,
+    28,
+    13
+   ],
+   "population": 345
+  },
+  "LightVibrant": {
+   "rgb": [
+    204,
+    148,
+    109
+   ],
+   "population": 139
+  },
+  "Muted": {
+   "rgb": [
+    116,
+    125,
+    132
+   ],
+   "population": 348
+  },
+  "DarkMuted": {
+   "rgb": [
+    80,
+    50,
+    39
+   ],
+   "population": 326
+  },
+  "LightMuted": {
+   "rgb": [
+    218,
+    195,
+    183
+   ],
+   "population": 342
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 5,
+ "comment_count": 3,
+ "child_comment_count": 1,
+ "audio_items": [
+  {
+   "post_id": 140085825,
+   "voice_id": "en-GB-OllieMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/140085825/tts/4b2e9ee0-5f2d-4dd8-810e-e3e34ffe967b/en-GB-OllieMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 68956257,
+   "body": "IMHO the examples are not the best for people living outside the US, but it's not hard to \"translate\" them to similar scenarios.\n\n> how we explain the behaviour of other people is more complicated than that. \nThere is an exercise I like to do that is kind of the opposite of \"putting yourself in other people's shoes\": it's \"putting someone you dislike in your shoes\". The idea is to imagine someone you dislike doing something you have done and analyse what you would think of that person. I call it reverse-empathy and it is revealing how it changes the story :).",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "IMHO the examples are not the best for people living outside the US, but it's not hard to \"translate\" them to similar scenarios."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "> how we explain the behaviour of other people is more complicated than that."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "There is an exercise I like to do that is kind of the opposite of \"putting yourself in other people's shoes\": it's \"putting someone you dislike in your shoes\". The idea is to imagine someone you dislike doing something you have done and analyse what you would think of that person. I call it reverse-empathy and it is revealing how it changes the story :)."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 140085825,
+   "user_id": 12557430,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2024-09-14T05:45:36.934Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "RJV",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/96901614-59df-4008-a4a0-b068d4334831_180x180.jpeg",
+   "handle": "crul",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "crul",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "2 replies by Stefan Kelly and others"
+  }
+ ]
+}

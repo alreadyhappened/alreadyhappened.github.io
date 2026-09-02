@@ -1,0 +1,467 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/priced-in-self-sabotage-edition",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 168479459,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-07-17T00:30:49.748Z",
+ "updated_at": "2025-07-17T00:31:46.193Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "priced-in-self-sabotage-edition",
+ "social_title": null,
+ "subtitle": "why do bad things keep happening to me",
+ "teaser_post_eligible": true,
+ "title": "Priced In: Self-sabotage edition",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 4,
+ "reactions": {
+  "\u2764": 24
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "priced-in-replication-and-replicants",
+ "next_post_slug": "love-island-uk-s12-e47-is-a-totally",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!Q77s!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg",
+ "cover_image_is_square": true,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 168479459,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "why do bad things keep happening to me",
+ "body_html": "<p><em>This is the second edition of my shorter form round-up of media artefacts. Last week\u2019s issue <a href=\"https://alreadyhappened.xyz/p/priced-in-replication-and-replicants\">here</a>.</em></p><p><em>This week, dads who hate their kids, psychologists who hate their doubters, and kids who hate partying. </em></p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Q77s!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Q77s!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Q77s!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Q77s!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Q77s!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Q77s!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg\" width=\"608\" height=\"608\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1456,&quot;width&quot;:1456,&quot;resizeWidth&quot;:608,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;May be art of 1 person&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"May be art of 1 person\" title=\"May be art of 1 person\" srcset=\"https://substackcdn.com/image/fetch/$s_!Q77s!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Q77s!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Q77s!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Q77s!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>I. How to make yourself hateful</h1><p>Guy posts to r/daddit, the subreddit for dads, see what you make of it:</p><blockquote><h4><strong>I feel awful for posting this, but I just don't enjoy being with my kids</strong></h4><p>So for context I have a 3 and 5 YO, and am recently separated so parenting solo when I have them (50/50).</p><p>I'm just not enjoying my time with them, having the childless time feels so great and I honestly dread when its my turn to have them. Its exhausting, frustrating, and annoying. I find myself just wanting to get through the day until they are in bed instead of trying to just enjoy the moment with them.</p><p>My 5YO's personality just annoys me. She whines, complains, screams, resists, argues, gets easily frustrated and doesn't listen.</p><p>The 3YO has so many cute moments, giving me hugs and saying I love you. But also screams, resists and has now become such a picky eater.</p><p>When I'm playing with them I'm constantly looking at the clock and resisting looking at my phone, telling them daddy is going to sit down and they have to play by themselves. They are starting to play together but inevitably after like 30 sec start fighting/screaming and hitting.</p><p>I'm doing my best to hide it, stay positive with them, encourage them and listen but I've noticed my general attitude is just negative. I try to redirect, offer choices or rewards for good behavior but also yell at them and say how frustrated I am. When I do yell or act obviously overwhelmed, I always follow up taking account for my attitude and apologize but I feel like I do it so much they are learning they can act how ever they want as long as its followed by an apology which I'm afraid just teaches emotional manipulation.</p><p>Apparently I'm able to fake it around my friends and family as everyone always tells me how good of a dad I am. But I feel like I'm hiding some kind of secret behind closed doors.</p><p>I know how they are acting is age appropriate, and these are hard ages in general. But it breaks my heart that I can\u2019t enjoy them during this phase. Am I just not a toddler/little kid dad? Do some of us just thrive at older ages?</p></blockquote><p>I only saw this because a user cross-posted it to the recently reviving r/thelastpsychiatrist, where they offered their response. I\u2019ve edited it down quite a bit:</p><blockquote><p>I'm going to save you some time and will be blunter than I would IRL. </p><p>Point one, your kids are acting out because they are experts on cause and effect with dad, and this is the most surefire way to get attention. If they were getting enough attention from dad, they wouldn't feel compelled to act out at all.</p><p>Point two, the model for how your kids will interpret the world is built brick by brick from their interactions with their parents. Moral, interpersonal, romantic, all of it is learned through the framework of your relationship.</p><p>Finally, point 3. So what is the problem?</p><p>Look at your words. You're not asking for advice on how to help them be happier, more content, less outbursts.</p><p>So then the question is - what are you asking for? Why post this? Question - what did you expect the responses to be? Did you, in your heart of hearts, post this expecting a step-by-step breakdown of ways to improve, to change, not just for yourself but, more importantly, for the people around you? Because the title of this post\u2014</p><blockquote><p>I feel awful for posting this, but I just don\u2019t enjoy being with my kids.</p></blockquote><p>Which of course reveals the problem - you didn't come here for your kids - you didn't even come here for self-improvement, IE ways to change to prevent things like, say, your kids hating you, divorce, etc. You came here to <em>feel better about what you're doing</em>.</p><p>To the point: you came here to be told not to change, because that's what you were going to do already.</p></blockquote><p>OK, I\u2019m in dodgy territory here. I think straight up saying that to him is harsh and unproductive, and largely ignores the fact that parenting is tough as hell. But I do still think it\u2019s worth talking about. So please consider everything I\u2019m about to say as us interpreting a story together to see what we can learn about being more useful people, and not as a criticism of that person. </p><p>Hating family members is very taboo, but also very prevalent. The most taboo relationship of all is the parent who resents their children, and has since the day they were born. But they are out there. It may just be that anonymous online forums are the only place those parents will ever admit to it. </p><p>Issue 1, less immediately relevant to you or I: This is really bad for the world. If you hate your kids, you\u2019ll be less of a good parent, which will make them worse, which will make you hate them more, which lead you to letting them out into the world the first chance you get, which will lead them being a nuisance to everyone else, and no one else liking them either.</p><p>Issue 2, highly relevant to you and everyone you know, and perhaps the most important advice I have ever given on this blog: this is a story of how you can get your unconscious confused with the external world, for your own short-term gain and long-term destruction. </p><p>The reddit analyst said this: \u201cTo the point: you came here to be told not to change, because that's what you were going to do already.\u201d But the more important thing is that this is already what he was doing the whole time. </p><p>Let\u2019s flip it to child-parent and the most common point of conflict: moody adolescence. </p><p>The story goes like this: 17 year old thinks they are smart and mature enough to live independently. They\u2019re sick of their parents ordering them around all the time and trying to define who they are. They demand to be seen as an adult, and the denial of that leads to depression and anxiety and a lot of slammed doors. </p><p>They do, of course, have a point. They are smart. They\u2019re smarter than their parents about loads of stuff. They probably have talent, and drives, and desires, and just want to go pursue them. </p><p>The question then is, and this is vital to understand: if they are so upset at their parents failing to see them as an adult, then why don\u2019t they just act like one and see if that works?</p><p>Why the sulking, why the shutting down, why the slammed doors and silent treatment? Why the acting like a child even though that is the exact thing you claim you don\u2019t want to be perceived as?</p><p>Because that causes the exact reaction from the parents that allows one to continue hating them for not treating you like you wanted to be treated. You, and you alone, are creating the very outcome you say you don\u2019t want, so you can continue the narrative in which you\u2019ve done nothing wrong and don\u2019t have to change. </p><p>See this all the time in adult life too. The cliched girl who goes back to the wrong guy, the office worker who leaves mistakes in their work so they can complain about how nit-picky their boss is. </p><p>Anyway, the reddit Dad gives it all away here: </p><blockquote><p>I'm just not enjoying my time with them, having the childless time feels so great and <strong>I honestly dread when its my turn to have them. Its exhausting, frustrating, and annoying</strong>. I find myself just wanting to get through the day until they are in bed instead of trying to just enjoy the moment with them.</p><p>My 5YO's personality just annoys me. She wines, complains, screams, resists, argues, gets easily frustrated and doesn't listen.</p><p>I'm doing my best to hide it, stay positive with them, encourage them and listen but <strong>I've noticed my general attitude is just negative. I try to redirect, offer choices or rewards for good behavior but also yell at them and say how frustrated I am</strong>. When I do yell or act obviously overwhelmed, I always follow up taking account for my attitude and apologize but I feel like I do it so much they are learning they can act how ever they want as long as its followed my an apology which I'm afraid just teaches emotional manipulation.</p></blockquote><p>Before he hangs out with them he has decided it is going to be exhausting, frustrating, and annoying. Then when something goes wrong, as they tend to with toddlers, he yells and tells <em>the kid</em> how frustrated he is. No wonder he finds his 5 year-old annoying. How could she not be? She\u2019s being put into the situation where he has no choice but be interpreted that way.</p><p>Classic Greek theatre tells this story in multiple ways. You can\u2019t escape your fate, just so long as you make every possible decision that guarantees it. </p><p>So maybe stop telling yourself stories about your own life. Until then, you are destined to play out the exact ending you claim not to want. </p><p><em>\u201cWhen Laius and Jocasta were told that Oedipus would eventually destroy them, they pinned his ankles and abandoned him in the woods, ensuring that he'd someday have cause to do it. And so when Narcissus's parents heard the requirements for their child's long life... they would have done everything possible to ensure that he didn't know himself.\u201d</em></p><div><hr></div><h1>II. Should you turn your AC on and destroy the planet?</h1><p>Saw this one from Nature over the weekend:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!4RJ7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!4RJ7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 424w, https://substackcdn.com/image/fetch/$s_!4RJ7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 848w, https://substackcdn.com/image/fetch/$s_!4RJ7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 1272w, https://substackcdn.com/image/fetch/$s_!4RJ7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!4RJ7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png\" width=\"1002\" height=\"557\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:557,&quot;width&quot;:1002,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:87688,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/168479459?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!4RJ7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 424w, https://substackcdn.com/image/fetch/$s_!4RJ7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 848w, https://substackcdn.com/image/fetch/$s_!4RJ7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 1272w, https://substackcdn.com/image/fetch/$s_!4RJ7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a5fe7f-2e61-4bb4-8fdf-ee0e09a7983a_1002x557.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Everyone knows <a href=\"https://www.conspicuouscognition.com/p/misinformation-researchers-are-wrong\">Dan Williams is the guy</a> for the job here, so I\u2019ll try to point out something he hasn\u2019t already. </p><p>Some key quotes:</p><blockquote><p>Around four billion people have the opportunity to cast their votes in a series of major elections this year. However, the threat to democratic integrity posed by misinformation and disinformation looms large. An effective democracy relies on evidence-based discourse and informed citizens.</p><p>Some critics, even in the scholarly community, have claimed that concerns related to the spread of misinformation reflect a type of \u2018moral panic\u2019. They think that the threat has been overblown; that classifying information as false is generally problematic because the truth is difficult to determine; and that countermeasures might violate democratic principles because people have a right to believe and express what they want. This trend must be reversed.</p></blockquote><p>Made me think of a remark Dan did make the other day, about a Guardian article over whether air conditioning is justified in the face of climate crisis:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!EYEo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!EYEo!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 424w, https://substackcdn.com/image/fetch/$s_!EYEo!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 848w, https://substackcdn.com/image/fetch/$s_!EYEo!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 1272w, https://substackcdn.com/image/fetch/$s_!EYEo!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!EYEo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png\" width=\"747\" height=\"770\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/acc58015-7a94-4954-a287-306fb8526e6a_747x770.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:770,&quot;width&quot;:747,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:397784,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/168479459?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!EYEo!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 424w, https://substackcdn.com/image/fetch/$s_!EYEo!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 848w, https://substackcdn.com/image/fetch/$s_!EYEo!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 1272w, https://substackcdn.com/image/fetch/$s_!EYEo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc58015-7a94-4954-a287-306fb8526e6a_747x770.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>\u201cIt\u2019s a thought-terminating clich\u00e9 that prevents people from thinking about the topic in a careful, evidence-based way.\u201d Yes exactly, that is the point of it. That\u2019s why it\u2019s available for you to read. That\u2019s what highbrow media is for. That\u2019s why researchers like those behind the Nature article, despite being well-intentioned, get used by outlets like the Guardian. So they can justify a headline that becomes truth among the well-read class. </p><p>My point to the Nature psychologists is this: the criticism is barely about your methods and results, it is about what you <em>allow</em> the media to do with them. </p><p>Joseph Heath writes about this too. \u201c<a href=\"https://josephheath.substack.com/p/highbrow-climate-misinformation\">Highbrow misinformation</a>\" is misinformation spread by and among educated elites (university professors, academics, prestigious media) rather than the general public. It's characterised by a sophisticated presentation where accurate information is buried but framed misleadingly, causing readers to misinterpret the data. </p><p>I pretty much agree, but to be honest, none of this is really my point. Maybe my desk fan is killing us all. Maybe it\u2019s not. My point is how power actually works, and how you are at risk of it working on you. </p><p>This Lou Keep quote from 2017 is one of the most important you will ever read, especially if you are evidently the type to spend time in places like substack:</p><blockquote><p>The problem with elites is that they\u2019re smarter than the average rube, and they know it, which is why they\u2019ll never get the point. They\u2019re smarter because they <em>do</em> read the journals the periodicals and the magazines. They\u2019re \u201cinformed\u201d. But being informed means no filter, i.e. direct from the prop machine. Which means that <em>they are prime propaganda territory, not Joe the Plumber.</em></p><p>If you are an elite (you are) I want you to sit and think about that last line very hard, possibly for forever, and if you don\u2019t understand it then <em>never ever try and have any more power than you already do, you will fuck this world up otherwise.</em></p></blockquote><p>Now check out this quote from Nature again: \u201cSome critics, <em><strong>even in the scholarly community</strong></em>, have claimed that\u2026\u201d</p><p>Think about them adding that clause. Consider that they don\u2019t think it\u2019s embarrassing to claim that the scholarly community demands some mythical respect. Maybe truth isn\u2019t difficult to determine if you have a Prof. before your name. </p><p>Consider how \u2018This must be reversed\u201d is written as an order. To you. The <em>intelligent</em> reader. That respects the scholarly community. That knows what is right and what cannot be questioned. You must stop the brainwashed non-scholarlies. Go now. March. </p><p>So as a starting point, the next time you\u2019re angry at someone because of a piece of media, ask these:</p><ol><li><p>What do I believe that makes me feel this way?</p></li><li><p>Who told me those things that I believe?</p></li><li><p>Why did they tell me that?</p></li></ol><p><em>Further reading:</em></p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;a2cb52b8-ae49-46cf-bfbf-a643b7448a2e&quot;,&quot;caption&quot;:&quot;Back to the long posts after this one. Going to be fun. Sorry for the wait.&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;What is The White Lotus for?&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-04-08T07:01:07.790Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!HTpD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9869f050-d899-4ad5-8338-901a5a49ea3b_3600x1500.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/what-is-the-white-lotus-for&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:160826299,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:172,&quot;comment_count&quot;:19,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div><hr></div><h1>III. Why aren\u2019t people partying in the USA?</h1><p>Derek Thompson joined Substack and posted this:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!bAoX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!bAoX!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 424w, https://substackcdn.com/image/fetch/$s_!bAoX!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 848w, https://substackcdn.com/image/fetch/$s_!bAoX!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 1272w, https://substackcdn.com/image/fetch/$s_!bAoX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!bAoX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png\" width=\"1073\" height=\"652\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:652,&quot;width&quot;:1073,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:358917,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/168479459?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!bAoX!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 424w, https://substackcdn.com/image/fetch/$s_!bAoX!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 848w, https://substackcdn.com/image/fetch/$s_!bAoX!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 1272w, https://substackcdn.com/image/fetch/$s_!bAoX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a676f39-f7f1-48b9-81b5-f324c6042572_1073x652.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>I truly hope he never discovers this blog because the amount of times I\u2019ve criticised him is getting out of control. But in any case, this is important, and speaks also to the last point on what you want the media to tell you. </p><p>Thompson asks why partying is way down in America, with barely anyone going to one on any given weekend. In figures:</p><ul><li><p>Only 4.1% of Americans attended or hosted a party on a typical weekend in 2023 (just 1 in 25 households)</p></li><li><p>Between 2003-2024, time spent at social events declined 50% overall</p></li><li><p>Young people (15-24) saw the steepest drop at 70%</p></li><li><p>This fits into a broader \"Anti-Social Century\" trend where Americans spend more time alone than ever before</p></li></ul><p>Three of the causes he implies are:</p><ol><li><p><strong>Television and Screens:</strong> TV displaced social activities starting in the mid-20th century. People who called TV their \"primary entertainment\" engaged less in virtually all social activities.</p></li><li><p><strong>Smartphones and Social Media:</strong> These haven't eliminated social connection but \"warped\" it. Americans maintain contact with family (inner ring) and online communities (outer ring) while the \"middle ring\" of local community has atrophied. We know online personalities better than neighbors.</p></li><li><p><strong>Decline in Teen Drinking:</strong> For the first time since 1975, fewer than 50% of high school seniors have ever had alcohol (compared to 90%+ in 1989). While health benefits exist, this may reduce social gathering motivations.</p></li></ol><p>This is, <a href=\"https://alreadyhappened.xyz/p/priced-in-replication-and-replicants\">again</a>, treating symptom rather than disease.</p><p>I won\u2019t bore you with over-explaining. Here\u2019s what he\u2019s not asking: why are those alternatives appealing enough to lead to less time socialising? Why don\u2019t teens want to drink? Or dance? Or hook up?</p><p>Sitting on their screens at home will obviously increase alongside that, what else are they going to be doing? This whole article is a tautology.</p><p>The real issue is cultural narcissism. Resulting in an inability and fundamental disinterest in connection. Or put it this way, media forcing a completed identity onto you, that doesn\u2019t <em>need</em> you to go out into the world to complete itself. Resulting in you not really wanting to do, well, anything. </p><p>If people wanted to party, they would. The phones are actually pretty useful for organising it. </p><p>But that\u2019s not a comforting narrative. Hence, Derek Thompson. </p><p><em>Further reading:</em></p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;3eb1e507-683c-41bc-995f-11bc38f8b0f3&quot;,&quot;caption&quot;:&quot;\u2018Even facts become fictions without adequate ways of seeing the facts\u2019&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;She Said I Want Something That I Want&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2024-03-05T13:39:27.363Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!h_At!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea3a99fa-055c-4254-b72a-a5eccb3a0e77_1080x1175.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/she-said-i-want-something-that-i&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:142014157,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:57,&quot;comment_count&quot;:22,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;b38b0dab-15de-4525-b1cd-b3aae09743c4&quot;,&quot;caption&quot;:&quot;0. Mark Zuckerberg, on the Dwarkesh Podcast this week, when asked about people starting to use AI for friends, romantic partners, therapists et cetera:&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Zuck's friendship numbers don't add up&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:91963798,&quot;name&quot;:&quot;Stefan Kelly&quot;,&quot;bio&quot;:&quot;Behaviour, culture, technology.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-05-05T02:34:39.945Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!ybWk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://alreadyhappened.xyz/p/zucks-friendship-numbers-dont-add&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:162826087,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:34,&quot;comment_count&quot;:2,&quot;publication_id&quot;:null,&quot;publication_name&quot;:&quot;Already Happened&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Fdfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p><p><em>Some points of admin for recurring readers who made it this far:</em></p><ol><li><p><em>I have a lot of posts inbound. Some straight up phil and psych. Probably less direct current events and media chat, which I will reserve for this series. </em></p></li><li><p><em><strong>The numbers of people reading and interacting are also way up</strong>, which I\u2019m very grateful for. We also just have such a cool group of people here now, the level of comments and messages I receive is very high. Impressively low amounts of angry, crazy people. This is making me think of expanding even more now that we have a strong group of us to work with (I don\u2019t mean $$$). Any ideas let me know. </em></p></li><li><p><em>Re: this series, I\u2019m thinking of not emailing them out when I post these, because I don\u2019t wanna annoy anyone\u2019s inbox with \u2018light\u2019 material. Is it even more annoying not to do it and just have it show up in the substack app? I find the in-app inbox to also be pretty bad, which is a con of its own. I also know there\u2019s a set of readers who don\u2019t actually use substack in itself, and just read the emails, but I don\u2019t know how to work out what % that is. </em></p></li></ol>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "This is the second edition of my shorter form round-up of media artefacts. Last week\u2019s issue here.",
+ "wordcount": 2929,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "fea09388-7def-4237-a840-390138d1c647",
+   "publication_id": 1470107,
+   "name": "Media Analysis",
+   "slug": "media",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    197.04545454545453,
+    150.68181818181816,
+    57.95454545454546
+   ],
+   "population": 0
+  },
+  "DarkVibrant": {
+   "rgb": [
+    102.46363636363635,
+    78.35454545454544,
+    30.136363636363647
+   ],
+   "population": 0
+  },
+  "LightVibrant": {
+   "rgb": [
+    230,
+    210,
+    170
+   ],
+   "population": 56
+  },
+  "Muted": {
+   "rgb": [
+    150,
+    146,
+    110
+   ],
+   "population": 396
+  },
+  "DarkMuted": {
+   "rgb": [
+    79,
+    68,
+    44
+   ],
+   "population": 70
+  },
+  "LightMuted": {
+   "rgb": [
+    197,
+    192,
+    154
+   ],
+   "population": 483
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 24,
+ "comment_count": 4,
+ "child_comment_count": 2,
+ "audio_items": [
+  {
+   "post_id": 168479459,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/168479459/tts/82a4979e-a8a4-46a1-879e-b97d03cefe60/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 136037160,
+   "body": "Great piece. I actually prefer getting the email because that way I will be notified and will read it all in one go and I will usually never notice my subscriptions new blogs when I\u2019m on the app, unless they actively promote it on a note (bc of the horribly unintuitive home page & hacky algorithms substack have).",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Great piece. I actually prefer getting the email because that way I will be notified and will read it all in one go and I will usually never notice my subscriptions new blogs when I\u2019m on the app, unless they actively promote it on a note (bc of the horribly unintuitive home page & hacky algorithms substack have)."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 168479459,
+   "user_id": 27139098,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-07-17T00:59:34.784Z",
+   "edited_at": "2025-07-17T01:01:08.799Z",
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Tom",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/0295d8af-a6a6-4e2c-9717-a9dfe1cd4fc5_826x824.png",
+   "handle": "hyperstitional",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 4
+   },
+   "reaction_count": 4,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "hyperstitional",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Tom",
+     "id": 3431588,
+     "base_url": "https://hyperstitional.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 9,
+   "children_count": 2,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "2 replies by Stefan Kelly and others"
+  },
+  {
+   "id": 136107076,
+   "body": "That Lou Keep quote is \ud83d\udd25\ud83d\udd25\ud83d\udd25.  \n\nI'm questioning my own emotional reaction to it, because damn if it didn't hit me in the feels. Which then led me down another rabbit hole with Michele Foucault: \"There is no power relation without the correlative constitution of a field of knowledge, nor any knowledge that does not presuppose and constitute at the same time, power relations.\"\n\nThanks for getting me to stop and question everything. \ud83e\uddd0\ud83d\udd0d",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "That Lou Keep quote is \ud83d\udd25\ud83d\udd25\ud83d\udd25."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I'm questioning my own emotional reaction to it, because damn if it didn't hit me in the feels. Which then led me down another rabbit hole with Michele Foucault: \"There is no power relation without the correlative constitution of a field of knowledge, nor any knowledge that does not presuppose and constitute at the same time, power relations.\""
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Thanks for getting me to stop and question everything. \ud83e\uddd0\ud83d\udd0d"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 168479459,
+   "user_id": 316279049,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-07-17T08:04:22.564Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Alyssa Schindler",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/cf0b08cc-3a3d-46b8-ac34-72520e7a2aa1_1000x1000.png",
+   "handle": "theboundlessmindproject",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 2
+   },
+   "reaction_count": 2,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "theboundlessmindproject",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "The Boundless Mind Project",
+     "id": 4077870,
+     "base_url": "https://theboundlessmindproject.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 10,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 10,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 3,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

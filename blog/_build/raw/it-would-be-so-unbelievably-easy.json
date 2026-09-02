@@ -1,0 +1,450 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/it-would-be-so-unbelievably-easy",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 172041133,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-08-27T01:28:58.535Z",
+ "updated_at": "2025-08-27T02:15:04.479Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "it-would-be-so-unbelievably-easy",
+ "social_title": null,
+ "subtitle": "so let's just make a bill and hand it to them",
+ "teaser_post_eligible": true,
+ "title": "It would be so unbelievably easy to solve London's nightlife policy mess",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 4,
+ "reactions": {
+  "\u2764": 20
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "ai-agents-have-a-trust-value-complexity",
+ "next_post_slug": "summerisoverjpg",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!wXQy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 172041133,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "so let's just make a bill and hand it to them",
+ "body_html": "<p><em>if you\u2019re not from London you can still read this and treat it as a case study in the psychology of managed decline, which i know many people are currently interested in</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!wXQy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!wXQy!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 424w, https://substackcdn.com/image/fetch/$s_!wXQy!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 848w, https://substackcdn.com/image/fetch/$s_!wXQy!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!wXQy!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!wXQy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg\" width=\"1456\" height=\"963\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:963,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;The Beginning and the End: Exmouth Market, A Street That Feels Like Home -  Roar News&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"The Beginning and the End: Exmouth Market, A Street That Feels Like Home -  Roar News\" title=\"The Beginning and the End: Exmouth Market, A Street That Feels Like Home -  Roar News\" srcset=\"https://substackcdn.com/image/fetch/$s_!wXQy!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 424w, https://substackcdn.com/image/fetch/$s_!wXQy!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 848w, https://substackcdn.com/image/fetch/$s_!wXQy!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!wXQy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>I. The city that <s>never</s> sleeps</h1><p>London has a great sleeping pattern. Better than mine. Better than most of its residents. And it\u2019s acquired that skill where it can unconsciously hit the snooze button on any attempt to bring some life into it. </p><p>It has one of the greatest underground rail networks in the world, with most of the good bits running all night on Friday and Saturday. It\u2019s a wondrous feat of engineering and metropolitan life. But the night tube is running for basically no reason. Most people are in bed by midnight anyway. </p><p>Summer is over in London now. I\u2019ve seen through most of my twenties here. I love the place. But I\u2019ve just realised I managed to go through all of its prime months this year without spending a single night in Central. My friends and I stay East or North, mostly, where the pubs are still fun and packed, and there will always be some event on it\u2019s more of a 5am type of evening. </p><p>But even in those areas of the city where some sense of night life being retained, if you leave your house at 10pm or later, that is your only option. Most pubs can open until 11pm or so, and the minority with later licenses are then packed out as everyone converges into the smaller amount of choice. And if your only option from there is to go all-in, I\u2019m not surprised many fold their cards there and go home. If the pub isn\u2019t your thing, cocktail bars are quieter but will charge you more than you made that week. </p><p>If you just wanted to catch up with a friend a bit later, there\u2019s nowhere you can grab a coffee or tea in peace. If you want to hang out with friends or a date over food, you better have a reservation earlier than 8:30. These establishments have to play to the same rules as pubs do. Basically, it\u2019s your bedtime, it\u2019s best you leave now. </p><p>This is insanely striking when you do venture in the middle of the city. London is famed for its pub culture, which tourists and visitors are eager to try out, before the last order bell rings just as they\u2019re getting into the swing of it. The idea may be that the economy functions so that pub patrons turn into nightclub goers, but the city\u2019s clubs have been closing because there\u2019s no one there to walk into to them. </p><p>If you\u2019re vibing with your friends and think it\u2019d be nice to sit down and eat before parting ways, you can\u2019t. Everywhere will be shut, except McDonald\u2019s and Kebab Shops. It is impossible to get an actual meal in London later than 9:30pm. When you take into account there should tens of thousands of people around the city at that time for <em>other</em> reasons (later work shifts, students, tourists who\u2019ve spent the day sightseeing, people who don\u2019t drink alcohol, people who\u2019ve been to see shows), you start to realise that this is actually complete madness and an utter failure in running a city. </p><p>The non-existence of pubs and restaurants past a certain time also leads to every other kind of service closing, because the city isn\u2019t functioning in a way that it makes sense for them to stay open on their own. Which then repeatedly puts an individual who lives here into all kind of weird spots. </p><p>We live in one of the biggest and most developed cities in the world, yet you can\u2019t go to a pharmacy at nighttime? Even if you\u2019re willing to pay some arbitrarily small amount of money to use a public toilet, they don\u2019t exist. You ever go to cities in Asia and they have those arcades that stay open and families and teens go and have a great time at the weekend? They don\u2019t exist here. Supermarkets? Closed. Cafes? Closed. </p><p>Summer is also the time of day festivals, one of London\u2019s strong points. Victoria, Brockwell and Gunnersbury Park and their various branded festivals get genuinely great line-ups year after year. So again you reap the benefits of living in one of the biggest cities. </p><p>That is, until 10:30pm, when most festivals have their curfew. And the headline act? You can barely hear them. London festivals have to play at a lower decibel than other major cities, so chances are that if you\u2019re stuck beside a chatty person, you\u2019re hearing them over the acts past a certain point in the evening. And when everyone piles out at 10:30, you probably make it to a pub by 11pm. Time for one drink. Then move somewhere that opens later. Everyone does the same thing. It\u2019s so packed you can barely talk to your friends in there. </p><p>This is madness. But if you do manage to stay out for a few hours longer, some of the tubes will still be running.</p><p>Fixing this would of course create a true nighttime economy that would pay back the government in tax and economic growth, but it\u2019s also important because I increasingly think young people in London are just getting a pretty shit deal in general. Salaries have stagnated and the housing situation is dire, meaning most people are spending more than half of their income on their rent and don\u2019t save at all. And if you are unlucky enough to lose your job, the current job market numbers are pretty terrifying (and those numbers will always be playing catch-up on reality). Yet even if you are willing to put up with all that, the city increasingly has little to offer you as a benefit. </p><p>Sadiq Khan and the Labour government can talk all they want about London being a 24/7 city. But it isn\u2019t, and they\u2019re not trying to change this. So I looked into why they are failing. </p><p>In the process, I have learned a few things:</p><ol><li><p>The last couple of decades has seen every anti-nightlife decision that could be made, be made</p></li><li><p>Khan and Starmer have attempted literally nothing that would actually solve these problems</p></li><li><p>It would actually be really easy to solve them</p></li></ol><p>Let\u2019s begin.</p><h1>II. How London\u2019s nightlife policy works</h1><p><em>trigger warning: bureaucracy</em></p><p>Generally speaking, if you are a pub/bar in London, you can get a licence to serve alcohol until 11pm. Given that you actually have to shut your doors immediately after this, it makes most sense to stop serving at 10:30pm ish. This is clearly ridiculous on the weekend, so you check what your options are. </p><p>You find out you can apply to get a late licence to stay open until 2:30. You acknowledge that this isn\u2019t even that late, but are still grateful for the opportunity. </p><p>You find out it\u2019s not like parliament are in charge of this, and it\u2019s not even the mayor\u2019s job to deal with this stuff. It\u2019s the job of the borough/local council. You go through an arduous process of forms where you have to find the right bizarre legal language to state your case for exactly what you are looking to do down to the nearest nitty gritty detail. </p><p>It is approximately now that you wish you never even bothered. Here\u2019s what you\u2019ll find out on Google:</p><p>The cornerstone of nightlife regulation in England and Wales is the Licensing Act 2003. Implemented in 2005, the Act was a landmark piece of legislation that consolidated six disparate licensing regimes and, crucially, transferred licensing powers from magistrates' courts to local councils. It\u2019s intent was to actually encourage flexible opening hours, as now everyone was able to apply to extend their Premise Licence, and foster a more relaxed, European-style \"caf\u00e9 culture\".</p><p>However, once you read the thing, you would honestly need to be very naive and, dare I say, stupid, to think that this would be the result the Act actually created. </p><p>Now that local authorities make the decision, any changes in licences under the Act must be made with a view to promoting four equally weighted licensing objectives:</p><ol><li><p>The prevention of crime and disorder</p></li><li><p>Public safety</p></li><li><p>The prevention of public nuisance</p></li><li><p>The protection of children from harm </p></li></ol><p><em>(You\u2019ll be shocked by how often these four things are going to come up throughout this)</em></p><p>So now, as a pub owner applying for a late licence, you realise you have to somehow claim that your pub opening later is somehow managing to: prevent crime, keep the public safe, prevent public nuisances, and somehow also protecting children from harm.</p><p>It is completely off the table that it might be a good idea for bars and restaurants to open later just because it would be a good thing that people enjoy living in one of the biggest cities in the world. This is clearly crazy. </p><p>The next thing you learn about is that London has something called Cumulative Impact Zones (CIZs). CIZs are areas where councils are claiming that the number and density of licensed premises are already having a negative cumulative impact on <em>one or more of the four licensing objectives</em>. Once an area is deemed a CIZ, late licences can be denied by default. </p><p>CIZs in London currently include areas of Soho and the West End, Shoreditch, Brick Lane, and Southbank. So in London\u2019s busiest nightlife spots, which are already failing as nightlife spots, you pretty much can\u2019t get a late license no matter who you are and even if you do manage to meet all their crazy criteria. </p><p>This is failure by design.</p><p>I totally understand that the amount of places that apply for licences makes it so from a numbers perspective, it\u2019s easier to let the local authorities handle their own requests. This makes sense in theory. But in reality, this system is essentially broken. Or to be more accurate, it\u2019s entirely functional, in that it\u2019s goal is to make it as hard as possible for any business to operate after dark in London. </p><h1>III. A real case study in trying to get a late licence in London</h1><p><em>I promise you\u2019ll want to stay for the punchline of this</em></p><p>You can find examples of businesses applying for late licences online. I don\u2019t really know why but they are up there. The first example I found is a bar called Sophie\u2019s, <a href=\"https://westminster.moderngov.co.uk/documents/s41792/21%2000317%20LIPV%20Report_Redacted.pdf\">you can read it all here if you\u2019d like</a>. </p><p>At the time of application, Sophie\u2019s is a bar that wants to stay open an hour and a half later. Here\u2019s their request:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!44L7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!44L7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 424w, https://substackcdn.com/image/fetch/$s_!44L7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 848w, https://substackcdn.com/image/fetch/$s_!44L7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 1272w, https://substackcdn.com/image/fetch/$s_!44L7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!44L7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png\" width=\"387\" height=\"216\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:216,&quot;width&quot;:387,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:59080,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/172041133?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!44L7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 424w, https://substackcdn.com/image/fetch/$s_!44L7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 848w, https://substackcdn.com/image/fetch/$s_!44L7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 1272w, https://substackcdn.com/image/fetch/$s_!44L7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F072a49d7-7005-4ddb-8842-fbb8ccd87c58_387x216.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>To any person that enjoys leaving the house and going out, 2:30 is not that late. Maybe on a Monday.</p><p>The first thing Westminster council say back:</p><blockquote><p>As a responsible authority under section 13 (4) of the Licensing Act 2003 as amended under the Police and Social Responsibility Act 2011 the Licensing Authority have considered your application in full. The Licensing Authority has concerns in relation to this application and how the premises would promote the Licensing Objectives: </p><ul><li><p>Public Nuisance </p></li><li><p>Prevention of Crime &amp; Disorder </p></li><li><p>Public Safety </p></li><li><p>Protection of Children from harm</p></li></ul></blockquote><p>Yep, I wasn\u2019t lying, this is actually how that Law was written up. </p><p>They then say this, I\u2019ll bold the important bits:</p><blockquote><p><strong>The premises is located within the West End Cumulative Impact Zone</strong> and as such, a number of policy points must be considered namely CIP1, MD1, PB1 and HRS1. </p><p>In the opening paragraphs of the Council's Cumulative Impact Policy CIP1, it is stated that \"<strong>It is the Licensing Authority\u2019s policy to refuse applications within the West End Cumulative Impact Zone for pubs and bars</strong>, fast food premises, and music and dancing and similar entertainment, other than applications to vary the hours within core hours under policy HRS1, and/or vary the licence to reduce the overall capacity of the premises.\u201d Policy point D5 states \u201c<strong>The retention of people late at night contributes to the cumulative impact. This arises from reduced levels of late night transport, existence of facilities such as quick service restaurant and take away outlets that encourage people to stay on after other licensed premises have closed. This can attract criminals to the area who wish to target visitors who may be vulnerable due to alcohol, drugs or a lack of knowledge of the city (e.g. tourists).\u201d</strong> Currently the condition 41 on the premises licence states \u201cThe sale of alcohol must be ancillary to the use of the premises for music and dancing or substantial refreshment.\u201d As a result, policy MD1 will need to be considered in relation to the basement. <strong>Whilst Music and dance venues are an important part of London\u2019s entertainment offer, the provision of music and dancing, especially with loud amplified music, and the large numbers of people attending venues and congregating outside them, can lead to concerns over public nuisance and in some cases crime and disorder.</strong></p></blockquote><p>We cannot give you a licence because something bad could maybe potentially happen because sometimes bad things happen at night time. </p><p>So what? Why should we all ever leave the house lest one of us gets robbed? </p><p>You know how cities usually handle crime and disorder? A police force. Why don\u2019t we get one of those that functions beyond 10pm too?</p><p>I will admit you can tend to forget that this is possible in London given the current state of petty crime. However, Sadiq Khan did recently show me a graph with a line going down so I guess my concerns there can be packaged off for now. </p><p>Speaking of the police, the absurdity of the Sophie\u2019s case somehow doesn\u2019t end there. The other thing that happens when you apply for a late licence is that a 28-day \u2018consultation period\u2019 opens. Your application gets advertised (on-site notice + in a local paper). And then police, residents, and other \u201cresponsible authorities\u201d can object. People in the UK love to object to stuff, and the UK is the world leader in listening to them. </p><p>After the Westminster council\u2019s issues with Sophie\u2019s wanting to stay open later comes the police\u2019s:</p><blockquote><p>I am writing to inform you that the Metropolitan Police, as a Responsible Authority, is objecting to this application as it is our belief that if granted this application would undermine the Licensing Objectives. </p><p>The venue is located in the West End Cumulative Impact Area, a locality where there is traditionally high levels of crime and disorder. We have concerns that this application will cause further policing problems in an already demanding area.</p></blockquote><p>So I have the media telling me I\u2019m reactionary for suggesting crime might be an issue in super safe London, then I have the police saying a bar can\u2019t stay open an hour later because the area is already on the brink of barbarism. </p><p>There are then somewhere between 5 and 10 other parties who have had their responses published. As far as I can tell, these are just local people, here\u2019s one:</p><blockquote><p>The extended opening hours which Sofie's is asking would be hugely disruptive to the community, and above all to the pertaining families living nearby to Great Windmill street and the pertaining streets around Sofie's. </p><p><strong>The local school kids which reside on Great Windmill street and attend the local school 'Soho Parish', would find sleeping an impossibility.</strong> The area would be even more noisy than it currently is, (when not in lockdown), teamed with cabs and rickshaws blaring horns and music alike, after pubs and bars and clubs close for the evening. </p><p>It would be a living nightmare for the families and the elderly and teenagers and people who get up early for work, who make Soho the vibrant community it is. The focus is not about extending, but in culling the ones we currently have to a reasonable hour. <strong>To safeguard the community and not jeopardise the family spirit of Soho. I hope you take this in consideration.</strong></p></blockquote><p>\u2018The kids would find sleeping an impossibility\u2019 would be the funniest sentence I\u2019ve read this year if it wasn\u2019t so mind-numbingly frustrating. Sophie\u2019s are accused of \u2018jeopardising the family spirit of the area\u2019.</p><p>Ok, here\u2019s the set-up:</p><ul><li><p>This application for Sophie\u2019s to move from 1am closing time to 2:30am closing time was made in 2021.</p></li><li><p>In August 2025, Sophie\u2019s still has a closing time of 1am.</p></li></ul><p>And, finally, your punchline:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!5Bzv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!5Bzv!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 424w, https://substackcdn.com/image/fetch/$s_!5Bzv!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 848w, https://substackcdn.com/image/fetch/$s_!5Bzv!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 1272w, https://substackcdn.com/image/fetch/$s_!5Bzv!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!5Bzv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png\" width=\"1198\" height=\"697\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:697,&quot;width&quot;:1198,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:668395,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/172041133?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!5Bzv!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 424w, https://substackcdn.com/image/fetch/$s_!5Bzv!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 848w, https://substackcdn.com/image/fetch/$s_!5Bzv!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 1272w, https://substackcdn.com/image/fetch/$s_!5Bzv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae4adb2-e118-4515-938b-4cfa338c7ce2_1198x697.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Sophie\u2019s is so central you honestly wouldn\u2019t believe it. That\u2019s Picadilly Circus just below it. That\u2019s Leicester Square just to the right. </p><p>That responder said this \u2018The extended opening hours which Sofie's is asking would be hugely disruptive to the community, and above all to the pertaining families living nearby to Great Windmill street and the pertaining streets around Sofie's.\u2019</p><p>You. Live. In. The. Centre. Of. Soho. </p><p>There is no family spirit of Soho. You literally live in the nightlife area of Central London. </p><p>And these people win these cases, because they have the same aims as the police and the councils. So nothing could ever possibly change. </p><p><a href=\"https://westminster.moderngov.co.uk/documents/s54406/2303793LIPN%203%20-%205%20Soho%20Street%20Report%20Redacted.pdf\">Here is another random case I found</a> from 2023. This time it\u2019s a new business applying for a new licence, only until midnight, rather than a current business applying for the later one. And the exact same stuff happens. Council says it doesn\u2019t match its bizarre criteria, because how could it? And a load of residents also turn up in the doc to say they don\u2019t want it to happen. </p><p>I\u2019m not invalidating the fact that a late bar opening next door would be annoying for any given person, but it\u2019s part of the deal of living in a city, and if you hear out every single person that pipes up, you get a city that dies at 11pm even on the weekend, and everyone loses. </p><p>This is either a cowardly way to run a city, or just fully negligent. Probably a bit of both.</p><h1>IV. This is related to a larger, fundamental issue with how the UK is being run</h1><p>Namely: Decision-makers do not want anything to happen ever. We are running out of agency. It doesn\u2019t take an extended dance with the civil service or local authorities to feel this. </p><p>The theme of bureaucracy dragging everything to a halt is felt by anyone trying to change anything, even those with actual nominal power. This is the scary part. </p><p>Keir Starmer\u2019s been in office for over a year, and the main reason his government have barely done anything they said they\u2019d do isn\u2019t because they lied about their plans, it\u2019s because they\u2019ve realised the UK is designed for inertia. The paperwork required to build a road is often longer than the road. This isn\u2019t a joke. </p><p>We are massively falling behind on energy, paying for it more than any comparable country, but won\u2019t build any new plants because it\u2019s easy to come up with an environmental reason not to. </p><p>If you don\u2019t believe it from me, take it from Labour Together, a think-tank supplying policy ideas to the government, who have just put out <a href=\"https://www.labourtogether.uk/all-reports/britains-bottlenecks\">this report on why everything gets bottle necked in Britain</a>. </p><p>This quote is long but so important to understand this country, especially when you consider it is people with power saying this:</p><blockquote><p>Britain\u2019s centralised, administrative state has much less capacity and capability than it should. Most of the services it tries to deliver or changes it tries to make happen slowly and poorly. </p><p>Politicians and the civil service turn to regulation and regulators as a first resort, leading to process inflation that further embeds sclerosis. This has made it increasingly difficult for the state or industry to get things done. </p><p>Britain\u2019s economy is less dynamic as a result, just when we need it to power increased living standards. </p><p>This lack of capacity and Britain\u2019s tendency to use regulation as a first resort have major consequences. For Nationally Significant Infrastructure Projects, average consenting times rose from 2.6 years in 2012 to 4.2 years in 2021; documentation runs to tens of thousands of pages, and 58% of decisions end up in court. </p><p>The Infrastructure and Projects Authority rates most major programmes Amber or Red, signalling low confidence they will hit time, cost and outcome targets. Companies wait up to 15 years to be connected to the grid. </p><p>Even with Labour\u2019s greater will on planning reform, we are still moving slowly. We have now spent two decades talking about a third runway at Heathrow and expect it to take at least a further 10 years to actually build it. Yet we built Heathrow\u2019s first runway in one year in the 1940s. </p><p>Britain hasn\u2019t completed a reservoir in 30 years, but Manchester used to build them by itself. West Yorkshire will only break ground on its new tram just before the next election.</p></blockquote><p>So what\u2019s the equivalent period been like for London nightlife? </p><p>The Licensing Act came into law in 2005, and I could\u2019ve told you then how badly it was going to go. So what attempts have been made to turn the trend around?</p><p>It was 2016 that Sadiq Khan decided it was time to employ a nightlife czar, Amy Lame. Her reign came to an end eight years later, having seen around 1/3 of late night venues close down, and opening hours not changing at all. As far as I can tell, she didn\u2019t really achieve anything.</p><p>In fact, in 2023, she said: \u201cLicensing is the responsibility of borough councils but I continue to work with councils to encourage them to be more business-friendly.\u201d</p><p>This is the heart of the agency issue I mentioned earlier. We don\u2019t actually try to change anything in the UK. </p><p>You\u2019re encouraging the councils to be more business friendly? You are the one with power! Why are you <em>encouraging</em> them?</p><p>Not to worry, it\u2019s 2025 and Sadiq Khan has a new version of the same thing: a nightlife \u2018taskforce\u2019. They were announced in March 2025. It is now almost September 2025 and they haven\u2019t produced a single thing for me to even react to here so we actually have to just move on. </p><p>In any case, these are clearly for show. Especially as this is not a complicated issue. London has no nightlife because venues are not allowed to open late. So nothing else bothers to stay open late. So no one goes out late. </p><h1>V. Sadiq Khan and Keir Starmer could make this change tomorrow if they wanted to</h1><p>The solution is clear. The power over licensing hours in London needs to be transferred back out from the local authorities because they are incapable of handling them and simply do not want London to have a nighttime economy. </p><p>Sadiq Khan and Keir Starmer claim they do want London to be a 24/7 city, so they should take the power back. (<em>Maybe they are lying and don\u2019t want that, in which case their behaviour makes more sense, but that then it makes it clear they don\u2019t understand a hell of a lot more about modern life</em>.)</p><p>The Mayor already controls transport, he was able to get the night tube running fairly well. He also has strong control over policing strategy. This would fit in fine alongside both of those. </p><p>We just need the government to pass a new bill that states that in London, the Mayor is the licensing authority instead of the boroughs. It should also remove the requirements for venues to prove they\u2019re aiding the area in those four nonsense ways. And should remove the notion of CIZs. </p><p>If this doesn\u2019t happen, London cannot make any moves to being a night-time city, because the system will not allow it. </p><p>But here\u2019s the thing, agency does exist. We can actually fix this. </p><p>I\u2019m highly inspired by the work Looking for Growth have done this year with their <a href=\"https://lookingforgrowth.uk/campaigns/infrastructure-bill/\">Infrastructure Bill</a>. </p><p>Because when you present the UK government with a problem, they can explain all types of ways it\u2019s going to be long and arduous to solve. </p><p>But if you hand deliver them a solution, you can force their hand.</p><p>And that\u2019s what LFG did. They saw it took impossibly long to build anything in Britain. They realised Prime Ministers can just past stuff if they so choose. So they made the Bill they wanted, and sent it to every MP. </p><p>Now decline isn\u2019t some failure of coordination, it\u2019s a choice. It\u2019s been a choice this whole time, but now you can\u2019t pretend otherwise. </p><p>So, that\u2019s the next step. Let\u2019s just write the bill that will change the Licensing Act. If any of you have some legal training this is a serious invitation to help me, I honestly don\u2019t think it\u2019d be that hard. </p><p>London nightlife has been in decline for 20 years. You could fix it in about a month. Probably less.</p><p>To do anything else would be a conscious choice.</p><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p><p></p><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "if you\u2019re not from London you can still read this and treat it as a case study in the psychology of managed decline, which i know many people are currently interested in",
+ "wordcount": 4171,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    86,
+    134,
+    175
+   ],
+   "population": 32
+  },
+  "DarkVibrant": {
+   "rgb": [
+    28,
+    100,
+    28
+   ],
+   "population": 1
+  },
+  "LightVibrant": {
+   "rgb": [
+    205,
+    229,
+    248
+   ],
+   "population": 416
+  },
+  "Muted": {
+   "rgb": [
+    155,
+    117,
+    86
+   ],
+   "population": 385
+  },
+  "DarkMuted": {
+   "rgb": [
+    91,
+    70,
+    44
+   ],
+   "population": 33
+  },
+  "LightMuted": {
+   "rgb": [
+    151,
+    185,
+    199
+   ],
+   "population": 117
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 20,
+ "comment_count": 2,
+ "child_comment_count": 2,
+ "audio_items": [
+  {
+   "post_id": 172041133,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/172041133/tts/b896b4c5-8360-48b3-bbd6-77bf92c92ffa/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 215673112,
+   "body": "TLDR the old people who run this country hate fun, hate noise, hate pleasure and hate seeing young people in the street. These laws are made for their convenience and will not be changed because they just hate and outnumber the young.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "TLDR the old people who run this country hate fun, hate noise, hate pleasure and hate seeing young people in the street. These laws are made for their convenience and will not be changed because they just hate and outnumber the young."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 172041133,
+   "user_id": 5652357,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2026-02-17T10:02:56.974Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Elliot Friedland",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/48c37a43-d216-4477-b3ec-5e58d88bab1f_144x144.png",
+   "handle": "elliotfriedland",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "elliotfriedland",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Elliot\u2019s Substack",
+     "id": 1653239,
+     "base_url": "https://elliotfriedland.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 164636392,
+   "body": "Some good news on this front - https://www.theguardian.com/business/2025/oct/08/pub-opening-hours-in-england-and-wales-could-be-extended?CMP=fb_gu&utm_medium=Social_img&utm_source=Facebook&fbclid=IwY2xjawNUvaVleHRuA2FlbQIxMQABHhj8x_8hHWsWiwkAuIH50tkjJ_Ul6eRtsc8Guvzc7Tx7Xt1pkjKxePJaZZk-_aem__dx89lgCxtHSC-R3Yd6Xqw#Echobox=1759990943",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Some good news on this front - "
+       },
+       {
+        "type": "text",
+        "text": "https://www.theguardian.com/business/2025/oct/08/pub-opening-hours-in-england-and-wales-could-be-extended?CMP=fb_gu&utm_medium=Social_img&utm_source=Facebook&fbclid=IwY2xjawNUvaVleHRuA2FlbQIxMQABHhj8x_8hHWsWiwkAuIH50tkjJ_Ul6eRtsc8Guvzc7Tx7Xt1pkjKxePJaZZk-_aem__dx89lgCxtHSC-R3Yd6Xqw#Echobox=1759990943",
+        "marks": [
+         {
+          "type": "link",
+          "attrs": {
+           "href": "https://www.theguardian.com/business/2025/oct/08/pub-opening-hours-in-england-and-wales-could-be-extended?CMP=fb_gu&utm_medium=Social_img&utm_source=Facebook&fbclid=IwY2xjawNUvaVleHRuA2FlbQIxMQABHhj8x_8hHWsWiwkAuIH50tkjJ_Ul6eRtsc8Guvzc7Tx7Xt1pkjKxePJaZZk-_aem__dx89lgCxtHSC-R3Yd6Xqw#Echobox=1759990943"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 172041133,
+   "user_id": 27139098,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-10-09T16:11:10.327Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Tom",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/0295d8af-a6a6-4e2c-9717-a9dfe1cd4fc5_826x824.png",
+   "handle": "hyperstitional",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "hyperstitional",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Tom",
+     "id": 3431588,
+     "base_url": "https://hyperstitional.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

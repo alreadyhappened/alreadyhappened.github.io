@@ -1,0 +1,498 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/ai-agents-have-a-trust-value-complexity",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 171168925,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-08-20T01:24:29.620Z",
+ "updated_at": "2025-08-20T01:25:19.642Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "ai-agents-have-a-trust-value-complexity",
+ "social_title": null,
+ "subtitle": "screw it i'll do it myself",
+ "teaser_post_eligible": true,
+ "title": "AI Agents have a trust-value-complexity problem",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 5,
+ "reactions": {
+  "\u2764": 14
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "priced-in-the-collapse-of-conscientiousness",
+ "next_post_slug": "it-would-be-so-unbelievably-easy",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!LOGW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 171168925,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "screw it i'll do it myself",
+ "body_html": "<p><em>bit of a break from our regular programming but I\u2019m thinking about UX again</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!LOGW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!LOGW!,w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 424w, https://substackcdn.com/image/fetch/$s_!LOGW!,w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 848w, https://substackcdn.com/image/fetch/$s_!LOGW!,w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 1272w, https://substackcdn.com/image/fetch/$s_!LOGW!,w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!LOGW!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif\" width=\"1280\" height=\"960\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:960,&quot;width&quot;:1280,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:21506854,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/gif&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/171168925?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!LOGW!,w_424,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 424w, https://substackcdn.com/image/fetch/$s_!LOGW!,w_848,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 848w, https://substackcdn.com/image/fetch/$s_!LOGW!,w_1272,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 1272w, https://substackcdn.com/image/fetch/$s_!LOGW!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">help me help you</figcaption></figure></div><h1>0.</h1><p>I\u2019ve been reading Nick Bostrom\u2019s Deep Utopia. It\u2019s pleasantly weird, and not a bad introduction to the type of world many are converging on as our future i.e. perfect abundance. </p><p>He\u2019s highly concerned with the interaction between human agency and AI agency. How do you feel good about yourself in a world where AI does everything for you?</p><p>To be more specific, individual agents would give each person tremendous personal capability, essentially making everyone super-intelligent by proxy. You'd have your own AI that knows your preferences intimately and can accomplish virtually anything on your behalf. </p><p><a href=\"https://ai-2027.com/\">AI 2027</a> also marks agents starting to work as the thing that causes everything to get out of control. Although the authors are less focused on what agents will do for you or I, and more on what how they will help AI companies increase the pace. </p><p>Neither discusses the human side of interacting with an agent for the first time (and nor do they need to for what they are doing), but I\u2019ve been thinking about it a lot. </p><p>Because agents are here, kind of. And no one cares.</p><p>Yes, this is partly due to the fact that they barely work. But I don\u2019t think their effectiveness increasing will force their integration into the average user\u2019s daily life.</p><p>As I think the other reason people don\u2019t care is we don\u2019t really have a way to think about them. Like yes, I can read Bostrom\u2019s description of what my life will be like and think \u2018yes, sign me up\u2019, but the path there will be incremental. And taking the first step is hard.</p><p>AI companies are currently failing, in their comms and their UX, in getting people to take this first step. </p><p>So when Bostrom asks \u2018how do you feel good about yourself in a world where AI does everything for you?\u2019</p><p>I think a fair first question would be: how do we get people to let AI do everything for them?</p><div><hr></div><h1>I. What tasks can agents do?</h1><p>When I think of any individual using intelligent agents to make their own life a personal (shallow?) utopia, I think there must be two categories of thing that the agents are doing:</p><ol><li><p>Tasks that the person used to do themselves </p></li><li><p>Tasks that the person didn\u2019t do themselves because they were either too time-scarce, energy-scare, or incapable on their own, or hadn\u2019t even realised doing that thing would be a good idea until their agent explained it</p></li></ol><p>In terms of how tasks in the first category vary, I think we have three dimensions:</p><ul><li><p>Importance:</p><ul><li><p>What are the consequences of the task being done (in)correctly and how much do they matter to you?</p></li></ul></li><li><p>Complexity:</p><ul><li><p>How hard is the task (for you), how much effort does it require?</p></li></ul></li><li><p>Frequency:</p><ul><li><p>Is this a one-off or do you do it all the time?</p></li></ul></li></ul><p>Here\u2019s an ugly visual with some examples (Y axis is frequency):</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ssyk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ssyk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 424w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 848w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 1272w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ssyk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin\" width=\"1456\" height=\"1539\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1539,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Output image&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Output image\" title=\"Output image\" srcset=\"https://substackcdn.com/image/fetch/$s_!ssyk!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 424w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 848w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 1272w, https://substackcdn.com/image/fetch/$s_!ssyk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e643483-0f7e-437c-a097-7a93be6af15c_1609x1701.bin 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>In terms of making your life better, it seems clear that the best version of agents will do things that are high importance, high complexity and high frequency. Being high in just two is still really useful. In that list of tasks we have:</p><p><strong>High Complexity + High Frequency:</strong> Annoying things that come up all the time but aren\u2019t life or death, like managing calendar conflicts.</p><p><strong>High Complexity + High Importance:</strong> Tasks you dread the effort of which you might also mess up, things like applying for loans/mortgages and filing tax returns.</p><p><strong>High Frequency + High Importance:</strong> Stuff that\u2019s easy but if you drop the ball you are hearing about it, like paying monthly bills.</p><p>And my basic point is: we are a long way from the average user being willing over to hand any of this over, even though this would be a huge change to the experience of modern life. </p><p>I watched the Google I/O show a few months ago, where they show someone wearing their AI glasses. They used an interaction where the person is walking around London, and their agent chirps up to tell them their colleague\u2019s messaged asking to set up a meeting. They tell the agent to set it up, and it\u2019s happy to oblige. </p><p>But when you\u2019re watching, the only possible thing to think is \u2018if that was me I\u2019m definitely checking my phone to see if the agent set the meeting correctly\u2019. Which means you\u2019ve expended the same amount of time on the task anyway, if not more. And you look weird with your AI glasses on. </p><p>This isn\u2019t good for anyone. </p><p>You can say that the paranoia will be sorted out by super-intelligence and the trust it will exude, and yes I probably agree. But I\u2019m talking about the next few years of marginal improvement here. </p><p>So how do we get people to trust agents at all?</p><div><hr></div><h1>II. One small step for agents</h1><p>I had Claude split the three dimensions split into pairs, and put an example task in each quadrant:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!xdvZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!xdvZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 424w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 848w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 1272w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png\" width=\"1421\" height=\"528\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:528,&quot;width&quot;:1421,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:263099,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/171168925?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!xdvZ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 424w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 848w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 1272w, https://substackcdn.com/image/fetch/$s_!xdvZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b9d6f51-27c8-4842-910f-510a018d4693_1421x528.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>The logical thing from a user psychology perspective would be to say: </p><p>\u2018We know users are going to be too hesitant to hand over the stuff in the top right quadrants. So we\u2019ll start bottom left and work our way along those axes until we reach automated utopia.\u2019</p><p>But the issue is that starting in the bottom left doesn\u2019t work either, because the world is already a well-designed place. </p><p>Agent start-ups show off their tool\u2019s ability to order a burger to your house, and follow that up with a claim that this is a big deal. But ordering a burger to my house is very easy for me anyway. So this adds no value. </p><p>Similarly, one of OpenAI\u2019s big plays is to move into agentic shopping, as if online shopping hasn\u2019t already been completely solved. Amazon can deliver anything I\u2019ve ever dreamed of to my door tomorrow, and I can order it in 30 seconds. The agent can\u2019t even do it faster than me. What is the point?</p><p>So, how do we get to the point of people handing over more complex and important tasks to agents?</p><p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p><div><hr></div><h1>III. Does anyone know how to know this much?</h1><p>I also said earlier that there must be two categories of thing that agents could be doing:</p><ol><li><p>Tasks that people currently do themselves </p></li><li><p>Tasks that people don\u2019t do themselves because they are either too time-scarce, energy-scare, or incapable on their own, or haven\u2019t even realised doing that thing would be a good idea until their agent explained it</p></li></ol><p>I haven\u2019t seen any attempt at advertising compelling use cases of the second category. </p><p>Let\u2019s say I spend 60 minutes a week looking at stats to help pick my fantasy football team. I then decide it\u2019s not too tricky and an agent can probably do it for me. So I hand it over and gain 60 minutes back. </p><p>But if time, energy, and knowledge are not limitations the agent has, then this is a bad way to think about tasks. I\u2019m treating the agent like a human when I shouldn\u2019t.</p><p>If the agent really can effectively pick my fantasy team, then why not have it enter into every public league with a prize pool it can find, why not totally redesign my analysis strategy, why not have it gather the underlying data for every player on every one of my friend\u2019s teams, and have it negotiate high-value trade deals with them? </p><p>You can apply this kind of thinking to lots of stuff, and suddenly you realise your life isn\u2019t made of tasks. It\u2019s made of goals and limitations. And it\u2019s reallly hard to think about what you should try to achieve if some of your inputs are no longer limited. </p><p>I saw Jasmine Sun write recently that no one knows how to know this much, and I completely agree. Which is why it\u2019s doubly useless for OpenAI to tell you its agent can book a train for you and save you 2 minutes. It should be 10xing you somewhere, somehow. </p><p>When working-agent-1 comes out, maybe your first prompt should be \u2018ask me all about my life, work out things you can do to help me the most, and just do them\u2019.</p><p>But in practical terms, what do we do?</p><p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p><div><hr></div><h1>IV. Delegation is a psychological nightmare zone</h1><p>But here we land at another reason why users might not let themselves be helped: people are really bad at letting others do things for them. Anything with any complexity in life comes with a \u2018fine i\u2019ll do it myself\u2019 error code built in. </p><p>From ideation to completion, most tasks have the same failure modes. You can imagine these when weighing up handing over a task to a junior employee or to an agent (btw this equivalency is also why junior employees seem to no longer exist):</p><p>These are either the person failing to delegate:</p><ul><li><p>\u201cThis thing is too complicated to explain\u201d \u2192 easier to just do it yourself</p></li><li><p>\u201cWriting out specific steps is too effortful\u201d \u2192 easier to just do it yourself</p></li><li><p>\u201cI\u2019m going to get anxious about not seeing how it\u2019s going\u201d \u2192 easier to just do it yourself</p></li></ul><p>Or the person delegating badly, which is very common in organisational psychology:</p><ul><li><p>Poor understanding of the delegates skill/one\u2019s own tacit knowledge \u2192 not enough context given \u2192 bad result</p></li><li><p>No clear description of what success would be \u2192 delegate forced to guess \u2192bad result</p></li></ul><p>On top of these, the number one reason people don\u2019t like to delegate things they usually do themselves: inertia. You can either take the behavioural science approach of saying that\u2019s a weird kink in human rationality and not expand any further, or you can take the psychoanalytic approach of suggesting people dislike change because it unconsciously highlights the infinite freedom of existence which is perfectly correlated with infinite terror. I don\u2019t care which but it\u2019s true either way. There will be a certain percentage of users who do not want to use AI agents because they are new and different and represent a chance for their lives to change in massive ways. This is understandably scary. These people will then come up with all the types of reasons for their inertia on the fly and to some extent will genuinely believe them, but you won\u2019t need to take those reasons too seriously. Because once you solve those, they will freestyle something else in its place. </p><p>All of this is to say the utopia that agents will accelerate us towards will likely face some deceleration from the human side of the equation. </p><p>What do we do about that?</p><p>From watching the major AI players attempting to communicate agents to the public: no one knows. </p><div><hr></div><h1>V. Right back at you</h1><p>I read this paper the other day: <a href=\"https://link.springer.com/article/10.1007/s11299-025-00326-z\">The philosophic turn for AI agents: replacing centralized digital rhetoric with decentralized truth-seeking</a></p><p>I still don\u2019t really know that title means, but the paper makes a good point: the more complex life gets, the more we need help from technology, the more technology determines what you do. </p><p>Which means\u2026 less autonomy? This author thinks so, and it alarms him. It alarms Nick Bostrom too, hence his attempts to preserve human agency in Deep Utopia. </p><p>But this paper has an idea that I think is actually workable.</p><p>Instead of steering users toward specific choices, AI should help people find truth through open discussion and questioning, like Socrates. Who we did end up executing but let\u2019s pretend there\u2019s no weird ominous analogy to play with here.</p><p>This design would mean:</p><ul><li><p>AI systems that ask thought-provoking questions rather than pushing specific answers</p></li><li><p>Helping users reach solid conclusions that hold up when challenged from different angles</p></li><li><p>Supporting people's own thinking rather than doing the thinking for them</p></li><li><p>Working like a good teacher who guides students to figure things out themselves</p></li></ul><p>Which would take us way closer to existing at more useful parts of the axes from earlier. Or maybe it would help throw them out entirely. Because \u2018human tasks\u2019 are tiny in comparison to what\u2019s actually possible. </p><p>For your life to become as good as possible, while you retain as much autonomy as possible (which you should, with all the free time you now have), you shouldn\u2019t think about to-do lists at all. You need to take a step backward. Why are you getting up in the morning at all? What\u2019s the goal? </p><p>Let your agent help you work that bit out, and it can take care of the rest. </p><p>Maybe then we\u2019ll learn how to live with super-intelligence. </p><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "bit of a break from our regular programming but I\u2019m thinking about UX again",
+ "wordcount": 2151,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    127.5,
+    127.5,
+    127.5
+   ],
+   "population": 0
+  },
+  "DarkVibrant": {
+   "rgb": [
+    66.3,
+    66.3,
+    66.3
+   ],
+   "population": 0
+  },
+  "LightVibrant": {
+   "rgb": [
+    188.7,
+    188.7,
+    188.7
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    124,
+    124,
+    124
+   ],
+   "population": 27
+  },
+  "DarkMuted": {
+   "rgb": [
+    68,
+    68,
+    68
+   ],
+   "population": 189
+  },
+  "LightMuted": {
+   "rgb": [
+    182,
+    182,
+    182
+   ],
+   "population": 215
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 14,
+ "comment_count": 5,
+ "child_comment_count": 5,
+ "audio_items": [
+  {
+   "post_id": 171168925,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/171168925/tts/b425940b-5a0c-4b86-8b1c-55b1fcf9fca3/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 147188375,
+   "body": "Re: AI and meetings.  The value propn is in having the AI *attend* the meeting for you, make your points and build your alliances and understandings and get your decisions, and after the meeting, letting you know outcomes if they are surprising.  That's what an agent does.\n\nAll of those micro-tasks in your diag and Claude's are pretty much automatable now.  None of them really make sense in a fully AI-supported world.\n\n(With picking fantasy football teams, using AI is defeating the purpose. It's entertainment, a test of YOUR skill and insight against others'. Using AI makes as much sense as using AI/robots to actually play the games and win Olympic medals.)\n\nAI agents, if they live up to even a sixteenth of their billing, are a bigger change to How We Do Things than the transition from steam engines to electric motors for organising factories, and from gaslight to electric light in homes and on streets, and from messenger boys to telephones, and from horse and cart to diesel trucks and tractors. All put together. Possibly even bigger than the change from the miasma theory of disease to the germ theory, and the change from manuring to artificial fertiliser for crops.\n\nCalendar conflicts and doctor appointments and payment reminders and tax returns and food ordering are going to be quaint historical practices that exist only in textbooks, like morris dancing, faxes, and running out of gas on the freeway.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Re: AI and meetings. The value propn is in having the AI *attend* the meeting for you, make your points and build your alliances and understandings and get your decisions, and after the meeting, letting you know outcomes if they are surprising. That's what an agent does."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "All of those micro-tasks in your diag and Claude's are pretty much automatable now. None of them really make sense in a fully AI-supported world."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "(With picking fantasy football teams, using AI is defeating the purpose. It's entertainment, a test of YOUR skill and insight against others'. Using AI makes as much sense as using AI/robots to actually play the games and win Olympic medals.)"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "AI agents, if they live up to even a sixteenth of their billing, are a bigger change to How We Do Things than the transition from steam engines to electric motors for organising factories, and from gaslight to electric light in homes and on streets, and from messenger boys to telephones, and from horse and cart to diesel trucks and tractors. All put together. Possibly even bigger than the change from the miasma theory of disease to the germ theory, and the change from manuring to artificial fertiliser for crops."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Calendar conflicts and doctor appointments and payment reminders and tax returns and food ordering are going to be quaint historical practices that exist only in textbooks, like morris dancing, faxes, and running out of gas on the freeway."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 171168925,
+   "user_id": 2449195,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-08-20T02:59:17.523Z",
+   "edited_at": "2025-08-20T03:02:59.813Z",
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "gregvp",
+   "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5a636353-2f7f-4f3f-8519-9d429ebcee61_420x420.png",
+   "handle": "gregvp",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "gregvp",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "gregvp",
+     "id": 2925019,
+     "base_url": "https://gregvp.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 148026339,
+   "body": "Super interesting re: the psychology of tech and agency.\n\nTwo thoughts:\n1. AI is currently the biggest FAFO experiment going.\n2. Why bother with an AI guru question-asker when I can just read the OG Socrates?",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Super interesting re: the psychology of tech and agency."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Two thoughts:"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "1. AI is currently the biggest FAFO experiment going."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "2. Why bother with an AI guru question-asker when I can just read the OG Socrates?"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 171168925,
+   "user_id": 325163242,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-08-22T15:26:04.766Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Josh Sewell",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/cf7b9923-345a-4722-bdd5-d8ba0151035c_400x400.jpeg",
+   "handle": "jxshsewell",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "jxshsewell",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

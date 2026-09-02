@@ -1,0 +1,482 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/romance-often-occurs-at-unsolved",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 167212692,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-06-30T23:31:26.686Z",
+ "updated_at": "2025-07-05T20:52:42.837Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "romance-often-occurs-at-unsolved",
+ "social_title": null,
+ "subtitle": "get it while it's hot ",
+ "teaser_post_eligible": true,
+ "title": "Romance often occurs at unsolved equilibria",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 19,
+ "reactions": {
+  "\u2764": 49
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "cultural-moloch",
+ "next_post_slug": "priced-in-replication-and-replicants",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!G-OW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 167212692,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "get it while it's hot",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!G-OW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!G-OW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 424w, https://substackcdn.com/image/fetch/$s_!G-OW!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 848w, https://substackcdn.com/image/fetch/$s_!G-OW!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!G-OW!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!G-OW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg\" width=\"497\" height=\"607.7445652173913\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:900,&quot;width&quot;:736,&quot;resizeWidth&quot;:497,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Image&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!G-OW!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 424w, https://substackcdn.com/image/fetch/$s_!G-OW!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 848w, https://substackcdn.com/image/fetch/$s_!G-OW!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!G-OW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>I.</h1><p>You know when you read an old mystery novel, the type where the protagonist is chasing/being chased by someone across Europe in like 1930, and they have to use all manner of trains, boats and dodgy documentation to cross the continent, and you think to yourself \u201cdamn, things really used to be so much more inconvenient, but also, in a way, so much \u2026 cooler\u201d?</p><p>I think it might mean that there\u2019s an amount of uncertainty required to truly feel alive. <a href=\"https://alreadyhappened.xyz/p/how-to-learn-about-people-in-art\">Eros</a> in quite a pure sense. </p><p>There\u2019s a certain kind of discourse pattern that happens where Player 1 starts the game by saying \u201csigh things used to be so much better in the past\u201d and Player 2 shoots in with something like \u201cum actually if you went there now you\u2019d hate it because you wouldn\u2019t have this thing you currently like and also you\u2019d die immediately\u201d. I think that riposte often misses the point. </p><p>Yes, sure, everything <em>measurable</em> gets better all the time through history, but the best part of a story is never the ending. Not even the happy ones. </p><p>If you could click your fingers and shoot 10 years into the future to where your life will certainly be more comfortable and free, would you do it? I doubt it. </p><p>What is sex without flirting? What is romance without the tension it\u2019s built out of?</p><div><hr></div><h1>II.</h1><p>In <a href=\"https://www.astralcodexten.com/p/the-colors-of-her-coat\">The Colors of Her Coat</a>, Scott Alexander reflects on how the pursuit of art has changed. In medieval times, the perfect ultramarine blue pigment used in  paintings required an incredibly dangerous and expensive journey to Afghanistan, complex extraction processes, and was so precious it was reserved almost exclusively for painting the Virgin Mary's robes. When peasants saw this perfect blue in church, it created genuine awe and spiritual connection. Today, we can recreate that exact blue synthetically and cheaply, but we've lost the wonder.</p><p>This followed <a href=\"https://www.theintrinsicperspective.com/p/welcome-to-the-semantic-apocalypse\">Erik Hoel\u2019s warning of \u2018semantic apocalypse\u2019</a> i.e. how technological abundance cheapens our appreciation of previously rare and meaningful things. Hoel argues AI is doing this at mass scale: flooding culture with \"close-enough\" imitations that don't need to be perfect copies to drain the originals of their specialness.</p><p>Scott takes it beyond art, to a type of hedonic adaptation undermining everything meaningful. As AI advances, it may solve poverty, cure diseases, and fulfil human needs so completely that we lose all sense of purpose and wonder. We'll have everything we ever wanted and be bored by all of it.</p><p>It makes me think of travelling across Europe. </p><p>If I want to go to, say, Ljubljana, I can book a flight for tomorrow in less than 60 seconds without moving. I don\u2019t have to convert currency. I don\u2019t even need cash. I don\u2019t need to learn any Slovenian. I can get to my plane seat without saying a word. I can navigate straight to my Airbnb. I can route myself through all Top 5 attractions in an afternoon. </p><p>And as I stand and stare up at Ljubljana Castle, or whatever, it just cannot be awe nor wonder that I\u2019m filled with. </p><p>Truly a remarkable achievement that it was all made possible in just a matter of decades, but God doesn\u2019t it all feel so unromantic?</p><p>In what was actually quite a hopeful essay in the end, Scott concluded:</p><blockquote><p>Something bothers me about the whole semantic apocalypse framing. It focuses too much on the social level, denies personal agency. Yes, we <em>as a culture</em> are post- some semantic apocalypse where listening to the great symphonies of the past has become so easy that we never do it.</p><p>\u2026</p><p>G.K. Chesterton wrote lots of stuff about how if you were really holy and paying attention, then the thousandth sunset would be just as beautiful as the first.</p><p>\u2026</p><p>Chesterton\u2019s answer to the semantic apocalypse is to will yourself out of it. If you can\u2019t enjoy <em>My Neighbor Totoro</em> after seeing too many Ghiblified photos, that\u2019s a skill issue. Keep watching sunsets until each one becomes as beautiful as the first.</p></blockquote><p>I can\u2019t deny there are moments in life where you realise how beautiful the thing that\u2019s been right in front of you the whole time actually is. You can use psychedelics to force that very process.</p><p>But it\u2019s hard to turn that feeling of euphoria and being intertwined with the universe into some kind of daily ritual. And people tend to up dosages over time for a reason. </p><p>Instead, I actually wonder if there\u2019s only a certain amount of joy to be derived from games that are solved already. I obviously don\u2019t mean dopamine-coded hackable joy. I mean romantic, sexy joy. I mean magic. I mean the memories that <em>actually</em> make you smile still now. </p><p>Even in the 1970\u2019s, travelling through Europe must have been a massive pain. Different currencies in every country, cash only. EU citizenship wasn\u2019t a thing and you can\u2019t Google how the individual visas work. Pocket phrasebooks but you still don\u2019t know how to actually pronounce anything, and speaking very slowly in English doesn\u2019t help either. Is that train pulling into the station the one you\u2019re supposed to be on? Who knows, let\u2019s get on. </p><p>If I say to you that\u2019s so much cooler than my trip to Ljubljana, and I\u2019d much rather read a story of someone doing that than one set in 2025, are you going to tell me my view is rose-tinted?</p><p>When you see Google demoing those glasses that automatically translate what the person across from you speaking a foreign language is saying, are you glad we solved that problem?</p><p>The thing is that I sort of am. That\u2019s undeniably progress, and of course opens up a path to something wilder than just seeing what another country is like. But the sense of adventure is robbed. There is zero uncertainty. </p><p>And zero uncertainty is a pretty bad deal in life. It\u2019s TikTok. It\u2019s fast food. It\u2019s satisfying. But you know it\u2019s slowly killing you. And if you want everything to stay under control then you may as well sign up for Wireheading early access. You kind of already have. </p><p>Yes, I do suppose it\u2019s possible that you can bring yourself to feel awe when seeing a work of art for the 100th vs 1st time, but I struggle to shake that the 1st and 100th viewings are fundamentally different experiences. </p><div><hr></div><h1>III.</h1><p>The reason wireheading doesn\u2019t appeal is because happiness clearly isn\u2019t the point of living. Living is the point of living. The real wish is to go on an adventure. Even the most narcissistic of us at least want a story about themselves to be able to tell people. </p><p>And you cannot go on adventure within a solved game. Because you\u2019re risking nothing, you know the ending already. It won\u2019t work. </p><p>Which is actually, I think, kind of cool. I like that evolution saw a use for <a href=\"https://en.wikipedia.org/wiki/Novelty_seeking\">novelty-seeking</a>, even when you\u2019re safe and fed. It gnaws at you. </p><p>This doesn\u2019t mean you have to throw your phone and laptop away, sprint out the door and get on a random train somewhere. Your adventure can, and as time goes will more often, happen on a screen. You can start and finish it in your bedroom. </p><p>And people of course say \u2018you gotta go and face the real world out there\u2019, but I don\u2019t know man. If I go somewhere online, and it makes me feel a certain way, maybe a way I\u2019ve never felt before, to what extent is that not \u2018real\u2019? To some degree you\u2019re just correctly using the lack of physical limitation to your advantage.</p><p>At a low level, this is actually how I think about Substack nowadays. </p><p>In that, I can look at YouTube and I see a pretty solved game. Near perfect thumbnail and title strategy. Everything gets geared toward that. It\u2019s all under control and if you follow the rules you can succeed. </p><p>But in comparison, Substack is an absolute shitshow. And I <em>like</em> that. We don\u2019t know if this place is supposed to be like twitter, or like Youtube, or like a magazine, or something new entirely. As much as I think this blog is relatively coherent in its big ideas, I am slightly making my strategy up as I go. </p><p>Who knows when we\u2019ll work out how this actually should work? I know we\u2019re all trying, but I personally hope it\u2019s not for a little while longer. </p><p>I think it\u2019s worth finding unsolved games and playing them. You\u2019ll look back on it fondly. The next generation will read about it and think it\u2019s cool how difficult it all was. </p><p>And hey, speaking of crazy adventures, think I might have found one for you:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!DmT4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!DmT4!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 424w, https://substackcdn.com/image/fetch/$s_!DmT4!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 848w, https://substackcdn.com/image/fetch/$s_!DmT4!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 1272w, https://substackcdn.com/image/fetch/$s_!DmT4!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!DmT4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png\" width=\"1200\" height=\"630\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:630,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;AI 2027&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"AI 2027\" title=\"AI 2027\" srcset=\"https://substackcdn.com/image/fetch/$s_!DmT4!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 424w, https://substackcdn.com/image/fetch/$s_!DmT4!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 848w, https://substackcdn.com/image/fetch/$s_!DmT4!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 1272w, https://substackcdn.com/image/fetch/$s_!DmT4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bdfcd10-5f63-41ec-aa9c-ba4d3f62f144_1200x630.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p><p></p><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "I. You know when you read an old mystery novel, the type where the protagonist is chasing/being chased by someone across Europe in like 1930, and they have to use all manner of trains, boats and dodgy documentation to cross the continent, and you think to yourself \u201cdamn, things really used to be so much more inconvenient, but also, in a way, so much \u2026 co\u2026",
+ "wordcount": 1469,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+   "publication_id": 1470107,
+   "name": "Psychology",
+   "slug": "psychology",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    156,
+    28,
+    52
+   ],
+   "population": 537
+  },
+  "DarkVibrant": {
+   "rgb": [
+    113,
+    14,
+    17
+   ],
+   "population": 11
+  },
+  "LightVibrant": {
+   "rgb": [
+    140,
+    180,
+    212
+   ],
+   "population": 21
+  },
+  "Muted": {
+   "rgb": [
+    154,
+    112,
+    102
+   ],
+   "population": 267
+  },
+  "DarkMuted": {
+   "rgb": [
+    52,
+    92,
+    76
+   ],
+   "population": 1
+  },
+  "LightMuted": {
+   "rgb": [
+    175,
+    187,
+    196
+   ],
+   "population": 535
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 49,
+ "comment_count": 2,
+ "child_comment_count": 2,
+ "audio_items": [
+  {
+   "post_id": 167212692,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/167212692/tts/350f81a5-fb86-41d4-86e0-b0282d5bc1dd/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 131027765,
+   "body": "\u201c\u2026happiness clearly isn\u2019t the point of living. Living is the point of living.\u201d\n\nBold claim. Citation needed/big if true/utilitarians in shambles/etc.\n\nAdvice for the young making big choices in life: take approaches that increase the variability of outcomes. Your wins have the potential for exponential upside, while you still have plenty of time to recover from all but catastrophic losses (so, yes, you still need insurance, contingency plans, etc.)",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "\u201c\u2026happiness clearly isn\u2019t the point of living. Living is the point of living.\u201d"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Bold claim. Citation needed/big if true/utilitarians in shambles/etc."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Advice for the young making big choices in life: take approaches that increase the variability of outcomes. Your wins have the potential for exponential upside, while you still have plenty of time to recover from all but catastrophic losses (so, yes, you still need insurance, contingency plans, etc.)"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 167212692,
+   "user_id": 9237542,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-07-01T13:19:26.177Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "TheAnswerIsAWall",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/c9d4be1e-8e77-478e-b1c0-4549d5ac98e4_1008x1008.jpeg",
+   "handle": "theanswerisawall",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 3
+   },
+   "reaction_count": 3,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "theanswerisawall",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "TheAnswerIsAWall",
+     "id": 3816409,
+     "base_url": "https://theanswerisawall.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 4,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 130957269,
+   "body": "This reflects my appreciation of a fairly recently cultivated hobby of partner dance.\n\nA dance is no-strings romance. You take a lady, perform a narrative arc depicting the push and pull and erotic exploration of flirtation, and then the song finishes and you do it again.  No words, which means no memes, yet the precision and clarity in physical communication is paramount to cocreating a beautiful work of artistic expression. Beautiful not meaning perfect - recovery from an awkward cadence or fumbling leading to unexpected positioning is part of the arc. You can choose to not talk, and there are no expectations before and after the class or party ends, you just walk out the door with no hanging developments after, just appreciation for having an evening full of life - many interesting arcs with many partners who you may never see again. \n\nMeanwhile you're performing a defiant rebellion against contemporary hegemonic ideology of androgyny as the ideal - gender roles are distinct and complementary, and each is genuinely appreciated for performing their part well.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "This reflects my appreciation of a fairly recently cultivated hobby of partner dance."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "A dance is no-strings romance. You take a lady, perform a narrative arc depicting the push and pull and erotic exploration of flirtation, and then the song finishes and you do it again. No words, which means no memes, yet the precision and clarity in physical communication is paramount to cocreating a beautiful work of artistic expression. Beautiful not meaning perfect - recovery from an awkward cadence or fumbling leading to unexpected positioning is part of the arc. You can choose to not talk, and there are no expectations before and after the class or party ends, you just walk out the door with no hanging developments after, just appreciation for having an evening full of life - many interesting arcs with many partners who you may never see again."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Meanwhile you're performing a defiant rebellion against contemporary hegemonic ideology of androgyny as the ideal - gender roles are distinct and complementary, and each is genuinely appreciated for performing their part well."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 167212692,
+   "user_id": 313287808,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-07-01T05:55:44.209Z",
+   "edited_at": "2025-07-01T22:53:12.581Z",
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Everything-Optimizer",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69217985-b380-4c1c-a676-f6e067cd4c5e_3468x3468.jpeg",
+   "handle": "everythingoptimizer",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "everythingoptimizer",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Philomatic Algorhythms",
+     "id": 4123338,
+     "base_url": "https://philomaticalgorhythms.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

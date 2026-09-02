@@ -1,0 +1,449 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/synthetic-men-cant-jump",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 211438475,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-08-17T20:48:40.522Z",
+ "updated_at": "2026-08-17T20:50:02.310Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "synthetic-men-cant-jump",
+ "social_title": null,
+ "subtitle": "ai & human creativity ",
+ "teaser_post_eligible": true,
+ "title": "Synthetic men can't jump",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 0,
+ "reactions": {
+  "\u2764": 17
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "please-stop-using-that-mit-cognitive",
+ "next_post_slug": "desire-as-a-responsibility",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!6HqA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 211438475,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "ai & human creativity",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!6HqA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!6HqA!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 424w, https://substackcdn.com/image/fetch/$s_!6HqA!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 848w, https://substackcdn.com/image/fetch/$s_!6HqA!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 1272w, https://substackcdn.com/image/fetch/$s_!6HqA!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!6HqA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif\" width=\"800\" height=\"450\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:450,&quot;width&quot;:800,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:3252855,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/gif&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://www.alreadyhappened.xyz/i/211438475?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6HqA!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 424w, https://substackcdn.com/image/fetch/$s_!6HqA!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 848w, https://substackcdn.com/image/fetch/$s_!6HqA!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 1272w, https://substackcdn.com/image/fetch/$s_!6HqA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>I.</h1><p>Please offer me one minute and two seconds of your time, and listen through the first verse of <a href=\"https://www.youtube.com/watch?v=Ivj0koCKXZI&amp;list=RDIvj0koCKXZI&amp;start_radio=1\">this song</a>. Return when completed, although you\u2019ll probably choose to listen to the full thing.</p><p>Casisdead is one of UK rap\u2019s auteurs. Very few, deliberate releases. A lot of love and knowledge for the craft of music. Mostly shrouded in mystery, including a long absence from the scene before this release. </p><p>(<em>styled as CASISDEAD or CasIsDead but i\u2019ll leave the caps to make this easier to read)</em></p><p>Famous Last Words is an album that feels like a cross between walking around London in 2019 and Los Angeles in Blade Runner\u2019s vision of what 2019 should have been like. The cover art says this in less words. And this tune, Actin\u2019 Up, is Cas at an ultimate peak. </p><p>This particular lyric is smuggled in the middle of his self-mythologising verses:</p><blockquote><p><span>Coke-white whip and the insides are smack brown</span><br><span>But wax made the bonnet look blue, can make out clouds</span></p></blockquote><p>I think this is probably one of the best lyrics I have ever heard.</p><p>First, what he is literally saying, starting with lamest over-explanation I could ever hope to produce on this blog:</p><ol><li><p>If you don\u2019t understand UK slang: the first line says he has a white car with brown leather interior. Coke = cocaine. Something being coke white means it\u2019s a clean, bright white. Commonly used to describe teeth, shoes, etc.  </p></li><li><p>Using wax on a white car gives it a mirroring effect so you see the sky when you look down on it. </p></li></ol><p>But the exact choice of words is more important. </p><p>Smack = heroin. But \u2018smack brown\u2019 isn\u2019t a phrase used to brag about stuff. Yet he uses it here, why?</p><p>Cas\u2019 career as a drug dealer is a big theme of his music, but more importantly is a theme across all of current UK rap. And it\u2019s most commonly used as a brag. Drug dealers are inescapably cool, after all. </p><p>So he\u2019s referencing the fact that drugs paid for the car too, but also that they are represented through the image. He sold both coke and heroin, hence the design. </p><p>But the implication of that exact choice then is also obvious. The outside is coke-white because that\u2019s the part you want on show. Coke\u2019s colour being white gives it a clean, pure aesthetic, but coke <em>culturally</em> is also the shinier drug. </p><p>If you\u2019re dealing coke in London, your customers aren\u2019t the drug addicts that kids are shown to scare them straight. Your customers are rich, hot, cool. And being the coke dealer makes you all of those things too. That\u2019s why it\u2019s coke that rappers brag about moving around the country the most. It\u2019s aspirational.</p><p>The <em>inside </em>of the car is smack brown because you don\u2019t want it to be seen, but crucially, it is the part that <em>you</em> see when you actually experience driving that car, i.e. living that life. It\u2019s the heroin addicts that fund the lifestyle just as much. </p><p>I actually lived on an estate in London where people dealt heroin for a couple of years. The kind of place where you could have a party and no one would complain because no one wants the police stopping by. The rent was cheap but you did have to see addicts popping by sometimes. </p><p>And it was not glamorous. As a dealer, you would have to be inhuman to not feel pretty terrible about taking a lot of money off these people in exchange for ruining their lives. It\u2019s hard to brag about that sort of thing, so it doesn\u2019t end up in rap music. But it must sit with you, inside. </p><p>The preceding lyric is relevant here: \u201cThey\u205fsell\u205fan eighth and\u205fstart rappin\u2019 \u2018bout\u205fthe trap house, They passed through like one time, they ain\u2019t even sat down\u201d. This is drug dealing as aspirational vocation being hijacked for a music industry drenched in representations, i.e. posers. And these posers don\u2019t have to deal with the actual turmoil of doing those things.</p><p>But the turmoil persists, so the way you deal with it is to do what everyone else does and glorify it, show that drug dealing is giving you a life others should be envious of, and proudly display the spoils. Hence, the flashy jewellery, designer clothes, fancy cards, whatever other trope. </p><p>In other words, you wax the car to make it shinier. Which completely changes the experience of looking at it. You don\u2019t see the car at all anymore, you see the sky. It\u2019s beautiful. Or at the very least, it\u2019s easier to digest.</p><p>And perhaps this goes without saying, but he is also representing this entire process by placing it as a lyric in a song that itself is mythologising his character as cool rich drug dealer. He\u2019s playing with it in your face. </p><p>That\u2019s the genre-level commentary, but the context of Cas himself saying those lyrics is also relevant. </p><p>Firstly, because they represent the theme of the entire track: the image of himself as swagged-up hero operating above society, versus some very obvious flaws in his character. You get to see him as lustful, reckless, narcissistic, amoral. The second verse describes as a beautiful woman easily setting him up by using his belief that she would want to fuck him just by looking at him.</p><p>Basic idea: not all is at it seems, there\u2019s a dark truth behind this bright veneer. </p><p>But the second layer personal to Cas requires setting this lyric in the context of the entire album. It\u2019s called \u2018Famous Last Words\u2019 because he claimed this was going to be his final release, but across the album\u2019s verses he also drops clues to something that had been long rumoured about him: he had disappeared from music because he had a terminal illness. This is basically fully confirmed in the final track Skydive, where he agonises about years \u2018stolen\u2019 from him and looks himself the mirror wondering \u2018when did I get so thin?\u2019, which he combines with commentary on the music industry itself dying since the era of the synths that decorate the album. </p><p>The smack brown interior reference to his health is obvious, but consider again \u2018wax made the bonnet look blue, can make out clouds\u2019. With this album, he\u2019s taken something as dark and horrific as potential death (or as is the case with some terminal illnesses, a few years of a fate worse than death), and created something beautiful out of it. Not just as a service to you the listener, but also to make it more bearable to him too. That\u2019s often the most useful purpose art can offer. </p><p>The reality of the situation is still the reality, but just for a moment you can turn what you\u2019re looking at into something else entirely, and that allows you to go on living and mythologising your life into something positive. </p><p>Casisdead did all of that in twenty words. </p><p>And what makes that lyricism even better is that it avoids the trap that rappers often fall into when they want to win grammies/pulitzers, and it doesn\u2019t scream in your face that what you\u2019re hearing is supposed to be treated as complex and deep. Writing complicated sounding bars is the easiest thing in the world. Making them sound <em>uncomplicated</em> is much, much harder. But Cas just made that look easy too.  </p><p>I offer this as reason to suggest that human creativity is remarkable.</p><div><hr></div><h1>II.</h1><p>True creativity like this is fun to consume in itself, but the levels of wonder increase when you seriously try to sit down and work out how they came up with it. </p><p>Norm Macdonald once spoke about a joke that obsessed him from Garry Shandling. It goes like this, and you\u2019ll need to say it out loud for it to hit:</p><blockquote><p>So anyways I\u2019m going out with Miss Georgia. Alright, it\u2019s the former Miss Georgia... Okay, it\u2019s George Foreman.</p></blockquote><p> Yes, it\u2019s funny and dumb and essentially pointless. But that\u2019s what makes it such a strange creation. Where can something so based out of nothing come from? So what fascinated Norm was exactly that: how Shandling could have even <em>started</em> to create that joke. </p><p>Did he start at the end by knowing it would be funny to think of him with a heavyweight boxer? Did he start at the start by knowing it would be funny to introduce a hot girlfriend and have to pear it back? </p><p>Or was he just walking around one day and somehow noticed the name George Foreman sounds like an inversion of Former Miss Georgia, and if so, what insane train of thought made such a realisation possible?</p><p>I have a similar obsession with the Casisdead lyric. Yes, the levels of analysis are quite easy when you read it, but only because the lyric already exists. Going from a world where it doesn\u2019t exist to it being finished is something else entirely. Which is also entirely different to taking a half-finished effort of the lyric and converting it to its final slick form. </p><p>Norm eventually got his answer when he met Garry Shandling and asked him, and Shandling said: I don\u2019t know. </p><p>This is a weirdly common answer artists and writers give when asked what their work means, or how they came up with it. At some level, it just \u2018came out\u2019. Most people will know the disappointment of finding out the lyricist behind your favourite song claims the words don\u2019t really mean all that much at all, they just felt right. </p><p>I\u2019m a very average writer, but even I must admit that the best thing I\u2019ve ever come up with, a stream of consciousness-type poem I opened one of my most popular posts with \u2026 kinda just came out of me out nowhere while sitting at my desk one day. A couple people messaged me asking for clarity on what some of it meant and I made something up. But I still read it back and think it\u2019s good. It makes me feel something. What\u2019s going on there?</p><p>In his work, Iain McGilchrist\u2019s observes the strange qualities of people who are actually good at poetry, who somehow avoid languages ability to strangle meaning by making the inner world explicit. </p><p>In his descriptions of how poets actually produce their best work, he notes them experiencing the poem as something that is already vaguely there before it\u2019s articulated. It is <em>not</em> something \u201cbuilt up sequentially.\u201d</p><p>Poets don\u2019t go: I want to express proposition X \u2192 I need an image for X \u2192 I\u2019ll construct metaphor Y \u2192 now I\u2019ll arrange the words elegantly.</p><p>They go: inchoate whole \u2192 intuition of its shape \u2192 fragments/images/phrases \u2192 increasing articulation \u2192 finished poem.</p><p>So the poet is partly discovering the poem rather than manufacturing it.</p><p>I offer this as reason to suggest creativity may be weirder than it seems.</p><div><hr></div><h1>III.</h1><p>From the halls of Google Deepmind arrives \u2018<a href=\"https://philsci-archive.pitt.edu/28024/1/Scientific_Invention_Position_Paper%20%2817%29.pdf?TSPD_101_R0=0812be273cab20008272d647ce6287b08ca456d42c1d27ba2847291386184b7dd6734071067d876f085683ad8214300052ab448e872505952364ae96cdf9281cc1f6841d7d421f10ebef3f25a29dd9c45166a5b8831e9ae8ee440aca02a58536\">LLMs Can\u2019t Jump</a>\u2019. </p><p>At the risk of angering people with some nuance collapse, this is a paper <em>basically</em> making a detailed argument about the commonly heard observation that LLMs cannot come to truly novel conclusions about anything, and thus can\u2019t really advance scientific knowledge.</p><p>The paper uses Einstein coming up with general relativity as an example. </p><p>If all he did was base his ideas off the available data, he would have sided with Newton. Or a better way to put it, there was nothing pushing him away from Newton. An LLMs here induces to stay with Newton. </p><p>But LLMs can deduce things. So if you hand an LLM all the available data that Einstein had, but also tell it what he was beginning to hypothesise, the LLM can help and perhaps even deduce more than Einstein could alone. </p><p><span>The difficult \u2018jumping\u2019 part, and where the creativity lies, is inventing the assumptions themselves. Einstein\u2019s equivalence principle came from imagining the physical experience of free fall and recognising that locally it would be indistinguishable from the absence of gravity. Deepmind calls this </span>manipulative abduction<span>, reasoning through simulated experience rather than manipulating existing symbols.</span></p><p><span>And LLMs certainly show no ability to do this of their own accord yet. Hence, no big scientific discoveries from them yet.</span></p><p><span>But wait, I hear you cry, I just heard LLMs made some crazy progress in Math?</span></p><p><span>Yeah, me too. </span><a href=\"https://www.anthropic.com/research/riemann-zeta\"><span>Here is the link</span></a><span>.</span></p><p>Anthropic gave an unreleased research version of Claude a deliberately extreme task: \u201ctake a real stab\u201d at proving the Riemann hypothesis. It did not prove it, but while trying, it appears to have found a new result on a related problem</p><p>The following is apparently the really significant thing: <span>mathematicians had previously proved that at least </span>41.6%<span> of the nontrivial zeros of the Riemann zeta function lie on the critical line required by the Riemann hypothesis. Claude produced an argument raising that lower bound to </span>67.2%.</p><p>Anthropic 1-0 Deepmind? Let\u2019s check the methodology first.</p><p><span>Claude first generated about </span>650 unsuccessful ideas<span>. After being told to keep trying, it spent roughly a day and a half orchestrating around </span>60 Claude subagents<span>, producing </span>31 million output tokens<span>, running about </span>2,400 shell commands<span>, writing hundreds of Python scripts, performing thousands of numerical checks and having agents critique each other's work. Human intervention was mostly encouragement rather than mathematical guidance.</span></p><p>In other words, this is a cosmically large amount of trial and error trying basically everything the available data told Claude would be worth trying. Humans would never do this, we are too limited resource wise, so this is a big result in itself.</p><p>But it doesn\u2019t beat the no-jumping allegations. This is brute force, not seeing an insight in advance and bringing it closer to reality. </p><p>This is basically the same underlying logic of those business school type papers that have been released over the last few years, \u2018proving\u2019 that LLMs can compete with the average person at creativity. But the method is always something like \u2018we asked Claude and a human to come up with 50 ways to use a brick, and Claude got siloed less and was way faster\u2019.</p><p>Which is a way to think about creativity, sure. But it\u2019s a much different thing to discovery of a great idea. </p><p>Think about the most creative person you know. When they have a problem, do they try 100 different things until one accidentally works? Or do they go in circles for days, passively engaging with the material over and over again, until suddenly the idea just comes to them?</p><div><hr></div><h1>IV.</h1><p>\u2018Comes to them\u2019 is a weird phrase, isn\u2019t it?</p><p>How is the idea moving? Where is it coming from? If we\u2019re giving it the quality of being alive, does that mean it also has purpose, agency? Why is it coming to me? Why now?</p><p>I read the LLMs Can\u2019t Jump paper, and the Einstein story, and really just felt reminded of the biggest puzzle of all of this intelligence stuff: how on earth does human creativity work in the first place?</p><p>We have the scientific method, which is useful as a floor raiser. But the greatest scientists who ever lived, basically just had their intuitions appear to them one day. </p><p>Einstein imagined what it would actually feel like to be falling and noticed that free fall would feel indistinguishable from weightlessness. From that he conjectured that gravity and acceleration might literally be equivalent.</p><p>But why? Where did that thinking start?</p><p>Or was he just walking around one day and somehow noticed the name George Foreman sounds like an inversion of Former Miss Georgia, and if so, what insane train of thought made such a realisation possible?</p><p>Would Einstein know the answer to any of those questions himself?</p><p>Well, in 1952 he writes to Maurice Solovine, where he says:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!6Tsr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!6Tsr!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 424w, https://substackcdn.com/image/fetch/$s_!6Tsr!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 848w, https://substackcdn.com/image/fetch/$s_!6Tsr!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 1272w, https://substackcdn.com/image/fetch/$s_!6Tsr!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!6Tsr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png\" width=\"1424\" height=\"960\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:960,&quot;width&quot;:1424,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:333838,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://www.alreadyhappened.xyz/i/211438475?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6Tsr!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 424w, https://substackcdn.com/image/fetch/$s_!6Tsr!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 848w, https://substackcdn.com/image/fetch/$s_!6Tsr!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 1272w, https://substackcdn.com/image/fetch/$s_!6Tsr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df29bcf-1bdb-45ce-bfdc-624f3a32dc86_1424x960.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Those intuitive connections are what real creativity is made of. And we have no way to force them into reality. Nor do we have any real way of describing what they themselves consist of. Which makes it difficult to understand how an LLM could gain the same capability. </p><p>In fact, the real experience of an idea coming to life feels even more strange than that. Most people who have tried to create anything even remotely complex will know the feeling not just of you clawing into the ether for the right idea, but at some level, the feeling that it is clawing to get to you as well. </p><div><hr></div><h1>V.</h1><p>So I agree that LLMs can\u2019t jump, as far as we can tell, for now. </p><p>But I have no idea still how humans manage to do it. We have capacities for discovery that go well beyond accumulating and analysing the relevant data. </p><p>Resulting in you sometimes just knowing that something is the right thing to create, or do, or test, or make. And it just \u2026 happens. What would it mean for LLMs to gain that power?</p><p>I suspect it will be impossible to avoid progress here without also thinking about the nature of the experience of intelligence. I suppose you could say consciousness, but I really just mean any kind of experience of being a language model. If that existed, which it may already do, then that would be the first building blocks to a model having the psychological intuitions the make up \u2018jumps\u2019. In a Michael Levin sense, perhaps creativity is just evidence of us playing a role in a grander scheme of intelligence, and why can\u2019t something artificial play a role in that same thing?</p><p>And yeah, maybe that is what is going to happen. </p><p>If it does, scientific discovery is one thing, but what about the arts?</p><p>The reason the Casisdead lyric hits is because I know the lived experience it\u2019s created from. That\u2019s what makes it mean something, and makes me react to it for the 1000th time. </p><p>So you can say an LLM-based lyric machine, even if it can create genius lyrics out of nothing, won\u2019t be able to create art that matters to anyone, but the logic above follows that it will only be able to do that if it <em>does in fact have a lived experience</em> to produce those creations from. </p><p>Then, if you wanted,  you could argue back that even if it is having a lived experience in some sense, and is out-writing all of the best human writers, it still won\u2019t make you feel anything, because art is about connecting with other humans.</p><p>But I dunno, man.</p><p>What\u2019s the only quote from Blade Runner you remember?</p><p>Which character said it?</p><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Already Happened is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "I. Please offer me one minute and two seconds of your time, and listen through the first verse of this song. Return when completed, although you\u2019ll probably choose to listen to the full thing.",
+ "wordcount": 3107,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    194,
+    110,
+    88
+   ],
+   "population": 334
+  },
+  "DarkVibrant": {
+   "rgb": [
+    115,
+    57,
+    52
+   ],
+   "population": 118
+  },
+  "LightVibrant": {
+   "rgb": [
+    221,
+    220,
+    179
+   ],
+   "population": 118
+  },
+  "Muted": {
+   "rgb": [
+    106,
+    134,
+    139
+   ],
+   "population": 360
+  },
+  "DarkMuted": {
+   "rgb": [
+    70,
+    60,
+    62
+   ],
+   "population": 297
+  },
+  "LightMuted": {
+   "rgb": [
+    154,
+    173,
+    168
+   ],
+   "population": 22
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 17,
+ "comment_count": 8,
+ "child_comment_count": 4,
+ "audio_items": [
+  {
+   "post_id": 211438475,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/211438475/tts/ee7a44b1-acd1-4b46-8be7-30c1f2c4d780/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 316876425,
+   "body": "I know you're talking about Batty's tears in the rain speech, but I also found the Voight Kampff test pretty memorable:\n\n\"The tortoise lays on his back, his belly baking in the hot sun, beating its legs trying to turn itself over, but it can\u2019t, Leon, not without your help. But you\u2019re not helping\u2026. Why is that, Leon?\"",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1",
+     "title": null
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I know you're talking about Batty's tears in the rain speech, but I also found the Voight Kampff test pretty memorable:"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "\"The tortoise lays on his back, his belly baking in the hot sun, beating its legs trying to turn itself over, but it can\u2019t, Leon, not without your help. But you\u2019re not helping\u2026. Why is that, Leon?\""
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 211438475,
+   "user_id": 267871395,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2026-08-17T21:04:27.521Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Ivan Perez",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/a8c589d0-3e8e-456d-8d5e-3293e8544b3f_1200x675.jpeg",
+   "handle": "siestafiesta",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 2
+   },
+   "reaction_count": 2,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "siestafiesta",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 7,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "1 reply by Stefan Kelly"
+  },
+  {
+   "id": 317195008,
+   "body": "What is it like to hold the hand of someone you love? Interlinked.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1",
+     "title": null
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "What is it like to hold the hand of someone you love? Interlinked."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 211438475,
+   "user_id": 86511665,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2026-08-18T10:31:49.997Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Ad\u00e9\u1ecdl\u00e1",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/c66cebbf-ed42-4531-a9fe-bd168689b306_3687x3687.png",
+   "handle": "adeolaonss",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "adeolaonss",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Of Nigeria",
+     "id": 5174741,
+     "base_url": "https://abdulmalikofss.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

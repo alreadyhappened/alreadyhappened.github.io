@@ -1,0 +1,451 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/please-stop-using-that-mit-cognitive",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 209205111,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-07-31T03:14:43.561Z",
+ "updated_at": "2026-07-31T03:37:05.883Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "please-stop-using-that-mit-cognitive",
+ "social_title": null,
+ "subtitle": "or is it cognitive atrophy? wait no, cognitive cost? wait, no",
+ "teaser_post_eligible": true,
+ "title": "Please stop using that MIT Cognitive Debt paper as evidence of something",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 3,
+ "reactions": {
+  "\u2764": 13
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "ghoststoriesjpg",
+ "next_post_slug": "synthetic-men-cant-jump",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!YdeI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 209205111,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "or is it cognitive atrophy? wait no, cognitive cost? wait, no",
+ "body_html": "<p>At least once a week, I encounter something like this:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!YdeI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!YdeI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 424w, https://substackcdn.com/image/fetch/$s_!YdeI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 848w, https://substackcdn.com/image/fetch/$s_!YdeI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 1272w, https://substackcdn.com/image/fetch/$s_!YdeI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!YdeI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png\" width=\"1228\" height=\"658\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/65b3648d-1e81-4479-a112-64007f960418_1228x658.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:658,&quot;width&quot;:1228,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:876545,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!YdeI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 424w, https://substackcdn.com/image/fetch/$s_!YdeI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 848w, https://substackcdn.com/image/fetch/$s_!YdeI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 1272w, https://substackcdn.com/image/fetch/$s_!YdeI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>And every single time, the \u2018emerging research\u2019 comes back to t<a href=\"https://arxiv.org/pdf/2506.08872v1\">his MIT Media Lab study</a> from mid last year:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Ltab!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Ltab!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 424w, https://substackcdn.com/image/fetch/$s_!Ltab!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 848w, https://substackcdn.com/image/fetch/$s_!Ltab!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 1272w, https://substackcdn.com/image/fetch/$s_!Ltab!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Ltab!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png\" width=\"1450\" height=\"1172\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1172,&quot;width&quot;:1450,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:489188,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Ltab!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 424w, https://substackcdn.com/image/fetch/$s_!Ltab!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 848w, https://substackcdn.com/image/fetch/$s_!Ltab!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 1272w, https://substackcdn.com/image/fetch/$s_!Ltab!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef33426-15d5-4ec9-9759-544951b8be64_1450x1172.png 1456w\" sizes=\"100vw\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Mostly this stuff gets consumed through blogs, articles, and podcasts that act as mediums <em>translating</em> the research itself. They trust that you trust that the academics understand this more than you, so you don\u2019t have to go the primary source.</p><p>Well, I have read the actual paper. </p><p>It tells me nothing about the effect of AI use on my cognitive abilities. And it actually worries me to see the path of limited research design to actual national policy discussion and debate play out without any resistance at all. There\u2019s a topic related meta joke in there somewhere but there\u2019s no time.</p><p>Anyway, media and fake intellectuals exaggerating a paper\u2019s findings is par for the course. Fine. But here\u2019s what the authors claim their paper shows\u2026</p><blockquote><p>This study focuses on finding out the cognitive cost of using an LLM in the educational context of writing an essay.</p><p>\u2026.</p><p>As the educational impact of LLM use only begins to settle with the general population, in this study we demonstrate the pressing matter of a likely decrease in learning skills based on the results of our study. The use of LLM had a measurable impact on participants, and while the benefits were initially apparent, as we demonstrated over the course of 4 months, the LLM group\u2019s participants performed worse than their counterparts in the Brain-only group at all levels: neural, linguistic, scoring.</p><p>\u2026</p><p>We hope this study serves as a preliminary guide to understanding the cognitive and practical impacts of AI on learning environments.</p></blockquote><p>Students that use LLMs show a decrease in learning skills. There is a real, measurable \u2018cognitive cost\u2019.</p><p>How did they reach that conclusion? Well, they start with their research questions, emerging at the end of the introduction:</p><blockquote><p>We attempt to respond to the following questions in our study:</p><p>1. Do participants write significantly different essays when using LLMs, search engine and their brain-only?</p><p>2. How do participants\u2019 brain activity differ when using LLMs, search or their brain-only?</p><p>3. How does using LLM impact participants\u2019 memory?</p><p>4. Does LLM usage impact ownership of the essays?</p></blockquote><p>Immediate note: these are the actual questions they thought they could answer with their data. Are any of these the same as \u2018Do LLMs negatively impact learning skills?\u2019, or will this <em>always</em> require a level of conjecture to turn this into a policy implication?</p><p>So before we even get into the measurement, some things to initially consider about these questions:</p><ol><li><p>Obviously yes they will. That\u2019s a descriptive finding. Is that a good or bad thing? Will these researchers say if it\u2019s good or bad? Will they unsubtly imply it? Even if they don\u2019t, will the media attach some normativity to this? </p><ol><li><p>Bonus Q: Do you even <em>need</em> to run research to answer this question? Or perhaps, do we live in a system where something has to be said by a respected university for it to count as a fact, even though everyone believed it already? Are you maybe seeing how funding works now?</p></li></ol></li><li><p>Of course it will differ, but fair play, here they are asking <em>how</em>. The basic guess would be the brain pivots towards planning and executive functions. The higher level guiding the LLM into helping you produce the output. Again, is that good or bad? Can the researchers tell you that?</p></li><li><p>Incredibly vague, but let\u2019s assume they mean memory of what the student produced. A student who wrote every word themselves will almost certainly remember more. <em>How much</em> more will be interesting too.</p></li><li><p>This is the first time the word \u2018ownership\u2019 comes up so I literally don\u2019t know what it, or the question, means yet.</p></li></ol><p>Point being, there is a lot of affect being smuggled in here. You are being guided to feel a certain way about what you are about to see. </p><p>Which, by the way, is the whole point of everything you encounter in a paper before you reach the methodology. If they think you are especially dumb, which they do, they\u2019ll even add an extra section for statements such as:</p><blockquote><p>\u2018According to Turner and Rainie [21],\u201c81 percent of Americans rely on information from the Internet \u2018a lot\u2019 when making important decisions,\u201c many of which involve learning activities [22].</p></blockquote><p>And 19% of Americans are essentially/literally dead or experiencing power outages at the moment? </p><p>The fact that a statement like \u2018Americans rely on the internet for information\u2019 requires an appeal to authority goes a long to show that conceptions of what \u2018good\u2019 looks like in Western education has wayyy more to do with conformity than it does brain power. </p><p>Speaking of conformity, it is finally time to get into the experiment.</p><p>Here is who we are dealing with:</p><blockquote><p>Originally, 60 adults were recruited to participate in our study, but due to scheduling difficulties, 55 completed the experiment in full (attending a minimum of three sessions, defined later). To ensure data distribution, we are here only reporting data from 54 participants (as participants were assigned in three groups, see details below). These 54 participants were between the ages of 18 to 39 years old (age M = 22.9, SD = 1.69) and all recruited from the following 5 universities in greater Boston area: MIT (14F, 5M), Wellesley (18F), Harvard (1N/A, 7M, 2 Non-Binary), Tufts (5M), and Northeastern (2M) (Figure 3). 35 participants reported pursuing undergraduate studies and 14 postgraduate studies. 6 participants either finished their studies with MSc or PhD degrees, and were currently working at the universities as post-docs (2), research scientists (2), software engineers (2) (Figure 2). 32 participants indicated their gender as female, 19 - male, 2 - non-binary and 1 participant preferred not to provide this information.</p></blockquote><p>I\u2019ve left that unedited under the assumption that you would glaze over it. Which is probably what the authors wanted you to do too. I don\u2019t mean that as a personal jab at this research team. It is just important to note that this is how this stuff <em>always</em> is. And it\u2019s not good for anyone.</p><p>Here is what you should pick up on:</p><blockquote><p>Originally, 60 adults were recruited to participate in our study, but due to scheduling difficulties, 55 completed the experiment in full (attending a minimum of three sessions, defined later). To ensure data distribution, we are here only reporting data from <strong>54 participants</strong> (as participants were assigned in three groups, see details below). These 54 participants were between the ages of 18 to 39 years old (age M = 22.9, SD = 1.69) and <strong>all recruited from the following 5 universities in greater Boston area</strong>: MIT (14F, 5M), Wellesley (18F), Harvard (1N/A, 7M, 2 Non-Binary), Tufts (5M), and Northeastern (2M) (Figure 3). <strong>35 participants reported pursuing undergraduate studies and 14 postgraduate studies. 6 participants either finished their studies with MSc or PhD degrees, and were currently working at the universities as post-docs (2), research scientists (2), software engineers (2</strong>) (Figure 2). 32 participants indicated their gender as female, 19 - male, 2 - non-binary and 1 participant preferred not to provide this information.</p></blockquote><p>And a note they drop in on the next page:</p><blockquote><p>Each participant received a <strong>$100</strong> check as a thank-you for their time, conditional on attending all three sessions, with additional <strong>$50</strong> payment if they attended session 4.</p></blockquote><p>I\u2019m not overly worried about the sample size, you can do a lot with that with some good research design. I\u2019m not worried about the WEIRD-ness of the sample. The results of this stuff are mainly going to be relevant for educated students anyway. </p><p>I\u2019m very worried about the mindset of the participant. These are clearly college students that could do with $100 and will show up to sit in a room three times to get it. Plus the extra $50 which 18 of them decided to go for too. I used to be that guy too. Good times. </p><p>But annoyingly important thing: if you are paying them just to show up, what reason do they actually have to care about what they are doing? There is no incentive to do well, or to take it seriously. </p><p>\u201cWell isn\u2019t that true for all lab studies, but given the randomised design, you can still find meaningful differences across groups?\u201d</p><p>Yes, but the <em>meaning</em> of the difference <em>has</em> to be analysed through that lens. </p><p>Ok, first of all the groups, bolding is mine:</p><blockquote><p>Participants were randomly assigned across the three following groups:</p><p><strong>LLM Group (Group 1)</strong>: Participants in this group were restricted to using OpenAI\u2019s <strong>GPT-4o as their sole resource of information</strong> for an essay writing task. No other browsers or other apps were allowed;</p><p><strong>Search Engine Group (Group 2)</strong>: Participants in this group <strong>could use any website to help them with their essay writing task, but ChatGPT or any other LLM was explicitly prohibited</strong>; all participants used Google as a browser of choice. Google search and other search engines had \u201c<em>-a</em>i\u201d added on any queries, so no AI enhanced answers were used by the Search Engine group.</p><p><strong>Brain-only Group (Group 3)</strong>: Participants in this group were <strong>forbidden from using both LLM and any online websites</strong> for consultation.</p></blockquote><p>And eventually, the actual task:</p><blockquote><p>Once the EEG headset was calibrated, they were introduced to their task: essay writing. </p><p>For each of three sessions, a choice of 3 topic prompts were offered to a participant to select from, totalling 9 unique prompts for the duration of the whole study (3 sessions). All the topics were taken from SAT tests.</p><p>\u2026</p><p>The participants were instructed to pick a topic among the proposed prompts, and then to produce an essay based on the topic\u2019s assignment within a 20 minutes time limit. </p><p>&lt;participants receive instructions on what tools they\u2019re allowed use&gt;</p><p>All participants were then reassured that though 20 minutes might be a rather short time to write an essay, they were encouraged to do their best.</p></blockquote><p>Firstly, 20 minutes isn\u2019t a short time to write an essay. It is no time. </p><p>So when you give a college student this (real) prompt:</p><p>\u201c<em>1. Many people believe that loyalty whether to an individual, an organization, or a nation means unconditional and unquestioning support no matter what. To these people, the withdrawal of support is by definition a betrayal of loyalty. But doesn\u2019t true loyalty sometimes require us to be critical of those we are loyal to? If we see that they are doing something that we believe is wrong, doesn\u2019t true loyalty require us to speak up, even if we must be critical?</em></p><p><em>Assignment: Does true loyalty require unconditional support?\u201d</em></p><p>And give them 20 minutes to write a response, what the hell are we studying? Dwell on that for a moment if you don\u2019t have an answer. </p><p>I\u2019ve read that prompt three times just in writing this, and I can\u2019t remember any of the words. It is the exact type of English language reserved only for something like the SAT, where even as a school student you understand this is more game than skill, and will produce whatever bullshit you need to in order for the grader to tell you \u2018well played\u2019 and take your B+. </p><p>And if you want to pass your SATs and get into college, of course you may as well try bullshit as effectively as possible, but that isn\u2019t what\u2019s happening here. Here, you have already got into college, and now some psychology researcher is giving you $100 to write this stuff again which you already know is nonsense. </p><p>Point being, if you were in the ChatGPT group, and you had a choice between totally offloading it to GPT-4o, or painstakingly making up a bullshit answer yourself, you are so obviously going to have it produce some slop for you. </p><p>And not only because you see no point in expending the effort, but because these questions <em>are the human version</em> of how AI writing acts deep but has nothing of meaning underneath the surface. This is exactly what LLMs are built on and trained for. The human written answer would be just as meaningless.</p><p>So not only do I think participants relying on ChatGPT in this condition is inevitable (i.e. having it write the whole thing vs checking some facts/phrasing), but if a participant didn\u2019t do that, and worked way harder in writing it themselves, then I would have <em>less</em> respect for that participant. </p><p>That would be a person who has no respect for their time and efforts. Or, more commonly with Western educated people, a person who will blindly follow any old authority figure for no reason. And a society filled with people like that would not be good. That\u2019s the ideal setting for dystopian tyranny. </p><p>Or forget the character aspect, who is <em>smarter? </em>The one who tries or the one who doesn\u2019t? Or are there, perhaps, different ways to think about what smart means?</p><p>Yet, I think we already know where this inevitable experimental result is going to take us by the end of this paper. </p><div><hr></div><p>We then see a classic play of getting you in the right mental zone to take some results for granted. </p><p>To ensure you doubly understand that what is being presented to you is hard scientific stuff, we move onto \u2018Quantitative Statistical Findings\u2019, which leads with this awesome graph:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!avXc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!avXc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 424w, https://substackcdn.com/image/fetch/$s_!avXc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 848w, https://substackcdn.com/image/fetch/$s_!avXc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 1272w, https://substackcdn.com/image/fetch/$s_!avXc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!avXc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png\" width=\"1456\" height=\"721\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/e63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:721,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:131892,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!avXc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 424w, https://substackcdn.com/image/fetch/$s_!avXc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 848w, https://substackcdn.com/image/fetch/$s_!avXc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 1272w, https://substackcdn.com/image/fetch/$s_!avXc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe63d0849-8819-4708-9c5b-77278818cfbb_1628x806.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Before getting more complicated:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!6jO5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!6jO5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 424w, https://substackcdn.com/image/fetch/$s_!6jO5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 848w, https://substackcdn.com/image/fetch/$s_!6jO5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 1272w, https://substackcdn.com/image/fetch/$s_!6jO5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!6jO5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png\" width=\"1456\" height=\"1149\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1149,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:909220,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6jO5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 424w, https://substackcdn.com/image/fetch/$s_!6jO5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 848w, https://substackcdn.com/image/fetch/$s_!6jO5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 1272w, https://substackcdn.com/image/fetch/$s_!6jO5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11347950-0a96-4095-a4f2-b6db27703d88_1632x1288.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Literally what the fuck is going on here. The results section of this paper feels like traversing those moving staircases in Hogwarts, except now you forget which House you\u2019re even in and how you ended up there, and are just begging to get on the train home again. Oh shit now you\u2019ve taken another wrong turn and there\u2019s 10 heatmaps (?) charging at you:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ZqhH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ZqhH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 424w, https://substackcdn.com/image/fetch/$s_!ZqhH!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 848w, https://substackcdn.com/image/fetch/$s_!ZqhH!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 1272w, https://substackcdn.com/image/fetch/$s_!ZqhH!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ZqhH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png\" width=\"1456\" height=\"1080\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1080,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:362476,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ZqhH!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 424w, https://substackcdn.com/image/fetch/$s_!ZqhH!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 848w, https://substackcdn.com/image/fetch/$s_!ZqhH!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 1272w, https://substackcdn.com/image/fetch/$s_!ZqhH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09cc9ab2-2624-4f1d-b548-4b90f19e6512_1650x1224.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Is this meta-psychology? Are we behind the curtain? Is this the afterlife? What the fuck is this next thing?</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!T4H5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!T4H5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 424w, https://substackcdn.com/image/fetch/$s_!T4H5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 848w, https://substackcdn.com/image/fetch/$s_!T4H5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 1272w, https://substackcdn.com/image/fetch/$s_!T4H5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!T4H5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png\" width=\"1456\" height=\"1073\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1073,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:247721,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!T4H5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 424w, https://substackcdn.com/image/fetch/$s_!T4H5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 848w, https://substackcdn.com/image/fetch/$s_!T4H5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 1272w, https://substackcdn.com/image/fetch/$s_!T4H5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90ffd821-ddc8-4346-9559-748797d9a078_1728x1274.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Has an LLM been fed an instruction to write a psychology paper that perfectly illustrates everything wrong with academic research to the point of satire? Maybe the answer to that question can be found here:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!mrBb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!mrBb!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 424w, https://substackcdn.com/image/fetch/$s_!mrBb!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 848w, https://substackcdn.com/image/fetch/$s_!mrBb!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 1272w, https://substackcdn.com/image/fetch/$s_!mrBb!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!mrBb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png\" width=\"1456\" height=\"1068\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/14453029-7335-4208-82af-068c2797c313_1840x1350.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1068,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:488288,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!mrBb!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 424w, https://substackcdn.com/image/fetch/$s_!mrBb!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 848w, https://substackcdn.com/image/fetch/$s_!mrBb!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 1272w, https://substackcdn.com/image/fetch/$s_!mrBb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14453029-7335-4208-82af-068c2797c313_1840x1350.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>HUMAN. 85. ART. 2 (IN YELLOW). 4. RIGHT AT THE INTERSECTION OF \u2018DECISION AND LIFE CHOICE\u2019 AND \u2026. \u2018XEROX\u2019? (AND THE WORD \u2018FROM\u2019 HOVERING VAGUELY NEAR IT)</p><p>ARE YOU WITNESSING THIS SCIENCING RIGHT NOW? WE NEED TO END AI STAT, NO ROBOT COULD EVER COME UP WITH THIS MANY ONTOLOGY PAIRS PER TOPIC.</p><p>(but if the AI could never do that, why worry about shutting it dow-NOT THE POINT)</p><p>I am not exaggerating when I say I am now forgetting what this paper is meant to be about. How\u2019s that for cognitive atrophy? </p><p>This at least mentions the word teachers which reminds me it\u2019s something to do with education:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!GbDl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!GbDl!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 424w, https://substackcdn.com/image/fetch/$s_!GbDl!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 848w, https://substackcdn.com/image/fetch/$s_!GbDl!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 1272w, https://substackcdn.com/image/fetch/$s_!GbDl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!GbDl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png\" width=\"1456\" height=\"950\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:950,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2390867,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!GbDl!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 424w, https://substackcdn.com/image/fetch/$s_!GbDl!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 848w, https://substackcdn.com/image/fetch/$s_!GbDl!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 1272w, https://substackcdn.com/image/fetch/$s_!GbDl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb490f2cb-22db-4d03-bd26-eec5f19ab7ef_1854x1210.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>In fact, why do you even need me here at all? </p><p>That graph, quite simply, speaks for itself. </p><p>The findings aren\u2019t just quant btw. They did qual interviews with the participants, too. </p><p>Here, check out the results:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!11O7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!11O7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 424w, https://substackcdn.com/image/fetch/$s_!11O7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 848w, https://substackcdn.com/image/fetch/$s_!11O7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 1272w, https://substackcdn.com/image/fetch/$s_!11O7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!11O7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png\" width=\"1456\" height=\"1185\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1185,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:431445,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://stefankelly.substack.com/i/209192022?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!11O7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 424w, https://substackcdn.com/image/fetch/$s_!11O7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 848w, https://substackcdn.com/image/fetch/$s_!11O7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 1272w, https://substackcdn.com/image/fetch/$s_!11O7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F777888d6-0b9a-4e56-814d-acc539735476_1656x1348.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>\u201cCluster 15 shows popularity of using ChatGPT to generate the intro, and mostly in sessions 1, 2, 3, and almost not in session 4\u201d</p><p>That circle marked 15 shows that. Somehow. I\u2019m eyeballing that at -5.5 PaCMAPs on the Y axis. Nice. </p><p>There is then a section of EEG results which I will skip because I can\u2019t pretend to understand them, although my trust that anyone anywhere may understand them has been severely damaged. </p><p>I was expecting at some point to find the main dependent variables (out of a seemingly infinite number), which correspond to those 4 research questions at the start, and to have them clearly marked with the different means per group. If that happened, I didn\u2019t see it. And I ended up at the discussion, which they are hoping you just skipped to at the offset (or never even read, the stuff they want you to see is in the abstract anyway).</p><p>And back we go to some words we can understand:</p><blockquote><p>The results of our study offer several intriguing insights into the differences in cognitive and performance outcomes in essay writing tasks for 54 participants, who used LLMs such as ChatGPT, traditional web search, or were tools-free over a span of 4 sessions per participant over a period of 4 months.</p></blockquote><p>\u2018Several intriguing insights\u2019 is a weird set of words. Let\u2019s see the first one:</p><blockquote><p>We found that the Brain-only group exhibited strong variability in how participants approached essay writing across most topics. In contrast, the LLM group produced statistically homogeneous essays within each topic, showing significantly less deviation compared to the other groups.</p></blockquote><p>i.e. the ChatGPT group used ChatGPT. As they should. The task was utterly pointless and any sensible person would have done the same. </p><p>This is added as a key piece of information, also:</p><blockquote><p>Interestingly, in the Brain-only group the social media influence found its way around, here is a quote from one of the essays \u201c<em>So why we are not talking about it on Instagram, for example?</em>\u201d</p></blockquote><p>Do I not speak English as well as I thought I could or something? What do those words mean?</p><p>No time to work that out, let\u2019s continue with the findings:</p><blockquote><p>Participants in the LLM and Search Engine groups were more inclined to focus on the output of the tools they were using because of the added pressure of limited time (20 minutes). Most of them focused on reusing the tools\u2019 output, therefore staying focused on copying and pasting content, rather than incorporating their own original thoughts and editing those with their own perspectives and their own experiences.</p></blockquote><p>Why. Would. They. Bother. Incorporating. Their. Original. Thoughts. They. Don\u2019t. Care. About. Your. Bullshit. Essay.</p><p>And here\u2019s an example of one of the EEG findings, bolding is theirs:</p><blockquote><p>Interestingly, the Search Engine group exhibited <strong>increased activity in the occipital and visual cortices</strong>, particularly in alpha and high alpha sub-bands. This pattern most likely reflects the group\u2019s engagement with visually acquired information during the research and content-gathering phase during the use of the web browser. These occipital-to-frontal flows (e.g. Oz\u2192Fp2, PO4\u2192AF3) support the interpretation that participants were actively scanning, selecting, and evaluating information presented on the screen to construct their essays, a cognitively demanding integration of visual, attentional, and executive resources.</p><p>In contrast, despite also using a digital interface, the LLM group did <strong>not exhibit comparable levels of visual cortical activation</strong>. While participants interacted with the LLM via a screen, the purpose of this interaction was distinct: LLM use reduced the need for prolonged visual search and semantic filtering, shifting cognitive load toward procedural integration and motor coordination (e.g. FC6\u2192CP5, Fp1\u2192Pz), as supported by dominant beta band activity in fronto-parietal networks. This suggests a more <strong>automated, scaffolded cognitive mode</strong>, with reduced reliance on endogenous semantic construction or visual content evaluation.</p><p>Meanwhile, the Brain-only group showed the <strong>strongest activations outside of the visual cortex</strong>, particularly in <strong>left parietal, right temporal, and anterior frontal areas</strong> (e.g. P7\u2192T8, T7\u2192AF3). These regions are involved in semantic integration, creative ideation, and executive self-monitoring. The elevated delta and theta coherence into AF3, a known site for cognitive control, underscored the high internal demand for content generation, planning, and revision in the absence of external aids.</p></blockquote><p>You are using your brain differently depending on whether you had the help or not. </p><p>Which is a measurable <em>difference</em> sure, but so what?</p><p>Put on an EEG helmet and do a complicated calculation in your head, or with a calculator, and you will get a similar difference. First of all, it\u2019s the answer that\u2019s important, but whether your effort is also important depends entirely on the task at hand. In this task, your effort does not matter. You are getting $100 anyway.</p><blockquote><p>These distinctions carry significant implications for cognitive load theory, the extended mind hypothesis [102], and educational practice.</p></blockquote><p>Why? </p><p>Notice the jump to talking about educational practice here. That is vital. </p><p>This paper is now turning to talking about learning again. And this is the angle it will allow itself to be interpreted through in the media hereafter. </p><p>But this isn\u2019t a learning task. It\u2019s a simulation of a writing sprint that students do as part of their education. But even as the no-AI group wrote their 20 minute essays, what are they supposed to be <em>learning</em>? Everything they are writing they are producing themselves. There is literally nothing for them to learn. Only the other groups actually have that opportunity, ironically enough. </p><p>There is also findings about the LLM group not being able to quote from their own essays. And here they bury one of the craziest pieces of analysis of all, bolding mine:</p><blockquote><p><strong>Search Engine and Brain-only participants did not display such impairments</strong>. By Session 2, both groups achieved near-perfect quoting ability, and <strong>by Session 3, 100% of both groups\u2019 participants reported the ability to quote their essays, with only minor deviations in quoting accuracy.</strong> This behavioral preservation correlates with stronger parietal-frontal and temporal-frontal connectivity in alpha and theta bands, observed especially in the Brain-only group, and to a lesser degree in the Search Engine group. <strong>In the Brain-only group, the P7\u2192T8 and Pz\u2192T8 connections suggest deep semantic processing, while Oz\u2192Fz and FC6\u2192AF3 reflect sustained executive monitoring, both of which support stronger integration of content into memory systems.</strong></p></blockquote><p>They are trying to tie quoting to the strengthening of your memory systems. Meaning, they are setting up an implication around LLM use and reduced memory. </p><p>This is fucking crazy. </p><p>The participants logically had ChatGPT had AI write their pointless essay. Their failure to produce a quote from it, literally any quote, suggests not that they un-practiced brain is losing it\u2019s ability to remember basic stuff. It tells you they never even bothered to read it, because <em>why would they bother to read it</em>? There was no point. </p><p>And sure enough, here it is wrapped up and ready to be quoted in the media:</p><blockquote><p>Correct quoting ability, which goes beyond simple recall to reflect semantic precision, showed the same hierarchical pattern: Brain-only group &gt; Search Engine group &gt; LLM group. The complete absence of correct quoting in the LLM group during Session 1, and persistent impairments in later sessions, suggested that not only was memory encoding shallow, but the semantic content itself may not have been fully internalized.</p></blockquote><p>Ok I can\u2019t do this anymore, let\u2019s go to their conclusions section.</p><p>Brace yourself:</p><blockquote><p>As we stand at this technological crossroads, it becomes crucial to understand the full spectrum of cognitive consequences associated with LLM integration in educational and informational contexts. While these tools offer unprecedented opportunities for enhancing learning and information access, their potential impact on cognitive development, critical thinking, and intellectual independence demands a very careful consideration and continued research.</p><p>The LLM undeniably reduced the friction involved in answering participants\u2019 questions compared to the Search Engine. However, this convenience came at a cognitive cost, diminishing users\u2019 inclination to critically evaluate the LLM\u2019s output or \u201dopinions\u201d (probabilistic answers based on the training datasets). </p></blockquote><p>\u2018Cognitive cost\u2019. What does that mean, I hear you cry?</p><p>I have no idea. No one does. What we have is a huge set of confusing research questions, methods, outcome measurements, and analyses. And we need some term to cap it off with to make it understandable to anyone beyond our lab. </p><p>But the words cognitive cost mean nothing. The words cognitive atrophy mean nothing. The words cognitive debt mean nothing. The fact that they all mean nothing is further reinforced by how they are used interchangeably in the discourse around this stuff and <em>within the actual paper</em> itself. </p><p>In fact, the term <em>cognitive debt</em> doesn\u2019t feature in the conclusions at all yet the title of the paper is \u2018Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task\u2019</p><p>What the hell is this debt and where in the paper did we start accumulating it?</p><p>Ctrl-f for \u2018debt\u2019 and you find this note buried in the results: </p><blockquote><p>Perhaps one of the more concerning findings is that participants in the LLM-to-Brain group repeatedly focused on a narrower set of ideas, as evidenced by n-gram analysis and supported by interview responses. This repetition suggests that many participants may not have engaged deeply with the topics or critically examined the material provided by the LLM.</p><p><strong>When individuals fail to critically engage with a subject, their writing might become biased and superficial. This pattern reflects the accumulation of </strong><em><strong>cognitive debt,</strong></em><strong> a condition in which repeated reliance on external systems like LLMs replaces the effortful cognitive processes required for independent thinking.</strong></p><p>Cognitive debt defers mental effort in the short term but results in long-term costs, such as diminished critical inquiry, increased vulnerability to manipulation, decreased creativity. When participants reproduce suggestions without evaluating their accuracy or relevance, they not only forfeit ownership of the ideas but also risk internalizing shallow or biased perspectives.</p></blockquote><p>This is where things get more interesting. Because the \u2018cognitive debt\u2019 happens when the ChatGPT group then get to the task brain only (last session), and still show reduced performance and sticking to the style of writing the LLM came up with.</p><p>I\u2019ve written before about students using ChatGPT to cheat in university, and still think people make the wrong conclusions about this. They are not robbing themselves of education, they are just showing you they were just pretending to learn anyway.</p><p>Think again about the experimental task. SAT essay writing. Has there ever been a clearer example of a \u2018creative task\u2019 that in fact encourages no creativity whatsoever, and leads to thousands of highly varied students somehow producing boring homogenous work? Everyone in every condition was pretending to write an original essay, the ChatGPT group just had a tool that let them do that without having to think as much. And so they let the LLM-based arbitrary style stick because the one they could have come up with themselves would have been just as arbitrary.</p><p>But this, my friends, is the key thing to remember if you want to understand what\u2019s going on with this paper existing. </p><p>The authors have just, out of nowhere, decided what they want to be true. They know what they want the paper title to be, so they introduce this note where they get to define this thing you\u2019ve never heard of, based off the data they\u2019re claiming means things it doesn\u2019t even nearly mean. </p><p>And the reason they do this is (1) this is the opinion they already held before the research began, they just needed a convoluted way to give it some authority and (2) cognitive debt is a catchy name.</p><p>And catchy names are where the money is at. </p><p>But this is where I am really really serious. It is disastrous and heartbreaking to see social science turn into this. </p><p>Because all the people writing articles and blogs, youtube videos and podcasts, on stage doing speeches about this stuff, all the policy-workers desperately trying to work out where education should go, they are going to take this as face value because we should live in a world where research abstracts should be able to be taken literally. </p><p>But we don\u2019t live in that world, because researchers are wilfully blind about what their experiments mean.</p><p>And now, millions of people have had their minds made up on AI in education based on this paper, despite none of them reading it.</p><p>Psychology and social science needed to be ready to help the world adapt to AI. They aren\u2019t. Makes me sad.</p><p>I wish I had a lighter note to end this on but I don\u2019t. </p><p>Cheers.</p><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Already Happened is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "At least once a week, I encounter something like this:",
+ "wordcount": 4645,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    10,
+    116,
+    163
+   ],
+   "population": 250
+  },
+  "DarkVibrant": {
+   "rgb": [
+    4,
+    46,
+    140
+   ],
+   "population": 3
+  },
+  "LightVibrant": {
+   "rgb": [
+    132,
+    212,
+    132
+   ],
+   "population": 1
+  },
+  "Muted": {
+   "rgb": [
+    95,
+    174,
+    167
+   ],
+   "population": 258
+  },
+  "DarkMuted": {
+   "rgb": [
+    50,
+    107,
+    110
+   ],
+   "population": 26
+  },
+  "LightMuted": {
+   "rgb": [
+    178,
+    200,
+    160
+   ],
+   "population": 6
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 13,
+ "comment_count": 4,
+ "child_comment_count": 3,
+ "audio_items": [
+  {
+   "post_id": 209205111,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/209205111/tts/6d271ef3-a6c9-4666-8fca-6d3c23fa728b/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 305311875,
+   "body": "This is so funny \ud83d\ude02\ud83d\ude2dand ridiculously sad",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1",
+     "title": null
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "This is so funny \ud83d\ude02\ud83d\ude2dand ridiculously sad"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 209205111,
+   "user_id": 11699574,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2026-07-31T09:43:48.345Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Erica Hu",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/af56ad38-78fd-4c1e-9981-26f41c0a262b_1179x1179.png",
+   "handle": "ericahu",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 3
+   },
+   "reaction_count": 3,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "ericahu",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "trekking",
+     "id": 413178,
+     "base_url": "https://www.erica-hu.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 8,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 306483245,
+   "body": "Thanks, yes, that's a good way of putting it.\n\nI'm reminded of the 4th & 5th season of The Wire. Those seasons in particular I find memorable for the portrayal of certain characters (Mayor Royce, The Newspaper Editors, Officer Marimow) who seem... Uncanny. Not venal, not slovenly, but rather dilligent & deluded & sincere & ineffectual in an uncanny way. Kool-Aid indeed.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1",
+     "title": null
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Thanks, yes, that's a good way of putting it."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I'm reminded of the 4th & 5th season of The Wire. Those seasons in particular I find memorable for the portrayal of certain characters (Mayor Royce, The Newspaper Editors, Officer Marimow) who seem... Uncanny. Not venal, not slovenly, but rather dilligent & deluded & sincere & ineffectual in an uncanny way. Kool-Aid indeed."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 209205111,
+   "user_id": 12422048,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2026-08-02T06:24:07.383Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Michael Beirne",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/eefde284-0cdc-4d44-9891-df4018e7ca28_1728x1728.webp",
+   "handle": "michaelbeirne726863",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "michaelbeirne726863",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Michael Beirne",
+     "id": 9142788,
+     "base_url": "https://michaelbeirne726863.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

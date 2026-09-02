@@ -1,0 +1,446 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/your-dichotomy-between-real-and-fake",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 148631590,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2024-09-08T07:30:55.670Z",
+ "updated_at": "2025-05-10T22:49:57.801Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "your-dichotomy-between-real-and-fake",
+ "social_title": null,
+ "subtitle": "a brief note on AI's reflection",
+ "teaser_post_eligible": true,
+ "title": "Your dichotomy between real and fake is wrong",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 10,
+ "reactions": {
+  "\u2764": 42
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "how-to-learn-about-people-in-art",
+ "next_post_slug": "the-semiotics-of-spiking-someones",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!CpMI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 148631590,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "a brief note on AI's reflection",
+ "body_html": "<p><em>work ongoing on the next longer post. speak soon. </em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!CpMI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!CpMI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 424w, https://substackcdn.com/image/fetch/$s_!CpMI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 848w, https://substackcdn.com/image/fetch/$s_!CpMI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!CpMI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!CpMI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg\" width=\"558\" height=\"494\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/c27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:494,&quot;width&quot;:558,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:59520,&quot;alt&quot;:&quot;Image&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Image\" title=\"Image\" srcset=\"https://substackcdn.com/image/fetch/$s_!CpMI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 424w, https://substackcdn.com/image/fetch/$s_!CpMI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 848w, https://substackcdn.com/image/fetch/$s_!CpMI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!CpMI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>A polarising tweet from this week:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!EjN3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!EjN3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 424w, https://substackcdn.com/image/fetch/$s_!EjN3!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 848w, https://substackcdn.com/image/fetch/$s_!EjN3!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 1272w, https://substackcdn.com/image/fetch/$s_!EjN3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!EjN3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png\" width=\"734\" height=\"252\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:252,&quot;width&quot;:734,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!EjN3!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 424w, https://substackcdn.com/image/fetch/$s_!EjN3!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 848w, https://substackcdn.com/image/fetch/$s_!EjN3!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 1272w, https://substackcdn.com/image/fetch/$s_!EjN3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2974c7bd-75cf-41d6-96ce-571491f1ad09_734x252.png 1456w\" sizes=\"100vw\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>And some (much-liked) responses:</p><p><em>(here\u2019s the <a href=\"https://x.com/ianmcorbin1/status/1831353564246979017\">original tweet</a> if you\u2019d like to examine the replies and quotes yourself, where you will see many more of the below)</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!axED!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!axED!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 424w, https://substackcdn.com/image/fetch/$s_!axED!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 848w, https://substackcdn.com/image/fetch/$s_!axED!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 1272w, https://substackcdn.com/image/fetch/$s_!axED!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!axED!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png\" width=\"722\" height=\"124\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d1509792-17d6-45ec-a251-f67a648538e1_722x124.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:124,&quot;width&quot;:722,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:27576,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!axED!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 424w, https://substackcdn.com/image/fetch/$s_!axED!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 848w, https://substackcdn.com/image/fetch/$s_!axED!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 1272w, https://substackcdn.com/image/fetch/$s_!axED!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1509792-17d6-45ec-a251-f67a648538e1_722x124.png 1456w\" sizes=\"100vw\"></picture><div></div></div></a></figure></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!PkUs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!PkUs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 424w, https://substackcdn.com/image/fetch/$s_!PkUs!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 848w, https://substackcdn.com/image/fetch/$s_!PkUs!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 1272w, https://substackcdn.com/image/fetch/$s_!PkUs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!PkUs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png\" width=\"714\" height=\"181\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/af880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:181,&quot;width&quot;:714,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:30290,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!PkUs!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 424w, https://substackcdn.com/image/fetch/$s_!PkUs!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 848w, https://substackcdn.com/image/fetch/$s_!PkUs!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 1272w, https://substackcdn.com/image/fetch/$s_!PkUs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf880c84-644b-4ce5-82b7-141ea2b6044b_714x181.png 1456w\" sizes=\"100vw\"></picture><div></div></div></a></figure></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!-nRq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!-nRq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 424w, https://substackcdn.com/image/fetch/$s_!-nRq!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 848w, https://substackcdn.com/image/fetch/$s_!-nRq!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 1272w, https://substackcdn.com/image/fetch/$s_!-nRq!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!-nRq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png\" width=\"731\" height=\"116\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/e4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:116,&quot;width&quot;:731,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:23926,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!-nRq!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 424w, https://substackcdn.com/image/fetch/$s_!-nRq!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 848w, https://substackcdn.com/image/fetch/$s_!-nRq!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 1272w, https://substackcdn.com/image/fetch/$s_!-nRq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4b31b59-b7e5-4bb3-b663-ac61a1f83cdf_731x116.png 1456w\" sizes=\"100vw\"></picture><div></div></div></a></figure></div><p>Maybe I\u2019m going to get called a moron too by the end of this one, let\u2019s find out. </p><p>But when I read those three responses, I thought the same thing each time: have you people ever <em>met</em> a college student? Have you ever <em>been</em> one?</p><p>I totally agree that the idea of college is to allow ambitious young people to dive deep into the knowledge well of their choosing, but LORD does it take some overconfidence to suggest that that is what actually happens. </p><p>Here\u2019s the story: large scale universities scale up from intimate breeding grounds for the elites of the elite, to everyone else. This is good. Now if you want to learn something, e.g. psychology, you can. 500 others born in the same year as you do too. The university now has a measurement problem, and needs a clean way to evaluate the great from the just ok. The university designs a curriculum of assignments and final exams spanning 3 years. Your performance on these decides how good you are at psychology, before offering you to the world. </p><p>One of the tweeter\u2019s says this: \u201cthe job of a student is not to output \"schoolwork\" as if it's a commodity, but to learn through the processes of creating and completing that work.\u201d</p><p>But that is <em>not</em> what Universities tell their students their job is. They tell them to get good grades. To be more specific, to write the words on the paper that their teacher will like seeing. To be even more specific, to write the <em>type</em> of words the teacher wants to see. Not primarily what a good answer necessarily is, but what it looks like. To learn more of why that is a bad thing I recommend Lou Keep\u2019s Uruk series. Or reading Seeing Like a State. Or allowing a business major to run your company. </p><p>I\u2019ve sat in a lot of lecture halls. I\u2019ve done a lot of assignments, and exams. I did well on some of them. I also know some people who did <em>really</em> well on <em>all</em> of them. And you know what\u2019s weird? How often those people cannot hold a 10 minute conversation about their area of expertise.</p><p>Ever hear of Goodhart\u2019s law? Maybe it was in the optional readings. </p><p>Replier 1 said: \u201cThe fundamental logical flaw in this tweet is the apparent assumption that students produce assignments for the teacher and not their own understanding. The work is the point.\u201d</p><p>And the real flaw is this: if you want the work to be the point, don\u2019t go to college. Want to stay in college? Consider using ChatGPT. </p><p>If your counterpoint is that having a degree is still the only way to prove competence in something, so not going isn\u2019t a good option, my counterpoint is EXACTLY.</p><div><hr></div><p>But the reason the tweeters above are wrong is slightly more complicated. It\u2019s not that they just don\u2019t know how college grades work. In fact, this doesn\u2019t need to be about college at all. </p><p>The issue is that they see ChatGPT producing 500 words with references as fake, but a student writing a similar output as real. That a student is cheating themselves and their teacher out of a legit learning exchange if AI follows the rules for them. Abstracted out, the digital is the land of simulation, and the physical is the land of raw, unadulterated experience. </p><p>But that is a flattering interpretation of reality, and there\u2019s layers to this stuff. For further information, contact your nearest French intellectual with post-something on their Wikipedia profile. </p><p>Point is this:</p><p>People don\u2019t use technology to offload their real lives and passions to the simulation. </p><p>People offload the things that they are simulating <em>already</em>.&nbsp;</p><div><hr></div><p>Let\u2019s do one more example. Here\u2019s a scene I\u2019ve made up but nevertheless has 100% happened a million times in a thousand fonts:</p><p>Paris. 31st December. 11:59pm. On that little park thing in front of the Eiffel Tower. Countdown is at 10, and the phones start to come out.&nbsp;</p><p>Guy at the back says to his mate: \u201cWhat\u2019s wrong with all these people, this is going to be beautiful, and they\u2019re all watching through their phone. Like what their online followers can see them doing is more important than real life.\u201d</p><p>Mate says back: \u201cYeah, exactly. Look at that couple over there, waiting to get a selfie when it hits 0, and a kiss for the camera, not for themselves. Why don\u2019t they just put down the phones and remember this moment together.\u201d</p><p>This misses the point of the behaviour. </p><p>Because if that couple did put their phones down, and just smiled at the beauty of the lights streaming above them, their smiles would be artificial too. If he puts his arm round her and kisses her on the cheek, even if no one sees, it would be just as fake. When they go home and fuck in the new year that night, they will be pretending.&nbsp;</p><p>Just like we pretend college kids are learning by doing their assignments themselves. </p><p>Otherwise, Instagram\u2019ing fireworks and ChatGPT\u2019ing essays wouldn\u2019t have such an appeal. </p><p>These technologies don\u2019t turn your real life fake. They point out how much of your life is fake already. Maybe you won\u2019t like what you see, but it\u2019s worth weighing up. </p><p>Unfortunately, you\u2019ll have to evaluate yourself this time. </p><p></p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened! Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "work ongoing on the next longer post. speak soon.",
+ "wordcount": 947,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    180.36585365853657,
+    124.39024390243902,
+    74.63414634146342
+   ],
+   "population": 0
+  },
+  "DarkVibrant": {
+   "rgb": [
+    29,
+    20,
+    12
+   ],
+   "population": 69
+  },
+  "LightVibrant": {
+   "rgb": [
+    216.19024390243902,
+    187.0829268292683,
+    161.20975609756098
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    132,
+    124,
+    132
+   ],
+   "population": 14
+  },
+  "DarkMuted": {
+   "rgb": [
+    68,
+    44,
+    39
+   ],
+   "population": 7
+  },
+  "LightMuted": {
+   "rgb": [
+    196,
+    180,
+    188
+   ],
+   "population": 19
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 42,
+ "comment_count": 10,
+ "child_comment_count": 8,
+ "audio_items": [
+  {
+   "post_id": 148631590,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/148631590/tts/d3fbfc40-9e1a-4505-8469-06d6abef48c0/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 68214289,
+   "body": "I don't fully agree but in general I am interested in AI's ability to reawaken broader questions of consciousness and reality, questions that have been \"solved.\"",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I don't fully agree but in general I am interested in AI's ability to reawaken broader questions of consciousness and reality, questions that have been \"solved.\""
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 148631590,
+   "user_id": 50976909,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2024-09-08T09:22:36.253Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Mo_Diggs",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/ace805a5-bb1d-461c-91aa-ef1268811431_1166x558.png",
+   "handle": "crosscurrent",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "crosscurrent",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "unsubscribed",
+    "eligibleForGift": false,
+    "author_on_other_pub": {
+     "name": "Cross Current",
+     "id": 1065739,
+     "base_url": "https://supculture.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 68210030,
+   "body": "Stunning analogy, can\u2019t wait for the longer piece. ",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Stunning analogy, can\u2019t wait for the longer piece."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 148631590,
+   "user_id": 5567636,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2024-09-08T07:36:47.996Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Lyle of Yonder",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/e8fe7ca6-209f-4096-81d2-2a0c04ed38c5_2237x2237.jpeg",
+   "handle": "lyleofyonder",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "lyleofyonder",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Lyle of Yonder",
+     "id": 2972467,
+     "base_url": "https://lyleofyonder.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

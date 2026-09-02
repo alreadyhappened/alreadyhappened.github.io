@@ -1,0 +1,441 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/theres-a-reasonable-chance-that-youre",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 162230782,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-04-28T00:38:33.421Z",
+ "updated_at": "2025-09-22T14:54:28.477Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "theres-a-reasonable-chance-that-youre",
+ "social_title": null,
+ "subtitle": "who knows the real price of individualism?",
+ "teaser_post_eligible": true,
+ "title": "There's a reasonable chance that you're seriously running out of time",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 48,
+ "reactions": {
+  "\u2764": 233
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "what-is-the-white-lotus-for",
+ "next_post_slug": "zucks-friendship-numbers-dont-add",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!SPbO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 162230782,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "who knows the real price of individualism?",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!SPbO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!SPbO!,w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 424w, https://substackcdn.com/image/fetch/$s_!SPbO!,w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 848w, https://substackcdn.com/image/fetch/$s_!SPbO!,w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 1272w, https://substackcdn.com/image/fetch/$s_!SPbO!,w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!SPbO!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif\" width=\"724\" height=\"489.79782270606535\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:435,&quot;width&quot;:643,&quot;resizeWidth&quot;:724,&quot;bytes&quot;:10165601,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/gif&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/162230782?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!SPbO!,w_424,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 424w, https://substackcdn.com/image/fetch/$s_!SPbO!,w_848,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 848w, https://substackcdn.com/image/fetch/$s_!SPbO!,w_1272,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 1272w, https://substackcdn.com/image/fetch/$s_!SPbO!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>I.</h1><p>Health is much more difficult to deal with than disease. </p><p>Donald Winnicott said that, according to Adam Phillips. I\u2019ve never been able to  validate the quote myself.</p><p>If real, he is of course very right. This is the essence of all psychology. Or at least all the parts that matter. </p><p>Flip the frame. Managing a disease is much easier than managing good health. Your next action is always much clearer. Less questions. Narrower goal. Every move is meaningful. </p><p>Such an asymmetry is also part of the basis for Prospect Theory. Kahneman and Tversky observed participants feeling losses more strongly than equivalent gains - we want to avoid losing more than we want to win, at least in financial bets. Just as disease (a loss) commands our attention and action more clearly than health (a baseline state), losses motivate us more powerfully than gains. This is loss aversion.</p><p>In his explanation of why humans might be like this, Kahneman\u2019s best guess is a survival mechanism of times gone by. In our ancestral environment, losses (like losing food, shelter, or social status) could be life-threatening, while equivalent gains were merely beneficial. This asymmetry made it adaptive to be more sensitive to potential losses.</p><p>Awesome, how come it\u2019s not true? </p><p>Loss aversion <a href=\"https://www.researchgate.net/profile/Mei-Wang-12/publication/293045101_The_Impact_of_Culture_on_Loss_Aversion/links/5b7153cfa6fdcc87df739813/The-Impact-of-Culture-on-Loss-Aversion.pdf\">varies intensely by culture</a>, and is empirically much higher in <a href=\"https://www.taisukeimai.com/api/resources/loss_aversion_meta.pdf\">Western, rich countries compared to third world African countries.</a> As a logical extension, loss aversion based nudges tend to have no effect at all in countries like <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4280676\">Tanzania</a> and <a href=\"https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0233600&amp;type=printable\">Uganda</a>. It would seem to me that the question isn\u2019t why humans are naturally loss averse, it\u2019s how has the development of the West potentially caused this kink in human rationality?</p><p><em>(note: there are also <a href=\"https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=loss+aversion+across+cultures&amp;oq=l#:~:text=Create%20alert-,%5BPDF%5D%20snb.ch,-Loss%20aversion%20at\">studies</a> that cite the opposite finding i.e. that loss aversion peaks in the third world, and is lowest in a country like the USA. my personal view is that the proxy dependent variable they are using across every nation is essentially useless, so these results don\u2019t really mean anything. i think this might also be why it\u2019s so hard to find the actual details of it in their papers. some in the same series also only manage to compare North America and Europe. ah yes, the two most widely differing cultures on the globe.)</em></p><p>One thing <a href=\"https://www.researchgate.net/profile/Mei-Wang-12/publication/293045101_The_Impact_of_Culture_on_Loss_Aversion/links/5b7153cfa6fdcc87df739813/The-Impact-of-Culture-on-Loss-Aversion.pdf\">Wang</a> and team spotted in their data was the connection between loss and aversion and a country\u2019s economic status gets severely weakened once you also consider the role of individualism. Individualist countries are more loss averse on average, and the authors make this note on collectivist countries:</p><blockquote><p>according to the \u201ccushion hypothesis,\u201d social support from the in-group network provides a \u201ccushion\u201d for potential financial losses, inducing lower perceived risk and consequently less risk-averse behavior</p></blockquote><p>Whereas in individualist cultures, we don\u2019t cover for each other like that. You\u2019re kind of on your own. Hence, being more scared of losing what you have weighs heavier than the excitement of getting more. </p><p>(I\u2019ve covered the rise of individualism before: <a href=\"https://alreadyhappened.xyz/p/youre-even-more-on-your-own-from?r=1ir3py&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=false\">here</a>, <a href=\"https://alreadyhappened.xyz/p/the-for-you-everything?r=1ir3py&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=false\">here</a>, <a href=\"https://alreadyhappened.xyz/p/inertia-with-a-capital-i?r=1ir3py&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=false\">here</a> and <a href=\"https://alreadyhappened.xyz/p/the-status-quo-is-dead-long-live?r=1ir3py&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=false\">here</a>. TLDR: technology means you don\u2019t need other people as much, increasing % share of GDP coming from discretionary income, much more life spent on the project of \u2018you\u2019. Pretty straightforward.)</p><p>But what I think the papers above fail to cover is that the real effect of individualism is not to completely remove the \u2018cushion\u2019 the authors speak of, but more to move it to a different seat. We still have some trust that we\u2019ll be caught when we fall, the trust is just at a different level. We have much more belief that the system is looking after us. So you don\u2019t need your family/neighbours to. </p><p>Rules and norms are made clear, one follows them, one leads a safe and happy existence. If I don\u2019t change anything, I get to stay safe. And we end up with loss aversion again. </p><p>But this is where you realise that loss aversion is nothing compared to the bigger bias you end up with. </p><p>I once heard this thing about zebras and human behaviour, that annoyingly stuck with me as quite true for something so contrived. Here we go. Why do zebras have stripes? They\u2019re a form of camouflage, right?</p><p>Well then how come it makes them stand out more than any other animal I\u2019ve ever seen? I could spot a zebra a mile away, that\u2019s hardly effective. Turns out they\u2019re not camouflaging against nature, they\u2019re camouflaging against each other. </p><p>This matters, because when the lions turn up and the zebras run, the zebras all blur into one another. The lions have to power to target and kill any single zebra, but the blur makes it harder for them to communicate to each other which one to go after. </p><p>As long as you look like all the other zebras, you\u2019ll probably be fine. </p><p>Which is mostly a good idea in life, right? You know nothing about education, send your kids to a regular school. You know nothing about economics, have the same portfolio as everyone else. You know nothing about what you\u2019re actually supposed to be doing with yourself, pick a well-trodden path. The normative way must be the normative way for a reason.</p><p>Put it this way: </p><ul><li><p>Collectivist cultures: we have to look out for each other, because no one else is going to. I trust you\u2019ll have my back because I have to have yours too.</p></li><li><p>Individualist cultures: we don\u2019t have to look out for each other, because in the aggregate, the system is going to. You don\u2019t have to have my back because we will never be truly allowed to get in danger. </p></li></ul><p>When you fall in a collectivist society, you land on people. When you fall in an individualist one, you hope you land on policy. Staying in line is safe, because the system is built to keep you safe. </p><p>Consequently, nothing could ever be worth panicking about. There\u2019s just no way the world would do that to me. That, friends, is the social contract.</p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!KTDo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KTDo!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 424w, https://substackcdn.com/image/fetch/$s_!KTDo!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 848w, https://substackcdn.com/image/fetch/$s_!KTDo!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!KTDo!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KTDo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg\" width=\"792\" height=\"570\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/df738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:570,&quot;width&quot;:792,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KTDo!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 424w, https://substackcdn.com/image/fetch/$s_!KTDo!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 848w, https://substackcdn.com/image/fetch/$s_!KTDo!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!KTDo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf738963-72a8-41c8-85c6-6ae21d43c701_792x570.jpeg 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>II.</h1><p>I\u2019m becoming less and less convinced that the invisible hands are going to catch you when you fall next time. Because the system\u2019s going to get caught off-guard too. At least in the short to medium term. </p><p>I\u2019ve been reading a lot of well-thought out work recently.</p><p><strong>Scott Alexander and Dan Kokotajlo (&amp; team): - <a href=\"https://ai-2027.com/\">AI 2027</a> (a median forecast):</strong></p><blockquote><p>December 2027: From human decision-makers\u2019 perspective, their AIs are the best employees they\u2019ve ever had access to\u2014better than any human at explaining complicated issues to them, better than they are at finding strategies to achieve their goals.</p><p>\u2026</p><p>Late 2029: Humans realize that they are obsolete. A few niche industries still trade with the robot economy, supplying goods where the humans can still add value.<sup> </sup>Everyone else either performs a charade of doing their job\u2014leaders still leading, managers still managing\u2014or relaxes and collects an incredibly luxurious universal basic income. Everyone knows that if the AIs turned on humans, they would be completely overpowered\u2026 There are cures for most diseases, an end to poverty, unprecedented global stability, and the Dow Jones just passed one million. Some people are still scared or unhappy, but their options are limited. They can either enjoy the inconceivably exciting novel hyper-entertainment on offer, or post angry screeds into the void. Most choose the hyper-entertainment.</p></blockquote><p><strong>Dean Ball, the new White House senior AI policy advisor - <a href=\"https://www.hyperdimensional.co/p/where-we-are-headed\">Where we are headed</a>:</strong></p><blockquote><p>Corporations that adopt agents will have far greater capacity for intellectual labor. Teams of thousands of sales agents or coders will accomplish (some of) the firm\u2019s work in far less time than was ever conceivable before; they will be able to do much <em>more </em>work as well. They will be able to be scaled up and down dynamically depending on the firm\u2019s needs. Information will flow rapidly and in high fidelity between different teams of agents to employees, managers, and company leadership.</p><p>Once the pace and direction of automation becomes clear to firm managers, they are likely to employ junior-level humans only in areas where:</p><ul><li><p>They legally have to. For example, the widespread <a href=\"https://www.hyperdimensional.co/p/the-eu-ai-act-is-coming-to-america\">state-level algorithmic bias bills</a> also usually have provisions requiring businesses to offer \u201chuman alternatives\u201d to \u201cautomated processes\u201d like customer service. In this case, I suspect US states that adopt these policies are mostly creating a jobs program for call center workers in developing countries, rather than Americans, but I digress.</p></li><li><p>There is a component to the role that requires labor in the physical world (this does not just mean blue-collar work; for several years of my early career in policy, an important part of my job involved overseeing in-person events).</p></li><li><p>The candidate is extraordinary, of a level of obvious quality that firm managers wish to cultivate that person to assume higher ranks in the organization. For those taking this path, it will almost feel as if <a href=\"https://www.amazon.com/Average-Over-Powering-America-Stagnation/dp/0525953736\">average is over</a>.</p></li></ul><p>I can imagine plausible scenarios where this does not become a problem, but the blas\u00e9 attitude of many libertarians strikes me as wide of the mark. Millions of young people who planned to enter high-paying knowledge work sectors could very well be starved of the opportunities for which they trained in school. <a href=\"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237458\">Elite overproduction is often a bellwether of political instability</a>, and America probably already overproduces elites. Given the other political, social, and economic turmoil America is likely to face over the coming decade (AI-related and otherwise), this is a substantial risk.</p><p>I am aware of very few good policy proposals that have been put forth to deal with labor market turmoil.</p></blockquote><p><strong>Helen Toner, former OpenAI board member who left after the Altman fired/rehired situation - <a href=\"https://helentoner.substack.com/p/long-timelines-to-advanced-ai-have\">\"Long\" timelines to advanced AI have gotten crazy short</a>:</strong></p><blockquote><p>What counts as \u201cshort\u201d timelines are now blazingly fast\u2014somewhere between one and five years until human-level systems. For those in the \u201cshort timelines\u201d camp, \u201cAGI by 2027\u201d had already become a popular talking point before one particular <a href=\"https://situational-awareness.ai/\">online manifesto</a> made a splash with that forecast last year. Now, the heads of the three leading AI companies are on the record with similar views: that 2026-2027 is when we\u2019re \u201cmost likely\u201d to build \u201cAI that is smarter than almost all humans at almost all things\u201d (<a href=\"https://darioamodei.com/on-deepseek-and-export-controls\">Anthropic\u2019s CEO</a>); that AGI will probably be built by January 2029 (<a href=\"https://www.bloomberg.com/features/2025-sam-altman-interview\">OpenAI\u2019s CEO</a>), and that we\u2019re \u201cprobably three to five years away\u201d from AGI (<a href=\"https://www.bigtechnology.com/p/google-deepmind-ceo-demis-hassabis\">Google DeepMind\u2019s CEO</a>). The vibes in much of the AI safety community are correspondingly hectic, with people frantically trying to figure out what kinds of technical or policy mitigations could possibly help on that timescale.</p><p>It\u2019s obvious that we as a society are <a href=\"https://medium.com/@miles_24227/scoring-humanitys-progress-on-ai-governance-5a5131cb84c7\">not ready</a> to handle human-level AI and all its implications that soon. Fortunately, most people think we have more time.</p><p>\u2026</p><p>But recent advances in AI have pulled the meanings of \u201csoon\u201d and \u201cmore time\u201d much closer to the present\u2014so close to the present that even the skeptical view implies we\u2019re in for a wild decade or two.</p><p>[This means that] <a href=\"https://time.com/7213186/france-paris-ai-summit-anne-bouverot/\">dismissing</a> discussion of AGI, human-level AI, transformative AI, superintelligence, etc. as \u201cscience fiction\u201d should be seen as a sign of total unseriousness. Time travel is science fiction. Martians are science fiction. \u201cEven many skeptical experts think we may well build it in the next decade or two\u201d is not science fiction.</p></blockquote><p>Bear in mind the first quote is from the <em>median </em>prediction from the most heavily research forecasting project I\u2019ve come across. Bear in mind the second quote \u201cI am aware of very few good policy proposals that have been put forth to deal with labor market turmoil\u201d is coming from someone who is now leading AI policy in the White House. This is not a thought exercise. </p><p>Which means I am now on board with the last quote\u2019s accusations of unseriousness levelled at the \u2018AI is hype\u2019 crowd. You are blindly believing in the safety of status quo.</p><p>I always thought this blog would be most useful to young people. It\u2019s hard to change yourself or your life when your older. I don\u2019t blame anyone for not really wanting to. But young people now need some serious honesty about their situation. It\u2019s probably long-term amazing, short-term extremely stressful. </p><p>The meta is changing. You should probably act as if it has already changed. </p><p>If you\u2019re a student, the signs are right in front of you. I saw Ted Gioia say this the other day:</p><blockquote><p>But let\u2019s give tech companies some credit. They have improved one skill among current students\u2014cheating, which has now reached epic proportions.</p><p>The situation is so extreme that more than 40% of students were caught cheating recently\u2014<em><a href=\"https://dailynous.com/2023/05/25/am-i-the-unethical-one-a-philosophy-professor-his-cheating-students/\">and it happened in an ethics class!</a></em></p><p>The professor caught them in a simple way. He simply uploaded a copy of his final exam on to the web, but with wrong answers.</p><p>\u201cMost of these answers were not just wrong, but obviously\u200b wrong to anyone who had paid attention in class,\u201d he adds. But \u201c40 out of 96 students looked at and used the planted final for at least a critical mass of questions.\u201d</p><p>Another teacher <a href=\"https://thewalrus.ca/i-used-to-teach-students-now-i-catch-chatgpt-cheats\">shares a similar lament</a>: \u201cI used to teach students. Now I catch ChatGPT cheats.\u201d</p></blockquote><p>But what he and everyone responding to his post get completely wrong is that this is not a sign that schools need to tighten down and un-zombify their students. The correct conclusion is that college is dead. Flatlined. Over. Pointless. </p><p>People who want to learn can learn in new ways. If you are one of those people, go and do it. If you\u2019re not, understand the system no longer has your back by forcing you through this. You are very likely doing it for nothing, if not <em>worse</em> than nothing. And the key point is this: college will never admit to you that it is worthless, and no greater entity will replace it to tell you to follow it instead.</p><p>As Dean Ball said earlier, the only reason a person could get hired within a few years is \u2026 \u201cThe candidate is extraordinary, of a level of obvious quality that firm managers wish to cultivate that person to assume higher ranks in the organization. For those taking this path, it will almost feel as if average is over.\u201d</p><p>But what college, i.e. the system, produces <em>is</em> the average. That is the point. To be a zebra. But that is no longer a good survival mechanism, and the sooner you stop acting like it is the better. </p><p>This is true even with slower timelines and <em>even if AI progress stops altogether</em> (I agree with <a href=\"https://x.com/dioscuri/status/1915937644636262726\">Henry Shevlin</a> here). Ethan Mollick recently <a href=\"https://x.com/emollick/status/1916249995386196440\">collected some papers</a> showing how o3 (or worse) level models already leads to a decade of major changes across industries once people work out how to use them. </p><p>Zach Exley - <a href=\"https://blog.newconsensus.com/p/the-obvious-and-unthinkable-solution\">The obvious \u2014 and unthinkable \u2014 solution to the coming AI crisis</a>:</p><blockquote><p>How will societies deal with the wholesale firing of their professional-managerial classes? We won\u2019t be able to just pay them with some sort of UBI. Even ardently pro-UBI policy makers gave up on UBI after a few small experiments proved it impractical and undesirable. It definitely won\u2019t work any better on the scale of 50 to 70 million workers in the U.S. whose annual compensation adds up to many trillions of dollars.</p><p>The new intelligence will, on a practical level, make it effortless for us to do the work of half our society. In other words, our burden as a society of making a living is about to get half as heavy. That should be a good thing. Imagine you and a bunch of your friends are sharing some dirty weekend job like cleaning out one of your basements. Imagine a robot shows up capable of doing half the job. You\u2019d all be thrilled.</p><p>But thanks to the way our society is structured and to the unexpected nature of the upcoming automation, we have several problems that will make this extremely difficult.</p><p>Our economy has no mechanisms and our society has no traditions that would allow us to redistribute the load of the remaining (physical) work to all the laid off (professional and knowledge) workers. That\u2019s because our economy is made of millions of uncoordinated firms all competing against each other in the market. That is what makes our system dynamic. But it\u2019s also what makes it incapable of handling this upcoming crisis.</p></blockquote><p>So I\u2019ll tell you straight: do not expect the system to save you. The meta has changed. You must be willing to save yourself. </p><p>Maybe you have 2 years, maybe 5, maybe 20. But if you are under 30 then even the longest timeline still really matters to you to a level beyond anything else you\u2019ve had to face when it comes to imagining how your life is going to go. Do you want to get to 40 and have no way to get paid for the thing you\u2019ve identified as for two decades? <a href=\"https://www.nytimes.com/interactive/2025/03/28/style/gen-x-creative-work.html\">Here\u2019s a sneak preview of what that might feel like</a> (it\u2019s not pretty).</p><p>The answer is relatively simple, you have to go it alone. Alone can also mean with friends, but you have to go without the old omnipotent guides of education and safe salary jobs. </p><p>Do stuff, create stuff, build stuff, sell stuff. Prove yourself. It\u2019s going to be way more fun. But you need to want to do it.</p><p>And hopefully once the stressful period is over, you can settle in for the show:</p><blockquote><p>2030: The rockets start launching. People terraform and settle the solar system, and prepare to go beyond. AIs running at thousands of times subjective human speed reflect on the meaning of existence, exchanging findings with each other, and shaping the values it will bring to the stars. A new age dawns, one that is unimaginably amazing in almost every way but more familiar in some.</p></blockquote><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!t6CS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!t6CS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 424w, https://substackcdn.com/image/fetch/$s_!t6CS!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 848w, https://substackcdn.com/image/fetch/$s_!t6CS!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 1272w, https://substackcdn.com/image/fetch/$s_!t6CS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!t6CS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png\" width=\"680\" height=\"680\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8d307cf1-4215-4941-9969-e89d43761c75_680x680.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:680,&quot;width&quot;:680,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!t6CS!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 424w, https://substackcdn.com/image/fetch/$s_!t6CS!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 848w, https://substackcdn.com/image/fetch/$s_!t6CS!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 1272w, https://substackcdn.com/image/fetch/$s_!t6CS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d307cf1-4215-4941-9969-e89d43761c75_680x680.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h1>III.</h1><p>There is an unfortunate kink in a call to action for young people to pursue their dreams as a response to the system failing them. Modern young people don\u2019t seem to want anything.</p><p>I was watching clips from Coachella the past couple weekends. It reminded me a lot of something I\u2019ve noticed at festivals and gigs the past few years. A lot of people weren\u2019t dancing. It barely even seemed like they were having a good time. </p><p>If you really like the music you\u2019re listening to, dancing isn\u2019t really optional. Which suggests something strange is going on here. </p><p>What\u2019s funny is that this a time where everyone is writing about how young people are desperate for connection, to feel something, to go out, to meet people, to break boundaries. And yet given the opportunity, they stand still. </p><p>I saw a viral TikTok the other day. One of the ones where its just a person with a statement in front of them. Here:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!VFoM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!VFoM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 424w, https://substackcdn.com/image/fetch/$s_!VFoM!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 848w, https://substackcdn.com/image/fetch/$s_!VFoM!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!VFoM!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!VFoM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg\" width=\"275\" height=\"481.25\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/de9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1449,&quot;width&quot;:828,&quot;resizeWidth&quot;:275,&quot;bytes&quot;:64636,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/162230782?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!VFoM!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 424w, https://substackcdn.com/image/fetch/$s_!VFoM!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 848w, https://substackcdn.com/image/fetch/$s_!VFoM!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!VFoM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde9c1b08-53e4-4687-abe7-db78cbdf85c6_828x1449.jpeg 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>See if you can pick up a theme in the biggest responses:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!m4-K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!m4-K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!m4-K!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!m4-K!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!m4-K!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!m4-K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg\" width=\"1456\" height=\"381\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:381,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:380850,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://alreadyhappened.xyz/i/162230782?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!m4-K!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!m4-K!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!m4-K!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!m4-K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf39f38-0e99-40df-ba52-681807e04eb2_2046x536.jpeg 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Not \u2018I want to spend more time with my friends\u2019 or \u2018I want to make more friends\u2019 or \u2018I want to fall in love\u2019. No actions at all. Just identities.</p><p>I want to be the person with lots of friends. I want to be the person that is lovable. I want to be the first choice. </p><p>If this happens - if people start defining themselves through desired identities rather than desired actions - a peculiar paralysis sets in (it already has). You end up wanting nothing specific, liking nothing in particular. The desire becomes abstract, un-moored from actual experiences or tangible goals.</p><p>When you want to 'be the person with lots of friends' rather than wanting to spend more time with friends, you've created a gap between desire and action. You're no longer pursuing something concrete; you're chasing an image. And unlike dancing to music you love, where the body responds almost involuntarily, pursuing an abstract identity provides no clear path forward.</p><p>This shift from wanting to do things to wanting to be things creates a void. You can't practice being popular the way you practice piano. You can't work toward being chosen first the way you work toward finishing a novel. The desire becomes about perception rather than experience, about appearance rather than action.</p><p>(It is truly only this way that a generation can even manage to <a href=\"https://thotcrimes.substack.com/p/selling-sex-losing-touch-how-gen\">make sex unsexy</a>)</p><p>And so young people find themselves at festivals, surrounded by music and possibility, standing still. Not because they don't want to dance, but because they're busy wanting to be the kind of person who dances - <em>forgetting that such people become that way simply by dancing</em>.</p><p>I am somewhat sympathetic to the view that this is a serious generational pathology, I\u2019ve even made this point <a href=\"https://alreadyhappened.xyz/p/she-said-i-want-something-that-i\">before</a>. The issue isn\u2019t the lack of socialising, the prevalence of screens, the decrease in sex, the pressure of self-curation, the anxiety, the depression. These are just symptoms. </p><p>The issue is the disease. And the disease is a lack of desire. </p><p>So if you are a young person, and you want to start making up for <a href=\"https://alreadyhappened.xyz/p/why-making-up-for-lost-time-is-hard\">lost time</a>, I\u2019ll end with some good news:</p><p>Managing a disease is much easier than managing good health.</p><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p><em>image credits - I. @palekrill II. unknown German WWI photographer III. Google Streetview</em></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "I. Health is much more difficult to deal with than disease.",
+ "wordcount": 3551,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "57196eb2-da6a-4b42-8df0-3f25279e74af",
+   "publication_id": 1470107,
+   "name": "AI",
+   "slug": "ai",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    77,
+    89,
+    160
+   ],
+   "population": 9
+  },
+  "DarkVibrant": {
+   "rgb": [
+    116,
+    58,
+    44
+   ],
+   "population": 17
+  },
+  "LightVibrant": {
+   "rgb": [
+    137,
+    156,
+    204
+   ],
+   "population": 10
+  },
+  "Muted": {
+   "rgb": [
+    84,
+    100,
+    165
+   ],
+   "population": 6
+  },
+  "DarkMuted": {
+   "rgb": [
+    61,
+    70,
+    91
+   ],
+   "population": 557
+  },
+  "LightMuted": {
+   "rgb": [
+    145,
+    163,
+    196
+   ],
+   "population": 27
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 233,
+ "comment_count": 14,
+ "child_comment_count": 12,
+ "audio_items": [
+  {
+   "post_id": 162230782,
+   "voice_id": "en-GB-OllieMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/162230782/tts/98f85db0-a52f-4e55-8d74-c6196520809e/en-GB-OllieMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 122603623,
+   "body": "This is a great article! The ending advice about action over identity reminds me a lot of what the last phyciatrist was saying way back when and it\u2019s very refreshing and good to hear that wisdom again!",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "This is a great article! The ending advice about action over identity reminds me a lot of what the last phyciatrist was saying way back when and it\u2019s very refreshing and good to hear that wisdom again!"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 162230782,
+   "user_id": 130250096,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-06-03T20:16:16.139Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Isaac T.B.",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f3c00dc6-9e04-4792-a33f-077d800a62b3_508x518.png",
+   "handle": "ofmuchlight",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 4
+   },
+   "reaction_count": 4,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "ofmuchlight",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 9,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 121275975,
+   "body": "Great title and I\u2019d like to add that death is inevitable.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Great title and I\u2019d like to add that death is inevitable."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 162230782,
+   "user_id": 209030701,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-05-29T22:25:29.472Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Cyberneticist",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/26524868-a6c3-4845-94a6-0ebf2fff31a3_1024x1024.jpeg",
+   "handle": "cyberneticist",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 4
+   },
+   "reaction_count": 4,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "cyberneticist",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Cyberneticist\u2019s Substack",
+     "id": 2752771,
+     "base_url": "https://cyberneticist.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 9,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

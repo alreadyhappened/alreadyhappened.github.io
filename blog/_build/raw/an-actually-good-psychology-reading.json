@@ -1,0 +1,482 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/an-actually-good-psychology-reading",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 174959886,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-09-30T23:29:25.886Z",
+ "updated_at": "2025-09-30T23:36:45.153Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "an-actually-good-psychology-reading",
+ "social_title": "An Actually Good Psychology Reading List",
+ "subtitle": "official already happened library pt.1",
+ "teaser_post_eligible": true,
+ "title": "An Actually Good Psychology Reading List",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 8,
+ "reactions": {
+  "\u2764": 85
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "if-its-on-tv-its-a-tv-show",
+ "next_post_slug": "who-burned-down-the-shoreditch-cereal",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!EEhy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 174959886,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "official already happened library pt.1",
+ "body_html": "<p><em>aside: haven\u2019t done a Priced In for a while. please dm me article/media suggestions if you\u2019ve spotted anything that would suit the blog recently.</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!EEhy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!EEhy!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 424w, https://substackcdn.com/image/fetch/$s_!EEhy!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 848w, https://substackcdn.com/image/fetch/$s_!EEhy!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!EEhy!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!EEhy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg\" width=\"1456\" height=\"779\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:779,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Island of the Dead | painting by Arnold B\u00f6cklin | Britannica&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Island of the Dead | painting by Arnold B\u00f6cklin | Britannica\" title=\"Island of the Dead | painting by Arnold B\u00f6cklin | Britannica\" srcset=\"https://substackcdn.com/image/fetch/$s_!EEhy!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 424w, https://substackcdn.com/image/fetch/$s_!EEhy!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 848w, https://substackcdn.com/image/fetch/$s_!EEhy!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!EEhy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Was thinking about this CASISDEAD <a href=\"https://genius.com/Casisdead-skydive-lyrics\">lyric</a> this evening:</p><blockquote><p>\u201cI knew the end was due<br>I watched shit get diluted and devalued<br>Now they call you an artist even if all you do is talk shit on beat or cry in autotune<br>It\u2019s disrespectful to the gods we\u2019ve lost<br>We\u2019re raising kids that won\u2019t know what music was<br>Out the NS-10\u2019s I hear Freddie\u2019s voice begging the radio not to become background noise\u201d</p></blockquote><p>You can decide for yourself why this has led to me doing this. But in any case, this is something I wish someone else made for me when I was 21.</p><p>This is a collection of work that essentially combines into every interesting thing I\u2019ve ever stolen and reproduced as my own. Whether I do that effectively is up to your assessment. No idea\u2019s original, but it\u2019s pretty easy to build a unique combination of borrowed ones. </p><p>Everything here I hard vouch, and you will be a different person by the time you\u2019re through it. </p><p>And importantly, this is not only a list of great ideas, but of great writing too. That is necessary for inclusion. These two variables are of course going to be related. </p><p>Obviously this is going to contain some very famous stuff you\u2019ve already come across. That is a common feature of excellence. And you should have some sense to know when some parts of much older books don\u2019t apply to the current state of things. </p><p>A final layer of primer before we get into it:</p><ul><li><p>This list contains some authors that wouldn\u2019t even consider themselves psychologists, but I do, and that\u2019s all that matters.</p></li><li><p>If someone is featured here, I generally will have read most of their other work and will vaguely vouch for it, but I\u2019ve picked these specific works for a reason. </p></li><li><p>Works are roughly organised by theme, but not explicitly. As everything relates to everything in the aggregate, I suppose.</p></li><li><p>I am also not suggesting you read this in this specific order.</p></li><li><p>There are ideas in some that contradict some ideas in others. I do not consider this an issue, but you might. </p></li><li><p>Everything here should be available on the big book website or the smaller book websites, and with any degree of nous you could find everything here for free. I guess that means you have no excuse, right?</p><div><hr></div></li></ul><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">subscribe for that good shit</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><div><hr></div><h1>Freud</h1><h4>Beyond the Pleasure Principle</h4><h4>Civilisation and its Discontents</h4><h4>The Uncanny</h4><p>Nowhere else to start really. The most remarkable thing about Freud is how he produced so much from basically zero. I really don\u2019t understand it.</p><p>The second most remarkable thing is how readable he remains today. If you\u2019ve never truly tried then you will be shocked. He writes clearer than pretty much any modern psychologist without having the benefit of having the same mechanisms of language. </p><p>I\u2019ve picked three shorter pieces that altered my model of how people work the most, and how to actually spot connections between behaviour and the unconscious. There are some people I respect who put the Interpretation of Dreams as the one thing that stands above and will never leave them, which I can understand, but it\u2019s not an entry point. </p><p>If you\u2019ve read this blog then the ideas of Beyond the Pleasure Principle might remind you of something. Truly understanding <em>thanatos</em> felt like a breakthrough to me in my life. Strangely it\u2019s eros that\u2019s entered the online vernacular. I guess that\u2019s an alpha opportunity. </p><h1>Jung</h1><h4>Memories, Dreams, Reflections</h4><p>Jung is disgustingly insightful. Page after page that makes you realise you are basically of average intellect. Perhaps that\u2019s a useful service in itself. </p><p>This is part memoir, part summary of all of his main ideas. I have a lot of respect for not pretending that you can separate the two. </p><p>Jung also carries Freud\u2019s trait of being easy to read, but actually way more fun. His personal journals (more on that later) are far more difficult to comprehend, but when he was writing to be understood, it was very easy for him. </p><p>His chapter On Life After Death kicked off the notions of infinity I\u2019ve been thinking about a lot recently, although they haven\u2019t really shown up in the blog yet. Jung has a strong immediate sense of the inherent mysticism to experience, and even when he pushes his reasoning beyond what you\u2019re willing to accept, you\u2019ll still be left trying to work out what you actually do believe. </p><p>A guy who cared deeply about people. </p><h1>Adam Phillips</h1><h4>On Giving Up</h4><p>Phillips is one of the last remaining true public psychologists, and probably the last of the Freudian psychoanalytic variety. I don\u2019t actually know if he\u2019s big outside the UK, but he tends to write small books that are actually giant essays on one tidy topic which you can read in a sitting or two. </p><p>On Giving Up is about giving up, i.e. the human capacity to submit. Truly Phillips\u2019 best strength is being able to interpret and re-frame Freud, who I would barely understand properly without him. And this book is very Freud. </p><p>He winds you through his arguments really fluidly, and sometimes you think man just get to the point, but over time you learn that\u2019s just part of the fun. </p><p>Phillips has a claim at best living psychology essayist. So if you consider yourself one of those, may as well scope out the competition. </p><h1>RD Laing</h1><h4>The Politics of Experience</h4><h4>The Voice of Experience</h4><p>RD Laing was another last of a dying breed, except this one is now extinct truly. </p><p>Laing was from an era where psychologists could gain enough notoriety to become media figures (for being a psychologist, not for other stuff), and if you search online you\u2019ll see him on talk shows and on magazine covers. A rockstar of his time.</p><p>Both of these books are remarkable. The Voice of Experience is weirder and less known, so I\u2019d recommend that for last. </p><p>But The Politics of Experience is one of the bravest, most beautifully written critiques of what we are even doing here with this psychology thing. Laing writes \u201cThe condition of alienation, of being asleep, of being unconscious, of being out of one\u2019s mind, is the condition of the normal man. Normal men have killed perhaps 100,000,000 of their fellow normal men in the last fifty years.\u201d </p><p>He had a real sympathy for those with psychological pain, but he also shows what we can learn from them, and what questions people prefer to ignore.</p><p>As a bonus, The Birds of Paradise is a short allegorical essay appended to the book, which features this easter egg for fans of this blog\u2019s lore:</p><blockquote><p>How do you plug a void plugging a void? How to inject nothing into fuck all? How to come into a gone world? No piss, shit, smegma, come, mucoid, viscoid, soft or hard, or even tears of eyes, ears, arse, cunt, prick, nostrils, done to any T, of man or alligator, tortoise, or daughter, will plug up the Hole. It\u2019s gone past all that, that, all that last desperate clutch. Come into gone. I do assure you. The dreadful has already happened.</p></blockquote><p>Told you he was a good writer.</p><h1>The Last Psychiatrist</h1><h4>No Self-Respecting Woman Would Go Out Without Make Up</h4><h4>Those Five Days Matter More Than Anything, Except The Other Days</h4><h4>The Second Story Of Echo And Narcissus</h4><p>I do not attempt to conceal the extent to which TLP influences this blog. As a wide chunk of readers are already familiar, I will just say this: The Last Psychiatrist/Edward Teach is the greatest psychology writer since the invention of the internet and it\u2019s not particularly close. </p><p>I think most of the aforementioned people would have blogs if they were working today and they should shit on absolutely everyone currently working. Except Teach. </p><p>I pick these three essays for you to go find for different reasons. The first is a masterpiece of the genre, and breaks pretty much every rule you can think of for what a good essay should be in theory. And should hopefully dispel any notions you have that intellectual work can only come with a reference section and a google scholar account. </p><p>The second is just a beautiful summation of how to approach life. I won\u2019t say any more. </p><p>The third is his most famous post that most directly explains what he sees as modern narcissism, which he believes is the most important problem of our time. This is a truly important idea if you want to understand anything else on this list, especially the simulation and map/territory stuff that comes up later. </p><h1>Maslow</h1><h4>The Farther Reaches of Human Nature</h4><h4>Religions, Values, and Peak-Experiences</h4><p>Maslow is a weird one for me. I obviously learned about the Hierarchy of Needs in school, and I thought that was who he was, until a couple of other interests brought me back to him. </p><p>In what is turning out to be a running theme, Maslow was part of the generation of psychologists that could write for public audiences in a way that actually had some swag and respect for the reader.</p><p>Psychologists now tend to write impenetrably (either through jargon or because you literally can\u2019t access their papers), which you can consider as them telling you they have nothing to say. Maslow was around before that happened to the discipline, and he had a lot to say.</p><p> The Farther Reaches of Human Nature features his Jonah Complex, fear of success, which I\u2019ve spoken about before. This is a crucial thing to understand about people. </p><p>Religions, Values, and Peak-Experiences is more of a left-field that completely disrupts your world model book. Maslow argues that organised religion largely eliminates the capacity of the individual to have transcendent experiences, by allowing him to place their naturalistic simplicity at the alter of, well, whatever religion they are assigned to. But it isn\u2019t just the work of religion to eliminate peak experiences from the human experience, but also science, which has rid psychology of anything not measurable. I share a similar rage at the link between science and psychology that emerged in the late 20th century.</p><p>If you don\u2019t know what any of that means, then you really need to read the book. </p><h1>Rollo May</h1><h4>The Cry for Myth</h4><h4>Love and Will</h4><p>May is another mid 20th century American who still had some of the soul of the European psychologists and hadn\u2019t given up on writing well yet. May is brilliant at connecting what he saw in his clinical practice with outside culture, and is also very erudite within the genre. He points out connections that you realise should have been obvious to you the entire time. </p><p>The Cry for Myth is about crying for myths, which are essential for meaning-making. More importantly, this gets into the part people don\u2019t talk about as much, i.e. are they \u2018just\u2019 stories? May doesn\u2019t think they are lies, and well it\u2019s all getting a bit Jordan Peterson in here, but it makes you wonder what he means by true. And what you mean by true. And what anyone means by true. How come the same myths come up across cultures? Is that not suspicious?</p><p>Love and Will is a brilliant meditation on the modern apathy that pretty much every essay now talks about. I personally view this as a gold-standard because I agree with the notion that May is much closer to the origin of the trend than the invention of the iPhone. May diagnoses modern crises of apathy, sexual liberation without depth, and lack of genuine connection, but with some immense insight from real clinical experience. </p><h1>McLuhan</h1><h4>Understanding Media</h4><p>(important: <em>not</em> The Medium of the Massage, if you read that first you are gonna have a bad time)</p><p>If you want to understand people, read the whole list, but if you want to understand 2025, read this first. </p><p>Sometimes I think McLuhan\u2019s biggest mistake was coming up with a phrase as catchy as \u2018The Medium is the Message\u2019, because it allows people to just remember that and never get to grips with what he\u2019s saying. And when it does finally sit with you, you will lose sleep. I think the ideas in this book are that important.</p><p>Also when you read him, especially some of his more creative works, you realise how many people are ripping off his style all the time.</p><p>I don\u2019t rip off his style, but I rip off his ideas all the time. And I <em>know</em> not enough people actually read him because these are some of my most popular posts and no one\u2019s ever called me out on it. </p><p>A visionary and genius. Can\u2019t offer you more than that. </p><h1>Baudrillard</h1><h4>Simulacra &amp; Simulation</h4><p>To my taste, probably the least enjoyable writer on this list, but the ideas more than make up for it. </p><p>Baudrillard traces a movement from representation to hyperreality through successive phases of the image. At first, the image reflects a basic reality, acting as a faithful copy of the world. Next, it begins to mask and distort that reality, still tied to it but bending it. In the third stage, the image masks the absence of reality altogether; signs pretend to refer to something real, but the reference point has already disappeared. Finally, in the stage of pure simulacra, the image bears no relation to reality at all and instead refers only to other signs.</p><p>This isn\u2019t taught in first year psychology, and of course it isn\u2019t measurable, but to not understand this is to not understand modern life. </p><h1>Nancy McWilliams</h1><h4>Psychoanalytic Diagnosis</h4><p>Nancy McWilliams is one of the living greats. All of her smaller essays and papers that I\u2019ve read have been fantastic and have the clarity of argument reserved only for those that actually understanding things.</p><p>This book is a comprehensive guide to understanding personality structures from a psychoanalytic lens. So I don\u2019t really know if I recommend this unless you\u2019re a student or practitioner, but I wish her ideas were more widespread.</p><p>Particularly, this part from her chapter on the DSM\u2019s categorical diagnoses, summarises my current view on, well, a lot of things:</p><blockquote><p>lt may [also] contribute to a form of self-estrangment, a reification of self-states for which one implicitly disowns responsibility ... \u201cI have social phobia\u201d is a more alienated, less self-inhabited way of saying \u201cI am a painfully shy person.\u201d Many women become irritable when premenstural, but it is one thing to say, \u201cI\u2019m sorry I\u2019m kind of cranky today; my period is due\u201d and another to announce, \u201cI have PMDD [premenstrual dysphoric disorder].\u201d It seems to me that the former owns one\u2019s behavior, increases the likelihood of warm connection with others, and acknowledges that life is sometimes difficult, while the latter implies that one has a treatable ailment, distances others from one\u2019s experience, and supports an infantile belief that everything can be \u2018fixed.\u2019 Maybe this is just my idiosyncratic perspective, but I find this inconspicuous shift in communal assumptions troubling.</p></blockquote><p>It is useful to think of this every time you label yourself or another person. The categories are only as real as you decide to make them. Might not be having the effect you think.</p><h1>James C. Scott</h1><h4>Seeing Like a State</h4><p>Combine this McLuhan and Baudrillard and you have a pretty powerful frame on what makes modern life different, and why weird things happen when a lot of people begin to exist beside each other.</p><p>Scott\u2019s core idea: attempts to rationalise and control society through simplification create blindness, and ignoring local knowledge in pursuit of Utopian schemes leads to ruin. This continues to be an issue with human societies. </p><p>It took genius to produce the initial idea, but you can practically apply this other things really easily. A day doesn\u2019t go by where I don\u2019t think about map and territory problems. </p><h1>Byung-Chul Han</h1><h4>Psychopolitics</h4><p>Han argues that contemporary power no longer works mainly through repression or external discipline, as in Foucault\u2019s \u201cbiopolitics,\u201d but through internalised self-management. The result is a society of fatigue, depression, and burnout, where power operates psychologically rather than physically. Han calls this shift \u201cpsychopolitics,\u201d the subtle domination of the psyche through freedom itself.</p><p>I have my issues with both his causes and solutions, and think he\u2019s kind of a whiner that just feeds into more people being depressed, but his description of the present situation was very illuminating to me. </p><p>This relationship between freedom and submission is really well discussed in what is potentially the best short explainer on how modern power works. </p><p>I enjoy his other work less.</p><h1>Nate Silver</h1><h4>The Signal and The Noise</h4><p>A good description of how to live with uncertainty, while also being a good description of how most people fail at doing just that. </p><p>Bit of a left-field one in comparison to the rest of this list but very few books and people have affected my worldview as much. </p><p>And a general lesson it carries beyond statistics: if you want to do anything well, it\u2019s going to require humility, scepticism, and respect for complexity. At least in your private moments. </p><h1>Books I think are of a similar quality yet cannot be recommended in good conscience because they are so difficult to get through and there might just be better ways to spend your time (in my opinion)</h1><h4>Edward Teach - Sadly, Porn</h4><h4>Nietzsche - Beyond Good &amp; Evil</h4><h4>Lacan - The Four Fundamental Concepts of Psycho-Analysis</h4><h4>Jung - The Red Book</h4><p>As a viable option, look up reviews or explainers of these. Or just tackle them head on, but don\u2019t blame me if you don\u2019t have fun. </p><p>I leave them here because it is only in such departures from normality does the exciting stuff happen sometimes. Some stuff you wouldn\u2019t even believe.</p><div><hr></div><p><em>OK that\u2019s it for now. I hope this is useful to someone. </em></p><p><em>I would consider doing something similar with fiction and films. Lmk if that would be cool, but be warned I know way less about both of those things.</em></p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "aside: haven\u2019t done a Priced In for a while. please dm me article/media suggestions if you\u2019ve spotted anything that would suit the blog recently.",
+ "wordcount": 3050,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+   "publication_id": 1470107,
+   "name": "Psychology",
+   "slug": "psychology",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    170,
+    144,
+    50
+   ],
+   "population": 15
+  },
+  "DarkVibrant": {
+   "rgb": [
+    129,
+    100,
+    20
+   ],
+   "population": 7
+  },
+  "LightVibrant": {
+   "rgb": [
+    199,
+    182,
+    135
+   ],
+   "population": 146
+  },
+  "Muted": {
+   "rgb": [
+    175,
+    147,
+    81
+   ],
+   "population": 131
+  },
+  "DarkMuted": {
+   "rgb": [
+    82,
+    66,
+    36
+   ],
+   "population": 480
+  },
+  "LightMuted": {
+   "rgb": [
+    211,
+    201,
+    183
+   ],
+   "population": 147
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 85,
+ "comment_count": 9,
+ "child_comment_count": 8,
+ "audio_items": [
+  {
+   "post_id": 174959886,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/174959886/tts/63a84cb4-ddc4-49f8-9467-0e7b3547557d/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 161802813,
+   "body": "Thank you SK! ",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Thank you SK!"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 174959886,
+   "user_id": 12422048,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-10-01T12:44:54.751Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Michael Beirne",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/eefde284-0cdc-4d44-9891-df4018e7ca28_1728x1728.webp",
+   "handle": "michaelbeirne726863",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "michaelbeirne726863",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "Michael Beirne",
+     "id": 9142788,
+     "base_url": "https://michaelbeirne726863.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 161710592,
+   "body": "These are very good recommendations. Clearly you (Stefan) can distinguish people with insight from grifters.\n\nJeepers, I sound like a bot. But no, seriously. \n\nReaders: Work Through This List.  Especially if you are still young. Your mind will be stretched and exercised in all sorts of ways you never knew existed.\n\nAnd take Stefan's (actually, Richard Feynman's) criterion to heart: if someone does not, cannot, explain what they think in plain language, they do not understand what they are talking about. Ignore them and move on. Your time on this earth is short.\n\n(About me: I'm schizoid, so Jung and McWilliams are of especial relevance to me. Other people may have their own favorites.)",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "These are very good recommendations. Clearly you (Stefan) can distinguish people with insight from grifters."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Jeepers, I sound like a bot. But no, seriously."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Readers: Work Through This List. Especially if you are still young. Your mind will be stretched and exercised in all sorts of ways you never knew existed."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "And take Stefan's (actually, Richard Feynman's) criterion to heart: if someone does not, cannot, explain what they think in plain language, they do not understand what they are talking about. Ignore them and move on. Your time on this earth is short."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "(About me: I'm schizoid, so Jung and McWilliams are of especial relevance to me. Other people may have their own favorites.)"
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 174959886,
+   "user_id": 2449195,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-10-01T03:24:04.538Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "gregvp",
+   "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5a636353-2f7f-4f3f-8519-9d429ebcee61_420x420.png",
+   "handle": "gregvp",
+   "reactor_names": [
+    "Stefan Kelly"
+   ],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 1
+   },
+   "reaction_count": 1,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "gregvp",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "gregvp",
+     "id": 2925019,
+     "base_url": "https://gregvp.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 6,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

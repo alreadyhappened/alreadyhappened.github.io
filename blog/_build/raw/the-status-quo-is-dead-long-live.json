@@ -1,0 +1,399 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/the-status-quo-is-dead-long-live",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 140107157,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2024-01-03T12:30:10.474Z",
+ "updated_at": "2025-05-10T23:03:36.640Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "the-status-quo-is-dead-long-live",
+ "social_title": null,
+ "subtitle": "Why technology has the power to change you before you change it",
+ "teaser_post_eligible": true,
+ "title": "The Status Quo is Dead, Long Live The Status Quo",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 0,
+ "reactions": {
+  "\u2764": 5
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "inertia-with-a-capital-i",
+ "next_post_slug": "culture-is-a-system",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!WxQk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 140107157,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Why technology has the power to change you before you change it",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!WxQk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!WxQk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 424w, https://substackcdn.com/image/fetch/$s_!WxQk!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 848w, https://substackcdn.com/image/fetch/$s_!WxQk!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!WxQk!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!WxQk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg\" width=\"1022\" height=\"800\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:800,&quot;width&quot;:1022,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Thomas Struth And The Beauty Of Museum Photographs - Art-Sheep&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Thomas Struth And The Beauty Of Museum Photographs - Art-Sheep\" title=\"Thomas Struth And The Beauty Of Museum Photographs - Art-Sheep\" srcset=\"https://substackcdn.com/image/fetch/$s_!WxQk!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 424w, https://substackcdn.com/image/fetch/$s_!WxQk!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 848w, https://substackcdn.com/image/fetch/$s_!WxQk!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!WxQk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>(This is the final part of a deep-dive into self-identity and technology. Part 1 <a href=\"https://alreadyhappened.xyz/p/youre-even-more-on-your-own-from\">here</a>, part 2 <a href=\"https://alreadyhappened.xyz/p/the-for-you-everything\">here</a>, part 3 <a href=\"https://alreadyhappened.xyz/p/inertia-with-a-capital-i\">here</a>. I unfortunately can\u2019t guarantee that you\u2019ll understand what I\u2019m on about in this post without reading those three.)</p><h3>OK, back to main plot.</h3><p>This series isn\u2019t about Game of Thrones, or GDP growth, or whether college is worthwhile. It\u2019s about certainty, identity and the status quo of systems. Time to tie this together, and explain why this matters particularly to the technology of the current era. </p><p>We are in a period that encourages everyone to build a story of themselves, sometimes quite literally on social media. This causes an increase in people seeing themselves as the main character in their own personal movie, with a coherent identity that they want everyone else to see and validate back to them. This is a source of certainty to the basic psychological questions of (i) Who am I? and (ii) What am I supposed to be doing? The economic system survives (self-serving bias, inertia) and thrives (GDP share) based on this.</p><p>All technological advancements have aligned with this trend, as any technological jump big enough to define a generation has enabled a further level of individualism. Artificial intelligence is no different, and now every digital service or form of media can be built personally for you and your preferences. To be more specific, they are built to help create and validate your perception of yourself and the world. Did I mention this is going to <a href=\"https://alreadyhappened.substack.com/p/why-making-up-for-lost-time-is-hard\">speed up over time</a>, too?</p><p>They reinforce what you think is already true, and have the potential to fragment culture enough so it means the end of shared experiences, and agreed truths. All you have left to feel sure about your place in the world is your idea of who you are, but you still need other people to validate that back to you. </p><p><strong>The consequence is a systematic maintenance of images, that only feel validating if the other is there to confirm you are who you think you are.</strong> Whoops, turns out I\u2019m half a century late on this analysis too:</p><div class=\"pullquote\"><p>\u201cThis human scene is a scene of mirages, demonic pseudo-realities, because everyone believes everyone else believes them.\u201d</p><p>RD Laing, The Politics of Experience</p><p>\u201cFragmented views of reality regroup themselves into a new unity as a separate pseudo-world that can only be looked at. The specialization of images of the world evolves into a world of autonomised images where the deceivers are deceived. The spectacle is a concrete inversion of life, an autonomous movement of the nonliving.\u201d</p><p>Guy Debord, Society of the Spectacle</p></div><p>But there is a chink in the story.</p><p>Because I think a fair riposte is that for all the different ways I can say the status quo is powerful <em>behaviourally</em>, the dominant narrative <em>culturally</em> is that we are sick of it, and that must be indicative of something. Let\u2019s find out what. </p><div><hr></div><p>End of 2023 means 2024 trend reports. We Are Social have \u2018status quo disillusionment\u2019 as the main cultural driver for the <a href=\"https://thinkforward.wearesocial.com/05-mischief-mode.html\">cultural mood of the next year</a>. </p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!bRgI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!bRgI!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 424w, https://substackcdn.com/image/fetch/$s_!bRgI!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 848w, https://substackcdn.com/image/fetch/$s_!bRgI!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 1272w, https://substackcdn.com/image/fetch/$s_!bRgI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!bRgI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png\" width=\"1296\" height=\"842\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:842,&quot;width&quot;:1296,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1212705,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!bRgI!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 424w, https://substackcdn.com/image/fetch/$s_!bRgI!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 848w, https://substackcdn.com/image/fetch/$s_!bRgI!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 1272w, https://substackcdn.com/image/fetch/$s_!bRgI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5de040a4-ed55-4a11-9688-b08da1ee5881_1296x842.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>They go on to describe this disillusionment, saying \u201cAs \u2018eat the rich\u2019 becomes an established narrative in mainstream entertainment, and with trust in authority figures still low, users aren\u2019t thinking twice about pushing back against monetisation, lack of accountability, and other blights on their products and services.\u201d</p><p>Accountability, there\u2019s that word again. I remember that came up quite a bit in Part Three. To work out what it means here, time for a case study of a rich authority figure that people don\u2019t have much trust in. </p><div><hr></div><p>Sam Altman is the man that made tech company boardroom politics mainstream gossip, and is one of the faces I saw most in 2023. He\u2019s talkative, speculative, ambitious. No surprise his podcast appearances do numbers. </p><p>But I couldn\u2019t help but notice that the part of social media that\u2019s less trustworthy of silicon valley, who I would posture make up a good chunk of those diagnosed with \u2018status quo disillusionment\u2019, speak about Altman in a different way. They are unlikely to care when OpenAI announce their newest model, but they reserve quite a lot of interest for Sam Altman, the man.  </p><p>Riding high on that cinema-battle that I was told was really culturally important at the time, New York Magazine published the much shared \u2018<a href=\"https://nymag.com/intelligencer/article/sam-altman-artificial-intelligence-openai-profile.html\">Sam Altman Is the Oppenheimer of Our Age</a>\u2019 in September. It got a lot of praise on Twitter. It\u2019s the most in-depth profile of the man I\u2019ve seen, so with the title setting the stakes as equivalent to the atomic bomb, what it contains must be important. </p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!K0la!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!K0la!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 424w, https://substackcdn.com/image/fetch/$s_!K0la!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 848w, https://substackcdn.com/image/fetch/$s_!K0la!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 1272w, https://substackcdn.com/image/fetch/$s_!K0la!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!K0la!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png\" width=\"960\" height=\"172\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:172,&quot;width&quot;:960,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:39981,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!K0la!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 424w, https://substackcdn.com/image/fetch/$s_!K0la!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 848w, https://substackcdn.com/image/fetch/$s_!K0la!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 1272w, https://substackcdn.com/image/fetch/$s_!K0la!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57280dc1-3dcb-4e10-8059-667aa272b1b9_960x172.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a></figure></div><p>(Note: What I\u2019m about to say is by no means a personal critique of the author or their intentions. Things like this get written all the time. I\u2019m just using this example because, well, they tell me the stakes are high.)</p><p>What you get in this piece is a deep dive into Sam\u2019s personal and professional past, with examples of how he\u2019s dealt with situations and people used as the puzzle pieces to put together his personality. </p><p>The jury\u2019s conclusion, and please challenge me if you think this is a specious reading, is that Altman is: sort of unqualified, power-hungry, self-important, opportunistic, emotionally cold, awkward, and horrible to his sister. All of this builds towards the implication that you need to increase your angst about the development of AI <em>because someone you wouldn\u2019t like is in charge</em> of one of the most important companies in the field. </p><p>The reason I bring up this whole thing is that there\u2019s a weird sleight of hand move in that group of sentences. A move that is probably crucial to understanding why pieces like this one never amount to anything tangible. </p><p>Similar to our college grads from Part Three, by assigning all the accountability to an individual, you sneakily ditch all of your own as a player in the same system. Like, as much as the Open AI staff worship Altman, you really think if we collectively shamed him out of the spotlight, someone else wouldn\u2019t keep them on the same track? Apparently, Sam wasn\u2019t even qualified to run the company, that\u2019s what New York Magazine told me, and now they expect me to believe the way to win back power is to get someone else in the seat of the most important company of the world?</p><p>Surely your issue has to be with the fact that the seat exists at all. That\u2019s where the disproportionate amount of power is. But the problem is that the seat isn\u2019t a person. That\u2019s way harder to criticise, and <a href=\"https://alreadyhappened.substack.com/p/what-corecore-was-actually-about\">forces you to question</a> a lot of the assumptions you hold close. And it doesn\u2019t fulfil the needs of your readers, who have much more immediate psychological goals i.e. self-serving ones. (And remember who we said also benefits from collective self-serving reasoning?)</p><p>That\u2019s why writing an op-ed about how Sam Altman is a bad <em>person</em> isn\u2019t just ineffective in taking him down a peg, it is in fact exactly how you ensure power <em>continues</em> to be transferred his way. Or at least, someone like him. To paraphrase <a href=\"https://hotelconcierge.tumblr.com/post/162571849189/the-tower\">someone much smarter than me</a>: you may not like the status quo, but the status quo sure does like you. </p><p><strong>This is a basic framework for how the preservation of the self perfectly suits the preservation of the system, </strong>even when part of your identity is the idea that you are fighting it<strong>.</strong> It takes your accountability out of your hands, and offers you the <a href=\"https://alreadyhappened.substack.com/p/what-corecore-was-actually-about\">comfort of certainty</a>, but it takes your power as part of the deal. </p><p>Put it another way: <strong>technology enables individualism, and individualism pays technology back </strong><em><strong>with interest</strong></em>. Once again, I wonder what happens when that cycle starts <a href=\"https://alreadyhappened.substack.com/p/why-making-up-for-lost-time-is-hard\">moving faster</a>?</p><div><hr></div><p>So we arrive at a tricky situation and, God help us, we turn to <a href=\"https://archive.org/details/hegelsphilosophy0000avmi_c9t6/mode/2up\">Hegel</a>. </p><blockquote><p><em>\u201cBut the individual is then also separated from the universal, and as such it is only one side of the process, and is subject to change; it is in respect of this moment of mortality that it falls into time. Achilles, the flower of Greek life, Alexander the Great, that infinitely powerful individuality, do not survive. Only their deeds, their effects remain, i.e. the world which they brought into being. <strong>Mediocrity endures, and in the end rules the world. There is also a mediocrity of thought which beats down the contemporary world, extinguishes spiritual vitality, converts it into mere habit and in this way endures.</strong> Its endurance is simply this: that it exists in untruth, does not receive its due, does not honour the Notion, that truth is not manifest in it as a process.\u201d</em></p></blockquote><p>(As an aside, I\u2019m no longer accepting any criticism of <em>my</em> writing being inaccessible. I will at least give him credit for making me laugh with the use of the word \u2018simply\u2019 towards the end.)</p><p>In any case, he wasn\u2019t painting a positive picture. Social and political systems are often designed to maintain stability and avoid disruption. This tends to favour the perpetuation of existing, average conditions over radical changes.</p><p>Feeling like a main character? The system thanks you for staying in line. </p><div><hr></div><p><strong>So, what was this mini-series about?</strong></p><p>I said that this Substack was going to be about behaviour, culture and technology. It is about those things, but I hadn\u2019t put them in order yet.</p><p>Technological progress consistently increases the independence and freedom of the average person. Basic psychological goals do not change, but the means to that end that you opt for depend on the society you are thrown into. </p><p>More individualistic societies produce and then get reinforced by a system that is funded by reinforcement of identity. This creates growth, and that growth creates new technologies. And the use cases of this technology go back to the original psychological goals. Et cetera. </p><p>I\u2019m pro AI, and think it can also offer the solution to most of the problems I can identify. But to offer a cohesive analysis on how it will affect people and culture, we need to be realistic about the processes by which society will accept it and adapt to it. And the answer is that we willingly hand over most of the control, no questions asked. And for those solutions to come to the fore, it requires a much larger psychological shake up than can be achieved simply by putting the tools in people\u2019s hands.</p><p>The era of hyper-personalisation. A life built in your own image and preferences, but powered and decided by algorithm. The big question is what does that algorithm want? I think that answer starts with acknowledging that when technology becomes analogous to God, it\u2019s worth being wary of a God you\u2019ve made in your own image too. </p><p>This is the end of the reasons why technological change happens to people without them realising it. These are:</p><ol><li><p><a href=\"https://alreadyhappened.substack.com/p/why-making-up-for-lost-time-is-hard\">It\u2019s grows faster than the brain can keep up with.</a></p></li><li><p><a href=\"https://alreadyhappened.substack.com/p/what-corecore-was-actually-about\">People are not built to question things, and when they do they often feel powerless.</a></p></li><li><p>And now, the motivation to preserve self-conception is purposely designed in line with the motivations of the economic system, which has tech companies at the top. </p></li></ol><p>If we agree that technological change happens to people, <strong>we have a new question to begin.</strong> That is, what is that next era actually going to do to people?</p><p>Sit back and watch. As it turns out, you haven\u2019t given yourself much choice.</p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened! Subscribe for free to support, or send a link to this to one person.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "(This is the final part of a deep-dive into self-identity and technology. Part 1 here, part 2 here, part 3 here. I unfortunately can\u2019t guarantee that you\u2019ll understand what I\u2019m on about in this post without reading those three.)",
+ "wordcount": 1940,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "1097c064-e7b2-4ea4-8f27-f659ab80c2a4",
+   "publication_id": 1470107,
+   "name": "Philosophy",
+   "slug": "philosophy",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    173,
+    41,
+    57
+   ],
+   "population": 14
+  },
+  "DarkVibrant": {
+   "rgb": [
+    127,
+    17,
+    29
+   ],
+   "population": 23
+  },
+  "LightVibrant": {
+   "rgb": [
+    205,
+    180,
+    145
+   ],
+   "population": 173
+  },
+  "Muted": {
+   "rgb": [
+    163,
+    143,
+    97
+   ],
+   "population": 59
+  },
+  "DarkMuted": {
+   "rgb": [
+    68,
+    65,
+    49
+   ],
+   "population": 310
+  },
+  "LightMuted": {
+   "rgb": [
+    197,
+    184,
+    168
+   ],
+   "population": 47
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 5,
+ "comment_count": 2,
+ "child_comment_count": 1,
+ "audio_items": [
+  {
+   "post_id": 140107157,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/140107157/tts/9dfc272d-fb27-4396-9958-5bdf32361d18/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 68958978,
+   "body": "> They reinforce what you think is already true\nGiving that this series of posts does indeed reinforce what I think is true, I find it very funny to imagine that it was written by an AI fine-tuned to my mental model :D.\n\n> This is a basic framework for how the preservation of the self perfectly suits the preservation of the system, (...)\n> Put it another way: technology enables individualism, and individualism pays technology back with interest\nOne way I like to express this: you can only hurt Leviathan through a sacrifice that hurts you (or the people around you) more than it hurts the monster.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "> They reinforce what you think is already true"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Giving that this series of posts does indeed reinforce what I think is true, I find it very funny to imagine that it was written by an AI fine-tuned to my mental model :D."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "> This is a basic framework for how the preservation of the self perfectly suits the preservation of the system, (...)"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "> Put it another way: technology enables individualism, and individualism pays technology back with interest"
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "One way I like to express this: you can only hurt Leviathan through a sacrifice that hurts you (or the people around you) more than it hurts the monster."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 140107157,
+   "user_id": 12557430,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2024-09-14T07:05:33.518Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "RJV",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/96901614-59df-4008-a4a0-b068d4334831_180x180.jpeg",
+   "handle": "crul",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "crul",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 1,
+   "reported_by_user": false,
+   "restacked": false,
+   "childrenSummary": "1 reply by Stefan Kelly"
+  }
+ ]
+}

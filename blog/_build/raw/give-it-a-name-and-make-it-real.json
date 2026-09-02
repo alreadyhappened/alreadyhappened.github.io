@@ -1,0 +1,442 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/give-it-a-name-and-make-it-real",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 172509475,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2025-09-01T19:27:59.849Z",
+ "updated_at": "2025-09-01T19:33:34.047Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "give-it-a-name-and-make-it-real",
+ "social_title": null,
+ "subtitle": "how to (un)fix something in time",
+ "teaser_post_eligible": true,
+ "title": "Give it a name and make it real",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 4,
+ "reactions": {
+  "\u2764": 46
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "summerisoverjpg",
+ "next_post_slug": "how-to-move-two-goalposts-at-the",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!-f1T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 172509475,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "how to (un)fix something in time",
+ "body_html": "<p><em> i ummed and ahhed about putting this out for quite a while, for reasons that will become obvious pretty quickly. as a defensive measure, you can rest assured that any criticism you may have, i probably already agree with. </em></p><p><em>nevertheless, enjoy. </em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!-f1T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!-f1T!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 424w, https://substackcdn.com/image/fetch/$s_!-f1T!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 848w, https://substackcdn.com/image/fetch/$s_!-f1T!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!-f1T!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!-f1T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg\" width=\"1484\" height=\"1178\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1178,&quot;width&quot;:1484,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:722832,&quot;alt&quot;:&quot;Ren\u00e9 Magritte. La Reproduction interdite (Not to Be Reproduced). Brussels,  1937 | MoMA&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Ren\u00e9 Magritte. La Reproduction interdite (Not to Be Reproduced). Brussels,  1937 | MoMA\" title=\"Ren\u00e9 Magritte. La Reproduction interdite (Not to Be Reproduced). Brussels,  1937 | MoMA\" srcset=\"https://substackcdn.com/image/fetch/$s_!-f1T!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 424w, https://substackcdn.com/image/fetch/$s_!-f1T!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 848w, https://substackcdn.com/image/fetch/$s_!-f1T!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!-f1T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Right, who\u2019s ready for what is going to be both the most personal and controversial thing I could ever hope to put on the internet? Hey, me too. Let\u2019s do it.</p><p>When I was 21 I realised things weren\u2019t going well for me. On the inside, that is. I had a great relationship, great friends, was in great health, was doing fun things with my life. And I was also experiencing severe social anxiety for the first time.</p><p>I didn\u2019t know that\u2019s what it was at that point, I just noticed the oppressive sense of my body collapsing in on itself when I found myself in a room of 10+ people having an objectively normal evening. I\u2019d always leant towards finding groups draining rather than energising, but this was something different. And when you notice this isn\u2019t happening to anyone else in the room, things get scary.</p><p>It escalated over time, and when you start to expect it you just make it worse.</p><p>I remember slipping off to the bathroom at a house party so I could be by myself, and doing that thing where you pull the top of your t-shirt up to cover your face, and screaming internally so loudly that a decent amount of it became external. Another time around then I left a pre-drinks to pop into my own flat to \u2018get something\u2019, and cried in my room at the thought of going back and having to explain how that managed to take me an hour. I remember a night out where I left the bar without telling anyone, went out into a literal storm, and walked down the pier wondering what the hell was actually happening to me. Yeah, I know, it\u2019s normal to not like parties. I was fucking falling apart.</p><p>I told my girlfriend like half the truth of the situation. Honestly I didn\u2019t even know what the full truth was myself. I told her that when we and all our friends hang out, I really struggle, and everyone else seems so happy. She told me it was normal, it was ok. She told me I was just an introvert. Hearing that felt amazing.</p><p>That might sound dramatic, but it genuinely did kind of work. The next month or so, we\u2019d still go out, and I\u2019d still feel like I was isolated from everyone. But I wouldn\u2019t panic about it. That was just me. I wasn\u2019t the same as the rest of them, which was cool. Things weren\u2019t easy, but they were survivable. And hey, I understood myself a little better as a result. Nice.</p><p>When I was 22 I became severely depressed for the first time.</p><p>Things had changed for me. Around me, might be a more accurate way to put it. I was enjoying leaning in on the introvert thing. Spending more time with myself, reading, listening to stuff, walking, and a lot more reading. It was a type of fun I\u2019d never really allowed myself to have. I could have done that forever.</p><p>But everything else had gone to shit. A lot of the \u2018great things\u2019 that were there when I was 21 weren\u2019t there anymore. No one\u2019s fault. Things happen. I was being pulled from a lot of angles, and didn\u2019t want to move towards any of them. I was realising I had no solid plan for my life, and I wasn\u2019t in a good spot to start coming up with one. The days were monotonous, and long. I had a lot of friends, but there was no group I actually felt like I belonged in. I guess that\u2019s normal for friend groups that were formed years ago, when your life experience to that point had indeed been universal. Nothing excited me anymore.</p><p>I think I can remember Googling \u2018how to be happy\u2019 at 3am one night.</p><p>Pretty soon after, I was filling out a form for counselling at my University\u2019s student union. It was summer and no one was around. I was surprised it was even open. But it was, and I was told the University will pay for some fixed amount of free sessions. Might have been 10.</p><p>Like a week later I get a text from the counselling centre. Says I can pick a slot from a selection of openings this therapist has. I can\u2019t remember what I picked but it became my weekly slot. Weirdly, it was really near the office where I worked a part time job. So I\u2019d often go to work straight after. I bet Mark Fisher or someone would think that\u2019s interesting.</p><p>The first time I go to the centre I realise the place is on the second floor so I have to ring a bell to get let in. Thought that was kind of funny. What am I supposed to say over the speaker, \u2018hey I\u2019m here about the sadness\u2019? Whatever I said, I got in, and when I walked up the stairs, there was my new therapist welcoming me. I\u2019d love to know what she saw.</p><p>We go into the stereotypical therapy room with the two chairs and the lighting. As I\u2019m currently writing this, I just looked up this place to try to remember some of the details, and I\u2019ve immediately seen a picture of the very room itself, exactly as it was in my mind. I\u2019ll never forget it.</p><p>I\u2019ll never forget her asking what brought me there. I\u2019ll never forget trying to find the words. I barely had any. I genuinely came out with something along the lines of \u2018I just can\u2019t seem to feel happy anymore\u2019. It took a while until I could give her more help than that.</p><p>She commented on how little I wanted to give away about myself, and how I tried to brush past pieces of my personal life that she could tell were not minor details. She worked that part out before I did. But I caught up, and soon enough that hour was the highlight of my week. I like analysis, and uncomfortable truths, and trying to go deeper. That\u2019s why I write this blog. I suspect that\u2019s why you read it.</p><p>I felt like I made good progress. I told her about the secret breakdowns at social events. I started using the word anxiety. I told her about the monotony I was feeling now. I started using the word depression. But she pointed out the cycles of my behaviour that contributed to it, and the cycles in my thinking. I started to learn how to defend against them. I felt more prepared to deal with the world.</p><p>My free sessions ran out. I decided I was ready for that. I remember my therapist not seeming to fully believe me, but I left anyway.</p><p>Six months later I texted her asking for more free sessions. She said she\u2019d sort it with the University. To this day, I don\u2019t really believe she sorted anything. She was just genuinely kind. Anyway, I was back sat across from her in the room.</p><p>Things were worse now. Round 1 was more lost and confused. Round 2 was closer to not wanting to be alive. I\u2019d been to the GP too, and I was now on antidepressants for the first time.</p><p>The first few weeks of that second stretch are a bit of a blur. I think I focused on getting my life in order in a sort of CBT way. Spending a lot of time on my own (in a good sense), and trying to look forward again. And this was with one big thing on the horizon. I was moving to a different city in a few months.</p><p>The move neither scared nor thrilled me, but the alarm it did raise was that me and my therapist were soon to be over. This was the only person that knew all the details of my inner life, and I had no more time to get her to point me in any kind of direction. I realised it was my last chance to do something I\u2019d been thinking about for a while.</p><p>Because despite all the soul-searching, the lifestyle changes, the antidepressants and all of our sessions, I wasn\u2019t back to any kind of regular life. I noticed there were still some things I consistently struggled with. I struggled with a lot of social situations, and couldn\u2019t adapt myself to suit new ones. Most of my peace came from having control of my daily routine, and any disturbance to that was seriously painful. I got overwhelmed a lot. Especially by small talk.</p><p>All of the self-ruminating had also made me think of things I\u2019d been told about myself from adolescence to whatever 23 is. Some friends had made fun of how bad I was at eye contact. Some others made a running joke about how I weirdly ignored normal social cues, which I hadn\u2019t realised was weird at all. People thought I wasn\u2019t interested in them when they met me for the first time. I brushed off all those remarks as jokes at the time, but it seems they mattered enough that I still remember everything about them.</p><p>I realised this might not be unrelated to some of the things I <em>did</em> like about myself. I had unconventional interests and hobbies, and pursued them hard. Still do. When I spoke I was direct, and people <em>tend</em> to respect that. My preference for routine also made me disciplined.</p><p>But even those things made me different. And it was the difference I was struggling with. So, I followed my suspicions.</p><p>I took every free Autism Spectrum Disorder test I could find online.</p><p>They\u2019re kind of what you\u2019d expect. A list of 50 ish behaviours (e.g. I like to have a clear daily routine) on which you rate yourself out of 5. The results kept saying what I expected them to say. The last one that I took was out of 26, and I scored 24.</p><p>(note: higher score does not necessarily mean more extreme autism, it just means higher % chance that you might be on the spectrum at all).</p><p>I was in my last session with my therapist and I had to pause the conversation to bring it up. I told her it was something that had played on my mind for years. I didn\u2019t actually mention it above, but people had called me autistic as a joke multiple times before. In groups. And no one disagreed. I had obviously started to think they had a point.</p><p>Waiting lists for autism tests are a shitshow. But my therapist knew a specialist, who would do a favour. They were going to do an assessment with me off the record. Which would mean no <em>official</em> medical diagnosis either way, so no access to further services, accommodations or medication. That was fine. They\u2019d still be able to tell me what they think. I would still know. I would still have partly worked out who I was.</p><p>I thanked my therapist for the final time, and as I left we agreed the time she would tell the specialist to call me. Very much one chapter ending, one chapter starting type of scene. I probably had an unreal spotify session as I drove home.</p><p>Soon enough it was the next Saturday and I was waiting for the phone to ring. I was sweaty and dirty in full football kit, sitting in a glass-walled meeting room in the centre of a swarming office. My game had ended at like 1:30pm and my work shift started at 2pm, and I had somehow managed to give this exact window to the ASD specialist to call me to have my assessment. It was a fucking ridiculous scene. I was laughing to myself about it at the time. I\u2019m probably about to learn something that will change my life forever, and I\u2019ll always remember that <em>this</em> is how it happened.</p><p>The phone rings and it stops being funny.</p><p>I thought about everything that had led to this. The fear, the pain, the silent screams, the dread, the monotony, the hopelessness, the questions, the people I hurt, everything. It all led to me being in this weird room with this phone ringing from an unsaved number.</p><p>I answered with a \u2018hello?\u2019 in the tone of someone pretending they don\u2019t already know exactly what\u2019s going on. She started directing things immediately. Which made sense, given the pro bono situation, plus I guess she already knew my small talk wouldn\u2019t be worth much. She was nice, though. Told me she was speaking to my therapist and understood what we were doing here, told me how long it would take and gave me some options of how to learn more afterwards.</p><p>And once I said that all sounded good, she said \u2018OK, so we\u2019re going to go through our standard ADD assessment\u2019.</p><p>I stopped her. I needed an assessment for ASD, not ADD. She said that is not what my therapist told her. From her conversation with my therapist she worked out what happened. There <em>was</em> a client of hers that wanted to be tested for ADD, it just wasn\u2019t me. Somewhere else in the same city, that person was going to get called by the autism specialist who thought they were going to assess me. Bear in mind I\u2019m still in my football kit on display in the middle of a packed office. It was all objectively quite funny.</p><p>I have no idea what I ended up saying to the ADD specialist I was on the phone with, but I hung up and decided I may as well start my work shift on time and zone out for 8 hours. I thought once the specialists and the therapy clinic had spoken to each other, then the right person would call. They didn\u2019t. Eventually I decided they were never going to.</p><p>I started this by saying it was going to be personal and controversial. So far it\u2019s just been personal, so here comes the first controversial part. Second part comes later.</p><p>To be frank, I am well versed in psychology. I do know quite a bit about mental health and mental disorders, specifically. I also know a lot about research methodologies. And as a result of the couple months leading up to that phone call, I knew a lot about autism diagnoses. So on the back of all that, I will say this: if the right person had called me that day, I am 100% certain that I would have been diagnosed with Autism Spectrum Disorder. Which is also what I wanted to happen.</p><p>(<em>note: This is not to be considered a full critique of how ASD is diagnosed or treated. While I think the average adult might be able to manipulate some boxes into being ticked, there is no way this is the case for the autism cases where individuals need substantial support in life. To be put bluntly, when someone is in the higher levels of autism, you know about it. We\u2019re not talking about that.)</em></p><p>I drove home from work that night realising I was sort of back to square one. I had no idea what was going on with me, or why I was the way I was. I had no idea where I was going in general. And I had run out of time to find out.</p><p>The big move came. I only needed one big suitcase, I had pretty much nothing to bring with me. I moved in with strangers. Who introduced me to more strangers. And more strangers. When I left the house I only saw strangers. I started a new job after getting hired by a stranger. Two other strangers started with me that day. I had to introduce myself to every stranger in the company as my first act. It\u2019s going to sound dumb but this was also where the switch flicked that I was an adult. Because I was getting introduced as one.</p><p>I had moved over with no friends so knew my choice was to try or be depressed. I was familiar with the latter by now so I tried the former. I said yes to things. Even things I didn\u2019t understand. Or things that scared me, or made me anxious. I survived. I had fun. I learned what I enjoyed.</p><p>I dated strangers properly for the first time. Kind of girls I\u2019d never hung out with before. Some were, how you might say, not right. Some knew things I didn\u2019t know. At least one kinda fucked my life up. I didn\u2019t know what I was doing. I was working it out.</p><p>People could tell. I became a more attractive person (in a non-romantic sense) too. I started thinking more about how I dressed, and it turned out that people liked my taste. I became the person that knew things. I was getting more into electronic music, and going out was the highlight of my week. I did also want people to think I was cool for that. Which worked, most of the time.</p><p>I had very quickly entered the happiest period of my life. And it\u2019s hard to explain, but I was both a completely new person yet also more myself than ever. Being true to yourself but in a genuine, kind of courageous way. I think that\u2019s what real charisma probably is.</p><p>I knew this all wouldn\u2019t have made sense to the guy sitting in that office in his football kit. But life was moving too fast to care, and I didn\u2019t want to kill the momentum. My new work was going good, and I cared enough about the job to make sure I did well. When I met new clients I prepped my best small talk. I consciously made sure to look them in the eyes. They liked me. And soon enough I didn\u2019t have to treat those things as chores anymore. On the weekend when there\u2019d be a house party on our block somewhere, I\u2019d be energised the moment I walked into the room. I felt like I could be even more myself.</p><p>That was all a few years ago now, but I was thinking about it recently. I was thinking about how I haven\u2019t felt an ounce of depression or anxiety in a long, long time. And positively, I\u2019ve never believed in myself more. I\u2019ve never felt more purposeful, directed, useful, able to face any situation. I\u2019ve never lived this sincerely before. I adore being alive. And I especially adore the fact that I can decide to be whoever I want to be. That\u2019s actually why I write this blog. I suspect that\u2019s actually why you read it.</p><p>I was thinking about those changes in my behaviour when I had an idea. I sat down at my desk and looked up that free autism test I took years ago. The one I got 24 out of 26 on. I started again, answering everything just as honestly and carefully. This time I didn\u2019t see what I was expecting. I didn\u2019t score in the twenties at all. I scored 8. I scored less than the average person in the country would.</p><p>So I think you can see where the second controversial bit comes in.</p><p>Because when I got on that plane a few years ago and changed my entire life, I did it with a feeling of \u2018let\u2019s just fucking see what happens\u2019. That previous year had offered me no other choice. So yes, a lot did end up happening. Yes, it worked out. And yes, life is good.</p><p>But here\u2019s the thing, I don\u2019t know if I should find that satisfying or terrifying. Because my real point is this: what if I <em>did</em> know what to expect? What if I understood myself already?</p><p>What if the right person called?</p><div><hr></div><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened. Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "i ummed and ahhed about putting this out for quite a while, for reasons that will become obvious pretty quickly. as a defensive measure, you can rest assured that any criticism you may have, i probably already agree with.",
+ "wordcount": 3368,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "1097c064-e7b2-4ea4-8f27-f659ab80c2a4",
+   "publication_id": 1470107,
+   "name": "Philosophy",
+   "slug": "philosophy",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    172,
+    116,
+    44
+   ],
+   "population": 1
+  },
+  "DarkVibrant": {
+   "rgb": [
+    92,
+    60,
+    40
+   ],
+   "population": 2
+  },
+  "LightVibrant": {
+   "rgb": [
+    223,
+    204,
+    172
+   ],
+   "population": 5
+  },
+  "Muted": {
+   "rgb": [
+    161,
+    134,
+    94
+   ],
+   "population": 397
+  },
+  "DarkMuted": {
+   "rgb": [
+    83,
+    68,
+    50
+   ],
+   "population": 49
+  },
+  "LightMuted": {
+   "rgb": [
+    200,
+    181,
+    154
+   ],
+   "population": 28
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "previous_name": "Stefan",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 46,
+ "comment_count": 3,
+ "child_comment_count": 3,
+ "audio_items": [
+  {
+   "post_id": 172509475,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/172509475/tts/cfcc183d-0710-46e7-9aa8-117bb999a913/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "is_geoblocked": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#a16207",
+  "background_pop": "#a16207",
+  "color_theme_bg_web": "#fffbeb",
+  "cover_bg_color": "#fffbeb",
+  "cover_bg_color_secondary": "#f0ecdd",
+  "background_pop_darken": "#895306",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#895306",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(161, 98, 7, 0.2)",
+  "color_theme_bg_pop_30": "rgba(161, 98, 7, 0.3)",
+  "print_pop": "#a16207",
+  "color_theme_accent": "#a16207",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#a16207",
+  "font_family_headings_preset": "'Roboto Mono',monospace",
+  "font_weight_headings_preset": 700,
+  "font_family_body_preset": "Lora,sans-serif",
+  "font_weight_body_preset": 400,
+  "font_size_body_offset": "1px",
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magazine-5",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#fffbeb",
+  "background_contrast_1": "#f0ecdd",
+  "background_contrast_2": "#ddd9cb",
+  "background_contrast_3": "#b7b4a9",
+  "background_contrast_4": "#929087",
+  "background_contrast_5": "#514f4a",
+  "color_theme_bg_contrast_1": "#f0ecdd",
+  "color_theme_bg_contrast_2": "#ddd9cb",
+  "color_theme_bg_contrast_3": "#b7b4a9",
+  "color_theme_bg_contrast_4": "#929087",
+  "color_theme_bg_contrast_5": "#514f4a",
+  "color_theme_bg_elevated": "#fffbeb",
+  "color_theme_bg_elevated_secondary": "#f0ecdd",
+  "color_theme_bg_elevated_tertiary": "#ddd9cb",
+  "color_theme_detail": "#e6e2d4",
+  "background_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(161, 98, 7, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "hsl(47.99999999999996, 25.68807339449542%, 28.84313725490196%)",
+  "print_secondary_on_web_bg_color": "#86857f",
+  "background_pop_rgb": "161, 98, 7",
+  "color_theme_bg_pop_rgb": "161, 98, 7",
+  "color_theme_accent_rgb": "161, 98, 7"
+ },
+ "comments": [
+  {
+   "id": 154065811,
+   "body": "I think it was a mixture of knowing and not knowing that worked for you. Not knowing the diagnosis, but knowing that, after the move, in that new environment, all the terrible feelings involved in socialising is very much Needed to go through to make the situation work. It sort've wrestles into submission whatever hesitation that could pop up making everything clearer, more straightforward.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "I think it was a mixture of knowing and not knowing that worked for you. Not knowing the diagnosis, but knowing that, after the move, in that new environment, all the terrible feelings involved in socialising is very much Needed to go through to make the situation work. It sort've wrestles into submission whatever hesitation that could pop up making everything clearer, more straightforward."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 172509475,
+   "user_id": 303769997,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-09-09T15:39:21.192Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "Nubian",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/19799579-ad8b-464f-bf75-1d4947a1865a_144x144.png",
+   "handle": "manlet",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "manlet",
+   "metadata": {
+    "is_author": false,
+    "membership_state": null,
+    "eligibleForGift": true
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  },
+  {
+   "id": 151481067,
+   "body": "From a schizoid: thank you for providing another perspective into humans.\n\nThat probably sounds flippant, but it is not.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1"
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "From a schizoid: thank you for providing another perspective into humans."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "That probably sounds flippant, but it is not."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 172509475,
+   "user_id": 2449195,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2025-09-02T00:19:08.584Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "gregvp",
+   "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5a636353-2f7f-4f3f-8519-9d429ebcee61_420x420.png",
+   "handle": "gregvp",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "gregvp",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "gregvp",
+     "id": 2925019,
+     "base_url": "https://gregvp.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ]
+}

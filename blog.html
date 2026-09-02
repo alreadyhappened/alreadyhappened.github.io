@@ -4,255 +4,565 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog — Stefan Kelly</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Essays on behaviour, culture and technology by Stefan Kelly, collected from Already Happened.">
+  <meta property="og:title" content="Already Happened — essays by Stefan Kelly">
+  <meta property="og:description" content="Essays on behaviour, culture and technology by Stefan Kelly, collected from Already Happened.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://substackcdn.com/image/fetch/$s_!JFuM!,w_1200,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc9950f6-6c5a-48e4-8f86-19d50103e86b_736x694.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/blog.css">
   <script defer src="/cf-analytics.js"></script>
+  <script defer src="/blog.js"></script>
 </head>
-<body>
-  <nav>
-    <a href="/">About</a>
-    <a href="/worked-on.html">Things I have worked on</a>
-    <a href="/working-on.html">Things I am working on</a>
-    <a href="/artefacts.html">Artefacts</a>
-    <a href="/experiments.html">Experiments</a>
-    <a href="/blog.html">Blog</a>
-  </nav>
+<body class="page-index" style="--accent:#1f1f1f">
+<div class="progress" aria-hidden="true"><span></span></div>
+<div class="shell">
 
-  <p style="margin-bottom: 2rem; color: #999; font-size: 0.9rem;">These are posts collected from my Substack, <a href="https://alreadyhappened.xyz">alreadyhappened.xyz</a>.</p>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <a class="wordmark" href="/blog.html">
+      <span class="wordmark-title">Already Happened</span>
+      <span class="wordmark-sub">Essays by Stefan Kelly</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="sidebar-body">Menu</button>
+  </div>
+  <div class="sidebar-body" id="sidebar-body">
 
-  <section class="top-posts">
-    <h2 class="top-posts-title">Most popular</h2>
-    <ul class="top-posts-list">
-      <li><a href="/blog/theres-a-reasonable-chance.html">There's a reasonable chance that you're seriously running out of time</a></li>
-      <li><a href="/blog/someone-else-was-in-the-room.html">Someone else was in the room where it happened</a></li>
-      <li><a href="/blog/what-is-the-white-lotus-for.html">What is The White Lotus for?</a></li>
-      <li><a href="/blog/agi-isnt-for-happy-people.html">AGI isn't for happy people</a></li>
-      <li><a href="/blog/the-things-you-dont-want-to-know.html">The things you don't want to know about yourself</a></li>
-      <li><a href="/blog/how-to-learn-about-people.html">How to learn about people in art galleries and smoking areas</a></li>
-      <li><a href="/blog/she-said-i-want-something.html">She Said I Want Something That I Want</a></li>
-    </ul>
+    <label class="search">
+      <span class="visually-hidden">Search essays</span>
+      <input type="search" id="search" placeholder="Search essays" autocomplete="off">
+      <kbd>/</kbd>
+    </label>
+
+    <nav class="nav-block" aria-label="Browse by category">
+      <h2 class="nav-label">Browse</h2>
+      <ul class="nav-list" id="cat-nav">
+        <li><a href="#" data-filter="all" class="is-active"><span>All essays</span><span class="count">43</span></a></li>
+        <li><a href="#" data-filter="Philosophy"><span>Philosophy</span><span class="count">12</span></a></li>
+        <li><a href="#" data-filter="Psychology"><span>Psychology</span><span class="count">7</span></a></li>
+        <li><a href="#" data-filter="AI"><span>AI</span><span class="count">10</span></a></li>
+        <li><a href="#" data-filter="Media Analysis"><span>Media Analysis</span><span class="count">9</span></a></li>
+        <li><a href="#" data-filter="Artefacts"><span>Artefacts</span><span class="count">3</span></a></li>
+        <li><a href="#" data-filter="Notes"><span>Notes</span><span class="count">2</span></a></li>
+      </ul>
+    </nav>
+
+    <nav class="nav-block" aria-label="Browse by year">
+      <h2 class="nav-label">Years</h2>
+      <ul class="nav-list nav-years" id="year-nav">
+        <li><a href="#year-2026"><span>2026</span><span class="count">6</span></a></li>
+        <li><a href="#year-2025"><span>2025</span><span class="count">24</span></a></li>
+        <li><a href="#year-2024"><span>2024</span><span class="count">8</span></a></li>
+        <li><a href="#year-2023"><span>2023</span><span class="count">5</span></a></li>
+      </ul>
+    </nav>
+
+    <nav class="nav-block" aria-label="Most read">
+      <h2 class="nav-label">Most read</h2>
+      <ol class="nav-list nav-popular">
+        <li><a href="/blog/theres-a-reasonable-chance.html"><span class="num">1</span><span>There&#x27;s a reasonable chance that you&#x27;re seriously running out of time</span></a></li>
+        <li><a href="/blog/someone-else-was-in-the-room.html"><span class="num">2</span><span>Someone else was in the room where it happened</span></a></li>
+        <li><a href="/blog/what-is-the-white-lotus-for.html"><span class="num">3</span><span>What is The White Lotus for?</span></a></li>
+        <li><a href="/blog/agi-isnt-for-happy-people.html"><span class="num">4</span><span>AGI isn&#x27;t for happy people</span></a></li>
+        <li><a href="/blog/the-things-you-dont-want-to-know.html"><span class="num">5</span><span>The things you don&#x27;t want to know about yourself</span></a></li>
+        <li><a href="/blog/how-to-learn-about-people.html"><span class="num">6</span><span>How to learn about people in art galleries and smoking areas</span></a></li>
+        <li><a href="/blog/she-said-i-want-something.html"><span class="num">7</span><span>She Said I Want Something That I Want</span></a></li>
+      </ol>
+    </nav>
+
+    <nav class="nav-block site-nav" aria-label="Site">
+      <h2 class="nav-label">Stefan Kelly</h2>
+      <ul class="nav-list">
+<li><a href="/">About</a></li>
+<li><a href="/worked-on.html">Things I have worked on</a></li>
+<li><a href="/working-on.html">Things I am working on</a></li>
+<li><a href="/artefacts.html">Artefacts</a></li>
+<li><a href="/experiments.html">Experiments</a></li>
+<li><a href="/blog.html" class="is-current">Blog</a></li>
+      </ul>
+    </nav>
+    <p class="sidebar-foot"><a href="https://alreadyhappened.xyz">alreadyhappened.xyz</a></p>
+  </div>
+</aside>
+
+<main class="main" id="main">
+  <header class="index-header">
+    <p class="eyebrow">Essays · 2023–2026</p>
+    <h1 class="index-title">Already Happened</h1>
+    <p class="index-deck">Behaviour, culture and technology. Longer essays on how people actually work, how media works on them, and what the next few decades do to both. Collected from <a href="https://alreadyhappened.xyz">my Substack</a>.</p>
+  </header>
+
+  <section class="featured" aria-label="Latest essay">
+    <h2 class="section-label">Latest</h2>
+    
+<a class="card card-hero is-square" href="/blog/desire-as-a-responsibility.html" data-category="Psychology" data-year="2026" data-search="desire as a responsibility so stay therrrrre, cause i&#x27;ll be comin&#x27; overrrrr psychology" style="--accent:#472c21">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!JFuM!,w_1200,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc9950f6-6c5a-48e4-8f86-19d50103e86b_736x694.jpeg" alt="" loading="eager"></span>
+  <span class="card-body">
+    <span class="eyebrow">Latest · Psychology</span>
+    <span class="card-title">Desire as a Responsibility</span>
+    <span class="card-sub">So stay therrrrre, Cause I&#x27;ll be comin&#x27; overrrrr</span>
+    <span class="card-meta"><time datetime="2026-08-29">29 August 2026</time><span class="dot">·</span>23 min read</span>
+  </span>
+</a>
   </section>
 
-  <div class="blog-layout">
-    <aside class="blog-sidebar">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="Philosophy">Philosophy</button>
-      <button class="filter-btn" data-filter="Psychology">Psychology</button>
-      <button class="filter-btn" data-filter="AI">AI</button>
-      <button class="filter-btn" data-filter="Media Analysis">Media Analysis</button>
-    </aside>
+  <section class="most-read" aria-label="Most read">
+    <h2 class="section-label">Most read</h2>
+    <div class="tile-grid">
+      
+<a class="card card-tile" href="/blog/theres-a-reasonable-chance.html" data-category="AI" data-year="2025" data-search="there&#x27;s a reasonable chance that you&#x27;re seriously running out of time who knows the real price of individualism? ai" style="--accent:#743a2c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!SPbO!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">There&#x27;s a reasonable chance that you&#x27;re seriously running out of time</span>
+    <span class="card-sub">who knows the real price of individualism?</span>
+    <span class="card-meta"><time datetime="2025-04-28">28 April 2025</time><span class="dot">·</span>15 min read</span>
+  </span>
+</a>
+<a class="card card-tile" href="/blog/someone-else-was-in-the-room.html" data-category="Philosophy" data-year="2024" data-search="someone else was in the room where it happened yo chat you seeing this shit? philosophy" style="--accent:#3c241c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!IAFz!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1751411d-f524-4dd1-a8a0-e14aeb781b5d_680x678.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Someone else was in the room where it happened</span>
+    <span class="card-sub">yo chat you seeing this shit?</span>
+    <span class="card-meta"><time datetime="2024-10-27">27 October 2024</time><span class="dot">·</span>27 min read</span>
+  </span>
+</a>
+<a class="card card-tile" href="/blog/what-is-the-white-lotus-for.html" data-category="Media Analysis" data-year="2025" data-search="what is the white lotus for? &#x27;c&#x27; = d x v x f &lt; r media analysis" style="--accent:#603a23">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!HTpD!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9869f050-d899-4ad5-8338-901a5a49ea3b_3600x1500.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">What is The White Lotus for?</span>
+    <span class="card-sub">&#x27;C&#x27; = D x V x F &lt; R</span>
+    <span class="card-meta"><time datetime="2025-04-08">8 April 2025</time><span class="dot">·</span>13 min read</span>
+  </span>
+</a>
+    </div>
+  </section>
 
-    <ul class="post-list" id="post-list">
+  <section class="archive" aria-label="All essays" id="archive">
+    <h2 class="section-label"><span>All essays</span><span class="result-count" id="result-count"></span></h2>
+    <div class="year" id="year-2026" data-year="2026">
+      <div class="year-label"><span>2026</span></div>
+      <div class="year-posts">
 
-      <li data-category="">
-        <a href="/blog/2026-has-already-happened.html">2026 has already happened</a>
-        <p class="post-summary">On where this blog is going from here</p>
-      </li>
+<a class="card card-row" href="/blog/desire-as-a-responsibility.html" data-category="Psychology" data-year="2026" data-search="desire as a responsibility so stay therrrrre, cause i&#x27;ll be comin&#x27; overrrrr psychology" style="--accent:#472c21">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!JFuM!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc9950f6-6c5a-48e4-8f86-19d50103e86b_736x694.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Psychology</span>
+    <span class="card-title">Desire as a Responsibility</span>
+    <span class="card-sub">So stay therrrrre, Cause I&#x27;ll be comin&#x27; overrrrr</span>
+    <span class="card-meta"><time datetime="2026-08-29">29 August 2026</time><span class="dot">·</span>23 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/synthetic-men-cant-jump.html" data-category="AI" data-year="2026" data-search="synthetic men can&#x27;t jump ai &amp; human creativity ai" style="--accent:#733934">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!6HqA!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83bc05b6-9d2d-413a-af2e-8ba5ec2e1622_800x450.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">Synthetic men can&#x27;t jump</span>
+    <span class="card-sub">ai &amp; human creativity</span>
+    <span class="card-meta"><time datetime="2026-08-17">17 August 2026</time><span class="dot">·</span>14 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/please-stop-using-that-mit-cognitive.html" data-category="Media Analysis" data-year="2026" data-search="please stop using that mit cognitive debt paper as evidence of something or is it cognitive atrophy? wait no, cognitive cost? wait, no media analysis" style="--accent:#042e8c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!YdeI!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65b3648d-1e81-4479-a112-64007f960418_1228x658.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">Please stop using that MIT Cognitive Debt paper as evidence of something</span>
+    <span class="card-sub">or is it cognitive atrophy? wait no, cognitive cost? wait, no</span>
+    <span class="card-meta"><time datetime="2026-07-31">31 July 2026</time><span class="dot">·</span>20 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/ghoststoriesjpg.html" data-category="Artefacts" data-year="2026" data-search="ghoststories.jpg  artefacts" style="--accent:#674224">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!fPId!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd10150e-bbd2-4d26-ba73-f59f63fefa4b_901x813.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Artefacts</span>
+    <span class="card-title">ghoststories.jpg</span>
+    
+    <span class="card-meta"><time datetime="2026-07-16">16 July 2026</time><span class="dot">·</span>1 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/you-best-start-believing-in-ghost.html" data-category="Philosophy" data-year="2026" data-search="you best start believing in ghost stories hey little train, we&#x27;re jumping on philosophy" style="--accent:#7c3414">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!GrDq!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc078025a-d014-449b-9d33-f63faae62ced_1329x761.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">You best start believing in ghost stories</span>
+    <span class="card-sub">hey little train, we&#x27;re jumping on</span>
+    <span class="card-meta"><time datetime="2026-07-15">15 July 2026</time><span class="dot">·</span>72 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/2026-has-already-happened.html" data-category="Notes" data-year="2026" data-search="2026 has already happened a highly self-indulgent note on blog direction and creativity notes" style="--accent:#044494">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!vmn8!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a5c01af-7d2a-4f48-85d0-0319d52c1b20_932x699.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Notes</span>
+    <span class="card-title">2026 has already happened</span>
+    <span class="card-sub">a highly self-indulgent note on blog direction and creativity</span>
+    <span class="card-meta"><time datetime="2026-01-11">11 January 2026</time><span class="dot">·</span>7 min read</span>
+  </span>
+</a>
+      </div>
+    </div>
+    <div class="year" id="year-2025" data-year="2025">
+      <div class="year-label"><span>2025</span></div>
+      <div class="year-posts">
 
-      <li data-category="Psychology">
-        <a href="/blog/on-groups-and-individuals.html">On Groups and Individuals</a>
-        <p class="post-summary">On behavioural science, policy, and what moves people</p>
-      </li>
+<a class="card card-row" href="/blog/on-groups-and-individuals.html" data-category="Psychology" data-year="2025" data-search="on groups and individuals this is and isn&#x27;t about behavioural science and policy psychology" style="--accent:#61222a">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!JJV8!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a36b8bf-3a29-43bb-816f-0d204f0e4871_1195x1024.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Psychology</span>
+    <span class="card-title">On Groups and Individuals</span>
+    <span class="card-sub">this is and isn&#x27;t about behavioural science and policy</span>
+    <span class="card-meta"><time datetime="2025-12-25">25 December 2025</time><span class="dot">·</span>16 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/everythings-going-exactly-as-expected.html" data-category="Psychology" data-year="2025" data-search="everything&#x27;s going exactly as expected look what you started, is this what you wanted? psychology" style="--accent:#602623">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!1ntW!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57fff082-125d-4fc9-9846-a02a4586daf3_1986x1264.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Psychology</span>
+    <span class="card-title">Everything&#x27;s going exactly as expected</span>
+    <span class="card-sub">Look what you started, is this what you wanted?</span>
+    <span class="card-meta"><time datetime="2025-12-10">10 December 2025</time><span class="dot">·</span>7 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/letithappenjpg.html" data-category="Artefacts" data-year="2025" data-search="letithappen.jpg it is almost time artefacts" style="--accent:#784404">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!GTef!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb533bda-99b4-4fe9-a1c2-a29d54ae40a1_693x945.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Artefacts</span>
+    <span class="card-title">letithappen.jpg</span>
+    <span class="card-sub">it is almost time</span>
+    <span class="card-meta"><time datetime="2025-11-13">13 November 2025</time><span class="dot">·</span>1 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/who-burned-down-the-shoreditch-cereal.html" data-category="Philosophy" data-year="2025" data-search="who burned down the shoreditch cereal café? my dear, what if this actually is how an algorithm feels from inside philosophy" style="--accent:#4e5127">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!jAAf!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fac40ad1e-c115-46a0-966d-f7c00933a70d_1440x1080.heic" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Who burned down the Shoreditch cereal café?</span>
+    <span class="card-sub">my dear, what if this actually is how an algorithm feels from inside</span>
+    <span class="card-meta"><time datetime="2025-10-27">27 October 2025</time><span class="dot">·</span>22 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/an-actually-good-psychology-reading-list.html" data-category="Psychology" data-year="2025" data-search="an actually good psychology reading list official already happened library pt.1 psychology" style="--accent:#816414">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!EEhy!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f638067-9e79-4923-bf31-fac53d1374ef_1600x856.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Psychology</span>
+    <span class="card-title">An Actually Good Psychology Reading List</span>
+    <span class="card-sub">official already happened library pt.1</span>
+    <span class="card-meta"><time datetime="2025-09-30">30 September 2025</time><span class="dot">·</span>13 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/if-its-on-tv.html" data-category="Media Analysis" data-year="2025" data-search="if it&#x27;s on tv, it&#x27;s a tv show and if it&#x27;s on your phone, it&#x27;s a tiktok media analysis" style="--accent:#2c4c6c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!s2-e!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11ca6758-105a-4959-b1ca-6e0e3d825f46_1038x511.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">If it&#x27;s on TV, it&#x27;s a TV show</span>
+    <span class="card-sub">and if it&#x27;s on your phone, it&#x27;s a Tiktok</span>
+    <span class="card-meta"><time datetime="2025-09-09">9 September 2025</time><span class="dot">·</span>19 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/how-to-move-two-goalposts.html" data-category="AI" data-year="2025" data-search="how to move two goalposts at the same time it helps if you don&#x27;t know what you&#x27;re trying to achieve ai" style="--accent:#235467">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!-9eX!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32feeb1d-5495-4b92-bbf2-278ac20d1ac5_1080x934.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">how to move two goalposts at the same time</span>
+    <span class="card-sub">it helps if you don&#x27;t know what you&#x27;re trying to achieve</span>
+    <span class="card-meta"><time datetime="2025-09-07">7 September 2025</time><span class="dot">·</span>10 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/give-it-a-name-and-make-it-real.html" data-category="Philosophy" data-year="2025" data-search="give it a name and make it real how to (un)fix something in time philosophy" style="--accent:#5c3c28">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!-f1T!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9f9cef4-d6d0-46ba-a8b3-05c82dd85b78_1484x1178.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Give it a name and make it real</span>
+    <span class="card-sub">how to (un)fix something in time</span>
+    <span class="card-meta"><time datetime="2025-09-01">1 September 2025</time><span class="dot">·</span>15 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/summerisoverjpg.html" data-category="Artefacts" data-year="2025" data-search="summerisover.jpg artefacts1, we&#x27;re bringing image essays back artefacts" style="--accent:#34230c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!mBFe!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa74641dd-4205-4150-ae1b-560d7507f9b9_680x514.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Artefacts</span>
+    <span class="card-title">summerisover.jpg</span>
+    <span class="card-sub">artefacts1, we&#x27;re bringing image essays back</span>
+    <span class="card-meta"><time datetime="2025-08-29">29 August 2025</time><span class="dot">·</span>1 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/it-would-be-so-unbelievably-easy.html" data-category="Notes" data-year="2025" data-search="it would be so unbelievably easy to solve london&#x27;s nightlife policy mess so let&#x27;s just make a bill and hand it to them notes" style="--accent:#1c641c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!wXQy!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4df47a12-aaf8-4b18-9006-9ce1a7d3cb7c_2560x1694.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Notes</span>
+    <span class="card-title">It would be so unbelievably easy to solve London&#x27;s nightlife policy mess</span>
+    <span class="card-sub">so let&#x27;s just make a bill and hand it to them</span>
+    <span class="card-meta"><time datetime="2025-08-27">27 August 2025</time><span class="dot">·</span>18 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/ai-agents-trust-value-complexity.html" data-category="AI" data-year="2025" data-search="ai agents have a trust-value-complexity problem screw it i&#x27;ll do it myself ai" style="--accent:#424242">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!LOGW!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05556ab0-a54c-4c9e-bd5c-fbd5fa051f03_1280x960.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">AI Agents have a trust-value-complexity problem</span>
+    <span class="card-sub">screw it i&#x27;ll do it myself</span>
+    <span class="card-meta"><time datetime="2025-08-20">20 August 2025</time><span class="dot">·</span>9 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/priced-in-collapse-of-conscientiousness.html" data-category="Media Analysis" data-year="2025" data-search="priced in: the &#x27;collapse&#x27; of conscientiousness people love a graph media analysis" style="--accent:#040c04">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!6-Jz!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708ffa1b-eaa5-4b38-a996-1c311dbfbcb9_1536x1024.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">Priced In: The &#x27;Collapse&#x27; of Conscientiousness</span>
+    <span class="card-sub">people love a graph</span>
+    <span class="card-meta"><time datetime="2025-08-10">10 August 2025</time><span class="dot">·</span>13 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/love-island-uk-s12.html" data-category="Media Analysis" data-year="2025" data-search="love island uk s12 e47 is a totally new kind of greek myth or artform, idk the difference at this point media analysis" style="--accent:#67490a">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!9B7R!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84ea258c-9204-4ded-8f3a-c63177b54f0f_1536x1024.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">Love Island UK S12 E47 is a totally new kind of Greek myth</span>
+    <span class="card-sub">or artform, idk the difference at this point</span>
+    <span class="card-meta"><time datetime="2025-07-30">30 July 2025</time><span class="dot">·</span>19 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/priced-in-self-sabotage.html" data-category="Media Analysis" data-year="2025" data-search="priced in: self-sabotage edition why do bad things keep happening to me media analysis" style="--accent:#664e1e">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!Q77s!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db711b2-3dd9-4118-8561-f325a25239cb_2048x2048.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">Priced In: Self-sabotage edition</span>
+    <span class="card-sub">why do bad things keep happening to me</span>
+    <span class="card-meta"><time datetime="2025-07-17">17 July 2025</time><span class="dot">·</span>13 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/priced-in-replication-and-replicants.html" data-category="Media Analysis" data-year="2025" data-search="priced in: replication and replicants behavioural science, ai lovers retreats, cognitive decline, agency media analysis" style="--accent:#3f443f">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!dsSP!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ae8012-cb31-4800-9ee6-0440a843c1ea_800x592.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">Priced In: Replication and Replicants</span>
+    <span class="card-sub">behavioural science, ai lovers retreats, cognitive decline, agency</span>
+    <span class="card-meta"><time datetime="2025-07-06">6 July 2025</time><span class="dot">·</span>10 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/romance-often-occurs-at-unsolved.html" data-category="Philosophy" data-year="2025" data-search="romance often occurs at unsolved equilibria get it while it&#x27;s hot philosophy" style="--accent:#710e11">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!G-OW!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6809450-c499-4b2e-9730-ab70c8f2433d_736x900.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Romance often occurs at unsolved equilibria</span>
+    <span class="card-sub">get it while it&#x27;s hot</span>
+    <span class="card-meta"><time datetime="2025-06-30">30 June 2025</time><span class="dot">·</span>6 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/cultural-moloch.html" data-category="Philosophy" data-year="2025" data-search="cultural moloch the speed depends on the destination philosophy" style="--accent:#6d3420">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!yESo!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca9893e3-382c-4a09-9e79-e28efe44aa3d_680x674.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Cultural Moloch</span>
+    <span class="card-sub">the speed depends on the destination</span>
+    <span class="card-meta"><time datetime="2025-06-16">16 June 2025</time><span class="dot">·</span>8 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/the-things-you-dont-want-to-know.html" data-category="AI" data-year="2025" data-search="the things you don&#x27;t want to know about yourself i met sam altman in the bathroom, he said everything was going to be ok ai" style="--accent:#623822">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!M0dM!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7b4a8c8-bc79-43bf-9c1d-6fbcb554184c_811x458.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">The things you don&#x27;t want to know about yourself</span>
+    <span class="card-sub">i met sam altman in the bathroom, he said everything was going to be ok</span>
+    <span class="card-meta"><time datetime="2025-05-28">28 May 2025</time><span class="dot">·</span>11 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/7-artists-making-good-ai-art-right.html" data-category="AI" data-year="2025" data-search="7 artists making good ai art right now also how to have a healthier feed ai" style="--accent:#986c3e">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb0cc641-9271-4ee1-b3dd-93624dd491be_756x465.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">7 Artists Making Good AI Art Right Now</span>
+    <span class="card-sub">also how to have a healthier feed</span>
+    <span class="card-meta"><time datetime="2025-05-14">14 May 2025</time><span class="dot">·</span>6 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/zucks-friendship-numbers.html" data-category="AI" data-year="2025" data-search="zuck&#x27;s friendship numbers don&#x27;t add up who&#x27;s really afraid of connection? ai" style="--accent:#424242">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!ybWk!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23a2ca80-cb0c-42fb-a702-fca57a88891d_956x461.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">Zuck&#x27;s friendship numbers don&#x27;t add up</span>
+    <span class="card-sub">who&#x27;s really afraid of connection?</span>
+    <span class="card-meta"><time datetime="2025-05-05">5 May 2025</time><span class="dot">·</span>8 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/theres-a-reasonable-chance.html" data-category="AI" data-year="2025" data-search="there&#x27;s a reasonable chance that you&#x27;re seriously running out of time who knows the real price of individualism? ai" style="--accent:#743a2c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!SPbO!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e4f334-f205-4150-9e01-dc8afa308a5a_643x435.gif" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">There&#x27;s a reasonable chance that you&#x27;re seriously running out of time</span>
+    <span class="card-sub">who knows the real price of individualism?</span>
+    <span class="card-meta"><time datetime="2025-04-28">28 April 2025</time><span class="dot">·</span>15 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/what-is-the-white-lotus-for.html" data-category="Media Analysis" data-year="2025" data-search="what is the white lotus for? &#x27;c&#x27; = d x v x f &lt; r media analysis" style="--accent:#603a23">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!HTpD!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9869f050-d899-4ad5-8338-901a5a49ea3b_3600x1500.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">What is The White Lotus for?</span>
+    <span class="card-sub">&#x27;C&#x27; = D x V x F &lt; R</span>
+    <span class="card-meta"><time datetime="2025-04-08">8 April 2025</time><span class="dot">·</span>13 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/on-violence-and-orderliness.html" data-category="Philosophy" data-year="2025" data-search="on violence and orderliness only one is a support system philosophy" style="--accent:#80582c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!TG37!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16bdcf4d-be38-4986-9f07-04ef8ee5c09a_542x680.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">On Violence and Orderliness</span>
+    <span class="card-sub">only one is a support system</span>
+    <span class="card-meta"><time datetime="2025-02-18">18 February 2025</time><span class="dot">·</span>8 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/agi-isnt-for-happy-people.html" data-category="AI" data-year="2025" data-search="agi isn&#x27;t for happy people wouldn&#x27;t you rather be on the be/acch? ai" style="--accent:#8f6244">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!XjcM!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa60c52c1-f33a-4f08-bc3b-9ca7973bd1c2_900x720.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">AGI isn&#x27;t for happy people</span>
+    <span class="card-sub">Wouldn&#x27;t you rather be on the be/acch?</span>
+    <span class="card-meta"><time datetime="2025-01-22">22 January 2025</time><span class="dot">·</span>14 min read</span>
+  </span>
+</a>
+      </div>
+    </div>
+    <div class="year" id="year-2024" data-year="2024">
+      <div class="year-label"><span>2024</span></div>
+      <div class="year-posts">
 
-      <li data-category="Psychology">
-        <a href="/blog/everythings-going-exactly-as-expected.html">Everything's going exactly as expected</a>
-        <p class="post-summary">Mo Salah and manufacturing your own failures</p>
-      </li>
+<a class="card card-row" href="/blog/why-did-slavoj-zizek-write-copy-for.html" data-category="Media Analysis" data-year="2024" data-search="why did slavoj zizek write copy for abercrombie &amp; fitch in 2003? the wrods thmesevles dno&#x27;t mtaetr aynmroe media analysis" style="--accent:#634e24">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!VRyF!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b361449-e61d-4b4e-899a-b688ca7486c3_682x437.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">Why did Slavoj Zizek write copy for Abercrombie &amp; Fitch in 2003?</span>
+    <span class="card-sub">the wrods thmesevles dno&#x27;t mtaetr aynmroe</span>
+    <span class="card-meta"><time datetime="2024-12-21">21 December 2024</time><span class="dot">·</span>10 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/someone-else-was-in-the-room.html" data-category="Philosophy" data-year="2024" data-search="someone else was in the room where it happened yo chat you seeing this shit? philosophy" style="--accent:#3c241c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!IAFz!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1751411d-f524-4dd1-a8a0-e14aeb781b5d_680x678.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Someone else was in the room where it happened</span>
+    <span class="card-sub">yo chat you seeing this shit?</span>
+    <span class="card-meta"><time datetime="2024-10-27">27 October 2024</time><span class="dot">·</span>27 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/the-semiotics-of-spiking-someones.html" data-category="Psychology" data-year="2024" data-search="the semiotics of spiking someone&#x27;s drink what nudges can tell you about you psychology" style="--accent:#342404">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!Y0SW!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95f0f42c-bc47-4ec3-88c9-e7ceee424d0a_1536x2048.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Psychology</span>
+    <span class="card-title">The semiotics of spiking someone&#x27;s drink</span>
+    <span class="card-sub">what nudges can tell you about you</span>
+    <span class="card-meta"><time datetime="2024-09-17">17 September 2024</time><span class="dot">·</span>10 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/your-dichotomy-between-real-and-fake.html" data-category="Philosophy" data-year="2024" data-search="your dichotomy between real and fake is wrong a brief note on ai&#x27;s reflection philosophy" style="--accent:#1d140c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!CpMI!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc27a3b28-e31b-4b9a-9fdd-01d8892ecae1_558x494.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Your dichotomy between real and fake is wrong</span>
+    <span class="card-sub">a brief note on AI&#x27;s reflection</span>
+    <span class="card-meta"><time datetime="2024-09-08">8 September 2024</time><span class="dot">·</span>4 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/how-to-learn-about-people.html" data-category="Philosophy" data-year="2024" data-search="how to learn about people in art galleries and smoking areas both are a matter of life and death philosophy" style="--accent:#837032">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!uLDm!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F831ac400-a4cd-48cb-a796-c0244feb4804_1200x675.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">How to learn about people in art galleries and smoking areas</span>
+    <span class="card-sub">both are a matter of life and death</span>
+    <span class="card-meta"><time datetime="2024-06-19">19 June 2024</time><span class="dot">·</span>49 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/she-said-i-want-something.html" data-category="Philosophy" data-year="2024" data-search="she said i want something that i want ceci n&#x27;est pas une &#x27;hangout epidemic&#x27; philosophy" style="--accent:#65531f">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!h_At!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea3a99fa-055c-4254-b72a-a5eccb3a0e77_1080x1175.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">She Said I Want Something That I Want</span>
+    <span class="card-sub">ceci n&#x27;est pas une &#x27;hangout epidemic&#x27;</span>
+    <span class="card-meta"><time datetime="2024-03-05">5 March 2024</time><span class="dot">·</span>45 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/culture-is-a-system.html" data-category="Philosophy" data-year="2024" data-search="culture is a system and the purpose of a system is what it does philosophy" style="--accent:#63371c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!oosC!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F571b61ff-8e39-439a-ba85-1d9247f6c402_1000x544.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">Culture is a System</span>
+    <span class="card-sub">And the purpose of a system is what it does</span>
+    <span class="card-meta"><time datetime="2024-01-31">31 January 2024</time><span class="dot">·</span>35 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/the-status-quo-is-dead-long-live.html" data-category="Philosophy" data-year="2024" data-search="the status quo is dead, long live the status quo why technology has the power to change you before you change it philosophy" style="--accent:#7f111d">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!WxQk!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67227cb6-bb79-4aae-9e41-15ea53eecaa0_1022x800.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Philosophy</span>
+    <span class="card-title">The Status Quo is Dead, Long Live The Status Quo</span>
+    <span class="card-sub">Why technology has the power to change you before you change it</span>
+    <span class="card-meta"><time datetime="2024-01-03">3 January 2024</time><span class="dot">·</span>8 min read</span>
+  </span>
+</a>
+      </div>
+    </div>
+    <div class="year" id="year-2023" data-year="2023">
+      <div class="year-label"><span>2023</span></div>
+      <div class="year-posts">
 
-      <li data-category="">
-        <a href="/blog/letithappenjpg.html">letithappen.jpg</a>
-        <p class="post-summary">It is almost time</p>
-      </li>
+<a class="card card-row" href="/blog/inertia-with-a-capital-i.html" data-category="Psychology" data-year="2023" data-search="inertia with a capital &#x27;i&#x27; behavioural science and individualism psychology" style="--accent:#5c1c0d">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!0aJs!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4d1b88-1bc7-4c28-9d05-86e03e3e4f57_732x600.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Psychology</span>
+    <span class="card-title">Inertia with a capital &#x27;I&#x27;</span>
+    <span class="card-sub">Behavioural science and individualism</span>
+    <span class="card-meta"><time datetime="2023-12-31">31 December 2023</time><span class="dot">·</span>7 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/the-for-you-everything.html" data-category="Media Analysis" data-year="2023" data-search="the &#x27;for you&#x27; everything economics and individualism media analysis" style="--accent:#134380">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!7f2p!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc5e4baf-675c-485f-80ea-490d10da6da8_1057x628.png" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Media Analysis</span>
+    <span class="card-title">The &#x27;For You&#x27; Everything</span>
+    <span class="card-sub">Economics and individualism</span>
+    <span class="card-meta"><time datetime="2023-12-29">29 December 2023</time><span class="dot">·</span>8 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/youre-even-more-on-your-own-from.html" data-category="AI" data-year="2023" data-search="you’re (even more) on your own from here technology and individualism ai" style="--accent:#74240c">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!GxvI!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcaf30d3a-e487-416d-b5f3-290ae6cad847_1456x984.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">You’re (even more) on your own from here</span>
+    <span class="card-sub">Technology and individualism</span>
+    <span class="card-meta"><time datetime="2023-12-27">27 December 2023</time><span class="dot">·</span>8 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/what-corecore-was-actually-about.html" data-category="Psychology" data-year="2023" data-search="what #corecore was actually about aka &#x27;why weirdness and powerlessness are correlated&#x27; psychology" style="--accent:#1c1c68">
+  <span class="card-media"><img src="https://substack-post-media.s3.amazonaws.com/public/images/cc21aae6-2be8-46c9-8833-aa74f478920a_828x860.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">Psychology</span>
+    <span class="card-title">What #corecore was actually about</span>
+    <span class="card-sub">aka &#x27;why weirdness and powerlessness are correlated&#x27;</span>
+    <span class="card-meta"><time datetime="2023-12-06">6 December 2023</time><span class="dot">·</span>15 min read</span>
+  </span>
+</a>
+<a class="card card-row" href="/blog/why-making-up-for-lost-time-is-hard.html" data-category="AI" data-year="2023" data-search="why making up for lost time is hard  ai" style="--accent:#244c34">
+  <span class="card-media"><img src="https://substackcdn.com/image/fetch/$s_!YS0c!,w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5078ae52-4883-48f4-963a-9f545f9ab643_720x720.jpeg" alt="" loading="lazy"></span>
+  <span class="card-body">
+    <span class="eyebrow">AI</span>
+    <span class="card-title">Why Making Up for Lost Time is Hard</span>
+    
+    <span class="card-meta"><time datetime="2023-11-28">28 November 2023</time><span class="dot">·</span>8 min read</span>
+  </span>
+</a>
+      </div>
+    </div>
+    <p class="empty" id="empty" hidden>Nothing matches that. Try another word.</p>
+  </section>
 
-      <li data-category="Philosophy">
-        <a href="/blog/who-burned-down-the-shoreditch-cereal.html">Who burned down the Shoreditch cereal café?</a>
-        <p class="post-summary">Donny's kebabs, Tikal, and how algorithms feel inside</p>
-      </li>
-
-      <li data-category="Psychology">
-        <a href="/blog/an-actually-good-psychology-reading-list.html">An Actually Good Psychology Reading List</a>
-        <p class="post-summary">Everything interesting I've ever borrowed from someone else</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/if-its-on-tv.html">If it's on TV, it's a TV show</a>
-        <p class="post-summary">Gary's Economics and why the rebels get absorbed</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/how-to-move-two-goalposts.html">How to move two goalposts at the same time</a>
-        <p class="post-summary">AI scepticism as unconscious identity protection</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/give-it-a-name-and-make-it-real.html">Give it a name and make it real</a>
-        <p class="post-summary">On labelling yourself and what that actually costs</p>
-      </li>
-
-      <li data-category="">
-        <a href="/blog/summerisoverjpg.html">summerisover.jpg</a>
-        <p class="post-summary">Artefacts: image essays are back</p>
-      </li>
-
-      <li data-category="">
-        <a href="/blog/it-would-be-so-unbelievably-easy.html">It would be so unbelievably easy to solve London's nightlife policy mess</a>
-        <p class="post-summary">London nightlife is easy to fix, we just won't</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/ai-agents-trust-value-complexity.html">AI Agents have a trust-value-complexity problem</a>
-        <p class="post-summary">Nobody's letting AI do things for them yet, and why</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/priced-in-collapse-of-conscientiousness.html">Priced In: The 'Collapse' of Conscientiousness</a>
-        <p class="post-summary">The FT's conscientiousness graph and what it actually means</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/love-island-uk-s12.html">Love Island UK S12 E47 is a totally new kind of Greek myth</a>
-        <p class="post-summary">Harry, nihilism, and the first postmodern tragic hero</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/priced-in-self-sabotage.html">Priced In: Self-sabotage edition</a>
-        <p class="post-summary">You came here to be told not to change</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/priced-in-replication-and-replicants.html">Priced In: Replication and Replicants</a>
-        <p class="post-summary">Bad science, AI lover retreats, and cognitive debt</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/romance-often-occurs-at-unsolved.html">Romance often occurs at unsolved equilibria</a>
-        <p class="post-summary">On adventure, solved games, and zero uncertainty</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/cultural-moloch.html">Cultural Moloch</a>
-        <p class="post-summary">Culture is a system and you can't just leave</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/the-things-you-dont-want-to-know.html">The things you don't want to know about yourself</a>
-        <p class="post-summary">Sycophancy, AI messiahs, and things you'd rather not hear</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/7-artists-making-good-ai-art-right.html">7 Artists Making Good AI Art Right Now</a>
-        <p class="post-summary">Seven artists using AI to make genuinely good things</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/zucks-friendship-numbers.html">Zuck's friendship numbers don't add up</a>
-        <p class="post-summary">On Zuckerberg's friendship data and what it actually shows</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/theres-a-reasonable-chance.html">There's a reasonable chance that you're seriously running out of time</a>
-        <p class="post-summary">On individualism and whether you're running out of time</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/what-is-the-white-lotus-for.html">What is The White Lotus for?</a>
-        <p class="post-summary">Using change management theory on prestige television</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/on-violence-and-orderliness.html">On Violence and Orderliness</a>
-        <p class="post-summary">On Flaubert, Rollo May, and creativity</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/agi-isnt-for-happy-people.html">AGI isn't for happy people</a>
-        <p class="post-summary">Why only unhappy people are prepared for what's coming</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/why-did-slavoj-zizek-write-copy-for.html">Why did Slavoj Žižek write copy for Abercrombie &amp; Fitch?</a>
-        <p class="post-summary">When form beats content, the words don't matter</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/someone-else-was-in-the-room.html">Someone else was in the room where it happened</a>
-        <p class="post-summary">On the other, resentment, and the need to be seen</p>
-      </li>
-
-      <li data-category="Psychology">
-        <a href="/blog/the-semiotics-of-spiking-someones.html">The semiotics of spiking someone's drink</a>
-        <p class="post-summary">Guilt vs shame and why the spiking poster is wrong</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/your-dichotomy-between-real-and-fake.html">Your dichotomy between real and fake is wrong</a>
-        <p class="post-summary">On AI, universities, and what was already being simulated</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/how-to-learn-about-people.html">How to learn about people in art galleries and smoking areas</a>
-        <p class="post-summary">Art galleries, smoking areas, and what power actually is</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/she-said-i-want-something.html">She Said I Want Something That I Want</a>
-        <p class="post-summary">On desire, simulation, and not knowing what you want</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/culture-is-a-system.html">Culture is a System</a>
-        <p class="post-summary">The long version of why cultural stagnation is our fault</p>
-      </li>
-
-      <li data-category="Philosophy">
-        <a href="/blog/the-status-quo-is-dead-long-live.html">The Status Quo is Dead, Long Live The Status Quo</a>
-        <p class="post-summary">Technology enables individualism and reinforces power at once</p>
-      </li>
-
-      <li data-category="Psychology">
-        <a href="/blog/inertia-with-a-capital-i.html">Inertia with a Capital I</a>
-        <p class="post-summary">On generational misattribution and why nothing changes</p>
-      </li>
-
-      <li data-category="Media Analysis">
-        <a href="/blog/the-for-you-everything.html">The 'For You' Everything</a>
-        <p class="post-summary">Economics, individualism, and the for you page</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/youre-even-more-on-your-own-from.html">You're (even more) on your own from here</a>
-        <p class="post-summary">Technology creates generations, and you'll face AI alone</p>
-      </li>
-
-      <li data-category="Psychology">
-        <a href="/blog/what-corecore-was-actually-about.html">What #corecore was actually about</a>
-        <p class="post-summary">Corecore was about powerlessness and the uncanny</p>
-      </li>
-
-      <li data-category="AI">
-        <a href="/blog/why-making-up-for-lost-time-is-hard.html">Why Making Up for Lost Time is Hard</a>
-        <p class="post-summary">Exponential growth bias and the AI blind spot</p>
-      </li>
-
-    </ul>
-  </div>
-
-  <script>
-    document.querySelectorAll('.filter-btn').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        document.querySelectorAll('.filter-btn').forEach(function(b) {
-          b.classList.remove('active');
-        });
-        this.classList.add('active');
-        var filter = this.dataset.filter;
-        document.querySelectorAll('#post-list li').forEach(function(li) {
-          if (filter === 'all' || li.dataset.category === filter) {
-            li.style.display = '';
-          } else {
-            li.style.display = 'none';
-          }
-        });
-      });
-    });
-  </script>
+  <footer class="main-foot">
+    <p>Every essay here was first published on <a href="https://alreadyhappened.xyz">Already Happened</a>. This is the reading copy.</p>
+  </footer>
+</main>
+</div>
+<div class="lightbox" hidden><img alt=""><button class="lightbox-close" aria-label="Close">×</button></div>
 </body>
 </html>
