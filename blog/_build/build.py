@@ -701,7 +701,6 @@ def build_index(posts):
   <header class="index-header">
     <p class="eyebrow">Essays · {min(year_counts)}–{max(year_counts)}</p>
     <h1 class="index-title">{esc(SITE_NAME)}</h1>
-    <p class="index-deck">Behaviour, culture and technology. Longer essays on how people actually work, how media works on them, and what the next few decades do to both. Collected from <a href="{SUBSTACK}">my Substack</a>.</p>
   </header>
 
   <section class="featured" aria-label="Latest essay">
@@ -725,11 +724,11 @@ def build_index(posts):
             if p["year"] == y:
                 body.append(card_html(p, "row"))
         body.append("\n      </div>\n    </div>\n")
-    body.append("""    <p class="empty" id="empty" hidden>Nothing matches that. Try another word.</p>
+    body.append("""    <p class="empty" id="empty" hidden>No essays match.</p>
   </section>
 
   <footer class="main-foot">
-    <p>Every essay here was first published on <a href=\"""" + SUBSTACK + """\">Already Happened</a>. This is the reading copy.</p>
+    <p><a href=\"""" + SUBSTACK + """\">alreadyhappened.xyz</a></p>
   </footer>
 </main>
 """)
@@ -802,7 +801,7 @@ def build_post(post, posts, idx, slug_to_file):
 {content}
     </div>
     <footer class="essay-footer">
-      <p class="colophon">First published on <a href="{esc(post["canonical"])}">Already Happened</a>, {post["date"]}. <a href="{esc(post["canonical"])}#comments">Comments live there.</a></p>
+      <p class="colophon"><a href="{esc(post["canonical"])}">Originally published on Already Happened →</a></p>
       {adjacent}
       <section class="related" aria-label="Related essays">
         <h2 class="section-label">More in {esc(post["category"])}</h2>
