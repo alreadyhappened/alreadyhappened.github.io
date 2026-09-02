@@ -579,8 +579,8 @@ def sidebar_html(mode, posts, post=None, toc=None, cat_counts=None, year_counts=
     if mode == "index":
         parts.append(f"""
     <label class="search">
-      <span class="visually-hidden">Search essays</span>
-      <input type="search" id="search" placeholder="Search essays" autocomplete="off">
+      <span class="visually-hidden">Search for a topic or idea</span>
+      <input type="search" id="search" placeholder="Search for a topic or idea" autocomplete="off">
       <kbd>/</kbd>
     </label>
 
