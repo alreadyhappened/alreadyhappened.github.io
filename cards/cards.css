@@ -1,0 +1,376 @@
+/* Virtual soccer card collection — a white room with nothing in it but cards. */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-w: clamp(200px, min(74vw, 40vh), 360px);
+  --card-h: calc(var(--card-w) * 1.4);
+  --gap: clamp(28px, 7vmin, 70px);
+  --ink: 20, 22, 34;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  overscroll-behavior: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ---------------------------------------------------------------- the rail */
+
+.deck {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  padding: 0 calc(50vw - var(--card-w) / 2);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  outline: none;
+  touch-action: pan-x;
+}
+
+.deck::-webkit-scrollbar {
+  display: none;
+}
+
+.deck.is-dragging {
+  scroll-snap-type: none;
+  cursor: grabbing;
+}
+
+/* -------------------------------------------------------------- each slide */
+
+.slide {
+  flex: 0 0 var(--card-w);
+  height: var(--card-h);
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  perspective: 1500px;
+  perspective-origin: 50% 50%;
+  position: relative;
+}
+
+.stage {
+  --tx: 0;
+  --ty: 0;
+  --mag: 0;
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.card {
+  --holo: 0.22;
+  --sparkle: 0;
+  --glare: 0.22;
+  --px: 50%;
+  --py: 50%;
+  position: absolute;
+  inset: 0;
+  border-radius: calc(var(--card-w) * 0.052);
+  transform-style: preserve-3d;
+  transform: rotateX(calc(var(--ty) * 9deg)) rotateY(calc(var(--tx) * 11deg));
+  transition: box-shadow 400ms ease;
+  cursor: pointer;
+  will-change: transform;
+  box-shadow:
+    0 1px 2px rgba(var(--ink), 0.04),
+    0 6px 14px rgba(var(--ink), 0.05),
+    0 18px 40px rgba(var(--ink), 0.06);
+}
+
+.slide.is-active .card {
+  box-shadow:
+    0 2px 4px rgba(var(--ink), 0.07),
+    0 14px 32px rgba(var(--ink), 0.11),
+    0 46px 90px rgba(var(--ink), 0.14);
+}
+
+.card.is-leaving {
+  transition: transform 520ms cubic-bezier(0.4, 0, 0.9, 0.3), opacity 520ms ease;
+  transform: translateY(-125vh) rotate(-11deg) scale(0.82);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ------------------------------------------------------------- the surface */
+
+.face {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  background: #f4f5f7;
+  transform: translateZ(0.01px);
+}
+
+.art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.015) translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* thin bevel so the card reads as an object, not a photo */
+.bevel {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4),
+    inset 0 1px 1px rgba(255, 255, 255, 0.55),
+    inset 0 0 22px rgba(var(--ink), 0.16);
+}
+
+/* rainbow foil, only visible as the card turns */
+.holo {
+  position: absolute;
+  inset: -30%;
+  pointer-events: none;
+  opacity: calc(var(--holo) * (0.22 + 0.78 * var(--mag)));
+  mix-blend-mode: color-dodge;
+  transition: opacity 200ms ease;
+  transform: translate3d(calc(var(--tx) * -7%), calc(var(--ty) * -7%), 0);
+  background-image:
+    repeating-linear-gradient(
+      110deg,
+      rgba(255, 119, 115, 0.55) 4%,
+      rgba(255, 237, 95, 0.5) 10%,
+      rgba(168, 255, 95, 0.5) 16%,
+      rgba(131, 255, 247, 0.5) 22%,
+      rgba(120, 148, 255, 0.5) 28%,
+      rgba(216, 117, 255, 0.55) 34%,
+      rgba(255, 119, 115, 0.55) 40%
+    ),
+    radial-gradient(
+      farthest-corner circle at calc(50% + var(--tx) * 40%) calc(50% + var(--ty) * 40%),
+      rgba(255, 255, 255, 0.42),
+      rgba(255, 255, 255, 0) 46%
+    );
+  background-blend-mode: overlay;
+  filter: saturate(1.25) contrast(1.02);
+}
+
+/* fine glitter for the better cards */
+.sparkle {
+  position: absolute;
+  inset: -20%;
+  pointer-events: none;
+  opacity: calc(var(--sparkle) * var(--mag));
+  mix-blend-mode: color-dodge;
+  transition: opacity 200ms ease;
+  transform: translate3d(calc(var(--tx) * -12%), calc(var(--ty) * -12%), 0);
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.9) 0.6px, transparent 0.9px),
+    radial-gradient(rgba(255, 255, 255, 0.55) 0.5px, transparent 0.8px);
+  background-size: 13px 13px, 23px 23px;
+  background-position: 0 0, 6px 9px;
+}
+
+/* the moving highlight */
+.glare {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+  background: radial-gradient(
+    farthest-corner circle at var(--px) var(--py),
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.35) 18%,
+    rgba(255, 255, 255, 0) 46%
+  );
+  opacity: calc(var(--glare) * 2 * (0.2 + 0.8 * var(--mag)));
+  transition: opacity 200ms ease;
+}
+
+/* ----------------------------------------------------------- floor contact */
+
+.shadow {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--card-h) * -0.075);
+  width: 74%;
+  height: calc(var(--card-h) * 0.06);
+  border-radius: 50%;
+  transform: translate3d(calc(-50% + var(--tx) * 9%), 0, 0) scale(var(--shadow-s, 1));
+  background: radial-gradient(
+    ellipse at center,
+    rgba(var(--ink), 0.3),
+    rgba(var(--ink), 0) 70%
+  );
+  filter: blur(9px);
+  pointer-events: none;
+}
+
+/* ----------------------------------------------------------------- the pl */
+
+.add {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(20px, env(safe-area-inset-bottom));
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: rgba(var(--ink), 0.34);
+  cursor: pointer;
+  transition: color 220ms ease, transform 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 40;
+}
+
+.add svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+}
+
+.add:hover,
+.add:focus-visible {
+  color: rgba(var(--ink), 0.72);
+  outline: none;
+  transform: scale(1.12);
+}
+
+.add.is-open {
+  transform: rotate(45deg);
+  color: rgba(var(--ink), 0.72);
+}
+
+/* ------------------------------------------------------------- paste field */
+
+.sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(9px) saturate(1.05);
+  -webkit-backdrop-filter: blur(9px) saturate(1.05);
+  animation: fade 240ms ease both;
+}
+
+.sheet[hidden] {
+  display: none;
+}
+
+.sheet.is-closing {
+  animation: fade 180ms ease both reverse;
+}
+
+.sheet__box {
+  position: relative;
+  width: min(460px, 84vw);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow:
+    0 1px 2px rgba(var(--ink), 0.06),
+    0 12px 30px rgba(var(--ink), 0.1),
+    0 40px 80px rgba(var(--ink), 0.12);
+  animation: rise 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.sheet__box.is-wrong {
+  animation: wrong 420ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.sheet__input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font: 400 0.95rem/1.5 "Times New Roman", Times, serif;
+  color: rgba(var(--ink), 0.85);
+  padding: 1.05rem 2.6rem 1.05rem 1.2rem;
+  border-radius: inherit;
+  caret-color: rgba(var(--ink), 0.6);
+}
+
+.sheet__pulse {
+  position: absolute;
+  right: 1.1rem;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  border-radius: 50%;
+  border: 1.4px solid rgba(var(--ink), 0.16);
+  border-top-color: rgba(var(--ink), 0.55);
+  animation: spin 720ms linear infinite;
+}
+
+.sheet__pulse[hidden] {
+  display: none;
+}
+
+/* --------------------------------------------------------------- keyframes */
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes wrong {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(4px); }
+  30%, 50%, 70% { transform: translateX(-7px); }
+  40%, 60% { transform: translateX(7px); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes deal {
+  from { opacity: 0; transform: translateY(26px) scale(0.94); }
+  to { opacity: 1; transform: none; }
+}
+
+.slide.is-new .stage {
+  animation: deal 620ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide.is-new .stage,
+  .sheet,
+  .sheet__box {
+    animation: none;
+  }
+  .deck {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cards</title>
+<meta name="theme-color" content="#ffffff">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="/cards/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/cards/icon.svg">
+<link rel="icon" href="/cards/icon.svg">
+<link rel="stylesheet" href="cards.css">
+</head>
+<body>
+  <main class="deck" id="deck" tabindex="-1"></main>
+
+  <button class="add" id="add" type="button" aria-label="Add">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5v13M5.5 12h13"/></svg>
+  </button>
+
+  <div class="sheet" id="sheet" hidden>
+    <form class="sheet__box" id="add-form" autocomplete="off" aria-label="Add">
+      <input class="sheet__input" id="url-input" type="text" inputmode="url"
+             spellcheck="false" enterkeyhint="go" aria-label="Link">
+      <span class="sheet__pulse" id="pulse" hidden></span>
+    </form>
+  </div>
+
+  <script src="cards.js"></script>
+</body>
+</html>
