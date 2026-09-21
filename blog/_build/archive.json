@@ -1,5 +1,937 @@
 [
  {
+  "id": 215511793,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "dangerously_skip_permissions.jpg",
+  "social_title": "dangerously_skip_permissions.jpg",
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "dangerously_skip_permissionsjpg",
+  "post_date": "2026-09-13T16:07:05.690Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/dangerously_skip_permissionsjpg",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 18
+  },
+  "restacks": 3,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "you can go on dreaming",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!Zo5n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa981b97b-c345-4402-aa8e-50e9155796da_1200x675.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 215511793,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "you can go on dreaming",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "",
+  "wordcount": 5,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [
+   {
+    "id": "fea09388-7def-4237-a840-390138d1c647",
+    "publication_id": 1470107,
+    "name": "Media Analysis",
+    "slug": "media",
+    "hidden": false
+   }
+  ],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     93,
+     130,
+     37
+    ],
+    "population": 127
+   },
+   "DarkVibrant": {
+    "rgb": [
+     28,
+     72,
+     101
+    ],
+    "population": 105
+   },
+   "LightVibrant": {
+    "rgb": [
+     196.24311377245508,
+     225.62155688622755,
+     151.77844311377245
+    ],
+    "population": 0
+   },
+   "Muted": {
+    "rgb": [
+     85.20359281437122,
+     119.1017964071856,
+     33.89820359281439
+    ],
+    "population": 0
+   },
+   "DarkMuted": {
+    "rgb": [
+     52,
+     76,
+     93
+    ],
+    "population": 441
+   },
+   "LightMuted": {
+    "rgb": [
+     85.20359281437123,
+     119.10179640718563,
+     33.89820359281436
+    ],
+    "population": 0
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 18,
+  "comment_count": 4,
+  "child_comment_count": 2,
+  "audio_items": [
+   {
+    "post_id": 215511793,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/215511793/tts/7184d005-9a8f-4dd2-8068-75a191940e8a/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 215378894,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "There\u2019s something alive down there",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "theres-something-alive-down-there",
+  "post_date": "2026-09-12T15:32:07.308Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/theres-something-alive-down-there",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 9
+  },
+  "restacks": 3,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "platonic space, the unconscious, hemispheric asymmetry",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!d9Ac!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c876359-778a-4009-a595-e152a17a7a1c_1452x532.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 215378894,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "platonic space, the unconscious, hemispheric asymmetry",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "I remember Marc Andreessen causing a storm a few months ago when he claimed to engage in zero introspection. When pushed on this, he responded that his philosophy is instead \u2018Move forward. Go.\u2019 Outward expansion only.",
+  "wordcount": 3612,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [
+   {
+    "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+    "publication_id": 1470107,
+    "name": "Psychology",
+    "slug": "psychology",
+    "hidden": false
+   }
+  ],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     36.95652173913037,
+     184.78260869565216,
+     218.04347826086962
+    ],
+    "population": 0
+   },
+   "DarkVibrant": {
+    "rgb": [
+     19.217391304347796,
+     96.08695652173911,
+     113.38260869565221
+    ],
+    "population": 0
+   },
+   "LightVibrant": {
+    "rgb": [
+     196,
+     236,
+     245
+    ],
+    "population": 5
+   },
+   "Muted": {
+    "rgb": [
+     132,
+     132,
+     132
+    ],
+    "population": 83
+   },
+   "DarkMuted": {
+    "rgb": [
+     86,
+     86,
+     86
+    ],
+    "population": 30
+   },
+   "LightMuted": {
+    "rgb": [
+     188,
+     187,
+     188
+    ],
+    "population": 106
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 9,
+  "comment_count": 3,
+  "child_comment_count": 2,
+  "audio_items": [
+   {
+    "post_id": 215378894,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/215378894/tts/cc0d5d64-f360-46dc-92da-bc531af4bd24/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 212753563,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "Hyper-hypotheticals in Psychological Research",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "hyper-hypotheticals-in-psychological",
+  "post_date": "2026-09-11T17:00:54.126Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/hyper-hypotheticals-in-psychological",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 12
+  },
+  "restacks": 1,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "a real m\u00e9connaissance man",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!GvWR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd99897c7-1e4f-462b-b84a-f36fd1575da4_1157x1359.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 212753563,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "a real m\u00e9connaissance man",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "I. When people working at frontier labs get asked questions like \u2018why is developing artificial intelligence so important and worth the associated risks?\u201d, the most convincing response will be that a sufficiently powerful model will revolutionise science and accelerate research, resulting in the solving of all of our problems.",
+  "wordcount": 8078,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [
+   {
+    "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+    "publication_id": 1470107,
+    "name": "Psychology",
+    "slug": "psychology",
+    "hidden": false
+   }
+  ],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     56,
+     116,
+     222
+    ],
+    "population": 18
+   },
+   "DarkVibrant": {
+    "rgb": [
+     32,
+     67,
+     71
+    ],
+    "population": 186
+   },
+   "LightVibrant": {
+    "rgb": [
+     132,
+     180,
+     250
+    ],
+    "population": 169
+   },
+   "Muted": {
+    "rgb": [
+     147,
+     119,
+     81
+    ],
+    "population": 128
+   },
+   "DarkMuted": {
+    "rgb": [
+     66,
+     117,
+     110
+    ],
+    "population": 18
+   },
+   "LightMuted": {
+    "rgb": [
+     205,
+     176,
+     210
+    ],
+    "population": 5
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 12,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+   {
+    "post_id": 212753563,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/212753563/tts/3153b223-973a-4914-b53f-925ea6ba4c23/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 213793994,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "AGI and the Infinite, Part I",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "agi-and-the-infinite-part-i",
+  "post_date": "2026-09-02T01:39:25.106Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/agi-and-the-infinite-part-i",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 10
+  },
+  "restacks": 1,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "somewhere between prologue and introduction",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!VeIa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F774c2ca4-4f65-4244-ab89-b52a71965df7_2544x1904.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 213793994,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "somewhere between prologue and introduction",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "hello, been doing a lot of reading this year on notions of the transcendent, platonic space, ontology, identity, consciousness, and artificial intelligence. i got a lot of it out of my system with this essay.",
+  "wordcount": 2983,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     220,
+     140,
+     36
+    ],
+    "population": 20
+   },
+   "DarkVibrant": {
+    "rgb": [
+     117,
+     71,
+     44
+    ],
+    "population": 24
+   },
+   "LightVibrant": {
+    "rgb": [
+     218,
+     180,
+     131
+    ],
+    "population": 458
+   },
+   "Muted": {
+    "rgb": [
+     156,
+     106,
+     76
+    ],
+    "population": 481
+   },
+   "DarkMuted": {
+    "rgb": [
+     90,
+     64,
+     51
+    ],
+    "population": 114
+   },
+   "LightMuted": {
+    "rgb": [
+     196,
+     174,
+     148
+    ],
+    "population": 3
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 10,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+   {
+    "post_id": 213793994,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/213793994/tts/b0821766-784d-4902-928b-603f4ab43b3b/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "hasCashtag": false
+ },
+ {
   "id": 212876984,
   "editor_v2": false,
   "publication_id": 1470107,
@@ -21,14 +953,16 @@
   "canonical_url": "https://www.alreadyhappened.xyz/p/desire-as-a-responsibility",
   "section_id": null,
   "top_exclusions": [],
-  "pins": [],
+  "pins": [
+   1470107
+  ],
   "is_section_pinned": false,
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 41
+   "\u2764": 61
   },
-  "restacks": 11,
+  "restacks": 17,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -135,7 +1069,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -220,9 +1153,9 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 41,
-  "comment_count": 11,
-  "child_comment_count": 10,
+  "reaction_count": 61,
+  "comment_count": 14,
+  "child_comment_count": 12,
   "audio_items": [
    {
     "post_id": 212876984,
@@ -371,7 +1304,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -599,7 +1531,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -835,7 +1766,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -964,9 +1894,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 43
+   "\u2764": 49
   },
-  "restacks": 9,
+  "restacks": 11,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -1073,7 +2003,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -1158,9 +2087,9 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 43,
-  "comment_count": 10,
-  "child_comment_count": 9,
+  "reaction_count": 49,
+  "comment_count": 13,
+  "child_comment_count": 12,
   "audio_items": [
    {
     "post_id": 174804336,
@@ -1301,7 +2230,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -1537,7 +2465,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -1773,7 +2700,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -2009,7 +2935,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -2245,7 +3170,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -2372,7 +3296,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 85
+   "\u2764": 86
   },
   "restacks": 8,
   "restacked_post_id": null,
@@ -2481,7 +3405,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -2566,7 +3489,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 85,
+  "reaction_count": 86,
   "comment_count": 9,
   "child_comment_count": 8,
   "audio_items": [
@@ -2717,7 +3640,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -2953,7 +3875,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -3189,7 +4110,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -3425,7 +4345,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -3653,7 +4572,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -3889,7 +4807,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -4138,7 +5055,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -4374,7 +5290,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -4610,7 +5525,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -4846,7 +5760,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -5082,7 +5995,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -5318,7 +6230,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -5554,7 +6465,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -5782,7 +6692,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -6018,7 +6927,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -6145,9 +7053,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 233
+   "\u2764": 247
   },
-  "restacks": 48,
+  "restacks": 50,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -6254,7 +7162,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -6339,7 +7246,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 233,
+  "reaction_count": 247,
   "comment_count": 14,
   "child_comment_count": 12,
   "audio_items": [
@@ -6490,7 +7397,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -6726,7 +7632,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -6848,14 +7753,16 @@
   "canonical_url": "https://www.alreadyhappened.xyz/p/agi-isnt-for-happy-people",
   "section_id": null,
   "top_exclusions": [],
-  "pins": [],
+  "pins": [
+   1470107
+  ],
   "is_section_pinned": false,
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 234
+   "\u2764": 242
   },
-  "restacks": 53,
+  "restacks": 56,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -6962,7 +7869,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -7047,7 +7953,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 234,
+  "reaction_count": 242,
   "comment_count": 13,
   "child_comment_count": 11,
   "audio_items": [
@@ -7198,7 +8104,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -7325,7 +8230,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 237
+   "\u2764": 238
   },
   "restacks": 55,
   "restacked_post_id": null,
@@ -7434,7 +8339,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -7519,7 +8423,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 237,
+  "reaction_count": 238,
   "comment_count": 16,
   "child_comment_count": 15,
   "audio_items": [
@@ -7670,7 +8574,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -7906,7 +8809,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -8033,7 +8935,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 77
+   "\u2764": 78
   },
   "restacks": 28,
   "restacked_post_id": null,
@@ -8142,7 +9044,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -8227,7 +9128,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 77,
+  "reaction_count": 78,
   "comment_count": 8,
   "child_comment_count": 6,
   "audio_items": [
@@ -8378,7 +9279,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -8614,7 +9514,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -8850,7 +9749,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -9086,7 +9984,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -9322,7 +10219,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -9572,7 +10468,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -9801,7 +10696,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -9919,9 +10813,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 31
+   "\u2764": 34
   },
-  "restacks": 12,
+  "restacks": 14,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -10035,7 +10929,6 @@
     "id": 91963798,
     "name": "Stefan Kelly",
     "handle": "alreadyhappened",
-    "previous_name": "Stefan",
     "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
     "bio": "Psychology and technology in the prophetic perfect tense.",
     "profile_set_up_at": "2023-02-07T17:19:21.740Z",
@@ -10120,7 +11013,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 31,
+  "reaction_count": 34,
   "comment_count": 4,
   "child_comment_count": 2,
   "audio_items": [

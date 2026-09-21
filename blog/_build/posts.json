@@ -63,9 +63,17 @@
     "the-for-you-everything": "Media Analysis",
     "youre-even-more-on-your-own-from": "AI",
     "what-corecore-was-actually-about": "Psychology",
-    "why-making-up-for-lost-time-is-hard": "AI"
+    "why-making-up-for-lost-time-is-hard": "AI",
+    "agi-and-the-infinite-part-i": "AI"
   },
-  "category_order": ["Philosophy", "Psychology", "AI", "Media Analysis", "Artefacts", "Notes"],
+  "category_order": [
+    "Philosophy",
+    "Psychology",
+    "AI",
+    "Media Analysis",
+    "Artefacts",
+    "Notes"
+  ],
   "popular": [
     "theres-a-reasonable-chance-that-youre",
     "someone-else-was-in-the-room-where",

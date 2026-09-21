@@ -6,13 +6,13 @@ Run:  python3 blog/_build/fetch.py          (only fetch posts not yet cached)
 """
 import json, os, sys, time, urllib.request
 
-BASE = "https://alreadyhappened.xyz/api/v1"
+BASE = "https://www.alreadyhappened.xyz/api/v1"
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "raw")
 os.makedirs(RAW, exist_ok=True)
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (stefankelly.com blog sync)"})
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 
