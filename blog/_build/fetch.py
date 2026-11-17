@@ -4,7 +4,7 @@
 Run:  python3 blog/_build/fetch.py          (only fetch posts not yet cached)
       python3 blog/_build/fetch.py --all    (refetch everything)
 """
-import json, os, sys, time, urllib.request
+import json, os, sys, time, urllib.parse, urllib.request
 
 BASE = "https://www.alreadyhappened.xyz/api/v1"
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -17,13 +17,21 @@ def get(url):
         return json.load(r)
 
 def archive():
-    posts, offset = [], 0
+    """Substack pages the archive with a cursor: each page is
+    {"posts": [...], "nextCursor": "..."}. (It used to take ?offset= and return a bare list.)"""
+    posts, cursor = [], None
     while True:
-        page = get(f"{BASE}/archive?sort=new&limit=20&offset={offset}")
-        if not page:
+        url = f"{BASE}/archive?sort=new&limit=20"
+        if cursor:
+            url += "&cursor=" + urllib.parse.quote(cursor)
+        page = get(url)
+        batch = page.get("posts", []) if isinstance(page, dict) else page
+        if not batch:
             break
-        posts += page
-        offset += 20
+        posts += batch
+        cursor = page.get("nextCursor") if isinstance(page, dict) else None
+        if not cursor:
+            break
     return posts
 
 def main():

@@ -2,7 +2,8 @@
 """Build the blog from the Substack cache.
 
   python3 blog/_build/fetch.py     # pull any new posts into blog/_build/raw/
-  python3 blog/_build/build.py     # regenerate blog.html and blog/<post>.html
+  python3 blog/_build/build.py     # regenerate blog/<post>.html in the site design
+  python3 blog/_build/home.py      # regenerate the beliefs on the home page
 
 Editorial choices (filenames, categories, most-read list) live in posts.json.
 """
@@ -31,14 +32,6 @@ AUTHOR = "Stefan Kelly"
 SUBSTACK = "https://alreadyhappened.xyz"
 WPM = 230
 
-SITE_NAV = [
-    ("/", "About"),
-    ("/worked-on.html", "Things I have worked on"),
-    ("/working-on.html", "Things I am working on"),
-    ("/artefacts.html", "Artefacts"),
-    ("/experiments.html", "Experiments"),
-    ("/blog.html", "Blog"),
-]
 
 # ----------------------------------------------------------------------------
 # helpers
@@ -535,7 +528,7 @@ def clean_body(body_html, post, slug_to_file):
             continue
         ems = [c for c in child if c.tag == "em"]
         all_italic = len(ems) == 1 and not (child.text or "").strip() and not (ems[0].tail or "").strip()
-        if all_italic:
+        if all_italic or text_of(child).startswith("("):   # asides like "(warning: long)" aren't the opening line
             child.set("class", "preamble")
             continue
         child.set("class", "lede")
@@ -549,327 +542,137 @@ def clean_body(body_html, post, slug_to_file):
 
 
 # ----------------------------------------------------------------------------
-# templates
+# templates: essay pages in the site's natural/artificial design
 # ----------------------------------------------------------------------------
 
-HEAD = """<!DOCTYPE html>
-<html lang="en">
+FONTS = ("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400"
+         "&family=JetBrains+Mono:wght@300;400&family=Marcellus"
+         "&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap")
+
+PAGE = """<!DOCTYPE html>
+<html lang="en" data-world="{world}" data-default-world="{world}" data-state="chosen">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title}</title>
+  <title>{title} — {author}</title>
   <meta name="description" content="{description}">
   <meta property="og:title" content="{og_title}">
   <meta property="og:description" content="{description}">
-  <meta property="og:type" content="{og_type}">
+  <meta property="og:type" content="article">
   {og_image}
+  <script src="/boot.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/blog.css">
+  <link href="{fonts}" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css">
+  <script defer src="/site.js"></script>
   <script defer src="/cf-analytics.js"></script>
-  <script defer src="/blog.js"></script>
 </head>
-<body class="{body_class}" style="--accent:{accent}">
-<div class="progress" aria-hidden="true"><span></span></div>
-<div class="shell">
-"""
+<body class="page-essay">
 
-FOOT = """</div>
-<div class="lightbox" hidden><img alt=""><button class="lightbox-close" aria-label="Close">×</button></div>
+<div class="frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+<header class="mast">
+  <p class="intro"><a href="/">Stefan Kelly</a></p>
+</header>
+
+<button class="switch" type="button" role="switch" aria-checked="false" aria-label="Show artificial minds">
+  <span class="switch-label" data-side="natural">Natural</span>
+  <span class="switch-track"><span class="switch-knob"></span></span>
+  <span class="switch-label" data-side="artificial">Artificial</span>
+</button>
+
+<main class="essay">
+  <header class="essay-header">
+    <p class="label"><time datetime="{iso}">{date}</time></p>
+    <h1 class="essay-title">{title}</h1>
+    {subtitle}
+  </header>
+  {hero}
+  {media}
+  <div class="essay-body">
+{content}
+  </div>
+  <footer class="essay-foot">
+    <a class="label" href="{canonical}">Originally on Already Happened</a>
+    <a class="label" href="/">Back to the beliefs</a>
+  </footer>
+</main>
+
 </body>
 </html>
 """
 
 
-def site_nav_html(current="/blog.html"):
-    items = []
-    for href, label in SITE_NAV:
-        cls = ' class="is-current"' if href == current else ""
-        items.append(f'<li><a href="{href}"{cls}>{esc(label)}</a></li>')
-    return "\n".join(items)
+def default_world(slug):
+    """The world an essay opens in when the visitor hasn't chosen one:
+    artificial if it only sits under artificial beliefs, otherwise natural."""
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("home", os.path.join(HERE, "home.py"))
+        home = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(home)
+        worlds = {w for (w, _), slugs in home.ESSAYS.items() if slug in slugs}
+    except Exception:
+        worlds = set()
+    return "artificial" if worlds == {"artificial"} else "natural"
 
 
-def sidebar_html(mode, posts, post=None, toc=None, cat_counts=None, year_counts=None, prev_post=None, next_post=None):
-    """mode: 'index' or 'post'."""
-    parts = []
-    parts.append(f"""
-<aside class="sidebar" id="sidebar">
-  <div class="sidebar-top">
-    <a class="wordmark" href="/blog.html">
-      <span class="wordmark-title">{esc(SITE_NAME)}</span>
-    </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="sidebar-body">Menu</button>
-  </div>
-  <div class="sidebar-body" id="sidebar-body">
-""")
-    if mode == "index":
-        parts.append(f"""
-    <label class="search">
-      <span class="visually-hidden">Search for a topic or idea</span>
-      <input type="search" id="search" placeholder="Search for a topic or idea" autocomplete="off">
-      <kbd>/</kbd>
-    </label>
-
-    <nav class="nav-block" aria-label="Browse by category">
-      <h2 class="nav-label">Browse</h2>
-      <ul class="nav-list" id="cat-nav">
-        <li><a href="#" data-filter="all" class="is-active"><span>All essays</span><span class="count">{len(posts)}</span></a></li>
-""")
-        for c in CAT_ORDER:
-            if cat_counts.get(c):
-                parts.append(f'        <li><a href="#" data-filter="{esc(c)}"><span>{esc(c)}</span><span class="count">{cat_counts[c]}</span></a></li>\n')
-        parts.append("""      </ul>
-    </nav>
-
-    <nav class="nav-block" aria-label="Browse by year">
-      <h2 class="nav-label">Years</h2>
-      <ul class="nav-list nav-years" id="year-nav">
-""")
-        for y in sorted(year_counts, reverse=True):
-            parts.append(f'        <li><a href="#year-{y}"><span>{y}</span><span class="count">{year_counts[y]}</span></a></li>\n')
-        parts.append("""      </ul>
-    </nav>
-
-    <nav class="nav-block" aria-label="Most read">
-      <h2 class="nav-label">Most read</h2>
-      <ol class="nav-list nav-popular">
-""")
-        by_slug = {p["slug"]: p for p in posts}
-        for i, s in enumerate(POPULAR, 1):
-            p = by_slug.get(s)
-            if p:
-                parts.append(f'        <li><a href="/blog/{p["file"]}.html"><span class="num">{i}</span><span>{esc(p["title"])}</span></a></li>\n')
-        parts.append("      </ol>\n    </nav>\n")
-    else:
-        parts.append("""
-    <a class="back" href="/blog.html"><span class="arrow">←</span> All essays</a>
-    <div class="now-reading">
-      <h2 class="nav-label">Now reading</h2>
-      <p class="now-title">""" + esc(post["title"]) + """</p>
-      <p class="now-progress"><span id="progress-text">0% read</span> · """ + reading_time(post["words"]) + """</p>
-    </div>
-""")
-        if toc and len(toc) >= 2:
-            parts.append("""
-    <nav class="nav-block toc" aria-label="In this essay">
-      <h2 class="nav-label">In this essay</h2>
-      <ol class="toc-list" id="toc">
-""")
-            for t in toc:
-                lvl = ' class="is-sub"' if t["level"] == 3 else ""
-                parts.append(f'        <li{lvl}><a href="#{t["id"]}">{esc(t["text"])}</a></li>\n')
-            parts.append("      </ol>\n    </nav>\n")
-        parts.append('\n    <nav class="nav-block" aria-label="Next and previous">\n      <h2 class="nav-label">Continue</h2>\n      <ul class="nav-list nav-adjacent">\n')
-        if next_post:
-            parts.append(f'        <li><a href="/blog/{next_post["file"]}.html" rel="next"><span class="dir">Newer</span><span>{esc(next_post["title"])}</span></a></li>\n')
-        if prev_post:
-            parts.append(f'        <li><a href="/blog/{prev_post["file"]}.html" rel="prev"><span class="dir">Older</span><span>{esc(prev_post["title"])}</span></a></li>\n')
-        parts.append("      </ul>\n    </nav>\n")
-        parts.append(f'\n    <p class="sidebar-source"><a href="{esc(post["canonical"])}">Originally published on Substack ↗</a></p>\n')
-
-    parts.append(f"""
-    <nav class="nav-block site-nav" aria-label="Site">
-      <h2 class="nav-label">{esc(AUTHOR)}</h2>
-      <ul class="nav-list">
-{site_nav_html()}
-      </ul>
-    </nav>
-    <p class="sidebar-foot"><a href="{SUBSTACK}">alreadyhappened.xyz</a></p>
-  </div>
-</aside>
-""")
-    return "".join(parts)
+def media_html(slug):
+    """Audio player for podcast posts (the video stays on Substack)."""
+    d = json.load(open(os.path.join(RAW, slug + ".json")))
+    if not d.get("podcast_url"):
+        return ""
+    mins = round((d.get("podcast_duration") or 0) / 60)
+    return (f'<figure class="essay-media"><audio controls preload="none" src="{esc(d["podcast_url"])}"></audio>'
+            f'<figcaption class="label">{mins} min · <a href="{esc(d.get("canonical_url") or "")}">Watch on Substack</a></figcaption></figure>')
 
 
-def card_html(p, kind="row", eyebrow=None):
-    thumb = ""
-    if p["cover"]:
-        width = 1200 if kind == "hero" else 640
-        thumb = f'<img src="{esc(cdn(p["cover"], width))}" alt="" loading="{"eager" if kind == "hero" else "lazy"}">'
-    eyebrow = eyebrow or p["category"]
-    shape = ""
-    if kind == "hero" and p["cover_w"] and p["cover_h"] and p["cover_w"] / p["cover_h"] < 1.3:
-        shape = " is-square"
-    return f"""
-<a class="card card-{kind}{shape}" href="/blog/{p["file"]}.html" data-category="{esc(p["category"])}" data-year="{p["year"]}" data-search="{esc((p["title"] + " " + p["subtitle"] + " " + p["category"]).lower())}" style="--accent:{p["accent"]}">
-  <span class="card-media">{thumb}</span>
-  <span class="card-body">
-    <span class="eyebrow">{esc(eyebrow)}</span>
-    <span class="card-title">{esc(p["title"])}</span>
-    {f'<span class="card-sub">{esc(p["subtitle"])}</span>' if p["subtitle"] else ''}
-    <span class="card-meta"><time datetime="{p["iso"]}">{p["date"]}</time><span class="dot">·</span>{reading_time(p["words"])}</span>
-  </span>
-</a>"""
-
-
-def build_index(posts):
-    cat_counts = {}
-    year_counts = {}
-    for p in posts:
-        cat_counts[p["category"]] = cat_counts.get(p["category"], 0) + 1
-        year_counts[p["year"]] = year_counts.get(p["year"], 0) + 1
-
-    latest = posts[0]
-    by_slug = {p["slug"]: p for p in posts}
-    featured = [by_slug[s] for s in POPULAR[:3] if s in by_slug]
-
-    body = [HEAD.format(
-        title=f"Blog — {AUTHOR}",
-        description="Behaviour, culture, technology.",
-        og_title=SITE_NAME,
-        og_type="website",
-        og_image=f'<meta property="og:image" content="{esc(cdn(latest["cover"], 1200))}">' if latest["cover"] else "",
-        body_class="page-index",
-        accent="#1f1f1f",
-    )]
-    body.append(sidebar_html("index", posts, cat_counts=cat_counts, year_counts=year_counts))
-    body.append(f"""
-<main class="main" id="main">
-  <header class="index-header">
-    <h1 class="index-title">{esc(SITE_NAME)}</h1>
-  </header>
-
-  <section class="featured" aria-label="Latest essay">
-    <h2 class="section-label">Latest</h2>
-    {card_html(latest, "hero", eyebrow="Latest · " + latest["category"])}
-  </section>
-
-  <section class="most-read" aria-label="Most read">
-    <h2 class="section-label">Most read</h2>
-    <div class="tile-grid">
-      {"".join(card_html(p, "tile") for p in featured)}
-    </div>
-  </section>
-
-  <section class="search-results" id="search-results" aria-label="Search results" hidden>
-    <h2 class="section-label"><span>Results</span><span class="result-count" id="search-count"></span></h2>
-    <div id="search-list"></div>
-  </section>
-
-  <section class="archive" aria-label="All essays" id="archive">
-    <h2 class="section-label"><span>All essays</span><span class="result-count" id="result-count"></span></h2>
-""")
-    for y in sorted(year_counts, reverse=True):
-        body.append(f'    <div class="year" id="year-{y}" data-year="{y}">\n      <div class="year-label"><span>{y}</span></div>\n      <div class="year-posts">\n')
-        for p in posts:
-            if p["year"] == y:
-                body.append(card_html(p, "row"))
-        body.append("\n      </div>\n    </div>\n")
-    body.append("""    <p class="empty" id="empty" hidden>No essays match.</p>
-  </section>
-
-  <footer class="main-foot">
-    <p><a href=\"""" + SUBSTACK + """\">alreadyhappened.xyz</a></p>
-  </footer>
-</main>
-""")
-    body.append(FOOT)
-    with open(os.path.join(ROOT, "blog.html"), "w") as f:
-        f.write("".join(body))
-
-
-def related(post, posts, n=3):
-    same = [p for p in posts if p["slug"] != post["slug"] and p["category"] == post["category"]]
-    same.sort(key=lambda p: (-p["reactions"], p["iso"]))
-    out = same[:n]
-    if len(out) < n:
-        rest = [p for p in posts if p["slug"] != post["slug"] and p not in out]
-        rest.sort(key=lambda p: -p["reactions"])
-        out += rest[: n - len(out)]
-    return out
-
-
-def build_post(post, posts, idx, slug_to_file):
+def build_post(post, slug_to_file):
     content, toc, hero_caption = clean_body(post["body_html"], post, slug_to_file)
-    spaced = re.sub(r"(</(?:p|h[1-6]|li|blockquote|figcaption|pre|aside|div)>|<br>)", r"\1 ", content or "<p></p>")
-    plain = " ".join(LH.fragment_fromstring(spaced, create_parent="div").text_content().split())
-    prev_post = posts[idx + 1] if idx + 1 < len(posts) else None   # older
-    next_post = posts[idx - 1] if idx > 0 else None                # newer
-
-    ratio = (post["cover_w"] or 1) / (post["cover_h"] or 1)
-    hero_class = "hero-wide" if ratio >= 1.45 else "hero-natural"
+    is_podcast = bool(json.load(open(os.path.join(RAW, post["slug"] + ".json"))).get("podcast_url"))
     hero = ""
-    if post["cover"]:
-        hero = f"""
-    <figure class="hero {hero_class}" style="--w:{post['cover_w'] or 3};--h:{post['cover_h'] or 2}">
-      <a class="figure-link" href="{esc(cdn(post['cover']))}"><img src="{esc(cdn(post['cover'], 1600))}" srcset="{esc(cdn(post['cover'], 800))} 800w, {esc(cdn(post['cover'], 1600))} 1600w" sizes="(max-width: 900px) 100vw, 1100px" alt="" width="{post['cover_w'] or ''}" height="{post['cover_h'] or ''}" fetchpriority="high"></a>
-      {f'<figcaption>{hero_caption}</figcaption>' if hero_caption else ''}
-    </figure>"""
-
-    desc = post["subtitle"] or f"An essay by {AUTHOR}."
-    html_out = [HEAD.format(
-        title=f"{esc(post['title'])} — {AUTHOR}",
-        description=esc(desc),
+    if post["cover"] and not is_podcast:
+        hero = (f'<figure class="essay-hero"><img src="{esc(cdn(post["cover"], 1600))}" '
+                f'srcset="{esc(cdn(post["cover"], 800))} 800w, {esc(cdn(post["cover"], 1600))} 1600w" '
+                f'sizes="(max-width: 900px) 100vw, 900px" alt="" width="{post["cover_w"] or ""}" height="{post["cover_h"] or ""}">'
+                + (f"<figcaption>{hero_caption}</figcaption>" if hero_caption else "") + "</figure>")
+    out = PAGE.format(
+        world=default_world(post["slug"]),
+        title=esc(post["title"]),
+        author=AUTHOR,
+        description=esc(post["subtitle"] or f"An essay by {AUTHOR}."),
         og_title=esc(post["title"]),
-        og_type="article",
         og_image=f'<meta property="og:image" content="{esc(cdn(post["cover"], 1200))}">' if post["cover"] else "",
-        body_class="page-post",
-        accent=post["accent"],
-    )]
-    html_out.append(sidebar_html("post", posts, post=post, toc=toc, prev_post=prev_post, next_post=next_post))
-
-    rel_cards = "".join(card_html(p, "tile") for p in related(post, posts))
-    adjacent = ""
-    if prev_post or next_post:
-        adjacent = '<nav class="adjacent" aria-label="Adjacent essays">'
-        if prev_post:
-            adjacent += f'<a class="adjacent-link" href="/blog/{prev_post["file"]}.html" rel="prev"><span class="dir">← Older</span><span class="adj-title">{esc(prev_post["title"])}</span></a>'
-        else:
-            adjacent += '<span class="adjacent-link is-empty"></span>'
-        if next_post:
-            adjacent += f'<a class="adjacent-link is-next" href="/blog/{next_post["file"]}.html" rel="next"><span class="dir">Newer →</span><span class="adj-title">{esc(next_post["title"])}</span></a>'
-        adjacent += "</nav>"
-
-    html_out.append(f"""
-<main class="main" id="main">
-  <article class="essay">
-    <header class="essay-header">
-      <p class="eyebrow"><a href="/blog.html#archive" class="eyebrow-cat">{esc(post["category"])}</a><span class="dot">·</span><time datetime="{post["iso"]}">{post["date"]}</time></p>
-      <h1 class="essay-title">{esc(post["title"])}</h1>
-      {f'<p class="essay-subtitle">{esc(post["subtitle"])}</p>' if post["subtitle"] else ''}
-      <p class="byline"><span class="byline-name">{esc(AUTHOR)}</span><span class="dot">·</span>{reading_time(post["words"])}<span class="dot">·</span><a href="{esc(post["canonical"])}">Originally on Substack</a></p>
-    </header>
-    {hero}
-    <div class="essay-body" id="essay-body">
-{content}
-    </div>
-    <footer class="essay-footer">
-      <p class="colophon"><a href="{esc(post["canonical"])}">Originally published on Already Happened →</a></p>
-      {adjacent}
-      <section class="related" aria-label="Related essays">
-        <h2 class="section-label">More in {esc(post["category"])}</h2>
-        <div class="tile-grid">{rel_cards}</div>
-      </section>
-    </footer>
-  </article>
-</main>
-""")
-    html_out.append(FOOT)
+        fonts=FONTS,
+        iso=post["iso"],
+        date=post["date"],
+        subtitle=f'<p class="essay-subtitle">{esc(post["subtitle"])}</p>' if post["subtitle"] else "",
+        hero=hero,
+        media=media_html(post["slug"]),
+        content=content,
+        canonical=esc(post["canonical"]),
+    )
     with open(os.path.join(BLOG_DIR, post["file"] + ".html"), "w") as f:
-        f.write("".join(html_out))
-    return toc, plain
+        f.write(out)
+
+
+REDIRECT = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Stefan Kelly</title>
+<meta http-equiv="refresh" content="0; url=/"><link rel="canonical" href="/"></head>
+<body><a href="/">Stefan Kelly</a></body></html>
+"""
 
 
 def main():
     posts = load_posts()
     slug_to_file = {p["slug"]: p["file"] for p in posts}
-    stats = []
-    index = []
-    for i, p in enumerate(posts):
-        toc, plain = build_post(p, posts, i, slug_to_file)
-        stats.append((p["file"], len(toc)))
-        index.append({"f": p["file"], "t": p["title"], "s": p["subtitle"], "c": p["category"],
-                      "y": p["year"], "d": p["date"], "i": cdn(p["cover"], 320) if p["cover"] else "", "b": plain})
-    build_index(posts)
-    with open(os.path.join(BLOG_DIR, "search.json"), "w") as f:
-        json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
-    # remove generated files for posts that no longer exist
-    wanted = {p["file"] + ".html" for p in posts}
-    for name in os.listdir(BLOG_DIR):
-        if name.endswith(".html") and name not in wanted and not name.startswith("_"):
-            print("stale (not removed):", name)
-    print(f"built blog.html and {len(posts)} posts; {sum(1 for _, n in stats if n >= 2)} with a table of contents")
+    for p in posts:
+        build_post(p, slug_to_file)
+    # the essays now live under the beliefs on the home page; the old index forwards there
+    with open(os.path.join(ROOT, "blog.html"), "w") as f:
+        f.write(REDIRECT)
+    print(f"built {len(posts)} essay pages; blog.html now forwards to /")
 
 
 if __name__ == "__main__":

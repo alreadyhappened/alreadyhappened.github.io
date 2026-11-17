@@ -1,0 +1,429 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://www.alreadyhappened.xyz/p/how-to-keep-the-infinite-at-bay",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 217070069,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-09-23T13:09:27.558Z",
+ "updated_at": "2026-09-23T19:09:27.729Z",
+ "publication_id": 1470107,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "how-to-keep-the-infinite-at-bay",
+ "social_title": "How to keep the infinite at bay",
+ "subtitle": "and why this part of history has been difficult to break out of",
+ "teaser_post_eligible": true,
+ "title": "How to keep the infinite at bay",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 0,
+ "reactions": {
+  "\u2764": 5
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "a-natural-development-cannot-be-halted",
+ "next_post_slug": "the-future-of-psychology-w-dario",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!w_M5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 217070069,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "and why this part of history has been difficult to break out of",
+ "body_html": "<p><em>This is part 3 of the AGI and The Infinite series. This can be read standalone, but to fully understand what I mean by a couple of the words used, please see parts <a href=\"https://www.alreadyhappened.xyz/p/agi-and-the-infinite-part-i\">1</a> and <a href=\"https://www.alreadyhappened.xyz/p/theres-something-alive-down-there\">2</a>. </em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!w_M5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!w_M5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 424w, https://substackcdn.com/image/fetch/$s_!w_M5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 848w, https://substackcdn.com/image/fetch/$s_!w_M5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!w_M5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!w_M5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg\" width=\"1456\" height=\"1208\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/ef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1208,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!w_M5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 424w, https://substackcdn.com/image/fetch/$s_!w_M5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 848w, https://substackcdn.com/image/fetch/$s_!w_M5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!w_M5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><span>While I generally agree with McGilchrist\u2019s general suggestion of modernity = left hemisphere dominance, I also agree with his observation that there may be an oscillation between hemispheric dominance throughout the history of the human drama. Therefore, it\u2019s also necessary to identify a few things that make our era most likely to be infinite suppressing.</span></p><p><span>Or perhaps a better way to put it: reasons this is one particular part of the cycle proving difficult to escape from.</span></p><p><span>I offer four main culprits worth getting into here, that allow either too much belief in self, or too much belief in reality: Culture, Technology, Science &amp; Religion.</span></p><p><strong><span>1. Culture</span></strong></p><p><span>The 20th century was the Century of the Self because, frankly, there wasn\u2019t much else to do. Or it certainly appeared that way at the very least.</span></p><p><span>God died, war started, then ended, discretional incomes increased without as many institutional authorities demanding they take it off your hands. Defining yourself was now up to you. Which is what the money was for.</span></p><p><span>The system slouches towards a new hyper-capitalism where purchases go beyond function. The more people play ball the bigger the game gets. You wanting to define who you are becomes the natural fuel for the engine, because existential uncertainty is one of the only resources you can never run out of. Sustainability, if you will.</span></p><p><span>The system\u2019s relationship to identity is more complex than at first glance, though. Because people using external purchases to reinforce internal identity is great, but what if you identify as the person that\u2019s happy with the peaceful, private life with a banged-up car? That person\u2019s contribution to the system ends once they pay to have their ducks in a row. Good for them, but we can\u2019t accelerate under these conditions.</span></p><p><span>Therefore, the internal identity part can\u2019t exist on the consumer side </span><em><span>either</span></em><span>. The system must offer that alongside the things that reinforce it. And it must be subject to change, because stable identities have finite payoffs, while unstable ones don\u2019t. </span><em><span>(This is sort of what Edward Teach means when he says the system teaches not just what to want, but how to want)</span></em></p><p><span>So the modern Westerner is offered essentially no choice but to believe in their sense of self too much. It is the thing that gives order and decoration to their lives and experiences. It is what it means to engage with the world, and everything one encounters in that world reinforces it. Yet it simultaneously must be something you can never reach, or else everything starts breaking down. So the equilibrium must be one where every app takes you directly to an area with new stuff that\u2019s \u2018For You\u2019. How could that be if </span><em><span>you</span></em><span> don\u2019t exist?</span></p><p><span>This is the foundation that can get misrepresented in mainstream use of the word narcissism. When someone calls you a narcissist pejoratively, they usually mean you have this golden view of yourself, impervious to the views of others. This isn\u2019t the actual cultural norm.</span></p><p><span>The more accurate Laschian view is that the narcissist is a person whose inner sense of self has become fundamentally </span><em><span>fragile</span></em><span>, so life becomes this frenzy where the drive to create a fantasy of self-coherence becomes primary. That\u2019s the ideal participant.</span></p><p><span>Perhaps it goes without saying that this is bad for you and everyone around you, but for the sake of diligence: you\u2019ll never be content, you\u2019ll never truly have empathy or connect with others, you will be essentially nihilistic, you\u2019ll self diagnose ADHD because you\u2019re terrified of action, you\u2019ll enable any tyranny that gives you a badge and somewhere to stand, and you\u2019ll probably have some oscillating levels of anxiety and depression because guess what people aren\u2019t really supposed to live like this.</span></p><p><span>So to then explain why a Laschian narcissist struggles to live beyond the finite becomes difficult without engaging in tautology. The equation is extremely direct.</span></p><p><span>Put it this way: it is required to find one\u2019s self before even considering the possibility of transcending it, but the goal of the narcissist is to avoid ever having to know oneself. They get blinded from even knowing where to start.</span></p><p><span>In The Last Psychiatrist\u2019s version, knowing yourself means seeing yourself from the outside: being tested, hitting limits, learning \u201cyou\u2019re good at this but not that\u201d, \u201cyou were a coward there\u201d, \u201ctoo late, too bad\u201d. Narcissus\u2019s parents, following the prophecy, shielded him from all of that. He never faced real failure or struggle, never had to master an impulse or live with lack. So he had no objective picture of himself at all, which is why he literally doesn\u2019t recognise his own reflection.</span></p><p><span>To someone stuck in the trap, at least the external stuff gives you some way of describing yourself, even if it falters under the slightest bit of examination. But the key thing is that the narcissist project is to avoid the examination as well.</span></p><p><span>Hence, the infinite can\u2019t really enter the equation.</span></p><p><strong><span>2. Technology</span></strong></p><p><span>Mike Levin often says something like \u201cif you ask why enough times at any scientific problem you tend to end up in the math department\u201d. In psychology, if you throw the word \u2018why\u2019 enough times at a behaviour you to tend to end up at technology. Which is why it\u2019s inevitably a key conspirator in the cultural narcissism story.</span></p><p><span>Technology enables individualism, always. Just as the dishwasher meant Boomers needed human help at home less than Silents did, Google Maps meant Millenials needed to stop strangers for directions much less than Gen X did on their travels. So your belief in an independent self is, actually quite fairly, reinforced by the fact that you don\u2019t really need anyone else to survive anymore. The sense of control it allows you to feel over the world also makes it difficult to also feel cosmically humble. AI convenience will only make this more true.</span></p><p><span>Above we mentioned that nobody tells you who you are, so you go looking, and the system points you to the marketplace (=culture). And the second role technology plays is forming the media that channel that marketplace to you, i.e. the screen and what\u2019s on it.</span></p><p><span>The issue is that as tech got better, and offered us unlimited access to each other at all times, the inevitable result was that cultural competition became extremely high extremely quickly.</span></p><p><span>At its bones, culture is just memes competing for a place in your opinions and decisions. That neural real estate is scarce, and brains seem to prefer the familiar because familiar means certain, so anything with detail or novelty gets stripped out to survive.</span></p><p><span>Hence, algorithms have the potential to show you more wondrous media than previous generations could ever imagine, but tend to end up circling around the same basic dopamine-hacking, outrage-drawing, subway-surfing, fast-food-rating brainrot.</span></p><p><span>The end point of tech as we currently know it is total control of attention, which means your attention can never be offered to anything big enough outside of you for the self to dissolve properly. Not to mention that the infinite represents something that is definitionally uncertain to you, and you are unfortunately far more easily captured by certainty and homogeneity.</span></p><p><span>You need slowness to really acknowledge strangeness. And we don\u2019t have much slowness at the moment.</span></p><ol start=\"3\"><li><p><strong><span>Science</span></strong></p></li></ol><p><span>When I say science has allowed something meaningful to slip out of human experience, I really mean scientism. And by scientism, I really mean scientism in psychology.</span></p><p><span>Brace for the level of nuance-sacrifice required to keep the history of 20th century psychology contained in a paragraph:</span></p><p><span>Freudian psychoanalysis dominated the early 1900s, ruling the clinic with its focus on unconscious drives and pathology. Watson (and later Skinner) pushed back with behaviorism, insisting psychology study only observable behavior if it wanted to be a real science. Jung-flavored depth psychology, but more effectively Rogers and May\u2019s humanistic views, pushed back again on behaviorism\u2019s reductionism, and briefly fed into the social movements of the 60s and 70s (hierarchy of needs posters in boring HR departments etc). But overall, its rejection of quantitative methods cost it academic credibility, and for the rest of the century cognitive psychology grasps the mainstream, leading to other new fields like cognitive science and behavioural science, who brand themselves as having evidence of how people really work.</span></p><p><span>In simpler words: things that can\u2019t get measured don\u2019t belong here anymore, because that isn\u2019t serious science and psychology should be serious science. The victory of one side over the other can be felt through the APA\u2019s ranking of the</span><a href=\"https://www.apa.org/monitor/julaug02/eminent\"><span> Top 100 Psychologists of the 20th century</span></a><span>.</span></p><p><span>The 21st century did at least produce the replication crisis as a big clue that something was rotten in the state of Denmark, but this got batted away by psychologists insisting that we have to </span><em><span>science even harder</span></em><span>. Yet solutions like pre-registration, bigger sample sizes, and better peer review all still buy the same story, i.e. that psychology if treated properly can be examined like chemistry or biology. It simply can\u2019t.</span></p><p><span>If I combine two chemical compounds together, and they produce some new compound, that\u2019s a finding. That\u2019s a rule. The same reaction would (probably) happen in Hawaii or Siberia, or in 10,000 BC. But you can\u2019t similarly try to model human behaviour in dynamic, culturally-specific contexts and expect universal, replicable results. It\u2019s simply a different thing. But for some reason, psychologists grew to urge to have the physicists think they shared an in-group.</span></p><p><span>And the obvious issue with worshipping a framework like the scientific method is that if it can\u2019t show you something as existing, then in your eyes it cannot exist. And all activity that does fit within the method becomes esteemed.</span></p><p><span>Maslow in the 60\u2019s:</span></p><blockquote><p><span>We have been taught very amply in the last few decades that science can be dangerous to human ends and that scientists can become monsters as long as science is conceived to be akin to a chess game, an end in itself, with arbitrary rules, whose only purpose is to explore the existent, and which then makes the fatal blunder of excluding subjective experience from the realm of the existent or explorable.</span></p><p><span>So also for the exclusion of the sacred and the transcendent from the jurisdiction of science. This makes impossible in principle the study, for instance, of certain aspects of the abstract: psychotherapy, naturalistic religious experience, creativity, symbolism, play, the theory of love, mystical and peak-experiences, not to mention poetry, art, and a lot more (since these all involve an integration of the realm of Being with the realm of the concrete).</span></p></blockquote><p><span>The worst possible version of what you end up with here is positivists, tool-sharpeners, atomists, and even more scarily: generations who are taught that that is all real psychology is. Resulting in the most talented percentiles of psychology-inclined minds spending all their energy on publishing research that doesn\u2019t really make sense or mean anything, in journals that not many people can read, just so that they get to say that they\u2019re a scientist and should be addressed as such. The other unintended consequence is now when people wander into the psychology section of the bookstore they get told that The Mind is Flat.</span></p><p><span>In summary, the infinite gets suppressed because psychology couldn\u2019t fit it within its incentive structure. Perhaps that\u2019s worth the security of ensuring you do at least exclude the actual nonsense.</span></p><ol start=\"4\"><li><p><strong><span>Religion</span></strong></p></li></ol><p><em><span>i\u2019m sorry if you subscribe to a particular religion and don\u2019t like what follows here. you are probably right and needn\u2019t worry about weird bloggers talking about your faith.</span></em></p><p><span>In his</span><a href=\"https://www.amazon.co.uk/Then-Am-Myself-World-Consciousness-ebook/dp/B0CH9VT8N8/ref=sr_1_5?crid=23BWZGJL2SO4X&amp;dib=eyJ2IjoiMSJ9.vL3CJXg-eh3TrMBiRXwd6hj7br1EWbsn34C-3l5PmdfXcXTSaTRptlHrXR_Mov49fCPmIViaINU-8KG_hsDrM6Mc3mYvM3EHH-BkwdE6oj9v8q4JGDU0aloK7xxd3d3j_KiHGiFHflVMwGYR3NnEMjq5qZhDIiumf8NNkXQ8sAW7ihzaQUJe2K9etIsTb9BpK-VhIXA9V8vC6uVKHy3cQqHcgUeeg4diuncxBtvyqNY.a9vIPvXf_TqoHgsYFcuyO4QLTjCqtIBCwm0_vR5Utf8&amp;dib_tag=se&amp;keywords=christof+koch&amp;qid=1782963395&amp;sprefix=christof+koch%2Caps%2C136&amp;sr=8-5\"><span> most recent book</span></a><span>, neuroscientist and consciousness researcher Christof Koch spends a few pages reflecting on his childhood Catholicism alongside new research findings in psychedelics. He finds it confusing to square how he was led to believe that the bread and wine he was helping serve literally transformed into the body and blood of Christ, yet it was that same church that had a history of violently suppressing interactions with supernatural-type experiences. When the European Christians colonised other continents, the missionaries intentionally crushed any rituals locals practiced involving psychedelic substances. Yet centuries later, we find that engaging with psychedelics is one of the most powerful ways to turn non-believers into worshippers. Part of Koch seems to wonder why the church and the plants couldn\u2019t have worked hand-in-hand.</span></p><p><span>This makes me think of an element of Nietzsche that surface-level accounts often present confusingly. The Death of God gets branded as Nietzsche\u2019s reason for </span><em><span>the bad stuff</span></em><span>, but this doesn\u2019t fit with the fact that his whole project starts with anointing Ancient Athens as the peak of human culture.</span></p><p><span>And it\u2019s not correct to look at that period and say \u2018God hadn\u2019t died yet\u2019 because God didn\u2019t even </span><em><span>exist</span></em><span> yet. Monotheism hadn\u2019t gotten off the ground, but it did drive the intervening period that preceded Nietzsche\u2019s work.</span></p><p><span>So there may be something about God living that puts the human soul out of whack, too. This is a puzzle addressed well in Maslow\u2019s </span><em><span>Religions, Values, and Peak Experiences, </span></em><span>where he states:</span></p><blockquote><p><span>If you look closely at the internal history of most of the world religions, you will find that each one very soon tends to divide into a left-wing and a right-wing, that is, into the peakers, the mystics, the transcenders, or the privately religious people, on the one hand, and, on the other, into those who concretize the religious symbols and metaphors, who worship little pieces of wood rather than what the objects stand for, those who take verbal formulas literally, forgetting the original meaning of these words, and, perhaps most important, those who take the organization, the church, as primary and as more important than the prophet and his original revelations.</span></p></blockquote><p><span>Note the close match to McGilchrist\u2019s hemispheres, or to the self that dissolves versus the self that controls.</span></p><p><span>Maslow goes on to say:</span></p><p><em><span>(i\u2019m sorry these quotes are long but they are too damn good)</span></em></p><blockquote><p><span>It has sometimes seemed to me as I interviewed \u201cnontheistic religious people\u201d that they had more religious (or transcendent) experiences than conventionally religious people.</span></p><p><span>\u2026</span></p><p><span>The reason I bring up this impression is that it brought me to the realization that for most people a conventional religion, while strongly religionizing one part of life, thereby also strongly \u201cdereligionizes\u201d the rest of life.</span></p><p><span>The experiences of the holy, the sacred, the divine, of awe, of creatureliness, of surrender, of mystery, of piety, thanksgiving, gratitude, self-dedication, if they happen at all, tend to be confined to a single day of the week, to happen under one roof only of one kind of structure only, under certain triggering circumstances only, to rest heavily on the presence of certain traditional, powerful, but intrinsically irrelevant, stimuli, e. g. organ music, incense, chanting of a particular kind, certain regalia, and other arbitrary triggers.</span></p><p><span>Being religious, or rather feeling religious, under these ecclesiastical auspices seems to absolve many (most?) people from the necessity or desire to feel these experiences at any other time.</span></p><p><span>\u201cReligionizing\u201d only one part of life secularizes the rest of it.</span></p></blockquote><p><span>This is essentially Spinoza\u2019s critique of religion, where God as Church blinds you from God as everything.</span></p><p><span>But to really grok this notion of how organised religion being a pillar in one\u2019s life paradoxically removes a sense of the divine from the rest of one\u2019s life, and why that would even be desirable, it is useful to think in terms of overcompensation.</span></p><p><span>A classic trick to make the uncomfortable feel more comfortable is to package it and keep it in one particular corner of your life. That way the control is back in your hands, and you have permission to pretend it\u2019s a problem solved.</span></p><p><span>But this creates weird situations where a person can loudly display themselves as one thing, and then you get to know them and realise they\u2019re somehow the opposite.</span></p><p><span>As an example, I find this with hardcore metal music. The theatre of it suggests themes of death, evil, violence, destruction. But then you actually listen to it and you realise that it\u2019s basically all melodramatic love songs and breakup anthems. And as individuals, the performers and the fans seem to act and speak like teddybears. By investing all their intimidation chips into their look, they absolve their responsibility to actually be intimidating in any meaningful way. Or indeed, one notices their softness first, so builds the character in reaction.</span></p><p><span>I also sometimes wonder if a similar thing is happening in certain types of modern polyamory and open relationships. It gets sold in terms of having others meet your needs and not limiting yourself to just one profound connection, but sometimes one can\u2019t help but notice a distinct lack of love in how the webs interact. Wild guess here, but I do consider it possible that a fear of really dissolving into another person is what gets dressed up as \u201cI feel too limited by monogamy\u201d. That way you get to keep your sense of self intact way more, as no one individual gets to stare into your eyes long enough to see it break down. \u201cHah, what do you mean I\u2019m scared of love and intimacy? I got so much of that shit that I need to give it to multiple people!\u201d</span></p><p><span>So, like Maslow, I wonder if the success of organised monotheistic religion was not in embracing the sacred and divine as part of the human experience, but packaging it in a way that you can live 90% of your life as if it doesn\u2019t exist and you actually are in control of a finite world. And even in the 10%, you get to shroud it in enough arbitrary rules that you can go to church, basically zone out and pretend it\u2019s not happening, and get on with your day afterwards. Which also makes it logical that the missionaries took the shrooms off the tribes they colonised. The divine was not the point of the practice.</span></p><p><span>And now in an era where everyone is leaving religion behind, rather than returning to the infinite they leave for a life even more finite, as doing anything else seems inconsistent.</span></p><div><hr></div><p>part 4 soon. abridged version already available in full <a href=\"https://www.alreadyhappened.xyz/p/you-best-start-believing-in-ghost\">here</a> if you would like to skip ahead.</p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://www.alreadyhappened.xyz/subscribe?&quot;,&quot;text&quot;:&quot;Subscribe&quot;,&quot;language&quot;:&quot;en&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Already Happened.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Type your email\u2026\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Subscribe\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "This is part 3 of the AGI and The Infinite series. This can be read standalone, but to fully understand what I mean by a couple of the words used, please see parts 1 and 2.",
+ "wordcount": 3092,
+ "post_preview_limit": null,
+ "language": "en",
+ "postTags": [
+  {
+   "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+   "publication_id": 1470107,
+   "name": "Psychology",
+   "slug": "psychology",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": {
+  "post_id": 217070069,
+  "starts_at": "2026-09-23T13:09:27.458Z",
+  "ended_at": "2026-09-23T19:09:27.650Z",
+  "planned_duration_ms": 21600000,
+  "test_cohort_percent": 50,
+  "test_cohort_emailed": true,
+  "main_cohort_emailed": true,
+  "created_at": "2026-09-23T13:09:03.308Z",
+  "updated_at": "2026-09-23T19:09:32.722Z",
+  "creator_id": 91963798,
+  "ended_early": false,
+  "winner_overridden": false
+ },
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    172,
+    108,
+    68
+   ],
+   "population": 1
+  },
+  "DarkVibrant": {
+   "rgb": [
+    84,
+    36,
+    52
+   ],
+   "population": 1
+  },
+  "LightVibrant": {
+   "rgb": [
+    204,
+    194,
+    139
+   ],
+   "population": 79
+  },
+  "Muted": {
+   "rgb": [
+    135,
+    97,
+    87
+   ],
+   "population": 400
+  },
+  "DarkMuted": {
+   "rgb": [
+    87,
+    56,
+    63
+   ],
+   "population": 489
+  },
+  "LightMuted": {
+   "rgb": [
+    159,
+    191,
+    201
+   ],
+   "population": 473
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 91963798,
+   "name": "Stefan Kelly",
+   "handle": "alreadyhappened",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+   "bio": "Psychology and technology in the prophetic perfect tense.",
+   "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+   "reader_installed_at": "2023-04-02T21:44:45.007Z",
+   "publicationUsers": [
+    {
+     "id": 1435537,
+     "user_id": 91963798,
+     "publication_id": 1470107,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 1470107,
+      "name": "Already Happened",
+      "subdomain": "alreadyhappened",
+      "custom_domain": "www.alreadyhappened.xyz",
+      "custom_domain_optional": false,
+      "hero_text": "Psychology and technology in the prophetic perfect tense",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+      "author_id": 91963798,
+      "primary_user_id": 91963798,
+      "theme_var_background_pop": "#2EE240",
+      "created_at": "2023-03-05T23:42:33.227Z",
+      "email_from_name": "Already Happened",
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "magaziney",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    },
+    {
+     "id": 8162029,
+     "user_id": 91963798,
+     "publication_id": 7978644,
+     "role": "admin",
+     "public": true,
+     "is_primary": false,
+     "publication": {
+      "id": 7978644,
+      "name": "Already Priced In",
+      "subdomain": "stefankelly",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "already happened's second blog",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+      "author_id": 91963798,
+      "primary_user_id": null,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2026-02-10T22:58:31.950Z",
+      "email_from_name": null,
+      "copyright": "Stefan Kelly",
+      "founding_plan_name": null,
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "disabled",
+      "language": null,
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "twitter_screen_name": "StefanKelly",
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 5,
+ "comment_count": 1,
+ "child_comment_count": 1,
+ "audio_items": [
+  {
+   "post_id": 217070069,
+   "voice_id": "en-US-CoraMultilingualNeural",
+   "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/217070069/tts/2e1ee0c6-cf20-4148-89eb-110708ae66bf/en-US-CoraMultilingualNeural.mp3",
+   "type": "tts",
+   "status": "completed"
+  }
+ ],
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#38493e",
+  "background_pop": "#38493e",
+  "color_theme_bg_web": "#ffffff",
+  "cover_bg_color": "#ffffff",
+  "cover_bg_color_secondary": "#f0f0f0",
+  "background_pop_darken": "#2d3b32",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#2d3b32",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(56, 73, 62, 0.2)",
+  "color_theme_bg_pop_30": "rgba(56, 73, 62, 0.3)",
+  "print_pop": "#38493e",
+  "color_theme_accent": "#38493e",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#38493e",
+  "font_family_headings_preset": "'Scope One',sans-serif",
+  "font_weight_headings_preset": 400,
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_family_section_headings_preset": "'Scope One',sans-serif",
+  "font_weight_section_headings_preset": 400,
+  "font_preset_heading": "mono",
+  "font_preset_body": "fancy_serif",
+  "home_hero": "magaziney",
+  "home_posts": "custom",
+  "home_show_top_posts": true,
+  "web_bg_color": "#ffffff",
+  "background_contrast_1": "#f0f0f0",
+  "background_contrast_2": "#dddddd",
+  "background_contrast_3": "#b7b7b7",
+  "background_contrast_4": "#929292",
+  "background_contrast_5": "#515151",
+  "color_theme_bg_contrast_1": "#f0f0f0",
+  "color_theme_bg_contrast_2": "#dddddd",
+  "color_theme_bg_contrast_3": "#b7b7b7",
+  "color_theme_bg_contrast_4": "#929292",
+  "color_theme_bg_contrast_5": "#515151",
+  "color_theme_bg_elevated": "#ffffff",
+  "color_theme_bg_elevated_secondary": "#f0f0f0",
+  "color_theme_bg_elevated_tertiary": "#dddddd",
+  "color_theme_detail": "#e6e6e6",
+  "background_contrast_pop": "rgba(56, 73, 62, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(56, 73, 62, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#868787",
+  "background_pop_rgb": "56, 73, 62",
+  "color_theme_bg_pop_rgb": "56, 73, 62",
+  "color_theme_accent_rgb": "56, 73, 62"
+ },
+ "comments": [
+  {
+   "id": 344020048,
+   "body": "\"In his most recent book, neuroscientist and consciousness researcher Christof Koch spends a few pages reflecting on his childhood Catholicism alongside new research findings in psychedelics. He finds it confusing to square how he was led to believe that the bread and wine he was helping serve literally transformed into the body and blood of Christ, yet it was that same church that had a history of violently suppressing interactions with supernatural-type experiences. When the European Christians colonised other continents, the missionaries intentionally crushed any rituals locals practiced involving psychedelic substances. Yet centuries later, we find that engaging with psychedelics is one of the most powerful ways to turn non-believers into worshippers. Part of Koch seems to wonder why the church and the plants couldn\u2019t have worked hand-in-hand.\"\n\nThey did work together at the very start.\n\nBut that was before the Council of Nicea, where Roman Emperor Constantine managed to corrupt a select few bishops with promises of riches and power and had the rest put to the sword or exiled within a few decades.\n\nPre-3rd century CE Christianity is something very different to Post-Nicea Christianity.\n\nFor starters. Mary Magdalene was probably meant to be the first Post-Jesus \"pope\"/leader of the church. Then Peter and Paul happened.",
+   "body_json": {
+    "type": "doc",
+    "attrs": {
+     "schemaVersion": "v1",
+     "title": null
+    },
+    "content": [
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "\"In his most recent book, neuroscientist and consciousness researcher Christof Koch spends a few pages reflecting on his childhood Catholicism alongside new research findings in psychedelics. He finds it confusing to square how he was led to believe that the bread and wine he was helping serve literally transformed into the body and blood of Christ, yet it was that same church that had a history of violently suppressing interactions with supernatural-type experiences. When the European Christians colonised other continents, the missionaries intentionally crushed any rituals locals practiced involving psychedelic substances. Yet centuries later, we find that engaging with psychedelics is one of the most powerful ways to turn non-believers into worshippers. Part of Koch seems to wonder why the church and the plants couldn\u2019t have worked hand-in-hand.\""
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "They did work together at the very start."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "But that was before the Council of Nicea, where Roman Emperor Constantine managed to corrupt a select few bishops with promises of riches and power and had the rest put to the sword or exiled within a few decades."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "Pre-3rd century CE Christianity is something very different to Post-Nicea Christianity."
+       }
+      ]
+     },
+     {
+      "type": "paragraph",
+      "content": [
+       {
+        "type": "text",
+        "text": "For starters. Mary Magdalene was probably meant to be the first Post-Jesus \"pope\"/leader of the church. Then Peter and Paul happened."
+       }
+      ]
+     }
+    ]
+   },
+   "publication_id": 1470107,
+   "post_id": 217070069,
+   "user_id": 353018682,
+   "ancestor_path": "",
+   "type": "comment",
+   "deleted": false,
+   "date": "2026-09-23T15:23:26.137Z",
+   "edited_at": null,
+   "status": "published",
+   "pinned_by_user_id": null,
+   "restacks": 0,
+   "name": "TomDragon",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/32504a65-d0cd-47d1-985b-3137e6d4ccf6_3000x3000.jpeg",
+   "handle": "tomdragon2024",
+   "reactor_names": [],
+   "reaction": null,
+   "reactions": {
+    "\u2764": 0
+   },
+   "reaction_count": 0,
+   "children": [],
+   "bans": [],
+   "suppressed": false,
+   "user_banned": false,
+   "user_banned_for_comment": false,
+   "user_slug": "tomdragon2024",
+   "metadata": {
+    "is_author": false,
+    "membership_state": "free_signup",
+    "eligibleForGift": true,
+    "author_on_other_pub": {
+     "name": "TomDragon",
+     "id": 4348664,
+     "base_url": "https://tomdragon2024.substack.com"
+    }
+   },
+   "user_bestseller_tier": null,
+   "can_dm": true,
+   "userStatus": {
+    "bestsellerTier": null,
+    "subscriberTier": 1,
+    "leaderboard": null,
+    "vip": false,
+    "badge": {
+     "type": "subscriber",
+     "tier": 1,
+     "accent_colors": null
+    },
+    "subscriber": null
+   },
+   "score": 1,
+   "children_count": 0,
+   "reported_by_user": false,
+   "restacked": false
+  }
+ ],
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

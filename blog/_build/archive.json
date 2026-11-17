@@ -1,5 +1,1339 @@
 [
  {
+  "id": 224911593,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "The Renaissance Did Not Take Place",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "the-renaissance-did-not-take-place",
+  "post_date": "2026-11-14T20:23:18.434Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/the-renaissance-did-not-take-place",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 5
+  },
+  "restacks": 0,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "at a suitable level of confidence",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!lo_Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9bd1d7a-8959-4772-b033-c8e3514aac68_1300x675.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 224911593,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "at a suitable level of confidence",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "You will have heard the Zeno\u2019s Dichotomy Paradox thing about how trying to travel any distance requires you travelling an infinite list of sub-distances, so saying a motion \u2018starts\u2019 or \u2018finishes\u2019 is illogical. Except it is logical, because it turns out you can do an infinite amount of things within a finite amount of time.",
+  "wordcount": 2355,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [
+   {
+    "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+    "publication_id": 1470107,
+    "name": "Psychology",
+    "slug": "psychology",
+    "hidden": false
+   }
+  ],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     80,
+     135,
+     168
+    ],
+    "population": 140
+   },
+   "DarkVibrant": {
+    "rgb": [
+     60,
+     28,
+     12
+    ],
+    "population": 1
+   },
+   "LightVibrant": {
+    "rgb": [
+     220,
+     188,
+     148
+    ],
+    "population": 2
+   },
+   "Muted": {
+    "rgb": [
+     164,
+     127,
+     90
+    ],
+    "population": 57
+   },
+   "DarkMuted": {
+    "rgb": [
+     51,
+     74,
+     81
+    ],
+    "population": 102
+   },
+   "LightMuted": {
+    "rgb": [
+     195,
+     191,
+     145
+    ],
+    "population": 30
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 5,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+   {
+    "post_id": 224911593,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/224911593/tts/501a41b9-e2c0-47ee-badc-a24fb6cdac2e/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 217852188,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "A potted history of variation in everyday ontology in the conscious experience of humans",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "a-potted-history-of-variation-in",
+  "post_date": "2026-09-28T15:53:05.471Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/a-potted-history-of-variation-in",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 4
+  },
+  "restacks": 2,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "catchy title bro",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!E6Xu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb828d3ba-e9f8-4ef8-b147-f1eaff887625_1672x941.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 217852188,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "catchy title bro",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "(this is the fourth of a series of posts. this can be read standalone, but linking parts 1,2 and 3.)",
+  "wordcount": 3621,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     132,
+     154,
+     208
+    ],
+    "population": 158
+   },
+   "DarkVibrant": {
+    "rgb": [
+     79,
+     10,
+     17
+    ],
+    "population": 519
+   },
+   "LightVibrant": {
+    "rgb": [
+     210,
+     162,
+     212
+    ],
+    "population": 106
+   },
+   "Muted": {
+    "rgb": [
+     156,
+     84,
+     124
+    ],
+    "population": 1
+   },
+   "DarkMuted": {
+    "rgb": [
+     80,
+     49,
+     56
+    ],
+    "population": 27
+   },
+   "LightMuted": {
+    "rgb": [
+     193,
+     147,
+     189
+    ],
+    "population": 517
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 4,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+   {
+    "post_id": 217852188,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/217852188/tts/019a5b1b-a635-49f1-b479-c40dd38a4b03/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 217291113,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "The Future of Psychology w/ Dario Krpan",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "podcast",
+  "slug": "the-future-of-psychology-w-dario",
+  "post_date": "2026-09-24T20:32:06.907Z",
+  "audience": "everyone",
+  "podcast_duration": 4210.8604,
+  "video_upload_id": "59b2c160-38e3-432a-bdbb-2d95e607fed5",
+  "podcast_upload_id": "6932862c-6789-4534-b52d-fba0ddadbc27",
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/the-future-of-psychology-w-dario",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 8
+  },
+  "restacks": 1,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "/ Psychology vs AI",
+  "cover_image": "https://substack-video.s3.amazonaws.com/video_upload/post/217291113/59b2c160-38e3-432a-bdbb-2d95e607fed5/transcoded-1790281852.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_episode_image_url": "https://substack-post-media.s3.amazonaws.com/public/images/6ebdbdfc-cf7c-4d1f-b42a-65c5f4db227b_1400x1400.png",
+  "podcast_episode_image_info": {
+   "url": "https://substack-post-media.s3.amazonaws.com/public/images/6ebdbdfc-cf7c-4d1f-b42a-65c5f4db227b_1400x1400.png",
+   "isDefaultArt": false,
+   "isDefault": false
+  },
+  "podcast_url": "https://api.substack.com/api/v1/audio/upload/6932862c-6789-4534-b52d-fba0ddadbc27/src",
+  "videoUpload": {
+   "id": "59b2c160-38e3-432a-bdbb-2d95e607fed5",
+   "name": "0924.mov",
+   "created_at": "2026-09-24T20:23:34.139Z",
+   "uploaded_at": "2026-09-24T20:29:05.045Z",
+   "publication_id": 1470107,
+   "state": "transcoded",
+   "post_id": 217291113,
+   "user_id": 91963798,
+   "duration": 4210.933,
+   "height": 1080,
+   "width": 1920,
+   "thumbnail_id": 1790281852,
+   "preview_start": null,
+   "preview_duration": null,
+   "media_type": "video",
+   "primary_file_size": 6272768170,
+   "is_mux": true,
+   "mux_asset_id": "sB6lzCxV01ynthUenthHMl501alxsTGSZp02R02QGDc1gHY",
+   "mux_playback_id": "pgckELmKmPuQTdTBvq442dqH02gjw8W3igVjh3TNbyys",
+   "mux_preview_asset_id": null,
+   "mux_preview_playback_id": null,
+   "mux_rendition_quality": "high",
+   "mux_preview_rendition_quality": null,
+   "explicit": false,
+   "copyright_infringement": null,
+   "src_media_upload_id": null,
+   "live_stream_id": null,
+   "transcription": null,
+   "extractedAudio": {
+    "id": "6932862c-6789-4534-b52d-fba0ddadbc27",
+    "name": null,
+    "created_at": "2026-09-24T20:29:05.063Z",
+    "uploaded_at": "2026-09-24T20:29:05.045Z",
+    "publication_id": 1470107,
+    "state": "transcoded",
+    "post_id": 217291113,
+    "user_id": 91963798,
+    "duration": 4210.8604,
+    "height": null,
+    "width": null,
+    "thumbnail_id": 1,
+    "preview_start": null,
+    "preview_duration": null,
+    "media_type": "audio",
+    "primary_file_size": 67374411,
+    "is_mux": null,
+    "mux_asset_id": null,
+    "mux_playback_id": null,
+    "mux_preview_asset_id": null,
+    "mux_preview_playback_id": null,
+    "mux_rendition_quality": null,
+    "mux_preview_rendition_quality": null,
+    "explicit": false,
+    "copyright_infringement": null,
+    "src_media_upload_id": "59b2c160-38e3-432a-bdbb-2d95e607fed5",
+    "live_stream_id": null,
+    "transcription": {
+     "media_upload_id": "6932862c-6789-4534-b52d-fba0ddadbc27",
+     "created_at": "2026-09-24T20:31:06.526Z",
+     "requested_by": 91963798,
+     "status": "transcribed",
+     "modal_call_id": "fc-01M3AHTQN7V32P7TD9KHPP3G6C",
+     "approved_at": "2026-09-24T20:35:11.847Z",
+     "transcript_url": "s3://substack-video/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/transcription.json",
+     "attention_vocab": null,
+     "speaker_map": null,
+     "captions_map": {
+      "en": {
+       "url": "s3://substack-video/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/en.vtt",
+       "language": "en",
+       "original": true
+      }
+     },
+     "language": null,
+     "cdn_url": "https://substackcdn.com/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/transcription.json?Expires=1795140302&Key-Pair-Id=APKAIVDA3NPSMPSPESQQ&Signature=Uct8W0ScdsEuHkjrED-fFxIpyGRsFQ2lKPMR9314e-IwUxPNQYtPOo~112hrcjKdT9BlUphr4eekbxiBU0Jd5tdTRCD6gqsUJji6IpCyAu~cmJv~WM71Dre8vvJBkkzq2HHs~ZrM0fXH7D2mFPfZ9mFeKqNleA4-cIbb6~ZXq0wX6zbY2PwdHaD2h8zQndjgiSdKdTMoYfOQcslFdJjqskg5usZ-qUpXVSW2xNjEnm8AgEZf38WIpw9Sc7abU8XqpnnWaObNfViBjHvJdhiFv168KdOFu-N3DSP0XlLPmpF2gU7j0CVlR9QYUNTRttzKjQvOEPH1jKnfA9~j2jYJEg__",
+     "cdn_unaligned_url": "https://substackcdn.com/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/unaligned_transcription.json?Expires=1795140302&Key-Pair-Id=APKAIVDA3NPSMPSPESQQ&Signature=DTXof1TgksRNV1BkQV8pXad-9BcMGHJ9vRXav14tBRwOHf1HdKs9w6W7y1xqc1~6mygLVrn0QK7nr5HyviVXyr7803PacjRBQ2J7DnljQNWfkC9Bkdgbur-XIliWbRMVTqLEx6qCV6WWCzkEUZnw6wUMdUCNTuhfivsnB0avkXxI7LEcEb4HD-hP8QPNs8hs7y1EllzX~COciLaN-JCP~SkOgUF4sW0BsNxglhhZm1rStojZ~iLkOnB~K95GyMuLYcYvx1mwM2oseU39pvABaNfDKX-4QQxrtP2O2uzU8XB67mWIsUclLN5bNaqa98cIV-aUJTgRwF4P6cmAA5eJfA__",
+     "signed_captions": [
+      {
+       "language": "en",
+       "url": "https://substackcdn.com/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/en.vtt?Expires=1795140302&Key-Pair-Id=APKAIVDA3NPSMPSPESQQ&Signature=JsYX1ouLaQZHUPczwjDP21XKyT5OD8vNaNmCrD72hC8VpjqTA5yvBxIDbRCNDRC3QpuWWvtXP03wZv0Nk1rcktkOPgg8EmL8cMM2c-pHky8pHAVhaTUh7OFCN50EPE-FFcm35496OAFqIU6OEt~YvrYmBx2V-28P2NWbDr68pGM9MuqnSNVPqOBrX-jGHKFR4l2hw8~s59Ixb4BVuYRxj58ZTmndhJlaBYjvvr9xWY7EzH16-A4H5~g4Dux5Oju2N79tCrlIDBnfFlYcadI1bpRqDir6F7tyxejKqE59bLayHwKpQLuXkhAwnl3bKpWP6KCeVdFy6iAP18SBdFJuyA__",
+       "original": true
+      }
+     ]
+    }
+   }
+  },
+  "podcastFields": {
+   "post_id": 217291113,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": {
+   "id": "6932862c-6789-4534-b52d-fba0ddadbc27",
+   "name": null,
+   "created_at": "2026-09-24T20:29:05.063Z",
+   "uploaded_at": "2026-09-24T20:29:05.045Z",
+   "publication_id": 1470107,
+   "state": "transcoded",
+   "post_id": 217291113,
+   "user_id": 91963798,
+   "duration": 4210.8604,
+   "height": null,
+   "width": null,
+   "thumbnail_id": 1,
+   "preview_start": null,
+   "preview_duration": null,
+   "media_type": "audio",
+   "primary_file_size": 67374411,
+   "is_mux": null,
+   "mux_asset_id": null,
+   "mux_playback_id": null,
+   "mux_preview_asset_id": null,
+   "mux_preview_playback_id": null,
+   "mux_rendition_quality": null,
+   "mux_preview_rendition_quality": null,
+   "explicit": false,
+   "copyright_infringement": null,
+   "src_media_upload_id": "59b2c160-38e3-432a-bdbb-2d95e607fed5",
+   "live_stream_id": null,
+   "transcription": {
+    "media_upload_id": "6932862c-6789-4534-b52d-fba0ddadbc27",
+    "created_at": "2026-09-24T20:31:06.526Z",
+    "requested_by": 91963798,
+    "status": "transcribed",
+    "modal_call_id": "fc-01M3AHTQN7V32P7TD9KHPP3G6C",
+    "approved_at": "2026-09-24T20:35:11.847Z",
+    "transcript_url": "s3://substack-video/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/transcription.json",
+    "attention_vocab": null,
+    "speaker_map": null,
+    "captions_map": {
+     "en": {
+      "url": "s3://substack-video/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/en.vtt",
+      "language": "en",
+      "original": true
+     }
+    },
+    "language": null,
+    "cdn_url": "https://substackcdn.com/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/transcription.json?Expires=1795140302&Key-Pair-Id=APKAIVDA3NPSMPSPESQQ&Signature=Uct8W0ScdsEuHkjrED-fFxIpyGRsFQ2lKPMR9314e-IwUxPNQYtPOo~112hrcjKdT9BlUphr4eekbxiBU0Jd5tdTRCD6gqsUJji6IpCyAu~cmJv~WM71Dre8vvJBkkzq2HHs~ZrM0fXH7D2mFPfZ9mFeKqNleA4-cIbb6~ZXq0wX6zbY2PwdHaD2h8zQndjgiSdKdTMoYfOQcslFdJjqskg5usZ-qUpXVSW2xNjEnm8AgEZf38WIpw9Sc7abU8XqpnnWaObNfViBjHvJdhiFv168KdOFu-N3DSP0XlLPmpF2gU7j0CVlR9QYUNTRttzKjQvOEPH1jKnfA9~j2jYJEg__",
+    "cdn_unaligned_url": "https://substackcdn.com/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/unaligned_transcription.json?Expires=1795140302&Key-Pair-Id=APKAIVDA3NPSMPSPESQQ&Signature=DTXof1TgksRNV1BkQV8pXad-9BcMGHJ9vRXav14tBRwOHf1HdKs9w6W7y1xqc1~6mygLVrn0QK7nr5HyviVXyr7803PacjRBQ2J7DnljQNWfkC9Bkdgbur-XIliWbRMVTqLEx6qCV6WWCzkEUZnw6wUMdUCNTuhfivsnB0avkXxI7LEcEb4HD-hP8QPNs8hs7y1EllzX~COciLaN-JCP~SkOgUF4sW0BsNxglhhZm1rStojZ~iLkOnB~K95GyMuLYcYvx1mwM2oseU39pvABaNfDKX-4QQxrtP2O2uzU8XB67mWIsUclLN5bNaqa98cIV-aUJTgRwF4P6cmAA5eJfA__",
+    "signed_captions": [
+     {
+      "language": "en",
+      "url": "https://substackcdn.com/video_upload/post/217291113/6932862c-6789-4534-b52d-fba0ddadbc27/1790281877/en.vtt?Expires=1795140302&Key-Pair-Id=APKAIVDA3NPSMPSPESQQ&Signature=JsYX1ouLaQZHUPczwjDP21XKyT5OD8vNaNmCrD72hC8VpjqTA5yvBxIDbRCNDRC3QpuWWvtXP03wZv0Nk1rcktkOPgg8EmL8cMM2c-pHky8pHAVhaTUh7OFCN50EPE-FFcm35496OAFqIU6OEt~YvrYmBx2V-28P2NWbDr68pGM9MuqnSNVPqOBrX-jGHKFR4l2hw8~s59Ixb4BVuYRxj58ZTmndhJlaBYjvvr9xWY7EzH16-A4H5~g4Dux5Oju2N79tCrlIDBnfFlYcadI1bpRqDir6F7tyxejKqE59bLayHwKpQLuXkhAwnl3bKpWP6KCeVdFy6iAP18SBdFJuyA__",
+      "original": true
+     }
+    ]
+   }
+  },
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "/ Psychology vs AI",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "Dr. Dario Krpan is an Associate Professor of Behavioural Science at London School of Economics. His research focuses on social and cognitive psychology, and behavioural change in response to new technology.",
+  "wordcount": 432,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [
+   {
+    "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+    "publication_id": 1470107,
+    "name": "Psychology",
+    "slug": "psychology",
+    "hidden": false
+   }
+  ],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     44,
+     89,
+     116
+    ],
+    "population": 3
+   },
+   "DarkVibrant": {
+    "rgb": [
+     36.465,
+     73.75874999999999,
+     96.135
+    ],
+    "population": 0
+   },
+   "LightVibrant": {
+    "rgb": [
+     158.865,
+     196.15875,
+     218.535
+    ],
+    "population": 0
+   },
+   "Muted": {
+    "rgb": [
+     135,
+     128,
+     120
+    ],
+    "population": 292
+   },
+   "DarkMuted": {
+    "rgb": [
+     90,
+     61,
+     60
+    ],
+    "population": 254
+   },
+   "LightMuted": {
+    "rgb": [
+     205,
+     192,
+     177
+    ],
+    "population": 136
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 8,
+  "comment_count": 3,
+  "child_comment_count": 2,
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 217070069,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "How to keep the infinite at bay",
+  "social_title": "How to keep the infinite at bay",
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "how-to-keep-the-infinite-at-bay",
+  "post_date": "2026-09-23T13:09:27.558Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/how-to-keep-the-infinite-at-bay",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 5
+  },
+  "restacks": 0,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "and why this part of history has been difficult to break out of",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!w_M5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef08bf23-fc42-4910-a767-7aea1e06cf1a_1641x1362.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 217070069,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "and why this part of history has been difficult to break out of",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "This is part 3 of the AGI and The Infinite series. This can be read standalone, but to fully understand what I mean by a couple of the words used, please see parts 1 and 2.",
+  "wordcount": 3092,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [
+   {
+    "id": "3a0b6553-49e7-4f07-9364-dec0a8489cfb",
+    "publication_id": 1470107,
+    "name": "Psychology",
+    "slug": "psychology",
+    "hidden": false
+   }
+  ],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
+  "headlineTest": {
+   "post_id": 217070069,
+   "starts_at": "2026-09-23T13:09:27.458Z",
+   "ended_at": "2026-09-23T19:09:27.650Z",
+   "planned_duration_ms": 21600000,
+   "test_cohort_percent": 50,
+   "test_cohort_emailed": true,
+   "main_cohort_emailed": true,
+   "created_at": "2026-09-23T13:09:03.308Z",
+   "updated_at": "2026-09-23T19:09:32.722Z",
+   "creator_id": 91963798,
+   "ended_early": false,
+   "winner_overridden": false
+  },
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     172,
+     108,
+     68
+    ],
+    "population": 1
+   },
+   "DarkVibrant": {
+    "rgb": [
+     84,
+     36,
+     52
+    ],
+    "population": 1
+   },
+   "LightVibrant": {
+    "rgb": [
+     204,
+     194,
+     139
+    ],
+    "population": 79
+   },
+   "Muted": {
+    "rgb": [
+     135,
+     97,
+     87
+    ],
+    "population": 400
+   },
+   "DarkMuted": {
+    "rgb": [
+     87,
+     56,
+     63
+    ],
+    "population": 489
+   },
+   "LightMuted": {
+    "rgb": [
+     159,
+     191,
+     201
+    ],
+    "population": 473
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 5,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+   {
+    "post_id": 217070069,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/217070069/tts/2e1ee0c6-cf20-4148-89eb-110708ae66bf/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 216193923,
+  "editor_v2": false,
+  "publication_id": 1470107,
+  "title": "A natural development cannot be halted",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "a-natural-development-cannot-be-halted",
+  "post_date": "2026-09-21T20:36:43.922Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://www.alreadyhappened.xyz/p/a-natural-development-cannot-be-halted",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "\u2764": 23
+  },
+  "restacks": 3,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "I heard about a whirlwind that's comin' 'round, it's gonna carry off all that isn't bound",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!SURd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0257ce77-5e8e-4561-9c81-6879ce28b917_800x451.gif",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 216193923,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "I heard about a whirlwind that's comin' 'round, it's gonna carry off all that isn't bound",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "1. One agent, EARLY[big], was recruited for an ambitious trip-wire experiment despite having a very large remaining budget. It worried that ending its run early to run the experiment was a poor tradeoff, even though it was already poisoned:",
+  "wordcount": 5351,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [
+   {
+    "id": "1097c064-e7b2-4ea4-8f27-f659ab80c2a4",
+    "publication_id": 1470107,
+    "name": "Philosophy",
+    "slug": "philosophy",
+    "hidden": false
+   }
+  ],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     227,
+     142,
+     108
+    ],
+    "population": 74
+   },
+   "DarkVibrant": {
+    "rgb": [
+     111.384,
+     46.978285714285725,
+     21.215999999999998
+    ],
+    "population": 0
+   },
+   "LightVibrant": {
+    "rgb": [
+     252,
+     180,
+     132
+    ],
+    "population": 1
+   },
+   "Muted": {
+    "rgb": [
+     163,
+     114,
+     103
+    ],
+    "population": 327
+   },
+   "DarkMuted": {
+    "rgb": [
+     94,
+     65,
+     63
+    ],
+    "population": 19
+   },
+   "LightMuted": {
+    "rgb": [
+     205,
+     180,
+     172
+    ],
+    "population": 363
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 91963798,
+    "name": "Stefan Kelly",
+    "handle": "alreadyhappened",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+    "bio": "Psychology and technology in the prophetic perfect tense.",
+    "profile_set_up_at": "2023-02-07T17:19:21.740Z",
+    "reader_installed_at": "2023-04-02T21:44:45.007Z",
+    "publicationUsers": [
+     {
+      "id": 1435537,
+      "user_id": 91963798,
+      "publication_id": 1470107,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1470107,
+       "name": "Already Happened",
+       "subdomain": "alreadyhappened",
+       "custom_domain": "www.alreadyhappened.xyz",
+       "custom_domain_optional": false,
+       "hero_text": "Psychology and technology in the prophetic perfect tense",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/81a03e13-c105-4d94-96a5-4c0c1d956f8b_400x400.png",
+       "author_id": 91963798,
+       "primary_user_id": 91963798,
+       "theme_var_background_pop": "#2EE240",
+       "created_at": "2023-03-05T23:42:33.227Z",
+       "email_from_name": "Already Happened",
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     },
+     {
+      "id": 8162029,
+      "user_id": 91963798,
+      "publication_id": 7978644,
+      "role": "admin",
+      "public": true,
+      "is_primary": false,
+      "publication": {
+       "id": 7978644,
+       "name": "Already Priced In",
+       "subdomain": "stefankelly",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "already happened's second blog",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/fa03d3f3-b192-44ba-9758-142ad9ce8bad_400x400.jpeg",
+       "author_id": 91963798,
+       "primary_user_id": null,
+       "theme_var_background_pop": "#FF6719",
+       "created_at": "2026-02-10T22:58:31.950Z",
+       "email_from_name": null,
+       "copyright": "Stefan Kelly",
+       "founding_plan_name": null,
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "disabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "newspaper",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "twitter_screen_name": "StefanKelly",
+    "is_guest": false,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": null,
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 23,
+  "comment_count": 5,
+  "child_comment_count": 3,
+  "audio_items": [
+   {
+    "post_id": 216193923,
+    "voice_id": "en-US-CoraMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/216193923/tts/f42c5355-97bb-45d7-b672-176299ed8182/en-US-CoraMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ },
+ {
   "id": 215511793,
   "editor_v2": false,
   "publication_id": 1470107,
@@ -26,7 +1360,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 18
+   "\u2764": 21
   },
   "restacks": 3,
   "restacked_post_id": null,
@@ -70,15 +1404,17 @@
   "language": "en",
   "postTags": [
    {
-    "id": "fea09388-7def-4237-a840-390138d1c647",
+    "id": "1264b033-1a7d-4a9c-9670-6c647cdbb0d9",
     "publication_id": 1470107,
-    "name": "Media Analysis",
-    "slug": "media",
+    "name": "Artefacts",
+    "slug": "artefacts",
     "hidden": false
    }
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -219,19 +1555,20 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 18,
+  "reaction_count": 21,
   "comment_count": 4,
   "child_comment_count": 2,
   "audio_items": [
    {
     "post_id": 215511793,
     "voice_id": "en-US-CoraMultilingualNeural",
-    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/215511793/tts/7184d005-9a8f-4dd2-8068-75a191940e8a/en-US-CoraMultilingualNeural.mp3",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/215511793/tts/287c751e-0d38-4c09-865a-240d36c765da/en-US-CoraMultilingualNeural.mp3",
     "type": "tts",
     "status": "completed"
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -261,9 +1598,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 9
+   "\u2764": 46
   },
-  "restacks": 3,
+  "restacks": 8,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -314,6 +1651,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -454,9 +1793,9 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 9,
-  "comment_count": 3,
-  "child_comment_count": 2,
+  "reaction_count": 46,
+  "comment_count": 6,
+  "child_comment_count": 4,
   "audio_items": [
    {
     "post_id": 215378894,
@@ -467,6 +1806,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -549,6 +1889,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -702,6 +2044,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -731,7 +2074,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 10
+   "\u2764": 13
   },
   "restacks": 1,
   "restacked_post_id": null,
@@ -776,6 +2119,8 @@
   "postTags": [],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -916,7 +2261,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 10,
+  "reaction_count": 13,
   "comment_count": 1,
   "child_comment_count": 1,
   "audio_items": [
@@ -929,6 +2274,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -960,9 +2306,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 61
+   "\u2764": 81
   },
-  "restacks": 17,
+  "restacks": 23,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -1013,6 +2359,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -1153,7 +2501,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 61,
+  "reaction_count": 81,
   "comment_count": 14,
   "child_comment_count": 12,
   "audio_items": [
@@ -1166,6 +2514,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -1248,6 +2597,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -1401,6 +2752,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -1475,6 +2827,8 @@
   "postTags": [],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -1628,6 +2982,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -1710,6 +3065,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -1863,6 +3220,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -1894,9 +3252,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 49
+   "\u2764": 59
   },
-  "restacks": 11,
+  "restacks": 15,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -1947,6 +3305,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -2087,7 +3447,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 49,
+  "reaction_count": 59,
   "comment_count": 13,
   "child_comment_count": 12,
   "audio_items": [
@@ -2100,6 +3460,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -2174,6 +3535,8 @@
   "postTags": [],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -2327,6 +3690,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -2409,6 +3773,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -2562,6 +3928,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -2644,6 +4011,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -2797,6 +4166,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -2826,9 +4196,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 27
+   "\u2764": 30
   },
-  "restacks": 4,
+  "restacks": 5,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -2879,6 +4249,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -3019,9 +4391,9 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 27,
-  "comment_count": 0,
-  "child_comment_count": 0,
+  "reaction_count": 30,
+  "comment_count": 1,
+  "child_comment_count": 1,
   "audio_items": [
    {
     "post_id": 178780102,
@@ -3032,6 +4404,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -3114,6 +4487,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -3267,6 +4642,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -3349,6 +4725,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -3502,6 +4880,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -3584,6 +4963,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -3737,6 +5118,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -3819,6 +5201,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -3972,6 +5356,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -4054,6 +5439,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -4207,6 +5594,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -4289,6 +5677,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -4442,6 +5832,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -4516,6 +5907,8 @@
   "postTags": [],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -4669,6 +6062,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -4751,6 +6145,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -4904,6 +6300,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -4986,6 +6383,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": {
    "post_id": 169097364,
    "starts_at": "2025-08-10T05:00:29.906Z",
@@ -5152,6 +6551,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -5234,6 +6634,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -5387,6 +6789,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -5469,6 +6872,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -5622,6 +7027,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -5704,6 +7110,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -5857,6 +7265,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -5939,6 +7348,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -6092,6 +7503,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -6174,6 +7586,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -6327,6 +7741,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -6356,7 +7771,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 111
+   "\u2764": 110
   },
   "restacks": 32,
   "restacked_post_id": null,
@@ -6409,6 +7824,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -6549,9 +7966,9 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 111,
-  "comment_count": 9,
-  "child_comment_count": 7,
+  "reaction_count": 110,
+  "comment_count": 8,
+  "child_comment_count": 6,
   "audio_items": [
    {
     "post_id": 162831813,
@@ -6562,6 +7979,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -6636,6 +8054,8 @@
   "postTags": [],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -6789,6 +8209,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -6871,6 +8292,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -7024,6 +8447,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -7048,12 +8472,14 @@
   "canonical_url": "https://www.alreadyhappened.xyz/p/theres-a-reasonable-chance-that-youre",
   "section_id": null,
   "top_exclusions": [],
-  "pins": [],
+  "pins": [
+   1470107
+  ],
   "is_section_pinned": false,
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 247
+   "\u2764": 252
   },
   "restacks": 50,
   "restacked_post_id": null,
@@ -7106,6 +8532,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -7246,7 +8674,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 247,
+  "reaction_count": 252,
   "comment_count": 14,
   "child_comment_count": 12,
   "audio_items": [
@@ -7259,6 +8687,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -7288,9 +8717,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 185
+   "\u2764": 193
   },
-  "restacks": 38,
+  "restacks": 39,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -7341,6 +8770,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -7481,7 +8912,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 185,
+  "reaction_count": 193,
   "comment_count": 15,
   "child_comment_count": 10,
   "audio_items": [
@@ -7494,6 +8925,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -7523,7 +8955,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 80
+   "\u2764": 81
   },
   "restacks": 22,
   "restacked_post_id": null,
@@ -7576,6 +9008,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -7716,7 +9150,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 80,
+  "reaction_count": 81,
   "comment_count": 8,
   "child_comment_count": 6,
   "audio_items": [
@@ -7729,6 +9163,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -7813,6 +9248,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -7954,8 +9391,8 @@
   ],
   "reaction": null,
   "reaction_count": 242,
-  "comment_count": 13,
-  "child_comment_count": 11,
+  "comment_count": 15,
+  "child_comment_count": 12,
   "audio_items": [
    {
     "post_id": 154703257,
@@ -7966,6 +9403,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -7995,9 +9433,9 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 76
+   "\u2764": 83
   },
-  "restacks": 17,
+  "restacks": 19,
   "restacked_post_id": null,
   "restacked_post_slug": null,
   "restacked_pub_name": null,
@@ -8048,6 +9486,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -8188,7 +9628,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 76,
+  "reaction_count": 83,
   "comment_count": 7,
   "child_comment_count": 7,
   "audio_items": [
@@ -8201,6 +9641,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -8283,6 +9724,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -8436,6 +9879,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -8518,6 +9962,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -8671,6 +10117,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -8753,6 +10200,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -8906,6 +10355,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -8988,6 +10438,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -9141,6 +10593,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -9223,6 +10676,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -9376,6 +10831,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -9458,6 +10914,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -9611,6 +11069,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -9693,6 +11152,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -9846,6 +11307,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -9928,6 +11390,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -10081,6 +11545,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -10163,6 +11628,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -10316,6 +11783,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -10412,6 +11880,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -10565,6 +12035,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -10640,6 +12111,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -10784,6 +12257,7 @@
   "comment_count": 1,
   "child_comment_count": 1,
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  },
  {
@@ -10813,7 +12287,7 @@
   "section_slug": null,
   "section_name": null,
   "reactions": {
-   "\u2764": 34
+   "\u2764": 35
   },
   "restacks": 14,
   "restacked_post_id": null,
@@ -10873,6 +12347,8 @@
   ],
   "teaser_post_eligible": true,
   "postCountryBlocks": [],
+  "disable_drop_cap": false,
+  "cover_image_crop": null,
   "headlineTest": null,
   "coverImagePalette": {
    "Vibrant": {
@@ -11013,7 +12489,7 @@
    }
   ],
   "reaction": null,
-  "reaction_count": 34,
+  "reaction_count": 35,
   "comment_count": 4,
   "child_comment_count": 2,
   "audio_items": [
@@ -11026,6 +12502,7 @@
    }
   ],
   "is_geoblocked": false,
+  "is_editor_preview": false,
   "hasCashtag": false
  }
 ]
