@@ -565,7 +565,7 @@
       const dt = Math.max(0, Math.min(0.05, (now - last) / 1000 || 0));   // the first frame can predate start()
       last = now; time += dt;
       if (state === 'threshold') {
-        const target = W / 2 - (px !== null ? (px - W / 2) * 0.88 : 0) + Math.sin(time * 0.55) * W * 0.012;
+        const target = W / 2 - (px !== null ? (px - W / 2) * 0.36 : 0) + Math.sin(time * 0.55) * W * 0.012;
         split += (target - split) * Math.min(1, dt * 4.5);
         hero.style.setProperty('--split', split.toFixed(1) + 'px');
         root.style.setProperty('--split', split.toFixed(1) + 'px');
