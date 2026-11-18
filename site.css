@@ -313,6 +313,14 @@ section.block { padding-top: clamp(72px, 13vh, 150px); }
   html:not([data-state="threshold"]) .pane[data-world="artificial"] > .art-img { left: 34%; }
 }
 
+/* Videos laid over stills (see addVideo in site.js) */
+.art-video { opacity: 0; transition: opacity 1.2s ease; }
+.art-video.is-playing { opacity: 1; }
+.pane > .art-video.is-playing { opacity: 1; }
+.opener { position: relative; }
+.opener .art-video { position: absolute; inset: 10px; width: calc(100% - 20px); height: calc(100% - 20px); aspect-ratio: auto; object-fit: cover; transition: none; }
+.art-img.awaits-video { visibility: hidden; }
+
 /* Section openers: a wide framed image above a section. Hidden until its image exists. */
 .opener { display: none; margin-bottom: clamp(2.4rem, 6vh, 4rem); }
 html[data-world="natural"] .opener.has-natural, html[data-world="artificial"] .opener.has-artificial { display: block; }

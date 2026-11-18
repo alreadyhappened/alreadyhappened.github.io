@@ -559,7 +559,12 @@ PAGE = """<!DOCTYPE html>
   <meta property="og:title" content="{og_title}">
   <meta property="og:description" content="{description}">
   <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Stefan Kelly">
+  <meta property="og:url" content="https://stefankelly.com/blog/{file}.html">
+  <meta name="twitter:card" content="summary_large_image">
   {og_image}
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <script src="/boot.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -652,6 +657,7 @@ def build_post(post, slug_to_file):
         media=media_html(post["slug"]),
         content=content,
         canonical=esc(post["canonical"]),
+        file=post["file"],
     )
     with open(os.path.join(BLOG_DIR, post["file"] + ".html"), "w") as f:
         f.write(out)
@@ -659,6 +665,7 @@ def build_post(post, slug_to_file):
 
 REDIRECT = """<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><title>Stefan Kelly</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <meta http-equiv="refresh" content="0; url=/"><link rel="canonical" href="/"></head>
 <body><a href="/">Stefan Kelly</a></body></html>
 """

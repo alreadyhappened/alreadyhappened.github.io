@@ -125,12 +125,35 @@
       let i = 0;
       img.alt = ''; img.className = 'art-img'; img.decoding = 'async';
       if (!only) img.dataset.in = w;
-      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); };
+      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); if (el.dataset.artVideo) addVideo(el, w, img); };
       img.onerror = () => { if (++i < exts.length) img.src = `/art/${el.dataset.art}-${w}.${exts[i]}`; else img.remove(); };
       img.src = `/art/${el.dataset.art}-${w}.${exts[0]}`;
       el.prepend(img);
     }
   });
+
+  /* A slot with data-art-video also gets art/name-world.mp4 laid over its still.
+     "loop" repeats quietly; "once" plays a single time when it comes into view and then rests
+     on its last frame, which is the still. Nothing moves for people who ask for reduced motion. */
+  function addVideo(el, w, img) {
+    if (reduced) return;
+    const once = el.dataset.artVideo === 'once';
+    const v = document.createElement('video');
+    v.className = 'art-img art-video'; v.muted = true; v.playsInline = true; v.loop = !once;
+    v.preload = 'auto'; v.setAttribute('aria-hidden', 'true');
+    if (img.dataset.in) v.dataset.in = img.dataset.in;
+    v.src = `/art/${el.dataset.art}-${w}.mp4`;
+    if (once) img.classList.add('awaits-video');
+    const reveal = () => img.classList.remove('awaits-video');
+    setTimeout(() => { if (!v.classList.contains('is-playing')) reveal(); }, 2500);
+    v.addEventListener('error', () => { reveal(); v.remove(); });
+    v.addEventListener('playing', () => { v.classList.add('is-playing'); reveal(); });
+    img.after(v);
+    new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) { if (!(once && v.ended)) v.play().catch(() => {}); }
+      else if (!v.ended) v.pause();
+    }, { threshold: 0.15 }).observe(v);
+  }
 
   /* ================= 2. The instrument ================= */
 
