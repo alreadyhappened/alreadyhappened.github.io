@@ -33,6 +33,7 @@ BELIEFS = {
         "AI would not require consciousness to have an unconscious.",
         "agents in swarms may be better mapped as a single mind.",
         "we may be able to read artificial minds.",
+        "AI connection does not substitute for humans.",
     ],
 }
 
@@ -102,6 +103,9 @@ ESSAYS = {
     ],
     ("artificial", 5): [  # we may be able to read artificial minds
         "how-to-move-two-goalposts-at-the",        # deception features revealing what a model holds under its answer
+    ],
+    ("artificial", 6): [  # AI connection does not substitute for humans
+        "zucks-friendship-numbers-dont-add",       # AI friends offer comfort, not the connection people say they want
     ],
 }
 

@@ -577,7 +577,7 @@ PAGE = """<!DOCTYPE html>
 </header>
 
 <button class="switch" type="button" role="switch" aria-checked="false" aria-label="Show artificial minds">
-  <span class="switch-label" data-side="natural">Natural</span>
+  <span class="switch-label" data-side="natural">Human</span>
   <span class="switch-track"><span class="switch-knob"></span></span>
   <span class="switch-label" data-side="artificial">Artificial</span>
 </button>
