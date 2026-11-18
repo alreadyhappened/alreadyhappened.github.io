@@ -129,6 +129,11 @@ html:not([data-state="chosen"]) .rail { opacity: 0; transition: none; }
   position: absolute; inset: 0 0 auto 0; z-index: 20; pointer-events: none;
   padding: clamp(28px, 5vh, 48px) clamp(22px, 5vw, 76px);
 }
+/* On the threshold the intro line is drawn twice, once in each world's ink, and cut at the split,
+   so it stays readable whichever way the split is pushed. --split is set on <html> by site.js. */
+.mast-alt { display: none; color: var(--ink); }
+html:not([data-state="chosen"]) .mast-alt { display: block; clip-path: inset(0 0 0 var(--split, 50%)); }
+html:not([data-state="chosen"]) .mast:not(.mast-alt) { clip-path: inset(0 calc(100% - var(--split, 50%)) 0 0); }
 .intro {
   pointer-events: auto; display: inline-block; max-width: min(46vw, 30rem);
   font-family: "Cormorant Garamond", serif; font-weight: 300; font-size: clamp(1.3rem, 2.1vw, 1.8rem); line-height: 1.2;

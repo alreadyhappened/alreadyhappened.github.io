@@ -565,13 +565,15 @@
       const dt = Math.max(0, Math.min(0.05, (now - last) / 1000 || 0));   // the first frame can predate start()
       last = now; time += dt;
       if (state === 'threshold') {
-        const target = W / 2 - (px !== null ? (px - W / 2) * 0.36 : 0) + Math.sin(time * 0.55) * W * 0.012;
+        const target = W / 2 - (px !== null ? (px - W / 2) * 0.88 : 0) + Math.sin(time * 0.55) * W * 0.012;
         split += (target - split) * Math.min(1, dt * 4.5);
         hero.style.setProperty('--split', split.toFixed(1) + 'px');
+        root.style.setProperty('--split', split.toFixed(1) + 'px');
       } else if (commit) {
         const p = clamp01((now - commit.t0) / commit.dur);
         split = commit.from + (commit.to - commit.from) * ease(p);
         hero.style.setProperty('--split', split.toFixed(1) + 'px');
+        root.style.setProperty('--split', split.toFixed(1) + 'px');
         if (p >= 1) finishCommit();
       }
       if (morph) {
@@ -604,6 +606,7 @@
       state = 'chosen'; root.dataset.state = 'chosen';
       M = world === 'artificial' ? 1 : 0;
       hero.style.removeProperty('--split');
+      root.style.removeProperty('--split');
       if (sw) sw.setAttribute('aria-checked', String(world === 'artificial'));
       if (!running) renderOnce();
     }
