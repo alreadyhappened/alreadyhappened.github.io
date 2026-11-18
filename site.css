@@ -142,9 +142,7 @@ html:not([data-state="chosen"]) .rail { opacity: 0; transition: none; }
 .switch {
   position: fixed; top: 26px; right: 30px; z-index: 30;
   display: inline-flex; align-items: center; gap: .8rem;
-  padding: .7rem 1.1rem; border-radius: 40px; border: 1px solid var(--rule);
-  background: color-mix(in srgb, var(--bg) 80%, transparent);
-  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  padding: .7rem 1.1rem; border: 0; background: none;
   cursor: pointer; color: var(--ink);
   font-family: var(--font-label); font-size: var(--label-size); letter-spacing: var(--label-space);
   text-transform: uppercase; white-space: nowrap;
@@ -216,12 +214,6 @@ html[data-state="chosen"] .enter { display: none; }
 }
 html[data-state="chosen"] .divider { display: none; }
 
-.scroll-cue {
-  position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%);
-  width: 1px; height: 44px; background: linear-gradient(to bottom, var(--gold), transparent);
-  opacity: 0; transition: opacity 1s ease 1s;
-}
-html[data-state="chosen"] .scroll-cue { opacity: .8; }
 
 /* ---------- World filtering ---------- */
 
@@ -300,9 +292,11 @@ section.block { padding-top: clamp(72px, 13vh, 150px); }
 /* ---------- Art slots: images dropped into next/art/ ---------- */
 
 /* Hero: the image replaces the drawn instrument and fades into the page at its edges. */
+/* Size and position come from site.js (--art-h, --art-top), which keeps every word off the image. */
 .pane > .art-img {
-  position: absolute; top: 52%; left: 50%; height: min(92svh, 125vw); width: auto; max-width: none;
-  transform: translate(-50%, -50%); opacity: 0; pointer-events: none;
+  position: absolute; top: var(--art-top, 18svh); left: 50%;
+  height: var(--art-h, 60svh); width: auto; max-width: none;
+  transform: translateX(-50%); opacity: 0; pointer-events: none;
   transition: opacity 1.2s ease, left 1.4s cubic-bezier(.7, 0, .2, 1);
   -webkit-mask-image: radial-gradient(closest-side, #000 84%, transparent 100%);
   mask-image: radial-gradient(closest-side, #000 84%, transparent 100%);
@@ -440,13 +434,11 @@ html[data-world="natural"]::view-transition-new(root) { animation-name: wipe-fro
   .intro { max-width: 42vw; }
   .switch { top: auto; right: auto; left: 50%; bottom: 18px; transform: translateX(-50%); }
   .hero-text { width: 44vw; bottom: 92px; }
-  .pane > .art-img { top: 38%; height: min(52svh, 96vw); }
-  html:not([data-state="chosen"]) .hero-title { text-shadow: 0 0 18px var(--bg), 0 0 6px var(--bg); }
+    html:not([data-state="chosen"]) .hero-title { text-shadow: 0 0 18px var(--bg), 0 0 6px var(--bg); }
   html[data-state="chosen"] .hero-text { width: calc(100vw - 44px); }
   .hero-title { font-size: clamp(2.1rem, 10.5vw, 3.4rem); }
   html[data-state="chosen"] .hero-title { font-size: clamp(3rem, 15vw, 4.4rem); }
   .hero-sub { font-size: 1rem; margin-top: .9rem; }
-  .scroll-cue { display: none; }
   .inquiry { grid-template-columns: 76px 1fr; gap: 1.1rem; }
   .pieces { grid-template-columns: 1fr; }
   html[data-world="natural"] .piece[data-lead~="natural"],

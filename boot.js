@@ -1,12 +1,12 @@
 /* Runs before first paint. Decides which world the visitor is in.
-   - A stored or ?world= choice wins.
-   - With no choice, the home page (data-gate) shows the threshold.
+   - The home page (data-gate) always opens on the threshold, unless ?world= asks for a side.
+   - Elsewhere a stored or ?world= choice wins.
    - With no choice on an essay, open in the world the essay belongs to (data-default-world).
-   - With no choice anywhere else, follow the visitor's daylight: natural by day, artificial by night. */
+   - With no choice anywhere else, follow the visitor's daylight: human by day, artificial by night. */
 (function () {
   var d = document.documentElement, q = new URLSearchParams(location.search), w = q.get('world'), s = null;
   try { if (q.has('threshold')) localStorage.removeItem('world'); else s = localStorage.getItem('world'); } catch (e) {}
-  var c = (w === 'natural' || w === 'artificial') ? w : s;
+  var c = (w === 'natural' || w === 'artificial') ? w : (d.hasAttribute('data-gate') ? null : s);
   if (c !== 'natural' && c !== 'artificial') {
     if (d.hasAttribute('data-gate')) { d.dataset.state = 'threshold'; d.dataset.world = 'natural'; return; }
     var dflt = d.getAttribute('data-default-world');

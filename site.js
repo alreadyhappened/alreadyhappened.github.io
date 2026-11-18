@@ -69,6 +69,50 @@
     if (location.hash === '#about') open();
   }
 
+  /* Size the hero image so no words ever sit on it: the largest circle that starts below the
+     intro line and clears every title and Enter button, on the threshold and after choosing. */
+  const heroEl = document.querySelector('.hero');
+  if (heroEl) {
+    const fit = () => {
+      const intro = document.querySelector('.mast .intro');
+      const hr = heroEl.getBoundingClientRect(), vw = hr.width, vh = hr.height;
+      const top0 = (intro ? intro.getBoundingClientRect().bottom - hr.top : 0) + 18;
+      const avail = vh - top0 - Math.max(16, vh * .03);
+      const phone = innerWidth <= 760;
+      // Measure the words themselves (a heading's box is wider than its text), line by line.
+      const rects = e => { const r = document.createRange(); r.selectNodeContents(e); return [...r.getClientRects()]; };
+      const boxes = sel => [...heroEl.querySelectorAll(sel)].flatMap(rects)
+        .filter(q => q.width > 0).map(q => ({ l: q.left - hr.left - 14, r: q.right - hr.left + 14, t: q.top - hr.top - 14, b: q.bottom - hr.top + 14 }));
+      const all = boxes('.hero-title, .hero-text button, .hero-text a');
+      const nat = boxes('.pane[data-world="natural"] .hero-title, .pane[data-world="natural"] .hero-text button');
+      const art = boxes('.pane[data-world="artificial"] .hero-title, .pane[data-world="artificial"] .hero-text button');
+      const cases = [[.5, all]];
+      if (innerWidth >= 900) cases.push([.66, nat], [.34, art]);
+      // Try two bands: the full height below the intro, and the space between the intro and the titles
+      // (which is what fits on a phone). Use whichever allows the bigger circle.
+      const titleTop = Math.min(...all.map(q => q.t));
+      const bands = [[top0, top0 + avail], [top0, titleTop]];
+      const clear = (h, a, b) => {
+        const cy = (a + b) / 2, R = h * .48;
+        return cases.every(([fx, list]) => list.every(q => {
+          const cx = vw * fx, nx = Math.max(q.l, Math.min(cx, q.r)), ny = Math.max(q.t, Math.min(cy, q.b));
+          return Math.hypot(nx - cx, ny - cy) >= R;
+        }));
+      };
+      let best = { h: 0, top: top0 };
+      for (const [a, b] of bands) {
+        let lo = 0, hi = Math.min(b - a, vw * (phone ? .96 : 1.25));
+        if (hi <= 0) continue;
+        if (clear(hi, a, b)) lo = hi; else for (let k = 0; k < 24; k++) { const m = (lo + hi) / 2; if (clear(m, a, b)) lo = m; else hi = m; }
+        if (lo > best.h) best = { h: lo, top: (a + b) / 2 - lo / 2 };
+      }
+      heroEl.style.setProperty('--art-h', Math.floor(best.h) + 'px');
+      heroEl.style.setProperty('--art-top', Math.round(best.top) + 'px');
+    };
+    fit(); addEventListener('resize', fit); if (document.fonts) document.fonts.ready.then(fit);
+    new MutationObserver(() => { fit(); setTimeout(fit, 1600); }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-state'] });
+  }
+
   /* ================= Art slots =================
      Any element with data-art="name" looks for art/name-natural.* and art/name-artificial.*
      (webp, jpg or png). Where a file exists it is shown; where it does not, the
