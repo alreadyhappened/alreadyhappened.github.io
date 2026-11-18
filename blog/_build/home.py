@@ -20,6 +20,12 @@ BELIEFS = {
         "humans are consistently influenced unconsciously.",
         "across history we vary in conscious experience, and the sources we derive meaning from (and that this is expressed in the output of that time).",
         "the contents of human minds/unconscious minds can be read in the grand scheme, not at an individual level.",
+        "we aren’t sure how AI use is affecting humans.",
+        "good policy empowers individuals.",
+        "we don’t know how to interact with alien minds.",
+        "science doesn’t fit psychology perfectly.",
+        "most people do not care about superintelligence.",
+        "people will not be prepared for AI.",
     ],
     "artificial": [
         "LLMs cannot desire for desire’s sake.",
@@ -74,7 +80,15 @@ ESSAYS = {
         "hyper-hypotheticals-in-psychological",    # populations can be modelled; the individual twin cannot
         "priced-in-the-collapse-of-conscientiousness",  # traits legible in aggregate, undefined in a person
     ],
-    ("artificial", 1): [],  # LLMs cannot desire for desire's sake: nothing argues this directly yet
+    ("natural", 5): ["please-stop-using-that-mit-cognitive"],
+    ("natural", 6): ["on-groups-and-individuals"],
+    ("natural", 7): ["ai-agents-have-a-trust-value-complexity"],
+    ("natural", 8): ["priced-in-replication-and-replicants"],
+    ("natural", 9): ["agi-isnt-for-happy-people"],
+    ("natural", 10): ["why-making-up-for-lost-time-is-hard"],
+    ("artificial", 1): [  # LLMs cannot desire for desire's sake
+        "synthetic-men-cant-jump",                 # LLMs can't make the creative jump; that may need an experience of being
+    ],
     ("artificial", 2): [  # AI could very easily influence humans unconsciously
         "the-things-you-dont-want-to-know",        # sycophancy people only objected to once they could see it
         "the-status-quo-is-dead-long-live",        # personalised AI changing people without their noticing
