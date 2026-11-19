@@ -125,12 +125,23 @@
       let i = 0;
       img.alt = ''; img.className = 'art-img'; img.decoding = 'async';
       if (!only) img.dataset.in = w;
-      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); if (el.dataset.artVideo) addVideo(el, w, img); };
+      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); if (el.dataset.artVideo) addVideo(el, w, img); if (el.dataset.artAwake === w) addAwake(el, w, img); };
       img.onerror = () => { if (++i < exts.length) img.src = `/art/${el.dataset.art}-${w}.${exts[i]}`; else img.remove(); };
       img.src = `/art/${el.dataset.art}-${w}.${exts[0]}`;
       el.prepend(img);
     }
   });
+
+  /* A slot with data-art-awake="world" has a second picture, name-world-awake.jpg, that fades in over
+     the first once that world has been chosen (the human face opens its eyes; its third eye closes). */
+  function addAwake(el, w, img) {
+    const a = new Image();
+    a.alt = ''; a.className = 'art-img art-awake'; a.decoding = 'async';
+    if (img.dataset.in) a.dataset.in = img.dataset.in;
+    a.onerror = () => a.remove();
+    a.src = `/art/${el.dataset.art}-${w}-awake.jpg`;
+    img.after(a);
+  }
 
   /* A slot with data-art-video also gets art/name-world.mp4 laid over its still.
      "loop" repeats quietly; "once" plays a single time when it comes into view and then rests

@@ -313,6 +313,11 @@ section.block { padding-top: clamp(72px, 13vh, 150px); }
   html:not([data-state="threshold"]) .pane[data-world="artificial"] > .art-img { left: 34%; }
 }
 
+/* The awake picture: hidden on the threshold, fades in once its own world is chosen. */
+.pane > .art-img.art-awake { opacity: 0; transition: opacity 1.6s ease .5s, left 1.4s cubic-bezier(.7, 0, .2, 1); }
+html[data-state="chosen"][data-world="natural"] .pane[data-world="natural"] > .art-img.art-awake,
+html[data-state="chosen"][data-world="artificial"] .pane[data-world="artificial"] > .art-img.art-awake { opacity: 1; }
+
 /* Videos laid over stills (see addVideo in site.js) */
 .art-video { opacity: 0; transition: opacity 1.2s ease; }
 .art-video.is-playing { opacity: 1; }
