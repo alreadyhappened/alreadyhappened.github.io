@@ -146,9 +146,9 @@
   const qpt = (a, apexY, b) => [a, [(a[0] + b[0]) / 2, 2 * apexY - (a[1] + b[1]) / 2], b];   // quadratic through an apex
   const lerp = (a, b, t) => a + (b - a) * t;
   const smooth = (a, b, x) => { const t = clamp01((x - a) / (b - a)); return t * t * (3 - 2 * t); };
-  const FACE = [   // corners, open upper-lid apex, lower-lid apex, crease apex
-    { c0: [404, 515], c1: [474, 522], up: 501, low: 528.5, crease: 493 },
-    { c0: [553, 520], c1: [618, 513], up: 501, low: 527, crease: 493 },
+  const FACE = [   // corners, open upper-lid apex, lower-lid apex, crease apex, closed lid-line apex
+    { c0: [404, 515], c1: [474, 522], up: 501, low: 528.5, crease: 493, shut: 524 },
+    { c0: [553, 520], c1: [618, 513], up: 501, low: 527, crease: 493, shut: 524 },
   ];
   const THIRD = {   // corners where the lids meet, open lid apex, closed lid apex (per side), lashes, rim top
     c0: [472, 401], c1: [556, 401], open: 376, rim: 368, lashes: 425,
@@ -205,20 +205,39 @@
       if (!S || ready < 2) return;
       ctx.clearRect(0, 0, S, S);
       const o = window.__eyes.open, sh = window.__eyes.shut;
-      // The face's eyes. In the open picture each column runs: crease, upper lid, lash line, eye, lower
-      // lid. While opening, the upper lid's skin is squeezed down onto the lower lid and unfolds upward,
-      // so the real lash line travels with it and the eye appears beneath.
+      // The face's eyes. The closed picture's own lid skin stays put; only the lash line and the eye
+      // beneath it move, the lash line rising along the eye's curve from the closed lid line. The crease
+      // of the open lid settles in above once the eye is about half open, as a real crease forms.
       if (o > 0.001) for (const e of FACE) {
         const lift = o * o * (3 - 2 * o);
-        top0 = x => yAt(e.c0, e.c1, e.crease - 8, x); bot0 = x => yAt(e.c0, e.c1, e.low + 2, x);
+        const upY = x => yAt(e.c0, e.c1, e.up, x), loY = x => yAt(e.c0, e.c1, e.low + 2, x);
+        const upTY = x => lerp(loY(x) - 0.6, upY(x), lift);
+        // crease and upper lid, in place
+        top0 = x => yAt(e.c0, e.c1, e.crease - 8, x); bot0 = x => upY(x) + 1;
         layer(e.c0[0], e.c1[0], e.crease - 8, e.low + 2, (c, X, Y) => {
           for (let x = Math.floor(e.c0[0]); x <= e.c1[0]; x++) {
-            const cr = yAt(e.c0, e.c1, e.crease - 8, x), up = yAt(e.c0, e.c1, e.up, x), lo = yAt(e.c0, e.c1, e.low + 2, x);
-            const upT = lerp(lo - 0.6, up, lift);
-            col(c, srcs.awake, X, Y, x, cr, up, cr, upT);
-            col(c, srcs.awake, X, Y, x, up, lo, upT, lo);
+            const cr = yAt(e.c0, e.c1, e.crease - 8, x), up = upY(x);
+            col(c, srcs.awake, X, Y, x, cr, up + 1, cr, up + 1);
           }
-        }, smooth(0, 0.18, o));
+        }, smooth(0.45, 1, o));
+        // the eye, opening beneath a rising lid line: early on it is the closed eye's own dark lid line
+        // that lifts; the open lid's rim takes over through the second half of the movement
+        const clY = x => yAt(e.c0, e.c1, e.shut, x);
+        top0 = x => upTY(x) - 3; bot0 = loY;
+        layer(e.c0[0], e.c1[0], e.up - 5, e.low + 2, (c, X, Y) => {
+          for (let x = Math.floor(e.c0[0]); x <= e.c1[0]; x++) {
+            const up = upY(x), lo = loY(x), upT = upTY(x), cl = clY(x);
+            col(c, srcs.awake, X, Y, x, up, lo, upT + 1, lo);              // the eye, unfolding
+            col(c, img, X, Y, x, cl - 2.5, cl + 1.5, upT - 2.5, upT + 1.5); // the closed lid line, lifted
+          }
+        }, smooth(0, 0.12, o));
+        top0 = x => upTY(x) - 4; bot0 = x => upTY(x) + 1.5;
+        layer(e.c0[0], e.c1[0], e.up - 6, e.low + 2, (c, X, Y) => {
+          for (let x = Math.floor(e.c0[0]); x <= e.c1[0]; x++) {
+            const up = upY(x), upT = upTY(x);
+            col(c, srcs.awake, X, Y, x, up - 4, up + 1.5, upT - 4, upT + 1.5);  // the open lid's rim
+          }
+        }, smooth(0.3, 0.85, o));
       }
       // The third eye. Its closed lid (rim down to the tips of the lashes) slides down from the rim like
       // a real lid, lash line first in view, until it rests on its closed line.
