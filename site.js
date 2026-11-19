@@ -125,25 +125,120 @@
       let i = 0;
       img.alt = ''; img.className = 'art-img'; img.decoding = 'async';
       if (!only) img.dataset.in = w;
-      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); if (el.dataset.artVideo) addVideo(el, w, img); if (el.dataset.artAwake === w) addAwake(el, w, img); if (el.dataset.art === 'hero') addGaze(el, w, img); };
+      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); if (el.dataset.artVideo) addVideo(el, w, img); if (el.dataset.artEyes !== undefined) addEyes(el, w, img); if (el.dataset.art === 'hero') addGaze(el, w, img); };
       img.onerror = () => { if (++i < exts.length) img.src = `/art/${el.dataset.art}-${w}.${exts[i]}`; else img.remove(); };
       img.src = `/art/${el.dataset.art}-${w}.${exts[0]}`;
       el.prepend(img);
     }
   });
 
-  /* A slot with data-art-awake="world" has a second picture, name-world-awake.jpg: the same artwork with
-     the face's eyes open and the third eye shut. The hero's eye state (in the instrument, below) reveals
-     it through eyelid-shaped masks. */
-  function addAwake(el, w, img) {
-    const a = new Image();
-    a.alt = ''; a.className = 'art-img art-awake'; a.decoding = 'async';
-    if (img.dataset.in) a.dataset.in = img.dataset.in;
-    a.onerror = () => a.remove();
-    a.src = `/art/${el.dataset.art}-${w}-awake.jpg`;
-    const e = window.__eyesNow || { open: 0, shut: 1 };
-    a.style.transition = 'none'; a.style.setProperty('--open', e.open); a.style.setProperty('--shut', e.shut);
-    img.after(a);
+  /* ================= The hero's eyelids =================
+     Each half of the hero draws its own eyelids on a canvas laid exactly over its picture, from two
+     extra versions of the same artwork: -awake (the face's eyes open) and -shut (the third eye closed).
+     Every frame it reveals those versions only inside curved, softly feathered lid shapes measured from
+     the artwork, so the upper lid travels along the eye's own curve and there are no boxes or straight
+     edges. Both halves read the same two numbers, window.__eyes.open (face eyes, 0 shut - 1 open) and
+     window.__eyes.shut (third eye, 0 open - 1 shut), which the instrument below animates, so the face
+     is always in one state, whichever half of it you are looking at.
+     All coordinates are pixels in the 1024px artwork. */
+  window.__eyes = window.__eyes || { open: 0, shut: 1 };
+  const eyeLayers = window.__eyeLayers = [];
+  const qpt = (a, apexY, b) => [a, [(a[0] + b[0]) / 2, 2 * apexY - (a[1] + b[1]) / 2], b];   // quadratic through an apex
+  const lerp = (a, b, t) => a + (b - a) * t;
+  const smooth = (a, b, x) => { const t = clamp01((x - a) / (b - a)); return t * t * (3 - 2 * t); };
+  const FACE = [   // corners, open upper-lid apex, lower-lid apex, crease apex
+    { c0: [404, 515], c1: [474, 522], up: 501, low: 528.5, crease: 493 },
+    { c0: [553, 520], c1: [618, 513], up: 501, low: 527, crease: 493 },
+  ];
+  const THIRD = {   // corners where the lids meet, open lid apex, closed lid apex (per side), lashes, rim top
+    c0: [472, 401], c1: [556, 401], open: 376, rim: 368, lashes: 425,
+    closed: { natural: 400, artificial: 397 },
+  };
+  function addEyes(el, w, img) {
+    const cv = document.createElement('canvas');
+    cv.className = 'art-img art-eyes'; cv.setAttribute('aria-hidden', 'true');
+    const srcs = { awake: new Image(), shut: new Image() };
+    let ready = 0;
+    for (const [k, im] of Object.entries(srcs)) {
+      im.decoding = 'async';
+      im.onload = () => { if (++ready === 2) { cv.classList.add('is-loaded'); size(); } };
+      im.src = `/art/${el.dataset.art}-${w}-${k}.jpg`;
+    }
+    const ctx = cv.getContext('2d'), off = document.createElement('canvas'), octx = off.getContext('2d');
+    let S = 0, k = 1;
+    function size() {
+      const h = img.getBoundingClientRect().height || 600;
+      const n = Math.min(2048, Math.round(h * Math.min(devicePixelRatio || 1, 2)));
+      if (n !== S) { S = n; k = S / 1024; cv.width = cv.height = S; }
+      draw();
+    }
+    // Curves are quadratics through an eye's two corners and an apex; y at any x along them.
+    const yAt = (c0, c1, apex, x) => {
+      const t = clamp01((x - c0[0]) / (c1[0] - c0[0])), cy = 2 * apex - (c0[1] + c1[1]) / 2;
+      return (1 - t) * (1 - t) * c0[1] + 2 * t * (1 - t) * cy + t * t * c1[1];
+    };
+    // Build a lid layer column by column (each column of the source stretched between two heights),
+    // then trim it to a softly feathered outline so it melts into the picture underneath.
+    function layer(x0, x1, top, bottom, columns, alpha) {
+      if (alpha <= 0.002) return;
+      const pad = 4, X = Math.floor((x0 - pad) * k), Y = Math.floor((top - pad) * k);
+      const bw = Math.ceil((x1 - x0 + 2 * pad) * k), bh = Math.ceil((bottom - top + 2 * pad) * k);
+      if (off.width !== bw || off.height !== bh) { off.width = bw; off.height = bh; } else octx.clearRect(0, 0, bw, bh);
+      octx.globalCompositeOperation = 'source-over';
+      columns(octx, X, Y);
+      octx.globalCompositeOperation = 'destination-in';
+      octx.save(); octx.setTransform(k, 0, 0, k, -X, -Y);
+      octx.filter = `blur(${(1.3 * k).toFixed(2)}px)`;
+      octx.fillStyle = '#fff'; octx.beginPath();
+      octx.moveTo(x0, bottom); for (let x = x0; x <= x1; x += 2) octx.lineTo(x, top0(x)); octx.lineTo(x1, top0(x1));
+      for (let x = x1; x >= x0; x -= 2) octx.lineTo(x, bot0(x)); octx.closePath(); octx.fill();
+      octx.restore(); octx.globalCompositeOperation = 'source-over';
+      ctx.globalAlpha = alpha; ctx.drawImage(off, X, Y); ctx.globalAlpha = 1;
+    }
+    let top0 = () => 0, bot0 = () => 0;
+    // Draw source rows [sA, sB] of column x so they land on rows [dA, dB].
+    const col = (c, src, X, Y, x, sA, sB, dA, dB) => {
+      if (sB - sA < 0.05 || dB - dA < 0.05) return;
+      c.drawImage(src, x, sA, 1, sB - sA, x * k - X, dA * k - Y, k + 0.6, (dB - dA) * k);
+    };
+    function draw() {
+      if (!S || ready < 2) return;
+      ctx.clearRect(0, 0, S, S);
+      const o = window.__eyes.open, sh = window.__eyes.shut;
+      // The face's eyes. In the open picture each column runs: crease, upper lid, lash line, eye, lower
+      // lid. While opening, the upper lid's skin is squeezed down onto the lower lid and unfolds upward,
+      // so the real lash line travels with it and the eye appears beneath.
+      if (o > 0.001) for (const e of FACE) {
+        const lift = o * o * (3 - 2 * o);
+        top0 = x => yAt(e.c0, e.c1, e.crease - 8, x); bot0 = x => yAt(e.c0, e.c1, e.low + 2, x);
+        layer(e.c0[0], e.c1[0], e.crease - 8, e.low + 2, (c, X, Y) => {
+          for (let x = Math.floor(e.c0[0]); x <= e.c1[0]; x++) {
+            const cr = yAt(e.c0, e.c1, e.crease - 8, x), up = yAt(e.c0, e.c1, e.up, x), lo = yAt(e.c0, e.c1, e.low + 2, x);
+            const upT = lerp(lo - 0.6, up, lift);
+            col(c, srcs.awake, X, Y, x, cr, up, cr, upT);
+            col(c, srcs.awake, X, Y, x, up, lo, upT, lo);
+          }
+        }, smooth(0, 0.18, o));
+      }
+      // The third eye. Its closed lid (rim down to the tips of the lashes) slides down from the rim like
+      // a real lid, lash line first in view, until it rests on its closed line.
+      if (sh > 0.001) {
+        const T = THIRD, cl = T.closed[w], f = sh * sh * (3 - 2 * sh);
+        const rimY = x => yAt(T.c0, T.c1, T.rim, x), clY = x => yAt(T.c0, T.c1, cl, x);
+        const lashY = x => yAt(T.c0, T.c1, T.lashes, x), openY = x => yAt(T.c0, T.c1, T.open, x);
+        top0 = x => rimY(x) - 1; bot0 = x => lerp(openY(x), lashY(x), f) + 1;
+        layer(T.c0[0], T.c1[0], T.rim - 1, T.lashes + 1, (c, X, Y) => {
+          for (let x = Math.floor(T.c0[0]); x <= T.c1[0]; x++) {
+            const r = rimY(x), edge = lerp(openY(x), clY(x), f), lashLen = (lashY(x) - clY(x)) * f;
+            col(c, srcs.shut, X, Y, x, r, clY(x), r, edge);
+            col(c, srcs.shut, X, Y, x, clY(x), lashY(x), edge, edge + lashLen);
+          }
+        }, smooth(0, 0.2, sh));
+      }
+    }
+    new ResizeObserver(size).observe(img);
+    eyeLayers.push(draw);
+    img.after(cv);
   }
 
   /* Eyes that look around once a side has been chosen. A copy of the picture sits over it, cut to the
@@ -623,30 +718,44 @@
          rest        face eyes closed, third eye shut    (on arrival, before anyone leans either way)
          human       face eyes open,   third eye shut
          artificial  face eyes closed, third eye open
-       Each half has an "awake" copy of its picture, revealed through eyelid-shaped masks: --open widens
-       slits over the face's eyes, --shut closes lids over the third eye (see .art-awake in site.css).
-       Whatever has to close goes first; whatever opens follows after a pause. On the threshold the state
+       The lids themselves are drawn by addEyes (above) from window.__eyes, which this animates.
+       Whatever has to close goes first; whatever opens follows as it finishes. On the threshold the state
        follows the way the dividing line has leaned, with a dead zone in the middle and a short dwell,
        so it trails calmly behind the pointer instead of snapping. */
     const EYES = { rest: { open: 0, shut: 1 }, human: { open: 1, shut: 1 }, artificial: { open: 0, shut: 0 } };
-    const EASE = 'cubic-bezier(.45, 0, .25, 1)';
-    let eyes = 'rest', eyesCand = null, eyesCandAt = 0, settleAt = 0, gazeTimer = 0;
-    const eyeNow = window.__eyesNow = { open: 0, shut: 1 };
+    let eyes = 'rest', eyesCand = null, eyesCandAt = 0, settleAt = 0, gazeTimer = 0, tween = null;
+    const eyeVal = window.__eyes;
+    const easeLid = t => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);   // slow in, slow out
+    const drawEyes = () => { for (const d of window.__eyeLayers || []) d(); };
+    // Whatever has to close goes first; whatever opens starts as the close is finishing.
     function paintEyes(instant) {
-      const t = EYES[eyes];
-      const closing = t.open < eyeNow.open || t.shut > eyeNow.shut;
-      const dOpen = t.open > eyeNow.open ? 2.6 : 2.1;          // opening is the slower, more beautiful move
-      const dShut = t.shut > eyeNow.shut ? 2.0 : 2.4;
-      const wOpen = t.open > eyeNow.open && closing ? 1.5 : 0;   // wait for the other eye to close first
-      const wShut = t.shut < eyeNow.shut && closing ? 1.4 : 0;
-      const quick = instant || reduced;
-      for (const a of hero.querySelectorAll('.art-awake')) {
-        a.style.transition = quick ? 'none'
-          : `--open ${dOpen}s ${EASE} ${wOpen}s, --shut ${dShut}s ${EASE} ${wShut}s, left 1.4s cubic-bezier(.7, 0, .2, 1)`;
-        a.style.setProperty('--open', t.open); a.style.setProperty('--shut', t.shut);
+      const t = EYES[eyes], parts = [];
+      const closing = [], opening = [];
+      if (t.open < eyeVal.open) closing.push({ key: 'open', dur: 0.9 });
+      if (t.shut > eyeVal.shut) closing.push({ key: 'shut', dur: 0.85 });
+      if (t.open > eyeVal.open) opening.push({ key: 'open', dur: 1.1 });
+      if (t.shut < eyeVal.shut) opening.push({ key: 'shut', dur: 1.0 });
+      const lead = closing.length ? Math.max(...closing.map(c => c.dur)) * 0.75 : 0;
+      for (const c of closing) parts.push({ ...c, at: 0 });
+      for (const c of opening) parts.push({ ...c, at: lead });
+      for (const p of parts) { p.from = eyeVal[p.key]; p.to = t[p.key]; }
+      const total = parts.length ? Math.max(...parts.map(p => p.at + p.dur)) : 0;
+      if (instant || reduced || !parts.length) {
+        eyeVal.open = t.open; eyeVal.shut = t.shut; tween = null; drawEyes();
+        settleAt = performance.now();
+      } else {
+        const t0 = performance.now();
+        settleAt = t0 + total * 1000;
+        const my = tween = { parts, t0 };
+        const step = nowMs => {
+          if (tween !== my) return;
+          const el = (nowMs - t0) / 1000;
+          for (const p of parts) eyeVal[p.key] = lerp(p.from, p.to, easeLid(clamp01((el - p.at) / p.dur)));
+          drawEyes();
+          if (el < total) requestAnimationFrame(step); else tween = null;
+        };
+        requestAnimationFrame(step);
       }
-      settleAt = performance.now() + (quick ? 0 : Math.max(t.open !== eyeNow.open ? wOpen + dOpen : 0, t.shut !== eyeNow.shut ? wShut + dShut : 0) * 1000);
-      eyeNow.open = t.open; eyeNow.shut = t.shut;
       hero.classList.remove('gaze-human', 'gaze-artificial');
       scheduleGaze();
     }
@@ -655,7 +764,7 @@
       clearTimeout(gazeTimer);
       if (eyes === 'rest') return;
       gazeTimer = setTimeout(() => { if (state === 'chosen') hero.classList.add('gaze-' + eyes); },
-        Math.max(0, settleAt - performance.now()) + 400);
+        Math.max(0, settleAt - performance.now()) + 250);
     }
     function setEyes(next, instant) {
       if (next === eyes && !instant) { scheduleGaze(); return; }
@@ -663,11 +772,11 @@
     }
     const eyesFor = w => (w === 'natural' ? 'human' : 'artificial');
     function leanEyes(nowMs) {
-      const lean = split - W / 2, edge = W * 0.07;
+      const lean = split - W / 2, edge = W * 0.05;
       const cand = lean > edge ? 'human' : lean < -edge ? 'artificial' : null;
       if (!cand || cand === eyes) { eyesCand = null; return; }
       if (eyesCand !== cand) { eyesCand = cand; eyesCandAt = nowMs; }
-      else if (nowMs - eyesCandAt > 450) setEyes(cand);
+      else if (nowMs - eyesCandAt > 220) setEyes(cand);
     }
     if (state === 'chosen') setEyes(eyesFor(world), true);
 
