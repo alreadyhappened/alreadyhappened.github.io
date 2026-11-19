@@ -125,7 +125,7 @@
       let i = 0;
       img.alt = ''; img.className = 'art-img'; img.decoding = 'async';
       if (!only) img.dataset.in = w;
-      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); if (el.dataset.artVideo) addVideo(el, w, img); if (el.dataset.artAwake === w) addAwake(el, w, img); };
+      img.onload = () => { el.classList.add('has-' + w); img.classList.add('is-loaded'); if (el.dataset.artVideo) addVideo(el, w, img); if (el.dataset.artAwake === w) addAwake(el, w, img); if (el.dataset.art === 'hero') addGaze(el, w, img); };
       img.onerror = () => { if (++i < exts.length) img.src = `/art/${el.dataset.art}-${w}.${exts[i]}`; else img.remove(); };
       img.src = `/art/${el.dataset.art}-${w}.${exts[0]}`;
       el.prepend(img);
@@ -141,6 +141,30 @@
     a.onerror = () => a.remove();
     a.src = `/art/${el.dataset.art}-${w}-awake.jpg`;
     img.after(a);
+  }
+
+  /* Eyes that look around once a side has been chosen. A copy of the picture sits over it, cut to the
+     inside of the eyes, and slides a few pixels left and right: the irises move, the lids stay put.
+     Eye positions are in the 1024px artwork: [centre x, centre y, half-width, half-height]. */
+  const GAZE = {
+    natural:    { src: '/art/hero-natural-awake.jpg', dx: 0.88, eyes: [[438, 514, 31, 11], [588, 514, 31, 11]] },
+    artificial: { src: '/art/hero-artificial.webp',   dx: 0.78, eyes: [[513, 396, 38, 17]] },
+  };
+  function addGaze(el, w, img) {
+    const g = GAZE[w];
+    if (!g || reduced) return;
+    const box = document.createElement('div');
+    box.className = 'art-gaze'; box.setAttribute('aria-hidden', 'true');
+    if (img.dataset.in) box.dataset.in = img.dataset.in;
+    const pc = v => (v / 10.24).toFixed(3) + '%';
+    const mask = g.eyes.map(([x, y, rx, ry]) => `radial-gradient(${pc(rx)} ${pc(ry)} at ${pc(x)} ${pc(y)}, #000 45%, transparent 100%)`).join(', ');
+    box.style.webkitMaskImage = box.style.maskImage = mask;
+    box.style.setProperty('--dx', g.dx + '%');
+    const inner = new Image();
+    inner.alt = ''; inner.decoding = 'async'; inner.src = g.src;
+    inner.onerror = () => box.remove();
+    box.append(inner);
+    el.append(box);
   }
 
   /* A slot with data-art-video also gets art/name-world.mp4 laid over its still.
@@ -659,8 +683,10 @@
       const r = hero.getBoundingClientRect();
       px = e.clientX - r.left; py = e.clientY - r.top;
       hero.classList.toggle('on-eye', state === 'chosen' && overEye());
+      // On the threshold, going well into the human half wakes that face (see .art-awake in site.css).
+      hero.classList.toggle('wake-natural', state === 'threshold' && px < r.width * 0.36);
     });
-    hero.addEventListener('pointerleave', () => { px = py = null; hero.classList.remove('on-eye'); });
+    hero.addEventListener('pointerleave', () => { px = py = null; hero.classList.remove('on-eye', 'wake-natural'); });
 
     // Three clicks on the third eye open the cabinet.
     let eyeClicks = 0, eyeTimer = 0;
