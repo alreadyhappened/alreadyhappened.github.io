@@ -390,7 +390,8 @@ html[data-world="natural"] .foot-art.has-natural ~ .foot, html[data-world="artif
   filter: grayscale(1) contrast(1.08); mix-blend-mode: luminosity; opacity: .94;
   transition: opacity .5s, transform .9s cubic-bezier(.2, .7, .2, 1);
 }
-.piece:hover .piece-img img { filter: none; mix-blend-mode: normal; opacity: 1; transform: scale(1.03); }
+/* Real colour only while the picture itself is hovered, not its title. */
+.piece-img:hover img { filter: none; mix-blend-mode: normal; opacity: 1; transform: scale(1.03); }
 .piece-body { display: block; padding: 1rem 5px 0; }
 .piece-title { display: block; font-family: "Cormorant Garamond", serif; font-size: clamp(1.3rem, 1.9vw, 1.6rem); line-height: 1.14; margin: .35rem 0 .3rem; transition: color .2s; }
 .piece:hover .piece-title { color: var(--gold); }
@@ -669,3 +670,42 @@ html { scroll-behavior: smooth; }
 @media (min-width: 761px) {
   html[data-world="natural"] .beliefs-intro { justify-self: end; text-align: right; }
 }
+
+/* ---------- Beliefs: centred, with the work running out to one side ----------
+   Each belief sits in the middle of the page. Its work runs out from it to the edge of the screen:
+   to the left in the human world, to the right in the artificial one (the medallion docks on the
+   other side, see .hero-docked). The work scrolls sideways when there is more than fits. */
+@media (min-width: 761px) {
+  .beliefs.wrap { max-width: none; padding-left: 0; padding-right: 0; }
+  .beliefs-intro, html[data-world="natural"] .beliefs-intro { justify-self: center; text-align: center; padding-inline: 24px; }
+  .belief, .belief[data-in="natural"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 22rem) minmax(0, 1fr); gap: clamp(2rem, 4vw, 4rem); align-items: center;
+  }
+  .belief .belief-head, .belief[data-in="natural"] .belief-head { grid-column: 2; grid-row: 1; text-align: center; justify-items: center; }
+  .belief .belief-art, .belief[data-in="natural"] .belief-art { justify-self: center; }
+  .belief[data-in="natural"] .belief-why { grid-column: 1; grid-row: 1; }
+  .belief[data-in="artificial"] .belief-why { grid-column: 3; grid-row: 1; }
+  .belief-why { padding-top: 0; }
+}
+@media (min-width: 761px) and (max-width: 900px) {
+  .belief, .belief[data-in="natural"] { grid-template-columns: minmax(0, 1fr) minmax(0, 17rem) minmax(0, 1fr); }
+}
+
+/* ---------- The medallion stays with you through the beliefs ----------
+   Once you are past the hero, the chosen side's medallion (with its looking-around eyes) docks at the
+   side of the screen: on the right in the human world, on the left in the artificial one. */
+@media (min-width: 761px) {
+  html.hero-docked .pane { clip-path: none; }
+  html.hero-docked .pane > .art-img, html.hero-docked .pane > .art-gaze {
+    position: fixed; top: 50%; height: min(46vh, 26vw); z-index: 1;
+    transition: opacity .7s ease; animation: dock-in .9s ease both;
+    -webkit-mask-image: radial-gradient(closest-side, #000 84%, transparent 100%); mask-image: radial-gradient(closest-side, #000 84%, transparent 100%);
+  }
+  html.hero-docked[data-world="natural"] .pane[data-world="natural"] > .art-img,
+  html.hero-docked[data-world="natural"] .pane[data-world="natural"] > .art-gaze { left: auto; right: clamp(16px, 3vw, 56px); transform: translateY(-50%); }
+  html.hero-docked[data-world="artificial"] .pane[data-world="artificial"] > .art-img,
+  html.hero-docked[data-world="artificial"] .pane[data-world="artificial"] > .art-gaze { left: clamp(16px, 3vw, 56px); transform: translateY(-50%); }
+  html.hero-docked.dock-away .pane > .art-img, html.hero-docked.dock-away .pane > .art-gaze { opacity: 0 !important; }
+}
+@keyframes dock-in { from { opacity: 0; } }
+html.hero-docked .rail { opacity: 0; }

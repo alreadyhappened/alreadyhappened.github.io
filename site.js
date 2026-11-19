@@ -1062,6 +1062,22 @@
   const discEls = document.querySelectorAll('.disc');
   if (discEls.length) { const svg = disc(); discEls.forEach(el => { el.innerHTML = svg; }); }
 
+  /* ================= Docking the medallion =================
+     Past the hero, the chosen side's medallion docks at the side of the screen and stays while you
+     read the beliefs; it fades away again once you scroll on past them. (Styles: .hero-docked.) */
+  const heroBox = document.querySelector('.hero'), beliefsBox = document.querySelector('#beliefs');
+  if (heroBox && beliefsBox) {
+    const dock = () => {
+      const on = root.dataset.state === 'chosen' && innerWidth > 760 && scrollY > heroBox.offsetHeight * 0.82;
+      const b = beliefsBox.getBoundingClientRect();
+      root.classList.toggle('hero-docked', on);
+      root.classList.toggle('dock-away', on && b.bottom < innerHeight * 0.55);
+    };
+    addEventListener('scroll', dock, { passive: true }); addEventListener('resize', dock);
+    new MutationObserver(dock).observe(root, { attributes: true, attributeFilter: ['data-state', 'data-world'] });
+    dock();
+  }
+
   /* ================= Essay contents and reading wheel =================
      A list of the essay's chapters on the left (from its h2s, or h3s if it has no h2s), with the
      current one marked, and a small wheel above it that fills as you read and closes into a solid

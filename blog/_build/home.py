@@ -13,7 +13,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
 
-# Statements are the author's words. Each is read after a small "I believe that".
+# Statements are the author's words, shown with a capital first letter.
 BELIEFS = {
     "natural": [
         "true human desire arises from a need to feel whole.",
@@ -146,15 +146,15 @@ def main():
             mine = [by_slug[slug] for slug in ESSAYS.get((world, n), [])]
             pieces = ""
             if mine:
-                pieces = ('\n      <div class="belief-why">\n        <p class="label">Why I believe that</p>\n'
+                pieces = ('\n      <div class="belief-why">\n'
                           '        <div class="why-strip">\n' + "\n".join(piece(p, files) for p in mine) + "\n        </div>\n      </div>")
             out.append(
                 f'    <article class="belief" data-in="{world}">\n'
                 f'      <div class="belief-head">\n'
                 f'        <figure class="plate belief-art" data-art="belief-{n}" data-art-world="{world}">'
                 f'<div class="sigil" data-sigil="belief {world} {n}"></div></figure>\n'
-                f'        <div class="belief-body"><p class="label">I believe that</p>'
-                f'<p class="belief-text">{html.escape(text, quote=False)}</p></div>\n'
+                f'        <div class="belief-body">'
+                f'<p class="belief-text">{html.escape(text[:1].upper() + text[1:], quote=False)}</p></div>\n'
                 f"      </div>{pieces}\n"
                 f"    </article>"
             )
