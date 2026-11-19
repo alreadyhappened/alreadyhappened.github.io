@@ -583,3 +583,23 @@ html[data-world="natural"]::view-transition-new(root) { animation-name: wipe-fro
   .essay { padding-top: 96px; }
   .essay-body { font-size: 1.08rem; }
 }
+
+/* ---------- Mirrored beliefs on the human side ----------
+   The hero puts the human medallion on the right and the artificial one on the left, so beliefs
+   mirror that: human beliefs sit on the right with their work running out to the left; artificial
+   beliefs sit on the left with their work running out to the right. */
+@media (min-width: 761px) {
+  .belief[data-in="natural"] { grid-template-columns: minmax(0, 1fr) minmax(0, 23rem); }
+  .belief[data-in="natural"] .belief-head { grid-column: 2; grid-row: 1; text-align: right; }
+  .belief[data-in="natural"] .belief-why { grid-column: 1; grid-row: 1; }
+  .belief[data-in="natural"] .belief-why > .label { text-align: right; }
+  .belief[data-in="natural"] .why-strip {
+    direction: rtl;
+    -webkit-mask-image: linear-gradient(to left, #000 88%, transparent); mask-image: linear-gradient(to left, #000 88%, transparent);
+  }
+  .belief[data-in="natural"] .why-strip > * { direction: ltr; }
+  .belief[data-in="natural"] .why-strip:hover, .belief[data-in="natural"] .why-strip:focus-within { -webkit-mask-image: none; mask-image: none; }
+}
+@media (min-width: 761px) and (max-width: 900px) {
+  .belief[data-in="natural"] { grid-template-columns: minmax(0, 1fr) minmax(0, 18rem); }
+}
