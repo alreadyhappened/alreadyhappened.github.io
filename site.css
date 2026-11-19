@@ -660,3 +660,12 @@ html { scroll-behavior: smooth; }
   .belief-art, .belief[data-in="natural"] .belief-art { width: min(64vw, 15rem); justify-self: center; }
 }
 .plate[data-art="plate"].has-natural canvas, .plate[data-art="plate"].has-artificial canvas { visibility: hidden; }
+
+/* Intro above the beliefs: on the right in the human world, on the left in the artificial one,
+   like the beliefs beneath it. */
+.beliefs-intro { max-width: 34rem; display: grid; gap: .9rem; }
+.beliefs-intro p { font-family: "Cormorant Garamond", serif; font-weight: 300; font-size: clamp(1.25rem, 1.9vw, 1.55rem); line-height: 1.4; color: var(--ink-2); text-wrap: pretty; }
+.beliefs-intro p:first-child { color: var(--ink); font-size: clamp(1.45rem, 2.4vw, 1.95rem); line-height: 1.25; text-wrap: balance; }
+@media (min-width: 761px) {
+  html[data-world="natural"] .beliefs-intro { justify-self: end; text-align: right; }
+}
