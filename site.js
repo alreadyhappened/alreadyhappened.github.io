@@ -874,6 +874,47 @@
   const discEls = document.querySelectorAll('.disc');
   if (discEls.length) { const svg = disc(); discEls.forEach(el => { el.innerHTML = svg; }); }
 
+  /* ================= Essay contents and reading wheel =================
+     A list of the essay's chapters on the left (from its h2s, or h3s if it has no h2s), with the
+     current one marked, and a small wheel above it that fills as you read and closes into a solid
+     disc at the end. On narrow screens only the wheel shows, bottom left. */
+  const body = document.querySelector('.essay-body');
+  if (body) {
+    let heads = [...body.querySelectorAll('h2')].filter(h => h.textContent.trim());
+    if (heads.length < 2) heads = [...body.querySelectorAll('h3')].filter(h => h.textContent.trim());
+    if (heads.length < 2) heads = [];
+    const nav = document.createElement('nav');
+    nav.className = 'essay-toc'; nav.setAttribute('aria-label', 'Chapters');
+    const R = 9, C = 2 * Math.PI * R;
+    nav.innerHTML = `<svg class="read-wheel" viewBox="0 0 22 22" aria-hidden="true"><circle class="track" cx="11" cy="11" r="${R}"/><circle class="fill" cx="11" cy="11" r="${R}" stroke-dasharray="${C}" stroke-dashoffset="${C}"/><circle class="done" cx="11" cy="11" r="${R + 0.8}"/></svg>`;
+    const links = [];
+    if (heads.length) {
+      const ol = document.createElement('ol');
+      heads.forEach((h, i) => {
+        if (!h.id) h.id = 'chapter-' + (i + 1);
+        const t = h.textContent.trim().replace(/[.:]$/, '');
+        const a = document.createElement('a');
+        a.href = '#' + h.id; a.textContent = t;
+        if (!/^[0-9IVXLC]+$/i.test(t)) a.className = 'is-title';
+        const li = document.createElement('li'); li.append(a); ol.append(li); links.push(a);
+      });
+      nav.append(ol);
+    }
+    document.body.append(nav);
+    const wheel = nav.querySelector('.read-wheel'), fill = nav.querySelector('.fill');
+    const update = () => {
+      const r = body.getBoundingClientRect();
+      const total = r.height - innerHeight * 0.6;
+      const p = clamp01(total > 0 ? (innerHeight * 0.4 - r.top) / total : 1);
+      fill.setAttribute('stroke-dashoffset', (C * (1 - p)).toFixed(2));
+      wheel.classList.toggle('is-done', p >= 0.995);
+      let here = -1;
+      heads.forEach((h, i) => { if (h.getBoundingClientRect().top < innerHeight * 0.35) here = i; });
+      links.forEach((a, i) => a.classList.toggle('is-here', i === here));
+    };
+    addEventListener('scroll', update, { passive: true }); addEventListener('resize', update); update();
+  }
+
   /* ================= 6. The scroll rail ================= */
 
   const rail = document.querySelector('.rail');

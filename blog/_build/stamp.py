@@ -8,7 +8,7 @@ Run after changing site.css, site.js or boot.js, from the repo root:
 import glob, pathlib, re, sys, time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
-v = sys.argv[1] if len(sys.argv) > 1 else time.strftime("%Y%m%d%H%M")
+v = sys.argv[1] if len(sys.argv) > 1 else time.strftime("%Y%m%d%H%M%S")
 files = [*ROOT.glob("*.html"), *ROOT.glob("blog/*.html"), ROOT / "blog/_build/build.py"]
 n = 0
 for f in files:
