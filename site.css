@@ -674,7 +674,7 @@ html { scroll-behavior: smooth; }
 /* ---------- Beliefs: centred, with the work running out to one side ----------
    Each belief sits in the middle of the page. Its work runs out from it to the edge of the screen:
    to the left in the human world, to the right in the artificial one (the medallion docks on the
-   other side, see .hero-docked). The work scrolls sideways when there is more than fits. */
+   other side, see .hero-follow). The work scrolls sideways when there is more than fits. */
 @media (min-width: 761px) {
   .beliefs.wrap { max-width: none; padding-left: 0; padding-right: 0; }
   .beliefs-intro, html[data-world="natural"] .beliefs-intro { justify-self: center; text-align: center; padding-inline: 24px; }
@@ -691,21 +691,20 @@ html { scroll-behavior: smooth; }
   .belief, .belief[data-in="natural"] { grid-template-columns: minmax(0, 1fr) minmax(0, 17rem) minmax(0, 1fr); }
 }
 
-/* ---------- The medallion stays with you through the beliefs ----------
-   Once you are past the hero, the chosen side's medallion (with its looking-around eyes) docks at the
-   side of the screen: on the right in the human world, on the left in the artificial one. */
+/* ---------- The medallion travels with you ----------
+   Once a side is chosen, the hero medallion itself (picture, eyelids and looking-around eyes) is
+   placed by site.js from the scroll position (--mx, --my, --mh): at the top it sits exactly where
+   the hero puts it; as you scroll it glides out to the edge of the screen until half of it is left
+   showing, stays there through the beliefs, then scrolls away with the page. */
 @media (min-width: 761px) {
-  html.hero-docked .pane { clip-path: none; }
-  html.hero-docked .pane > .art-img, html.hero-docked .pane > .art-gaze {
-    position: fixed; top: 50%; height: min(46vh, 26vw); z-index: 1;
-    transition: opacity .7s ease; animation: dock-in .9s ease both;
-    -webkit-mask-image: radial-gradient(closest-side, #000 84%, transparent 100%); mask-image: radial-gradient(closest-side, #000 84%, transparent 100%);
+  html.hero-follow .pane { clip-path: none; }
+  html.hero-follow[data-state] .pane[data-world] > .art-img, html.hero-follow[data-state] .pane[data-world] > .art-gaze {
+    position: fixed; left: var(--mx); top: var(--my); height: var(--mh); transform: translate(-50%, -50%);
+    transition: opacity 1.2s ease;
   }
-  html.hero-docked[data-world="natural"] .pane[data-world="natural"] > .art-img,
-  html.hero-docked[data-world="natural"] .pane[data-world="natural"] > .art-gaze { left: auto; right: clamp(16px, 3vw, 56px); transform: translateY(-50%); }
-  html.hero-docked[data-world="artificial"] .pane[data-world="artificial"] > .art-img,
-  html.hero-docked[data-world="artificial"] .pane[data-world="artificial"] > .art-gaze { left: clamp(16px, 3vw, 56px); transform: translateY(-50%); }
-  html.hero-docked.dock-away .pane > .art-img, html.hero-docked.dock-away .pane > .art-gaze { opacity: 0 !important; }
+  html.hero-follow.hero-swap[data-state] .pane[data-world] > .art-img, html.hero-follow.hero-swap[data-state] .pane[data-world] > .art-gaze {
+    transition: opacity 1.2s ease, left 1.3s cubic-bezier(.7, 0, .2, 1), top 1.3s cubic-bezier(.7, 0, .2, 1), height 1.3s cubic-bezier(.7, 0, .2, 1);
+  }
+  html.hero-follow main > section:not(.hero) { position: relative; z-index: 1; }
+  html.hero-follow.is-scrolled .rail { opacity: 0; }
 }
-@keyframes dock-in { from { opacity: 0; } }
-html.hero-docked .rail { opacity: 0; }

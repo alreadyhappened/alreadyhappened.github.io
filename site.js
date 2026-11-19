@@ -169,7 +169,7 @@
     function size() {
       const h = img.getBoundingClientRect().height || 600;
       const n = Math.min(2048, Math.round(h * Math.min(devicePixelRatio || 1, 2)));
-      if (n !== S) { S = n; k = S / 1024; cv.width = cv.height = S; }
+      if (n > S) { S = n; k = S / 1024; cv.width = cv.height = S; }   // only ever grows, so moving and resizing stay cheap
       draw();
     }
     // Curves are quadratics through an eye's two corners and an apex; y at any x along them.
@@ -1062,20 +1062,44 @@
   const discEls = document.querySelectorAll('.disc');
   if (discEls.length) { const svg = disc(); discEls.forEach(el => { el.innerHTML = svg; }); }
 
-  /* ================= Docking the medallion =================
-     Past the hero, the chosen side's medallion docks at the side of the screen and stays while you
-     read the beliefs; it fades away again once you scroll on past them. (Styles: .hero-docked.) */
+  /* ================= The medallion travels with you =================
+     After a side is chosen, the hero medallion is placed from the scroll position (styles:
+     .hero-follow). At the top it is exactly where the hero puts it; over the first stretch of
+     scrolling it glides out to the side, shrinking a little, until half of it sits off the edge of the
+     screen (right for human, left for artificial). It stays there through the beliefs, still awake and
+     looking around, and once the beliefs are behind you it scrolls away with the page. */
   const heroBox = document.querySelector('.hero'), beliefsBox = document.querySelector('#beliefs');
   if (heroBox && beliefsBox) {
-    const dock = () => {
-      const on = root.dataset.state === 'chosen' && innerWidth > 760 && scrollY > heroBox.offsetHeight * 0.82;
-      const b = beliefsBox.getBoundingClientRect();
-      root.classList.toggle('hero-docked', on);
-      root.classList.toggle('dock-away', on && b.bottom < innerHeight * 0.55);
+    const easeIO = t => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+    let swapTimer = 0, lastWorld = root.dataset.world;
+    const follow = () => {
+      const on = root.dataset.state === 'chosen' && innerWidth > 760;
+      root.classList.toggle('hero-follow', on);
+      root.classList.toggle('is-scrolled', on && scrollY > 40);
+      if (!on) return;
+      if (root.dataset.world !== lastWorld) {
+        lastWorld = root.dataset.world;
+        root.classList.add('hero-swap'); clearTimeout(swapTimer);
+        swapTimer = setTimeout(() => root.classList.remove('hero-swap'), 1400);
+      }
+      const W = document.documentElement.clientWidth, vh = innerHeight, H = heroBox.offsetHeight;
+      const cs = getComputedStyle(heroBox);
+      const h0 = parseFloat(cs.getPropertyValue('--art-h')) || vh * 0.6;
+      const t0 = parseFloat(cs.getPropertyValue('--art-top')) || vh * 0.18;
+      const nat = root.dataset.world === 'natural';
+      const x0 = W * (W >= 900 ? (nat ? 0.66 : 0.34) : 0.5), y0 = t0 + h0 / 2 - scrollY;
+      const h1 = Math.min(vh * 0.66, W * 0.38), x1 = nat ? W : 0;
+      const away = Math.max(0, vh * 0.75 - beliefsBox.getBoundingClientRect().bottom);
+      const y1 = vh / 2 - away;
+      const p = easeIO(clamp01(scrollY / (H * 0.8)));
+      heroBox.style.setProperty('--mx', lerp(x0, x1, p).toFixed(1) + 'px');
+      heroBox.style.setProperty('--my', lerp(y0, y1, p).toFixed(1) + 'px');
+      heroBox.style.setProperty('--mh', lerp(h0, h1, p).toFixed(1) + 'px');
     };
-    addEventListener('scroll', dock, { passive: true }); addEventListener('resize', dock);
-    new MutationObserver(dock).observe(root, { attributes: true, attributeFilter: ['data-state', 'data-world'] });
-    dock();
+    addEventListener('scroll', follow, { passive: true }); addEventListener('resize', follow);
+    new MutationObserver(follow).observe(root, { attributes: true, attributeFilter: ['data-state', 'data-world'] });
+    if (document.fonts) document.fonts.ready.then(follow);
+    follow();
   }
 
   /* ================= Essay contents and reading wheel =================
