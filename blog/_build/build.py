@@ -566,12 +566,12 @@ PAGE = """<!DOCTYPE html>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <script src="/boot.js?v=20261119021952"></script>
+  <script src="/boot.js?v=20261119023104"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="{fonts}" rel="stylesheet">
-  <link rel="stylesheet" href="/site.css?v=20261119021952">
-  <script defer src="/site.js?v=20261119021952"></script>
+  <link rel="stylesheet" href="/site.css?v=20261119023104">
+  <script defer src="/site.js?v=20261119023104"></script>
   <script defer src="/cf-analytics.js"></script>
 </head>
 <body class="page-essay">
