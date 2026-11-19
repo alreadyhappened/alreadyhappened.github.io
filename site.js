@@ -132,14 +132,17 @@
     }
   });
 
-  /* A slot with data-art-awake="world" has a second picture, name-world-awake.jpg, that fades in over
-     the first once that world has been chosen (the human face opens its eyes; its third eye closes). */
+  /* A slot with data-art-awake="world" has a second picture, name-world-awake.jpg: the same artwork with
+     the face's eyes open and the third eye shut. The hero's eye state (in the instrument, below) reveals
+     it through eyelid-shaped masks. */
   function addAwake(el, w, img) {
     const a = new Image();
     a.alt = ''; a.className = 'art-img art-awake'; a.decoding = 'async';
     if (img.dataset.in) a.dataset.in = img.dataset.in;
     a.onerror = () => a.remove();
     a.src = `/art/${el.dataset.art}-${w}-awake.jpg`;
+    const e = window.__eyesNow || { open: 0, shut: 1 };
+    a.style.transition = 'none'; a.style.setProperty('--open', e.open); a.style.setProperty('--shut', e.shut);
     img.after(a);
   }
 
@@ -614,13 +617,59 @@
       c.restore();
     }
 
-    /* The face in the human artwork spans roughly 38%-62% of the picture's width. */
-    function heroFace() {
-      const img = hero.querySelector('.pane[data-world="natural"] > .art-img.is-loaded');
-      if (!img) return null;
-      const r = img.getBoundingClientRect(), h = hero.getBoundingClientRect();
-      return { left: r.left - h.left + r.width * 0.38, right: r.left - h.left + r.width * 0.62 };
+    /* ----- The eyes -----
+       One state, shared by both halves of the medallion, so the face never shows one eye open and one
+       closed, or half a third eye:
+         rest        face eyes closed, third eye shut    (on arrival, before anyone leans either way)
+         human       face eyes open,   third eye shut
+         artificial  face eyes closed, third eye open
+       Each half has an "awake" copy of its picture, revealed through eyelid-shaped masks: --open widens
+       slits over the face's eyes, --shut closes lids over the third eye (see .art-awake in site.css).
+       Whatever has to close goes first; whatever opens follows after a pause. On the threshold the state
+       follows the way the dividing line has leaned, with a dead zone in the middle and a short dwell,
+       so it trails calmly behind the pointer instead of snapping. */
+    const EYES = { rest: { open: 0, shut: 1 }, human: { open: 1, shut: 1 }, artificial: { open: 0, shut: 0 } };
+    const EASE = 'cubic-bezier(.45, 0, .25, 1)';
+    let eyes = 'rest', eyesCand = null, eyesCandAt = 0, settleAt = 0, gazeTimer = 0;
+    const eyeNow = window.__eyesNow = { open: 0, shut: 1 };
+    function paintEyes(instant) {
+      const t = EYES[eyes];
+      const closing = t.open < eyeNow.open || t.shut > eyeNow.shut;
+      const dOpen = t.open > eyeNow.open ? 2.6 : 2.1;          // opening is the slower, more beautiful move
+      const dShut = t.shut > eyeNow.shut ? 2.0 : 2.4;
+      const wOpen = t.open > eyeNow.open && closing ? 1.5 : 0;   // wait for the other eye to close first
+      const wShut = t.shut < eyeNow.shut && closing ? 1.4 : 0;
+      const quick = instant || reduced;
+      for (const a of hero.querySelectorAll('.art-awake')) {
+        a.style.transition = quick ? 'none'
+          : `--open ${dOpen}s ${EASE} ${wOpen}s, --shut ${dShut}s ${EASE} ${wShut}s, left 1.4s cubic-bezier(.7, 0, .2, 1)`;
+        a.style.setProperty('--open', t.open); a.style.setProperty('--shut', t.shut);
+      }
+      settleAt = performance.now() + (quick ? 0 : Math.max(t.open !== eyeNow.open ? wOpen + dOpen : 0, t.shut !== eyeNow.shut ? wShut + dShut : 0) * 1000);
+      eyeNow.open = t.open; eyeNow.shut = t.shut;
+      hero.classList.remove('gaze-human', 'gaze-artificial');
+      scheduleGaze();
     }
+    // Once a side is chosen and its eyes have settled open, they start to look around.
+    function scheduleGaze() {
+      clearTimeout(gazeTimer);
+      if (eyes === 'rest') return;
+      gazeTimer = setTimeout(() => { if (state === 'chosen') hero.classList.add('gaze-' + eyes); },
+        Math.max(0, settleAt - performance.now()) + 400);
+    }
+    function setEyes(next, instant) {
+      if (next === eyes && !instant) { scheduleGaze(); return; }
+      eyes = next; paintEyes(instant);
+    }
+    const eyesFor = w => (w === 'natural' ? 'human' : 'artificial');
+    function leanEyes(nowMs) {
+      const lean = split - W / 2, edge = W * 0.07;
+      const cand = lean > edge ? 'human' : lean < -edge ? 'artificial' : null;
+      if (!cand || cand === eyes) { eyesCand = null; return; }
+      if (eyesCand !== cand) { eyesCand = cand; eyesCandAt = nowMs; }
+      else if (nowMs - eyesCandAt > 450) setEyes(cand);
+    }
+    if (state === 'chosen') setEyes(eyesFor(world), true);
 
     /* ----- Loop ----- */
     const hasArt = p => p.el.classList.contains('has-' + p.world);   // an image has replaced the drawing
@@ -635,13 +684,7 @@
         split += (target - split) * Math.min(1, dt * 4.5);
         hero.style.setProperty('--split', split.toFixed(1) + 'px');
         root.style.setProperty('--split', split.toFixed(1) + 'px');
-        // The human face wakes once the dividing line has passed right beyond the whole face, and only
-        // goes back to sleep once the line has crossed back over all of it.
-        const face = heroFace();
-        if (face) {
-          if (split > face.right + 6) hero.classList.add('wake-natural');
-          else if (split < face.left - 6) hero.classList.remove('wake-natural');
-        }
+        leanEyes(now);
       } else if (commit) {
         const p = clamp01((now - commit.t0) / commit.dur);
         split = commit.from + (commit.to - commit.from) * ease(p);
@@ -665,6 +708,7 @@
     function choose(w) {
       if (state !== 'threshold') return;
       world = w; root.dataset.world = w;
+      setEyes(eyesFor(w));
       commit = { world: w, from: split, to: w === 'natural' ? W + band + 24 : -band - 24, t0: performance.now(), dur: 1350 };
       state = 'committing'; root.dataset.state = 'committing';
       remember(w);
@@ -681,6 +725,7 @@
       hero.style.removeProperty('--split');
       root.style.removeProperty('--split');
       if (sw) sw.setAttribute('aria-checked', String(world === 'artificial'));
+      setEyes(eyesFor(world));
       if (!running) renderOnce();
     }
 
@@ -690,7 +735,7 @@
       morph = { from: M, to: target, t0: performance.now(), dur: 1600 };
       start();
     });
-    onWorld.push(() => { if (state === 'chosen') renderOnce(); });
+    onWorld.push(w => { if (state === 'chosen') { renderOnce(); setEyes(eyesFor(w)); } });
 
     /* ----- Wiring ----- */
     const overEye = () => px !== null && Math.hypot(px - G.eyeX, py - G.eyeY) < G.eyeR * 1.15;
@@ -698,10 +743,8 @@
       const r = hero.getBoundingClientRect();
       px = e.clientX - r.left; py = e.clientY - r.top;
       hero.classList.toggle('on-eye', state === 'chosen' && overEye());
-      // On the threshold, going well into the human half wakes that face (see .art-awake in site.css).
-
     });
-    hero.addEventListener('pointerleave', () => { px = py = null; hero.classList.remove('on-eye', 'wake-natural'); });
+    hero.addEventListener('pointerleave', () => { px = py = null; hero.classList.remove('on-eye'); });
 
     // Three clicks on the third eye open the cabinet.
     let eyeClicks = 0, eyeTimer = 0;

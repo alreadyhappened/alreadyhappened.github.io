@@ -313,32 +313,26 @@ section.block { padding-top: clamp(72px, 13vh, 150px); }
   html:not([data-state="threshold"]) .pane[data-world="artificial"] > .art-img { left: 34%; }
 }
 
-/* The awake picture (human face: eyes open, third eye shut) is revealed through eyelid-shaped masks
-   rather than faded in. --open widens two slits over the face's eyes from nothing to full; --shut grows
-   lids over the third eye from above and below until they meet. Both ease slowly and are staggered:
-   waking, the third eye closes first and the face's eyes then open; going back to sleep runs in reverse.
-   Eye positions are in the 1024px artwork, as percentages of the picture. */
+/* The awake picture (face eyes open, third eye shut), in both halves, revealed through eyelid masks.
+   --open (0-1) parts two slits over the face's eyes; --shut (0-1) brings lids down and up over the
+   third eye until they meet. site.js sets both, with the timing, from one shared eye state.
+   Positions are in the 1024px artwork as percentages: face eyes at (42.7%, 50.3%) and (57.4%, 50.3%),
+   third eye in a box centred on (50.1%, 38.7%). */
 @property --open { syntax: '<number>'; inherits: false; initial-value: 0; }
-@property --shut { syntax: '<number>'; inherits: false; initial-value: 0; }
+@property --shut { syntax: '<number>'; inherits: false; initial-value: 1; }
 .pane > .art-img.art-awake {
-  opacity: 1; --open: 0; --shut: 0;
+  opacity: 1;
   -webkit-mask-image:
-    linear-gradient(to bottom, #000 calc(var(--shut) * 50%), transparent calc(var(--shut) * 50% + 1.2%), transparent calc(100% - var(--shut) * 50% - 1.2%), #000 calc(100% - var(--shut) * 50%)),
-    radial-gradient(3.4% calc(1.45% * var(--open)) at 42.77% 50.2%, #000 55%, transparent 100%),
-    radial-gradient(3.4% calc(1.45% * var(--open)) at 57.42% 50.2%, #000 55%, transparent 100%);
+    linear-gradient(to bottom, #000 calc(var(--shut) * 50%), transparent calc(var(--shut) * 50% + 1.5%), transparent calc(100% - var(--shut) * 50% - 1.5%), #000 calc(100% - var(--shut) * 50%)),
+    radial-gradient(4.9% calc(1.95% * var(--open)) at 42.72% 50.29%, #000 68%, transparent 100%),
+    radial-gradient(4.9% calc(1.95% * var(--open)) at 57.42% 50.29%, #000 68%, transparent 100%);
   mask-image:
-    linear-gradient(to bottom, #000 calc(var(--shut) * 50%), transparent calc(var(--shut) * 50% + 1.2%), transparent calc(100% - var(--shut) * 50% - 1.2%), #000 calc(100% - var(--shut) * 50%)),
-    radial-gradient(3.4% calc(1.45% * var(--open)) at 42.77% 50.2%, #000 55%, transparent 100%),
-    radial-gradient(3.4% calc(1.45% * var(--open)) at 57.42% 50.2%, #000 55%, transparent 100%);
-  -webkit-mask-size: 10.6% 9.6%, 100% 100%, 100% 100%; mask-size: 10.6% 9.6%, 100% 100%, 100% 100%;
-  -webkit-mask-position: 50.45% 36.8%, 0 0, 0 0; mask-position: 50.45% 36.8%, 0 0, 0 0;
+    linear-gradient(to bottom, #000 calc(var(--shut) * 50%), transparent calc(var(--shut) * 50% + 1.5%), transparent calc(100% - var(--shut) * 50% - 1.5%), #000 calc(100% - var(--shut) * 50%)),
+    radial-gradient(4.9% calc(1.95% * var(--open)) at 42.72% 50.29%, #000 68%, transparent 100%),
+    radial-gradient(4.9% calc(1.95% * var(--open)) at 57.42% 50.29%, #000 68%, transparent 100%);
+  -webkit-mask-size: 10.55% 9.57%, 100% 100%, 100% 100%; mask-size: 10.55% 9.57%, 100% 100%, 100% 100%;
+  -webkit-mask-position: 50.1% 37.5%, 0 0, 0 0; mask-position: 50.1% 37.5%, 0 0, 0 0;
   -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
-  transition: --open 2.6s cubic-bezier(.4, 0, .3, 1) 0s, --shut 2.2s cubic-bezier(.4, 0, .3, 1) 1.6s, left 1.4s cubic-bezier(.7, 0, .2, 1);
-}
-html[data-state="chosen"][data-world="natural"] .pane[data-world="natural"] > .art-img.art-awake,
-html[data-state="threshold"] .hero.wake-natural .pane[data-world="natural"] > .art-img.art-awake {
-  --open: 1; --shut: 1;
-  transition: --shut 1.3s cubic-bezier(.45, 0, .25, 1) .15s, --open 1.9s cubic-bezier(.33, 0, .2, 1) .85s, left 1.4s cubic-bezier(.7, 0, .2, 1);
 }
 
 /* Eyes that look around (addGaze in site.js): shown once that side is chosen, after the eyes have opened. */
@@ -349,9 +343,10 @@ html[data-state="threshold"] .hero.wake-natural .pane[data-world="natural"] > .a
   transition: opacity .6s ease, left 1.4s cubic-bezier(.7, 0, .2, 1);
 }
 .pane > .art-gaze img { display: block; width: 100%; height: 100%; }
-html[data-state="chosen"][data-world="natural"] .pane[data-world="natural"] > .art-gaze,
-html[data-state="chosen"][data-world="artificial"] .pane[data-world="artificial"] > .art-gaze { opacity: 1; transition-delay: 2.2s, 0s; }
-html[data-state="chosen"] .pane > .art-gaze img { animation: gaze 9s cubic-bezier(.45, 0, .2, 1) 3s infinite; }
+.hero.gaze-human .pane[data-world="natural"] > .art-gaze,
+.hero.gaze-artificial .pane[data-world="artificial"] > .art-gaze { opacity: 1; }
+.hero.gaze-human .pane[data-world="natural"] > .art-gaze img,
+.hero.gaze-artificial .pane[data-world="artificial"] > .art-gaze img { animation: gaze 9s cubic-bezier(.45, 0, .2, 1) 1.2s infinite; }
 @keyframes gaze {
   0%, 10%  { transform: translateX(0); }
   14%, 30% { transform: translateX(calc(-1 * var(--dx))); }
