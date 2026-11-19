@@ -186,7 +186,7 @@ html[data-state="chosen"][data-world="artificial"] .hero { --split: 0%; }
 .pane[data-world="artificial"] { clip-path: inset(0 0 0 var(--split)); }
 html[data-state="chosen"][data-world="natural"] .pane[data-world="artificial"],
 html[data-state="chosen"][data-world="artificial"] .pane[data-world="natural"] { visibility: hidden; }
-html:not([data-state="chosen"]) .hero { cursor: pointer; }
+html:not([data-state="chosen"]) .hero-text { cursor: pointer; }
 /* Once a world is chosen the page background shows through, so there is no seam under the hero. */
 html[data-state="chosen"] .pane { background: none; }
 
@@ -313,11 +313,33 @@ section.block { padding-top: clamp(72px, 13vh, 150px); }
   html:not([data-state="threshold"]) .pane[data-world="artificial"] > .art-img { left: 34%; }
 }
 
-/* The awake picture: hidden on the threshold, fades in once its own world is chosen. */
-.pane > .art-img.art-awake { opacity: 0; transition: opacity 1.6s ease .5s, left 1.4s cubic-bezier(.7, 0, .2, 1); }
+/* The awake picture (human face: eyes open, third eye shut) is revealed through eyelid-shaped masks
+   rather than faded in. --open widens two slits over the face's eyes from nothing to full; --shut grows
+   lids over the third eye from above and below until they meet. Both ease slowly and are staggered:
+   waking, the third eye closes first and the face's eyes then open; going back to sleep runs in reverse.
+   Eye positions are in the 1024px artwork, as percentages of the picture. */
+@property --open { syntax: '<number>'; inherits: false; initial-value: 0; }
+@property --shut { syntax: '<number>'; inherits: false; initial-value: 0; }
+.pane > .art-img.art-awake {
+  opacity: 1; --open: 0; --shut: 0;
+  -webkit-mask-image:
+    linear-gradient(to bottom, #000 calc(var(--shut) * 50%), transparent calc(var(--shut) * 50% + 1.2%), transparent calc(100% - var(--shut) * 50% - 1.2%), #000 calc(100% - var(--shut) * 50%)),
+    radial-gradient(3.4% calc(1.45% * var(--open)) at 42.77% 50.2%, #000 55%, transparent 100%),
+    radial-gradient(3.4% calc(1.45% * var(--open)) at 57.42% 50.2%, #000 55%, transparent 100%);
+  mask-image:
+    linear-gradient(to bottom, #000 calc(var(--shut) * 50%), transparent calc(var(--shut) * 50% + 1.2%), transparent calc(100% - var(--shut) * 50% - 1.2%), #000 calc(100% - var(--shut) * 50%)),
+    radial-gradient(3.4% calc(1.45% * var(--open)) at 42.77% 50.2%, #000 55%, transparent 100%),
+    radial-gradient(3.4% calc(1.45% * var(--open)) at 57.42% 50.2%, #000 55%, transparent 100%);
+  -webkit-mask-size: 10.6% 9.6%, 100% 100%, 100% 100%; mask-size: 10.6% 9.6%, 100% 100%, 100% 100%;
+  -webkit-mask-position: 50.45% 36.8%, 0 0, 0 0; mask-position: 50.45% 36.8%, 0 0, 0 0;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  transition: --open 1.5s cubic-bezier(.45, 0, .25, 1) 0s, --shut 1.3s cubic-bezier(.45, 0, .25, 1) .9s, left 1.4s cubic-bezier(.7, 0, .2, 1);
+}
 html[data-state="chosen"][data-world="natural"] .pane[data-world="natural"] > .art-img.art-awake,
-html[data-state="chosen"][data-world="artificial"] .pane[data-world="artificial"] > .art-img.art-awake { opacity: 1; }
-html[data-state="threshold"] .hero.wake-natural .pane[data-world="natural"] > .art-img.art-awake { opacity: 1; transition: opacity .9s ease; }
+html[data-state="threshold"] .hero.wake-natural .pane[data-world="natural"] > .art-img.art-awake {
+  --open: 1; --shut: 1;
+  transition: --shut 1.3s cubic-bezier(.45, 0, .25, 1) .15s, --open 1.9s cubic-bezier(.33, 0, .2, 1) .85s, left 1.4s cubic-bezier(.7, 0, .2, 1);
+}
 
 /* Eyes that look around (addGaze in site.js): shown once that side is chosen, after the eyes have opened. */
 .pane > .art-gaze {

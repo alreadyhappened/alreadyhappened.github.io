@@ -623,7 +623,7 @@
       const dt = Math.max(0, Math.min(0.05, (now - last) / 1000 || 0));   // the first frame can predate start()
       last = now; time += dt;
       if (state === 'threshold') {
-        const target = W / 2 - (px !== null ? (px - W / 2) * 0.36 : 0) + Math.sin(time * 0.55) * W * 0.012;
+        const target = W / 2 - (px !== null ? (px - W / 2) * 0.45 : 0) + Math.sin(time * 0.55) * W * 0.012;
         split += (target - split) * Math.min(1, dt * 4.5);
         hero.style.setProperty('--split', split.toFixed(1) + 'px');
         root.style.setProperty('--split', split.toFixed(1) + 'px');
@@ -684,7 +684,10 @@
       px = e.clientX - r.left; py = e.clientY - r.top;
       hero.classList.toggle('on-eye', state === 'chosen' && overEye());
       // On the threshold, going well into the human half wakes that face (see .art-awake in site.css).
-      hero.classList.toggle('wake-natural', state === 'threshold' && px < r.width * 0.36);
+      // Wake well inside the human half; only fall asleep again once clearly back out, so it never flickers.
+      if (state !== 'threshold') hero.classList.remove('wake-natural');
+      else if (px < r.width * 0.36) hero.classList.add('wake-natural');
+      else if (px > r.width * 0.44) hero.classList.remove('wake-natural');
     });
     hero.addEventListener('pointerleave', () => { px = py = null; hero.classList.remove('on-eye', 'wake-natural'); });
 
@@ -693,8 +696,10 @@
     hero.addEventListener('click', e => {
       const r = hero.getBoundingClientRect();
       if (state === 'threshold') {
-        const btn = e.target.closest('[data-choose]');
-        return choose(btn ? btn.dataset.choose : e.clientX - r.left < split ? 'natural' : 'artificial');
+        // Only the corner titles and their Enter buttons choose; the medallion itself does not.
+        const zone = e.target.closest('[data-choose], .hero-text');
+        if (!zone) return;
+        return choose(zone.dataset.choose || zone.closest('.pane').dataset.world);
       }
       if (state !== 'chosen') return;
       px = e.clientX - r.left; py = e.clientY - r.top;
