@@ -333,7 +333,7 @@ section.block { padding-top: clamp(72px, 13vh, 150px); }
   -webkit-mask-size: 10.6% 9.6%, 100% 100%, 100% 100%; mask-size: 10.6% 9.6%, 100% 100%, 100% 100%;
   -webkit-mask-position: 50.45% 36.8%, 0 0, 0 0; mask-position: 50.45% 36.8%, 0 0, 0 0;
   -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
-  transition: --open 1.5s cubic-bezier(.45, 0, .25, 1) 0s, --shut 1.3s cubic-bezier(.45, 0, .25, 1) .9s, left 1.4s cubic-bezier(.7, 0, .2, 1);
+  transition: --open 2.6s cubic-bezier(.4, 0, .3, 1) 0s, --shut 2.2s cubic-bezier(.4, 0, .3, 1) 1.6s, left 1.4s cubic-bezier(.7, 0, .2, 1);
 }
 html[data-state="chosen"][data-world="natural"] .pane[data-world="natural"] > .art-img.art-awake,
 html[data-state="threshold"] .hero.wake-natural .pane[data-world="natural"] > .art-img.art-awake {

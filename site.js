@@ -614,6 +614,14 @@
       c.restore();
     }
 
+    /* The face in the human artwork spans roughly 38%-62% of the picture's width. */
+    function heroFace() {
+      const img = hero.querySelector('.pane[data-world="natural"] > .art-img.is-loaded');
+      if (!img) return null;
+      const r = img.getBoundingClientRect(), h = hero.getBoundingClientRect();
+      return { left: r.left - h.left + r.width * 0.38, right: r.left - h.left + r.width * 0.62 };
+    }
+
     /* ----- Loop ----- */
     const hasArt = p => p.el.classList.contains('has-' + p.world);   // an image has replaced the drawing
     const visiblePanes = () => (state === 'chosen' ? panes.filter(p => p.world === world) : panes).filter(p => !hasArt(p));
@@ -627,6 +635,13 @@
         split += (target - split) * Math.min(1, dt * 4.5);
         hero.style.setProperty('--split', split.toFixed(1) + 'px');
         root.style.setProperty('--split', split.toFixed(1) + 'px');
+        // The human face wakes once the dividing line has passed right beyond the whole face, and only
+        // goes back to sleep once the line has crossed back over all of it.
+        const face = heroFace();
+        if (face) {
+          if (split > face.right + 6) hero.classList.add('wake-natural');
+          else if (split < face.left - 6) hero.classList.remove('wake-natural');
+        }
       } else if (commit) {
         const p = clamp01((now - commit.t0) / commit.dur);
         split = commit.from + (commit.to - commit.from) * ease(p);
@@ -684,10 +699,7 @@
       px = e.clientX - r.left; py = e.clientY - r.top;
       hero.classList.toggle('on-eye', state === 'chosen' && overEye());
       // On the threshold, going well into the human half wakes that face (see .art-awake in site.css).
-      // Wake well inside the human half; only fall asleep again once clearly back out, so it never flickers.
-      if (state !== 'threshold') hero.classList.remove('wake-natural');
-      else if (px < r.width * 0.36) hero.classList.add('wake-natural');
-      else if (px > r.width * 0.44) hero.classList.remove('wake-natural');
+
     });
     hero.addEventListener('pointerleave', () => { px = py = null; hero.classList.remove('on-eye', 'wake-natural'); });
 
